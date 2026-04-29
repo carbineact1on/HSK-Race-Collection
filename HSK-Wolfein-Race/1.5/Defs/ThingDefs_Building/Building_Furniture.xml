@@ -105,9 +105,7 @@
             <destroySound>BuildingDestroyed_Metal_Small</destroySound>
             <claimable>true</claimable>
         </building>
-        <researchPrerequisites>
-            <li>Wolfein_ArtificialMoonApparatus</li>
-        </researchPrerequisites>
+        <researchPrerequisite>Wolfein_ArtificialMoonApparatus</researchPrerequisite>
         <designationCategory>Misc</designationCategory>
         <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
         <comps>

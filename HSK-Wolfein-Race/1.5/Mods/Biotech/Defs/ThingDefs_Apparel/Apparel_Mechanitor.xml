@@ -26,9 +26,7 @@
             <recipeUsers Inherit="false">
                 <li>Wolfein_TableMachining</li>
             </recipeUsers>
-            <researchPrerequisites>
-                <li>Wolfein_Industrial_production</li>
-            </researchPrerequisites>
+            <researchPrerequisite>Wolfein_Industrial_production</researchPrerequisite>
         </recipeMaker>
         <statBases>
             <MaxHitPoints>420</MaxHitPoints>
@@ -245,9 +243,7 @@
             <recipeUsers Inherit="false">
                 <li>Wolfein_TableMachining</li>
             </recipeUsers>
-            <researchPrerequisites>
-                <li>Wolfein_Industrial_production</li>
-            </researchPrerequisites>
+            <researchPrerequisite>Wolfein_Industrial_production</researchPrerequisite>
         </recipeMaker>
         <statBases>
             <Mass>1.0</Mass>
@@ -316,9 +312,7 @@
             <recipeUsers Inherit="false">
                 <li>Wolfein_TableMachining</li>
             </recipeUsers>
-            <researchPrerequisites>
-                <li>Wolfein_Industrial_production</li>
-            </researchPrerequisites>
+            <researchPrerequisite>Wolfein_Industrial_production</researchPrerequisite>
         </recipeMaker>
         <statBases>
             <Mass>1.0</Mass>

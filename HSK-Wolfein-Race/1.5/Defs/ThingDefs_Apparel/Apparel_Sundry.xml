@@ -455,9 +455,7 @@
         </costList>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
-            <researchPrerequisites>
-                <li>ShieldBelt</li>
-            </researchPrerequisites>
+            <researchPrerequisite>ShieldBelt</researchPrerequisite>
             <recipeUsers Inherit="false">
                 <li>ElectricTailoringBench</li>
             </recipeUsers>

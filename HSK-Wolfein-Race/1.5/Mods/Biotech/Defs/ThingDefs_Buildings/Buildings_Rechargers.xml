@@ -103,9 +103,7 @@
             <Plasteel>60</Plasteel>
             <ComponentIndustrial>6</ComponentIndustrial>
         </costList>
-        <researchPrerequisites>
-            <li>Wolfein_GiantMilitaryMech</li>
-        </researchPrerequisites>
+        <researchPrerequisite>Wolfein_GiantMilitaryMech</researchPrerequisite>
         <comps Inherit="false">
             <li Class="CompProperties_Flickable"/>
             <li Class="CompProperties_Forbiddable"/>

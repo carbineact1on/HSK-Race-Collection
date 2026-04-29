@@ -61,9 +61,7 @@
         <inspectorTabs>
             <li>ITab_ContentsTransporter</li>
         </inspectorTabs>
-        <researchPrerequisites>
-            <li>Wolfein_Shuttle</li>
-        </researchPrerequisites>
+        <researchPrerequisite>Wolfein_Shuttle</researchPrerequisite>
         <comps>
             <li Class="CompProperties_Shuttle">
                 <compClass>Wolfein.CompShuttle_Wolfein</compClass>

@@ -1578,9 +1578,7 @@
             <li>Wolfein_WeaponIV</li>
         </tradeTags>
         <recipeMaker>
-            <researchPrerequisites>
-                <li>Wolfein_AIPTWeapon</li>
-            </researchPrerequisites>
+            <researchPrerequisite>Wolfein_AIPTWeapon</researchPrerequisite>
             <recipeUsers Inherit="False">
                 <li>AdvWeaponCraftingWorkTable</li>
             </recipeUsers>

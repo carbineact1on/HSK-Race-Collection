@@ -31,9 +31,7 @@
             <SteelBar>30</SteelBar>
             <ComponentIndustrial>3</ComponentIndustrial>
         </costList>
-        <researchPrerequisites>
-            <li>Wolfein_BasicCivilianMech</li>
-        </researchPrerequisites>
+        <researchPrerequisite>Wolfein_BasicCivilianMech</researchPrerequisite>
         <building>
             <formingGraphicData>
                 <texPath>Wolfein/Items/Unfinished/UnfinishedCivilMech/UnfinishedCivilMech</texPath>
@@ -112,9 +110,7 @@
             <SteelBar>60</SteelBar>
             <ComponentIndustrial>6</ComponentIndustrial>
         </costList>
-        <researchPrerequisites>
-            <li>Wolfein_BasicMilitaryMech</li>
-        </researchPrerequisites>
+        <researchPrerequisite>Wolfein_BasicMilitaryMech</researchPrerequisite>
         <building>
             <formingGraphicData>
                 <texPath>Wolfein/Items/Unfinished/UnfinishedMegaCorpMech/UnfinishedMegaCorpMech</texPath>
