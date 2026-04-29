@@ -1770,7 +1770,7 @@
 			<recoilAmount>2.67</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>Bullet_10Gauge_Buck</defaultProjectile>
+			<defaultProjectile>Bullet_12Gauge_Buck</defaultProjectile>
 			<warmupTime>0.4</warmupTime>
 			<range>18</range>
 			<soundCast>Shot_Shotgun_NoRack</soundCast>
@@ -1781,7 +1781,7 @@
 			<magazineSize>4</magazineSize>
 			<reloadOneAtATime>true</reloadOneAtATime>
 			<reloadTime>0.65</reloadTime>
-			<ammoSet>AmmoSet_10Gauge</ammoSet>
+			<ammoSet>AmmoSet_12Gauge</ammoSet>
 			<AmmoGenPerMagOverride>6</AmmoGenPerMagOverride>
 		</AmmoUser>
 		<FireModes>
@@ -1891,7 +1891,38 @@
 
     <!-- ================================= 低致命武器 ==================================== -->
 
-    <!-- 电击枪 -->
+    <!-- 电击枪 / TaserGun — full CE patch (HSK fix: was missing MakeGunCECompatible) -->
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>W_Weapon_Launcher_TaserGun</defName>
+		<statBases>
+			<RangedWeapon_Cooldown>0.45</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.0</SightsEfficiency>
+			<ShotSpread>0.18</ShotSpread>
+			<SwayFactor>0.85</SwayFactor>
+			<Bulk>3.0</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>0.4</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>W_Bullet_TaserGun</defaultProjectile>
+			<warmupTime>0.8</warmupTime>
+			<range>10</range>
+			<burstShotCount>1</burstShotCount>
+			<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+			<soundCast>Wolfein_TaserShot_Electricity</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>14</muzzleFlashScale>
+		</Properties>
+		<FireModes>
+			<aiAimMode>AimedShot</aiAimMode>
+			<noSnapshot>true</noSnapshot>
+		</FireModes>
+		<weaponTags>
+			<li>NonLethal</li>
+		</weaponTags>
+	</Operation>
+
 	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[defName="W_Weapon_Launcher_TaserGun"]/tools</xpath>
 		<value>
@@ -1918,7 +1949,7 @@
 				</li>
 			</tools>
 		</value>
-	</Operation> 
+	</Operation>
 
     <!-- ================================= 其他 ==================================== -->
 
