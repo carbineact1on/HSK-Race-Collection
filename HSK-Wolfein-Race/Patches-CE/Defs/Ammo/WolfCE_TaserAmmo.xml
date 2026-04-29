@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!--
+		HSK fix: custom AmmoSet for Wolfein Taser Gun.
+
+		The taser gun's CE patch needed a way to consume "energy" ammo
+		(per HSK design: weapons should require ammo to be useful).
+		Solution: map 6x24mmCharged ammo (HSK-CE-active light charged
+		caliber) -> Wolfein's existing W_Bullet_TaserGun stun projectile.
+
+		Result: player reloads the taser with 6x24mm charged cells, fires
+		stun darts. The cells provide the "energy" required to fire each
+		electroshock dart, matching the lore description ("high-voltage
+		electroshock technology").
+
+		The bullet itself (W_Bullet_TaserGun) is defined in the main mod
+		and uses Stun damage (6 dmg, 0.45 armor pen) — that part is
+		preserved.
+	-->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>Wolfein_AmmoSet_TaserCharged</defName>
+		<label>charged taser cells</label>
+		<ammoTypes>
+			<Ammo_6x24mmCharged>W_Bullet_TaserGun</Ammo_6x24mmCharged>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+</Defs>

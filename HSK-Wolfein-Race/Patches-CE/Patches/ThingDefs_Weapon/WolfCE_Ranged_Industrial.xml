@@ -1891,7 +1891,9 @@
 
     <!-- ================================= 低致命武器 ==================================== -->
 
-    <!-- 电击枪 / TaserGun — full CE patch (HSK fix: was missing MakeGunCECompatible) -->
+    <!-- 电击枪 / TaserGun — full CE patch (HSK fix: was missing MakeGunCECompatible)
+         Uses charged taser cells (6x24mmCharged ammo -> W_Bullet_TaserGun stun projectile)
+         via custom AmmoSet defined in Patches-CE/Defs/Ammo/WolfCE_TaserAmmo.xml -->
 	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>W_Weapon_Launcher_TaserGun</defName>
 		<statBases>
@@ -1914,6 +1916,11 @@
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>14</muzzleFlashScale>
 		</Properties>
+		<AmmoUser>
+			<magazineSize>6</magazineSize>
+			<reloadTime>3.5</reloadTime>
+			<ammoSet>Wolfein_AmmoSet_TaserCharged</ammoSet>
+		</AmmoUser>
 		<FireModes>
 			<aiAimMode>AimedShot</aiAimMode>
 			<noSnapshot>true</noSnapshot>
