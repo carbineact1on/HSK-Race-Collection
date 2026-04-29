@@ -78,10 +78,10 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Steel</li>
+                        <li>SteelBar</li>
                     </thingDefs>
                 </filter>
-                <count>40</count>
+                <count>8</count>
             </li>
             <li>
                 <filter>

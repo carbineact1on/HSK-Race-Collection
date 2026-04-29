@@ -1,7 +1,174 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-	<!-- ========== 炮塔A哨戒重型步枪 ========== -->
+	<!--
+		HSK fix: full CE patches for all 4 Wolfein turret guns.
+		The original file was empty (just a comment header), so under CE
+		the turrets had no Verb_ShootCE / AmmoUser / proper CE projectile
+		bindings — they would fall back to vanilla verb behavior and
+		ignore the CE ammo system.
 
+		Calibers picked from HSK-CE-active set (since HSK disables many
+		CE calibers via .xml.bak):
+		  - Turret A (heavy sentry rifle, single shot)  -> 7.62x51mm NATO
+		  - Turret B (rapid-fire LMG, 8-shot burst)      -> 5.56x45mm NATO
+		  - Turret D (twin autocannon, 40-shot burst)    -> .50 BMG
+		  - Turret E (rocket launcher, 6-shot, range 52) -> RPG-7
+
+		Note: only Turret_A and Turret_D are buildable from architect.
+		Turret_B and Turret_E are architect-hidden and only spawn at
+		MegaCorp settlements/raids. Patching all 4 ensures enemy-spawned
+		turrets fire correctly under CE too.
+	-->
+
+	<!-- ========== Turret A — Heavy Sentry Rifle (7.62x51mm NATO) ========== -->
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>Wolfein_TurretGun_A</defName>
+		<statBases>
+			<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.0</SightsEfficiency>
+			<ShotSpread>0.06</ShotSpread>
+			<SwayFactor>0.85</SwayFactor>
+			<Bulk>14.0</Bulk>
+			<AimingAccuracy>0.85</AimingAccuracy>
+		</statBases>
+		<Properties>
+			<recoilAmount>0.7</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>40</range>
+			<burstShotCount>1</burstShotCount>
+			<ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+			<soundCast>Shot_Autocannon</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>10</muzzleFlashScale>
+			<recoilPattern>Mounted</recoilPattern>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>30</magazineSize>
+			<reloadTime>5.0</reloadTime>
+			<ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiAimMode>AimedShot</aiAimMode>
+			<noSnapshot>true</noSnapshot>
+		</FireModes>
+	</Operation>
+
+	<!-- ========== Turret B — Rapid-Fire LMG (5.56x45mm NATO) ========== -->
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>Wolfein_TurretGun_B</defName>
+		<statBases>
+			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+			<SightsEfficiency>0.95</SightsEfficiency>
+			<ShotSpread>0.08</ShotSpread>
+			<SwayFactor>1.1</SwayFactor>
+			<Bulk>10.0</Bulk>
+			<AimingAccuracy>0.75</AimingAccuracy>
+		</statBases>
+		<Properties>
+			<recoilAmount>0.5</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>35</range>
+			<burstShotCount>8</burstShotCount>
+			<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+			<soundCast>GunShotA</soundCast>
+			<soundCastTail>GunTail_Light</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<recoilPattern>Mounted</recoilPattern>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>200</magazineSize>
+			<reloadTime>9.0</reloadTime>
+			<ammoSet>AmmoSet_556x45mmNATO</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiAimMode>SuppressFire</aiAimMode>
+			<noSnapshot>true</noSnapshot>
+			<noSingleShot>true</noSingleShot>
+		</FireModes>
+	</Operation>
+
+	<!-- ========== Turret D — Twin Autocannon (.50 BMG) ========== -->
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>Wolfein_TurretGun_D</defName>
+		<statBases>
+			<RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.05</SightsEfficiency>
+			<ShotSpread>0.07</ShotSpread>
+			<SwayFactor>1.3</SwayFactor>
+			<Bulk>22.0</Bulk>
+			<AimingAccuracy>0.85</AimingAccuracy>
+		</statBases>
+		<Properties>
+			<recoilAmount>0.6</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_50BMG_FMJ</defaultProjectile>
+			<warmupTime>1.0</warmupTime>
+			<range>42</range>
+			<burstShotCount>40</burstShotCount>
+			<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+			<soundCast>Shot_Autocannon</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>14</muzzleFlashScale>
+			<recoilPattern>Mounted</recoilPattern>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>120</magazineSize>
+			<reloadTime>10.5</reloadTime>
+			<ammoSet>AmmoSet_50BMG</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiAimMode>SuppressFire</aiAimMode>
+			<noSnapshot>true</noSnapshot>
+			<noSingleShot>true</noSingleShot>
+		</FireModes>
+	</Operation>
+
+	<!-- ========== Turret E — Rocket Launcher (RPG-7) ========== -->
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>Wolfein_TurretGun_E</defName>
+		<statBases>
+			<RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.0</SightsEfficiency>
+			<ShotSpread>0.10</ShotSpread>
+			<SwayFactor>1.5</SwayFactor>
+			<Bulk>18.0</Bulk>
+			<AimingAccuracy>0.85</AimingAccuracy>
+		</statBases>
+		<Properties>
+			<recoilAmount>0.4</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_85mmHEATRocketGrenade</defaultProjectile>
+			<warmupTime>4.0</warmupTime>
+			<range>52</range>
+			<minRange>4</minRange>
+			<burstShotCount>1</burstShotCount>
+			<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+			<soundCast>Shot_IncendiaryLauncher</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>16</muzzleFlashScale>
+			<recoilPattern>Mounted</recoilPattern>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>1</magazineSize>
+			<reloadTime>10.0</reloadTime>
+			<ammoSet>AmmoSet_RPG7Grenade</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiAimMode>AimedShot</aiAimMode>
+			<noSnapshot>true</noSnapshot>
+		</FireModes>
+	</Operation>
 
 </Patch>

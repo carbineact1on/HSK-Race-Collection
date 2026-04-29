@@ -67,7 +67,7 @@
         <fuelLabel>Shots until barrel change</fuelLabel>
         <fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
         <outOfFuelMessage>Needs new barrel</outOfFuelMessage>
-        <fuelFilter><thingDefs><li>Steel</li></thingDefs></fuelFilter>
+        <fuelFilter><thingDefs><li>SteelBar</li></thingDefs></fuelFilter>
         <fuelCapacity>200</fuelCapacity>
         <fuelMultiplier>1</fuelMultiplier>
         <initialFuelPercent>1</initialFuelPercent>

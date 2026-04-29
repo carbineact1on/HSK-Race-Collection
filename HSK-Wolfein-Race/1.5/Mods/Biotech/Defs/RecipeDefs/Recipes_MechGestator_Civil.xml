@@ -14,10 +14,10 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Steel</li>
+                        <li>SteelBar</li>
                     </thingDefs>
                 </filter>
-                <count>120</count>
+                <count>24</count>
             </li>
             <li>
                 <filter>
@@ -53,10 +53,10 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Steel</li>
+                        <li>SteelBar</li>
                     </thingDefs>
                 </filter>
-                <count>200</count>
+                <count>40</count>
             </li>
             <li>
                 <filter>

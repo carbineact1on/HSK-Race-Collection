@@ -259,7 +259,7 @@
         <outOfFuelMessage>Needs new barrel</outOfFuelMessage>
         <fuelFilter>
           <thingDefs>
-            <li>Steel</li>
+            <li>SteelBar</li>
           </thingDefs>
         </fuelFilter>
         <fuelCapacity>400</fuelCapacity>
@@ -396,7 +396,7 @@
         <outOfFuelMessage>Needs new barrel</outOfFuelMessage>
         <fuelFilter>
           <thingDefs>
-            <li>Steel</li>
+            <li>SteelBar</li>
           </thingDefs>
         </fuelFilter>
         <fuelCapacity>200</fuelCapacity>
