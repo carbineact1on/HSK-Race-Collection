@@ -952,8 +952,6 @@
                     <!-- 杂项 -->
                     <li>Wolfein_InformationIdentificationCard</li>
                     <li>Wolfein_TailBelt</li>
-                    <li MayRequire="Ludeon.RimWorld.Biotech">Wolfein_CivilControlPack</li>
-                    <li MayRequire="Ludeon.RimWorld.Biotech">Wolfein_MilitaryControlPack</li>
                     <li>Wolfein_RiotShield</li>
                     <li>Wolfein_ExoskeletonShield</li>
                     <li>Wolfein_ShieldBelt</li>

@@ -125,7 +125,7 @@
         <weaponTags>
             <li>Wolfein_RebelStandard</li>
         </weaponTags>
-        <weaponMoney>1000~2000</weaponMoney>
+        <weaponMoney>1100~2200</weaponMoney>
         <backstoryFiltersOverride Inherit="false">
             <li>
                 <categories>
@@ -162,7 +162,7 @@
         <weaponTags>
             <li>Wolfein_RebelStandard</li>
         </weaponTags>
-        <weaponMoney>1000~3000</weaponMoney>
+        <weaponMoney>1100~3300</weaponMoney>
         <backstoryFiltersOverride Inherit="false">
             <li>
                 <categories>
