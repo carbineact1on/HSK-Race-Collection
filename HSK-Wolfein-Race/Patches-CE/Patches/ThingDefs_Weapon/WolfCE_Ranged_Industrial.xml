@@ -129,6 +129,7 @@
 
 <!-- 土制喷火器 -->
 		<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+			<success>Always</success>
 			<defName>W_Weapon_HomemadeFlamethrower</defName>
 			<statBases>
 				<RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
@@ -151,6 +152,7 @@
 		</Operation>
 
 		<Operation Class="PatchOperationReplace">
+			<success>Always</success>
 			<xpath>Defs/ThingDef[defName="W_Weapon_HomemadeFlamethrower"]/verbs</xpath>
 			<value>
 				<verbs>
@@ -177,6 +179,7 @@
 
 <!-- AIPT喷火器 -->
 		<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+			<success>Always</success>
 			<defName>W_Weapon_RF_Incinerator</defName>
 			<statBases>
 				<RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
@@ -199,6 +202,7 @@
 		</Operation>
 
 		<Operation Class="PatchOperationReplace">
+			<success>Always</success>
 			<xpath>Defs/ThingDef[defName="W_Weapon_RF_Incinerator"]/verbs</xpath>
 			<value>
 				<verbs>
@@ -483,7 +487,7 @@
 
     <!-- 轻型冲锋枪 -->
 	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
-		<defName>W_Weapon_SMG_LightSubmarineGun</defName>
+		<defName>W_Weapon_SMG_LightSubmachineGun</defName>
 		<statBases>
 			<RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
 			<SightsEfficiency>0.8</SightsEfficiency>
@@ -518,7 +522,7 @@
 		</weaponTags>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="W_Weapon_SMG_LightSubmarineGun"]/tools</xpath>
+		<xpath>/Defs/ThingDef[defName="W_Weapon_SMG_LightSubmachineGun"]/tools</xpath>
 		<value>
 			<tools>
 				<li Class="CombatExtended.ToolCE">
@@ -549,7 +553,7 @@
 
     <!-- 抵抗军轻型冲锋枪 -->
 	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
-		<defName>W_Weapon_SMG_RebelSubmarineGun</defName>
+		<defName>W_Weapon_SMG_RebelSubmachineGun</defName>
 		<statBases>
 			<RangedWeapon_Cooldown>0.35</RangedWeapon_Cooldown>
 			<SightsEfficiency>0.7</SightsEfficiency>
@@ -584,7 +588,7 @@
 		</weaponTags>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="W_Weapon_SMG_RebelSubmarineGun"]/tools</xpath>
+		<xpath>/Defs/ThingDef[defName="W_Weapon_SMG_RebelSubmachineGun"]/tools</xpath>
 		<value>
 			<tools>
 				<li Class="CombatExtended.ToolCE">
@@ -613,7 +617,7 @@
 
     <!-- 电荷冲锋枪 -->
 	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
-		<defName>W_Weapon_SMG_ChargeSubmarineGun</defName>
+		<defName>W_Weapon_SMG_ChargeSubmachineGun</defName>
 		<statBases>
 			<RangedWeapon_Cooldown>0.55</RangedWeapon_Cooldown>
 			<SightsEfficiency>0.9</SightsEfficiency>
@@ -648,7 +652,7 @@
 		</weaponTags>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[defName="W_Weapon_SMG_ChargeSubmarineGun"]/tools</xpath>
+		<xpath>/Defs/ThingDef[defName="W_Weapon_SMG_ChargeSubmachineGun"]/tools</xpath>
 		<value>
 			<tools>
 				<li Class="CombatExtended.ToolCE">
