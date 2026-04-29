@@ -28,4 +28,11 @@
         <xpath>Defs/ThingDef[defName="Wolfein_ReverseResearchBench"]/designationCategory</xpath>
     </Operation>
 
+    <!-- Wolfein has a duplicate of HSK's ElectricTailoringBench. Hide it
+         to avoid confusion in the Production tab. HSK's own bench is what
+         all the rerouted Wolfein apparel recipes target now. -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="Wolfein_Electric_TailoringBench"]/designationCategory</xpath>
+    </Operation>
+
 </Patch>
