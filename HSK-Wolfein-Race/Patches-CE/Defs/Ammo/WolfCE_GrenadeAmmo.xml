@@ -8,10 +8,12 @@
 		<label>make Wolfein Grenades x10</label>
 		<description>Craft 10 Wolfein grenades.</description>
 		<jobString>Making Wolfein grenades.</jobString>
-		<researchPrerequisites>
-			<li>Wolfein_BlastWeapon</li>
-			<li>CE_Launchers</li>
-		</researchPrerequisites>
+		<researchPrerequisite>Wolfein_BlastWeapon</researchPrerequisite>
+		<!-- HSK fix: removed CE_Launchers research prereq — that ResearchProjectDef
+		     is disabled in HSK's CE install (ResearchProjects.xml.bak). Wolfein_BlastWeapon
+		     alone is sufficient gating. Also collapsed plural list to singular for
+		     consistency with the rest of the fork's research prereq style. -->
+
 		<ingredients>
 			<li>
 				<filter>
