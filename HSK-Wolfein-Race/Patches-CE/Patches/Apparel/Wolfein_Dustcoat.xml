@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- 防尘大衣 -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wolfein_Dustcoat"]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>250</MaxHitPoints>
+            <Flammability>0.4</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+            <Mass>2</Mass>
+            <EquipDelay>3</EquipDelay>
+            <WorkToMake>12000</WorkToMake>
+            <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>1</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>1</StuffEffectMultiplierInsulation_Heat>
+            <ArmorRating_Sharp>4</ArmorRating_Sharp>
+            <ArmorRating_Blunt>5</ArmorRating_Blunt>
+            <ArmorRating_Heat>0</ArmorRating_Heat>
+            <ArmorRating_Electric>0</ArmorRating_Electric>
+            <Bulk>1</Bulk>
+            <WornBulk>1.8</WornBulk>
+          </statBases>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Wolfein_Dustcoat"]/equippedStatOffsets</xpath>
+		<value>
+      <CarryBulk>15</CarryBulk>
+      <CarryWeight>13</CarryWeight>
+		</value>
+	</Operation>
+
+</Patch>

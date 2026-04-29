@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Wolfein.CommandToggleTurret>开关炮塔</Wolfein.CommandToggleTurret>
+  <Wolfein.CommandToggleTurretDesc>开关炮塔的自动开火模式。\n\n禁用时，除非强制指定攻击目标，否则炮塔不会自动开火。</Wolfein.CommandToggleTurretDesc>
+  
+  <Wolfein.ExitRestPod>退出休息室</Wolfein.ExitRestPod>
+  <Wolfein.ExitRestPodDesc>“我不要工作啊——”</Wolfein.ExitRestPodDesc>
+  
+  <Wolfein.EnterRestPod>进入休息室</Wolfein.EnterRestPod>
+  <Wolfein.EnterRestPodDesc>“是时候摸鱼了！”</Wolfein.EnterRestPodDesc>
+
+  <Wolfein.RestPodDisabled>“是谁还在里面？快出来！”</Wolfein.RestPodDisabled>
+
+</LanguageData>

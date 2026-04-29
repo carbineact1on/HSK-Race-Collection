@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Pure-blood Wolfein -->
+  <Wolfein_PureBlood.degreeDatas.0.label>純血沃芬</Wolfein_PureBlood.degreeDatas.0.label>
+  <!-- EN: {PAWN_nameDef} is a pure-blood Wolfein. -->
+  <Wolfein_PureBlood.degreeDatas.0.description>{PAWN_nameDef}是純血沃芬。</Wolfein_PureBlood.degreeDatas.0.description>
+  
+</LanguageData>

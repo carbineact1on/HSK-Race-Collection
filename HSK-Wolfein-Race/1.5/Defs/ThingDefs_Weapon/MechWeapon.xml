@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- 无人机武器（无贴图） -->
+    <ThingDef ParentName="BaseGun">
+        <defName>W_Weapon_Drone</defName>
+        <label>drone graser</label>
+        <description>A low-powered laser gun mounted on the underside of the drone.</description>
+        <tradeability>None</tradeability>
+        <destroyOnDrop>true</destroyOnDrop>
+        <relicChance>0</relicChance>
+        <graphicData>
+            <texPath>Wolfein/Empty</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1</uiIconScale>
+        <uiIconPath>Wolfein/Weapon/DroneGraser</uiIconPath>
+        <weaponClasses>
+            <li>ShortShots</li>
+        </weaponClasses>
+        <weaponTags>
+            <li>W_Weapon_Drone</li>
+        </weaponTags>
+        <statBases>
+            <WorkToMake>11000</WorkToMake>
+            <MarketValue>550</MarketValue>
+            <Mass>2.5</Mass>
+            <AccuracyTouch>0.90</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>0.55</AccuracyMedium>
+            <AccuracyLong>0.15</AccuracyLong>
+            <RangedWeapon_Cooldown>3.2</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>W_ChargeBullet_Drone</defaultProjectile>
+                <warmupTime>0.8</warmupTime>
+                <range>18</range>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+                <soundCast>Shot_MachinePistol</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>5</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+    <ThingDef ParentName="WolfeinBaseBullet">
+        <defName>W_ChargeBullet_Drone</defName>
+        <label>Wolfein Small Charge Bullet</label>
+        <graphicData>
+            <texPath>Wolfein/Weapon/RF_Bullet_effect</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>10</damageAmountBase>
+            <speed>120</speed>
+        </projectile>
+    </ThingDef>
+
+    <!-- 无人机武器（无贴图） -->
+    <ThingDef ParentName="BaseGun">
+        <defName>W_Weapon_DroneRocket</defName>
+        <label>drone rocket</label>
+        <description>The rocket pod mounted on the underside of the drone.</description>
+        <tradeability>None</tradeability>
+        <destroyOnDrop>true</destroyOnDrop>
+        <relicChance>0</relicChance>
+        <graphicData>
+            <texPath>Wolfein/Empty</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1</uiIconScale>
+        <uiIconPath>Wolfein/Weapon/DroneRocket</uiIconPath>
+        <weaponClasses>
+            <li>ShortShots</li>
+        </weaponClasses>
+        <weaponTags>
+            <li>W_Weapon_DroneRocket</li>
+        </weaponTags>
+        <statBases>
+            <WorkToMake>11000</WorkToMake>
+            <MarketValue>550</MarketValue>
+            <Mass>2.5</Mass>
+            <AccuracyTouch>0.90</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>0.55</AccuracyMedium>
+            <AccuracyLong>0.35</AccuracyLong>
+            <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>W_Bullet_SmallRocket</defaultProjectile>
+                <warmupTime>1.6</warmupTime>
+                <range>18</range>
+                <forcedMissRadius>1.9</forcedMissRadius>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+                <soundCast>Shot_IncendiaryLauncher</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>5</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+    <ThingDef ParentName="W_Bullet_Grenade">
+        <defName>W_Bullet_SmallRocket</defName>
+        <label>Wolfein Small Rocket</label>
+        <thingClass>Wolfein.Projectile_ExplosiveWithSmokeTrail</thingClass>
+        <graphicData>
+            <texPath>Wolfein/Weapon/Missile</texPath>
+            <drawSize>(0.25, 1)</drawSize>
+        </graphicData>
+        <projectile>
+            <speed>75</speed>
+            <damageAmountBase>20</damageAmountBase>
+            <explosionRadius>1.5</explosionRadius>
+        </projectile>
+    </ThingDef>
+
+    <!-- 机炮 -->
+    <ThingDef ParentName="BaseGun">
+        <defName>W_Weapon_MG_Autocannon</defName>
+        <label>Wolfein mech autocannon</label>
+        <description>A medium-caliber automatic weapon system mounted on MegaCorp-manufactured mechanical units, designed for sustained fire suppression and anti-infantry operations. Its modular structure allows for easy maintenance and replacement. While not as destructive as heavy artillery, it proves highly effective in intense combat scenarios.</description>
+        <tradeability>None</tradeability>
+        <destroyOnDrop>true</destroyOnDrop>
+        <relicChance>0</relicChance>
+        <graphicData>
+            <texPath>Wolfein/Weapon/Autocannon</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>3.0</drawSize>
+        </graphicData>
+        <uiIconScale>1</uiIconScale>
+        <soundInteract>Wolfein_WeaponInteract</soundInteract>
+        <techLevel>Industrial</techLevel>
+        <weaponClasses>
+            <li>RangedHeavy</li>
+        </weaponClasses>
+        <weaponTags>
+            <li>Wolfein_HeavyMech</li>
+        </weaponTags>
+        <equippedStatOffsets>
+            <MoveSpeed>-0.25</MoveSpeed>
+        </equippedStatOffsets>
+        <statBases>
+            <WorkToMake>70000</WorkToMake>
+            <MarketValue>1320</MarketValue>
+            <Mass>16</Mass>
+            <AccuracyTouch>0.60</AccuracyTouch>
+            <AccuracyShort>0.68</AccuracyShort>
+            <AccuracyMedium>0.78</AccuracyMedium>
+            <AccuracyLong>0.68</AccuracyLong>
+            <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>W_Bullet_Autocannon</defaultProjectile>
+                <warmupTime>2.8</warmupTime>
+                <range>40</range>
+                <minRange>3.0</minRange>
+                <burstShotCount>5</burstShotCount>
+                <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+                <forcedMissRadius>0.1</forcedMissRadius>
+                <soundCast>Shot_Minigun</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+    <ThingDef ParentName="WolfeinBaseBullet">
+        <defName>W_Bullet_Autocannon</defName>
+        <label>Wolfein Autocannon Bullet</label>
+        <thingClass>Projectile_Explosive</thingClass>
+        <graphicData>
+            <texPath>Wolfein/Weapon/Bullet_Large</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <projectile>
+            <damageDef>Bomb</damageDef>
+            <damageAmountBase>32</damageAmountBase>
+            <explosionRadius>1.1</explosionRadius>
+            <speed>100</speed>
+        </projectile>
+    </ThingDef>
+
+    <!-- 重型机枪 -->
+    <ThingDef ParentName="BaseGun">
+        <defName>W_Weapon_MG_HeavyChargeMinigun</defName>
+        <label>Wolfein mech heavyChargeMinigun</label>
+        <description>A large rapid-fire charge machine gun specifically designed for use by heavy fire support platforms. Its enlarged drum maine and extended, reinforced barrel allow mechanical units to sustain prolonged enemy suppression.</description>
+        <tradeability>None</tradeability>
+        <destroyOnDrop>true</destroyOnDrop>
+        <relicChance>0</relicChance>
+        <graphicData>
+            <texPath>Wolfein/Weapon/HeavyChargeMinigun</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>3.0</drawSize>
+        </graphicData>
+        <uiIconScale>1</uiIconScale>
+        <soundInteract>Wolfein_WeaponInteract</soundInteract>
+        <techLevel>Industrial</techLevel>
+        <weaponClasses>
+            <li>RangedHeavy</li>
+        </weaponClasses>
+        <weaponTags>
+            <li>Wolfein_HeavyMechMinigun</li>
+        </weaponTags>
+        <equippedStatOffsets>
+            <MoveSpeed>-0.25</MoveSpeed>
+        </equippedStatOffsets>
+        <statBases>
+            <WorkToMake>70000</WorkToMake>
+            <MarketValue>1320</MarketValue>
+            <Mass>16</Mass>
+            <AccuracyTouch>0.55</AccuracyTouch>
+            <AccuracyShort>0.48</AccuracyShort>
+            <AccuracyMedium>0.34</AccuracyMedium>
+            <AccuracyLong>0.22</AccuracyLong>
+            <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Wolfein.Verb_Shoot_Laser</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>W_Bullet_MediumLaserII</defaultProjectile>
+                <warmupTime>2.8</warmupTime>
+                <range>32</range>
+                <minRange>3.0</minRange>
+                <burstShotCount>35</burstShotCount>
+                <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+                <soundCast>Wolfein_Shot_AR_MG</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+</Defs>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <MoonPhase>月相</MoonPhase>
+
+    <Wolfein.NewMoon>新月</Wolfein.NewMoon>
+    <Wolfein.WaxingCrescent>眉月</Wolfein.WaxingCrescent>
+    <Wolfein.FirstQuarter>上弦月</Wolfein.FirstQuarter>
+    <Wolfein.WaxingGibbous>上凸月</Wolfein.WaxingGibbous>
+    <Wolfein.FullMoon>满月</Wolfein.FullMoon>
+    <Wolfein.WaningGibbous>下凸月</Wolfein.WaningGibbous>
+    <Wolfein.LastQuarter>下弦月</Wolfein.LastQuarter>
+    <Wolfein.WaningCrescent>残月</Wolfein.WaningCrescent>
+
+
+    <Wolfein.MoonPhaseTip_NewMoon>月体完全处于阴影中，无可见亮面。</Wolfein.MoonPhaseTip_NewMoon>
+    <Wolfein.MoonPhaseTip_WaxingCrescent>月体初现光照，亮面细小弯曲。</Wolfein.MoonPhaseTip_WaxingCrescent>
+    <Wolfein.MoonPhaseTip_FirstQuarter>月体亮面占据一半，左右分明。</Wolfein.MoonPhaseTip_FirstQuarter>
+    <Wolfein.MoonPhaseTip_WaxingGibbous>月体亮面超过一半，形态趋近圆形。</Wolfein.MoonPhaseTip_WaxingGibbous>
+    <Wolfein.MoonPhaseTip_FullMoon>月体完全被照亮，呈圆满状态。</Wolfein.MoonPhaseTip_FullMoon>
+    <Wolfein.MoonPhaseTip_WaningGibbous>月体亮面开始减少，轮廓仍接近圆形。</Wolfein.MoonPhaseTip_WaningGibbous>
+    <Wolfein.MoonPhaseTip_LastQuarter>月体亮面缩至一半，光暗重新对称。</Wolfein.MoonPhaseTip_LastQuarter>
+    <Wolfein.MoonPhaseTip_WaningCrescent>月体仅余微小亮面，其余转入阴影。</Wolfein.MoonPhaseTip_WaningCrescent>
+
+
+
+</LanguageData>

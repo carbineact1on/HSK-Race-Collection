@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>Wolfein_MegaCorpMechCore</defName>
+        <label>Wolfein MegaCorp Mech Core</label>
+        <description>A crowning achievement of the Wolfein MegaCorp tech tree, its Rubik's Cube-like appearance reflects the design team's goal of endowing mech units with flexible and adaptive cognition—and without a doubt, they achieved it.</description>
+        <graphicData>
+            <texPath>Wolfein/Items/MegaCorpMechCore/MegaCorpMechCore</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.2</drawSize>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Standard_Drop</soundInteract>
+        <soundDrop>Standard_Drop</soundDrop>
+        <stackLimit>10</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+            <MarketValue>200</MarketValue>
+            <MaxHitPoints>300</MaxHitPoints>
+            <Mass>2.4</Mass>
+            <Flammability>0</Flammability>
+        </statBases>
+        <thingCategories>
+            <li>Manufactured</li>
+        </thingCategories>
+        <tradeability>All</tradeability>
+        <techLevel>Spacer</techLevel>
+        <tradeTags Inherit="false">
+            <li>Wolfein_MegaCorpMechCore</li>
+        </tradeTags>
+        <comps>
+            <li Class="CompProperties_CompAnalyzableUnlockResearch">
+                <analysisID>24763555</analysisID>
+                <requiresMechanitor>false</requiresMechanitor>
+
+                <!-- Analyzable -->
+
+                <analysisDurationHours>1</analysisDurationHours>
+                <destroyedOnAnalyzed>false</destroyedOnAnalyzed>
+                <completedLetterLabel>{RESEARCH} unlocked.</completedLetterLabel>
+                <completedLetter>The analysis of the MegaCorpMechCore has been completed. Its stability and energy adaptability have been confirmed, and it is now cleared for integration into core mech component manufacturing.</completedLetter>
+                <completedLetterDef>PositiveEvent</completedLetterDef>
+
+                <!-- Interactable -->
+
+                <activateTexPath>UI/Icons/Study</activateTexPath>
+
+                <activateLabelString>Reverse</activateLabelString>
+                <activateDescString>Reverse Engineering the MegaCorp Mech Core</activateDescString>
+                <jobString>Studying the MegaCorp Mech Core</jobString>
+                <guiLabelString>Selecting Researchers for the MegaCorp Mech Core</guiLabelString>
+                <inspectString>Capable of being researched by colonists</inspectString>
+
+                <targetingParameters>
+                    <canTargetBuildings>false</canTargetBuildings>
+                    <canTargetAnimals>false</canTargetAnimals>
+                    <canTargetMechs>false</canTargetMechs>
+                    <onlyTargetControlledPawns>true</onlyTargetControlledPawns>
+                </targetingParameters>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- 反光背心工作服（固定材料） -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wolfein_ReflectiveOveralls"]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>220</MaxHitPoints>
+            <Flammability>0.5</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+            <Mass>1.5</Mass>
+            <EquipDelay>1.5</EquipDelay>
+            <WorkToMake>6500</WorkToMake>
+            <Insulation_Cold>13</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <ArmorRating_Sharp>3</ArmorRating_Sharp>
+            <ArmorRating_Blunt>2</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.1</ArmorRating_Heat>
+            <ArmorRating_Electric>0</ArmorRating_Electric>
+            <Bulk>1</Bulk>
+            <WornBulk>1.35</WornBulk>
+          </statBases>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Wolfein_ReflectiveOveralls"]/equippedStatOffsets</xpath>
+		<value>
+      <CarryBulk>23</CarryBulk>
+      <CarryWeight>12</CarryWeight>
+		</value>
+	</Operation>
+
+</Patch>

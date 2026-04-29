@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: wolfein drone -->
+  <Wolfein_MechDrone.label>沃芬族军用侦察无人机</Wolfein_MechDrone.label>
+  <!-- EN: left rotor -->
+  <Wolfein_MechDrone.corePart.parts.left_rotor.customLabel>左旋翼</Wolfein_MechDrone.corePart.parts.left_rotor.customLabel>
+  <!-- EN: right rotor -->
+  <Wolfein_MechDrone.corePart.parts.right_rotor.customLabel>右旋翼</Wolfein_MechDrone.corePart.parts.right_rotor.customLabel>
+  
+</LanguageData>

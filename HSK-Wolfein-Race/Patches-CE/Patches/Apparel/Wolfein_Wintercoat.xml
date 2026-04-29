@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- 防寒大衣 -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wolfein_Wintercoat"]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>250</MaxHitPoints>
+            <Flammability>0.4</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+            <Mass>2</Mass>
+            <EquipDelay>3</EquipDelay>
+            <WorkToMake>12000</WorkToMake>
+            <Insulation_Cold>12</Insulation_Cold>
+            <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>2</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+            <ArmorRating_Sharp>0.44</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.1</ArmorRating_Heat>
+            <ArmorRating_Electric>0</ArmorRating_Electric>
+            <Bulk>1</Bulk>
+            <WornBulk>2.2</WornBulk>
+          </statBases>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

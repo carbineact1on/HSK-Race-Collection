@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <TraderKindDef>
+        <defName>Wolfein_Orbital_BulkGoods</defName>
+        <label>Wolfein bulk goods trader</label>
+        <orbital>true</orbital>
+        <faction>Wolfein_Faction_MegaCorp</faction>
+        <stockGenerators>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Silver</thingDef>
+                <countRange>2000~4000</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ComponentIndustrial</thingDef>
+                <countRange>40~50</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>ComponentSpacer</thingDef>
+                <countRange>5~10</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Wolfein_PackingStaffMeals</thingDef>
+                <countRange>50~80</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Wolfein_MedicineIndustrial</thingDef>
+                <countRange>30~50</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Wolfein_CompositeFabric</thingDef>
+                <countRange>350~450</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Wolfein_AlloyMaterials</thingDef>
+                <countRange>350~450</countRange>
+            </li>
+
+            <!-- 机械体的零件 -->
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Wolfein_ElectronicComponent</thingDef>
+                <countRange>5~20</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Wolfein_MechanicalComponent</thingDef>
+                <countRange>8~40</countRange>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Biotech" Class="StockGenerator_SingleDef">
+                <thingDef>Wolfein_MegaCorpMechCore</thingDef>
+                <countRange>5~12</countRange>
+            </li>
+
+            <li Class="StockGenerator_MarketValue">
+                <tradeTag>Wolfein_Clothing_CombatI</tradeTag>
+                <countRange>10~15</countRange>
+            </li>
+
+            <li Class="StockGenerator_MarketValue">
+                <tradeTag>Wolfein_Clothing_CombatII</tradeTag>
+                <countRange>5~10</countRange>
+            </li>
+
+            <li Class="StockGenerator_MarketValue">
+                <tradeTag>Wolfein_WeaponIII</tradeTag>
+                <countRange>15~20</countRange>
+            </li>
+
+            <li Class="StockGenerator_MarketValue">
+                <tradeTag>Wolfein_M_WeaponII</tradeTag>
+                <countRange>5~10</countRange>
+            </li>
+
+            <li Class="StockGenerator_MarketValue">
+                <tradeTag>Wolfein_WeaponIV</tradeTag>
+                <countRange>5~10</countRange>
+            </li>
+
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>Art</tag>
+            </li>
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>Drugs</tag>
+            </li>
+            <li Class="StockGenerator_BuyTradeTag">
+                <tag>HoraxWeapon</tag>
+            </li>
+
+        </stockGenerators>
+    </TraderKindDef>
+
+
+</Defs>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription(sitePart==Wolfein_BattleSite_RebelSurround)->The colonists have intercepted an encrypted transmission from the Wolfein resistance. Although the message is heavily encrypted and fragmented, the few deciphered phrases suggest that they have successfully surrounded a small detachment of MegaCorp soldiers, and a firefight appears to be underway.\n\nWhether you intend to come to the aid of the MegaCorp troops, or simply wait for the resistance to prevail and then scavenge the remaining spoils, this is an opportunity that will not last long.</li>
+    <li>questDescription(sitePart==Wolfein_BattleSite_Mechanoid)->The colonists have intercepted a plaintext transmission from the Wolfein resistance. The sender』s wording is hurried and disordered, making it clear that they are being ambushed by a large force of MegaCorp mechanoids. A call for aid has been broadcast to any nearby anti-MegaCorp forces, and the situation appears to be reaching a critical point.\n\nWhether you hold a grudge against this resistance group, or simply plan to arrive after the MegaCorp forces prevail to scavenge the remaining equipment and wreckage, this is an opportunity that will not last long.</li>
+  -->
+  <Wolfein_BattleSite.questDescriptionRules.rulesStrings>
+    <li>questDescription(sitePart==Wolfein_BattleSite_RebelSurround)->殖民者攔截到了一段來自沃芬族抵抗軍的加密通訊。儘管內容殘缺且經過重度加密，但通過被破譯出的零碎片段，你仍能勉強判斷出：她們已成功包圍了一小股軍企士兵，戰鬥似乎正在進行中。\n\n無論你是打算出手援助這支軍企小隊，還是準備在抵抗軍取得勝利后前往現場收集遺留的裝備與戰利品，這都是一個不會持續太久的機會。</li>
+    <li>questDescription(sitePart==Wolfein_BattleSite_Mechanoid)->殖民者攔截到一條來自沃芬族抵抗軍的明文通訊。發信者的措辭急促而混亂，顯然她們正遭到大批軍企機械體的伏擊，並正在向附近一切可能的反抗勢力發出求援訊號，戰況已迫在眉睫。\n\n無論你與這支抵抗軍是否結怨，還是僅僅打算在軍企取得勝利后前往戰場搜刮遺留的裝備與殘骸，這都是一個稍縱即逝的機會</li>
+  </Wolfein_BattleSite.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Wolfein Ambush</li>
+  -->
+  <Wolfein_BattleSite.questNameRules.rulesStrings>
+    <li>questName->沃芬伏擊</li>
+  </Wolfein_BattleSite.questNameRules.rulesStrings>
+  
+</LanguageData>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <ThinkTreeDef>
+    <defName>Wolfein_GiantMechConstant</defName>
+    <thinkRoot Class="ThinkNode_Priority">
+      <subNodes>
+
+        <!-- Despawned -->
+        <li Class="ThinkNode_Subtree">
+          <treeDef>Despawned</treeDef>
+        </li>
+
+        <li Class="ThinkNode_ConditionalCanDoConstantThinkTreeJobNow">
+          <subNodes>
+            <li Class="ThinkNode_ConditionalHasTarget">
+              <subNodes>
+                <li Class="ThinkNode_ConditionalUnderCombatPressure">
+                  <maxThreatDistance>29.9</maxThreatDistance>
+                  <minCloseTargets>1</minCloseTargets>
+                  <subNodes>
+                    <li Class="JobGiver_Idle">
+                      <ticks>180</ticks>
+                    </li>
+                  </subNodes>
+                </li>
+              </subNodes>
+            </li>
+          </subNodes>
+        </li>
+      </subNodes>
+    </thinkRoot>
+  </ThinkTreeDef>
+
+
+</Defs>

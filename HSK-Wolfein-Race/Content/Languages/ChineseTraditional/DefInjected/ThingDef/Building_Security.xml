@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein Large Caliber Bullet -->
+  <W_Bullet_TurretD.label>沃芬族哨戒重型子彈</W_Bullet_TurretD.label>
+  
+  <!-- EN: Wolfein Heavy Sentry Rifle -->
+  <Wolfein_Turret_A.label>沃芬族哨戒重型步槍</Wolfein_Turret_A.label>
+  <!-- EN: The seemingly lightweight frame supports a high-caliber assault rifle, capable of effortlessly neutralizing enemies equipped with light to medium armor. -->
+  <Wolfein_Turret_A.description>看似輕便的支架上部署著的大口徑突擊步槍可以輕鬆處置裝備有輕中型裝甲的敵人。</Wolfein_Turret_A.description>
+  
+  <!-- EN: Wolfein Sentry Rapid-Fire Machine Gun -->
+  <Wolfein_Turret_B.label>沃芬族哨戒速射機槍</Wolfein_Turret_B.label>
+  <!-- EN: Equipped with a rapid-fire machine gun, it excels at dealing with lightly armored or unarmored targets, making it a standard defensive installation for corporate public infrastructure. -->
+  <Wolfein_Turret_B.description>其上配置的速射機槍對無甲單位處理效率極佳，是軍企公共設施標配的防禦設施。</Wolfein_Turret_B.description>
+  
+  <!-- EN: Wolfein Twin-Barrel Autocannon Turret -->
+  <Wolfein_Turret_D.label>沃芬族雙聯速射機槍炮塔</Wolfein_Turret_D.label>
+  <!-- EN: Mounted with dual high-caliber rapid-fire machine guns, this turret can unleash a torrent of bullets in mere seconds—more than enough to tear through the armor of heavy mech units. -->
+  <Wolfein_Turret_D.description>炮塔底座上配置的雙聯大型速射機槍能夠在短時間內噴瀉出大量子彈。足以撕碎重型機械體的防禦。</Wolfein_Turret_D.description>
+  <!-- EN: Barrel durability -->
+  <Wolfein_Turret_D.comps.CompRefuelable.fuelGizmoLabel>槍管耐用度</Wolfein_Turret_D.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until barrel change -->
+  <Wolfein_Turret_D.comps.CompRefuelable.fuelLabel>直到更換槍管為止的射擊次數</Wolfein_Turret_D.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Needs new barrel -->
+  <Wolfein_Turret_D.comps.CompRefuelable.outOfFuelMessage>需要新槍管</Wolfein_Turret_D.comps.CompRefuelable.outOfFuelMessage>
+  
+  <!-- EN: Wolfein Rocket Turret -->
+  <Wolfein_Turret_E.label>沃芬族火箭炮塔</Wolfein_Turret_E.label>
+  <!-- EN: Equipped with a multi-barrel rocket launcher, this turret can shred enemies to pieces at mid-range. However, its long firing intervals and minimal armor mean it requires support from other units to stay operational. -->
+  <Wolfein_Turret_E.description>炮塔底座上配置多管火箭發射器能夠在中距離上將敵人炸成碎片。但較長的發射間隔和簡易的防護措施決定其需要其他單位的保護。</Wolfein_Turret_E.description>
+  <!-- EN: Barrel durability -->
+  <Wolfein_Turret_E.comps.CompRefuelable.fuelGizmoLabel>炮管耐用度</Wolfein_Turret_E.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until barrel change -->
+  <Wolfein_Turret_E.comps.CompRefuelable.fuelLabel>直到更換炮管為止的射擊次數</Wolfein_Turret_E.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Needs new barrel -->
+  <Wolfein_Turret_E.comps.CompRefuelable.outOfFuelMessage>需要新炮管</Wolfein_Turret_E.comps.CompRefuelable.outOfFuelMessage>
+  
+  <!-- EN: Wolfein Heavy Sentry Rifle -->
+  <Wolfein_TurretGun_A.label>沃芬族哨戒重型步槍</Wolfein_TurretGun_A.label>
+  <!-- EN: The seemingly lightweight frame supports a high-caliber assault rifle, capable of effortlessly neutralizing enemies equipped with light to medium armor. -->
+  <Wolfein_TurretGun_A.description>看似輕便的支架上部署著的大口徑突擊步槍可以輕鬆處置裝備有輕中型裝甲的敵人。</Wolfein_TurretGun_A.description>
+  <!-- EN: Wolfein Heavy Sentry Rifle -->
+  <Wolfein_TurretGun_A.verbs.Verb_Shoot.label>沃芬族哨戒重型步槍</Wolfein_TurretGun_A.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Sentry Rapid-Fire Machine Gun -->
+  <Wolfein_TurretGun_B.label>沃芬族哨戒速射機槍</Wolfein_TurretGun_B.label>
+  <!-- EN: Equipped with a rapid-fire machine gun, it excels at dealing with lightly armored or unarmored targets, making it a standard defensive installation for corporate public infrastructure. -->
+  <Wolfein_TurretGun_B.description>看似輕便的支架上部署著的大口徑突擊步槍可以輕鬆處置裝備有輕中型裝甲的敵人。</Wolfein_TurretGun_B.description>
+  <!-- EN: Wolfein Sentry Rapid-Fire Machine Gun -->
+  <Wolfein_TurretGun_B.verbs.Verb_Shoot.label>沃芬族哨戒速射機槍</Wolfein_TurretGun_B.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Twin-Barrel Autocannon Turret -->
+  <Wolfein_TurretGun_D.label>沃芬族雙聯速射機槍炮塔</Wolfein_TurretGun_D.label>
+  <!-- EN: Mounted with dual high-caliber rapid-fire machine guns, this turret can unleash a torrent of bullets in mere seconds—more than enough to tear through the armor of heavy mech units. -->
+  <Wolfein_TurretGun_D.description>炮塔底座上配置的雙聯大型速射機槍能夠在短時間內噴瀉出大量子彈。足以撕碎重型機械體的防禦。</Wolfein_TurretGun_D.description>
+  <!-- EN: Wolfein Twin-Barrel Autocannon Turret -->
+  <Wolfein_TurretGun_D.verbs.Verb_Shoot.label>沃芬族雙聯速射機槍炮塔</Wolfein_TurretGun_D.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Rocket Turret -->
+  <Wolfein_TurretGun_E.label>沃芬族火箭炮塔</Wolfein_TurretGun_E.label>
+  <!-- EN: Equipped with a multi-barrel rocket launcher, this turret can shred enemies to pieces at mid-range. However, its long firing intervals and minimal armor mean it requires support from other units to stay operational. -->
+  <Wolfein_TurretGun_E.description>炮塔底座上配置多管火箭發射器能夠在中距離上將敵人炸成碎片。但較長的發射間隔和簡易的防護措施決定其需要其他單位的保護。</Wolfein_TurretGun_E.description>
+  <!-- EN: Wolfein Rocket Turret -->
+  <Wolfein_TurretGun_E.verbs.Verb_Shoot.label>沃芬族火箭炮塔</Wolfein_TurretGun_E.verbs.Verb_Shoot.label>
+  
+</LanguageData>

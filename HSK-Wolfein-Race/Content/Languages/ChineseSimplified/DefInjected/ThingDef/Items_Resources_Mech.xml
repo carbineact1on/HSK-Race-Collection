@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein MegaCorp Mech Core -->
+  <Wolfein_MegaCorpMechCore.label>沃芬军企机械体核心</Wolfein_MegaCorpMechCore.label>
+  <!-- EN: A crowning achievement of the Wolfein MegaCorp tech tree, its Rubik's Cube-like appearance reflects the design team's goal of endowing mech units with flexible and adaptive cognition—and without a doubt, they achieved it. -->
+  <Wolfein_MegaCorpMechCore.description>沃芬军企科技树的硕果，类似魔方的外表象征着设计团队对赋予机械体灵活多变的思维能力的目标，毫无疑问他们成功了。</Wolfein_MegaCorpMechCore.description>
+  <!-- EN: Reverse Engineering the MegaCorp Mech Core -->
+  <Wolfein_MegaCorpMechCore.comps.CompAnalyzableUnlockResearch.activateDescString>逆向解析军企机械体核心</Wolfein_MegaCorpMechCore.comps.CompAnalyzableUnlockResearch.activateDescString>
+  <!-- EN: Reverse -->
+  <Wolfein_MegaCorpMechCore.comps.CompAnalyzableUnlockResearch.activateLabelString>解析</Wolfein_MegaCorpMechCore.comps.CompAnalyzableUnlockResearch.activateLabelString>
+  <!-- EN: Completed -->
+  <Wolfein_MegaCorpMechCore.comps.CompAnalyzableUnlockResearch.completedLetter>军企机械体核心解析已完成，已确认其稳定性与能源适应性，可正式投入机体核心组件制造。</Wolfein_MegaCorpMechCore.comps.CompAnalyzableUnlockResearch.completedLetter>
+  <!-- EN: {RESEARCH} unlocked. -->
+  <Wolfein_MegaCorpMechCore.comps.CompAnalyzableUnlockResearch.completedLetterLabel>{RESEARCH} 已解锁。</Wolfein_MegaCorpMechCore.comps.CompAnalyzableUnlockResearch.completedLetterLabel>
+  <!-- EN: Selecting Researchers for the MegaCorp Mech Core -->
+  <Wolfein_MegaCorpMechCore.comps.CompAnalyzableUnlockResearch.guiLabelString>为军企机械体核心挑选研究员</Wolfein_MegaCorpMechCore.comps.CompAnalyzableUnlockResearch.guiLabelString>
+  <!-- EN: Capable of being researched by colonists -->
+  <Wolfein_MegaCorpMechCore.comps.CompAnalyzableUnlockResearch.inspectString>可由殖民者进行解析研究</Wolfein_MegaCorpMechCore.comps.CompAnalyzableUnlockResearch.inspectString>
+  <!-- EN: Studying the MegaCorp Mech Core -->
+  <Wolfein_MegaCorpMechCore.comps.CompAnalyzableUnlockResearch.jobString>解析军企机械体核心</Wolfein_MegaCorpMechCore.comps.CompAnalyzableUnlockResearch.jobString>
+  
+</LanguageData>

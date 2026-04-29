@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="MechGestatorBase">
+        <defName>Wolfein_MechGestatorCivil</defName>
+        <label>Wolfein Civilian Mech Workbench</label>
+        <description>Used for manufacturing Wolfein Civilian Mech Units. In addition to assembly, it also provides functionality for replacing civilian mech modules.</description>
+        <graphicData>
+            <texPath>Wolfein/Building/Workbenches/CivilMachineryWorkbench</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3.95, 4.15)</drawSize>
+        </graphicData>
+        <castEdgeShadows>true</castEdgeShadows>
+        <uiIconScale>1.0</uiIconScale>
+        <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+        <recipes>
+            <li>Wolfein_MechRecipe_CivilBase</li>
+            <li>Wolfein_MechRecipe_CivilA</li>
+            <li>Wolfein_MechRecipe_CivilB</li>
+            <li>Wolfein_MechRecipe_CivilC</li>
+            <li>Wolfein_MechCivilResurrect</li>
+        </recipes>
+        <statBases>
+            <MaxHitPoints>250</MaxHitPoints>
+            <WorkToBuild>8000</WorkToBuild>
+            <Mass>25</Mass>
+            <Flammability>0.5</Flammability>
+        </statBases>
+        <size>(3,1)</size>
+        <costList>
+            <SteelBar>30</SteelBar>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
+        <researchPrerequisites>
+            <li>Wolfein_BasicCivilianMech</li>
+        </researchPrerequisites>
+        <building>
+            <formingGraphicData>
+                <texPath>Wolfein/Items/Unfinished/UnfinishedCivilMech/UnfinishedCivilMech</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <drawSize>(1,1)</drawSize>
+            </formingGraphicData>
+            <formingMechBobSpeed>0.00000001</formingMechBobSpeed>
+            <formingMechYBobDistance>0.0000001</formingMechYBobDistance>
+            <formingMechPerRotationOffset>
+                <li>(0.7, 0, -0.2)</li>                <!-- north -->
+                <li>(-0.45, 0, 0.7)</li>                <!-- east -->
+                <li>(-0.7, 0, 0.6)</li>                <!-- south -->
+                <li>(0.5, 0, 0.8)</li>                <!-- west -->
+            </formingMechPerRotationOffset>
+            <mechGestatorCylinderGraphic>
+                <texPath>Wolfein/Blank/Blank</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <drawSize>(1,1)</drawSize>
+                <shaderType>Transparent</shaderType>
+            </mechGestatorCylinderGraphic>
+            <mechGestatorTopGraphic>
+                <texPath>Wolfein/Blank/Blank</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <drawSize>(1,1)</drawSize>
+            </mechGestatorTopGraphic>
+            <gestatorCycleCompleteMote>
+                <north>Wolfein_GestatorForming</north>
+                <east>Wolfein_GestatorForming</east>
+                <west>Wolfein_GestatorForming</west>
+                <south>Wolfein_GestatorForming</south>
+            </gestatorCycleCompleteMote>
+            <gestatorFormingMote>
+                <north>Wolfein_GestatorForming</north>
+                <east>Wolfein_GestatorForming</east>
+                <west>Wolfein_GestatorForming</west>
+                <south>Wolfein_GestatorForming</south>
+            </gestatorFormingMote>
+            <gestatorFormedMote>
+                <north>Wolfein_GestatorForming</north>
+                <east>Wolfein_GestatorForming</east>
+                <west>Wolfein_GestatorForming</west>
+                <south>Wolfein_GestatorForming</south>
+            </gestatorFormedMote>
+        </building>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>350</basePowerConsumption>
+                <idlePowerDraw>50</idlePowerDraw>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="MechGestatorBase">
+        <defName>Wolfein_MechGestatorMilitary</defName>
+        <label>Wolfein Military Mech Workbench</label>
+        <description>Used for producing Wolfein Military Mech Units, and is even capable of assembling heavy mech units larger than its own platform.</description>
+        <graphicData>
+            <texPath>Wolfein/Building/Workbenches/MilitaryMachineryWorkbench</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3.95, 3.95)</drawSize>
+            <shadowData>
+                <volume>(3.8, 3, 2.7)</volume>
+            </shadowData>
+        </graphicData>
+        <uiIconScale>1.0</uiIconScale>
+        <interactionCellOffset>(0,0,2)</interactionCellOffset>
+        <statBases>
+            <MaxHitPoints>350</MaxHitPoints>
+            <WorkToBuild>16000</WorkToBuild>
+            <Mass>35</Mass>
+            <Flammability>0.5</Flammability>
+        </statBases>
+        <size>(3,3)</size>
+        <costList>
+            <SteelBar>60</SteelBar>
+            <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>
+        <researchPrerequisites>
+            <li>Wolfein_BasicMilitaryMech</li>
+        </researchPrerequisites>
+        <building>
+            <formingGraphicData>
+                <texPath>Wolfein/Items/Unfinished/UnfinishedMegaCorpMech/UnfinishedMegaCorpMech</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <drawSize>(1.65,1.65)</drawSize>
+            </formingGraphicData>
+            <formingMechBobSpeed>0.00000001</formingMechBobSpeed>
+            <formingMechYBobDistance>0.0000001</formingMechYBobDistance>
+            <formingMechPerRotationOffset>
+                <li>(0, 0, 0.2)</li>                <!-- north -->
+                <li>(0, 0, 0.2)</li>                <!-- east -->
+                <li>(0, 0, 0.2)</li>                <!-- south -->
+                <li>(0, 0, 0.2)</li>                <!-- west -->
+            </formingMechPerRotationOffset>
+            <mechGestatorCylinderGraphic>
+                <texPath>Wolfein/Blank/Blank</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <drawSize>(1,1)</drawSize>
+                <shaderType>Transparent</shaderType>
+            </mechGestatorCylinderGraphic>
+            <mechGestatorTopGraphic>
+                <texPath>Wolfein/Blank/Blank</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <drawSize>(1,1)</drawSize>
+            </mechGestatorTopGraphic>
+            <gestatorCycleCompleteMote>
+                <north>Wolfein_GestatorForming</north>
+                <east>Wolfein_GestatorForming</east>
+                <west>Wolfein_GestatorForming</west>
+                <south>Wolfein_GestatorForming</south>
+            </gestatorCycleCompleteMote>
+            <gestatorFormingMote>
+                <north>Wolfein_GestatorForming</north>
+                <east>Wolfein_GestatorForming</east>
+                <west>Wolfein_GestatorForming</west>
+                <south>Wolfein_GestatorForming</south>
+            </gestatorFormingMote>
+            <gestatorFormedMote>
+                <north>Wolfein_GestatorForming</north>
+                <east>Wolfein_GestatorForming</east>
+                <west>Wolfein_GestatorForming</west>
+                <south>Wolfein_GestatorForming</south>
+            </gestatorFormedMote>
+        </building>
+        <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+        <recipes>
+            <li>Wolfein_MechRecipe_MilitaryA</li>
+            <li>Wolfein_MechRecipe_MilitaryB</li>
+            <li>Wolfein_MechRecipe_MilitaryC</li>
+            <li>Wolfein_MechRecipe_MilitaryD</li>
+            <li>Wolfein_MechRecipe_MilitaryE</li>
+            <li>Wolfein_MechRecipe_MilitaryF</li>
+            <li>Wolfein_MechRecipe_MilitaryGiant</li>
+            <li>Wolfein_MechRecipe_Drone</li>
+            <li>Wolfein_MechRecipe_DroneArmed</li>
+            <li>Wolfein_MechMilitaryResurrect</li>
+            <li>Wolfein_MechMilitaryGiantResurrect</li>
+        </recipes>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>500</basePowerConsumption>
+                <idlePowerDraw>50</idlePowerDraw>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+</Defs>

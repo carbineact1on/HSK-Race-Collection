@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: My aunt {0} died -->
+  <Wolfien_MyAuntDied.stages.My_aunt_died.label>我的姑姑 {0} 死去了</Wolfien_MyAuntDied.stages.My_aunt_died.label>
+  <!-- EN: My aunt died. -->
+  <Wolfien_MyAuntDied.stages.My_aunt_died.description>我的姑姑去世了。</Wolfien_MyAuntDied.stages.My_aunt_died.description>
+  
+  <!-- EN: My brother {0} died -->
+  <Wolfien_MyBrotherDied.stages.My_brother_died.label>我的兄弟 {0} 死去了</Wolfien_MyBrotherDied.stages.My_brother_died.label>
+  <!-- EN: My brother died. My own flesh and blood... -->
+  <Wolfien_MyBrotherDied.stages.My_brother_died.description>我的兄弟死去了...我的手足...</Wolfien_MyBrotherDied.stages.My_brother_died.description>
+  
+  <!-- EN: My cousin {0} died -->
+  <Wolfien_MyCousinDied.stages.My_cousin_died.label>我的堂兄弟 {0} 死去了</Wolfien_MyCousinDied.stages.My_cousin_died.label>
+  <!-- EN: My cousin died. My own flesh and blood... -->
+  <Wolfien_MyCousinDied.stages.My_cousin_died.description>我的堂兄弟死去了...我的手足...</Wolfien_MyCousinDied.stages.My_cousin_died.description>
+  
+  <!-- EN: My daughter {0} died -->
+  <Wolfien_MyDaughterDied.stages.My_daughter_died.label>我的女兒 {0} 死去了</Wolfien_MyDaughterDied.stages.My_daughter_died.label>
+  <!-- EN: My daughter is dead. She is gone from me forever... -->
+  <Wolfien_MyDaughterDied.stages.My_daughter_died.description>我的女兒已經不在了...他永遠離我而去...</Wolfien_MyDaughterDied.stages.My_daughter_died.description>
+  
+  <!-- EN: My father {0} died -->
+  <Wolfien_MyFatherDied.stages.My_father_died.label>我的父親 {0} 去世了</Wolfien_MyFatherDied.stages.My_father_died.label>
+  <!-- EN: My father died. He's gone forever. -->
+  <Wolfien_MyFatherDied.stages.My_father_died.description>我的父親去世了，他永遠的走了...</Wolfien_MyFatherDied.stages.My_father_died.description>
+  
+  <!-- EN: My fiance {0} died -->
+  <Wolfien_MyFianceDied.stages.My_fiance_died.label>我的未婚夫 {0} 死去了</Wolfien_MyFianceDied.stages.My_fiance_died.label>
+  <!-- EN: My fiance died. Such a man... my future is gone. -->
+  <Wolfien_MyFianceDied.stages.My_fiance_died.description>我的未婚夫死了。那樣的男人……連我的未來也一併消失了。</Wolfien_MyFianceDied.stages.My_fiance_died.description>
+  
+  <!-- EN: My fiancée {0} died -->
+  <Wolfien_MyFianceeDied.stages.My_fiance_died.label>我的未婚妻 {0} 死去了</Wolfien_MyFianceeDied.stages.My_fiance_died.label>
+  <!-- EN: My fiancée died. Such a woman... my future is gone. -->
+  <Wolfien_MyFianceeDied.stages.My_fiance_died.description>我的未婚妻走了……那樣的女人，我的未來也隨之消失。</Wolfien_MyFianceeDied.stages.My_fiance_died.description>
+  
+  <!-- EN: My grandchild {0} died -->
+  <Wolfien_MyGrandchildDied.stages.My_grandchild_died.label>我的孫兒 {0} 死去了</Wolfien_MyGrandchildDied.stages.My_grandchild_died.label>
+  <!-- EN: My grandchild died. My own flesh and blood... -->
+  <Wolfien_MyGrandchildDied.stages.My_grandchild_died.description>我的孫兒死去了...我的至親...</Wolfien_MyGrandchildDied.stages.My_grandchild_died.description>
+  
+  <!-- EN: My grandparent {0} died -->
+  <Wolfien_MyGrandparentDied.stages.My_grandparent_died.label>我的祖父母 {0} 死去了</Wolfien_MyGrandparentDied.stages.My_grandparent_died.label>
+  <!-- EN: My grandparent died. -->
+  <Wolfien_MyGrandparentDied.stages.My_grandparent_died.description>我的祖父母去世了。</Wolfien_MyGrandparentDied.stages.My_grandparent_died.description>
+  
+  <!-- EN: My half-sibling {0} died -->
+  <Wolfien_MyHalfSiblingDied.stages.My_halfsibling_died.label>我的手足 {0} 死去了</Wolfien_MyHalfSiblingDied.stages.My_halfsibling_died.label>
+  <!-- EN: My half-sibling died. My own flesh and blood... -->
+  <Wolfien_MyHalfSiblingDied.stages.My_halfsibling_died.description>我的手足去世了...我的至親...</Wolfien_MyHalfSiblingDied.stages.My_halfsibling_died.description>
+  
+  <!-- EN: My husband {0} died -->
+  <Wolfien_MyHusbandDied.stages.My_husband_died.label>我的丈夫 {0} 死去了</Wolfien_MyHusbandDied.stages.My_husband_died.label>
+  <!-- EN: My husband is dead. I am alone. -->
+  <Wolfien_MyHusbandDied.stages.My_husband_died.description>我的丈夫走了...只剩我一個人了。</Wolfien_MyHusbandDied.stages.My_husband_died.description>
+  
+  <!-- EN: My kin {0} died -->
+  <Wolfien_MyKinDied.stages.My_kin_died.label>我的親人 {0} 去世了</Wolfien_MyKinDied.stages.My_kin_died.label>
+  <!-- EN: My kin died. -->
+  <Wolfien_MyKinDied.stages.My_kin_died.description>我的親人去世了。</Wolfien_MyKinDied.stages.My_kin_died.description>
+  
+  <!-- EN: My lover {0} died -->
+  <Wolfien_MyLoverDied.stages.My_lover_died.label>我的愛人 {0} 死去了</Wolfien_MyLoverDied.stages.My_lover_died.label>
+  <!-- EN: My lover died. I am so alone. -->
+  <Wolfien_MyLoverDied.stages.My_lover_died.description>我的愛人走了...只剩我一個人了。</Wolfien_MyLoverDied.stages.My_lover_died.description>
+  
+  <!-- EN: My mother {0} died -->
+  <Wolfien_MyMotherDied.stages.My_mother_died.label>我的母親 {0} 去世了</Wolfien_MyMotherDied.stages.My_mother_died.label>
+  <!-- EN: My mother died. She's gone forever. -->
+  <Wolfien_MyMotherDied.stages.My_mother_died.description>我的母親去世了，她永遠的走了...</Wolfien_MyMotherDied.stages.My_mother_died.description>
+  
+  <!-- EN: My nephew {0} died -->
+  <Wolfien_MyNephewDied.stages.My_nephew_died.label>我的侄子 {0} 死去了</Wolfien_MyNephewDied.stages.My_nephew_died.label>
+  <!-- EN: My nephew died. Such a wonderful child. -->
+  <Wolfien_MyNephewDied.stages.My_nephew_died.description>我的侄子走了……那樣一個溫柔善良的孩子。</Wolfien_MyNephewDied.stages.My_nephew_died.description>
+  
+  <!-- EN: My niece {0} died -->
+  <Wolfien_MyNieceDied.stages.My_niece_died.label>我的侄女 {0} 死去了</Wolfien_MyNieceDied.stages.My_niece_died.label>
+  <!-- EN: My niece died. Such a wonderful child. -->
+  <Wolfien_MyNieceDied.stages.My_niece_died.description>我的侄女走了……那樣一個溫柔善良的孩子。</Wolfien_MyNieceDied.stages.My_niece_died.description>
+  
+  <!-- EN: My sister {0} died -->
+  <Wolfien_MySisterDied.stages.My_sister_died.label>我的姐妹 {0} 去世了</Wolfien_MySisterDied.stages.My_sister_died.label>
+  <!-- EN: My sister died. My own flesh and blood... -->
+  <Wolfien_MySisterDied.stages.My_sister_died.description>我的姐妹死去了...我的手足...</Wolfien_MySisterDied.stages.My_sister_died.description>
+  
+  <!-- EN: My son {0} died -->
+  <Wolfien_MySonDied.stages.My_son_died.label>我的兒子 {0} 死去了</Wolfien_MySonDied.stages.My_son_died.label>
+  <!-- EN: My son is dead... He is gone from me forever... -->
+  <Wolfien_MySonDied.stages.My_son_died.description>我的兒子已經不在了...他永遠離我而去...</Wolfien_MySonDied.stages.My_son_died.description>
+  
+  <!-- EN: My uncle {0} died -->
+  <Wolfien_MyUncleDied.stages.My_uncle_died.label>我的叔叔 {0} 死去了</Wolfien_MyUncleDied.stages.My_uncle_died.label>
+  <!-- EN: My uncle died. -->
+  <Wolfien_MyUncleDied.stages.My_uncle_died.description>我的叔叔去世了。</Wolfien_MyUncleDied.stages.My_uncle_died.description>
+  
+  <!-- EN: My wife {0} died -->
+  <Wolfien_MyWifeDied.stages.My_wife_died.label>我的妻子 {0} 死去了</Wolfien_MyWifeDied.stages.My_wife_died.label>
+  <!-- EN: My wife is dead. I am alone. -->
+  <Wolfien_MyWifeDied.stages.My_wife_died.description>我的妻子走了...只剩我一個人了。</Wolfien_MyWifeDied.stages.My_wife_died.description>
+  
+</LanguageData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="Wolfein_BaseMech"]/statBases</xpath>
+		<value>
+			<HypoxiaResistance>1</HypoxiaResistance>
+			<DecompressionResistance>1</DecompressionResistance>
+			<VacuumSpeedMultiplier>3</VacuumSpeedMultiplier>
+		</value>
+	</Operation>
+
+</Patch>

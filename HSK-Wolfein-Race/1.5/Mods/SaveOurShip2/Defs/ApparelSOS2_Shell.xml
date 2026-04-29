@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- 太空服 -->
+    <ThingDef ParentName="Wolfein_ShellBase_II">
+        <defName>Wolfein_SpaceSuit</defName>
+        <label>Wolfein SpaceSuit</label>
+        <description>Used for extravehicular activities on space vessels. The excellent protective performance of its composite fabric has also led to its deployment among MegaCorp combat units.</description>
+        <costStuffCount>90</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <costList>
+            <ComponentIndustrial>8</ComponentIndustrial>
+            <Wolfein_AlloyMaterials>60</Wolfein_AlloyMaterials>
+            <Wolfein_CompositeFabric>70</Wolfein_CompositeFabric>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/Shell/SpaceSuit/SpaceSuit</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>250</MaxHitPoints>
+            <WorkToMake>12000</WorkToMake>
+            <Mass>8.0</Mass>
+            <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.65</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.90</StuffEffectMultiplierInsulation_Heat>
+            <Insulation_Cold>30</Insulation_Cold>
+            <EquipDelay>3.0</EquipDelay>
+        </statBases>
+        <recipeMaker>
+            <recipeUsers Inherit="false">
+                <li>Wolfein_TableMachining</li>
+            </recipeUsers>
+            <researchPrerequisites Inherit="false">
+                <li>Wolfein_Apparel_Spacer</li>
+            </researchPrerequisites>
+        </recipeMaker>
+        <apparel>
+            <useWornGraphicMask>true</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/Shell/SpaceSuit/SpaceSuit</wornGraphicPath>
+            <tags>
+                <li>Wolfein_Shell_Daily</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <HypoxiaResistance>0.2</HypoxiaResistance>
+            <DecompressionResistance>1</DecompressionResistance>
+            <VacuumSpeedMultiplier>3</VacuumSpeedMultiplier>
+        </equippedStatOffsets>
+    </ThingDef>
+
+
+</Defs>

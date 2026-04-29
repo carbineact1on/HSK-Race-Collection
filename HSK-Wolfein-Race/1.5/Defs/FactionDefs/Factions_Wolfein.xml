@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <FactionDef Name="Wolfein_PlayerFaction" ParentName="PlayerFactionBase">
+        <defName>Wolfein_PlayerFaction</defName>
+        <label>Wolfein's new base</label>
+        <description>A newly established Wolfein settlement.</description>
+        <settlementTexturePath>Wolfein/Faction/FactionIcon_1</settlementTexturePath>
+        <categoryTag>Wolfein_PlayerFaction</categoryTag>
+        <basicMemberKind>Wolfein_Colonist</basicMemberKind>
+        <pawnSingular>wolfein inhabitant</pawnSingular>
+        <pawnsPlural>wolfein inhabitants</pawnsPlural>
+        <isPlayer>true</isPlayer>
+        <colorSpectrum>
+            <li>(1, 1, 1)</li>
+        </colorSpectrum>
+        <techLevel>Industrial</techLevel>
+        <allowedCultures>
+            <li>WolfeinCulture</li>
+        </allowedCultures>
+        <startingResearchTags>
+            <li>Wolfein_Start</li>
+            <li>ClassicStart</li>
+        </startingResearchTags>
+        <startingTechprintsResearchTags>
+            <li>Wolfein_Start</li>
+            <li>ClassicStart</li>
+            <li>ClassicStartTechprints</li>
+        </startingTechprintsResearchTags>
+        <structureMemeWeights>
+            <Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">3</Structure_Ideological>
+            <Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
+        </structureMemeWeights>
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>Wolfein_ChildGeneral</li>
+                    <li>Wolfein_General</li>
+                </categories>
+                <commonality>1</commonality>
+            </li>
+        </backstoryFilters>
+        <factionIconPath>Wolfein/Faction/FactionIcon_1</factionIconPath>
+        <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+        <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+        <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+        <apparelStuffFilter>
+            <stuffCategoriesToAllow>
+                <li>Metallic</li>
+                <li>Fabric</li>
+            </stuffCategoriesToAllow>
+            <disallowedThingDefs>
+                <li>Synthread</li>
+                <li>Hyperweave</li>
+                <li>Silver</li>
+                <li>Gold</li>
+                <li>Uranium</li>
+            </disallowedThingDefs>
+        </apparelStuffFilter>
+    </FactionDef>
+
+    <!-- 用于巨企敌对开局 -->
+    <FactionDef ParentName="Wolfein_PlayerFaction">
+        <defName>Wolfein_PlayerFaction_MegaCorpHostile</defName>
+        <label>Wolfein's new base</label>
+        <description>A newly established Wolfein outpost built to avoid the surveillance of the MegaCorp.</description>
+    </FactionDef>
+
+    <!-- 沃芬军企 -->
+    <FactionDef Name="Wolfein_FactionBase_MegaCorp" ParentName="FactionBase">
+        <defName>Wolfein_Faction_MegaCorp</defName>
+        <label>Wolfein Mega Corp</label>
+        <description>MegaCorp, officially known as the Wolfein MegaCorp, handles all aspects of a Wolfein's life, from birth to death. As the name suggests, its primary focus is on developing the military-industrial sector to satisfy the board's endless expansion demands.</description>
+        <categoryTag>Wolfein_Faction</categoryTag>
+        <colorSpectrum>
+            <li>(177,31,9)</li>
+        </colorSpectrum>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+        <pawnSingular>Wolfein</pawnSingular>
+        <pawnsPlural>Wolfeins</pawnsPlural>
+        <listOrderPriority>247</listOrderPriority>
+        <settlementGenerationWeight>1.0</settlementGenerationWeight>
+        <canMakeRandomly>true</canMakeRandomly>
+        <canSiege>false</canSiege>
+        <autoFlee>false</autoFlee>
+        <canStageAttacks>true</canStageAttacks>
+        <leaderTitle>Regional Supervisor</leaderTitle>
+        <factionIconPath>Wolfein/Faction/FactionIcon_2</factionIconPath>
+        <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+        <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+        <techLevel>Spacer</techLevel>
+        <naturalEnemy>false</naturalEnemy>
+        <permanentEnemy>false</permanentEnemy>
+        <allowedCultures>
+            <li>WolfeinCulture</li>
+        </allowedCultures>
+        <requiredMemes>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Collectivist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Transhumanist</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+        </requiredMemes>
+        <disallowedPrecepts>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Prohibited</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Lovin_Horrible</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Lovin_SpouseOnly_Strict</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Lovin_SpouseOnly_Moderate</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Lovin_SpouseOnly_Mild</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_MedicalOnly</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">DrugUse_Prohibited</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinChestHairOrFaceDisapproved</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinChestOrHairDisapproved</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinOrChestDisapproved</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">Nudity_Female_UncoveredGroinDisapproved</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">NobleDespisedWeapons</li>
+            <li MayRequire="Ludeon.RimWorld.Biotech">PreferredXenotype</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Abhorrent</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Horrible</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">MeatEating_Disapproved</li>
+        </disallowedPrecepts>
+        <requiredPreceptsOnly>true</requiredPreceptsOnly>
+        <xenotypeSet>
+            <xenotypeChances>
+                <Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</Baseliner>
+            </xenotypeChances>
+        </xenotypeSet>
+        <backstoryCategories>
+            <li>Wolfein_ChildGeneral</li>
+            <li>Wolfein_General</li>
+            <li>Wolfein_MegaCorp</li>
+        </backstoryCategories>
+        <apparelStuffFilter>
+            <thingDefs>
+                <li>Cloth</li>
+                <li>WoolSheep</li>
+                <li>Hyperweave</li>
+                <li>Synthread</li>
+                <li>Wolfein_CompositeFabric</li>
+                <li>Wolfein_AlloyMaterials</li>
+            </thingDefs>
+        </apparelStuffFilter>
+        <caravanTraderKinds>
+            <li>Caravan_Wolfein_ArmsDealer</li>
+            <li>Caravan_Outlander_BulkGoods</li>
+            <li>Caravan_Outlander_Exotic</li>
+            <li>Caravan_Outlander_PirateMerchant</li>
+        </caravanTraderKinds>
+        <visitorTraderKinds>
+            <li>Visitor_Outlander_Standard</li>
+        </visitorTraderKinds>
+        <baseTraderKinds>
+            <li>Wolfein_MegaCorp_BaseStandard</li>
+        </baseTraderKinds>
+        <raidCommonalityFromPointsCurve>
+            <points>
+                <li>(0, 1)</li>                <!--Constant 1 at all points levels-->
+            </points>
+        </raidCommonalityFromPointsCurve>
+        <allowedArrivalTemperatureRange>-30~38</allowedArrivalTemperatureRange>
+        <maxPawnCostPerTotalPointsCurve>
+            <points>
+                <li>(100, 50)</li>
+                <li>(500, 100)</li>
+                <li>(1000, 150)</li>
+                <li>(2000, 500)</li>
+                <li>(3000, 600)</li>
+                <li>(6000, 800)</li>
+                <li>(8500, 10000)</li>
+            </points>
+        </maxPawnCostPerTotalPointsCurve>
+        <pawnGroupMakers>
+
+            <li>
+                <!--军企武装职员-->
+                <kindDef>Combat</kindDef>
+                <commonality>40</commonality>
+                <options>
+                    <Wolfein_MegaCorpArmedClerk>20</Wolfein_MegaCorpArmedClerk>
+                    <Wolfein_Mechanoid_MilitaryA>8</Wolfein_Mechanoid_MilitaryA>
+                    <Wolfein_Mechanoid_MilitaryB>8</Wolfein_Mechanoid_MilitaryB>
+                    <Wolfein_Mechanoid_MilitaryD>3</Wolfein_Mechanoid_MilitaryD>
+                    <Wolfein_Mechanoid_Drone>5</Wolfein_Mechanoid_Drone>
+                    <Wolfein_Mechanoid_DroneArmed>2</Wolfein_Mechanoid_DroneArmed>
+                </options>
+            </li>
+            <li>
+                <!--军企武装职员带派系领袖（防派系无法生成领袖）-->
+                <kindDef>Combat</kindDef>
+                <commonality>1</commonality>
+                <options>
+                    <Wolfein_MegaCorpRegionalSupervisor>1</Wolfein_MegaCorpRegionalSupervisor>
+                    <Wolfein_MegaCorpArmedClerk>20</Wolfein_MegaCorpArmedClerk>
+                    <Wolfein_Mechanoid_MilitaryA>8</Wolfein_Mechanoid_MilitaryA>
+                    <Wolfein_Mechanoid_MilitaryB>8</Wolfein_Mechanoid_MilitaryB>
+                    <Wolfein_Mechanoid_MilitaryD>3</Wolfein_Mechanoid_MilitaryD>
+                    <Wolfein_Mechanoid_Drone>5</Wolfein_Mechanoid_Drone>
+                    <Wolfein_Mechanoid_DroneArmed>2</Wolfein_Mechanoid_DroneArmed>
+                </options>
+            </li>
+
+            <li>
+                <!--军企机动队（普通）-->
+                <kindDef>Combat</kindDef>
+                <commonality>100</commonality>
+                <options>
+                    <Wolfein_MegaCorpSurgeon>1</Wolfein_MegaCorpSurgeon>
+                    <Wolfein_MegaCorpHacker>1</Wolfein_MegaCorpHacker>
+                    <Wolfein_MegaCorpGuard>20</Wolfein_MegaCorpGuard>
+                    <Wolfein_Mechanoid_MilitaryA>8</Wolfein_Mechanoid_MilitaryA>
+                    <Wolfein_Mechanoid_MilitaryB>8</Wolfein_Mechanoid_MilitaryB>
+                    <Wolfein_Mechanoid_MilitaryD>3</Wolfein_Mechanoid_MilitaryD>
+                    <Wolfein_Mechanoid_Drone>5</Wolfein_Mechanoid_Drone>
+                    <Wolfein_Mechanoid_DroneArmed>2</Wolfein_Mechanoid_DroneArmed>
+                </options>
+            </li>
+
+            <li>
+                <!--军企机动队（全面）-->
+                <kindDef>Combat</kindDef>
+                <commonality>40</commonality>
+                <options>
+                    <Wolfein_MegaCorpScout>4</Wolfein_MegaCorpScout>
+                    <Wolfein_MegaCorpSurgeon>1</Wolfein_MegaCorpSurgeon>
+                    <Wolfein_MegaCorpHacker>1</Wolfein_MegaCorpHacker>
+                    <Wolfein_MegaCorpSniper>2</Wolfein_MegaCorpSniper>
+                    <Wolfein_MegaCorpSupport>4</Wolfein_MegaCorpSupport>
+                    <Wolfein_MegaCorpVanguard>10</Wolfein_MegaCorpVanguard>
+                    <Wolfein_Mechanoid_MilitaryA>5</Wolfein_Mechanoid_MilitaryA>
+                    <Wolfein_Mechanoid_MilitaryB>5</Wolfein_Mechanoid_MilitaryB>
+                    <Wolfein_Mechanoid_MilitaryC>5</Wolfein_Mechanoid_MilitaryC>
+                    <Wolfein_Mechanoid_MilitaryD>2</Wolfein_Mechanoid_MilitaryD>
+                    <Wolfein_Mechanoid_Drone>5</Wolfein_Mechanoid_Drone>
+                    <Wolfein_Mechanoid_DroneArmed>2</Wolfein_Mechanoid_DroneArmed>
+                </options>
+            </li>
+
+            <li>
+                <!--军企机动队（重装）-->
+                <kindDef>Combat</kindDef>
+                <commonality>20</commonality>
+                <options>
+                    <Wolfein_MegaCorpSupport>10</Wolfein_MegaCorpSupport>
+                    <Wolfein_MegaCorpGuard>20</Wolfein_MegaCorpGuard>
+                    <Wolfein_Mechanoid_MilitaryC>10</Wolfein_Mechanoid_MilitaryC>
+                    <Wolfein_Mechanoid_MilitaryB>10</Wolfein_Mechanoid_MilitaryB>
+                    <Wolfein_Mechanoid_MilitaryE>1</Wolfein_Mechanoid_MilitaryE>
+                    <Wolfein_Mechanoid_MilitaryF>1</Wolfein_Mechanoid_MilitaryF>
+                    <Wolfein_Mechanoid_MilitaryGiant>100</Wolfein_Mechanoid_MilitaryGiant>
+                </options>
+            </li>
+
+            <li>
+                <kindDef>Peaceful</kindDef>
+                <options>
+                    <Wolfein_MegaCorpClerk>2</Wolfein_MegaCorpClerk>
+                    <Wolfein_MegaCorpCivilian>5</Wolfein_MegaCorpCivilian>
+                </options>
+            </li>
+
+            <li>
+                <kindDef>Trader</kindDef>
+                <traders>
+                    <Wolfein_MegaCorpTrader>1</Wolfein_MegaCorpTrader>
+                </traders>
+                <carriers>
+                    <Muffalo>6</Muffalo>
+                    <Alpaca>2</Alpaca>
+                    <Dromedary>5</Dromedary>
+                    <Elephant>2</Elephant>
+                </carriers>
+                <guards>
+                    <Wolfein_MegaCorpGuardInTrade>5</Wolfein_MegaCorpGuardInTrade>
+                    <Wolfein_MegaCorpSupportInTrade>2</Wolfein_MegaCorpSupportInTrade>
+                </guards>
+            </li>
+
+            <li>
+                <kindDef>Settlement</kindDef>
+                <options>
+                    <Wolfein_MegaCorpCivilian>20</Wolfein_MegaCorpCivilian>
+                    <Wolfein_MegaCorpClerk>15</Wolfein_MegaCorpClerk>
+                    <Wolfein_MegaCorpArmedClerk>10</Wolfein_MegaCorpArmedClerk>
+                    <Wolfein_MegaCorpScout>8</Wolfein_MegaCorpScout>
+                    <Wolfein_MegaCorpSurgeon>3</Wolfein_MegaCorpSurgeon>
+                    <Wolfein_MegaCorpHacker>3</Wolfein_MegaCorpHacker>
+                    <Wolfein_MegaCorpSniper>4</Wolfein_MegaCorpSniper>
+                    <Wolfein_MegaCorpSupport>6</Wolfein_MegaCorpSupport>
+                    <Wolfein_MegaCorpVanguard>7</Wolfein_MegaCorpVanguard>
+                    <Wolfein_MegaCorpRegionalSupervisor>1</Wolfein_MegaCorpRegionalSupervisor>
+                </options>
+            </li>
+        </pawnGroupMakers>
+        <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    </FactionDef>
+
+    <FactionDef ParentName="Wolfein_FactionBase_MegaCorp">
+        <defName>Wolfein_Faction_Rebel</defName>
+        <label>Wolfein Resistance army</label>
+        <description>The Wolfein Resistance Army is primarily driven by the goal of overthrowing the MegaCorp’s rule over the Wolfein people. Its members come from all walks of life—ranging from former corporate employees to hardened criminals—truly a reflection of the entire society. Rumors even suggest that some high-ranking figures within the ResistanceArmy are descendants of the old royal bloodline. Ultimately, due to their extreme methods of pursuing “justice,” the ResistanceArmy holds a poor reputation even among Wolfeins themselves. But then again, the Wolfein people don’t have many choices left.</description>
+        <colorSpectrum Inherit="false">
+            <li>(189,151,076)</li>
+        </colorSpectrum>
+        <listOrderPriority>247</listOrderPriority>
+        <hidden>true</hidden>
+        <canMakeRandomly>true</canMakeRandomly>
+        <canSiege>false</canSiege>
+        <autoFlee>true</autoFlee>
+        <canStageAttacks>true</canStageAttacks>
+        <leaderTitle>leader</leaderTitle>
+        <factionIconPath>Wolfein/Faction/FactionIcon_3</factionIconPath>
+        <naturalEnemy>true</naturalEnemy>
+        <permanentEnemy>true</permanentEnemy>
+        <requiredPreceptsOnly>true</requiredPreceptsOnly>
+        <raidCommonalityFromPointsCurve Inherit="false">
+            <points>
+                <li>(0, 0.00001)</li>
+            </points>
+        </raidCommonalityFromPointsCurve>
+        <backstoryCategories Inherit="false">
+            <li>Wolfein_ChildGeneral</li>
+            <li>Wolfein_General</li>
+            <li>Wolfein_MegaCorp</li>
+        </backstoryCategories>
+        <pawnGroupMakers Inherit="false">
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>40</commonality>
+                <options>
+                    <Wolfein_RebelMelee>1</Wolfein_RebelMelee>
+                    <Wolfein_RebelScout>2</Wolfein_RebelScout>
+                    <Wolfein_RebelSoldier>3</Wolfein_RebelSoldier>
+                </options>
+            </li>
+        </pawnGroupMakers>
+    </FactionDef>
+
+</Defs>

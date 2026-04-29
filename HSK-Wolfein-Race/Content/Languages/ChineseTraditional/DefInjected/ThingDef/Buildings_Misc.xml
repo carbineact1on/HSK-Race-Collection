@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein transport aircraft -->
+  <Wolfein_Shuttle.label>沃芬重型運輸機</Wolfein_Shuttle.label>
+  <!-- EN: Originally developed by the Wolfein MegaCorp for rapid deployment of high-intensity combat units within planetary atmospheres, this heavy transport craft has now been retrofitted with shuttle-grade engines, granting it transatmospheric and spaceflight capabilities. It can efficiently carry out transport missions between orbit and planetary surfaces. -->
+  <Wolfein_Shuttle.description>沃芬軍企開發的重型運輸機，原用於大氣層內快速部署高強度戰力單位，現已加裝穿梭機引擎並改造，具備跨大氣層與太空航行能力，可在軌道與地面之間高效執行運輸任務。</Wolfein_Shuttle.description>
+  
+</LanguageData>

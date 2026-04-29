@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThoughtDef>
+        <defName>Wolfein_AtePackingStaffMeals</defName>
+        <durationDays>0.4</durationDays>
+        <stages>
+            <li>
+                <label>ate Packing Staff Meals</label>
+                <description>It tastes good and I feel more energetic after eating it!</description>
+                <baseMoodEffect>5</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>Wolfein_MeatNeedLack</defName>
+        <workerClass>Wolfein.ThoughtWorker_MeatNeedLack</workerClass>
+        <stages>
+            <li>
+                <label>Needs to satisfy meat food requirement</label>
+                <description>Lately, something feels off with my meals—like something’s missing.</description>
+                <baseMoodEffect>-4</baseMoodEffect>
+            </li>
+            <li>
+                <label>Urgently needs to satisfy meat food requirement</label>
+                <description>Where’s my meat? Where’s my meat? Seriously—where’s my meat!?</description>
+                <baseMoodEffect>-12</baseMoodEffect>
+            </li>
+        </stages>
+        <nullifyingTraits>
+        </nullifyingTraits>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>Wolfein_MeatNeedSatisfied</defName>
+        <durationDays>0.5</durationDays>
+        <stages>
+            <li>
+                <label>Meat food requirement fulfilled</label>
+                <description>This taste is familiar and comforting.</description>
+                <baseMoodEffect>8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>Wolfein_AteChocolate</defName>
+        <durationDays>0.2</durationDays>
+        <stages>
+            <li>
+                <label>ate chocolate</label>
+                <description>Tastes pretty good! But... why do I feel a little uncomfortable?</description>
+                <baseMoodEffect>-2</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+
+</Defs>

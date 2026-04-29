@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- 家族成员去世 -->
+    <ThoughtDef Name="Wolfien_DeathMemoryFamily" ParentName="DeathMemory" Abstract="True">
+        <durationDays>30.0</durationDays>
+        <stackLimit>10</stackLimit>
+        <showBubble>true</showBubble>
+        <stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+    </ThoughtDef>
+
+    <ThoughtDef ParentName="Wolfien_DeathMemoryFamily">
+        <defName>Wolfien_MySonDied</defName>
+        <stages>
+            <li>
+                <label>My son {0} died</label>
+                <description>My son is dead... He is gone from me forever...</description>
+                <baseMoodEffect>-40</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef ParentName="Wolfien_DeathMemoryFamily">
+        <defName>Wolfien_MyDaughterDied</defName>
+        <stages>
+            <li>
+                <label>My daughter {0} died</label>
+                <description>My daughter is dead. She is gone from me forever...</description>
+                <baseMoodEffect>-40</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef ParentName="Wolfien_DeathMemoryFamily">
+        <defName>Wolfien_MyHusbandDied</defName>
+        <stages>
+            <li>
+                <label>My husband {0} died</label>
+                <description>My husband is dead. I am alone.</description>
+                <baseMoodEffect>-35</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef ParentName="Wolfien_DeathMemoryFamily">
+        <defName>Wolfien_MyWifeDied</defName>
+        <stages>
+            <li>
+                <label>My wife {0} died</label>
+                <description>My wife is dead. I am alone.</description>
+                <baseMoodEffect>-35</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef ParentName="Wolfien_DeathMemoryFamily">
+        <defName>Wolfien_MyFianceDied</defName>
+        <stages>
+            <li>
+                <label>My fiance {0} died</label>
+                <description>My fiance died. Such a man... my future is gone.</description>
+                <baseMoodEffect>-30</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef ParentName="Wolfien_DeathMemoryFamily">
+        <defName>Wolfien_MyFianceeDied</defName>
+        <stages>
+            <li>
+                <label>My fiancée {0} died</label>
+                <description>My fiancée died. Such a woman... my future is gone.</description>
+                <baseMoodEffect>-30</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef ParentName="Wolfien_DeathMemoryFamily">
+        <defName>Wolfien_MyLoverDied</defName>
+        <stages>
+            <li>
+                <label>My lover {0} died</label>
+                <description>My lover died. I am so alone.</description>
+                <baseMoodEffect>-30</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef ParentName="Wolfien_DeathMemoryFamily">
+        <defName>Wolfien_MyBrotherDied</defName>
+        <stages>
+            <li>
+                <label>My brother {0} died</label>
+                <description>My brother died. My own flesh and blood...</description>
+                <baseMoodEffect>-30</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef ParentName="Wolfien_DeathMemoryFamily">
+        <defName>Wolfien_MySisterDied</defName>
+        <stages>
+            <li>
+                <label>My sister {0} died</label>
+                <description>My sister died. My own flesh and blood...</description>
+                <baseMoodEffect>-28</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef ParentName="Wolfien_DeathMemoryFamily">
+        <defName>Wolfien_MyGrandchildDied</defName>
+        <stages>
+            <li>
+                <label>My grandchild {0} died</label>
+                <description>My grandchild died. My own flesh and blood...</description>
+                <baseMoodEffect>-35</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef ParentName="Wolfien_DeathMemoryFamily">
+        <defName>Wolfien_MyFatherDied</defName>
+        <stages>
+            <li>
+                <label>My father {0} died</label>
+                <description>My father died. He's gone forever.</description>
+                <baseMoodEffect>-35</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef ParentName="Wolfien_DeathMemoryFamily">
+        <defName>Wolfien_MyMotherDied</defName>
+        <stages>
+            <li>
+                <label>My mother {0} died</label>
+                <description>My mother died. She's gone forever.</description>
+                <baseMoodEffect>-35</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef ParentName="Wolfien_DeathMemoryFamily">
+        <defName>Wolfien_MyNieceDied</defName>
+        <stages>
+            <li>
+                <label>My niece {0} died</label>
+                <description>My niece died. Such a wonderful child.</description>
+                <baseMoodEffect>-20</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef ParentName="Wolfien_DeathMemoryFamily">
+        <defName>Wolfien_MyNephewDied</defName>
+        <stages>
+            <li>
+                <label>My nephew {0} died</label>
+                <description>My nephew died. Such a wonderful child.</description>
+                <baseMoodEffect>-20</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef ParentName="Wolfien_DeathMemoryFamily">
+        <defName>Wolfien_MyHalfSiblingDied</defName>
+        <stages>
+            <li>
+                <label>My half-sibling {0} died</label>
+                <description>My half-sibling died. My own flesh and blood...</description>
+                <baseMoodEffect>-15</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef ParentName="Wolfien_DeathMemoryFamily">
+        <defName>Wolfien_MyAuntDied</defName>
+        <stages>
+            <li>
+                <label>My aunt {0} died</label>
+                <description>My aunt died.</description>
+                <baseMoodEffect>-12</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef ParentName="Wolfien_DeathMemoryFamily">
+        <defName>Wolfien_MyUncleDied</defName>
+        <stages>
+            <li>
+                <label>My uncle {0} died</label>
+                <description>My uncle died.</description>
+                <baseMoodEffect>-12</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef ParentName="Wolfien_DeathMemoryFamily">
+        <defName>Wolfien_MyGrandparentDied</defName>
+        <stages>
+            <li>
+                <label>My grandparent {0} died</label>
+                <description>My grandparent died.</description>
+                <baseMoodEffect>-15</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef ParentName="Wolfien_DeathMemoryFamily">
+        <defName>Wolfien_MyCousinDied</defName>
+        <stages>
+            <li>
+                <label>My cousin {0} died</label>
+                <description>My cousin died. My own flesh and blood...</description>
+                <baseMoodEffect>-12</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef ParentName="Wolfien_DeathMemoryFamily">
+        <defName>Wolfien_MyKinDied</defName>
+        <stages>
+            <li>
+                <label>My kin {0} died</label>
+                <description>My kin died.</description>
+                <baseMoodEffect>-10</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+</Defs>

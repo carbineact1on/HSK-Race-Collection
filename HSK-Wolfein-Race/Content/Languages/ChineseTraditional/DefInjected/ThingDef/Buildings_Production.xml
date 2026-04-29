@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein Civilian Mech Workbench -->
+  <Wolfein_MechGestatorCivil.label>沃芬民用機械工作臺</Wolfein_MechGestatorCivil.label>
+  <!-- EN: Used for manufacturing Wolfein Civilian Mech Units. In addition to assembly, it also provides functionality for replacing civilian mech modules. -->
+  <Wolfein_MechGestatorCivil.description>用於製造沃芬民用機械體，除去組裝外還提供了更換民用機械模組的功能。</Wolfein_MechGestatorCivil.description>
+  
+  <!-- EN: Wolfein Military Mech Workbench -->
+  <Wolfein_MechGestatorMilitary.label>沃芬軍用機械工作臺</Wolfein_MechGestatorMilitary.label>
+  <!-- EN: Used for producing Wolfein Military Mech Units, and is even capable of assembling heavy mech units larger than its own platform. -->
+  <Wolfein_MechGestatorMilitary.description>用於製造沃芬軍用機械體，甚至可以製造比其加工平臺還大的重型機械體。</Wolfein_MechGestatorMilitary.description>
+  
+</LanguageData>

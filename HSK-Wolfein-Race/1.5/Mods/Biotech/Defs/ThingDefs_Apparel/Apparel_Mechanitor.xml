@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- 机械师套装（固定材料） -->
+    <ThingDef ParentName="Wolfein_ShellBase_Mechanitor">
+        <defName>Wolfein_MechanitorSuit</defName>
+        <label>Wolfein Mechanitor suit</label>
+        <description>The standard outfit for MegaCorp Mechanitors comes with powered armor legs housing numerous signal boosters and microcomputers. To reduce the overall weight, the original upper-body armor was replaced with a heavy coat. However, since the coat’s lining is also packed with essential Mechanitor support systems, it offers poor ventilation—leading most Wolfein Mechanitors to wear it half-off.</description>
+        <costList>
+            <ComponentSpacer>1</ComponentSpacer>
+            <ComponentIndustrial>6</ComponentIndustrial>
+            <Wolfein_AlloyMaterials>60</Wolfein_AlloyMaterials>
+            <Plasteel>80</Plasteel>
+        </costList>
+        <costStuffCount>65</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <generateCommonality>0</generateCommonality>
+        <graphicData>
+            <texPath>Wolfein/Apparel/Shell/MechanitorSuit/MechanitorSuit</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+            <recipeUsers Inherit="false">
+                <li>Wolfein_TableMachining</li>
+            </recipeUsers>
+            <researchPrerequisites>
+                <li>Wolfein_Industrial_production</li>
+            </researchPrerequisites>
+        </recipeMaker>
+        <statBases>
+            <MaxHitPoints>420</MaxHitPoints>
+            <WorkToMake>80000</WorkToMake>
+            <Mass>16.0</Mass>
+            <Flammability>0.4</Flammability>
+            <ArmorRating_Sharp>0.9</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.4</ArmorRating_Heat>
+            <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+            <Insulation_Cold>38</Insulation_Cold>
+            <Insulation_Heat>10</Insulation_Heat>
+            <EquipDelay>18.0</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Feet</li>
+                <li>Hands</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/Shell/MechanitorSuit/MechanitorSuit</wornGraphicPath>
+            <tags>
+                <li>Wolfein_Mechanitor</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MechBandwidth>22</MechBandwidth>
+            <MeleeHitChance>-2</MeleeHitChance>
+            <MoveSpeed>-0.1</MoveSpeed>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 民用数控背包（固定材料） -->
+    <ThingDef ParentName="Wolfein_SundryBase_Mechanitor">
+        <defName>Wolfein_CivilControlPack</defName>
+        <label>Wolfein Civil control pack</label>
+        <description>A civilian Mechanitor controlpack licensed for production by MegaCorp. Compared to the military version, it sacrifices some mech control capabilities in exchange for a lighter build.</description>
+        <costList>
+            <SteelBar>10</SteelBar>
+            <Wolfein_AlloyMaterials>60</Wolfein_AlloyMaterials>
+            <ComponentIndustrial>8</ComponentIndustrial>
+        </costList>
+        <generateCommonality>0</generateCommonality>
+        <graphicData>
+            <texPath>Wolfein/Apparel/Sundry/CivilControlPack/CivilControlPack</texPath>
+            <shaderType>CutoutComplex</shaderType>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <WorkToMake>800</WorkToMake>
+            <Mass>3</Mass>
+            <EquipDelay>2</EquipDelay>
+        </statBases>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+            <recipeUsers Inherit="false">
+                <li>Wolfein_TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Waist</li>
+            </bodyPartGroups>
+            <layers Inherit="false">
+                <li>Belt</li>
+            </layers>
+            <wornGraphicPath>Wolfein/Apparel/Sundry/CivilControlPack/CivilControlPack</wornGraphicPath>
+            <tags>
+                <li>Wolfein_Mechanitor</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+            <drawData>
+                <dataNorth>
+                    <layer>50</layer>
+                </dataNorth>
+                <dataSouth>
+                    <layer>-100</layer>
+                </dataSouth>
+                <dataEast>
+                    <layer>-100</layer>
+                </dataEast>
+                <dataWest>
+                    <layer>-100</layer>
+                </dataWest>
+            </drawData>
+        </apparel>
+        <equippedStatOffsets>
+            <MechControlGroups>1</MechControlGroups>
+            <MechBandwidth>8</MechBandwidth>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 军用数控背包（固定材料） -->
+    <ThingDef ParentName="Wolfein_SundryBase_Mechanitor">
+        <defName>Wolfein_MilitaryControlPack</defName>
+        <label>Wolfein Military control pack</label>
+        <description>An auxiliary device used by MegaCorp Task Force units. Equipped with a specialized support-grade mech core, it's the key that allows Task Force Mechanitors to command a large number of heavy mechs. Only issued to certified Wolfein Mechanitors, and biologically coded to prevent any leakage of corporate secrets.</description>
+        <costList>
+            <SteelBar>10</SteelBar>
+            <Wolfein_AlloyMaterials>60</Wolfein_AlloyMaterials>
+            <ComponentIndustrial>10</ComponentIndustrial>
+            <ComponentSpacer>2</ComponentSpacer>
+        </costList>
+        <generateCommonality>0</generateCommonality>
+        <graphicData>
+            <texPath>Wolfein/Apparel/Sundry/MilitaryControlPack/MilitaryControlPack</texPath>
+            <shaderType>CutoutComplex</shaderType>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+            <recipeUsers Inherit="false">
+                <li>Wolfein_TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <WorkToMake>2000</WorkToMake>
+            <Mass>3</Mass>
+            <EquipDelay>2</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Waist</li>
+            </bodyPartGroups>
+            <layers Inherit="false">
+                <li>Belt</li>
+            </layers>
+            <wornGraphicPath>Wolfein/Apparel/Sundry/MilitaryControlPack/MilitaryControlPack</wornGraphicPath>
+            <tags>
+                <li>Wolfein_Mechanitor</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+            <drawData>
+                <dataNorth>
+                    <layer>50</layer>
+                </dataNorth>
+                <dataSouth>
+                    <layer>-100</layer>
+                </dataSouth>
+                <dataEast>
+                    <layer>-100</layer>
+                </dataEast>
+                <dataWest>
+                    <layer>-100</layer>
+                </dataWest>
+            </drawData>
+        </apparel>
+        <equippedStatOffsets>
+            <MechControlGroups>2</MechControlGroups>
+            <MechBandwidth>14</MechBandwidth>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 原型机械信号激励器（固定材料） -->
+    <ThingDef ParentName="Wolfein_OverHeadBase_Mechanitor">
+        <defName>Wolfein_PrototypicalMechSignalBooster</defName>
+        <label>Wolfein Prototypical mech signal booster</label>
+        <description>The latest breakthrough from MegaCorp, this device marks a significant leap in Mechanitor support technology. Equipped with a quantum computer capable of effortlessly simulating even human cognition, users have described it as a Mechanitor tool straight out of the age of miracles.</description>
+        <costList>
+            <ComponentIndustrial>8</ComponentIndustrial>
+            <Wolfein_AlloyMaterials>25</Wolfein_AlloyMaterials>
+            <Wolfein_CompositeFabric>10</Wolfein_CompositeFabric>
+        </costList>
+        <generateCommonality>0</generateCommonality>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OverHead/PrototypicalMechSignalBooster/PrototypicalMechSignalBooster</texPath>
+            <shaderType>CutoutComplex</shaderType>
+            <drawSize>2.0</drawSize>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+            <recipeUsers Inherit="false">
+                <li>Wolfein_TableMachining</li>
+            </recipeUsers>
+            <researchPrerequisites>
+                <li>Wolfein_Industrial_production</li>
+            </researchPrerequisites>
+        </recipeMaker>
+        <statBases>
+            <Mass>1.0</Mass>
+            <MaxHitPoints>220</MaxHitPoints>
+            <WorkToMake>10000</WorkToMake>
+            <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.10</ArmorRating_Heat>
+            <StuffEffectMultiplierArmor>0.20</StuffEffectMultiplierArmor>
+            <Insulation_Cold>3</Insulation_Cold>
+            <Insulation_Heat>3</Insulation_Heat>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Eyes</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OverHead/PrototypicalMechSignalBooster/PrototypicalMechSignalBooster</wornGraphicPath>
+            <tags>
+                <li>Wolfein_Mechanitor</li>
+                <li>Wolfein_OverHead_CombatI</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+            <drawData>
+                <dataNorth>
+                    <layer>280</layer>
+                </dataNorth>
+                <dataSouth>
+                    <layer>280</layer>
+                </dataSouth>
+                <dataEast>
+                    <layer>280</layer>
+                </dataEast>
+                <dataWest>
+                    <layer>280</layer>
+                </dataWest>
+            </drawData>
+        </apparel>
+        <equippedStatOffsets>
+            <MoveSpeed>0.1</MoveSpeed>
+            <MechBandwidth>8</MechBandwidth>
+        </equippedStatOffsets>
+    </ThingDef>
+
+    <!-- 阵列目镜（固定材料） -->
+    <ThingDef ParentName="Wolfein_OverHeadBase_Mechanitor">
+        <defName>Wolfein_ArrayGlass</defName>
+        <label>Wolfein Array glass</label>
+        <description>Standard-issue gear for MegaCorp Mechanitors. Its built-in microcomputer not only assists in controlling mech units but also projects probable enemy movements onto the monocle display to aid with targeting.</description>
+        <costList>
+            <ComponentIndustrial>8</ComponentIndustrial>
+            <Wolfein_AlloyMaterials>25</Wolfein_AlloyMaterials>
+            <Wolfein_CompositeFabric>10</Wolfein_CompositeFabric>
+        </costList>
+        <generateCommonality>0</generateCommonality>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OverHead/ArrayGlass/ArrayGlass</texPath>
+            <shaderType>CutoutComplex</shaderType>
+            <drawSize>2.0</drawSize>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+            <recipeUsers Inherit="false">
+                <li>Wolfein_TableMachining</li>
+            </recipeUsers>
+            <researchPrerequisites>
+                <li>Wolfein_Industrial_production</li>
+            </researchPrerequisites>
+        </recipeMaker>
+        <statBases>
+            <Mass>1.0</Mass>
+            <MaxHitPoints>220</MaxHitPoints>
+            <WorkToMake>10000</WorkToMake>
+            <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.10</ArmorRating_Heat>
+            <StuffEffectMultiplierArmor>0.20</StuffEffectMultiplierArmor>
+            <Insulation_Cold>3</Insulation_Cold>
+            <Insulation_Heat>3</Insulation_Heat>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Eyes</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OverHead/ArrayGlass/ArrayGlass</wornGraphicPath>
+            <tags>
+                <li>Wolfein_Mechanitor</li>
+                <li>Wolfein_OverHead_CombatI</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+            <drawData>
+                <dataNorth>
+                    <layer>280</layer>
+                </dataNorth>
+                <dataSouth>
+                    <layer>280</layer>
+                </dataSouth>
+                <dataEast>
+                    <layer>280</layer>
+                </dataEast>
+                <dataWest>
+                    <layer>280</layer>
+                </dataWest>
+            </drawData>
+        </apparel>
+        <equippedStatOffsets>
+            <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
+            <MechBandwidth>5</MechBandwidth>
+        </equippedStatOffsets>
+    </ThingDef>
+
+
+</Defs>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- 军用头盔（固定材料） -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wolfein_Helmet"]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>300</MaxHitPoints>
+            <Flammability>0.4</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+            <Mass>1.5</Mass>
+            <EquipDelay>2</EquipDelay>
+            <WorkToMake>16500</WorkToMake>
+            <ArmorRating_Sharp>9</ArmorRating_Sharp>
+            <ArmorRating_Blunt>14</ArmorRating_Blunt>
+            <Bulk>4</Bulk>
+            <WornBulk>1</WornBulk>
+          </statBases>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+</Patch>

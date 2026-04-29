@@ -1,0 +1,1489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+        <defName>Wolfein_Race</defName>
+        <label>Wolfein race</label>
+        <description>The Wolfein are a nocturnal humanoid species, gifted with night vision and hearing far superior to that of humans. Their most distinctive features are the lupine ears atop their heads and the fluffy wolf tails at their backs. Today, the entire race lives under the iron rule of a megacorp known as the Military-Industrial Combine—a colossal enterprise that once served as the Wolfein Empire’s defense contractor and has since permeated every stage of Wolfein life, from birth to death.
+
+            Though Wolfein civilization has advanced into the space age, the instinct for rebellion inherited through generations of wolf-blooded genes is steadily being dismantled by the corporate machine. The vast majority of Wolfein now curl beneath the megacorp’s totalitarian rule, their lives dissected into quantifiable data units by an omnipresent, unblinking surveillance system. Even the faintest thought of escape is swiftly erased within the airtight net of control.
+
+            After a brutal total war with the Machinekind decimated the Wolfein population, the megacorp's grip began to show cracks. To fill the void in combat strength, it reverse-engineered Machinekind technology and mass-produced efficient killing machines. Amidst the ruins of war, a resistance movement has begun to grow in the shadows. Bound by the creed “overthrow the megacorp at all costs,” their actions—labeled as acts of terrorism by official media—are now tearing fissures into the rusted iron curtain of corporate control.</description>
+        <alienRace>
+            <generalSettings>
+                <maleGenderProbability>0.00000001</maleGenderProbability>
+                <minAgeForAdulthood>19</minAgeForAdulthood>
+                <immuneToXenophobia>false</immuneToXenophobia>
+                <immuneToAge>true</immuneToAge>
+                <humanRecipeImport>true</humanRecipeImport>
+                <maxDamageForSocialfight>1</maxDamageForSocialfight>
+                <factionRelations>
+                    <li>
+                        <factions>
+                            <li>Wolfein_PlayerFaction_MegaCorpHostile</li>
+                        </factions>
+                        <goodwill>
+                            <min>-100</min>
+                            <max>-100</max>
+                        </goodwill>
+                    </li>
+                </factionRelations>
+                <forcedRaceTraitEntries>
+                    <li>
+                        <defName>Nimble</defName>
+                        <chance>20</chance>
+                    </li>
+                    <li>
+                        <defName>Bloodlust</defName>
+                        <chance>15</chance>
+                    </li>
+                    <li>
+                        <defName>NightOwl</defName>
+                        <chance>100</chance>
+                    </li>
+                </forcedRaceTraitEntries>
+                <disallowedTraits>
+                    <li>
+                        <defName Degree="-1">Beauty</defName>
+                    </li>
+                    <li>
+                        <defName Degree="-2">Beauty</defName>
+                    </li>
+                    <li>
+                        <defName>CreepyBreathing</defName>
+                    </li>
+                    <li>
+                        <defName>AnnoyingVoice</defName>
+                    </li>
+                </disallowedTraits>
+                <growthAges MayRequire="Ludeon.RimWorld.Biotech">
+                    <li>7</li>
+                    <li>10</li>
+                    <li>13</li>
+                </growthAges>
+
+                <alienPartGenerator>
+                    <bodyTypes>
+                        <li>Female</li>
+                        <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
+                        <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
+                    </bodyTypes>
+                    <headTypes Inherit="False">
+                        <li>Wolfein_Head_A</li>
+                        <li>Wolfein_Head_B</li>
+                        <li>Wolfein_Head_C</li>
+                        <li>Wolfein_Head_D</li>
+                        <li>Wolfein_Head_E</li>
+                        <li>Wolfein_Head_F</li>
+                        <li>Wolfein_Head_G</li>
+                        <li>Wolfein_Head_H</li>
+                        <li>Wolfein_Head_I</li>
+                        <li>Wolfein_Head_J</li>
+                        <li>Wolfein_Head_K</li>
+                    </headTypes>
+
+                    <headOffsetDirectional>
+                        <north>
+                            <offset>(0.0, 0.02)</offset>
+                        </north>
+                        <south>
+                            <offset>(0.0, 0.02)</offset>
+                        </south>
+                        <east>
+                            <offset>(-0.07, 0.016)</offset>
+                        </east>
+                        <west>
+                            <offset>(0.07, 0.016)</offset>
+                        </west>
+                    </headOffsetDirectional>
+                    <customDrawSize>(1.0,1.0)</customDrawSize>
+                    <customHeadDrawSize>(0.75, 0.75)</customHeadDrawSize>
+                    <customPortraitHeadDrawSize>(0.75, 0.75)</customPortraitHeadDrawSize>
+                    <customPortraitDrawSize>(1.0, 1.0)</customPortraitDrawSize>
+
+                    <!-- 身体附件 -->
+                    <bodyAddons>
+
+                        <!-- 以巴 -->
+                        <li>
+                            <name>Wolfein tail</name>
+                            <userCustomizable>false</userCustomizable>
+                            <path>Wolfein/Tail/tail</path>
+                            <inFrontOfBody>false</inFrontOfBody>
+                            <colorChannel>hair</colorChannel>
+                            <drawSize>1</drawSize>
+                            <defaultOffset>Center</defaultOffset>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPart>Wolfein_Tail</bodyPart>
+                                    <bodyPartLabel>Tail</bodyPartLabel>
+                                </BodyPart>
+                                <Apparel>
+                                    <hiddenUnderApparelTag>
+                                        <li>Wolfein_HideTail</li>
+                                    </hiddenUnderApparelTag>
+                                </Apparel>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>false</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <offsets>
+                                <north>
+                                    <bodyTypes>
+                                        <Female>(0,0)</Female>
+                                        <Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
+                                        <Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
+                                    </bodyTypes>
+                                    <layerOffset>-0.282</layerOffset>
+                                </north>
+                                <south>
+                                    <bodyTypes>
+                                        <Female>(0,0)</Female>
+                                        <Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
+                                        <Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
+                                    </bodyTypes>
+                                </south>
+                                <east>
+                                    <bodyTypes>
+                                        <Female>(0,0)</Female>
+                                        <Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
+                                        <Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
+                                    </bodyTypes>
+                                </east>
+                                <west>
+                                    <bodyTypes>
+                                        <Female>(0,0)</Female>
+                                        <Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
+                                        <Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
+                                    </bodyTypes>
+                                </west>
+                            </offsets>
+                            <extendedGraphics>
+                                <BodyType MayRequire="Ludeon.RimWorld.Biotech" For="Baby">
+                                    <path>Wolfein/Tail/babytail</path>
+                                    <extendedGraphics>
+                                        <Trait For="Pure-blood Wolfein">Wolfein/Tail/PureBlood/babytail</Trait>
+                                    </extendedGraphics>
+                                </BodyType>
+                                <Hediff For="Wolfein_CombatBionicTailInstalled">Wolfein/BionicBody/MechinalTail/MechinalTail</Hediff>
+                                <Trait For="Pure-blood Wolfein">Wolfein/Tail/PureBlood/tail</Trait>
+                            </extendedGraphics>
+                        </li>
+
+                        <!-- 右耳 -->
+                        <li>
+                            <name>Wolfein right ear</name>
+                            <userCustomizable>true</userCustomizable>
+                            <path>Wolfein/Ear_right/earR</path>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <colorChannel>hair</colorChannel>
+                            <layerInvert>true</layerInvert>
+                            <angle>0</angle>
+                            <drawSize>1</drawSize>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <defaultOffset>Center</defaultOffset>
+                            <alignWithHead>true</alignWithHead>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>right ear</bodyPartLabel>
+                                </BodyPart>
+                                <Apparel>
+                                    <hiddenUnderApparelTag>
+                                        <li>Wolfein_RightEarCover</li>
+                                    </hiddenUnderApparelTag>
+                                </Apparel>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>true</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <offsets>
+                                <north>
+                                    <bodyTypes>
+                                        <Female>(0.0, 0.0)</Female>
+                                        <Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
+                                        <Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
+                                    </bodyTypes>
+                                    <layerOffset>-0.35</layerOffset>
+                                </north>
+                                <south>
+                                    <bodyTypes>
+                                        <Female>(0.0, 0.0)</Female>
+                                        <Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
+                                        <Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
+                                    </bodyTypes>
+                                    <layerOffset>0.48</layerOffset>
+                                </south>
+                                <east>
+                                    <bodyTypes>
+                                        <Female>(0.0, 0.0)</Female>
+                                        <Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
+                                        <Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
+                                    </bodyTypes>
+                                    <layerOffset>0.32</layerOffset>
+                                </east>
+                                <west>
+                                    <bodyTypes>
+                                        <Female>(0.0, 0.0)</Female>
+                                        <Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
+                                        <Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
+                                    </bodyTypes>
+                                    <layerOffset>-0.32</layerOffset>
+                                </west>
+                            </offsets>
+                            <extendedGraphics>
+                                <Hediff For="Wolfein_CombatBionicEarInstalled">Wolfein/BionicBody/MechanicalEar/MechanicalEarR/MechanicalEarR</Hediff>
+                                <Trait For="Pure-blood Wolfein">Wolfein/Ear_right/PureBlood/earR</Trait>
+                            </extendedGraphics>
+                        </li>
+
+                        <!-- 左耳 -->
+                        <li>
+                            <name>Wolfein left ear</name>
+                            <userCustomizable>true</userCustomizable>
+                            <path>Wolfein/Ear_left/earL</path>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <colorChannel>hair</colorChannel>
+                            <layerInvert>true</layerInvert>
+                            <angle>0</angle>
+                            <drawSize>1</drawSize>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <defaultOffset>Center</defaultOffset>
+                            <alignWithHead>true</alignWithHead>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>left ear</bodyPartLabel>
+                                </BodyPart>
+                                <Apparel>
+                                    <hiddenUnderApparelTag>
+                                        <li>Wolfein_LeftEarCover</li>
+                                    </hiddenUnderApparelTag>
+                                </Apparel>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>true</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <offsets>
+                                <north>
+                                    <bodyTypes>
+                                        <Female>(0.0, 0.0)</Female>
+                                        <Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
+                                        <Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
+                                    </bodyTypes>
+                                    <layerOffset>-0.35</layerOffset>
+                                </north>
+                                <south>
+                                    <bodyTypes>
+                                        <Female>(0.0, 0.0)</Female>
+                                        <Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
+                                        <Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
+                                    </bodyTypes>
+                                    <layerOffset>0.48</layerOffset>
+                                </south>
+                                <east>
+                                    <bodyTypes>
+                                        <Female>(0.0, 0.0)</Female>
+                                        <Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
+                                        <Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
+                                    </bodyTypes>
+                                    <layerOffset>-0.32</layerOffset>
+                                </east>
+                                <west>
+                                    <bodyTypes>
+                                        <Female>(0.0, 0.0)</Female>
+                                        <Baby MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Baby>
+                                        <Child MayRequire="Ludeon.RimWorld.Biotech">(0,0)</Child>
+                                    </bodyTypes>
+                                    <layerOffset>0.32</layerOffset>
+                                </west>
+                            </offsets>
+                            <extendedGraphics>
+                                <Hediff For="Wolfein_CombatBionicEarInstalled">Wolfein/BionicBody/MechanicalEar/MechanicalEarL/MechanicalEarL</Hediff>
+                                <Trait For="Pure-blood Wolfein">Wolfein/Ear_left/PureBlood/earL</Trait>
+                            </extendedGraphics>
+                        </li>
+
+                        <!-- 呆毛 -->
+                        <li>
+                            <name>Wolfein ahoge</name>
+                            <userCustomizable>true</userCustomizable>
+                            <path>Wolfein/HairAhoge/Ahoge</path>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <colorChannel>hair</colorChannel>
+                            <alignWithHead>true</alignWithHead>
+                            <layerInvert>false</layerInvert>
+                            <angle>0</angle>
+                            <drawSize>1</drawSize>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <defaultOffset>Center</defaultOffset>
+                            <useSkipFlags>
+                                <li>Wolfein_Hair</li>
+                            </useSkipFlags>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPart>Head</bodyPart>
+                                </BodyPart>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>true</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <offsets>
+                                <north>
+                                    <layerOffset>0.5</layerOffset>
+                                </north>
+                                <south>
+                                    <layerOffset>0.5</layerOffset>
+                                </south>
+                                <east>
+                                    <layerOffset>0.5</layerOffset>
+                                </east>
+                                <west>
+                                    <layerOffset>0.5</layerOffset>
+                                </west>
+                            </offsets>
+                            <extendedGraphics>
+                                <Trait For="Pure-blood Wolfein">Wolfein/HairAhoge/Ahoge/Ahoge</Trait>
+                            </extendedGraphics>
+                        </li>
+
+                        <!-- 眉毛 -->
+                        <li>
+                            <name>Wolfein eyebrow</name>
+                            <userCustomizable>true</userCustomizable>
+                            <path>Wolfein/Eyebrow/eyebrow</path>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <colorChannel>hair</colorChannel>
+                            <alignWithHead>true</alignWithHead>
+                            <layerInvert>false</layerInvert>
+                            <angle>0</angle>
+                            <drawSize>1</drawSize>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <defaultOffset>Center</defaultOffset>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPart>Head</bodyPart>
+                                </BodyPart>
+                                <Apparel>
+                                    <hiddenUnderApparelTag>
+                                        <li>Wolfein_EyebrowCover</li>
+                                    </hiddenUnderApparelTag>
+                                </Apparel>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>true</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <offsets>
+                                <north>
+                                    <layerOffset>0.0</layerOffset>
+                                </north>
+                                <south>
+                                    <layerOffset>0.0</layerOffset>
+                                </south>
+                                <east>
+                                    <layerOffset>0.0</layerOffset>
+                                </east>
+                                <west>
+                                    <layerOffset>0.0</layerOffset>
+                                </west>
+                            </offsets>
+                            <extendedGraphics>
+                                <Trait For="Pure-blood Wolfein">Wolfein/Eyebrow/PureBlood/eyebrow</Trait>
+                            </extendedGraphics>
+                        </li>
+
+                        <!-- 头发 -->
+                        <li>
+                            <name>Wolfein hair</name>
+                            <userCustomizable>true</userCustomizable>
+                            <path>Wolfein/Hair/hair</path>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <colorChannel>hair</colorChannel>
+                            <layerInvert>false</layerInvert>
+                            <angle>0</angle>
+                            <drawSize>1</drawSize>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <defaultOffset>Center</defaultOffset>
+                            <alignWithHead>true</alignWithHead>
+                            <useSkipFlags>
+                                <li>Wolfein_Hair</li>
+                            </useSkipFlags>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPart>Head</bodyPart>
+                                </BodyPart>
+                                <Apparel>
+                                </Apparel>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>true</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <offsets>
+                                <west>
+                                    <layerOffset>-0.273</layerOffset>
+                                </west>
+                                <south>
+                                    <layerOffset>-0.273</layerOffset>
+                                </south>
+                                <north>
+                                    <layerOffset>-0.273</layerOffset>
+                                </north>
+                                <east>
+                                    <layerOffset>-0.273</layerOffset>
+                                </east>
+                            </offsets>
+                            <extendedGraphics>
+                                <Trait For="Pure-blood Wolfein">Wolfein/Hair/PureBlood/hair</Trait>
+                            </extendedGraphics>
+                        </li>
+
+                        <!-- 左腿 -->
+                        <li>
+                            <name>Wolfein left leg</name>
+                            <userCustomizable>false</userCustomizable>
+                            <path>Wolfein/Empty</path>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <colorChannel>blank</colorChannel>
+                            <layerInvert>true</layerInvert>
+                            <angle>0</angle>
+                            <drawSize>1</drawSize>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <defaultOffset>Center</defaultOffset>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>left leg</bodyPartLabel>
+                                </BodyPart>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>true</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <offsets>
+                                <north>
+                                    <layerOffset>-0.35</layerOffset>
+                                </north>
+                                <south>
+                                    <layerOffset>0.48</layerOffset>
+                                </south>
+                                <east>
+                                    <layerOffset>-0.32</layerOffset>
+                                </east>
+                                <west>
+                                    <layerOffset>0.32</layerOffset>
+                                </west>
+                            </offsets>
+                            <extendedGraphics>
+                                <Hediff For="Wolfein_MechinalLegInstalled">Wolfein/BionicBody/MechinalLeg/MechinalLegL/MechinalLegL</Hediff>
+                            </extendedGraphics>
+                        </li>
+                        <!-- 右腿 -->
+                        <li>
+                            <name>Wolfein right leg</name>
+                            <userCustomizable>false</userCustomizable>
+                            <path>Wolfein/Empty</path>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <colorChannel>blank</colorChannel>
+                            <layerInvert>true</layerInvert>
+                            <angle>0</angle>
+                            <drawSize>1</drawSize>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <defaultOffset>Center</defaultOffset>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>right leg</bodyPartLabel>
+                                </BodyPart>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>true</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <offsets>
+                                <north>
+                                    <layerOffset>-0.35</layerOffset>
+                                </north>
+                                <south>
+                                    <layerOffset>0.48</layerOffset>
+                                </south>
+                                <east>
+                                    <layerOffset>-0.32</layerOffset>
+                                </east>
+                                <west>
+                                    <layerOffset>0.32</layerOffset>
+                                </west>
+                            </offsets>
+                            <extendedGraphics>
+                                <Hediff For="Wolfein_MechinalLegInstalled">Wolfein/BionicBody/MechinalLeg/MechinalLegR/MechinalLegR</Hediff>
+                            </extendedGraphics>
+                        </li>
+
+                        <!-- 头部 -->
+                        <!-- <li>
+                            <name>Wolfein head</name>
+                            <userCustomizable>true</userCustomizable>
+                            <path>Wolfein/Heads/WolfeinHead</path>
+                            <shaderType>Cutout</shaderType>
+                            <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <layerInvert>false</layerInvert>
+                            <colorChannel>skin</colorChannel>
+                            <alignWithHead>true</alignWithHead>
+                            <angle>0</angle>
+                            <drawSize>1</drawSize>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPart>Head</bodyPart>
+                                </BodyPart>
+                                <Apparel>
+                                    <hiddenUnderApparelTag>
+                                        <li>Wolfein_HeadCover</li>
+                                    </hiddenUnderApparelTag>
+                                </Apparel>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>true</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <offsets>
+                                <north>
+                                    <layerOffset>-0.286</layerOffset>
+                                </north>
+                                <south>
+                                    <layerOffset>-0.286</layerOffset>
+                                    <offset>(0,0)</offset>
+                                </south>
+                                <east>
+                                    <layerOffset>-0.286</layerOffset>
+                                    <offset>(0,0)</offset>
+                                </east>
+                                <west>
+                                    <layerOffset>-0.286</layerOffset>
+                                    <offset>(0,0)</offset>
+                                </west>
+                            </offsets>
+                            <extendedGraphics>
+                                <BodyType MayRequire="Ludeon.RimWorld.Biotech" For="Baby">Wolfein/HeadBaby/WolfeinHeadbaby</BodyType>
+                            </extendedGraphics>
+                        </li> -->
+                    </bodyAddons>
+
+                    <!-- 颜色设置 -->
+                    <colorChannels>
+                        <li>
+                            <name>skin</name>
+                            <first Class="ColorGenerator_Options">
+                                <options>
+                                    <li>
+                                        <weight>100</weight>
+                                        <only>RGB(255,255,255)</only>
+                                    </li>
+                                </options>
+                            </first>
+                            <!-- 瞳色 -->
+                            <second Class="ColorGenerator_Options">
+                                <options>
+                                    <li>
+                                        <weight>10</weight>
+                                        <min>RGB(150,150,150)</min>
+                                        <max>RGB(255,255,255)</max>
+                                    </li>
+                                </options>
+                            </second>
+                        </li>
+                        <li>
+                            <name>hair</name>
+                            <first Class="ColorGenerator_Options">
+                                <!-- 灰色 -->
+                                <options>
+                                    <li>
+                                        <weight>20</weight>
+                                        <min>RGB(100,100,100)</min>
+                                        <max>RGB(110,110,110)</max>
+                                    </li>
+                                    <li>
+                                        <weight>20</weight>
+                                        <min>RGB(150,150,150)</min>
+                                        <max>RGB(170,170,170)</max>
+                                    </li>
+                                    <li>
+                                        <weight>20</weight>
+                                        <min>RGB(210,210,210)</min>
+                                        <max>RGB(230,230,230)</max>
+                                    </li>
+                                    <!-- 黑色 -->
+                                    <li>
+                                        <weight>40</weight>
+                                        <min>RGB(55,55,55)</min>
+                                        <max>RGB(65,65,65)</max>
+                                    </li>
+                                    <!-- 棕色系 -->
+                                    <li>
+                                        <weight>8</weight>
+                                        <only>RGB(75,51,35)</only>
+                                    </li>
+                                    <li>
+                                        <weight>8</weight>
+                                        <only>RGB(150,125,105)</only>
+                                    </li>
+                                    <li>
+                                        <weight>8</weight>
+                                        <only>RGB(220,195,175)</only>
+                                    </li>
+                                    <li>
+                                        <weight>8</weight>
+                                        <only>RGB(121,97,78)</only>
+                                    </li>
+                                    <li>
+                                        <weight>8</weight>
+                                        <only>RGB(123,65,41)</only>
+                                    </li>
+                                    <li>
+                                        <weight>8</weight>
+                                        <only>RGB(192,126,98)</only>
+                                    </li>
+                                    <li>
+                                        <weight>8</weight>
+                                        <only>RGB(184,132,86)</only>
+                                    </li>
+                                    <!-- 蓝色系 -->
+                                    <li>
+                                        <weight>7.5</weight>
+                                        <min>RGB(72,87,102)</min>
+                                        <max>RGB(78,93,108)</max>
+                                    </li>
+                                    <li>
+                                        <weight>7.5</weight>
+                                        <min>RGB(117,137,157)</min>
+                                        <max>RGB(123,143,163)</max>
+                                    </li>
+                                    <li>
+                                        <weight>7.5</weight>
+                                        <only>RGB(210,220,230)</only>
+                                    </li>
+                                    <!-- 绿色系 -->
+                                    <li>
+                                        <weight>7.5</weight>
+                                        <min>RGB(92,122,117)</min>
+                                        <max>RGB(98,128,123)</max>
+                                    </li>
+                                    <li>
+                                        <weight>7.5</weight>
+                                        <min>RGB(57,92,87)</min>
+                                        <max>RGB(63,98,93)</max>
+                                    </li>
+                                    <li>
+                                        <weight>7.5</weight>
+                                        <min>RGB(157,202,192)</min>
+                                        <max>RGB(163,208,198)</max>
+                                    </li>
+                                    <!-- 紫色系 -->
+                                    <li>
+                                        <weight>7.5</weight>
+                                        <min>RGB(87,82,102)</min>
+                                        <max>RGB(98,128,123)</max>
+                                    </li>
+                                    <li>
+                                        <weight>7.5</weight>
+                                        <min>RGB(142,127,157)</min>
+                                        <max>RGB(148,133,163)</max>
+                                    </li>
+                                    <li>
+                                        <weight>7.5</weight>
+                                        <min>RGB(217,202,227)</min>
+                                        <max>RGB(223,208,233)</max>
+                                    </li>
+                                    <!-- 卡其色 -->
+                                    <li>
+                                        <weight>11.25</weight>
+                                        <min>RGB(167,167,132)</min>
+                                        <max>RGB(173,173,138)</max>
+                                    </li>
+                                    <li>
+                                        <weight>11.25</weight>
+                                        <min>RGB(222,222,202)</min>
+                                        <max>RGB(228,228,208)</max>
+                                    </li>
+                                    <!-- 黄色 -->
+                                    <li>
+                                        <weight>15</weight>
+                                        <min>RGB(242,237,177)</min>
+                                        <max>RGB(248,243,183)</max>
+                                    </li>
+                                    <!-- 粉色 -->
+                                    <li>
+                                        <weight>5</weight>
+                                        <min>RGB(92,67,82)</min>
+                                        <max>RGB(98,73,88)</max>
+                                    </li>
+                                    <li>
+                                        <weight>5</weight>
+                                        <min>RGB(167,132,157)</min>
+                                        <max>RGB(173,138,163)</max>
+                                    </li>
+                                    <li>
+                                        <weight>5</weight>
+                                        <min>RGB(227,197,217)</min>
+                                        <max>RGB(233,203,223)</max>
+                                    </li>
+                                    <!-- 红色 -->
+                                    <li>
+                                        <weight>3.5</weight>
+                                        <min>RGB(122,47,37)</min>
+                                        <max>RGB(128,53,43)</max>
+                                    </li>
+                                    <li>
+                                        <weight>4</weight>
+                                        <min>RGB(72,7,2)</min>
+                                        <max>RGB(78,13,8)</max>
+                                    </li>
+                                    <li>
+                                        <weight>4</weight>
+                                        <min>RGB(177,47,37)</min>
+                                        <max>RGB(183,53,43)</max>
+                                    </li>
+                                    <!-- 橙色系 -->
+                                    <li>
+                                        <weight>7.5</weight>
+                                        <only>RGB(233,180,125)</only>
+                                    </li>
+                                </options>
+                            </first>
+                        </li>
+                        <li>
+                            <name>blank</name>
+                            <first Class="ColorGenerator_Options">
+                                <options>
+                                    <li>
+                                        <weight>100</weight>
+                                        <only>RGB(255,255,255)</only>
+                                    </li>
+                                </options>
+                            </first>
+                        </li>
+                    </colorChannels>
+                </alienPartGenerator>
+            </generalSettings>
+
+            <graphicPaths>
+                <head>
+                    <path>Wolfein/Heads/</path>
+                    <!-- <headtypeGraphics>
+                        <Ghoul_Normal MayRequire="Ludeon.RimWorld.Anomaly">Wolfein/HeadBlank/Normal</Ghoul_Normal>
+                    </headtypeGraphics> -->
+                </head>
+                <body>
+                    <path>Wolfein/Body/Naked_Female</path>
+                    <!-- <ageGraphics>
+                        <HumanlikeAdult>Wolfein/Body/Naked_Female</HumanlikeAdult>
+                        <HumanlikeTeenager>Wolfein/Body/Naked_Female</HumanlikeTeenager>
+                        <HumanlikePreTeenager MayRequire="Ludeon.RimWorld.Biotech">Wolfein/Body/Naked_Child</HumanlikePreTeenager>
+                        <HumanlikeChild MayRequire="Ludeon.RimWorld.Biotech">Wolfein/Body/Naked_Child</HumanlikeChild>
+                        <HumanlikeBaby MayRequire="Ludeon.RimWorld.Biotech">Wolfein/Body/Naked_Baby</HumanlikeBaby>
+                    </ageGraphics> -->
+                    <extendedGraphics>
+                        <Age For="HumanlikePreTeenager">
+                            <path>Wolfein/Body/Naked_Child</path>
+                            <extendedGraphics>
+                                <Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">Wolfein/BodyGhoul/Naked_Child</Hediff>
+                            </extendedGraphics>
+                        </Age>
+                        <Age For="HumanlikeChild">
+                            <path>Wolfein/Body/Naked_Child</path>
+                            <extendedGraphics>
+                                <Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">Wolfein/BodyGhoul/Naked_Child</Hediff>
+                            </extendedGraphics>
+                        </Age>
+                        <Age For="HumanlikeBaby">
+                            <path>Wolfein/Body/Naked_Baby</path>
+                        </Age>
+                        <Hediff MayRequire="Ludeon.RimWorld.Anomaly" For="Ghoul">Wolfein/BodyGhoul/Naked_Female</Hediff>
+                    </extendedGraphics>
+                </body>
+                <skeleton>Wolfein/Dessicated/Body/Dessicated_Thin</skeleton>
+            </graphicPaths>
+
+            <styleSettings>
+                <li>
+                    <key>HairDef</key>
+                    <value>
+                        <hasStyle>true</hasStyle>
+                        <styleTagsOverride>
+                            <li>WolfeinHair_Category</li>
+                        </styleTagsOverride>
+                    </value>
+                </li>
+                <li>
+                    <key>BeardDef</key>
+                    <value>
+                        <hasStyle>false</hasStyle>
+                    </value>
+                </li>
+                <li>
+                    <key>TattooDef</key>
+                    <value>
+                        <hasStyle>false</hasStyle>
+                    </value>
+                </li>
+            </styleSettings>
+
+            <raceRestriction>
+                <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+                <apparelList>
+
+                    <!-- 内衣 -->
+                    <li>Wolfein_Black_Stocking</li>
+                    <li>Wolfein_White_Stocking</li>
+                    <li>Wolfein_Black_Pantynose</li>
+                    <li>Wolfein_White_Pantynose</li>
+                    <li>Wolfein_Black_Suspender</li>
+                    <li>Wolfein_White_Suspender</li>
+                    <li>Wolfein_Black_SportsShorts</li>
+                    <li>Wolfein_White_SportsShorts</li>
+                    <li>Wolfein_Black_SportsUnderwear</li>
+                    <li>Wolfein_White_SportsUnderwear</li>
+                    <li>Wolfein_MeshSocks</li>
+                    <li>Wolfein_Bandage</li>
+                    <li>Wolfein_CombattightUnderwear</li>
+                    <li>Wolfein_SkintightGarment</li>
+                    <li>Wolfein_LightweightCombatSuit</li>
+
+                    <!-- 贴身 -->
+                    <li>Wolfein_Tribal</li>
+                    <li>Wolfein_Shirt_Trousers</li>
+                    <li>Wolfein_Shirt_Skirt</li>
+                    <li>Wolfein_Hoodie</li>
+                    <li>Wolfein_T-shirt</li>
+                    <li>Wolfein_StartingClothing</li>
+                    <li>Wolfein_Slave</li>
+                    <li>Wolfein_Overalls</li>
+                    <li>Wolfein_ReflectiveOveralls</li>
+                    <li>Wolfein_ChefsUniform</li>
+                    <li>Wolfein_Labgown</li>
+                    <li>Wolfein_MedicalUniform</li>
+                    <li>Wolfein_TacticalJacket_Pants</li>
+                    <li>Wolfein_TacticalJacket_Skirt</li>
+                    <li>Wolfein_TightCombatUniform</li>
+                    <li>Wolfein_LightweightCombatUniform</li>
+                    <li>Wolfein_RebelUniform</li>
+                    <li>Wolfein_RebelGuerrillaUniform</li>
+                    <li>Wolfein_RebelCombatSuit</li>
+                    <li>Wolfein_RebelSupportSuit</li>
+                    <li>Wolfein_StaffUniform</li>
+                    <li>Wolfein_ShirtStaffUniform</li>
+                    <li>Wolfein_LonguetteStaffUniform</li>
+                    <li>Wolfein_SailorSuit</li>
+                    <li>Wolfein_Sweater</li>
+                    <li>Wolfein_ShortT-shirt</li>
+                    <li>Wolfein_OLSuit</li>
+                    <li>Wolfein_BusinessUniform</li>
+                    <li>Wolfein_CroppedJacket</li>
+                    <li>Wolfein_HighcutLeotard</li>
+                    <li>Wolfein_RegularUniform</li>
+                    <li>Wolfein_AIPTUniform_Pants</li>
+                    <li>Wolfein_AIPTUniform_Skirt</li>
+                    <li>Wolfein_AIPTUniform_Trousers</li>
+                    <li>Wolfein_AIPTCombatSuit</li>
+                    <li>Wolfein_AIPTStandardUniform</li>
+                    <li>Wolfein_AIPTSupportSuit</li>
+
+                    <!-- 外套 -->
+                    <li>Wolfein_Dustcoat</li>
+                    <li>Wolfein_Wintercoat</li>
+                    <li>Wolfein_SuitWithSweater</li>
+                    <li>Wolfein_OutdoorJacket</li>
+                    <li>Wolfein_MilitaryCape</li>
+                    <li>Wolfein_MilitaryDustcoat</li>
+                    <li>Wolfein_MilitaryWintercoat</li>
+                    <li>Wolfein_LightweightCombatjacket</li>
+                    <li>Wolfein_SpecialmilitaryUniform</li>
+                    <li>Wolfein_VanguardUniform</li>
+                    <li>Wolfein_PsionicCombatSuit</li>
+                    <li>Wolfein_RedCombatSuit</li>
+                    <li>Wolfein_RebelDustproofCloak</li>
+                    <li>Wolfein_RebelPowerArmor</li>
+                    <li>Wolfein_RebelHeavyPowerArmor</li>
+                    <li>Wolfein_FlakJacket</li>
+                    <li>Wolfein_HeavyFlakJacket</li>
+                    <li>Wolfein_WastelandSplicingcoat</li>
+                    <li>Wolfein_ScoutPowerArmor</li>
+                    <li>Wolfein_GuardPowerArmor</li>
+                    <li>Wolfein_ImperialGuardPowerArmor</li>
+                    <li>Wolfein_ImperialScoutPowerArmor</li>
+                    <li>Wolfein_HeavyPowerArmor</li>
+                    <li>Wolfein_AIPTDustcoat</li>
+                    <li>Wolfein_AIPTHeavyPowerArmor</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Wolfein_MechanitorSuit</li>
+
+                    <!-- 头部装备 -->
+                    <li>Wolfein_SquareGlasses</li>
+                    <li>Wolfein_SafetyHelmet</li>
+                    <li>Wolfein_NewsboyCap</li>
+                    <li>Wolfein_Beret</li>
+                    <li>Wolfein_HeadBandage</li>
+                    <li>Wolfein_GasMask</li>
+                    <li>Wolfein_Helmet</li>
+                    <li>Wolfein_PsionicCombatHelmet</li>
+                    <li>Wolfein_ShooterCap</li>
+                    <li>Wolfein_ThermalGoggle</li>
+                    <li>Wolfein_RedCombatHelmet</li>
+                    <li>Wolfein_PowerArmorHelmet</li>
+                    <li>Wolfein_HeavyPowerArmorHelmet</li>
+                    <li>Wolfein_CombatUnitExciter</li>
+                    <li>Wolfein_AIPTGunlink</li>
+                    <li>Wolfein_AIPTGoggle</li>
+                    <li>Wolfein_AIPTHeavyPowerArmorHelmet</li>
+                    <li>Wolfein_RebelHeavyPowerArmorHelmet</li>
+                    <li>Wolfein_ImperialGuardPowerArmorMask</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Wolfein_PrototypicalMechSignalBooster</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Wolfein_ArrayGlass</li>
+
+                    <!-- 杂项 -->
+                    <li>Wolfein_InformationIdentificationCard</li>
+                    <li>Wolfein_TailBelt</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Wolfein_CivilControlPack</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Wolfein_MilitaryControlPack</li>
+                    <li>Wolfein_RiotShield</li>
+                    <li>Wolfein_ExoskeletonShield</li>
+                    <li>Wolfein_ShieldBelt</li>
+
+                </apparelList>
+                <whiteApparelList>
+                    <li>Apparel_PsychicInsanityLance</li>
+                    <li>Apparel_PsychicShockLance</li>
+
+                    <li>Apparel_ShieldBelt</li>
+                    <li>Apparel_SmokepopBelt</li>
+                    <li>Apparel_FirefoampopPack</li>
+                    <li>OrbitalTargeterBombardment</li>
+                    <li>OrbitalTargeterPowerBeam</li>
+                    <li>TornadoGenerator</li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty">OrbitalTargeterMechCluster</li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackBroadshield</li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_PackJump</li>
+
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackControl</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_PackBandwidth</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_AirwireHeadset</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_ArrayHeadset</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Apparel_IntegratorHeadset</li>
+
+                    <li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_ShardPsychicShockLance</li>
+                    <li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_ShardPsychicInsanityLance</li>
+                    <li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_BiomutationLance</li>
+                    <li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_DisruptorFlarePack</li>
+                    <li MayRequire="Ludeon.RimWorld.Anomaly">Apparel_PackTurret</li>
+
+                </whiteApparelList>
+
+                <!-- <foodList>
+                    <li>Wolfein_PackingStaffMeals</li>
+                    <li>Wolfein_ResistanceArmyRations</li>
+                    <li>Wolfein_EclipseTrigger</li>
+                </foodList> -->
+                <traitList>
+                    <li>Wolfein_PureBlood</li>
+                </traitList>
+
+                <blackEndoCategories>
+                    <li>Melanin</li>
+                    <li>HairColor</li>
+                    <li>BodyType</li>
+                    <li>Headbone</li>
+                    <li>Head</li>
+                    <li>Ears</li>
+                    <li>Nose</li>
+                    <li>Jaw</li>
+                    <li>Voice</li>
+                </blackEndoCategories>
+
+                <researchList>
+                </researchList>
+
+                <onlyHaveRaceRestrictedGenes>false</onlyHaveRaceRestrictedGenes>
+                <onlyUseRaceRestrictedXenotypes>true</onlyUseRaceRestrictedXenotypes>
+
+                <xenotypeList MayRequire="Ludeon.RimWorld.Biotech">
+                </xenotypeList>
+
+                <whiteXenotypeList>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Baseliner</li>
+                </whiteXenotypeList>
+
+                <blackGeneList MayRequire="Ludeon.RimWorld.Biotech">
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Furskin</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Brow_Heavy</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">FacialRidges</li>
+                </blackGeneList>
+
+                <blackGeneTags>
+                    <li>EyeColor</li>
+                    <li>HairStyle</li>
+                    <li>BeardStyle</li>
+                    <li>SkinColorOverride</li>
+                    <li>Tail</li>
+                    <li>BodyType</li>
+                    <li>Ears</li>
+                </blackGeneTags>
+
+                <blackXenotypeList MayRequire="Ludeon.RimWorld.Biotech">
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Dirtmole</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Genie</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Hussar</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Sanguophage</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Neanderthal</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Pigskin</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Impid</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Waster</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Yttakin</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">Highmate</li>
+                </blackXenotypeList>
+
+            </raceRestriction>
+
+            <thoughtSettings>
+                <replacerList>
+                    <li>
+                        <original>MySonDied</original>
+                        <replacer>Wolfien_MySonDied</replacer>
+                    </li>
+                    <li>
+                        <original>MyDaughterDied</original>
+                        <replacer>Wolfien_MyDaughterDied</replacer>
+                    </li>
+                    <li>
+                        <original>MyHusbandDied</original>
+                        <replacer>Wolfien_MyHusbandDied</replacer>
+                    </li>
+                    <li>
+                        <original>MyWifeDied</original>
+                        <replacer>Wolfien_MyWifeDied</replacer>
+                    </li>
+                    <li>
+                        <original>MyFianceDied</original>
+                        <replacer>Wolfien_MyFianceDied</replacer>
+                    </li>
+                    <li>
+                        <original>MyFianceeDied</original>
+                        <replacer>Wolfien_MyFianceeDied</replacer>
+                    </li>
+                    <li>
+                        <original>MyLoverDied</original>
+                        <replacer>Wolfien_MyLoverDied</replacer>
+                    </li>
+                    <li>
+                        <original>MyBrotherDied</original>
+                        <replacer>Wolfien_MyBrotherDied</replacer>
+                    </li>
+                    <li>
+                        <original>MySisterDied</original>
+                        <replacer>Wolfien_MySisterDied</replacer>
+                    </li>
+                    <li>
+                        <original>MyGrandchildDied</original>
+                        <replacer>Wolfien_MyGrandchildDied</replacer>
+                    </li>
+                    <li>
+                        <original>MyFatherDied</original>
+                        <replacer>Wolfien_MyFatherDied</replacer>
+                    </li>
+                    <li>
+                        <original>MyMotherDied</original>
+                        <replacer>Wolfien_MyMotherDied</replacer>
+                    </li>
+                    <li>
+                        <original>MyNieceDied</original>
+                        <replacer>Wolfien_MyNieceDied</replacer>
+                    </li>
+                    <li>
+                        <original>MyNephewDied</original>
+                        <replacer>Wolfien_MyNephewDied</replacer>
+                    </li>
+                    <li>
+                        <original>MyHalfSiblingDied</original>
+                        <replacer>Wolfien_MyHalfSiblingDied</replacer>
+                    </li>
+                    <li>
+                        <original>MyAuntDied</original>
+                        <replacer>Wolfien_MyAuntDied</replacer>
+                    </li>
+                    <li>
+                        <original>MyUncleDied</original>
+                        <replacer>Wolfien_MyUncleDied</replacer>
+                    </li>
+                    <li>
+                        <original>MyGrandparentDied</original>
+                        <replacer>Wolfien_MyGrandparentDied</replacer>
+                    </li>
+                    <li>
+                        <original>MyCousinDied</original>
+                        <replacer>Wolfien_MyCousinDied</replacer>
+                    </li>
+                    <li>
+                        <original>MyKinDied</original>
+                        <replacer>Wolfien_MyKinDied</replacer>
+                    </li>
+                </replacerList>
+                <cannotReceiveThoughts>
+                    <li>EnvironmentDark</li>
+                    <!-- 肉食厌恶 -->
+                    <li MayRequire="Ludeon.RimWorld.Ideology">AteMeat_Abhorrent</li>
+                    <li MayRequire="Ludeon.RimWorld.Ideology">AteMeat_Know_Abhorrent</li>
+                    <li MayRequire="Ludeon.RimWorld.Ideology">AteMeat_Horrible</li>
+                    <li MayRequire="Ludeon.RimWorld.Ideology">AteMeat_Know_Horrible</li>
+                    <li MayRequire="Ludeon.RimWorld.Ideology">AteMeat_Disapproved</li>
+                    <li MayRequire="Ludeon.RimWorld.Ideology">AteMeat_Know_Disapproved</li>
+
+                    <li MayRequire="Ludeon.RimWorld.Ideology">LookChangeDesired</li>
+                </cannotReceiveThoughts>
+                <restrictedThoughts>
+                    <li>Wolfein_AtePackingStaffMeals</li>
+                    <li>Wolfein_MoonPhase</li>
+                </restrictedThoughts>
+            </thoughtSettings>
+
+            <relationSettings>
+                <relationChanceModifierLover>0</relationChanceModifierLover>
+                <relationChanceModifierExLover>0</relationChanceModifierExLover>
+                <relationChanceModifierFiance>0</relationChanceModifierFiance>
+                <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+                <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+                <relationChanceModifierParent>0</relationChanceModifierParent>
+                <relationChanceModifierChild>0</relationChanceModifierChild>
+                <relationChanceModifierSibling>0</relationChanceModifierSibling>
+            </relationSettings>
+
+        </alienRace>
+
+        <statBases>
+            <MarketValue>2000</MarketValue>
+            <MoveSpeed>4.8</MoveSpeed>
+            <Flammability>0.5</Flammability>
+            <MaxNutrition>1.2</MaxNutrition>
+            <MentalBreakThreshold>0.40</MentalBreakThreshold>
+            <ComfyTemperatureMax>29</ComfyTemperatureMax>
+            <ComfyTemperatureMin>9</ComfyTemperatureMin>
+            <ImmunityGainSpeed>1.05</ImmunityGainSpeed>
+            <CarryingCapacity>80</CarryingCapacity>
+            <RoyalFavorValue MayRequire="Ludeon.RimWorld.Royalty">5</RoyalFavorValue>
+            <MeatAmount>70</MeatAmount>
+            <LeatherAmount>50</LeatherAmount>
+            <Mass>55</Mass>
+
+            <GeneralLaborSpeed>1.0</GeneralLaborSpeed>
+            <WorkSpeedGlobal>1.1</WorkSpeedGlobal>
+            <GlobalLearningFactor>0.9</GlobalLearningFactor>
+            <PsychicSensitivity>0.8</PsychicSensitivity>
+            <MeleeHitChance>1.8</MeleeHitChance>
+            <MeleeDodgeChance>4.5</MeleeDodgeChance>
+            <ShootingAccuracyPawn>4.5</ShootingAccuracyPawn>
+            <AimingDelayFactor>1.0</AimingDelayFactor>
+            <PainShockThreshold>0.9</PainShockThreshold>
+            <DrugSynthesisSpeed>0.7</DrugSynthesisSpeed>
+            <MedicalTendSpeed>0.9</MedicalTendSpeed>
+            <MedicalTendQuality>0.8</MedicalTendQuality>
+            <NegotiationAbility>1.4</NegotiationAbility>
+            <SellPriceFactor>1.0</SellPriceFactor>
+            <TradePriceImprovement>1.0</TradePriceImprovement>
+            <SocialImpact>1.0</SocialImpact>
+            <MedicalSurgerySuccessChance>0.9</MedicalSurgerySuccessChance>
+            <EatingSpeed>1.1</EatingSpeed>
+            <ButcheryFleshEfficiency>1.2</ButcheryFleshEfficiency>
+            <ButcheryFleshSpeed>1.1</ButcheryFleshSpeed>
+            <FoodPoisonChance>0.8</FoodPoisonChance>
+            <CookSpeed>0.8</CookSpeed>
+            <RestRateMultiplier>1.1</RestRateMultiplier>
+            <PlantWorkSpeed>0.4</PlantWorkSpeed>
+            <PlantHarvestYield>0.6</PlantHarvestYield>
+            <ConstructionSpeed>1.0</ConstructionSpeed>
+            <ButcheryMechanoidEfficiency>1.0</ButcheryMechanoidEfficiency>
+            <ButcheryMechanoidSpeed>1.2</ButcheryMechanoidSpeed>
+            <SmeltingSpeed>0.9</SmeltingSpeed>
+            <ResearchSpeed>1.1</ResearchSpeed>
+            <MiningSpeed>1.1</MiningSpeed>
+            <MiningYield>1.0</MiningYield>
+        </statBases>
+
+        <tools>
+            <li>
+                <label>left fist</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>20</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <label>right fist</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>20</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <label>teeth</label>
+                <capacities>
+                    <li>Bite</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+                <chanceFactor>0.4</chanceFactor>
+            </li>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>5</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                <chanceFactor>0.1</chanceFactor>
+            </li>
+        </tools>
+
+        <race>
+            <thinkTreeMain>Humanlike</thinkTreeMain>
+            <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+            <intelligence>Humanlike</intelligence>
+            <bloodDef>Filth_Blood</bloodDef>
+            <renderTree>Humanlike</renderTree>
+            <canBecomeShambler>true</canBecomeShambler>
+            <makesFootprints>true</makesFootprints>
+            <lifeExpectancy>100</lifeExpectancy>
+            <leatherDef>Leather_Human</leatherDef>
+            <nameCategory>HumanStandard</nameCategory>
+            <body>Wolfein_Body</body>
+            <baseBodySize>1</baseBodySize>
+            <baseHealthScale>1.5</baseHealthScale>
+            <foodType>OmnivoreHuman</foodType>
+            <gestationPeriodDays>18</gestationPeriodDays>
+            <meatMarketValue>1</meatMarketValue>
+            <manhunterOnDamageChance>0.50</manhunterOnDamageChance>
+            <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
+            <nameGenerator>NamerPerson_Wolfein</nameGenerator>
+            <litterSizeCurve>
+                <points>
+                    <li>(0.5, 0)</li>
+                    <li>(1, 1)</li>
+                    <li>(1.01, 0.02)</li>
+                    <li>(3.5, 0)</li>
+                </points>
+            </litterSizeCurve>
+
+            <lifeStageAges>
+                <li Class="AlienRace.LifeStageAgeAlien">
+                    <def>HumanlikeBaby</def>
+                    <minAge>0</minAge>
+                    <headOffset>(0.2,-0.18)</headOffset>
+                    <headFemaleOffset>(0.2,-0.18)</headFemaleOffset>
+                </li>
+                <li Class="AlienRace.LifeStageAgeAlien">
+                    <def>HumanlikeChild</def>
+                    <minAge>3</minAge>
+                    <headOffset>(0.1,-0.01)</headOffset>
+                    <headFemaleOffset>(0.1,-0.01)</headFemaleOffset>
+                    <customDrawSize>(0.85,0.85)</customDrawSize>
+                    <customPortraitDrawSize>(0.85,0.85)</customPortraitDrawSize>
+                    <customHeadDrawSize>(0.6,0.6)</customHeadDrawSize>
+                    <customPortraitHeadDrawSize>(0.6,0.6)</customPortraitHeadDrawSize>
+                </li>
+                <li Class="AlienRace.LifeStageAgeAlien" MayRequire="Ludeon.RimWorld.Biotech">
+                    <def>HumanlikePreTeenager</def>
+                    <minAge>8</minAge>
+                    <headOffset>(0.04,-0.01)</headOffset>
+                    <headFemaleOffset>(0.04,-0.01)</headFemaleOffset>
+                </li>
+                <li Class="AlienRace.LifeStageAgeAlien">
+                    <def>HumanlikeTeenager</def>
+                    <minAge>15</minAge>
+                    <headOffset>(0.0,0.0)</headOffset>
+                    <headFemaleOffset>(0,0)</headFemaleOffset>
+                    <customDrawSize>(0.9,0.9)</customDrawSize>
+                    <customPortraitDrawSize>(0.9,0.9)</customPortraitDrawSize>
+                    <customHeadDrawSize>(0.64,0.64)</customHeadDrawSize>
+                    <customPortraitHeadDrawSize>(0.64,0.64)</customPortraitHeadDrawSize>
+                </li>
+                <li Class="AlienRace.LifeStageAgeAlien">
+                    <def>HumanlikeAdult</def>
+                    <minAge>18</minAge>
+                </li>
+            </lifeStageAges>
+
+            <lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
+                <Firefighter>7</Firefighter>
+                <Patient>0</Patient>
+                <Doctor>13</Doctor>
+                <PatientBedRest>0</PatientBedRest>
+                <Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
+                <BasicWorker>7</BasicWorker>
+                <Warden>13</Warden>
+                <Handling>7</Handling>
+                <Cooking>7</Cooking>
+                <Hunting>13</Hunting>
+                <Construction>10</Construction>
+                <Growing>7</Growing>
+                <Mining>10</Mining>
+                <PlantCutting>7</PlantCutting>
+                <Smithing>10</Smithing>
+                <Tailoring>10</Tailoring>
+                <Art>10</Art>
+                <Crafting>10</Crafting>
+                <Hauling>3</Hauling>
+                <Cleaning>3</Cleaning>
+                <Research>13</Research>
+            </lifeStageWorkSettings>
+            <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+            <specialShadowData>
+                <volume>(0, 0, 0)</volume>
+                <offset>(0,0,0)</offset>
+            </specialShadowData>
+            <ageGenerationCurve>
+                <points>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(0,0)</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(0.001,43)</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(8,86)</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(12.5,118)</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(12.51,0)</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(13,0)</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(13.001,122)</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(13.999,130)</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(14.001,130)</li>
+                    <li>(14,0)</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">(14.001,50)</li>
+                    <li>(20,100)</li>
+                    <li>(30,50)</li>
+                    <li>(40,5)</li>
+                    <li>(60,1)</li>
+                    <li>(80,0)</li>
+                    <li>(100,0)</li>
+                </points>
+            </ageGenerationCurve>
+            <hediffGiverSets>
+                <li>OrganicStandard</li>
+                <li>Human</li>
+                <!-- <li>NightWolf</li>
+                <li>FullMoonWolf</li> -->
+            </hediffGiverSets>
+        </race>
+        <comps>
+            <!-- For shamblers -->
+            <li Class="CompProperties_HoldingPlatformTarget" MayRequire="Ludeon.RimWorld.Anomaly">
+                <baseEscapeIntervalMtbDays>120</baseEscapeIntervalMtbDays>
+                <getsColdContainmentBonus>true</getsColdContainmentBonus>
+            </li>
+            <li Class="Wolfein.CompProperties_MeatNeed">
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_Studiable">
+                <frequencyTicks>120000</frequencyTicks>
+                <knowledgeCategory MayRequire="Ludeon.RimWorld.Anomaly">Basic</knowledgeCategory>
+                <anomalyKnowledge>1</anomalyKnowledge>
+                <minMonolithLevelForStudy>1</minMonolithLevelForStudy>
+                <requiresImprisonment>true</requiresImprisonment>
+            </li>
+            <li Class="Wolfein.CompProperties_WolfeinStrength">
+                <hediffNight>Wolfein_NightStrength</hediffNight>
+                <severity>0.01</severity>
+                <overrideHediff>false</overrideHediff>
+                <moonPhaseHediff>
+                    <!-- 衰弱期 -->
+                    <li>
+                        <moonPhase>WaningCrescent</moonPhase>
+                        <hediff>Wolfein_MoonStrength</hediff>
+                        <severity>0.1</severity>
+                        <severity_PureBlood>0.5</severity_PureBlood>
+                    </li>
+                    <li>
+                        <moonPhase>NewMoon</moonPhase>
+                        <hediff>Wolfein_MoonStrength</hediff>
+                        <severity>0.2</severity>
+                        <severity_PureBlood>0.6</severity_PureBlood>
+                    </li>
+                    <li>
+                        <moonPhase>WaxingCrescent</moonPhase>
+                        <hediff>Wolfein_MoonStrength</hediff>
+                        <severity>0.1</severity>
+                        <severity_PureBlood>0.5</severity_PureBlood>
+                    </li>
+                    <!-- 强化期 -->
+                    <li>
+                        <moonPhase>WaxingGibbous</moonPhase>
+                        <hediff>Wolfein_MoonStrength</hediff>
+                        <severity>0.3</severity>
+                        <severity_PureBlood>0.7</severity_PureBlood>
+                    </li>
+                    <li>
+                        <moonPhase>FullMoon</moonPhase>
+                        <hediff>Wolfein_MoonStrength</hediff>
+                        <severity>0.4</severity>
+                        <severity_PureBlood>0.8</severity_PureBlood>
+                    </li>
+                    <li>
+                        <moonPhase>WaningGibbous</moonPhase>
+                        <hediff>Wolfein_MoonStrength</hediff>
+                        <severity>0.3</severity>
+                        <severity_PureBlood>0.7</severity_PureBlood>
+                    </li>
+                    <!-- 两个无增幅弦月 -->
+                    <li>
+                        <moonPhase>LastQuarter</moonPhase>
+                        <hediff>Wolfein_MoonStrength</hediff>
+                        <severity>0.01</severity>
+                        <severity_PureBlood>0.01</severity_PureBlood>
+                    </li>
+                    <li>
+                        <moonPhase>FirstQuarter</moonPhase>
+                        <hediff>Wolfein_MoonStrength</hediff>
+                        <severity>0.01</severity>
+                        <severity_PureBlood>0.01</severity_PureBlood>
+                    </li>
+                </moonPhaseHediff>
+            </li>
+        </comps>
+
+        <recipes>
+            <li>Wolfein_InstallArtificialEar</li>
+            <li>Wolfein_InstallBionicEar</li>
+            <li>Wolfein_InstallCombatBionicEar</li>
+            <li>Wolfein_InstallArtificialTail</li>
+            <li>Wolfein_InstallBionicTail</li>
+            <li>Wolfein_InstallCombatBionicTail</li>
+            <li>Wolfein_InstallMechinalLeg</li>
+            <li>Wolfein_InstallMetalClaw</li>
+        </recipes>
+
+    </AlienRace.ThingDef_AlienRace>
+</Defs>

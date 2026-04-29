@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingCategoryDef>
+        <defName>Wolfein_Apparel</defName>
+        <label>Wolfein apparel</label>
+        <parent>Apparel</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>Wolfein_Apparel_Underwear</defName>
+        <label>Wolfein apparel Underwear</label>
+        <parent>Wolfein_Apparel</parent>
+    </ThingCategoryDef>
+    <!-- 内衣 -->
+
+    <ThingCategoryDef>
+        <defName>Wolfein_Apparel_OnSkin</defName>
+        <label>Wolfein apparel Onskin</label>
+        <parent>Wolfein_Apparel</parent>
+    </ThingCategoryDef>
+    <!-- 贴身衣物 -->
+
+    <ThingCategoryDef>
+        <defName>Wolfein_Apparel_Shell</defName>
+        <label>Wolfein apparel Shell</label>
+        <parent>Wolfein_Apparel</parent>
+    </ThingCategoryDef>
+    <!-- 大衣，外层 -->
+
+    <ThingCategoryDef>
+        <defName>Wolfein_Apparel_Special</defName>
+        <label>Wolfein apparel special</label>
+        <parent>Wolfein_Apparel</parent>
+    </ThingCategoryDef>
+    <!-- 最外层装备 -->
+
+    <ThingCategoryDef>
+        <defName>Wolfein_Apparel_OverHead</defName>
+        <label>Wolfein apparel Head Equip</label>
+        <parent>Wolfein_Apparel</parent>
+    </ThingCategoryDef>
+    <!-- 头部装备 -->
+
+    <ThingCategoryDef>
+        <defName>Wolfein_Apparel_Sundry</defName>
+        <label>Wolfein apparel Sundry</label>
+        <parent>Wolfein_Apparel</parent>
+    </ThingCategoryDef>
+    <!-- 杂项装备 -->
+
+</Defs>

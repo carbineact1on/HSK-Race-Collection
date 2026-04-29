@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Extra Heavy Multi-Legged Firepower Platform -->
+  <Wolfein_GiantMech.label>超重型多足火力平台</Wolfein_GiantMech.label>
+  <!-- EN: left sight sensor -->
+  <Wolfein_GiantMech.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>左视线传感器</Wolfein_GiantMech.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_sight_sensor.customLabel>
+  <!-- EN: left hearing sensor -->
+  <Wolfein_GiantMech.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>左听觉传感器</Wolfein_GiantMech.corePart.parts.MechanicalNeck.parts.MechanicalHead.parts.left_hearing_sensor.customLabel>
+  <!-- EN: front left leg -->
+  <Wolfein_GiantMech.corePart.parts.front_left_leg.customLabel>左前腿</Wolfein_GiantMech.corePart.parts.front_left_leg.customLabel>
+  <!-- EN: front left foot -->
+  <Wolfein_GiantMech.corePart.parts.front_left_leg.parts.front_left_foot.customLabel>左前足</Wolfein_GiantMech.corePart.parts.front_left_leg.parts.front_left_foot.customLabel>
+  <!-- EN: front right leg -->
+  <Wolfein_GiantMech.corePart.parts.front_right_leg.customLabel>右前腿</Wolfein_GiantMech.corePart.parts.front_right_leg.customLabel>
+  <!-- EN: front right foot -->
+  <Wolfein_GiantMech.corePart.parts.front_right_leg.parts.front_right_foot.customLabel>右前足</Wolfein_GiantMech.corePart.parts.front_right_leg.parts.front_right_foot.customLabel>
+  <!-- EN: rear left leg -->
+  <Wolfein_GiantMech.corePart.parts.rear_left_leg.customLabel>左后腿</Wolfein_GiantMech.corePart.parts.rear_left_leg.customLabel>
+  <!-- EN: rear left foot -->
+  <Wolfein_GiantMech.corePart.parts.rear_left_leg.parts.rear_left_foot.customLabel>左后足</Wolfein_GiantMech.corePart.parts.rear_left_leg.parts.rear_left_foot.customLabel>
+  <!-- EN: rear right leg -->
+  <Wolfein_GiantMech.corePart.parts.rear_right_leg.customLabel>右后腿</Wolfein_GiantMech.corePart.parts.rear_right_leg.customLabel>
+  <!-- EN: rear right foot -->
+  <Wolfein_GiantMech.corePart.parts.rear_right_leg.parts.rear_right_foot.customLabel>右后足</Wolfein_GiantMech.corePart.parts.rear_right_leg.parts.rear_right_foot.customLabel>
+  <!-- EN: middle left leg -->
+  <Wolfein_GiantMech.corePart.parts.middle_left_leg.customLabel>左中腿</Wolfein_GiantMech.corePart.parts.middle_left_leg.customLabel>
+  <!-- EN: middle left foot -->
+  <Wolfein_GiantMech.corePart.parts.middle_left_leg.parts.middle_left_foot.customLabel>左中足</Wolfein_GiantMech.corePart.parts.middle_left_leg.parts.middle_left_foot.customLabel>
+  <!-- EN: middle right leg -->
+  <Wolfein_GiantMech.corePart.parts.middle_right_leg.customLabel>右中腿</Wolfein_GiantMech.corePart.parts.middle_right_leg.customLabel>
+  <!-- EN: middle right foot -->
+  <Wolfein_GiantMech.corePart.parts.middle_right_leg.parts.middle_right_foot.customLabel>右中足</Wolfein_GiantMech.corePart.parts.middle_right_leg.parts.middle_right_foot.customLabel>
+  
+</LanguageData>

@@ -1,0 +1,2271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef Name="Wolfein_OnSkinBase" ParentName="Wolfein_MakeableBase_Tailoring" Abstract="True">
+        <defName>Wolfein_Apparel_OnSkin</defName>
+        <statBases>
+            <Mass>0.8</Mass>
+            <EquipDelay>2.0</EquipDelay>
+        </statBases>
+        <apparel>
+            <layers>
+                <li>OnSkin</li>
+            </layers>
+            <tags>
+                <li>Wolfein_OnSkin</li>
+                <!--<li>IndustrialBasic</li>-->
+                <li>Royal</li>
+                <li>RoyalTier5</li>
+            </tags>
+            <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+        </apparel>
+        <thingCategories>
+            <li>Wolfein_Apparel_OnSkin</li>
+        </thingCategories>
+    </ThingDef>
+
+    <!-- 部落衣物 -->
+    <ThingDef Name="Wolfein_OnSkinBase_I" ParentName="Wolfein_OnSkinBase" Abstract="True">
+        <recipeMaker>
+            <researchPrerequisite>Wolfein_Apparel_I</researchPrerequisite>
+            <recipeUsers>
+                <li>ElectricTailoringBench</li>
+                <li>HandTailoringBench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <techLevel>Medieval</techLevel>
+        <tradeTags>
+            <li>Wolfein_ClothingI</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!-- 日常服 -->
+    <ThingDef Name="Wolfein_OnSkinBase_II" ParentName="Wolfein_OnSkinBase" Abstract="True">
+        <recipeMaker>
+            <researchPrerequisite>Wolfein_Apparel_II</researchPrerequisite>
+            <recipeUsers>
+                <li>ElectricTailoringBench</li>
+                <li>HandTailoringBench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <techLevel>Industrial</techLevel>
+        <tradeTags>
+            <li>Wolfein_ClothingII</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!-- 职员服 -->
+    <ThingDef Name="Wolfein_OnSkinBase_III" ParentName="Wolfein_OnSkinBase" Abstract="True">
+        <recipeMaker>
+            <researchPrerequisite>Wolfein_Apparel_III</researchPrerequisite>
+        </recipeMaker>
+        <techLevel>Industrial</techLevel>
+        <tradeTags>
+            <li>Wolfein_ClothingIII</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!-- 普通战斗服 -->
+    <ThingDef Name="Wolfein_OnSkinBase_CombatI" ParentName="Wolfein_OnSkinBase" Abstract="True">
+        <recipeMaker>
+            <researchPrerequisite>Wolfein_Apparel_CombatI</researchPrerequisite>
+        </recipeMaker>
+        <techLevel>Industrial</techLevel>
+        <tradeTags>
+            <li>Wolfein_Clothing_CombatI</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!-- 进阶战斗服 -->
+    <ThingDef Name="Wolfein_OnSkinBase_CombatII" ParentName="Wolfein_OnSkinBase" Abstract="True">
+        <recipeMaker>
+            <researchPrerequisite>Wolfein_Apparel_CombatII</researchPrerequisite>
+        </recipeMaker>
+        <techLevel>Industrial</techLevel>
+        <tradeTags>
+            <li>Wolfein_Clothing_CombatII</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!-- 工作服 -->
+    <ThingDef Name="Wolfein_OnSkinBase_Work" ParentName="Wolfein_OnSkinBase" Abstract="True">
+        <recipeMaker>
+            <researchPrerequisite>Wolfein_Apparel_Work</researchPrerequisite>
+        </recipeMaker>
+        <techLevel>Industrial</techLevel>
+        <tradeTags>
+            <li>Wolfein_Clothing_Work</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!-- AIPT -->
+    <ThingDef Name="Wolfein_OnSkinBase_AIPT" ParentName="Wolfein_OnSkinBase" Abstract="True">
+        <recipeMaker>
+            <researchPrerequisite>Wolfein_Apparel_AIPT</researchPrerequisite>
+        </recipeMaker>
+        <techLevel>Industrial</techLevel>
+        <tradeTags>
+            <li>Wolfein_Clothing_AIPT</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!-- 部落服装 -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_I">
+        <defName>Wolfein_Tribal</defName>
+        <label>Wolfein Tribal</label>
+        <description>A piece of Wolfein clothing made from various scraps of leather and fabric, designed for temporary coverage.</description>
+        <costStuffCount>60</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/Tribal/Tribal</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>120</MaxHitPoints>
+            <WorkToMake>2000</WorkToMake>
+            <Mass>0.5</Mass>
+            <StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/Tribal/Tribal</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_Medieval</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+            </defaultOutfitTags>
+        </apparel>
+        <recipeMaker>
+            <recipeUsers>
+                <li>ElectricTailoringBench</li>
+                <li>HandTailoringBench</li>
+                <li>CraftingSpot</li>
+            </recipeUsers>
+        </recipeMaker>
+        <colorGenerator Class="ColorGenerator_StandardApparel" />
+    </ThingDef>
+
+    <!-- 衬衫（长裤） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_II">
+        <defName>Wolfein_Shirt_Trousers</defName>
+        <label>Wolfein Shirt(Trousers)</label>
+        <description>A simple shirt with trousers, widely used by Wolfein.</description>
+        <costStuffCount>80</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/Shirt_Trousers/Shirt_Trousers</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>3000</WorkToMake>
+            <Mass>0.3</Mass>
+            <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.28</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/Shirt_Trousers/Shirt_Trousers</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_Daily</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+            <SocialImpact>0.15</SocialImpact>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_StandardApparel" />
+    </ThingDef>
+
+    <!-- 衬衫（裙装） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_II">
+        <defName>Wolfein_Shirt_Skirt</defName>
+        <label>Wolfein Shirt(Skirt)</label>
+        <description>A simple shirt with skirt, widely used by Wolfein.</description>
+        <costStuffCount>80</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/Shirt_Skirt/Shirt_Skirt</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>3000</WorkToMake>
+            <Mass>0.3</Mass>
+            <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.28</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/Shirt_Skirt/Shirt_Skirt</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_Daily</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+            <SocialImpact>0.15</SocialImpact>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_StandardApparel" />
+    </ThingDef>
+
+    <!-- 连帽衫 -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_II">
+        <defName>Wolfein_Hoodie</defName>
+        <label>Wolfein Hoodie</label>
+        <description>Extra hood, extra warm. And make you dress like a hacker.</description>
+        <costStuffCount>85</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/Hoodie/Hoodie</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>3000</WorkToMake>
+            <Mass>0.4</Mass>
+            <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/Hoodie/Hoodie</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_Daily</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+            <SocialImpact>0.10</SocialImpact>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_StandardApparel" />
+    </ThingDef>
+
+    <!-- T恤衫 -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_II">
+        <defName>Wolfein_T-shirt</defName>
+        <label>Wolfein T-shirt</label>
+        <description>Maybe a bit oversized, but it makes you stay cool.</description>
+        <costStuffCount>75</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/T-shirt/T-shirt</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>3000</WorkToMake>
+            <Mass>0.3</Mass>
+            <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.26</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.14</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/T-shirt/T-shirt</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_Daily</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+            <SocialImpact>0.10</SocialImpact>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_StandardApparel" />
+    </ThingDef>
+
+    <!-- 起始服装（固定材料） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_II">
+        <defName>Wolfein_StartingClothing</defName>
+        <label>Wolfein Crew Suit</label>
+        <description>Wolfein Crew Suits are made of special composite fabrics, which can effectively keep warm while maintaining convenience of movement.</description>
+        <costList>
+            <Wolfein_CompositeFabric>20</Wolfein_CompositeFabric>
+            <Cloth>50</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/StartingClothing/StartingClothing</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>7000</WorkToMake>
+            <Mass>0.5</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.12</ArmorRating_Heat>
+            <Insulation_Cold>14</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/StartingClothing/StartingClothing</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_Daily</li>
+                <li>Wolfein_starting</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 奴隶服（固定材料） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_II">
+        <defName>Wolfein_Slave</defName>
+        <label>Wolfein Slave Apron</label>
+        <description>Especially designed for Wolfein slaves. The collar will make them know who is the Boss.</description>
+        <costList>
+            <Cloth>70</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/Slave/Slave</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>160</MaxHitPoints>
+            <WorkToMake>7000</WorkToMake>
+            <Mass>0.5</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.38</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.18</ArmorRating_Heat>
+            <Insulation_Cold>14</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Neck</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/Slave/Slave</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_Slave</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.20</SlaveSuppressionOffset>
+            <MoveSpeed>-0.1</MoveSpeed>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 工作服 -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_Work">
+        <defName>Wolfein_Overalls</defName>
+        <label>Wolfein Short Overalls</label>
+        <description>Wolfein workers' best friend. The waist bags can store much more tools than it looks can.</description>
+        <costStuffCount>75</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/Overalls/Overalls</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>220</MaxHitPoints>
+            <WorkToMake>6000</WorkToMake>
+            <Mass>0.3</Mass>
+            <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.28</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.16</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/Overalls/Overalls</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_Work</li>
+                <li>Wolfein_OnSkin_Daily</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+            <WorkSpeedGlobal>0.12</WorkSpeedGlobal>
+            <GeneralLaborSpeed>0.12</GeneralLaborSpeed>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_StandardApparel" />
+    </ThingDef>
+
+    <!-- 反光背心工作服（固定材料） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_Work">
+        <defName>Wolfein_ReflectiveOveralls</defName>
+        <label>Wolfein Reflective Vest</label>
+        <description>The Reflective Vest and the thickened jeans would keep you safe in the construction site.</description>
+        <costList>
+            <Wolfein_CompositeFabric>10</Wolfein_CompositeFabric>
+            <Cloth>70</Cloth>
+        </costList>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/ReflectiveOveralls/ReflectiveOveralls</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>220</MaxHitPoints>
+            <WorkToMake>6500</WorkToMake>
+            <Mass>1.5</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.1</ArmorRating_Heat>
+            <Insulation_Cold>13</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/ReflectiveOveralls/ReflectiveOveralls</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_Work</li>
+                <li>Wolfein_OnSkin_Daily</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <ConstructSuccessChance>0.10</ConstructSuccessChance>
+            <FixBrokenDownBuildingSuccessChance>0.10</FixBrokenDownBuildingSuccessChance>
+            <ConstructionSpeed>0.15</ConstructionSpeed>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 厨师服 -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_Work">
+        <defName>Wolfein_ChefsUniform</defName>
+        <label>Wolfein Chef Uniform</label>
+        <description>The Wolfein MegaCorp stipulates chefs in all legal restaurants within its jurisdiction must wear this uniforms.</description>
+        <costStuffCount>90</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/ChefsUniform/ChefsUniform</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>220</MaxHitPoints>
+            <WorkToMake>6000</WorkToMake>
+            <Mass>0.3</Mass>
+            <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.24</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.18</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/ChefsUniform/ChefsUniform</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_Work</li>
+                <li>Wolfein_OnSkin_Daily</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <FoodPoisonChance>-0.10</FoodPoisonChance>
+            <CookSpeed>0.20</CookSpeed>
+            <Cleanliness>0.15</Cleanliness>
+            <ButcheryFleshSpeed>0.10</ButcheryFleshSpeed>
+            <ButcheryFleshEfficiency>0.05</ButcheryFleshEfficiency>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_StandardApparel" />
+    </ThingDef>
+
+    <!-- 研究服 -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_Work">
+        <defName>Wolfein_Labgown</defName>
+        <label>Wolfein Labgown</label>
+        <description>Wolfein researchers' uniform, which would protect them from chemicals.</description>
+        <costStuffCount>90</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/Labgown/Labgown</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>220</MaxHitPoints>
+            <WorkToMake>6000</WorkToMake>
+            <Mass>0.3</Mass>
+            <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.29</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/Labgown/Labgown</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_Work</li>
+                <li>Wolfein_OnSkin_Daily</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <ResearchSpeed>0.20</ResearchSpeed>
+            <DrugCookingSpeed>0.05</DrugCookingSpeed>
+            <DrugSynthesisSpeed>0.10</DrugSynthesisSpeed>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_StandardApparel" />
+    </ThingDef>
+
+    <!-- 医生服 -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_Work">
+        <defName>Wolfein_MedicalUniform</defName>
+        <label>Wolfein Medical Gowns</label>
+        <description>A Surgical Gown with a white coat, may not so clean but quite useful.</description>
+        <costStuffCount>90</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/MedicalUniform/MedicalUniform</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>220</MaxHitPoints>
+            <WorkToMake>6000</WorkToMake>
+            <Mass>0.3</Mass>
+            <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.29</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/MedicalUniform/MedicalUniform</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_Work</li>
+                <li>Wolfein_OnSkin_Daily</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MedicalSurgerySuccessChance>0.15</MedicalSurgerySuccessChance>
+            <MedicalOperationSpeed>0.15</MedicalOperationSpeed>
+            <MedicalTendQuality>0.15</MedicalTendQuality>
+            <MedicalTendSpeed>0.10</MedicalTendSpeed>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_StandardApparel" />
+    </ThingDef>
+
+    <!-- 沃芬族冲锋衣（裤装）（固定材料） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_II">
+        <defName>Wolfein_TacticalJacket_Pants</defName>
+        <label>Wolfein Tactical Jacket (Pants)</label>
+        <description>The jacket recently launched by The Wolfein MegaCorp has become the first choice for Wolfein outdoor travelers because of its best windproof and rainproof performance on the market.</description>
+        <costList>
+            <Cloth>30</Cloth>
+            <Wolfein_CompositeFabric>50</Wolfein_CompositeFabric>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/TacticalJacket_Pants/TacticalJacket_Pants</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>250</MaxHitPoints>
+            <WorkToMake>4000</WorkToMake>
+            <Mass>1.0</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.44</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.12</ArmorRating_Heat>
+            <Insulation_Cold>14</Insulation_Cold>
+            <Insulation_Heat>7</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/TacticalJacket_Pants/TacticalJacket_Pants</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_Daily</li>
+                <li>Wolfein_OnSkin_Combat</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+            <SocialImpact>0.1</SocialImpact>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 沃芬族冲锋衣（裙装）（固定材料） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_II">
+        <defName>Wolfein_TacticalJacket_Skirt</defName>
+        <label>Wolfein Tactical Jacket (Skirt)</label>
+        <description>The jacket recently launched by The Wolfein MegaCorp has become the first choice for Wolfein outdoor travelers because of its best windproof and rainproof performance on the market.</description>
+        <costList>
+            <Cloth>30</Cloth>
+            <Wolfein_CompositeFabric>50</Wolfein_CompositeFabric>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/TacticalJacket_Skirt/TacticalJacket_Skirt</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>250</MaxHitPoints>
+            <WorkToMake>4000</WorkToMake>
+            <Mass>1.0</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.44</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.12</ArmorRating_Heat>
+            <Insulation_Cold>14</Insulation_Cold>
+            <Insulation_Heat>7</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/TacticalJacket_Skirt/TacticalJacket_Skirt</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_Combat</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+            <SocialImpact>0.1</SocialImpact>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 紧身作战服（固定材料） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_CombatI">
+        <defName>Wolfein_TightCombatUniform</defName>
+        <label>Wolfein Combat Bodysuit</label>
+        <description>A Wolfein Combat Bodysuit, thanks for Wolfein Composite Fabric, it could provide much higher protection level than it looks.</description>
+        <costList>
+            <Wolfein_CompositeFabric>70</Wolfein_CompositeFabric>
+            <Cloth>20</Cloth>
+                    <Plastic>10</Plastic>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/TightCombatUniform/TightCombatUniform</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>280</MaxHitPoints>
+            <WorkToMake>15000</WorkToMake>
+            <Mass>1.0</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.43</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.14</ArmorRating_Heat>
+            <Insulation_Cold>15</Insulation_Cold>
+            <Insulation_Heat>6</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/TightCombatUniform/TightCombatUniform</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_Combat</li>
+                <li>Wolfein_OnSkin_Melee</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <HuntingStealth>0.5</HuntingStealth>
+            <MoveSpeed>0.05</MoveSpeed>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 轻型作战服（固定材料） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_CombatI">
+        <defName>Wolfein_LightweightCombatUniform</defName>
+        <label>Wolfein Lightweight Combat Suit</label>
+        <description>A Wolfein Lightweight Combat Suit, designed to make Soldiers move faster. But it's protection level is lower compared with other Wolfein Army's combat suit.</description>
+        <costList>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <Wolfein_CompositeFabric>50</Wolfein_CompositeFabric>
+                    <Plastic>10</Plastic>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/LightweightCombatUniform/LightweightCombatUniform</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>300</MaxHitPoints>
+            <WorkToMake>16000</WorkToMake>
+            <Mass>1.0</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.48</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.16</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.12</ArmorRating_Heat>
+            <Insulation_Cold>14</Insulation_Cold>
+            <Insulation_Heat>7</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/LightweightCombatUniform/LightweightCombatUniform</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_Combat</li>
+                <li>Wolfein_OnSkin_Melee</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+            <MoveSpeed>0.15</MoveSpeed>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 抵抗军作战服（固定材料） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_CombatI">
+        <defName>Wolfein_RebelUniform</defName>
+        <label>Wolfein Rebel Uniform</label>
+        <description>Wolfein Rebel's Uniform, every new Wolfein Rebel member would wear them proudly, at first.</description>
+        <costList>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <SteelBar>8</SteelBar>
+            <Wolfein_CompositeFabric>40</Wolfein_CompositeFabric>
+                    <Plastic>10</Plastic>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/RebelUniform/RebelUniform</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>320</MaxHitPoints>
+            <WorkToMake>17000</WorkToMake>
+            <Mass>2.5</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.1</ArmorRating_Heat>
+            <Insulation_Cold>15</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/RebelUniform/RebelUniform</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_RebelCombat</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+            <MoveSpeed>0.10</MoveSpeed>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 沃芬族抵抗军游击队员服（固定材料） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_CombatI">
+        <defName>Wolfein_RebelGuerrillaUniform</defName>
+        <label>Wolfein Rebel Guerrilla Uniform</label>
+        <description>The Wolfein Rebel guerrilla uniform is issued to those volunteers who bravely resist outside the city, signifying that they are members of the Rebel, not bandits or marauders.</description>
+        <costList>
+            <ComponentIndustrial>1</ComponentIndustrial>
+            <SteelBar>4</SteelBar>
+            <Wolfein_CompositeFabric>30</Wolfein_CompositeFabric>
+                    <Plastic>10</Plastic>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/RebelGuerrillaUniform/RebelGuerrillaUniform</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>300</MaxHitPoints>
+            <WorkToMake>16000</WorkToMake>
+            <Mass>2.0</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.13</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.1</ArmorRating_Heat>
+            <Insulation_Cold>13</Insulation_Cold>
+            <Insulation_Heat>7</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/RebelGuerrillaUniform/RebelGuerrillaUniform</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_RebelCombat</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+            <MoveSpeed>0.05</MoveSpeed>
+            <RangedCooldownFactor>-0.05</RangedCooldownFactor>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 沃芬族抵抗军作战制服（固定材料） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_CombatI">
+        <defName>Wolfein_RebelCombatSuit</defName>
+        <label>Wolfein Rebel Combat Suit</label>
+        <description>The Wolfein Rebel combat uniform, designed for close-quarters engagement with the enemies of the Rebel, whether they be made of steel or flesh.</description>
+        <costList>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <SteelBar>4</SteelBar>
+            <Wolfein_CompositeFabric>30</Wolfein_CompositeFabric>
+                    <Plastic>10</Plastic>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/RebelCombatSuit/RebelCombatSuit</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>320</MaxHitPoints>
+            <WorkToMake>16500</WorkToMake>
+            <Mass>2.0</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.47</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.11</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.1</ArmorRating_Heat>
+            <Insulation_Cold>12</Insulation_Cold>
+            <Insulation_Heat>8</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/RebelCombatSuit/RebelCombatSuit</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_RebelCombat</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+            <MoveSpeed>0.15</MoveSpeed>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 沃芬族抵抗军支援服（固定材料） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_CombatI">
+        <defName>Wolfein_RebelSupportSuit</defName>
+        <label>Wolfein Rebel Support Suit</label>
+        <description>The Wolfein Rebel support suit, worn by those providing long-range support to their comrades, is designed solely for assistance on the frontlines, not for ease of retreat to the rear.</description>
+        <costList>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <SteelBar>6</SteelBar>
+            <Wolfein_CompositeFabric>30</Wolfein_CompositeFabric>
+                    <Plastic>10</Plastic>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/RebelSupportSuit/RebelSupportSuit</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>340</MaxHitPoints>
+            <WorkToMake>17000</WorkToMake>
+            <Mass>2.5</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.44</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.1</ArmorRating_Heat>
+            <Insulation_Cold>17</Insulation_Cold>
+            <Insulation_Heat>4</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/RebelSupportSuit/RebelSupportSuit</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_RebelCombat</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+            <RangedCooldownFactor>-0.10</RangedCooldownFactor>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 职员制服（固定材料） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_III">
+        <defName>Wolfein_StaffUniform</defName>
+        <label>Wolfein Staff uniform</label>
+        <description>A neat uniform worn by Wolfein employees while working for the MegaCorp, often serving as a symbol of their status. It is frequently effective in intimidating civilians.</description>
+        <costList>
+            <Wolfein_CompositeFabric>50</Wolfein_CompositeFabric>
+            <Cloth>40</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/StaffUniform/StaffUniform</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>280</MaxHitPoints>
+            <WorkToMake>12500</WorkToMake>
+            <Mass>1.0</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.42</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.11</ArmorRating_Heat>
+            <Insulation_Cold>14.5</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/StaffUniform/StaffUniform</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_Staff</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+            <SocialImpact>0.15</SocialImpact>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 衬衫职员制服（固定材料） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_III">
+        <defName>Wolfein_ShirtStaffUniform</defName>
+        <label>Wolfein Shirt Staff uniform</label>
+        <description>A common Wolfein staff uniform, but this one lacks the suit jacket.</description>
+        <costList>
+            <Wolfein_CompositeFabric>50</Wolfein_CompositeFabric>
+            <Cloth>40</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/ShirtStaffUniform/ShirtStaffUniform</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>280</MaxHitPoints>
+            <WorkToMake>12500</WorkToMake>
+            <Mass>1.0</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.42</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.11</ArmorRating_Heat>
+            <Insulation_Cold>13.5</Insulation_Cold>
+            <Insulation_Heat>6</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/ShirtStaffUniform/ShirtStaffUniform</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_Staff</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+            <SocialImpact>0.15</SocialImpact>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 长裙职员制服（固定材料） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_III">
+        <defName>Wolfein_LonguetteStaffUniform</defName>
+        <label>Wolfein Longuette Staff uniform</label>
+        <description>A common Wolfein staff uniform, paired with a relatively long skirt.</description>
+        <costList>
+            <Wolfein_CompositeFabric>50</Wolfein_CompositeFabric>
+            <Cloth>40</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/LonguetteStaffUniform/LonguetteStaffUniform</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>280</MaxHitPoints>
+            <WorkToMake>12500</WorkToMake>
+            <Mass>1.0</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.42</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.11</ArmorRating_Heat>
+            <Insulation_Cold>14.5</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/LonguetteStaffUniform/LonguetteStaffUniform</wornGraphicPath>
+            <tags>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+            <SocialImpact>0.15</SocialImpact>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 水手服（固定材料） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_II">
+        <defName>Wolfein_SailorSuit</defName>
+        <label>Wolfein Sailor Suit</label>
+        <description>One of the common clothing styles in Wolfien schools, designed with a focus on convenience during sports, making it the top choice for sporty Wolfien girls.</description>
+        <costList>
+            <Wolfein_CompositeFabric>30</Wolfein_CompositeFabric>
+            <Cloth>40</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/SailorSuit/SailorSuit</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>250</MaxHitPoints>
+            <WorkToMake>12500</WorkToMake>
+            <Mass>1.0</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.33</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.1</ArmorRating_Heat>
+            <Insulation_Cold>13.5</Insulation_Cold>
+            <Insulation_Heat>6</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/SailorSuit/SailorSuit</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_Daily</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 毛衣 -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_II">
+        <defName>Wolfein_Sweater</defName>
+        <label>Wolfein Sweater</label>
+        <description>A comfortable and warmly insulating everyday sweater, perfect for autumn and winter. Though it appears loose-fitting, it surprisingly accentuates the body's curves.</description>
+        <costStuffCount>65</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+        </stuffCategories>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/Sweater/Sweater</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>3000</WorkToMake>
+            <Mass>0.4</Mass>
+            <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.32</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.08</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/Sweater/Sweater</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_Daily</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+            <SocialImpact>0.10</SocialImpact>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_StandardApparel" />
+    </ThingDef>
+
+    <!-- 露脐T恤衫 -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_II">
+        <defName>Wolfein_ShortT-shirt</defName>
+        <label>Wolfein Short T-shirt</label>
+        <description>Common summer attire for Wolfein girls, featuring a shorter and breezier crop top. Paired with denim shorts, it exudes both style and sexy.</description>
+        <costStuffCount>65</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/ShortT-shirt/ShortT-shirt</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>3000</WorkToMake>
+            <Mass>0.3</Mass>
+            <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.26</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.14</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/ShortT-shirt/ShortT-shirt</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_Daily</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+            <SocialImpact>0.10</SocialImpact>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_StandardApparel" />
+    </ThingDef>
+
+    <!-- OL制服（固定材料） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_III">
+        <defName>Wolfein_OLSuit</defName>
+        <label>Wolfein OL Suit</label>
+        <description>A professional Wolfein OL uniform, consisting of a simple shirt and a fitted skirt. Among civilians, this outfit has become a symbol of the company’s corporate image.</description>
+        <costList>
+            <Wolfein_CompositeFabric>50</Wolfein_CompositeFabric>
+            <Cloth>40</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/OLSuit/OLSuit</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>280</MaxHitPoints>
+            <WorkToMake>12500</WorkToMake>
+            <Mass>1.0</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.42</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.11</ArmorRating_Heat>
+            <Insulation_Cold>13.5</Insulation_Cold>
+            <Insulation_Heat>6</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/OLSuit/OLSuit</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_Staff</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+            <SocialImpact>0.15</SocialImpact>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 商务职员服（固定材料） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_III">
+        <defName>Wolfein_BusinessUniform</defName>
+        <label>Wolfein BusinessUniform</label>
+        <description>A more breathable Wolfein staff uniform, paired with a shorter skirt, perfect for spring and summer wear.</description>
+        <costList>
+            <Wolfein_CompositeFabric>50</Wolfein_CompositeFabric>
+            <Cloth>40</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/BusinessUniform/BusinessUniform</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>280</MaxHitPoints>
+            <WorkToMake>12500</WorkToMake>
+            <Mass>1.0</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.42</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.11</ArmorRating_Heat>
+            <Insulation_Cold>13.5</Insulation_Cold>
+            <Insulation_Heat>6</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/BusinessUniform/BusinessUniform</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_Staff</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.04</MentalBreakThreshold>
+            <SocialImpact>0.15</SocialImpact>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 短款夹克（固定材料） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_II">
+        <defName>Wolfein_CroppedJacket</defName>
+        <label>Wolfein Cropped Jacket</label>
+        <description>A short jacket paired with hot pants, a summer favorite among Wolfein girls. However, for some unknown reason, a peculiar trend has emerged where they fasten only the collar and leave the zipper undone.</description>
+        <costList>
+            <Wolfein_CompositeFabric>60</Wolfein_CompositeFabric>
+            <Cloth>30</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/CroppedJacket/CroppedJacket</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>300</MaxHitPoints>
+            <WorkToMake>15000</WorkToMake>
+            <Mass>1.0</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.42</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.14</ArmorRating_Heat>
+            <Insulation_Cold>14</Insulation_Cold>
+            <Insulation_Heat>7</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/CroppedJacket/CroppedJacket</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_Daily</li>
+                <li>Wolfein_OnSkin_Combat</li>
+                <li>Wolfein_OnSkin_Melee</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+            <MoveSpeed>0.05</MoveSpeed>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 高叉紧身衣（固定材料） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_CombatI">
+        <defName>Wolfein_HighcutLeotard</defName>
+        <label>Wolfein Highcut Leotard</label>
+        <description>Made from specially crafted composite fabric, this form-fitting design incorporates embedded assistive devices that enhance the user’s speed and make shooting movements smoother.</description>
+        <costList>
+            <Wolfein_CompositeFabric>65</Wolfein_CompositeFabric>
+            <Cloth>20</Cloth>
+                    <Plastic>10</Plastic>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/HighcutLeotard/HighcutLeotard</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>280</MaxHitPoints>
+            <WorkToMake>15000</WorkToMake>
+            <Mass>1.0</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.43</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.14</ArmorRating_Heat>
+            <Insulation_Cold>14</Insulation_Cold>
+            <Insulation_Heat>7</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/HighcutLeotard/HighcutLeotard</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_Combat</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+            <MoveSpeed>0.1</MoveSpeed>
+            <RangedCooldownFactor>-0.05</RangedCooldownFactor>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 常规军服（固定材料） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_CombatI">
+        <defName>Wolfein_RegularUniform</defName>
+        <label>Wolfein Regular Uniform</label>
+        <description>The standard military uniform of the Wolfein military corporation's mobile unit, meticulously crafted with rigorous techniques to ensure durability and functionality, making it ideal for extended combat and training.</description>
+        <costList>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <Wolfein_CompositeFabric>50</Wolfein_CompositeFabric>
+            <Plasteel>5</Plasteel>
+                    <Plastic>10</Plastic>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/RegularUniform/RegularUniform</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>350</MaxHitPoints>
+            <WorkToMake>17000</WorkToMake>
+            <Mass>2.5</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.46</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.16</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.12</ArmorRating_Heat>
+            <Insulation_Cold>15</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/RegularUniform/RegularUniform</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_Combat</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+            <MoveSpeed>0.05</MoveSpeed>
+            <RangedCooldownFactor>-0.05</RangedCooldownFactor>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 沃芬族AIPT调查组制服（短裤）（固定材料） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_AIPT">
+        <defName>Wolfein_AIPTUniform_Pants</defName>
+        <label>Wolfein AIPT Uniform(Pants)</label>
+        <description>The uniform of the Wolfein AIPT signifies that its wearer will face hyperintelligent archotech mind creations and bear the responsibility of protecting MegaCorp assets from any harm.</description>
+        <costList>
+            <Wolfein_CompositeFabric>55</Wolfein_CompositeFabric>
+            <Cloth>35</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/AIPTUniform_Pants/AIPTUniform_Pants</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>350</MaxHitPoints>
+            <WorkToMake>12500</WorkToMake>
+            <Mass>1.0</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.44</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.11</ArmorRating_Heat>
+            <Insulation_Cold>13</Insulation_Cold>
+            <Insulation_Heat>7</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/AIPTUniform_Pants/AIPTUniform_Pants</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_AIPT</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>AIPT</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.06</MentalBreakThreshold>
+            <SocialImpact>0.15</SocialImpact>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 沃芬族AIPT调查组制服（裙装）（固定材料） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_AIPT">
+        <defName>Wolfein_AIPTUniform_Skirt</defName>
+        <label>Wolfein AIPT Uniform(Skirt)</label>
+        <description>The uniform of the Wolfein AIPT signifies that its wearer will face hyperintelligent archotech mind creations and bear the responsibility of protecting MegaCorp assets from any harm.</description>
+        <costList>
+            <Wolfein_CompositeFabric>55</Wolfein_CompositeFabric>
+            <Cloth>35</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/AIPTUniform_Skirt/AIPTUniform_Skirt</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>350</MaxHitPoints>
+            <WorkToMake>12500</WorkToMake>
+            <Mass>1.0</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.44</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.11</ArmorRating_Heat>
+            <Insulation_Cold>13</Insulation_Cold>
+            <Insulation_Heat>7</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/AIPTUniform_Skirt/AIPTUniform_Skirt</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_AIPT</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>AIPT</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.06</MentalBreakThreshold>
+            <SocialImpact>0.15</SocialImpact>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 沃芬族AIPT调查组制服（长裤）（固定材料） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_AIPT">
+        <defName>Wolfein_AIPTUniform_Trousers</defName>
+        <label>Wolfein AIPT Uniform(Trousers)</label>
+        <description>The uniform of the Wolfein AIPT signifies that its wearer will face hyperintelligent archotech mind creations and bear the responsibility of protecting MegaCorp assets from any harm.</description>
+        <costList>
+            <Wolfein_CompositeFabric>55</Wolfein_CompositeFabric>
+            <Cloth>35</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/AIPTUniform_Trousers/AIPTUniform_Trousers</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>350</MaxHitPoints>
+            <WorkToMake>12500</WorkToMake>
+            <Mass>1.0</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.44</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.11</ArmorRating_Heat>
+            <Insulation_Cold>16</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/AIPTUniform_Trousers/AIPTUniform_Trousers</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_AIPT</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>AIPT</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.06</MentalBreakThreshold>
+            <SocialImpact>0.15</SocialImpact>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 沃芬族AIPT处理组作战制服（固定材料） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_AIPT">
+        <defName>Wolfein_AIPTCombatSuit</defName>
+        <label>Wolfein AIPT CombatSuit</label>
+        <description>The Wolfein AIPT combat uniform, designed for close-quarters handling of anomalies and their former owners, ensures the wearer can dominate in close combat situations.</description>
+        <costList>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <Wolfein_AlloyMaterials>20</Wolfein_AlloyMaterials>
+            <Wolfein_CompositeFabric>25</Wolfein_CompositeFabric>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/AIPTCombatSuit/AIPTCombatSuit</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>320</MaxHitPoints>
+            <WorkToMake>18000</WorkToMake>
+            <Mass>1.0</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.48</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.15</ArmorRating_Heat>
+            <Insulation_Cold>14</Insulation_Cold>
+            <Insulation_Heat>7</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/AIPTCombatSuit/AIPTCombatSuit</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_AIPT</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>AIPT</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.06</MentalBreakThreshold>
+            <MoveSpeed>0.05</MoveSpeed>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 沃芬族AIPT处理组标准制服（固定材料） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_AIPT">
+        <defName>Wolfein_AIPTStandardUniform</defName>
+        <label>Wolfein AIPT StandardUniform</label>
+        <description>The standard uniform for Wolfein AIPT Process Unit employees, emphasizing protection more than the Investigate Unit's attire, with an overall solemn style.</description>
+        <costList>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <Wolfein_AlloyMaterials>20</Wolfein_AlloyMaterials>
+            <Wolfein_CompositeFabric>30</Wolfein_CompositeFabric>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/AIPTStandardUniform/AIPTStandardUniform</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>350</MaxHitPoints>
+            <WorkToMake>18500</WorkToMake>
+            <Mass>2.5</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.47</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.17</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.14</ArmorRating_Heat>
+            <Insulation_Cold>16</Insulation_Cold>
+            <Insulation_Heat>6</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/AIPTStandardUniform/AIPTStandardUniform</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_AIPT</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>AIPT</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.06</MentalBreakThreshold>
+            <MoveSpeed>0.05</MoveSpeed>
+            <RangedCooldownFactor>-0.05</RangedCooldownFactor>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 沃芬族AIPT处理组支援服（固定材料） -->
+    <ThingDef ParentName="Wolfein_OnSkinBase_AIPT">
+        <defName>Wolfein_AIPTSupportSuit</defName>
+        <label>Wolfein AIPT SupportSuit</label>
+        <description>The Wolfein AIPT support suit, typically worn by remote fire support units of the Process Team, is designed for efficient processing anomaly and focuses on enhancing the wearer's shooting accuracy.</description>
+        <costList>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <Wolfein_AlloyMaterials>20</Wolfein_AlloyMaterials>
+            <Wolfein_CompositeFabric>30</Wolfein_CompositeFabric>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/OnSkin/AIPTSupportSuit/AIPTSupportSuit</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>350</MaxHitPoints>
+            <WorkToMake>18500</WorkToMake>
+            <Mass>2.5</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.46</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.16</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.14</ArmorRating_Heat>
+            <Insulation_Cold>15</Insulation_Cold>
+            <Insulation_Heat>7</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/OnSkin/AIPTSupportSuit/AIPTSupportSuit</wornGraphicPath>
+            <tags>
+                <li>Wolfein_OnSkin_AIPT</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>AIPT</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.06</MentalBreakThreshold>
+            <RangedCooldownFactor>-0.15</RangedCooldownFactor>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+</Defs>

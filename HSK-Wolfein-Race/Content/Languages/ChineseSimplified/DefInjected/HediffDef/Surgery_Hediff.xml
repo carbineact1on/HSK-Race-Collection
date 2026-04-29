@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: installed artificial ear -->
+  <Wolfein_ArtificialEarInstalled.label>沃芬人工假狼耳</Wolfein_ArtificialEarInstalled.label>
+  <!-- EN: An already installed artificial ear, though it may cause some initial discomfort for the user. -->
+  <Wolfein_ArtificialEarInstalled.description>一只已经安装好的人工假狼耳，尽管在初期可能会给使用者带来些许不适。</Wolfein_ArtificialEarInstalled.description>
+  <!-- EN: an installed artificial ear -->
+  <Wolfein_ArtificialEarInstalled.labelNoun>一只沃芬人工假狼耳</Wolfein_ArtificialEarInstalled.labelNoun>
+  
+  <!-- EN: installed artificial tail -->
+  <Wolfein_ArtificialTailInstalled.label>沃芬人工假狼尾</Wolfein_ArtificialTailInstalled.label>
+  <!-- EN: An already installed artificial tail—though not as aesthetically pleasing as a natural one, it's still better than having none. -->
+  <Wolfein_ArtificialTailInstalled.description>一条已经安装好的人工假狼尾，不如自然尾巴美观，但总比没有强。</Wolfein_ArtificialTailInstalled.description>
+  <!-- EN: an installed artificial tail -->
+  <Wolfein_ArtificialTailInstalled.labelNoun>一条沃芬人工假狼尾</Wolfein_ArtificialTailInstalled.labelNoun>
+  
+  <!-- EN: installed bionic ear -->
+  <Wolfein_BionicEarInstalled.label>沃芬仿生狼耳</Wolfein_BionicEarInstalled.label>
+  <!-- EN: An already installed bionic ear, allowing the user to perceive environmental sounds with greater clarity. -->
+  <Wolfein_BionicEarInstalled.description>一只已经安装好的仿生耳朵，使用者现在可以更清晰地感知环境声音。</Wolfein_BionicEarInstalled.description>
+  <!-- EN: an installed bionic ear -->
+  <Wolfein_BionicEarInstalled.labelNoun>一只沃芬仿生狼耳</Wolfein_BionicEarInstalled.labelNoun>
+  
+  <!-- EN: installed bionic tail -->
+  <Wolfein_BionicTailInstalled.label>沃芬仿生狼尾</Wolfein_BionicTailInstalled.label>
+  <!-- EN: An already installed bionic tail, which requires the user some time to adjust to its new sense of balance. -->
+  <Wolfein_BionicTailInstalled.description>一条已经安装好的仿生尾巴，使用者需要一段时间来适应这条新尾巴所带来的平衡感。</Wolfein_BionicTailInstalled.description>
+  <!-- EN: Wolfein_Tail -->
+  <Wolfein_CombatBionicTailInstalled.comps.HediffComp_VerbGiver.tools.Wolfein_Tail.label>沃芬狼尾</Wolfein_CombatBionicTailInstalled.comps.HediffComp_VerbGiver.tools.Wolfein_Tail.label>
+  <!-- EN: an installed combat mech tail -->
+  <Wolfein_BionicTailInstalled.labelNoun>一条沃芬仿生狼尾</Wolfein_BionicTailInstalled.labelNoun>
+  
+  <!-- EN: installed combat mech ear -->
+  <Wolfein_CombatBionicEarInstalled.label>沃芬战斗机械狼耳</Wolfein_CombatBionicEarInstalled.label>
+  <!-- EN: An installed metal mechanical ear, requiring the user some time to adapt to the enhanced hearing and directional perception provided by the device. -->
+  <Wolfein_CombatBionicEarInstalled.description>一只已经安装好的金属机械耳朵，使用者需要一段时间来适应机械耳带来的增强听觉与方向感知能力。</Wolfein_CombatBionicEarInstalled.description>
+  <!-- EN: an installed combat mech ear -->
+  <Wolfein_CombatBionicEarInstalled.labelNoun>一只沃芬沃芬战斗机械狼耳</Wolfein_CombatBionicEarInstalled.labelNoun>
+  
+  <!-- EN: installed combat mech tail -->
+  <Wolfein_CombatBionicTailInstalled.label>沃芬战斗机械狼尾</Wolfein_CombatBionicTailInstalled.label>
+  <!-- EN: An installed metal mechanical tail, though not as flexible as a natural tail, provides enhanced balance and offensive power, effectively improving combat performance. -->
+  <Wolfein_CombatBionicTailInstalled.description>一条已经安装好的金属机械尾巴，虽然不如自然尾巴那般自如，但提供了增强的平衡与攻击力，能有效提升战斗表现。</Wolfein_CombatBionicTailInstalled.description>
+  <!-- EN: an installed combat mech tail -->
+  <Wolfein_CombatBionicTailInstalled.labelNoun>一条沃芬沃芬战斗机械狼尾</Wolfein_CombatBionicTailInstalled.labelNoun>
+  
+  <!-- EN: installed heavy gear augmentation -->
+  <Wolfein_HeavyGearAugmentationInstalled.label>重型装备适配改造组件</Wolfein_HeavyGearAugmentationInstalled.label>
+  <!-- EN: A fully installed heavy gear augmentation that cybernetically enhances the limbs and spine with high-powered motors, significantly boosting the user’s strength and load-bearing capacity. It enables stable operation of oversized single-soldier weapons while maintaining tactical mobility across complex battlefield terrains. -->
+  <Wolfein_HeavyGearAugmentationInstalled.description>一套完全安装的重型装备适配改造组件，通过义体化四肢与脊椎并内置大功率电机，显著增强使用者的力量与负重能力，使其能稳定操控超规格单兵武器并在复杂战地环境中保持战术机动性。</Wolfein_HeavyGearAugmentationInstalled.description>
+  <!-- EN: a heavy gear augmentation -->
+  <Wolfein_HeavyGearAugmentationInstalled.labelNoun>一套重型装备适配改造组件</Wolfein_HeavyGearAugmentationInstalled.labelNoun>
+  
+  <!-- EN: installed heavy gear augmentation light -->
+  <Wolfein_HeavyGearAugmentationLightInstalled.label>重型装备轻量化适配改造组件</Wolfein_HeavyGearAugmentationLightInstalled.label>
+  <!-- EN: A fully installed lightweight augmentation module whose lower-limb prosthetics closely resemble those of a normal Wolfein, facilitating concealment and everyday activity. It maintains good mobility across various terrains, though it sacrifices some limb strength and load-bearing capacity compared to the standard version. -->
+  <Wolfein_HeavyGearAugmentationLightInstalled.description>一套完全安装的轻量化适配改造组件，其下肢义体外观与普通沃芬几无二致以利隐蔽与日常活动，同时在多地形下维持良好机动性，但相较标准版在四肢力量与负重上有所牺牲。</Wolfein_HeavyGearAugmentationLightInstalled.description>
+  <!-- EN: a heavy gear augmentation light -->
+  <Wolfein_HeavyGearAugmentationLightInstalled.labelNoun>一套重型装备轻量化适配改造组件</Wolfein_HeavyGearAugmentationLightInstalled.labelNoun>
+  
+  <!-- EN: installed mechinal leg -->
+  <Wolfein_MechinalLegInstalled.label>沃芬机械义腿</Wolfein_MechinalLegInstalled.label>
+  <!-- EN: A fully installed mechanical prosthetic leg that effectively enhances the user's basic mobility and maintains stable performance across various terrains. -->
+  <Wolfein_MechinalLegInstalled.description>一条已经安装好的机械义腿，可显著提升使用者的基础运动能力，并在多种地形下保持稳定表现。</Wolfein_MechinalLegInstalled.description>
+  <!-- EN: leg -->
+  <Wolfein_MechinalLegInstalled.comps.HediffComp_VerbGiver.tools.leg.label>腿部</Wolfein_MechinalLegInstalled.comps.HediffComp_VerbGiver.tools.leg.label>
+  <!-- EN: a mechinal leg -->
+  <Wolfein_MechinalLegInstalled.labelNoun>一条机械义腿</Wolfein_MechinalLegInstalled.labelNoun>
+  
+  <!-- EN: installed metal claw -->
+  <Wolfein_MetalClawInstalled.label>沃芬金属指爪</Wolfein_MetalClawInstalled.label>
+  <!-- EN: An already installed set of metal claws, further enhancing the user's close-combat capabilities. -->
+  <Wolfein_MetalClawInstalled.description>一副已经安装好的金属指爪，使用者的近身搏斗能力将得到进一步提升。</Wolfein_MetalClawInstalled.description>
+  <!-- EN: Claw -->
+  <Wolfein_MetalClawInstalled.comps.HediffComp_VerbGiver.tools.Claw.label>指爪</Wolfein_MetalClawInstalled.comps.HediffComp_VerbGiver.tools.Claw.label>
+  <!-- EN: a metal claw -->
+  <Wolfein_MetalClawInstalled.labelNoun>一副沃芬金属指爪</Wolfein_MetalClawInstalled.labelNoun>
+  
+  <!-- UNUSED -->
+  <Wolfein_MetalClawInstalled.comps.HediffComp_VerbGiver.tools.point.label>爪尖</Wolfein_MetalClawInstalled.comps.HediffComp_VerbGiver.tools.point.label>
+  <Wolfein_MetalClawInstalled.comps.HediffComp_VerbGiver.tools.edge.label>爪刃</Wolfein_MetalClawInstalled.comps.HediffComp_VerbGiver.tools.edge.label>
+  
+</LanguageData>

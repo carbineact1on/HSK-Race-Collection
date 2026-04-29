@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- 外骨骼护盾（固定材料） -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wolfein_ExoskeletonShield"]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>1000</MaxHitPoints>
+            <Flammability>0.1</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+            <Mass>15</Mass>
+            <EquipDelay>5</EquipDelay>
+            <WorkToMake>60000</WorkToMake>
+            <Insulation_Cold>8</Insulation_Cold>
+            <Insulation_Heat>11</Insulation_Heat>
+            <ArmorRating_Sharp>14</ArmorRating_Sharp>
+            <ArmorRating_Blunt>21</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.2</ArmorRating_Heat>
+            <ArmorRating_Electric>0</ArmorRating_Electric>
+            <Bulk>1</Bulk>
+            <WornBulk>3.6</WornBulk>
+          </statBases>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Wolfein_ExoskeletonShield"]/equippedStatOffsets</xpath>
+		<value>
+				<CarryWeight>100</CarryWeight>
+				<CarryBulk>40</CarryBulk>
+		</value>
+	</Operation>
+
+
+</Patch>

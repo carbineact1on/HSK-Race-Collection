@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- 禁卫动力甲（固定材料） -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+	  <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wolfein_GuardPowerArmor"]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>350</MaxHitPoints>
+            <Flammability>0</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+            <Mass>80</Mass>
+            <EquipDelay>14</EquipDelay>
+            <WorkToMake>60000</WorkToMake>
+            <Insulation_Cold>36</Insulation_Cold>
+            <Insulation_Heat>12</Insulation_Heat>
+            <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
+            <ArmorRating_Sharp>28</ArmorRating_Sharp>
+            <ArmorRating_Blunt>60</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.3</ArmorRating_Heat>
+            <ArmorRating_Electric>0.1</ArmorRating_Electric>
+            <Bulk>100</Bulk>
+            <WornBulk>15</WornBulk>
+          </statBases>
+        </value>
+	  </li>
+      <li Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[defName="Wolfein_GuardPowerArmor"]</xpath>
+        <value>
+          <li Class="CombatExtended.PartialArmorExt">
+            <stats>
+              <li>
+                <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+                <parts>
+                  <li>Hand</li>
+                  <li>Finger</li>
+                  <li>Foot</li>
+                  <li>Toe</li>
+                </parts>
+              </li>
+            </stats>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Wolfein_GuardPowerArmor"]/equippedStatOffsets</xpath>
+		<value>
+				<CarryWeight>100</CarryWeight>
+				<CarryBulk>38</CarryBulk>
+				<ShootingAccuracyPawn>0.15</ShootingAccuracyPawn>
+				<ToxicEnvironmentResistance>0.50</ToxicEnvironmentResistance>
+		</value>
+	</Operation>
+</Patch>

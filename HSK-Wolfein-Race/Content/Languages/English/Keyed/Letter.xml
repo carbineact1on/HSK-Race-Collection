@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Woflein.InjuredSlaveLetter>Severely Injured Wolfein Slave</Woflein.InjuredSlaveLetter>
+  <Woflein.InjuredSlaveLetterDesc>A Wolfein slave fitted with multiple prosthetics has collapsed near the edge of the colony, critically wounded. She appears to have lost any clear sense of direction, crawling purely on instinct toward the nearest signs of human activity in an attempt to seek help.\n\nRegardless of how you intend to deal with her, if no action is taken soon, she will likely bleed to death.</Woflein.InjuredSlaveLetterDesc>
+  
+  <Woflein.LostSoldierLetter>Unexpected Arrival：{PAWN_nameDef}</Woflein.LostSoldierLetter>
+  <Woflein.LostSoldierLetterDesc>A {PAWN_title} named {PAWN_nameDef} suddenly appeared in your colony.\n\n[PAWN_pronoun] seems just as confused by the situation. According to [PAWN_pronoun], she accidentally triggered a warp device during a weapon training exercise and was abruptly transported here. At present, [PAWN_pronoun] is unable to return to her original location and has nowhere else to go, so she is requesting permission to remain in the colony for the time being. {PAWN_objective} claims to possess combat experience and is willing to prove her worth through action.\n\n{PAWN_objective} will not leave on her own. You may choose to refuse {PAWN_objective} and send her away, but your colonists may feel uneasy about turning away someone in need.</Woflein.LostSoldierLetterDesc>
+
+  <Woflein.MegaCropDroneRaidLetter>Drone Attack</Woflein.MegaCropDroneRaidLetter>
+  <Woflein.MegaCropDroneRaidLetterDesc>A group of MegaCorp drones has been dispatched from a nearby drone factory outpost and is now launching an attack on the colony. This does not appear to be a full-scale assault, but rather a routine harassment operation intended to probe the colony’s defenses and gradually wear down its resources.</Woflein.MegaCropDroneRaidLetterDesc>
+
+
+
+</LanguageData>

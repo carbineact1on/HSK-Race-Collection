@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein AIPT Weapon -->
+  <Wolfein_AIPTWeapon.label>沃芬族AIPT部门武器</Wolfein_AIPTWeapon.label>
+  <!-- EN: Research how to produce wolfein AIPT weapon. -->
+  <Wolfein_AIPTWeapon.description>研究如何制造沃芬族的AIPT部门武器。</Wolfein_AIPTWeapon.description>
+  
+  <!-- EN: Wolfein AIPT Apparel -->
+  <Wolfein_Apparel_AIPT.label>沃芬族AIPT部门服装</Wolfein_Apparel_AIPT.label>
+  <!-- EN: Research how to produce wolfein AIPT clothing. -->
+  <Wolfein_Apparel_AIPT.description>研究如何生产沃芬族的AIPT部门服装。</Wolfein_Apparel_AIPT.description>
+  
+  <!-- EN: Wolfein Basic Clothing Technology -->
+  <Wolfein_Apparel_Basic.label>沃芬族工业服装基础</Wolfein_Apparel_Basic.label>
+  <!-- EN: Research how to produce wolfein basic clothing technology. -->
+  <Wolfein_Apparel_Basic.description>研究沃芬族的工业服装基础技术。</Wolfein_Apparel_Basic.description>
+  
+  <!-- EN: Wolfein Combat Apparel -->
+  <Wolfein_Apparel_CombatI.label>沃芬族战斗服装</Wolfein_Apparel_CombatI.label>
+  <!-- EN: Research how to produce wolfein combat equipment. -->
+  <Wolfein_Apparel_CombatI.description>研究如何生产沃芬族的战斗服装。</Wolfein_Apparel_CombatI.description>
+  
+  <!-- EN: Wolfein Advanced Combat Apparel -->
+  <Wolfein_Apparel_CombatII.label>沃芬族进阶战斗服</Wolfein_Apparel_CombatII.label>
+  <!-- EN: Research how to produce wolfein advanced combat equipment. -->
+  <Wolfein_Apparel_CombatII.description>研究如何生产沃芬族的进阶战斗服装。</Wolfein_Apparel_CombatII.description>
+  
+  <!-- EN: Wolfein Imperial Apparel -->
+  <Wolfein_Apparel_CombatIII.label>沃芬族前世代装备</Wolfein_Apparel_CombatIII.label>
+  <!-- EN: Research how to produce wolfein Imperial equipment. -->
+  <Wolfein_Apparel_CombatIII.description>研究如何生产沃芬族前世代皇族的装备。</Wolfein_Apparel_CombatIII.description>
+  <!-- EN: cturing Wolfein Imperial Apparel requires an ImperialDataAnalysis report on Wolfein pre-epoch technology. Related materials can be acquired from factions affiliated with military megacorps.Or get it from some event tasks. -->
+  <Wolfein_Apparel_CombatIII.discoveredLetterText>制造沃芬族前世代装备需要前世代科技分析报告。相关材料可从隶属于军事巨头的派系交易获取，或是部分事件中。</Wolfein_Apparel_CombatIII.discoveredLetterText>
+  <!-- EN: DataAnalysis is required -->
+  <Wolfein_Apparel_CombatIII.discoveredLetterTitle>需要前世代科技分析报告</Wolfein_Apparel_CombatIII.discoveredLetterTitle>
+  
+  <!-- EN: Wolfein Tribal Clothing -->
+  <Wolfein_Apparel_I.label>沃芬族临时服装</Wolfein_Apparel_I.label>
+  <!-- EN: Research how to produce wolfein Tribal clothing. -->
+  <Wolfein_Apparel_I.description>研究如何制作沃芬族的简易临时服装。</Wolfein_Apparel_I.description>
+  
+  <!-- EN: Wolfein Daily Clothing -->
+  <Wolfein_Apparel_II.label>沃芬族日常服装</Wolfein_Apparel_II.label>
+  <!-- EN: Research how to produce wolfein daily clothing. -->
+  <Wolfein_Apparel_II.description>研究如何制作沃芬族的日常服装。</Wolfein_Apparel_II.description>
+
+  <!-- EN: Wolfein Decorate Clothing -->
+  <Wolfein_Apparel_Decorate.label>沃芬族装饰性服装</Wolfein_Apparel_Decorate.label>
+  <!-- EN: Research how to produce wolfein decorate clothing. -->
+  <Wolfein_Apparel_Decorate.description>研究如何制作沃芬族的装饰性服装。</Wolfein_Apparel_Decorate.description>
+  
+  <!-- EN: Wolfein Staff Clothing -->
+  <Wolfein_Apparel_III.label>沃芬族职员服装</Wolfein_Apparel_III.label>
+  <!-- EN: Research how to produce wolfein staff clothing. -->
+  <Wolfein_Apparel_III.description>研究如何制作沃芬族的公司职员服装。</Wolfein_Apparel_III.description>
+  
+  <!-- EN: Wolfein Work Suit -->
+  <Wolfein_Apparel_Work.label>沃芬族工作服</Wolfein_Apparel_Work.label>
+  <!-- EN: Research how to produce wolfein working suit. -->
+  <Wolfein_Apparel_Work.description>研究如何制作沃芬族的工作服装。</Wolfein_Apparel_Work.description>
+  
+  <!-- EN: Wolfein Artificial Moon Apparatus -->
+  <Wolfein_ArtificialMoonApparatus.label>沃芬族拟月仪</Wolfein_ArtificialMoonApparatus.label>
+  <!-- EN: Research how to construct wolfein Artificial Moon Apparatus. -->
+  <Wolfein_ArtificialMoonApparatus.description>研究如何制造沃芬族的拟月仪</Wolfein_ArtificialMoonApparatus.description>
+  
+  <!-- EN: Wolfein Blast Weapon -->
+  <Wolfein_BlastWeapon.label>沃芬族爆破武器</Wolfein_BlastWeapon.label>
+  <!-- EN: Research how to produce wolfein blast weapon. -->
+  <Wolfein_BlastWeapon.description>研究如何制造沃芬族的爆破杀伤武器。</Wolfein_BlastWeapon.description>
+  
+  <!-- EN: Wolfein Combat Bionic Body -->
+  <Wolfein_CombatBionic.label>沃芬族战斗仿生体</Wolfein_CombatBionic.label>
+  <!-- EN: Research how to produce wolfein combat bionic body. -->
+  <Wolfein_CombatBionic.description>研究如何制造沃芬族的战斗用仿生体。</Wolfein_CombatBionic.description>
+  
+  <!-- EN: Wolfein Complex Bionic Body -->
+  <Wolfein_ComplexBionic.label>沃芬族复杂仿生体</Wolfein_ComplexBionic.label>
+  <!-- EN: Research how to produce wolfein complex bionic body. -->
+  <Wolfein_ComplexBionic.description>研究如何制造沃芬族的复杂仿生体。</Wolfein_ComplexBionic.description>
+  
+  <!-- EN: Wolfein Eclipse Trigger -->
+  <Wolfein_EclipseTrigger.label>沃芬族月蚀激发剂</Wolfein_EclipseTrigger.label>
+  <!-- EN: Research wolfein eclipse trigger. -->
+  <Wolfein_EclipseTrigger.description>研究如何生产沃芬族的月蚀激发剂。</Wolfein_EclipseTrigger.description>
+  
+  <!-- EN: Wolfein Furniture -->
+  <Wolfein_Furniture.label>沃芬族家具</Wolfein_Furniture.label>
+  <!-- EN: Research how to construct wolfein furniture. -->
+  <Wolfein_Furniture.description>研究如何制造沃芬族风格的家具。</Wolfein_Furniture.description>
+  
+  <!-- EN: Wolfein Individual Defense Technology -->
+  <Wolfein_IndividualDefensetechnology.label>沃芬族单兵防卫技术</Wolfein_IndividualDefensetechnology.label>
+  <!-- EN: Research how to produce wolfein Individual defense apparel. -->
+  <Wolfein_IndividualDefensetechnology.description>研究如何制造沃芬族的单兵防卫装备。</Wolfein_IndividualDefensetechnology.description>
+  
+  <!-- EN: Wolfein Industrial production -->
+  <Wolfein_Industrial_production.label>沃芬族工业生产技术</Wolfein_Industrial_production.label>
+  <!-- EN: Research how to produce wolfein industrial goods. -->
+  <Wolfein_Industrial_production.description>研究如何生产沃芬族的工业机械部件。</Wolfein_Industrial_production.description>
+  
+  <!-- EN: Wolfein Medicine -->
+  <Wolfein_Medicine.label>沃芬族医学科技</Wolfein_Medicine.label>
+  <!-- EN: Research wolfein medicine. -->
+  <Wolfein_Medicine.description>研究沃芬族的基础医学科技。</Wolfein_Medicine.description>
+  
+  <!-- EN: Wolfein Melee Weapon -->
+  <Wolfein_MeleeWeapon.label>沃芬族近战武器</Wolfein_MeleeWeapon.label>
+  <!-- EN: Research how to produce wolfein melee weapon. -->
+  <Wolfein_MeleeWeapon.description>研究如何制造沃芬族的近距离杀伤武器。</Wolfein_MeleeWeapon.description>
+  
+  <!-- EN: Wolfein Packaged Food -->
+  <Wolfein_PackagedFood.label>沃芬族食物</Wolfein_PackagedFood.label>
+  <!-- EN: Research how to produce wolfein packaged food. -->
+  <Wolfein_PackagedFood.description>研究如何制作沃芬族的特色食物。</Wolfein_PackagedFood.description>
+  
+  <!-- EN: Wolfein Simple Prosthesis -->
+  <Wolfein_SimpleProsthesis.label>沃芬族简易假肢</Wolfein_SimpleProsthesis.label>
+  <!-- EN: Research how to produce wolfein simple prosthesis. -->
+  <Wolfein_SimpleProsthesis.description>研究如何制造沃芬族的简易假肢。</Wolfein_SimpleProsthesis.description>
+  
+  <!-- EN: Wolfein Standard Facility -->
+  <Wolfein_StandardFacility.label>沃芬常用设施</Wolfein_StandardFacility.label>
+  <!-- EN: Research how to produce wolfein standard facility. -->
+  <Wolfein_StandardFacility.description>研究如何建造沃芬族的常用设施。</Wolfein_StandardFacility.description>
+  
+  <!-- EN: Wolfein Standard Turret -->
+  <Wolfein_TurretStandard.label>沃芬族防卫炮塔</Wolfein_TurretStandard.label>
+  <!-- EN: Research how to construct wolfein fixed defensive turret weapons. -->
+  <Wolfein_TurretStandard.description>研究如何建造沃芬族的固定防卫炮塔武器。</Wolfein_TurretStandard.description>
+  
+  <!-- EN: Wolfein Simple Weapon -->
+  <Wolfein_Weapon_I.label>沃芬族简易武器</Wolfein_Weapon_I.label>
+  <!-- EN: Research how to produce wolfein improvised weapon. -->
+  <Wolfein_Weapon_I.description>研究如何制造沃芬族的简易武器。</Wolfein_Weapon_I.description>
+  
+  <!-- EN: Wolfein Homemade Weapon -->
+  <Wolfein_Weapon_II.label>沃芬族土制武器</Wolfein_Weapon_II.label>
+  <!-- EN: Research how to produce wolfein kineticEnergy weapon. -->
+  <Wolfein_Weapon_II.description>研究如何制造沃芬族的土制武器。</Wolfein_Weapon_II.description>
+  
+  <!-- EN: Wolfein Kinetic energy Weapon -->
+  <Wolfein_Weapon_III.label>沃芬族工业动能武器</Wolfein_Weapon_III.label>
+  <!-- EN: Research how to produce wolfein kinetic energy weapon. -->
+  <Wolfein_Weapon_III.description>研究如何制造沃芬族的工业动能杀伤武器。</Wolfein_Weapon_III.description>
+  
+  <!-- EN: Wolfein Charge Weapon -->
+  <Wolfein_Weapon_IV.label>沃芬族电荷武器</Wolfein_Weapon_IV.label>
+  <!-- EN: Research how to produce wolfein charge weapon. -->
+  <Wolfein_Weapon_IV.description>研究如何制造沃芬族的电荷弹杀伤武器。</Wolfein_Weapon_IV.description>
+  
+  <!-- EN: Wolfein Prototype Weapon -->
+  <Wolfein_Weapon_V.label>沃芬族试制型武器</Wolfein_Weapon_V.label>
+  <!-- EN: Research how to produce wolfein prototype weapon. -->
+  <Wolfein_Weapon_V.description>研究如何制造沃芬族的试制型武器。</Wolfein_Weapon_V.description>
+  
+</LanguageData>

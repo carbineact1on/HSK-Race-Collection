@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="DrugBase">
+    <defName>Wolfein_EclipseTrigger</defName>
+    <label>Wolfein Eclipse Trigger</label>
+    <description>A specialized enhancement serum developed by the MegaCorp specifically for the Wolfein. It forcibly activates their latent physical functions during non-full moon periods. To ensure combat stability, all addictive components have been removed from the formula. Due to its mechanism being deeply reliant on the unique physiology of the Wolfein, use by other species is typically ineffective—or may trigger unpredictable side effects.</description>
+    <descriptionHyperlinks>
+      <HediffDef>Wolfein_EclipseTrigger</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Wolfein/Items/EclipseTrigger/EclipseTrigger</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <generateCommonality>0.000001</generateCommonality>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>600</WorkToMake>
+      <MarketValue>50</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <joyKind>Chemical</joyKind>
+      <joy>0.10</joy>
+      <drugCategory>Hard</drugCategory>
+      <foodType>Processed, Fluid</foodType>
+      <baseIngestTicks>80</baseIngestTicks>
+      <ingestSound>Ingest_Inject</ingestSound>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestCommandString>Inject {0}</ingestCommandString>
+      <ingestReportString>Injecting {0}.</ingestReportString>
+      <useEatingSpeedStat>false</useEatingSpeedStat>
+      <chairSearchRadius>0</chairSearchRadius>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Wolfein_EclipseTrigger</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>GoJuice</chemical>
+        <addictiveness>0</addictiveness>
+        <needLevelOffset>0.9</needLevelOffset>
+        <isCombatEnhancingDrug>true</isCombatEnhancingDrug>
+        <listOrder>200</listOrder>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <HediffDef>
+    <defName>Wolfein_EclipseTrigger</defName>
+    <hediffClass>Hediff_High</hediffClass>
+    <label>Wolfein Eclipse Trigger</label>
+    <labelNoun>a eclipse high</labelNoun>
+    <description>Enhances physical capabilities, heightens perception, and boosts reaction speed. The effects last for 24 hours, after which the user enters a recovery phase marked by significant physical and mental fatigue.</description>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.25</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+      <li Class="Wolfein.HediffCompProperties_EclipseTrigger"/>
+    </comps>
+    <stages>
+      <li>
+        <label>New Moon Phase</label>
+        <statFactors>
+          <AimingDelayFactor>1.2</AimingDelayFactor>
+          <MeleeDamageFactor>0.8</MeleeDamageFactor>
+        </statFactors>
+      </li>
+      <li>
+        <minSeverity>0.75</minSeverity>
+        <label>Full Moon Phase</label>
+        <statFactors>
+          <AimingDelayFactor>0.8</AimingDelayFactor>
+          <MeleeDamageFactor>1.35</MeleeDamageFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>

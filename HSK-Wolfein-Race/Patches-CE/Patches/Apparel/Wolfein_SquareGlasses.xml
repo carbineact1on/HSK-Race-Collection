@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- 方形半框眼镜（固定材料） -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wolfein_SquareGlasses"]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>20</MaxHitPoints>
+            <Flammability>0.4</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+            <Mass>1</Mass>
+            <EquipDelay>0.5</EquipDelay>
+            <WorkToMake>4000</WorkToMake>
+            <Insulation_Cold>1</Insulation_Cold>
+            <Insulation_Heat>1</Insulation_Heat>
+            <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+            <ArmorRating_Heat>0</ArmorRating_Heat>
+            <ArmorRating_Electric>0</ArmorRating_Electric>
+            <Bulk>1</Bulk>
+            <WornBulk>0.7</WornBulk>
+          </statBases>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

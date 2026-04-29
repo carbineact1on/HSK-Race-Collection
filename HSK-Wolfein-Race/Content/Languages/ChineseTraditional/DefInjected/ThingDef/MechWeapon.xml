@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein Autocannon Bullet -->
+  <W_Bullet_Autocannon.label>沃芬自動機炮高爆彈</W_Bullet_Autocannon.label>
+  
+  <!-- EN: Wolfein Small Rocket -->
+  <W_Bullet_SmallRocket.label>小口徑火箭</W_Bullet_SmallRocket.label>
+  
+  <!-- EN: Wolfein Small Charge Bullet -->
+  <W_ChargeBullet_Drone.label>輕型電荷彈</W_ChargeBullet_Drone.label>
+  
+  <!-- EN: drone graser -->
+  <W_Weapon_Drone.label>偵察無人機武器</W_Weapon_Drone.label>
+  <!-- EN: A low-powered laser gun mounted on the underside of the drone. -->
+  <W_Weapon_Drone.description>一挺低功率鐳射槍,安裝在無人機底部。</W_Weapon_Drone.description>
+  <!-- EN: barrel -->
+  <W_Weapon_Drone.tools.barrel.label>槍管</W_Weapon_Drone.tools.barrel.label>
+  <!-- EN: drone graser -->
+  <W_Weapon_Drone.verbs.Verb_Shoot.label>無人機</W_Weapon_Drone.verbs.Verb_Shoot.label>
+  
+  <!-- EN: drone rocket -->
+  <W_Weapon_DroneRocket.label>武裝無人機火箭巢</W_Weapon_DroneRocket.label>
+  <!-- EN: The rocket pod mounted on the underside of the drone. -->
+  <W_Weapon_DroneRocket.description>安裝在無人機底部的火箭巢。</W_Weapon_DroneRocket.description>
+  <!-- EN: barrel -->
+  <W_Weapon_DroneRocket.tools.barrel.label>炮管</W_Weapon_DroneRocket.tools.barrel.label>
+  <!-- EN: drone rocket -->
+  <W_Weapon_DroneRocket.verbs.Verb_Shoot.label>無人機</W_Weapon_DroneRocket.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein mech autocannon -->
+  <W_Weapon_MG_Autocannon.label>沃芬機械體自動機炮</W_Weapon_MG_Autocannon.label>
+  <!-- EN: A medium-caliber automatic weapon system mounted on MegaCorp-manufactured mechanical units, designed for sustained fire suppression and anti-infantry operations. Its modular structure allows for easy maintenance and replacement. While not as destructive as heavy artillery, it proves highly effective in intense combat scenarios. -->
+  <W_Weapon_MG_Autocannon.description>安裝于軍企所製造的機械體上的中口逕自動火力系統，專為持續火力壓制與反步兵作戰設計。其模組化結構便於維護與更換，雖不如重型火炮破壞力驚人，但在密集戰鬥中展現出極高的作戰效率。</W_Weapon_MG_Autocannon.description>
+  <!-- EN: stock -->
+  <W_Weapon_MG_Autocannon.tools.stock.label>槍托</W_Weapon_MG_Autocannon.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_MG_Autocannon.tools.barrel.label>炮管</W_Weapon_MG_Autocannon.tools.barrel.label>
+  <!-- EN: Wolfein mech autocannon -->
+  <W_Weapon_MG_Autocannon.verbs.Verb_Shoot.label>沃芬機械體自動機炮</W_Weapon_MG_Autocannon.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein mech heavyChargeMinigun -->
+  <W_Weapon_MG_HeavyChargeMinigun.label>沃芬機械體重型電荷機槍</W_Weapon_MG_HeavyChargeMinigun.label>
+  <!-- EN: A large rapid-fire charge machine gun specifically designed for use by heavy fire support platforms. Its enlarged drum magazine and extended, reinforced barrel allow mechanical units to sustain prolonged enemy suppression. -->
+  <W_Weapon_MG_HeavyChargeMinigun.description>專門設計給重型火力支援平臺使用的大型電荷速射機槍。增大的彈鼓，加長加重的槍管足以讓機械體長時間壓制敵方。</W_Weapon_MG_HeavyChargeMinigun.description>
+  <!-- EN: stock -->
+  <W_Weapon_MG_HeavyChargeMinigun.tools.stock.label>槍托</W_Weapon_MG_HeavyChargeMinigun.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_MG_HeavyChargeMinigun.tools.barrel.label>槍管</W_Weapon_MG_HeavyChargeMinigun.tools.barrel.label>
+  <!-- EN: Wolfein mech heavyChargeMinigun -->
+  <W_Weapon_MG_HeavyChargeMinigun.verbs.Verb_Shoot_Laser.label>沃芬機械體重型電荷機槍</W_Weapon_MG_HeavyChargeMinigun.verbs.Verb_Shoot_Laser.label>
+  
+</LanguageData>

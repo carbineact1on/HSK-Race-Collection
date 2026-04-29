@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Reboot and Repair -->
+  <Wolfein_MechCivilResurrect.label>重啟修復</Wolfein_MechCivilResurrect.label>
+  <!-- EN: Reboot and Repair Wolfein Civilian Mech Unit. -->
+  <Wolfein_MechCivilResurrect.description>重啟修復沃芬族民用機械體。</Wolfein_MechCivilResurrect.description>
+  <!-- EN: Resurrecting mech. -->
+  <Wolfein_MechCivilResurrect.jobString>重啟修復機械體</Wolfein_MechCivilResurrect.jobString>
+  
+  <!-- EN: Reboot and Repair -->
+  <Wolfein_MechMilitaryGiantResurrect.label>重啟修復</Wolfein_MechMilitaryGiantResurrect.label>
+  <!-- EN: Reboot and Repair Wolfein Giant Military Mech Unit. -->
+  <Wolfein_MechMilitaryGiantResurrect.description>重啟修復沃芬族超重型軍用機械體。</Wolfein_MechMilitaryGiantResurrect.description>
+  <!-- EN: Resurrecting mech. -->
+  <Wolfein_MechMilitaryGiantResurrect.jobString>重啟修復機械體</Wolfein_MechMilitaryGiantResurrect.jobString>
+  
+  <!-- EN: Reboot and Repair -->
+  <Wolfein_MechMilitaryResurrect.label>重啟修復</Wolfein_MechMilitaryResurrect.label>
+  <!-- EN: Reboot and Repair Wolfein Military Mech Unit. -->
+  <Wolfein_MechMilitaryResurrect.description>重啟修復沃芬族軍用機械體。</Wolfein_MechMilitaryResurrect.description>
+  <!-- EN: Resurrecting mech. -->
+  <Wolfein_MechMilitaryResurrect.jobString>重啟修復機械體</Wolfein_MechMilitaryResurrect.jobString>
+  
+</LanguageData>

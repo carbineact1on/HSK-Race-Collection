@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein Mega Corp -->
+  <Wolfein_Faction_MegaCorp.label>沃芬族军工巨型企业</Wolfein_Faction_MegaCorp.label>
+  <!-- EN: MegaCorp, officially known as the Wolfein MegaCorp, handles all aspects of a Wolfein's life, from birth to death. As the name suggests, its primary focus is on developing the military-industrial sector to satisfy the board's endless expansion demands. -->
+  <Wolfein_Faction_MegaCorp.description>沃芬军工巨型企业，包揽了沃芬族从出生到死亡的所有业务。正如其名，该企业的主要业务方向是发展军工产业，以满足董事会无止境的扩张需求。</Wolfein_Faction_MegaCorp.description>
+  <Wolfein_Faction_MegaCorp.fixedName>沃芬军工巨企</Wolfein_Faction_MegaCorp.fixedName>
+  <!-- EN: Regional Supervisor -->
+  <Wolfein_Faction_MegaCorp.leaderTitle>区域主管</Wolfein_Faction_MegaCorp.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <Wolfein_Faction_MegaCorp.messageDefendersAttacking>来自 {1} 的 {0} 正在攻击你的 {2}</Wolfein_Faction_MegaCorp.messageDefendersAttacking>
+  <!-- EN: Wolfein -->
+  <Wolfein_Faction_MegaCorp.pawnSingular>沃芬</Wolfein_Faction_MegaCorp.pawnSingular>
+  <!-- EN: Wolfeins -->
+  <Wolfein_Faction_MegaCorp.pawnsPlural>沃芬</Wolfein_Faction_MegaCorp.pawnsPlural>
+  
+  <!-- EN: Wolfein Resistance army -->
+  <Wolfein_Faction_Rebel.label>沃芬抵抗军</Wolfein_Faction_Rebel.label>
+  <!-- EN: The Wolfein Resistance Army is primarily driven by the goal of overthrowing the MegaCorp’s rule over the Wolfein people. Its members come from all walks of life—ranging from former corporate employees to hardened criminals—truly a reflection of the entire society. Rumors even suggest that some high-ranking figures within the ResistanceArmy are descendants of the old royal bloodline. Ultimately, due to their extreme methods of pursuing “justice,” the ResistanceArmy holds a poor reputation even among Wolfeins themselves. But then again, the Wolfein people don’t have many choices left. -->
+  <Wolfein_Faction_Rebel.description>沃芬族抵抗军，其核心诉求是推翻军企对沃芬族的统治。组织内人员成分复杂，从前任军企员工到重刑犯都有，可谓是囊括社会百相。甚至有传言抵抗军部分高层人员是旧世代皇族。总而言之，因为激进的声明正义方式，使得抵抗军即使在沃芬族内部也没有好名声，但沃芬族的选择可没有那么多。</Wolfein_Faction_Rebel.description>
+  <!-- EN: leader -->
+  <Wolfein_Faction_Rebel.leaderTitle>抵抗军领袖</Wolfein_Faction_Rebel.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <Wolfein_Faction_Rebel.messageDefendersAttacking>来自 {1} 的 {0} 正在攻击你的 {2}</Wolfein_Faction_Rebel.messageDefendersAttacking>
+  <!-- EN: Wolfein -->
+  <Wolfein_Faction_Rebel.pawnSingular>沃芬</Wolfein_Faction_Rebel.pawnSingular>
+  <!-- EN: Wolfeins -->
+  <Wolfein_Faction_Rebel.pawnsPlural>沃芬</Wolfein_Faction_Rebel.pawnsPlural>
+  
+  <!-- EN: Wolfein refugee group -->
+  <Wolfein_OutlanderRefugee.label>沃芬逃兵</Wolfein_OutlanderRefugee.label>
+  <!-- EN: A group of Wolfein wanderers claiming to be homeless. -->
+  <Wolfein_OutlanderRefugee.description>一群自称无家可归的沃芬流浪者。</Wolfein_OutlanderRefugee.description>
+  <!-- EN: leader -->
+  <Wolfein_OutlanderRefugee.leaderTitle>领袖</Wolfein_OutlanderRefugee.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <Wolfein_OutlanderRefugee.messageDefendersAttacking>来自 {1} 的 {0} 正在攻击你的 {2}</Wolfein_OutlanderRefugee.messageDefendersAttacking>
+  <!-- EN: refugee -->
+  <Wolfein_OutlanderRefugee.pawnSingular>逃兵</Wolfein_OutlanderRefugee.pawnSingular>
+  <!-- EN: refugees -->
+  <Wolfein_OutlanderRefugee.pawnsPlural>逃兵</Wolfein_OutlanderRefugee.pawnsPlural>
+
+  <!-- EN: Wolfein's new base -->
+  <Wolfein_PlayerFaction.label>沃芬族新据点</Wolfein_PlayerFaction.label>
+  <!-- EN: A newly established Wolfein settlement. -->
+  <Wolfein_PlayerFaction.description>一处刚刚成立的沃芬族的聚集地。</Wolfein_PlayerFaction.description>
+  <!-- EN: leader -->
+  <Wolfein_PlayerFaction.leaderTitle>领袖</Wolfein_PlayerFaction.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <Wolfein_PlayerFaction.messageDefendersAttacking>来自 {1} 的 {0} 正在攻击你的 {2}</Wolfein_PlayerFaction.messageDefendersAttacking>
+  <!-- EN: wolfein inhabitant -->
+  <Wolfein_PlayerFaction.pawnSingular>沃芬殖民者</Wolfein_PlayerFaction.pawnSingular>
+  <!-- EN: wolfein inhabitants -->
+  <Wolfein_PlayerFaction.pawnsPlural>沃芬族殖民者</Wolfein_PlayerFaction.pawnsPlural>
+  
+  <!-- EN: Wolfein's new base -->
+  <Wolfein_PlayerFaction_MegaCorpHostile.label>沃芬族新据点</Wolfein_PlayerFaction_MegaCorpHostile.label>
+  <!-- EN: A newly established Wolfein outpost built to avoid the surveillance of the MegaCorp. -->
+  <Wolfein_PlayerFaction_MegaCorpHostile.description>一处为避开军企耳目而刚刚建立的沃芬族据点。</Wolfein_PlayerFaction_MegaCorpHostile.description>
+  <!-- EN: leader -->
+  <Wolfein_PlayerFaction_MegaCorpHostile.leaderTitle>领袖</Wolfein_PlayerFaction_MegaCorpHostile.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <Wolfein_PlayerFaction_MegaCorpHostile.messageDefendersAttacking>来自 {1} 的 {0} 正在攻击你的 {2}</Wolfein_PlayerFaction_MegaCorpHostile.messageDefendersAttacking>
+  <!-- EN: wolfein inhabitant -->
+  <Wolfein_PlayerFaction_MegaCorpHostile.pawnSingular>沃芬殖民者</Wolfein_PlayerFaction_MegaCorpHostile.pawnSingular>
+  <!-- EN: wolfein inhabitants -->
+  <Wolfein_PlayerFaction_MegaCorpHostile.pawnsPlural>沃芬殖民者</Wolfein_PlayerFaction_MegaCorpHostile.pawnsPlural>
+  
+</LanguageData>

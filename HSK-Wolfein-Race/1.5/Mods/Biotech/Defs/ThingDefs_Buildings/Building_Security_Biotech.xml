@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--炮塔C======================================================================================-->
+  <ThingDef ParentName="BuildingBase">
+    <defName>Wolfein_Turret_C</defName>
+    <label>Wolfein Laser Turret</label>
+    <description>Equipped with a powerful energy emitter, this turret excels at eliminating organic threats with precision beams. A built-in cooldown system prevents the barrel from melting down after each burst.</description>
+    <thingClass>Building_TurretGun</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Wolfein/Building/Security/Base_Medium</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+      <drawOffset>(0,0,0)</drawOffset>
+      <damageData>
+        <rect>(0.3,0.3,1.4,1.4)</rect>
+      </damageData>
+      <shadowData>
+        <volume>(0.2,0.15,0.2)</volume>
+        <offset>(0,0,-0.05)</offset>
+      </shadowData>
+    </graphicData>
+    <uiIconPath>Wolfein/Building/Security/Turret_C_UI</uiIconPath>
+    <uiIconScale>1.0</uiIconScale>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>false</rotatable>
+    <size>(3,3)</size>
+    <statBases>
+      <MaxHitPoints>625</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <WorkToBuild>18000</WorkToBuild>
+      <Mass>15</Mass>
+      <Beauty>-15</Beauty>
+      <ShootingAccuracyTurret>1.00</ShootingAccuracyTurret>
+    </statBases>
+    <costList>
+      <Wolfein_AlloyMaterials>265</Wolfein_AlloyMaterials>
+      <ComponentIndustrial>25</ComponentIndustrial>
+      <Wolfein_ElectronicComponent>3</Wolfein_ElectronicComponent>
+      <Wolfein_MechanicalComponent>3</Wolfein_MechanicalComponent>
+    </costList>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <researchPrerequisites>
+      <li>Wolfein_TurretStandard</li>
+    </researchPrerequisites>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Stunnable">
+        <affectedDamageDefs>
+          <li>Stun</li>
+          <li>EMP</li>
+        </affectedDamageDefs>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <wickTicks>240</wickTicks>
+        <explosiveRadius>6.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>450</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Refuelable">
+        <fuelLabel>Shots until barrel change</fuelLabel>
+        <fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+        <outOfFuelMessage>Needs new barrel</outOfFuelMessage>
+        <fuelFilter><thingDefs><li>Steel</li></thingDefs></fuelFilter>
+        <fuelCapacity>200</fuelCapacity>
+        <fuelMultiplier>1</fuelMultiplier>
+        <initialFuelPercent>1</initialFuelPercent>
+        <autoRefuelPercent>0.5</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <minimumFueledThreshold>1</minimumFueledThreshold>
+        <factorByDifficulty>true</factorByDifficulty>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+      </li>
+    </comps>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.5</fillPercent>
+    <hasTooltip>true</hasTooltip>
+    <killedLeavings>
+      <ChunkSlagSteel>5</ChunkSlagSteel>
+    </killedLeavings>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <building>
+      <combatPower>225</combatPower>
+      <buildingTags>
+      </buildingTags>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Wolfein_TurretGun_C</turretGunDef>
+      <turretBurstCooldownTime>1.8</turretBurstCooldownTime>
+      <turretBurstWarmupTime>0.5</turretBurstWarmupTime>
+      <turretTopOffset>(0, 0)</turretTopOffset>
+      <turretTopDrawSize>5</turretTopDrawSize>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>Wolfein_TurretGun_C</defName>
+    <label>Wolfein Laser Turret</label>
+    <description>Equipped with a powerful energy emitter, this turret excels at eliminating organic threats with precision beams. A built-in cooldown system prevents the barrel from melting down after each burst.</description>
+    <graphicData>
+      <texPath>Wolfein/Building/Security/Turret_C</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <AccuracyTouch>0.8</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>6.5</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_ShootBeam</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <warmupTime>1.0</warmupTime>
+        <range>41.9</range>
+        <minRange>3.9</minRange>
+        <beamFullWidthRange>8</beamFullWidthRange>
+        <burstShotCount>35</burstShotCount>
+        <showBurstShotStats>false</showBurstShotStats>
+        <beamWidth>8</beamWidth>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <beamDamageDef>Beam</beamDamageDef>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>4</muzzleFlashScale>
+        <soundCastBeam>BeamGraser_Shooting</soundCastBeam>
+        <!-- <beamHitsNeighborCells>false</beamHitsNeighborCells> -->
+        <beamGroundFleckDef>Fleck_BeamBurn</beamGroundFleckDef>
+        <beamFleckChancePerTick>0.32</beamFleckChancePerTick>
+        <beamMaxDeviation>0.2</beamMaxDeviation>
+        <beamCurvature>0.2</beamCurvature>
+        <beamMoteDef>Wolfein_Mote_GraserBeam</beamMoteDef>
+        <beamEndEffecterDef>GraserBeam_End</beamEndEffecterDef>
+        <beamChanceToStartFire>0.15</beamChanceToStartFire>
+        <beamChanceToAttachFire>0.15</beamChanceToAttachFire>
+        <beamFireSizeRange>0.55~0.85</beamFireSizeRange>
+        <beamLineFleckDef>Wolfein_Fleck_BeamSpark</beamLineFleckDef>
+        <beamStartOffset>1.5</beamStartOffset>
+        <beamLineFleckChanceCurve>
+          <points>
+            <li>(0, 0)</li>
+            <li>(0.65, 0.4)</li>
+            <li>(1, 0.75)</li>
+          </points>
+        </beamLineFleckChanceCurve>
+        <consumeFuelPerShot>0.2</consumeFuelPerShot>
+      </li>
+    </verbs>
+  </ThingDef>
+
+</Defs>

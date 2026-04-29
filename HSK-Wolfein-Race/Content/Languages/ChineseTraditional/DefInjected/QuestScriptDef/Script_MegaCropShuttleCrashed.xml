@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription(sitePart==Wolfein_ShuttleCrashed)->Your colonists spot a Wolfein MegaCorp transport plummeting through the sky, trailing smoke and struggling to stay airborne. Reaching the crash site may allow you to salvage leftover MegaCorp equipment and recover parts from the transport.\n\nBe aware that resistance forces may randomly track the crash site and launch an attack, so proceed with caution during exploration.</li>
+    <li>questDescription(sitePart==Wolfein_ShuttleCrashed_UnderAttack)->Your colonists spot a Wolfein MegaCorp transport plummeting through the sky, trailing smoke and struggling to stay airborne. Reaching the crash site may allow you to salvage leftover MegaCorp equipment and recover parts from the transport.\n\nBe aware that resistance forces may randomly track the crash site and launch an attack, so proceed with caution during exploration.</li>
+  -->
+  <Wolfein_MegaCropShuttleCrashed.questDescriptionRules.rulesStrings>
+    <li>questDescription(sitePart==Wolfein_ShuttleCrashed)->你的殖民者發現一架沃芬軍企運輸機正從天空急速墜落，尾部拖著濃煙，艱難維持飛行。前往墜機現場有機會回收遺留的軍企裝備，並從運輸機上獲取零件。\n\n請注意，抵抗軍可能會隨機追蹤墜機地點並發動襲擊，探索時務必保持警惕。</li>
+    <li>questDescription(sitePart==Wolfein_ShuttleCrashed_UnderAttack)->你的殖民者發現一架沃芬軍企運輸機正從天空急速墜落，尾部拖著濃煙，艱難維持飛行。前往墜機現場有機會回收遺留的軍企裝備，並從運輸機上獲取零件。\n\n請注意，抵抗軍可能會隨機追蹤墜機地點並發動襲擊，探索時務必保持警惕。</li>
+  </Wolfein_MegaCropShuttleCrashed.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Crashed Transport</li>
+  -->
+  <Wolfein_MegaCropShuttleCrashed.questNameRules.rulesStrings>
+    <li>questName->墜毀的運輸機</li>
+  </Wolfein_MegaCropShuttleCrashed.questNameRules.rulesStrings>
+  
+</LanguageData>

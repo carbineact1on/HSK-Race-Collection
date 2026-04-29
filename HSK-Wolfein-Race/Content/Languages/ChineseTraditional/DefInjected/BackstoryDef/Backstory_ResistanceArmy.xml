@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: [PAWN_nameDef] was once an engineer who joined the Resistance out of anger over the MegaCorp's involvement in government surveillance. She set out to defend privacy and freedom, but soon realized the fight was far more complicated than she had imagined. -->
+  <Wolfein_BackstoryResistanceArmy_1.description>[PAWN_nameDef]曾是一位工程師，因對公司參與政府監控專案感到憤怒而加入抵抗軍。她希望捍衛隱私與自由，卻逐漸察覺這場鬥爭遠比她最初想像的複雜。</Wolfein_BackstoryResistanceArmy_1.description>
+  <!-- EN: Wolfein resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_1.title>沃芬族 抵抗軍成員</Wolfein_BackstoryResistanceArmy_1.title>
+  <!-- EN: resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_1.titleShort>抵抗軍成員</Wolfein_BackstoryResistanceArmy_1.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a former soldier who joined the Resistance after witnessing the MegaCorp's corruption and abuse of power. Her combat experience quickly made her a valuable asset within the organization. -->
+  <Wolfein_BackstoryResistanceArmy_2.description>[PAWN_nameDef]是一名退伍軍人，因目睹公司的腐敗與權力濫用而選擇加入抵抗軍。她的戰鬥經驗很快在組織中得到了重用。</Wolfein_BackstoryResistanceArmy_2.description>
+  <!-- EN: Wolfein resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_2.title>沃芬族 抵抗軍成員</Wolfein_BackstoryResistanceArmy_2.title>
+  <!-- EN: resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_2.titleShort>抵抗軍成員</Wolfein_BackstoryResistanceArmy_2.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] has always been passionate about social justice and human rights. Drawn in by the Resistance』s recruitment drive, she joined without hesitation—only to find that the line between justice and reality was far more blurred than expected. -->
+  <Wolfein_BackstoryResistanceArmy_3.description>[PAWN_nameDef]一向熱衷於社會公正與人權，在抵抗軍的招募活動中毅然加入，渴望為正義而戰。只是她很快發現，所謂「正義」的界限比想像中模糊得多。</Wolfein_BackstoryResistanceArmy_3.description>
+  <!-- EN: Wolfein resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_3.title>沃芬族 抵抗軍成員</Wolfein_BackstoryResistanceArmy_3.title>
+  <!-- EN: resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_3.titleShort>抵抗軍成員</Wolfein_BackstoryResistanceArmy_3.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was once a doctor who witnessed the unfair distribution and strict control of medical resources by the Wolfein government. The experience left her deeply disillusioned with the system. -->
+  <Wolfein_BackstoryResistanceArmy_4.description>[PAWN_nameDef]曾是一名醫生，親眼目睹沃芬政府對醫療資源的不公平分配與嚴苛限制。那段經歷讓她對體制徹底失望。</Wolfein_BackstoryResistanceArmy_4.description>
+  <!-- EN: Wolfein resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_4.title>沃芬族 抵抗軍成員</Wolfein_BackstoryResistanceArmy_4.title>
+  <!-- EN: resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_4.titleShort>抵抗軍成員</Wolfein_BackstoryResistanceArmy_4.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was once a journalist committed to exposing social injustice and corporate corruption. She joined the Resistance to speak for the silenced—only to realize that the truth isn't always delivered in the way she once believed. -->
+  <Wolfein_BackstoryResistanceArmy_5.description>[PAWN_nameDef]曾是一名記者，長期致力於揭露社會不公與企業腐敗。她加入抵抗軍，希望為沉默者發聲，卻逐漸發現真相併不總能以理想的方式被傳遞。</Wolfein_BackstoryResistanceArmy_5.description>
+  <!-- EN: Wolfein resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_5.title>沃芬族 抵抗軍成員</Wolfein_BackstoryResistanceArmy_5.title>
+  <!-- EN: resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_5.titleShort>抵抗軍成員</Wolfein_BackstoryResistanceArmy_5.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was once a lawyer disillusioned by the injustice within the Wolfein legal system. She joined the Resistance hoping to fight for justice through legal means, though in this conflict, the power of law often feels insignificant. -->
+  <Wolfein_BackstoryResistanceArmy_6.description>[PAWN_nameDef]曾是一名律師，對沃芬政府法律體系中的不公深感失望。她加入抵抗軍，希望以法律為武器爭取正義，但在這場鬥爭中，法律的力量往往顯得微不足道。</Wolfein_BackstoryResistanceArmy_6.description>
+  <!-- EN: Wolfein resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_6.title>沃芬族 抵抗軍成員</Wolfein_BackstoryResistanceArmy_6.title>
+  <!-- EN: resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_6.titleShort>抵抗軍成員</Wolfein_BackstoryResistanceArmy_6.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was once a teacher who witnessed the government's unfair treatment and budget cuts in the education system. She joined the Resistance out of concern for the future of Wolfein students, hoping to steer the movement toward the path she still believes is right. -->
+  <Wolfein_BackstoryResistanceArmy_7.description>[PAWN_nameDef]曾是一名教師，親眼目睹政府對教育資源的削減與不公。她加入抵抗軍，為的是沃芬學生的未來，同時也在嘗試引導組織朝她心中真正正確的方向前進。</Wolfein_BackstoryResistanceArmy_7.description>
+  <!-- EN: Wolfein resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_7.title>沃芬族 抵抗軍成員</Wolfein_BackstoryResistanceArmy_7.title>
+  <!-- EN: resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_7.titleShort>抵抗軍成員</Wolfein_BackstoryResistanceArmy_7.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was once a government employee of the Wolfein Federation, but grew disillusioned by the corruption and backroom dealings she witnessed. She joined the Resistance in hopes of driving reform—though the line between justice and compromise grows increasingly blurred. -->
+  <Wolfein_BackstoryResistanceArmy_8.description>[PAWN_nameDef]曾是沃芬聯邦的一名政府工作人員，但她逐漸對內部的腐敗與黑箱操作感到失望。她選擇加入抵抗軍，希望推動變革，哪怕手段越來越難以界定正義與否。</Wolfein_BackstoryResistanceArmy_8.description>
+  <!-- EN: Wolfein resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_8.title>沃芬族 抵抗軍成員</Wolfein_BackstoryResistanceArmy_8.title>
+  <!-- EN: resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_8.titleShort>抵抗軍成員</Wolfein_BackstoryResistanceArmy_8.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a social activist who has long fought against unjust government policies and social inequality. She initially believed that the Resistance』s direct actions could bring real change for the oppressed—though reality often proves more complicated than conviction. -->
+  <Wolfein_BackstoryResistanceArmy_9.description>[PAWN_nameDef]是一位社會活動家，始終關注政府的不公政策與社會不平等現象。她最初堅信抵抗軍的直接行動能夠為受壓迫者爭取應得的權利，儘管現實往往比信念複雜得多。</Wolfein_BackstoryResistanceArmy_9.description>
+  <!-- EN: Wolfein resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_9.title>沃芬族 抵抗軍成員</Wolfein_BackstoryResistanceArmy_9.title>
+  <!-- EN: resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_9.titleShort>抵抗軍成員</Wolfein_BackstoryResistanceArmy_9.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] used to be a supply transporter for the Resistance Army, but what she was truly good at was skimming high-value components from those 「supplies」 and selling them off on the side. Her logic was simple: everyone was profiting off the struggle—she was just one of them. -->
+  <Wolfein_BackstoryResistanceArmy_10.description>[PAWN_nameDef]曾是抵抗軍押送物資的運輸員，但她更擅長的，是從這些「物資」里私吞些高價值零件倒賣出去。她的邏輯十分簡單：誰都在利用鬥爭發家，她不過是其中之一。</Wolfein_BackstoryResistanceArmy_10.description>
+  <!-- EN: Wolfein resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_10.title>沃芬族 抵抗軍成員</Wolfein_BackstoryResistanceArmy_10.title>
+  <!-- EN: resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_10.titleShort>抵抗軍成員</Wolfein_BackstoryResistanceArmy_10.titleShort>
+
+  <!-- EN: [PAWN_nameDef] was once an undefeated champion in underground boxing rings, where brutality was her path to victory. She joined the Resistance Army simply because they promised her a stage for 「legalized killing」—and she never asks why the war began. -->
+  <Wolfein_BackstoryResistanceArmy_11.description>[PAWN_nameDef]原本是地下拳擊場的常勝者，殘忍是她贏的方式。她加入抵抗軍，只是因為他們許諾給她「合法殺戮」的舞臺——而她，從不問為什麼開戰。</Wolfein_BackstoryResistanceArmy_11.description>
+  <!-- EN: Wolfein resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_11.title>沃芬族 抵抗軍成員</Wolfein_BackstoryResistanceArmy_11.title>
+  <!-- EN: resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_11.titleShort>抵抗軍成員</Wolfein_BackstoryResistanceArmy_11.titleShort>
+
+  <!-- EN: [PAWN_nameDef] sees combat as a pure ritual. In her eyes, every ambush and explosion is a work of art, and the remains of her enemies are simply raw materials to be reshaped. -->
+  <Wolfein_BackstoryResistanceArmy_12.description>[PAWN_nameDef]把戰鬥視作一種純粹的儀式。在她眼中，每一場伏擊與爆破都是一場藝術作品，而敵人的殘骸只是需要重新雕塑的原料。</Wolfein_BackstoryResistanceArmy_12.description>
+  <!-- EN: Wolfein resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_12.title>沃芬族 抵抗軍成員</Wolfein_BackstoryResistanceArmy_12.title>
+  <!-- EN: resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_12.titleShort>抵抗軍成員</Wolfein_BackstoryResistanceArmy_12.titleShort>
+
+  <!-- EN: [PAWN_nameDef] made her fortune by trafficking MegaCorp contraband, but was marked as a target after refusing to cooperate with the higher-ups. She views the Resistance Army as a new business opportunity, getting involved in everything from weapons distribution to human trafficking. -->
+  <Wolfein_BackstoryResistanceArmy_13.description>[PAWN_nameDef]靠販賣軍企走私品發家，后因拒絕與高層合作被列為目標。她把抵抗軍當作新的生意場，從武器調配到人口交易，樣樣都能插上一腳。</Wolfein_BackstoryResistanceArmy_13.description>
+  <!-- EN: Wolfein resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_13.title>沃芬族 抵抗軍成員</Wolfein_BackstoryResistanceArmy_13.title>
+  <!-- EN: resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_13.titleShort>抵抗軍成員</Wolfein_BackstoryResistanceArmy_13.titleShort>
+
+  <!-- EN: [PAWN_nameDef] once served as a psychological warfare advisor for the MegaCorp, well-versed in dismantling a person's mental world. After joining the Resistance Army, she took charge of prisoner interrogations—almost no one comes back sane after facing her. -->
+  <Wolfein_BackstoryResistanceArmy_14.description>[PAWN_nameDef]曾擔任軍企的心理戰顧問，熟知如何拆解一個人的精神世界。加入抵抗軍后，她負責審訊俘虜，幾乎沒有人能從她手下帶著理智回來。</Wolfein_BackstoryResistanceArmy_14.description>
+  <!-- EN: Wolfein resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_14.title>沃芬族 抵抗軍成員</Wolfein_BackstoryResistanceArmy_14.title>
+  <!-- EN: resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_14.titleShort>抵抗軍成員</Wolfein_BackstoryResistanceArmy_14.titleShort>
+
+  <!-- EN: [PAWN_nameDef] once designed AI models for the MegaCorp to manipulate public opinion—brainwashing, diversion, and obfuscation were her specialties. Later, she sold off the source code and defected to the Resistance Army, where she continues to manipulate the 「truth.」 -->
+  <Wolfein_BackstoryResistanceArmy_15.description>[PAWN_nameDef]曾為軍企設計過用於輿論操控的AI模型，洗腦、轉向、模糊焦點都是她的拿手好戲。後來她賣掉模型原始碼，自己則跳槽到抵抗軍繼續操縱「真相」。</Wolfein_BackstoryResistanceArmy_15.description>
+  <!-- EN: Wolfein resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_15.title>沃芬族 抵抗軍成員</Wolfein_BackstoryResistanceArmy_15.title>
+  <!-- EN: resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_15.titleShort>抵抗軍成員</Wolfein_BackstoryResistanceArmy_15.titleShort>
+
+  <!-- EN: [PAWN_nameDef] has sold hundreds of 「disappearance」 contracts on the black market. It』s said that all she needs is a photo and a file to make someone vanish from the world completely. The Resistance Army uses her skills to silence internal dissent. -->
+  <Wolfein_BackstoryResistanceArmy_16.description>[PAWN_nameDef]在黑市中出售過數百起「消失者」名單。據說她只用一張照片和一份檔案就能讓人從這個世界裡徹底蒸發。抵抗軍用她的本事清理內部異見。</Wolfein_BackstoryResistanceArmy_16.description>
+  <!-- EN: Wolfein resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_16.title>沃芬族 抵抗軍成員</Wolfein_BackstoryResistanceArmy_16.title>
+  <!-- EN: resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_16.titleShort>抵抗軍成員</Wolfein_BackstoryResistanceArmy_16.titleShort>
+
+  <!-- EN: [PAWN_nameDef] organized a massive uprising in the slums, which ultimately failed—most of the participants were wiped out by drone strikes. Yet she holds no regrets. In fact, she calls it the 「cleanest」 day of her life. -->
+  <Wolfein_BackstoryResistanceArmy_17.description>[PAWN_nameDef]在貧民窟組織了一場聲勢浩大的起義，最終失敗，大部分的人都死於無人機清掃。不過她對此毫無悔意，反倒稱那是她人生中最「整潔」的一天。</Wolfein_BackstoryResistanceArmy_17.description>
+  <!-- EN: Wolfein resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_17.title>沃芬族 抵抗軍成員</Wolfein_BackstoryResistanceArmy_17.title>
+  <!-- EN: resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_17.titleShort>抵抗軍成員</Wolfein_BackstoryResistanceArmy_17.titleShort>
+
+  <!-- EN: [PAWN_nameDef] started off as a street thug, making a living through extortion and kidnapping. After joining the Resistance Army, she simply applied her 「business tactics」 to arms smuggling and hostage exchanges—no one dares say she』s not an asset. -->
+  <Wolfein_BackstoryResistanceArmy_18.description>[PAWN_nameDef]最初只是個街頭混混，靠敲詐和綁架謀生。她加入抵抗軍之後，把那套「談生意」的方法直接套在了軍火走私和人質交換上，沒人敢說她沒價值。</Wolfein_BackstoryResistanceArmy_18.description>
+  <!-- EN: Wolfein resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_18.title>沃芬族 抵抗軍成員</Wolfein_BackstoryResistanceArmy_18.title>
+  <!-- EN: resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_18.titleShort>抵抗軍成員</Wolfein_BackstoryResistanceArmy_18.titleShort>
+
+  <!-- EN: [PAWN_nameDef] became a wanted criminal early in life and joined the Resistance Army to lay low. Though she has no interest in the Resistance』s ideals, she once saved a commander』s life in battle—and ever since, no one dares lay a hand on her. -->
+  <Wolfein_BackstoryResistanceArmy_19.description>[PAWN_nameDef]早年便因一場犯罪被通緝，後來投奔抵抗軍避風頭。雖然她對抵抗軍的理念毫無興趣，但在一場戰鬥中救了某位指揮官一命，自此無人敢動她。</Wolfein_BackstoryResistanceArmy_19.description>
+  <!-- EN: Wolfein resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_19.title>沃芬族 抵抗軍成員</Wolfein_BackstoryResistanceArmy_19.title>
+  <!-- EN: resistance army personnel -->
+  <Wolfein_BackstoryResistanceArmy_19.titleShort>抵抗軍成員</Wolfein_BackstoryResistanceArmy_19.titleShort>
+</LanguageData>

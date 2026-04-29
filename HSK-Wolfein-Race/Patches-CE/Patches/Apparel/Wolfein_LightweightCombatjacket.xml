@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- 轻型作战服夹克（固定材料） -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wolfein_LightweightCombatjacket"]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>280</MaxHitPoints>
+            <Flammability>0.5</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+            <Mass>1</Mass>
+            <EquipDelay>2</EquipDelay>
+            <WorkToMake>17000</WorkToMake>
+            <Insulation_Cold>5</Insulation_Cold>
+            <Insulation_Heat>8</Insulation_Heat>
+            <ArmorRating_Sharp>2.1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>1.8</ArmorRating_Blunt>
+            <ArmorRating_Electric>0</ArmorRating_Electric>
+            <Bulk>1</Bulk>
+            <WornBulk>1.05</WornBulk>
+          </statBases>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Wolfein_LightweightCombatjacket"]/equippedStatOffsets</xpath>
+		<value>
+      <CarryBulk>5</CarryBulk>
+      <CarryWeight>3</CarryWeight>
+		</value>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef Name="Wolfein_UnderwearBase" ParentName="Wolfein_MakeableBase_Tailoring" Abstract="True">
+        <defName>Wolfein_Apparel_Underwear</defName>
+        <statBases>
+            <Mass>0.8</Mass>
+            <EquipDelay>2.0</EquipDelay>
+        </statBases>
+        <apparel>
+            <layers>
+                <li>Wolfein_Apparel_Underwear</li>
+            </layers>
+            <tags>
+                <li>Wolfein_Underwear</li>
+            </tags>
+        </apparel>
+        <thingCategories>
+            <li>Wolfein_Apparel_Underwear</li>
+        </thingCategories>
+    </ThingDef>
+
+    <!-- 部落衣物 -->
+    <ThingDef Name="Wolfein_UnderwearBase_I" ParentName="Wolfein_UnderwearBase" Abstract="True">
+        <recipeMaker>
+            <researchPrerequisite>Wolfein_Apparel_I</researchPrerequisite>
+            <recipeUsers>
+                <li>ElectricTailoringBench</li>
+                <li>HandTailoringBench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <techLevel>Medieval</techLevel>
+        <tradeTags>
+            <li>Wolfein_ClothingI</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!-- 日常服 -->
+    <ThingDef Name="Wolfein_UnderwearBase_II" ParentName="Wolfein_UnderwearBase" Abstract="True">
+        <recipeMaker>
+            <researchPrerequisite>Wolfein_Apparel_II</researchPrerequisite>
+            <recipeUsers>
+                <li>ElectricTailoringBench</li>
+                <li>HandTailoringBench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <techLevel>Industrial</techLevel>
+        <tradeTags>
+            <li>Wolfein_ClothingII</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!-- 普通战斗服 -->
+    <ThingDef Name="Wolfein_UnderwearBase_CombatI" ParentName="Wolfein_UnderwearBase" Abstract="True">
+        <recipeMaker>
+            <researchPrerequisite>Wolfein_Apparel_CombatI</researchPrerequisite>
+        </recipeMaker>
+        <techLevel>Industrial</techLevel>
+        <tradeTags>
+            <li>Wolfein_Clothing_CombatI</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!-- 进阶战斗服 -->
+    <ThingDef Name="Wolfein_UnderwearBase_CombatII" ParentName="Wolfein_UnderwearBase" Abstract="True">
+        <recipeMaker>
+            <researchPrerequisite>Wolfein_Apparel_CombatII</researchPrerequisite>
+        </recipeMaker>
+        <techLevel>Industrial</techLevel>
+        <tradeTags>
+            <li>Wolfein_Clothing_CombatII</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!-- 工作服 -->
+    <ThingDef Name="Wolfein_UnderwearBase_Work" ParentName="Wolfein_UnderwearBase" Abstract="True">
+        <recipeMaker>
+            <researchPrerequisite>Wolfein_Apparel_Work</researchPrerequisite>
+        </recipeMaker>
+        <techLevel>Industrial</techLevel>
+        <tradeTags>
+            <li>Wolfein_Clothing_Work</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!-- 深色丝袜内衣 -->
+    <ThingDef ParentName="Wolfein_UnderwearBase_II">
+        <defName>Wolfein_Black_Stocking</defName>
+        <label>Wolfein Black_Stocking</label>
+        <description>A comfortable dark-colored lingerie set paired with over-the-knee stockings.</description>
+        <costList>
+            <Cloth>50</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/Underwear/Black_Stocking/Black_Stocking</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <WorkToMake>4000</WorkToMake>
+            <Mass>0.2</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.1</ArmorRating_Heat>
+            <Insulation_Cold>10</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/Underwear/Black_Stocking/Black_Stocking</wornGraphicPath>
+            <tags>
+                <li>Wolfein_Underwear_Daily</li>
+                <li>Wolfein_Underwear_BlackWear</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 浅色丝袜内衣 -->
+    <ThingDef ParentName="Wolfein_UnderwearBase_II">
+        <defName>Wolfein_White_Stocking</defName>
+        <label>Wolfein White_Stocking</label>
+        <description>A comfortable light-colored lingerie set paired with over-the-knee stockings.</description>
+        <costList>
+            <Cloth>50</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/Underwear/White_Stocking/White_Stocking</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <WorkToMake>4000</WorkToMake>
+            <Mass>0.2</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.1</ArmorRating_Heat>
+            <Insulation_Cold>10</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/Underwear/White_Stocking/White_Stocking</wornGraphicPath>
+            <tags>
+                <li>Wolfein_Underwear_Daily</li>
+                <li>Wolfein_Underwear_WhiteWear</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 深色连裤袜内衣 -->
+    <ThingDef ParentName="Wolfein_UnderwearBase_II">
+        <defName>Wolfein_Black_Pantynose</defName>
+        <label>Wolfein Black Pantyhose</label>
+        <description>A dark-colored lingerie set paired with tights, designed to provide some warmth.</description>
+        <costList>
+            <Cloth>50</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/Underwear/Black_Pantynose/Black_Pantynose</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <WorkToMake>4000</WorkToMake>
+            <Mass>0.2</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.1</ArmorRating_Heat>
+            <Insulation_Cold>10</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/Underwear/Black_Pantynose/Black_Pantynose</wornGraphicPath>
+            <tags>
+                <li>Wolfein_Underwear_Daily</li>
+                <li>Wolfein_Underwear_BlackWear</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 浅色连裤袜内衣 -->
+    <ThingDef ParentName="Wolfein_UnderwearBase_II">
+        <defName>Wolfein_White_Pantynose</defName>
+        <label>Wolfein White Pantynose</label>
+        <description>A light-colored lingerie set paired with tights, designed to provide some warmth.</description>
+        <costList>
+            <Cloth>50</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/Underwear/White_Pantynose/White_Pantynose</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <WorkToMake>4000</WorkToMake>
+            <Mass>0.2</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.1</ArmorRating_Heat>
+            <Insulation_Cold>10</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/Underwear/White_Pantynose/White_Pantynose</wornGraphicPath>
+            <tags>
+                <li>Wolfein_Underwear_Daily</li>
+                <li>Wolfein_Underwear_WhiteWear</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 深色吊带袜内衣 -->
+    <ThingDef ParentName="Wolfein_UnderwearBase_II">
+        <defName>Wolfein_Black_Suspender</defName>
+        <label>Wolfein Black_Suspender</label>
+        <description>A dark-colored lingerie set paired with garter stockings, blending elegance and sensuality.</description>
+        <costList>
+            <Cloth>50</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/Underwear/Black_Suspender/Black_Suspender</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <WorkToMake>4000</WorkToMake>
+            <Mass>0.2</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.1</ArmorRating_Heat>
+            <Insulation_Cold>10</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/Underwear/Black_Suspender/Black_Suspender</wornGraphicPath>
+            <tags>
+                <li>Wolfein_Underwear_Daily</li>
+                <li>Wolfein_Underwear_BlackWear</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 浅色吊带袜内衣 -->
+    <ThingDef ParentName="Wolfein_UnderwearBase_II">
+        <defName>Wolfein_White_Suspender</defName>
+        <label>Wolfein White_Suspender</label>
+        <description>A light-colored lingerie set paired with garter stockings, combining elegance and sensuality.</description>
+        <costList>
+            <Cloth>50</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/Underwear/White_Suspender/White_Suspender</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <WorkToMake>4000</WorkToMake>
+            <Mass>0.2</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.1</ArmorRating_Heat>
+            <Insulation_Cold>10</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/Underwear/White_Suspender/White_Suspender</wornGraphicPath>
+            <tags>
+                <li>Wolfein_Underwear_Daily</li>
+                <li>Wolfein_Underwear_WhiteWear</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 深色短身运动内衣 -->
+    <ThingDef ParentName="Wolfein_UnderwearBase_II">
+        <defName>Wolfein_Black_SportsShorts</defName>
+        <label>Wolfein Black Sports Shorts</label>
+        <description>A short dark-colored sports bra with excellent breathability.</description>
+        <costList>
+            <Cloth>50</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/Underwear/Black_SportsShorts/Black_SportsShorts</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <WorkToMake>4000</WorkToMake>
+            <Mass>0.2</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.1</ArmorRating_Heat>
+            <Insulation_Cold>10</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/Underwear/Black_SportsShorts/Black_SportsShorts</wornGraphicPath>
+            <tags>
+                <li>Wolfein_Underwear_Daily</li>
+                <li>Wolfein_Underwear_BlackWear</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 浅色短身运动内衣 -->
+    <ThingDef ParentName="Wolfein_UnderwearBase_II">
+        <defName>Wolfein_White_SportsShorts</defName>
+        <label>Wolfein White Sports Shorts</label>
+        <description>A short light-colored sports bra with excellent breathability.</description>
+        <costList>
+            <Cloth>50</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/Underwear/White_SportsShorts/White_SportsShorts</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <WorkToMake>4000</WorkToMake>
+            <Mass>0.2</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.1</ArmorRating_Heat>
+            <Insulation_Cold>10</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/Underwear/White_SportsShorts/White_SportsShorts</wornGraphicPath>
+            <tags>
+                <li>Wolfein_Underwear_Daily</li>
+                <li>Wolfein_Underwear_WhiteWear</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 深色长身运动内衣 -->
+    <ThingDef ParentName="Wolfein_UnderwearBase_II">
+        <defName>Wolfein_Black_SportsUnderwear</defName>
+        <label>Wolfein Black Sports Underwear</label>
+        <description>A long dark-colored sports bra with excellent breathability.</description>
+        <costList>
+            <Cloth>50</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/Underwear/Black_SportsUnderwear/Black_SportsUnderwear</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <WorkToMake>4000</WorkToMake>
+            <Mass>0.2</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.1</ArmorRating_Heat>
+            <Insulation_Cold>10</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/Underwear/Black_SportsUnderwear/Black_SportsUnderwear</wornGraphicPath>
+            <tags>
+                <li>Wolfein_Underwear_Daily</li>
+                <li>Wolfein_Underwear_BlackWear</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 浅色长身运动内衣 -->
+    <ThingDef ParentName="Wolfein_UnderwearBase_II">
+        <defName>Wolfein_White_SportsUnderwear</defName>
+        <label>Wolfein White Sports Underwear</label>
+        <description>A long light-colored sports bra with excellent breathability.</description>
+        <costList>
+            <Cloth>50</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/Underwear/White_SportsUnderwear/White_SportsUnderwear</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <WorkToMake>4000</WorkToMake>
+            <Mass>0.2</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.1</ArmorRating_Heat>
+            <Insulation_Cold>10</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/Underwear/White_SportsUnderwear/White_SportsUnderwear</wornGraphicPath>
+            <tags>
+                <li>Wolfein_Underwear_Daily</li>
+                <li>Wolfein_Underwear_WhiteWear</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 网袜内衣 -->
+    <ThingDef ParentName="Wolfein_UnderwearBase_II">
+        <defName>Wolfein_MeshSocks</defName>
+        <label>Wolfein Mesh Socks</label>
+        <description>A lingerie set paired with fishnet stockings, exuding a unique allure.</description>
+        <costList>
+            <Cloth>50</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/Underwear/MeshSocks/MeshSocks</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <WorkToMake>4000</WorkToMake>
+            <Mass>0.2</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.1</ArmorRating_Heat>
+            <Insulation_Cold>10</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/Underwear/MeshSocks/MeshSocks</wornGraphicPath>
+            <tags>
+                <li>Wolfein_Underwear_Daily</li>
+                <li>Wolfein_Underwear_Fishnet</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 绷带内衣 -->
+    <ThingDef ParentName="Wolfein_UnderwearBase_II">
+        <defName>Wolfein_Bandage</defName>
+        <label>Wolfein Bandage</label>
+        <description>A makeshift lingerie set made from wrapped fabric strips, designed for temporary coverage.</description>
+        <costList>
+            <Cloth>50</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/Underwear/Bandage/Bandage</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <WorkToMake>4000</WorkToMake>
+            <Mass>0.2</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.1</ArmorRating_Heat>
+            <Insulation_Cold>10</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/Underwear/Bandage/Bandage</wornGraphicPath>
+            <tags>
+                <li>Wolfein_Underwear_Wild</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 战斗紧身内衣（固定材料） -->
+    <ThingDef ParentName="Wolfein_UnderwearBase_CombatI">
+        <defName>Wolfein_CombattightUnderwear</defName>
+        <label>Wolfein Combat Tight Underwear</label>
+        <description>A form-fitting lingerie set designed for combat, offering greater protection compared to regular underwear.</description>
+        <costList>
+            <Wolfein_CompositeFabric>10</Wolfein_CompositeFabric>
+            <Cloth>55</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/Underwear/CombattightUnderwear/CombattightUnderwear</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>180</MaxHitPoints>
+            <WorkToMake>6000</WorkToMake>
+            <Mass>0.2</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.07</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.11</ArmorRating_Heat>
+            <Insulation_Cold>10</Insulation_Cold>
+            <Insulation_Heat>6</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/Underwear/CombattightUnderwear/CombattightUnderwear</wornGraphicPath>
+            <tags>
+                <li>Wolfein_Underwear_Combat</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+            <MoveSpeed>0.04</MoveSpeed>
+            <MeleeDodgeChance>0.2</MeleeDodgeChance>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 战斗连身紧身内衣（固定材料） -->
+    <ThingDef ParentName="Wolfein_UnderwearBase_CombatI">
+        <defName>Wolfein_SkintightGarment</defName>
+        <label>Wolfein Skintight Garment</label>
+        <description>A combat bodysuit designed to cover the entire body, providing enhanced protection for the wearer.</description>
+        <costList>
+            <Wolfein_CompositeFabric>10</Wolfein_CompositeFabric>
+            <Cloth>60</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/Underwear/SkintightGarment/SkintightGarment</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>180</MaxHitPoints>
+            <WorkToMake>6000</WorkToMake>
+            <Mass>0.2</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.07</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.11</ArmorRating_Heat>
+            <Insulation_Cold>10</Insulation_Cold>
+            <Insulation_Heat>6</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/Underwear/SkintightGarment/SkintightGarment</wornGraphicPath>
+            <tags>
+                <li>Wolfein_Underwear_Combat</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+            <MoveSpeed>0.04</MoveSpeed>
+            <MeleeDodgeChance>0.2</MeleeDodgeChance>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 轻量级作战内衣（固定材料） -->
+    <ThingDef ParentName="Wolfein_UnderwearBase_CombatI">
+        <defName>Wolfein_LightweightCombatSuit</defName>
+        <label>Wolfein Lightweight Combat Suit</label>
+        <description>A lightweight combat undergarment for the Wofen, sacrificing protection to enhance the wearer's mobility.</description>
+        <costList>
+            <Wolfein_CompositeFabric>10</Wolfein_CompositeFabric>
+            <Cloth>50</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/Underwear/LightweightCombatSuit/LightweightCombatSuit</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+          </recipeMaker>
+        <statBases>
+            <MaxHitPoints>180</MaxHitPoints>
+            <WorkToMake>6000</WorkToMake>
+            <Mass>0.2</Mass>
+            <Flammability>0.5</Flammability>
+            <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.07</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.11</ArmorRating_Heat>
+            <Insulation_Cold>10</Insulation_Cold>
+            <Insulation_Heat>6</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/Underwear/LightweightCombatSuit/LightweightCombatSuit</wornGraphicPath>
+            <tags>
+                <li>Wolfein_Underwear_Combat</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+        </apparel>
+        <equippedStatOffsets>
+            <MentalBreakThreshold>-0.02</MentalBreakThreshold>
+            <MoveSpeed>0.08</MoveSpeed>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+</Defs>

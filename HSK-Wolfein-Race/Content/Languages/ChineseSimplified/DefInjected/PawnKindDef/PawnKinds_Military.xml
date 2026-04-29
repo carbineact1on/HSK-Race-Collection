@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein AIPT Investigation Team Member -->
+  <Wolfein_AIPT_InvestigationTeamMember.label>沃芬AIPT调查组成员</Wolfein_AIPT_InvestigationTeamMember.label>
+  
+  <!-- EN: Wolfein AIPT Processing Team Heavy Operative -->
+  <Wolfein_AIPT_ProcessingTeamHeavyOperative.label>沃芬AIPT处理组重型成员</Wolfein_AIPT_ProcessingTeamHeavyOperative.label>
+  
+  <!-- EN: Wolfein AIPT Processing Team Operative -->
+  <Wolfein_AIPT_ProcessingTeamOperative.label>沃芬AIPT处理组成员</Wolfein_AIPT_ProcessingTeamOperative.label>
+  
+  <!-- EN: Wolfein Mega Corp Armed Clerk -->
+  <Wolfein_MegaCorpArmedClerk.label>沃芬军企武装职员</Wolfein_MegaCorpArmedClerk.label>
+  
+  <!-- EN: Wolfein Mega Corp Guard -->
+  <Wolfein_MegaCorpGuard.label>沃芬军企护卫</Wolfein_MegaCorpGuard.label>
+  
+  <!-- EN: Wolfein Mega Corp Deserter -->
+  <Wolfein_MegaCorpGuardDeserter.label>沃芬叛逃者</Wolfein_MegaCorpGuardDeserter.label>
+  
+  <!-- EN: Wolfein Mega Corp Guard -->
+  <Wolfein_MegaCorpGuardInTrade.label>沃芬军企护卫</Wolfein_MegaCorpGuardInTrade.label>
+  
+  <!-- EN: Wolfein Mega Corp Hacker -->
+  <Wolfein_MegaCorpHacker.label>沃芬军企特战黑客</Wolfein_MegaCorpHacker.label>
+  
+  <!-- EN: Wolfein Mega Corp Scout -->
+  <Wolfein_MegaCorpScout.label>沃芬军企斥候</Wolfein_MegaCorpScout.label>
+  
+  <!-- EN: Wolfein Severely Wounded Slave -->
+  <Wolfein_MegaCorpSlave.label>沃芬重伤奴隶</Wolfein_MegaCorpSlave.label>
+  
+  <!-- EN: Wolfein Mega Corp Sniper -->
+  <Wolfein_MegaCorpSniper.label>沃芬军企狙击手</Wolfein_MegaCorpSniper.label>
+  
+  <!-- EN: Wolfein Mega Corp Support -->
+  <Wolfein_MegaCorpSupport.label>沃芬军企支援兵</Wolfein_MegaCorpSupport.label>
+  
+  <!-- EN: Wolfein Mega Corp Support -->
+  <Wolfein_MegaCorpSupportInTrade.label>沃芬军企支援兵</Wolfein_MegaCorpSupportInTrade.label>
+  
+  <!-- EN: Wolfein Mega Corp Surgeon -->
+  <Wolfein_MegaCorpSurgeon.label>沃芬军企医生</Wolfein_MegaCorpSurgeon.label>
+  
+  <!-- EN: Wolfein Mega Corp Vanguard -->
+  <Wolfein_MegaCorpVanguard.label>沃芬军企尖兵</Wolfein_MegaCorpVanguard.label>
+
+
+  <!-- EN: Wolfein Mega Corp Vanguard Recruit -->
+  <Wolfein_MegaCorpVanguard_Recruit.label>沃芬军企新人尖兵</Wolfein_MegaCorpVanguard_Recruit.label>
+  
+</LanguageData>

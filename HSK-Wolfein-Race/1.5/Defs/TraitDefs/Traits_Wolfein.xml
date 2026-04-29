@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- 纯血沃芬 -->
+    <TraitDef>
+        <defName>Wolfein_PureBlood</defName>
+        <commonality>0.2</commonality>
+        <degreeDatas>
+            <li>
+                <label>Pure-blood Wolfein</label>
+                <description>{PAWN_nameDef} is a pure-blood Wolfein.</description>
+                <statFactors>
+                    <MeleeDamageFactor>1.1</MeleeDamageFactor>
+                  </statFactors>
+                  <statOffsets>
+                    <MeleeDodgeChance>3</MeleeDodgeChance>
+                    <MeleeHitChance>3</MeleeHitChance>
+                    <PsychicSensitivity>0.2</PsychicSensitivity>
+                  </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+
+</Defs>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>Wolfein_LeaderTitle_MegaCrop</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_leaderTitle->Regional Supervisor</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+
+</Defs>

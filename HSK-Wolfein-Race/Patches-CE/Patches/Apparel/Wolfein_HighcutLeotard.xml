@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- 高叉紧身衣（固定材料） -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wolfein_HighcutLeotard"]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>280</MaxHitPoints>
+            <Flammability>0.5</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+            <Mass>1</Mass>
+            <EquipDelay>1.5</EquipDelay>
+            <WorkToMake>15000</WorkToMake>
+            <Insulation_Cold>14</Insulation_Cold>
+            <Insulation_Heat>7</Insulation_Heat>
+            <ArmorRating_Sharp>0.43</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.1</ArmorRating_Heat>
+            <ArmorRating_Electric>0.2</ArmorRating_Electric>
+            <Bulk>2</Bulk>
+            <WornBulk>1.2</WornBulk>
+          </statBases>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Wolfein_HighcutLeotard"]/equippedStatOffsets</xpath>
+		<value>
+      <CarryBulk>5</CarryBulk>
+      <CarryWeight>3</CarryWeight>
+		</value>
+	</Operation>
+
+</Patch>

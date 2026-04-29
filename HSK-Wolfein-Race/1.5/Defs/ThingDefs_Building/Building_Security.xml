@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--炮塔A======================================================================================-->
+  <ThingDef Name="Wolfein_Turret_A" ParentName="BuildingBase">
+    <defName>Wolfein_Turret_A</defName>
+    <label>Wolfein Heavy Sentry Rifle</label>
+    <description>The seemingly lightweight frame supports a high-caliber assault rifle, capable of effortlessly neutralizing enemies equipped with light to medium armor.</description>
+    <thingClass>Building_TurretGun</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Wolfein/Building/Security/Base_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <drawOffset>(0,0,0)</drawOffset>
+      <damageData>
+        <rect>(0.3,0.3,1.4,1.4)</rect>
+      </damageData>
+      <shadowData>
+        <volume>(0.2,0.15,0.2)</volume>
+        <offset>(0,0,-0.05)</offset>
+      </shadowData>
+    </graphicData>
+    <uiIconPath>Wolfein/Building/Security/Turret_A_UI</uiIconPath>
+    <uiIconScale>1.0</uiIconScale>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>false</rotatable>
+    <size>(1,1)</size>
+    <statBases>
+      <MaxHitPoints>350</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <WorkToBuild>6000</WorkToBuild>
+      <Mass>15</Mass>
+      <Beauty>-15</Beauty>
+      <ShootingAccuracyTurret>1.00</ShootingAccuracyTurret>
+    </statBases>
+    <costList>
+      <Wolfein_AlloyMaterials>85</Wolfein_AlloyMaterials>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <Wolfein_MechanicalComponent>1</Wolfein_MechanicalComponent>
+    </costList>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <researchPrerequisites>
+      <li>Wolfein_TurretStandard</li>
+    </researchPrerequisites>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Stunnable">
+        <affectedDamageDefs>
+          <li>Stun</li>
+          <li>EMP</li>
+        </affectedDamageDefs>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <wickTicks>240</wickTicks>
+        <explosiveRadius>3.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>120</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.3</fillPercent>
+    <hasTooltip>true</hasTooltip>
+    <killedLeavings>
+      <ChunkSlagSteel>1</ChunkSlagSteel>
+    </killedLeavings>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <building>
+      <combatPower>80</combatPower>
+      <buildingTags>
+      </buildingTags>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Wolfein_TurretGun_A</turretGunDef>
+      <turretBurstCooldownTime>4.8</turretBurstCooldownTime>
+      <turretBurstWarmupTime>0.4</turretBurstWarmupTime>
+      <turretTopOffset>(0, 0)</turretTopOffset>
+      <turretTopDrawSize>2</turretTopDrawSize>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_ShowTurretRadius</li>
+    </placeWorkers>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>Wolfein_TurretGun_A</defName>
+    <label>Wolfein Heavy Sentry Rifle</label>
+    <description>The seemingly lightweight frame supports a high-caliber assault rifle, capable of effortlessly neutralizing enemies equipped with light to medium armor.</description>
+    <graphicData>
+      <texPath>Wolfein/Building/Security/Turret_A</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <AccuracyTouch>0.8</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>6.5</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <defaultProjectile>W_Bullet_Large</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>39.9</range>
+        <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>Shot_Autocannon</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>6</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <!--炮塔B======================================================================================-->
+  <ThingDef ParentName="Wolfein_Turret_A">
+    <defName>Wolfein_Turret_B</defName>
+    <label>Wolfein Sentry Rapid-Fire Machine Gun</label>
+    <description>Equipped with a rapid-fire machine gun, it excels at dealing with lightly armored or unarmored targets, making it a standard defensive installation for corporate public infrastructure.</description>
+    <graphicData>
+      <texPath>Wolfein/Building/Security/Base_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconPath>Wolfein/Building/Security/Turret_B_UI</uiIconPath>
+    <statBases>
+      <MaxHitPoints>350</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <WorkToBuild>6000</WorkToBuild>
+      <Mass>30</Mass>
+      <Beauty>-15</Beauty>
+      <ShootingAccuracyTurret>1.00</ShootingAccuracyTurret>
+    </statBases>
+    <costList Inherit="false">
+      <Wolfein_AlloyMaterials>125</Wolfein_AlloyMaterials>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Wolfein_MechanicalComponent>1</Wolfein_MechanicalComponent>
+    </costList>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <building>
+      <combatPower>80</combatPower>
+      <buildingTags>
+      </buildingTags>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Wolfein_TurretGun_B</turretGunDef>
+      <turretBurstCooldownTime>6.8</turretBurstCooldownTime>
+      <turretBurstWarmupTime>0.4</turretBurstWarmupTime>
+      <turretTopOffset>(0, 0)</turretTopOffset>
+      <turretTopDrawSize>2</turretTopDrawSize>
+    </building>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>Wolfein_TurretGun_B</defName>
+    <label>Wolfein Sentry Rapid-Fire Machine Gun</label>
+    <description>Equipped with a rapid-fire machine gun, it excels at dealing with lightly armored or unarmored targets, making it a standard defensive installation for corporate public infrastructure.</description>
+    <graphicData>
+      <texPath>Wolfein/Building/Security/Turret_B</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <AccuracyTouch>0.38</AccuracyTouch>
+      <AccuracyShort>0.32</AccuracyShort>
+      <AccuracyMedium>0.25</AccuracyMedium>
+      <AccuracyLong>0.15</AccuracyLong>
+      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>6.5</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <defaultProjectile>W_Bullet_Small</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>34.9</range>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <burstShotCount>8</burstShotCount>
+        <soundCast>GunShotA</soundCast>
+        <soundCastTail>GunTail_Light</soundCastTail>
+        <muzzleFlashScale>6</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+
+  <!--炮塔D======================================================================================-->
+  <ThingDef Name="Wolfein_Turret_D" ParentName="BuildingBase">
+    <defName>Wolfein_Turret_D</defName>
+    <label>Wolfein Twin-Barrel Autocannon Turret</label>
+    <description>Mounted with dual high-caliber rapid-fire machine guns, this turret can unleash a torrent of bullets in mere seconds—more than enough to tear through the armor of heavy mech units.</description>
+    <thingClass>Building_TurretGun</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Wolfein/Building/Security/Base_Medium</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,5)</drawSize>
+      <drawOffset>(0,0,0)</drawOffset>
+      <damageData>
+        <rect>(0.3,0.3,1.4,1.4)</rect>
+      </damageData>
+      <shadowData>
+        <volume>(0.2,0.15,0.2)</volume>
+        <offset>(0,0,-0.05)</offset>
+      </shadowData>
+    </graphicData>
+    <uiIconPath>Wolfein/Building/Security/Turret_D_UI</uiIconPath>
+    <uiIconScale>1.0</uiIconScale>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>false</rotatable>
+    <size>(3,3)</size>
+    <statBases>
+      <MaxHitPoints>625</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <WorkToBuild>18000</WorkToBuild>
+      <Mass>30</Mass>
+      <Beauty>-15</Beauty>
+      <ShootingAccuracyTurret>1.00</ShootingAccuracyTurret>
+    </statBases>
+    <costList>
+      <Wolfein_AlloyMaterials>265</Wolfein_AlloyMaterials>
+      <ComponentIndustrial>25</ComponentIndustrial>
+      <Wolfein_ElectronicComponent>3</Wolfein_ElectronicComponent>
+      <Wolfein_MechanicalComponent>3</Wolfein_MechanicalComponent>
+    </costList>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <researchPrerequisites>
+      <li>Wolfein_TurretStandard</li>
+    </researchPrerequisites>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Stunnable">
+        <affectedDamageDefs>
+          <li>Stun</li>
+          <li>EMP</li>
+        </affectedDamageDefs>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <wickTicks>240</wickTicks>
+        <explosiveRadius>6.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>450</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Refuelable">
+        <fuelLabel>Shots until barrel change</fuelLabel>
+        <fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+        <outOfFuelMessage>Needs new barrel</outOfFuelMessage>
+        <fuelFilter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelCapacity>400</fuelCapacity>
+        <fuelMultiplier>2</fuelMultiplier>
+        <initialFuelPercent>1</initialFuelPercent>
+        <autoRefuelPercent>0.5</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <minimumFueledThreshold>1</minimumFueledThreshold>
+        <factorByDifficulty>true</factorByDifficulty>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+      </li>
+    </comps>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.5</fillPercent>
+    <hasTooltip>true</hasTooltip>
+    <killedLeavings>
+      <ChunkSlagSteel>5</ChunkSlagSteel>
+    </killedLeavings>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <building>
+      <combatPower>225</combatPower>
+      <buildingTags>
+      </buildingTags>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Wolfein_TurretGun_D</turretGunDef>
+      <turretBurstCooldownTime>8</turretBurstCooldownTime>
+      <turretBurstWarmupTime>2</turretBurstWarmupTime>
+      <turretTopOffset>(0, 0)</turretTopOffset>
+      <turretTopDrawSize>5</turretTopDrawSize>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_ShowTurretRadius</li>
+    </placeWorkers>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>Wolfein_TurretGun_D</defName>
+    <label>Wolfein Twin-Barrel Autocannon Turret</label>
+    <description>Mounted with dual high-caliber rapid-fire machine guns, this turret can unleash a torrent of bullets in mere seconds—more than enough to tear through the armor of heavy mech units.</description>
+    <graphicData>
+      <texPath>Wolfein/Building/Security/Turret_D</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <AccuracyTouch>0.45</AccuracyTouch>
+      <AccuracyShort>0.38</AccuracyShort>
+      <AccuracyMedium>0.33</AccuracyMedium>
+      <AccuracyLong>0.26</AccuracyLong>
+      <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>6.5</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <defaultProjectile>W_Bullet_TurretD</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <range>41.9</range>
+        <minRange>4.9</minRange>
+        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+        <burstShotCount>40</burstShotCount>
+        <soundCast>Shot_Autocannon</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>6</muzzleFlashScale>
+        <consumeFuelPerShot>1</consumeFuelPerShot>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="WolfeinBaseBullet">
+    <defName>W_Bullet_TurretD</defName>
+    <label>Wolfein Large Caliber Bullet</label>
+    <thingClass>Wolfein.Bullet_Offset</thingClass>
+    <graphicData>
+      <texPath>Wolfein/Weapon/Bullet_Large</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>22</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <armorPenetrationBase>0.32</armorPenetrationBase>
+      <speed>145</speed>
+    </projectile>
+  </ThingDef>
+
+  <!--炮塔E======================================================================================-->
+  <ThingDef ParentName="Wolfein_Turret_D">
+    <defName>Wolfein_Turret_E</defName>
+    <label>Wolfein Rocket Turret</label>
+    <thingClass>Wolfein.Building_TurretGunForceAiming</thingClass>
+    <description>Equipped with a multi-barrel rocket launcher, this turret can shred enemies to pieces at mid-range. However, its long firing intervals and minimal armor mean it requires support from other units to stay operational.</description>
+    <uiIconPath>Wolfein/Building/Security/Turret_E_UI</uiIconPath>
+    <statBases>
+      <MaxHitPoints>625</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <WorkToBuild>18000</WorkToBuild>
+      <Mass>30</Mass>
+      <Beauty>-15</Beauty>
+      <ShootingAccuracyTurret>1.00</ShootingAccuracyTurret>
+    </statBases>
+    <costList Inherit="false">
+      <Wolfein_AlloyMaterials>265</Wolfein_AlloyMaterials>
+      <ComponentIndustrial>25</ComponentIndustrial>
+      <Wolfein_ElectronicComponent>3</Wolfein_ElectronicComponent>
+      <Wolfein_MechanicalComponent>3</Wolfein_MechanicalComponent>
+    </costList>
+    <comps Inherit="false">
+      <li Class="CompProperties_Stunnable">
+        <affectedDamageDefs>
+          <li>Stun</li>
+          <li>EMP</li>
+        </affectedDamageDefs>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <wickTicks>240</wickTicks>
+        <explosiveRadius>6.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>450</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Refuelable">
+        <fuelLabel>Shots until barrel change</fuelLabel>
+        <fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+        <outOfFuelMessage>Needs new barrel</outOfFuelMessage>
+        <fuelFilter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </fuelFilter>
+        <fuelCapacity>200</fuelCapacity>
+        <fuelMultiplier>1</fuelMultiplier>
+        <initialFuelPercent>1</initialFuelPercent>
+        <autoRefuelPercent>0.5</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <minimumFueledThreshold>1</minimumFueledThreshold>
+        <factorByDifficulty>true</factorByDifficulty>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+      </li>
+    </comps>
+    <building>
+      <combatPower>225</combatPower>
+      <buildingTags>
+      </buildingTags>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>Wolfein_TurretGun_E</turretGunDef>
+      <turretBurstCooldownTime>30</turretBurstCooldownTime>
+      <turretBurstWarmupTime>4</turretBurstWarmupTime>
+      <turretTopOffset>(0, 0)</turretTopOffset>
+      <turretTopDrawSize>5</turretTopDrawSize>
+    </building>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>Wolfein_TurretGun_E</defName>
+    <label>Wolfein Rocket Turret</label>
+    <description>Equipped with a multi-barrel rocket launcher, this turret can shred enemies to pieces at mid-range. However, its long firing intervals and minimal armor mean it requires support from other units to stay operational.</description>
+    <graphicData>
+      <texPath>Wolfein/Building/Security/Turret_E</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.78</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.5</AccuracyLong>
+      <RangedWeapon_Cooldown>30</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>6.5</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <defaultProjectile>W_Bullet_Missile</defaultProjectile>
+        <warmupTime>4</warmupTime>
+        <range>52</range>
+        <minRange>4.9</minRange>
+        <forcedMissRadius>3.5</forcedMissRadius>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <burstShotCount>6</burstShotCount>
+        <soundCast>Shot_IncendiaryLauncher</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>6</muzzleFlashScale>
+        <consumeFuelPerShot>5</consumeFuelPerShot>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+  </ThingDef>
+
+</Defs>

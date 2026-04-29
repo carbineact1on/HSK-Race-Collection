@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="StorageShelfBase">
+        <defName>Wolfein_ShelfSmall</defName>
+        <label>Wolfein Repair Shelf</label>
+        <description>A fully automated repair unit commonly found in logistics departments, capable of swiftly restoring a wide range of equipment and devices. A slightly worn handwritten note on one corner warns: "Do not let living beings enter!"</description>
+        <stuffCategories Inherit="false"/>
+        <graphicData>
+            <texPath>Wolfein/Building/Workbenches/AutomaticMaintenanceShelf</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3,3)</drawSize>
+        </graphicData>
+        <uiIconScale>0.5</uiIconScale>
+        <tickerType>Long</tickerType>
+        <costStuffCount Inherit="false"/>
+        <costList>
+            <SteelBar>30</SteelBar>
+            <ComponentIndustrial>10</ComponentIndustrial>
+            <ComponentSpacer>1</ComponentSpacer>
+        </costList>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <Mass>4</Mass>
+            <WorkToBuild>250</WorkToBuild>
+        </statBases>
+        <size>(1,1)</size>
+        <building>
+            <maxItemsInCell>1</maxItemsInCell>
+            <fixedStorageSettings Inherit="false">
+                <filter>
+                    <disallowNotEverStorable>true</disallowNotEverStorable>
+                    <categories>
+                        <li>Weapons</li>
+                        <li>Apparel</li>
+                    </categories>
+                </filter>
+            </fixedStorageSettings>
+        </building>
+        <researchPrerequisites>
+            <li>Wolfein_RepairShelf</li>
+            <li>Electricity</li>
+        </researchPrerequisites>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <shortCircuitInRain>true</shortCircuitInRain>
+                <basePowerConsumption>80</basePowerConsumption>
+            </li>
+            <li Class="CompProperties_Breakdownable" />
+            <li Class="Wolfein.CompProperties_MaintenanceShelf">
+                <hitPointPctPerMaintain>0.02</hitPointPctPerMaintain>
+            </li>
+        </comps>
+    </ThingDef>
+
+
+
+    <!-- 拟月仪 -->
+    <ThingDef ParentName="BuildingBase">
+        <defName>Wolfein_ArtificialMoonApparatus</defName>
+        <label>Artificial Moon Apparatus</label>
+        <description>Since the Wolfein first developed self-awareness, one question has lingered in their minds: why are our physical capabilities influenced by the phases of the moon? For generations, countless Wolfein researchers have pursued an answer to this mystery, while numerous ambitious figures have attempted to exploit this trait to create an unstoppable army. All of them failed.
+
+            Now, however, MegaCorp has proposed a military application of the Wolfein lunar-phase mechanism through the reverse engineering of transcendent intelligence: psychic suggestion. By collecting moonstone samples from the Wolfein homeworld, they have replicated a multitude of miniature moons to construct the Artificial Moon Apparatus.
+            
+            When activated, the Apparatus uses an embedded psychic device to influence all Wolfein within the affected zone, forcibly inducing a full moon state in their bodies. To maintain the radiation output and counteract the adverse effects that follow a prolonged full moon phase, the device consumes an immense amount of energy during activation.</description>
+        <graphicData>
+            <texPath>Wolfein/Building/Misc/ArtificialMoonApparatus_Base</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>3.5</drawSize>
+            <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+            </damageData>
+        </graphicData>
+        <specialDisplayRadius>44.9</specialDisplayRadius>
+        <uiIconScale>1.0</uiIconScale>
+        <uiIconPath>Wolfein/Building/Misc/ArtificialMoonApparatus_UI</uiIconPath>
+        <tickerType>Normal</tickerType>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <castEdgeShadows>false</castEdgeShadows>
+        <rotatable>false</rotatable>
+        <fillPercent>0.5</fillPercent>
+        <canOverlapZones>false</canOverlapZones>
+        <pathCost>42</pathCost>
+        <statBases>
+            <WorkToBuild>9000</WorkToBuild>
+            <MaxHitPoints>225</MaxHitPoints>
+            <Flammability>0.5</Flammability>
+            <Cleanliness>-3</Cleanliness>
+        </statBases>
+        <size>(3,3)</size>
+        <costList>
+            <Wolfein_AlloyMaterials>385</Wolfein_AlloyMaterials>
+            <ComponentIndustrial>25</ComponentIndustrial>
+            <ComponentSpacer>5</ComponentSpacer>
+            <Wolfein_MechanicalComponent>5</Wolfein_MechanicalComponent>
+        </costList>
+        <building>
+            <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+            <claimable>true</claimable>
+        </building>
+        <researchPrerequisites>
+            <li>Wolfein_ArtificialMoonApparatus</li>
+        </researchPrerequisites>
+        <designationCategory>Misc</designationCategory>
+        <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+        <comps>
+            <li Class="Wolfein.CompProperties_AdditionalGraphic">
+                <compClass>Wolfein.CompArtificialMoon</compClass>
+                <floatAmplitude>0.2</floatAmplitude>
+                <floatSpeed>0.008</floatSpeed>
+                <graphicData>
+                    <texPath>Wolfein/Building/Misc/ArtificialMoonApparatus_Moon</texPath>
+                    <graphicClass>Graphic_Single</graphicClass>
+                    <shaderType>Cutout</shaderType>
+                    <drawSize>3.5</drawSize>
+                    <drawOffset>(0,0,1.0)</drawOffset>
+                </graphicData>
+                <altitudeLayer>BuildingOnTop</altitudeLayer>
+            </li>
+            <li Class="Wolfein.CompProperties_ArtificialMoonApparatus">
+                <range>44.9</range>
+                <effecter>Wolfein_ArtificialMoonActive</effecter>
+            </li>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>3200</basePowerConsumption>
+                <idlePowerDraw>200</idlePowerDraw>
+            </li>
+        </comps>
+        <designationHotKey>Misc6</designationHotKey>
+        <placeWorkers>
+        </placeWorkers>
+    </ThingDef>
+
+</Defs>

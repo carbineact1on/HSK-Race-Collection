@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ApparelLayerDef>
+        <defName>Wolfein_Apparel_Underwear</defName>
+        <label>Underwear</label>
+        <drawOrder>-2</drawOrder>
+    </ApparelLayerDef>
+
+    <!-- <ApparelLayerDef>
+        <defName>Wolfein_Apparel_OnSkin</defName>
+        <label>Onskin</label>
+        <drawOrder>0</drawOrder>
+    </ApparelLayerDef> -->
+
+    <ApparelLayerDef>
+        <defName>Wolfein_Apparel_Shell</defName>
+        <label>Shell</label>
+        <drawOrder>1</drawOrder>
+    </ApparelLayerDef>
+
+    <!-- <ApparelLayerDef>
+        <defName>Wolfein_Apparel_OverHead</defName>
+        <label>Overhead</label>
+    </ApparelLayerDef> -->
+
+    <ApparelLayerDef>
+        <defName>Wolfein_Apparel_Sundry</defName>
+        <label>Sundry</label>
+    </ApparelLayerDef>
+</Defs>

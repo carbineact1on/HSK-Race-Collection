@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription-></li>
+  -->
+  <Wolfein_MegaCropMechRaid.questDescriptionRules.rulesStrings>questDescription-</Wolfein_MegaCropMechRaid.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName-></li>
+  -->
+  <Wolfein_MegaCropMechRaid.questNameRules.rulesStrings>questName-</Wolfein_MegaCropMechRaid.questNameRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <Wolfein_MegaCropMechRaid.questDescriptionRules.rulesStrings>questDescription-</Wolfein_MegaCropMechRaid.questDescriptionRules.rulesStrings>
+  <Wolfein_MegaCropMechRaid.questNameRules.rulesStrings>questName-</Wolfein_MegaCropMechRaid.questNameRules.rulesStrings>
+  
+</LanguageData>

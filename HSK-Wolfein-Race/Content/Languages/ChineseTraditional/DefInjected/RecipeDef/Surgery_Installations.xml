@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: install artificial ear -->
+  <Wolfein_InstallArtificialEar.label>安裝沃芬人工假狼耳</Wolfein_InstallArtificialEar.label>
+  <!-- EN: Installing an artificial ear for the Wolfein. -->
+  <Wolfein_InstallArtificialEar.description>安裝一隻沃芬人工假狼耳。</Wolfein_InstallArtificialEar.description>
+  <!-- EN: Installing wolfein artificial ear. -->
+  <Wolfein_InstallArtificialEar.jobString>正在安裝人工假狼耳。</Wolfein_InstallArtificialEar.jobString>
+  
+  <!-- EN: install artificial tail -->
+  <Wolfein_InstallArtificialTail.label>安裝沃芬人工假狼尾</Wolfein_InstallArtificialTail.label>
+  <!-- EN: Installing an artificial tail for the Wolfein -->
+  <Wolfein_InstallArtificialTail.description>安裝一條沃芬人工假狼尾。</Wolfein_InstallArtificialTail.description>
+  <!-- EN: Installing wolfein artificial tail. -->
+  <Wolfein_InstallArtificialTail.jobString>正在安裝人工假狼尾。</Wolfein_InstallArtificialTail.jobString>
+  
+  <!-- EN: install bionic ear -->
+  <Wolfein_InstallBionicEar.label>安裝沃芬仿生狼耳</Wolfein_InstallBionicEar.label>
+  <!-- EN: Installing a Wolfein bionic wolf ear. -->
+  <Wolfein_InstallBionicEar.description>安裝一隻沃芬仿生狼耳。</Wolfein_InstallBionicEar.description>
+  <!-- EN: Installing bionic wolfein ear. -->
+  <Wolfein_InstallBionicEar.jobString>正在安裝仿生狼耳。</Wolfein_InstallBionicEar.jobString>
+  
+  <!-- EN: install bionic tail -->
+  <Wolfein_InstallBionicTail.label>安裝沃芬仿生狼尾</Wolfein_InstallBionicTail.label>
+  <!-- EN: Installing a Wolfein bionic wolf tail. -->
+  <Wolfein_InstallBionicTail.description>安裝一條沃芬仿生狼尾。</Wolfein_InstallBionicTail.description>
+  <!-- EN: Installing bionic wolfein tail. -->
+  <Wolfein_InstallBionicTail.jobString>正在安裝仿生狼尾。</Wolfein_InstallBionicTail.jobString>
+  
+  <!-- EN: install combat bionic ear -->
+  <Wolfein_InstallCombatBionicEar.label>安裝沃芬機械狼耳</Wolfein_InstallCombatBionicEar.label>
+  <!-- EN: Installing a Wolfein combat bionic wolf ear. -->
+  <Wolfein_InstallCombatBionicEar.description>安裝一隻沃芬機械狼耳</Wolfein_InstallCombatBionicEar.description>
+  <!-- EN: Installing combat bionic wolfein ear. -->
+  <Wolfein_InstallCombatBionicEar.jobString>正在安裝機械狼耳</Wolfein_InstallCombatBionicEar.jobString>
+  
+  <!-- EN: install combat bionic tail -->
+  <Wolfein_InstallCombatBionicTail.label>安裝沃芬機械狼尾</Wolfein_InstallCombatBionicTail.label>
+  <!-- EN: Installing a Wolfein combat bionic wolf tail. -->
+  <Wolfein_InstallCombatBionicTail.description>安裝一隻沃芬機械狼尾</Wolfein_InstallCombatBionicTail.description>
+  <!-- EN: Installing combat bionic wolfein tail. -->
+  <Wolfein_InstallCombatBionicTail.jobString>正在安裝機械狼尾</Wolfein_InstallCombatBionicTail.jobString>
+  
+  <!-- EN: install heavy gear augmentation -->
+  <Wolfein_InstallHeavyGearAugmentation.label>安裝重型裝備適配改造元件</Wolfein_InstallHeavyGearAugmentation.label>
+  <!-- EN: Installing a wolfein heavy gear augmentation. -->
+  <Wolfein_InstallHeavyGearAugmentation.description>安裝一套重型裝備適配改造元件</Wolfein_InstallHeavyGearAugmentation.description>
+  <!-- EN: Installing wolfein heavy gear augmentation. -->
+  <Wolfein_InstallHeavyGearAugmentation.jobString>正在安裝改造元件</Wolfein_InstallHeavyGearAugmentation.jobString>
+  
+  <!-- EN: install heavy gear augmentation Light -->
+  <Wolfein_InstallHeavyGearAugmentationLight.label>安裝重型裝備輕量化適配改造元件</Wolfein_InstallHeavyGearAugmentationLight.label>
+  <!-- EN: Installing a wolfein heavy gear augmentation light. -->
+  <Wolfein_InstallHeavyGearAugmentationLight.description>安裝一套重型裝備輕量化適配改造元件</Wolfein_InstallHeavyGearAugmentationLight.description>
+  <!-- EN: Installing wolfein heavy gear augmentation light. -->
+  <Wolfein_InstallHeavyGearAugmentationLight.jobString>正在安裝改造元件</Wolfein_InstallHeavyGearAugmentationLight.jobString>
+  
+  <!-- EN: install mechinal leg -->
+  <Wolfein_InstallMechinalLeg.label>安裝沃芬機械義腿</Wolfein_InstallMechinalLeg.label>
+  <!-- EN: Installing a Wolfein mechinal leg. -->
+  <Wolfein_InstallMechinalLeg.description>安裝一條沃芬機械義腿</Wolfein_InstallMechinalLeg.description>
+  <!-- EN: Installing wolfein mechinal leg. -->
+  <Wolfein_InstallMechinalLeg.jobString>正在安裝沃芬機械義腿</Wolfein_InstallMechinalLeg.jobString>
+  
+  <!-- EN: install metal claw -->
+  <Wolfein_InstallMetalClaw.label>安裝沃芬金屬指爪</Wolfein_InstallMetalClaw.label>
+  <!-- EN: Installing a pair of Wolfein metal claws. -->
+  <Wolfein_InstallMetalClaw.description>安裝一副沃芬金屬指爪。</Wolfein_InstallMetalClaw.description>
+  <!-- EN: Installing wolfein metal claw. -->
+  <Wolfein_InstallMetalClaw.jobString>正在安裝金屬指爪。</Wolfein_InstallMetalClaw.jobString>
+  
+</LanguageData>

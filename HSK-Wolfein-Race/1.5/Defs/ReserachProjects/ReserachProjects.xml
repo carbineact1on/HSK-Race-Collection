@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ResearchTabDef>
+        <defName>Wolfein_ResearchTab</defName>
+        <label>Wolfein</label>
+        <generalTitle>Wolfein Research Tab</generalTitle>
+	    <generalDescription>Research projects about Wolfein Race.</generalDescription>
+    </ResearchTabDef>
+
+    <ResearchProjectTagDef>
+        <defName>Wolfein_Start</defName>
+    </ResearchProjectTagDef>
+
+    <!-- 沃芬临时服装 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_Apparel_I</defName>
+        <label>Wolfein Tribal Clothing</label>
+        <description>Research how to produce wolfein Tribal clothing.</description>
+        <baseCost>50</baseCost>
+        <techLevel>Medieval</techLevel>
+        <prerequisites>
+        </prerequisites>
+        <researchViewX>0</researchViewX>
+        <researchViewY>0.6</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+        <tags>
+            <li>Wolfein_Start</li>
+        </tags>
+    </ResearchProjectDef>
+
+    <!-- 沃芬服装基础 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_Apparel_Basic</defName>
+        <label>Wolfein Basic Clothing Technology</label>
+        <description>Research how to produce wolfein basic clothing technology.</description>
+        <baseCost>600</baseCost>
+        <techLevel>Industrial</techLevel>
+        <prerequisites>
+            <li>Wolfein_Apparel_I</li>
+        </prerequisites>
+        <researchViewX>2</researchViewX>
+        <researchViewY>0.6</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+
+    <!-- 沃芬日常衣物 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_Apparel_II</defName>
+        <label>Wolfein Daily Clothing</label>
+        <description>Research how to produce wolfein daily clothing.</description>
+        <baseCost>800</baseCost>
+        <techLevel>Industrial</techLevel>
+        <prerequisites>
+            <li>Wolfein_Apparel_Basic</li>
+        </prerequisites>
+        <researchViewX>3</researchViewX>
+        <researchViewY>0.6</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+
+    <!-- 沃芬职员服装 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_Apparel_III</defName>
+        <label>Wolfein Staff Clothing</label>
+        <description>Research how to produce wolfein staff clothing.</description>
+        <baseCost>1000</baseCost>
+        <techLevel>Industrial</techLevel>
+        <prerequisites>
+            <li>Wolfein_Apparel_II</li>
+        </prerequisites>
+        <researchViewX>4</researchViewX>
+        <researchViewY>0</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+
+    <!-- 沃芬战斗服装 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_Apparel_CombatI</defName>
+        <label>Wolfein Combat Apparel</label>
+        <description>Research how to produce wolfein combat equipment.</description>
+        <baseCost>2000</baseCost>
+        <techLevel>Industrial</techLevel>
+        <prerequisites>
+            <li>Wolfein_Apparel_II</li>
+        </prerequisites>
+        <researchViewX>4</researchViewX>
+        <researchViewY>0.6</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+
+    <!-- 沃芬进阶战斗服装 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_Apparel_CombatII</defName>
+        <label>Wolfein Advanced Combat Apparel</label>
+        <description>Research how to produce wolfein advanced combat equipment.</description>
+        <baseCost>2500</baseCost>
+        <techLevel>Industrial</techLevel>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+            <li>Wolfein_Apparel_CombatI</li>
+            <li>Fabrication</li>
+        </prerequisites>
+        <researchViewX>5</researchViewX>
+        <researchViewY>0.6</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+
+    <!-- 沃芬前世代装备 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_Apparel_CombatIII</defName>
+        <label>Wolfein Imperial Apparel</label>
+        <description>Research how to produce wolfein Imperial equipment.</description>
+        <baseCost>3000</baseCost>
+        <techLevel>Industrial</techLevel>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+            <li>Wolfein_Apparel_CombatII</li>
+        </prerequisites>
+        <researchViewX>6</researchViewX>
+        <researchViewY>0.6</researchViewY>
+        <discoveredLetterTitle>DataAnalysis is required</discoveredLetterTitle>
+        <discoveredLetterText>cturing Wolfein Imperial Apparel requires an ImperialDataAnalysis report on Wolfein pre-epoch technology. Related materials can be acquired from factions affiliated with military megacorps.Or get it from some event tasks.</discoveredLetterText>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+    
+    <!-- 沃芬AIPT服装 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_Apparel_AIPT</defName>
+        <label>Wolfein AIPT Apparel</label>
+        <description>Research how to produce wolfein AIPT clothing.</description>
+        <baseCost>1500</baseCost>
+        <techLevel>Industrial</techLevel>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+            <li>Wolfein_Apparel_III</li>
+        </prerequisites>
+        <researchViewX>5</researchViewX>
+        <researchViewY>0</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+
+    <!-- 沃芬工作服装 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_Apparel_Work</defName>
+        <label>Wolfein Work Suit</label>
+        <description>Research how to produce wolfein working suit.</description>
+        <baseCost>1000</baseCost>
+        <techLevel>Industrial</techLevel>
+        <prerequisites>
+            <li>Wolfein_Apparel_Basic</li>
+        </prerequisites>
+        <researchViewX>3</researchViewX>
+        <researchViewY>0</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+
+    <!-- 沃芬简易武器 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_Weapon_I</defName>
+        <label>Wolfein Simple Weapon</label>
+        <description>Research how to produce wolfein improvised weapon.</description>
+        <baseCost>200</baseCost>
+        <techLevel>Medieval</techLevel>
+        <prerequisites>
+        </prerequisites>
+        <researchViewX>0</researchViewX>
+        <researchViewY>2.4</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+        <tags>
+            <li>Wolfein_Start</li>
+        </tags>
+    </ResearchProjectDef>
+
+    <!-- 沃芬土制武器 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_Weapon_II</defName>
+        <label>Wolfein Homemade Weapon</label>
+        <description>Research how to produce wolfein kineticEnergy weapon.</description>
+        <baseCost>800</baseCost>
+        <techLevel>Medieval</techLevel>
+        <prerequisites>
+            <li>Wolfein_Weapon_I</li>
+        </prerequisites>
+        <researchViewX>1</researchViewX>
+        <researchViewY>2.4</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+        <tags>
+            <li>Wolfein_Start</li>
+        </tags>
+    </ResearchProjectDef>
+
+    <!-- 沃芬基础工业 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_Industrial_production</defName>
+        <label>Wolfein Industrial production</label>
+        <description>Research how to produce wolfein industrial goods.</description>
+        <baseCost>1000</baseCost>
+        <techLevel>Industrial</techLevel>
+        <prerequisites>
+            <li>Machining</li>
+        </prerequisites>
+        <researchViewX>2</researchViewX>
+        <researchViewY>2.4</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+
+    <!-- 沃芬动能武器 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_Weapon_III</defName>
+        <label>Wolfein Kinetic energy Weapon</label>
+        <description>Research how to produce wolfein kinetic energy weapon.</description>
+        <baseCost>1800</baseCost>
+        <techLevel>Industrial</techLevel>
+        <prerequisites>
+            <li>Wolfein_Industrial_production</li>
+            <li>Gunsmithing</li>
+        </prerequisites>
+        <researchViewX>3</researchViewX>
+        <researchViewY>2.4</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+
+    <!-- 沃芬近战武器 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_MeleeWeapon</defName>
+        <label>Wolfein Melee Weapon</label>
+        <description>Research how to produce wolfein melee weapon.</description>
+        <baseCost>2500</baseCost>
+        <techLevel>Industrial</techLevel>
+        <prerequisites>
+            <li>Wolfein_Industrial_production</li>
+        </prerequisites>
+        <researchViewX>3</researchViewX>
+        <researchViewY>1.8</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+
+    <!-- 沃芬爆破武器 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_BlastWeapon</defName>
+        <label>Wolfein Blast Weapon</label>
+        <description>Research how to produce wolfein blast weapon.</description>
+        <baseCost>2500</baseCost>
+        <techLevel>Industrial</techLevel>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+            <li>Wolfein_Weapon_III</li>
+            <li>GasOperation</li>
+        </prerequisites>
+        <researchViewX>4</researchViewX>
+        <researchViewY>3.0</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+
+    <!-- 沃芬AIPT武器 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_AIPTWeapon</defName>
+        <label>Wolfein AIPT Weapon</label>
+        <description>Research how to produce wolfein AIPT weapon.</description>
+        <baseCost>3500</baseCost>
+        <techLevel>Industrial</techLevel>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+            <li>Wolfein_MeleeWeapon</li>
+            <li>Wolfein_Weapon_III</li>
+            <li>MicroelectronicsBasics</li>
+        </prerequisites>
+        <researchViewX>5</researchViewX>
+        <researchViewY>1.8</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+
+    <!-- 沃芬电荷武器 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_Weapon_IV</defName>
+        <label>Wolfein Charge Weapon</label>
+        <description>Research how to produce wolfein charge weapon.</description>
+        <baseCost>4000</baseCost>
+        <techLevel>Industrial</techLevel>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+            <li>Wolfein_Weapon_III</li>
+            <li>ChargedShot</li>
+        </prerequisites>
+        <researchViewX>5</researchViewX>
+        <researchViewY>2.4</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+
+    <!-- 沃芬单兵防卫 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_IndividualDefensetechnology</defName>
+        <label>Wolfein Individual Defense Technology</label>
+        <description>Research how to produce wolfein Individual defense apparel.</description>
+        <baseCost>2000</baseCost>
+        <techLevel>Industrial</techLevel>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+            <li>Wolfein_Industrial_production</li>
+        </prerequisites>
+        <researchViewX>3</researchViewX>
+        <researchViewY>3.0</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+
+    <!-- 沃芬医学 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_Medicine</defName>
+        <label>Wolfein Medicine</label>
+        <description>Research wolfein medicine.</description>
+        <baseCost>800</baseCost>
+        <techLevel>Industrial</techLevel>
+        <prerequisites>
+            <li>MedicineProduction</li>
+        </prerequisites>
+        <researchViewX>2</researchViewX>
+        <researchViewY>4.4</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+
+    <!-- 沃芬强化药剂 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_EclipseTrigger</defName>
+        <label>Wolfein Eclipse Trigger</label>
+        <description>Research wolfein eclipse trigger.</description>
+        <baseCost>2000</baseCost>
+        <techLevel>Industrial</techLevel>
+        <prerequisites>
+            <li>Wolfein_Medicine</li>
+        </prerequisites>
+        <researchViewX>3</researchViewX>
+        <researchViewY>4.4</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+
+    <!-- 沃芬简易假体 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_SimpleProsthesis</defName>
+        <label>Wolfein Simple Prosthesis</label>
+        <description>Research how to produce wolfein simple prosthesis.</description>
+        <baseCost>800</baseCost>
+        <techLevel>Medieval</techLevel>
+        <prerequisites>
+        </prerequisites>
+        <researchViewX>1</researchViewX>
+        <researchViewY>3.6</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+        <tags>
+            <li>Wolfein_Start</li>
+        </tags>
+    </ResearchProjectDef>
+
+    <!-- 沃芬复杂仿生体 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_ComplexBionic</defName>
+        <label>Wolfein Complex Bionic Body</label>
+        <description>Research how to produce wolfein complex bionic body.</description>
+        <baseCost>2000</baseCost>
+        <techLevel>Industrial</techLevel>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+            <li>Wolfein_SimpleProsthesis</li>
+            <li>Wolfein_Medicine</li>
+            <li>Wolfein_Industrial_production</li>
+            <li>Bionics</li>
+        </prerequisites>
+        <researchViewX>3</researchViewX>
+        <researchViewY>3.6</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+
+    <!-- 沃芬战斗仿生体 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_CombatBionic</defName>
+        <label>Wolfein Combat Bionic Body</label>
+        <description>Research how to produce wolfein combat bionic body.</description>
+        <baseCost>2500</baseCost>
+        <techLevel>Industrial</techLevel>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+            <li>Wolfein_ComplexBionic</li>
+        </prerequisites>
+        <researchViewX>4</researchViewX>
+        <researchViewY>3.6</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+
+    <!-- 沃芬包装食物 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_PackagedFood</defName>
+        <label>Wolfein Packaged Food</label>
+        <description>Research how to produce wolfein packaged food.</description>
+        <baseCost>800</baseCost>
+        <techLevel>Industrial</techLevel>
+        <prerequisites>
+        </prerequisites>
+        <researchViewX>1</researchViewX>
+        <researchViewY>4.4</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+
+    <!-- 沃芬维修工作站 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_RepairShelf</defName>
+        <label>Wolfein Repair Shelf</label>
+        <description>Research how to produce wolfein repair Shelf.</description>
+        <baseCost>2500</baseCost>
+        <techLevel>Industrial</techLevel>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+        </prerequisites>
+        <researchViewX>5</researchViewX>
+        <researchViewY>4.4</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+
+    <!-- 沃芬炮塔 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_TurretStandard</defName>
+        <label>Wolfein Standard Turret</label>
+        <description>Research how to construct wolfein fixed defensive turret weapons.</description>
+        <baseCost>3000</baseCost>
+        <techLevel>Industrial</techLevel>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+            <li>Wolfein_BlastWeapon</li>
+            <li>GunTurrets</li>
+        </prerequisites>
+        <researchViewX>5</researchViewX>
+        <researchViewY>3.0</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+
+    <!-- 沃芬拟月仪 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_ArtificialMoonApparatus</defName>
+        <label>Wolfein Artificial Moon Apparatus</label>
+        <description>Research how to construct wolfein Artificial Moon Apparatus.</description>
+        <baseCost>10000</baseCost>
+        <techLevel>Industrial</techLevel>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+            <li>AdvancedFabrication</li>
+        </prerequisites>
+        <researchViewX>6</researchViewX>
+        <researchViewY>3.6</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+</Defs>

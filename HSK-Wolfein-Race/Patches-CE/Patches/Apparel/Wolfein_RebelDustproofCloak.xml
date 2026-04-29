@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- 抵抗军披肩（固定材料） -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wolfein_RebelDustproofCloak"]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>250</MaxHitPoints>
+            <Flammability>0.5</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+            <Mass>1</Mass>
+            <EquipDelay>2</EquipDelay>
+            <WorkToMake>12500</WorkToMake>
+            <Insulation_Cold>4</Insulation_Cold>
+            <Insulation_Heat>6</Insulation_Heat>
+            <ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>2.2</ArmorRating_Blunt>
+            <ArmorRating_Heat>0</ArmorRating_Heat>
+            <ArmorRating_Electric>0</ArmorRating_Electric>
+            <Bulk>1</Bulk>
+            <WornBulk>1.3</WornBulk>
+          </statBases>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

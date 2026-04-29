@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <TransportShipDef>
+        <defName>Wolfein_ShipShuttle</defName>
+        <label>wolfein shuttle</label>
+        <shipThing>Wolfein_Shuttle</shipThing>
+        <arrivingSkyfaller>Wolfein_ShuttleIncoming</arrivingSkyfaller>
+        <leavingSkyfaller>Wolfein_ShuttleLeaving</leavingSkyfaller>
+        <worldObject>Wolfein_TravelingShuttle</worldObject>
+        <maxLaunchDistance>70</maxLaunchDistance>
+    </TransportShipDef>
+
+    <ShipJobDef>
+        <defName>Wolfein_FlyAway</defName>
+        <jobClass>Wolfein.ShipJob_FlyAway</jobClass>
+        <blocksDisposalIfQueuedUnspawned>false</blocksDisposalIfQueuedUnspawned>
+    </ShipJobDef>
+
+    <ShipJobDef>
+        <defName>Wolfein_WaitForever</defName>
+        <jobClass>Wolfein.ShipJob_WaitForever</jobClass>
+    </ShipJobDef>
+
+    <ShipJobDef>
+        <defName>Wolfein_UnloadDestination</defName>
+        <jobClass>Wolfein.ShipJob_Unload</jobClass>
+    </ShipJobDef>
+
+
+
+    <!-- <ShipJobDef>
+        <defName>WaitSendable</defName>
+        <jobClass>ShipJob_WaitSendable</jobClass>
+    </ShipJobDef> -->
+
+</Defs>

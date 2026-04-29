@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Construction-Type Civilian Mech Unit -->
+  <Wolfein_Mechanoid_CivilA.label>建筑型民用机械体</Wolfein_Mechanoid_CivilA.label>
+  <!-- EN: Designed to handle most construction tasks, this mech can also perform basic component processing when needed. Though intended for civilian use, they are occasionally spotted on the battlefield assisting in the setup of defensive structures. -->
+  <Wolfein_Mechanoid_CivilA.description>建筑型民用机械体，在能完成大部分建筑工作的同时还能处理零部件的简易加工需求。在战场上偶尔也能见到它们参与防御工事的建设。</Wolfein_Mechanoid_CivilA.description>
+  <!-- EN: left fist -->
+  <Wolfein_Mechanoid_CivilA.tools.left_fist.label>左拳</Wolfein_Mechanoid_CivilA.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Wolfein_Mechanoid_CivilA.tools.right_fist.label>右拳</Wolfein_Mechanoid_CivilA.tools.right_fist.label>
+  
+  <!-- EN: Domestic-Type Civilian Mech Unit -->
+  <Wolfein_Mechanoid_CivilB.label>居家型民用机械体</Wolfein_Mechanoid_CivilB.label>
+  <!-- EN: Capable of handling all household needs for Wolfein families, this model is especially praised for its childcare features—boasting a 99.9% satisfaction rate. -->
+  <Wolfein_Mechanoid_CivilB.description>居家型民用机械体，能包揽沃芬居家所有需求，附属的育儿功能好评率99.9%，注：沃芬儿童无法参与评分。</Wolfein_Mechanoid_CivilB.description>
+  <!-- EN: left fist -->
+  <Wolfein_Mechanoid_CivilB.tools.left_fist.label>左拳</Wolfein_Mechanoid_CivilB.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Wolfein_Mechanoid_CivilB.tools.right_fist.label>右拳</Wolfein_Mechanoid_CivilB.tools.right_fist.label>
+  
+  <!-- EN: Basic Civilian Mech Unit -->
+  <Wolfein_Mechanoid_CivilBase.label>基础型民用机械体</Wolfein_Mechanoid_CivilBase.label>
+  <!-- EN: After the war, the MegaCorp repurposed some of its military-grade mech units into civilian models to address the population shortage and perform simple tasks. Upon release, they quickly became a fashionable accessory among corporate executives. Thanks to their retained military-level strength, these units also conveniently eliminated the need for personal bodyguards. -->
+  <Wolfein_Mechanoid_CivilBase.description>基础型民用机械体，战后军企为弥补人口空缺，将其部分军用型号的机械体改造成民用型，以完成一些简易工作。一经推出便成为管理层人员的时尚单品。由于保留了军用型的出力也因此给管理层们省去了雇保镖的成本。</Wolfein_Mechanoid_CivilBase.description>
+  <!-- EN: left fist -->
+  <Wolfein_Mechanoid_CivilBase.tools.left_fist.label>左拳</Wolfein_Mechanoid_CivilBase.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Wolfein_Mechanoid_CivilBase.tools.right_fist.label>右拳</Wolfein_Mechanoid_CivilBase.tools.right_fist.label>
+  
+  <!-- EN: Agricultural-Type Civilian Mech Unit -->
+  <Wolfein_Mechanoid_CivilC.label>牧耕型民用机械体</Wolfein_Mechanoid_CivilC.label>
+  <!-- EN: Widely deployed in MegaCorp-controlled plant factories, this model is purpose-built to meet the corporation’s strict demands for production efficiency, with every aspect of its design focused solely on output. -->
+  <Wolfein_Mechanoid_CivilC.description>牧耕型民用机械体，大量部署在军企控制的植物工厂内，其特化设计完全只为满足军企对生产效率的苛刻需求。</Wolfein_Mechanoid_CivilC.description>
+  <!-- EN: left fist -->
+  <Wolfein_Mechanoid_CivilC.tools.left_fist.label>左拳</Wolfein_Mechanoid_CivilC.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Wolfein_Mechanoid_CivilC.tools.right_fist.label>右拳</Wolfein_Mechanoid_CivilC.tools.right_fist.label>
+  
+</LanguageData>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Manufacture Basic Resistance Army Mech Unit. -->
+  <Wolfein_MechRecipe_RebelA.label>製造基礎型抵抗軍機械體</Wolfein_MechRecipe_RebelA.label>
+  <!-- EN: Manufacture a Basic Resistance Army Mech Unit. -->
+  <Wolfein_MechRecipe_RebelA.description>製造一臺基礎型抵抗軍機械體</Wolfein_MechRecipe_RebelA.description>
+  <!-- EN: Gestating mech. -->
+  <Wolfein_MechRecipe_RebelA.jobString>製造機械體</Wolfein_MechRecipe_RebelA.jobString>
+  
+  <!-- EN: Manufacture Close-Combat Resistance Army Mech Unit. -->
+  <Wolfein_MechRecipe_RebelB.label>製造近距型抵抗軍機械體</Wolfein_MechRecipe_RebelB.label>
+  <!-- EN: Manufacture a Close-Combat Resistance Army Mech Unit. -->
+  <Wolfein_MechRecipe_RebelB.description>製造一臺近距型抵抗軍機械體</Wolfein_MechRecipe_RebelB.description>
+  <!-- EN: Gestating mech. -->
+  <Wolfein_MechRecipe_RebelB.jobString>製造機械體</Wolfein_MechRecipe_RebelB.jobString>
+  
+</LanguageData>

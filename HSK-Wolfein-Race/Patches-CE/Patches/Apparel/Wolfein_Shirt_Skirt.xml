@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- 衬衫（裙装） -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Wolfein_Shirt_Skirt"]/statBases</xpath>
+      <value>
+      <statBases>
+        <MaxHitPoints>200</MaxHitPoints>
+        <Flammability>0.4</Flammability>
+        <DeteriorationRate>1</DeteriorationRate>
+        <Beauty>2</Beauty>
+        <Mass>0.3</Mass>
+        <EquipDelay>1.5</EquipDelay>
+        <WorkToMake>3000</WorkToMake>
+        <ArmorRating_Sharp>0.42</ArmorRating_Sharp>
+        <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+        <ArmorRating_Heat>0</ArmorRating_Heat>
+        <ArmorRating_Electric>0</ArmorRating_Electric>
+        <Bulk>0.3</Bulk>
+        <WornBulk>2.1</WornBulk>
+      </statBases>
+      </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Wolfein_Shirt_Skirt"]/equippedStatOffsets</xpath>
+		<value>
+      <CarryBulk>15</CarryBulk>
+      <CarryWeight>13</CarryWeight>
+		</value>
+	</Operation>
+</Patch>

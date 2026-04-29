@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein Colonist -->
+  <Wolfein_Colonist.label>沃芬殖民者</Wolfein_Colonist.label>
+  <Wolfein_Colonist.labelFemale>沃芬殖民者</Wolfein_Colonist.labelFemale>
+  <Wolfein_Colonist.labelFemalePlural>沃芬殖民者</Wolfein_Colonist.labelFemalePlural>
+  <Wolfein_Colonist.labelMale>沃芬殖民者</Wolfein_Colonist.labelMale>
+  <Wolfein_Colonist.labelMalePlural>沃芬殖民者</Wolfein_Colonist.labelMalePlural>
+  <Wolfein_Colonist.labelPlural>沃芬殖民者</Wolfein_Colonist.labelPlural>
+  
+  <!-- EN: Wolfein Mega Corp Civilian -->
+  <Wolfein_MegaCorpCivilian.label>沃芬军企一般平民</Wolfein_MegaCorpCivilian.label>
+  
+  <!-- EN: Wolfein Mega Corp Clerk -->
+  <Wolfein_MegaCorpClerk.label>沃芬军企职员</Wolfein_MegaCorpClerk.label>
+  
+  <!-- EN: Wolfein Mega Corp Regional Supervisor -->
+  <Wolfein_MegaCorpRegionalSupervisor.label>沃芬军企区域主管</Wolfein_MegaCorpRegionalSupervisor.label>
+  
+  <!-- EN: Wolfein Mega Corp Trader -->
+  <Wolfein_MegaCorpTrader.label>沃芬军企贸易代表</Wolfein_MegaCorpTrader.label>
+  
+  <!-- EN: Wolfein Outlier Wolf -->
+  <Wolfein_OutlierWolf.label>沃芬离群狼</Wolfein_OutlierWolf.label>
+  <Wolfein_OutlierWolf.labelFemale>沃芬离群狼</Wolfein_OutlierWolf.labelFemale>
+  <Wolfein_OutlierWolf.labelFemalePlural>沃芬离群狼</Wolfein_OutlierWolf.labelFemalePlural>
+  <Wolfein_OutlierWolf.labelMale>沃芬离群狼</Wolfein_OutlierWolf.labelMale>
+  <Wolfein_OutlierWolf.labelMalePlural>沃芬离群狼</Wolfein_OutlierWolf.labelMalePlural>
+  <Wolfein_OutlierWolf.labelPlural>沃芬离群狼</Wolfein_OutlierWolf.labelPlural>
+  
+</LanguageData>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThoughtDef>
+        <defName>Wolfein_MoonPhase</defName>
+        <workerClass>Wolfein.ThoughtWorker_MoonPhase</workerClass>
+        <!-- <nullifyingTraits>
+      <li>NightOwl</li>
+      <li>Undergrounder</li>
+    </nullifyingTraits> -->
+        <!--  <nullifyingGenes>
+      <li MayRequire="Ludeon.RimWorld.Biotech">DarkVision</li>
+    </nullifyingGenes> -->
+        <stages>
+            <li>
+                <label>New Moon</label>
+                <description>On this dim night, I feel completely drained...</description>
+                <baseMoodEffect>-5</baseMoodEffect>
+            </li>
+            <li>
+                <label>Full Moon</label>
+                <description>The moon is so bright tonight — I feel so much more awake!</description>
+                <baseMoodEffect>5</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>

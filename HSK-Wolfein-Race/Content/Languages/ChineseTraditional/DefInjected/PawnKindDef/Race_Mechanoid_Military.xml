@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Basic Military Mech Unit -->
+  <Wolfein_Mechanoid_MilitaryA.label>基礎型軍用機械體</Wolfein_Mechanoid_MilitaryA.label>
+  
+  <!-- EN: Close-Combat Military Mech Unit -->
+  <Wolfein_Mechanoid_MilitaryB.label>近距型軍用機械體</Wolfein_Mechanoid_MilitaryB.label>
+  
+  <!-- EN: Shielded Military Mech Unit -->
+  <Wolfein_Mechanoid_MilitaryC.label>盾衛型軍用機械體</Wolfein_Mechanoid_MilitaryC.label>
+  
+  <!-- EN: Sniper-Class Military Mech Unit -->
+  <Wolfein_Mechanoid_MilitaryD.label>狙擊型軍用機械體</Wolfein_Mechanoid_MilitaryD.label>
+  
+  <!-- EN: Heavy Fire Support Mech Unit -->
+  <Wolfein_Mechanoid_MilitaryE.label>重型火力支援步行機械體</Wolfein_Mechanoid_MilitaryE.label>
+  
+  <!-- EN: Heavy Close-Range Support Mech Unit -->
+  <Wolfein_Mechanoid_MilitaryF.label>重型近程支援步行機械體</Wolfein_Mechanoid_MilitaryF.label>
+  
+  <!-- EN: Extra Heavy Multi-Legged Firepower Platform. -->
+  <Wolfein_Mechanoid_MilitaryGiant.label>重型多足火力平臺</Wolfein_Mechanoid_MilitaryGiant.label>
+  
+</LanguageData>

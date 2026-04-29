@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: New Moon -->
+  <Wolfein_MoonPhase.stages.0.label>新月</Wolfein_MoonPhase.stages.0.label>
+  <!-- EN: On this dim night, I feel completely drained... -->
+  <Wolfein_MoonPhase.stages.0.description>在這黯淡的夜裡，我感到渾身疲倦...</Wolfein_MoonPhase.stages.0.description>
+  <!-- EN: Full Moon -->
+  <Wolfein_MoonPhase.stages.1.label>滿月</Wolfein_MoonPhase.stages.1.label>
+  <!-- EN: The moon is so bright tonight — I feel so much more awake! -->
+  <Wolfein_MoonPhase.stages.1.description>今晚的月亮真亮，整個人都精神多了！</Wolfein_MoonPhase.stages.1.description>
+  
+</LanguageData>

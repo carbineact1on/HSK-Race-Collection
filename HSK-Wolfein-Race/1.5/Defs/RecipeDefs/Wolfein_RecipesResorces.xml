@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- 沃芬复合面料 -->
+    <RecipeDef>
+        <defName>Make_Wolfein_CompositeFabric</defName>
+        <label>Make composite fabric</label>
+        <description>Sewing a set of Wolfein composite fabric.</description>
+        <jobString>Making CompositeFabric.</jobString>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workAmount>3000</workAmount>
+        <effectWorking>Tailor</effectWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <recipeUsers>
+            <li>Wolfein_Electric_TailoringBench</li>
+            <li>ElectricTailoringBench</li>
+            <li>HandTailoringBench</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Leathers</li>
+                    </categories>
+                </filter>
+                <count>50</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Cloth</li>
+                    </thingDefs>
+                </filter>
+                <count>80</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Cloth</li>
+            </thingDefs>
+            <categories>
+                <li>Leathers</li>
+            </categories>
+        </fixedIngredientFilter>
+        <products>
+            <Wolfein_CompositeFabric>75</Wolfein_CompositeFabric>
+        </products>
+        <skillRequirements>
+            <Crafting>6</Crafting>
+        </skillRequirements>
+        <workSkill>Crafting</workSkill>
+        <researchPrerequisite>Wolfein_Apparel_Basic</researchPrerequisite>
+    </RecipeDef>
+
+    <!-- 沃芬超合金 -->
+    <RecipeDef>
+        <defName>Make_Wolfein_AlloyMaterials</defName>
+        <label>make alloymaterials</label>
+        <description>Forging a set of Wolfein alloy materials.</description>
+        <jobString>Making AlloyMaterials.</jobString>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workAmount>6000</workAmount>
+        <effectWorking>Tailor</effectWorking>
+        <recipeUsers>
+            <li>ElectricSmithy</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Silver</li>
+                    </thingDefs>
+                </filter>
+                <count>6</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>40</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>40</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Silver</li>
+                <li>Plasteel</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <Wolfein_AlloyMaterials>75</Wolfein_AlloyMaterials>
+        </products>
+        <skillRequirements>
+            <Crafting>6</Crafting>
+        </skillRequirements>
+        <workSkill>Crafting</workSkill>
+        <researchPrerequisite>Wolfein_Industrial_production</researchPrerequisite>
+    </RecipeDef>
+
+    <!-- 沃芬包装员工餐 -->
+    <RecipeDef ParentName="CookMealBase">
+        <defName>Cook_Wolfein_PackingStaffMeals</defName>
+        <label>cook Wolfein Packing Staff Meals</label>
+        <description>Preparing packaged staff meals for the Wolfein.</description>
+        <jobString>cook Wolfein Packing Staff Meals.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+        <ingredients>
+            <li>
+                <filter>
+                    <customSummary>protein</customSummary>
+                    <categories>
+                        <li>MeatRaw</li>
+                        <li>AnimalProductRaw</li>
+                    </categories>
+                </filter>
+                <count>0.30</count>
+            </li>
+            <li>
+                <filter>
+                    <categories>
+                        <li>PlantFoodRaw</li>
+                    </categories>
+                </filter>
+                <count>0.25</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PsychoidLeaves</li>
+                    </thingDefs>
+                </filter>
+                <count>0.1</count>
+            </li>
+        </ingredients>
+        <products>
+            <Wolfein_PackingStaffMeals>1</Wolfein_PackingStaffMeals>
+        </products>
+        <recipeUsers>
+            <li>FueledStove</li>
+            <li>ElectricStove</li>
+        </recipeUsers>
+        <skillRequirements>
+            <Cooking>5</Cooking>
+        </skillRequirements>
+        <researchPrerequisite>Wolfein_PackagedFood</researchPrerequisite>
+    </RecipeDef>
+    <RecipeDef ParentName="CookMealBase">
+        <defName>Cook_Wolfein_PackingStaffMealsBulk</defName>
+        <label>cook Wolfein Packing Staff Meals x4</label>
+        <description>Preparing packaged staff meals for the Wolfein.</description>
+        <jobString>cook Wolfein Packing Staff Meals.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+        <ingredients>
+            <li>
+                <filter>
+                    <customSummary>protein</customSummary>
+                    <categories>
+                        <li>MeatRaw</li>
+                        <li>AnimalProductRaw</li>
+                    </categories>
+                </filter>
+                <count>1.2</count>
+            </li>
+            <li>
+                <filter>
+                    <categories>
+                        <li>PlantFoodRaw</li>
+                    </categories>
+                </filter>
+                <count>1.0</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>PsychoidLeaves</li>
+                    </thingDefs>
+                </filter>
+                <count>0.4</count>
+            </li>
+        </ingredients>
+        <products>
+            <Wolfein_PackingStaffMeals>4</Wolfein_PackingStaffMeals>
+        </products>
+        <recipeUsers>
+            <li>FueledStove</li>
+            <li>ElectricStove</li>
+        </recipeUsers>
+        <skillRequirements>
+            <Cooking>5</Cooking>
+        </skillRequirements>
+        <researchPrerequisite>Wolfein_PackagedFood</researchPrerequisite>
+    </RecipeDef>
+
+    <!-- 沃芬抵抗军口粮 -->
+    <RecipeDef ParentName="CookMealBase">
+        <defName>Cook_Wolfein_ResistanceArmyRations</defName>
+        <label>cook wolfein resistance army rations</label>
+        <description>Preparing resistance army rations for the Wolfein.</description>
+        <jobString>cook canned resistance army rations.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+        <ingredients>
+            <li>
+                <filter>
+                    <customSummary>protein</customSummary>
+                    <categories>
+                        <li>MeatRaw</li>
+                        <li>AnimalProductRaw</li>
+                    </categories>
+                </filter>
+                <count>0.35</count>
+            </li>
+            <li>
+                <filter>
+                    <categories>
+                        <li>PlantFoodRaw</li>
+                    </categories>
+                </filter>
+                <count>0.2</count>
+            </li>
+        </ingredients>
+        <products>
+            <Wolfein_ResistanceArmyRations>1</Wolfein_ResistanceArmyRations>
+        </products>
+        <recipeUsers>
+            <li>FueledStove</li>
+            <li>ElectricStove</li>
+        </recipeUsers>
+        <skillRequirements>
+            <Cooking>5</Cooking>
+        </skillRequirements>
+        <researchPrerequisite>Wolfein_PackagedFood</researchPrerequisite>
+    </RecipeDef>
+    <RecipeDef ParentName="CookMealBase">
+        <defName>Cook_Wolfein_ResistanceArmyRationsBulk</defName>
+        <label>cook wolfein resistance army rations x4</label>
+        <description>Preparing resistance army rations for the Wolfein.</description>
+        <jobString>cook canned resistance army rations.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+        <ingredients>
+            <li>
+                <filter>
+                    <customSummary>protein</customSummary>
+                    <categories>
+                        <li>MeatRaw</li>
+                        <li>AnimalProductRaw</li>
+                    </categories>
+                </filter>
+                <count>1.4</count>
+            </li>
+            <li>
+                <filter>
+                    <categories>
+                        <li>PlantFoodRaw</li>
+                    </categories>
+                </filter>
+                <count>0.8</count>
+            </li>
+        </ingredients>
+        <products>
+            <Wolfein_ResistanceArmyRations>4</Wolfein_ResistanceArmyRations>
+        </products>
+        <recipeUsers>
+            <li>FueledStove</li>
+            <li>ElectricStove</li>
+        </recipeUsers>
+        <skillRequirements>
+            <Cooking>5</Cooking>
+        </skillRequirements>
+        <researchPrerequisite>Wolfein_PackagedFood</researchPrerequisite>
+    </RecipeDef>
+
+    <!-- 月蚀药剂 -->
+    <RecipeDef>
+        <defName>Make_Wolfein_EclipseTrigger</defName>
+        <label>make eclipse trigger x3</label>
+        <description>make some Wolfein eclipse trigger.</description>
+        <jobString>Making eclipse triggers.</jobString>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+        <workAmount>6000</workAmount>
+        <effectWorking>Cook</effectWorking>
+        <recipeUsers>
+            <li>DrugLab</li>
+        </recipeUsers>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>GoJuice</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Luciferium</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>GoJuice</li>
+                <li>Luciferium</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <Wolfein_EclipseTrigger>3</Wolfein_EclipseTrigger>
+        </products>
+        <skillRequirements>
+            <Medicine>5</Medicine>
+        </skillRequirements>
+        <workSkill>Medicine</workSkill>
+        <researchPrerequisite>Wolfein_EclipseTrigger</researchPrerequisite>
+    </RecipeDef>
+
+</Defs>

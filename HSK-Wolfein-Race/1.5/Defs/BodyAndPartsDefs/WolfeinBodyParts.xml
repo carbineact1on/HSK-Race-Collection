@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <BodyPartDef>
+        <defName>Wolfein_Tail</defName>
+        <label>tail</label>
+        <hitPoints>20</hitPoints>
+        <frostbiteVulnerability>3</frostbiteVulnerability>
+        <skinCovered>false</skinCovered>
+        <beautyRelated>true</beautyRelated>
+        <bleedRate>0</bleedRate>
+        <tags>
+            <li>MovingLimbCore</li>
+        </tags>
+    </BodyPartDef>
+    <BodyPartDef>
+        <defName>Wolfein_Tailbone</defName>
+        <label>tail bone</label>
+        <hitPoints>20</hitPoints>
+        <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+        <frostbiteVulnerability>0</frostbiteVulnerability>
+        <skinCovered>false</skinCovered>
+        <solid>true</solid>
+        <bleedRate>0</bleedRate>
+        <tags>
+            <li>MovingLimbSegment</li>
+        </tags>
+    </BodyPartDef>
+</Defs>

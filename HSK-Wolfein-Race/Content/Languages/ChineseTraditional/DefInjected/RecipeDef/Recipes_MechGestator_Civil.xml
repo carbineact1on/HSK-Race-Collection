@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Manufacture Construction-Type Civilian Mech Unit -->
+  <Wolfein_MechRecipe_CivilA.label>製造建築型民用機械體</Wolfein_MechRecipe_CivilA.label>
+  <!-- EN: Manufacture a Construction-Type Civilian Mech Unit. -->
+  <Wolfein_MechRecipe_CivilA.description>製造一臺建築型的民用機械體。</Wolfein_MechRecipe_CivilA.description>
+  <!-- EN: Manufacture Mech. -->
+  <Wolfein_MechRecipe_CivilA.jobString>製造機械體</Wolfein_MechRecipe_CivilA.jobString>
+  
+  <!-- EN: Manufacture Domestic-Type Civilian Mech Unit -->
+  <Wolfein_MechRecipe_CivilB.label>製造居家型民用機械體</Wolfein_MechRecipe_CivilB.label>
+  <!-- EN: Manufacture a Domestic-Type Civilian Mech Unit. -->
+  <Wolfein_MechRecipe_CivilB.description>製造一臺居家型的機械體。</Wolfein_MechRecipe_CivilB.description>
+  <!-- EN: Manufacture Mech. -->
+  <Wolfein_MechRecipe_CivilB.jobString>製造機械體</Wolfein_MechRecipe_CivilB.jobString>
+  
+  <!-- EN: Manufacture Basic Civilian Mech Unit -->
+  <Wolfein_MechRecipe_CivilBase.label>製造基礎型民用機械體</Wolfein_MechRecipe_CivilBase.label>
+  <!-- EN: Manufacture a Basic Civilian Mech Unit. -->
+  <Wolfein_MechRecipe_CivilBase.description>製造一臺基礎型的民用機械體。</Wolfein_MechRecipe_CivilBase.description>
+  <!-- EN: Manufacture Mech. -->
+  <Wolfein_MechRecipe_CivilBase.jobString>製造機械體</Wolfein_MechRecipe_CivilBase.jobString>
+  
+  <!-- EN: Manufacture Agricultural-Type Civilian Mech Unit -->
+  <Wolfein_MechRecipe_CivilC.label>製造牧耕型民用機械體</Wolfein_MechRecipe_CivilC.label>
+  <!-- EN: Manufacture an Agricultural-Type Civilian Mech Unit. -->
+  <Wolfein_MechRecipe_CivilC.description>製造一臺牧耕型的民用機械體。</Wolfein_MechRecipe_CivilC.description>
+  <!-- EN: Manufacture Mech. -->
+  <Wolfein_MechRecipe_CivilC.jobString>製造機械體</Wolfein_MechRecipe_CivilC.jobString>
+  
+</LanguageData>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef ParentName="WolfeinBaseGrenade">
+        <defName>W_Weapon_Grenade_FragGrenade</defName>
+        <label>Wolfein Frag Grenade</label>
+        <description>Fragmentation grenades. They can be thrown a short distance, where they'll explode, damaging anything and anyone nearby.</description>
+        <possessionCount>0</possessionCount>
+        <tickerType>Normal</tickerType>
+        <graphicData>
+            <texPath>Wolfein/Weapon/Grenade</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <uiIconScale>1</uiIconScale>
+        <soundInteract>Interact_Grenade</soundInteract>
+        <techLevel>Industrial</techLevel>
+        <smeltable>true</smeltable>
+        <thingCategories>
+            <li>Grenades</li>
+        </thingCategories>
+        <weaponTags>
+            <li>W_Weapon_Grenade_FragGrenade</li>
+        </weaponTags>
+        <recipeMaker>
+            <researchPrerequisite>Wolfein_BlastWeapon</researchPrerequisite>
+            <recipeUsers Inherit="False">
+                <li>WeaponCraftingWorkTable</li>
+            </recipeUsers>
+        </recipeMaker>
+        <statBases>
+            <WorkToMake>12000</WorkToMake>
+            <Mass>1</Mass>
+            <RangedWeapon_Cooldown>2.66</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <SteelBar>4</SteelBar>
+            <Chemfuel>80</Chemfuel>
+                    <Weapon_Parts>2</Weapon_Parts>
+            <Plastic>5</Plastic>
+        </costList>
+        <verbs>
+            <li>
+                <label>throw frag grenade</label>
+                <verbClass>Verb_LaunchProjectile</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>W_Projectile_Grenade_FragGrenade</defaultProjectile>
+                <warmupTime>1.5</warmupTime>
+                <noiseRadius>4</noiseRadius>
+                <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+                <range>12.9</range>
+                <forcedMissRadius>1.9</forcedMissRadius>
+                <soundCast>ThrowGrenade</soundCast>
+                <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CompProperties_Explosive">
+                <explosiveRadius>2.66</explosiveRadius>
+                <explosiveDamageType>Bomb</explosiveDamageType>
+                <requiredDamageTypeToExplode>Flame</requiredDamageTypeToExplode>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef Name="WolfeinBaseFragGrenadeProjectile" ParentName="WolfeinBaseGrenadeProjectile" Abstract="True">
+        <thingClass>Wolfein.Projectile_ExplosivePlural</thingClass>
+        <graphicData>
+            <texPath>Wolfein/Weapon/GrenadeProj</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <projectile>
+            <explosionRadius>1.9</explosionRadius>
+            <damageDef>Bomb</damageDef>
+            <damageAmountBase>20</damageAmountBase>
+            <explosionDelay>100</explosionDelay>
+        </projectile>
+        <modExtensions Inherit="false">
+            <li Class="Wolfein.ModExtension_Projectile_ExplosivePlural">
+              <explodeNum>3</explodeNum>
+              <explodeCellRadius>2</explodeCellRadius>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <ThingDef ParentName="WolfeinBaseFragGrenadeProjectile">
+        <defName>W_Projectile_Grenade_FragGrenade</defName>
+        <label>frag grenade</label>
+    </ThingDef>
+</Defs>

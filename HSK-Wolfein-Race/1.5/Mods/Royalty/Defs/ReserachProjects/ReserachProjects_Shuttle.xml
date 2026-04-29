@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- 沃芬重型运输机 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_Shuttle</defName>
+        <label>Wolfein transport aircraft</label>
+        <description>Research how to produce wolfein transport aircraft.</description>
+        <baseCost>4000</baseCost>
+        <techLevel>Spacer</techLevel>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+            <li>TransportPod</li>
+            <li>AdvancedFabrication</li>
+        </prerequisites>
+        <researchViewX>6</researchViewX>
+        <researchViewY>4.4</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+</Defs>

@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <AlienRace.AlienBackstoryDef Name="Wolfein_AdultBackstory" Abstract="True">
+        <disallowedTraitsChance>
+        </disallowedTraitsChance>
+        <forcedHediffs>
+        </forcedHediffs>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Female</bodyTypeMale>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 市民 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_01</defName>
+        <title>Wolfein citizen</title>
+        <titleShort>citizen</titleShort>
+        <description>[PAWN_nameDef] is an ordinary citizen living in a Wolfein city. The growing pressure of survival and the escalating civil conflict have taken a toll on her daily life. Rather than being drafted to fulfill some civic duty, she simply hopes to hold on to what little stability she still has.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Social>4</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+        <possessions>
+            <Silver>30</Silver>
+        </possessions>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 农民 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_02</defName>
+        <title>Wolfein farmer</title>
+        <titleShort>farmer</titleShort>
+        <description>[PAWN_nameDef] lives in a rural area far from the Wolfein cities, toiling diligently in the fields contracted by a Wolfein company to meet the exorbitant taxes imposed by MegaCorp.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Plants>4</Plants>
+            <Construction>3</Construction>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 流水线员工 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_03</defName>
+        <title>Wolfein anassembly line worker</title>
+        <titleShort>anassembly line worker</titleShort>
+        <description>[PAWN_nameDef] is a worker on the assembly line of a Wolfein company, where her entire life revolves around tirelessly meeting the various quotas assigned by the line supervisor.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Construction>4</Construction>
+            <Crafting>5</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 矿工 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_04</defName>
+        <title>Wolfein contract miner</title>
+        <titleShort>miner</titleShort>
+        <description>[PAWN_nameDef] is a miner in the Resource Development Department of a Wolfein company. Though she works day after day in the harsh and perilous environment of the mines, [PAWN_nameDef] has never forgotten the dreams and aspirations she once held.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>2</Melee>
+            <Mining>7</Mining>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 建筑工人 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_05</defName>
+        <title>Wolfein builder</title>
+        <titleShort>builder</titleShort>
+        <description>[PAWN_nameDef] is tasked with adding more concrete pillars to the Wolfein cities, and the busy, arduous life spent on scaffolding has become her daily routine.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Construction>7</Construction>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 农奴 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_06</defName>
+        <title>Wolfein serf</title>
+        <titleShort>serf</titleShort>
+        <description>[PAWN_nameDef], unable to repay her debts, was forced to sell everything she had, including her freedom and human rights, to the Wolfein MegaCorp. Now, she clings to life as an agricultural slave under their control.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Plants>7</Plants>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 猎户 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_07</defName>
+        <title>Wolfein hunter</title>
+        <titleShort>hunter</titleShort>
+        <description>[PAWN_nameDef] once lived by hunting in the forest, avoiding the cities controlled by the Wolfein MegaCorp. Her self-reliant life kept her free from Wolfein rule. But as the cities kept growing, her land kept shrinking. In the end, [PAWN_nameDef] fled to the edge of the world.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>5</Melee>
+            <Shooting>6</Shooting>
+            <Animals>1</Animals>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 渔夫 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_08</defName>
+        <title>Wolfein fisher</title>
+        <titleShort>fisher</titleShort>
+        <description>[PAWN_nameDef] made a living by fishing and brought her catch to a nearby market, where it was collected by the Wolfein MegaCorp. With her skill and experience, she ranked among the top ten thousand registered fishers under the Wolfein system that year.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>3</Melee>
+            <Crafting>2</Crafting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 行商 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_09</defName>
+        <title>Wolfein merchant</title>
+        <titleShort>merchant</titleShort>
+        <description>[PAWN_nameDef] formed her own trade caravan, traveling between settler colonies to sell goods. Sometimes she also visited settlements of other factions to make deals. But her biggest problem was the rising number of bandit attacks along the trade routes.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Social>7</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 木匠 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_10</defName>
+        <title>Wolfein carpenter</title>
+        <titleShort>carpenter</titleShort>
+        <description>[PAWN_nameDef] is a traditional carpenter. With rapid technological advances, such work has long been replaced by machines. But in a village far from the Wolfein cities, her craftsmanship remains essential. After all, the Wolfein MegaCorp's mass-produced goods are neither customized nor cost-effective.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Construction>3</Construction>
+            <Crafting>5</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 裁缝 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_11</defName>
+        <title>Wolfein tailor</title>
+        <titleShort>tailor</titleShort>
+        <description>[PAWN_nameDef] is a tailor running her own small shop. Her excellent sewing skills have earned the trust of the local residents. Sometimes she designs and creates clothes herself, but most of her time is spent fulfilling military textile orders from the Wolfein MegaCorp.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Artistic>4</Artistic>
+            <Crafting>5</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 中学教师 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_12</defName>
+        <title>Wolfein teacher</title>
+        <titleShort>teacher</titleShort>
+        <description>[PAWN_nameDef] works at an educational institution under the Wolfein MegaCorp in a Wolfein Federation city. Though teaching is exhausting, she prefers being around students who are still untouched by society. Their innocence and energy inspire her and make all the effort feel worthwhile.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Artistic>1</Artistic>
+            <Social>2</Social>
+            <Intellectual>7</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 外科医生 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_13</defName>
+        <title>Wolfein surgeon</title>
+        <titleShort>surgeon</titleShort>
+        <description>[PAWN_nameDef] works at a local hospital, where the daily workload is already demanding. After a recent wave of terrorist attacks by the resistance, she has been overwhelmed treating large numbers of innocent casualties.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>2</Melee>
+            <Medicine>8</Medicine>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 应急护士 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_14</defName>
+        <title>Wolfein emergency nurse</title>
+        <titleShort>emergency nurse</titleShort>
+        <description>[PAWN_nameDef] works at a local hospital, usually handling minor cases and only occasionally dealing with severe ones. Now, she is helping treat victims of a terrorist attack, and the work has placed a significant psychological strain on her.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Medicine>4</Medicine>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 厨师 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_15</defName>
+        <title>Wolfein chef</title>
+        <titleShort>chef</titleShort>
+        <description>[PAWN_nameDef] works at an upscale restaurant, where her unique cooking skills have won over many core employees of the company. Her dream is to one day become head chef at an even more luxurious venue, hoping to reach the upper class through her craft—at least in terms of taste.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>2</Melee>
+            <Cooking>7</Cooking>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 伐木工 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_16</defName>
+        <title>Wolfein logger</title>
+        <titleShort>logger</titleShort>
+        <description>In the untamed forests where technology has yet to reach, [PAWN_nameDef] makes a living by felling trees with more primitive methods. Though machines can now do the job more efficiently, she still prefers the feel of swinging an axe herself. After all, this way she doesn’t have to pay the company’s steep maintenance fees.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>7</Melee>
+            <Plants>2</Plants>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 汽修工 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_17</defName>
+        <title>Wolfein car mechanic</title>
+        <titleShort>car mechanic</titleShort>
+        <description>[PAWN_nameDef] works at an auto repair shop, equipped with solid knowledge of vehicle maintenance. She skillfully uses various diagnostic tools to inspect, tune, and repair vehicles.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Social>-1</Social>
+            <Construction>3</Construction>
+            <Crafting>6</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 机修工 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_18</defName>
+        <title>Wolfein mechanic</title>
+        <titleShort>mechanic</titleShort>
+        <description>[PAWN_nameDef] is a mechanic responsible for installing, calibrating, and maintaining various machines. With solid knowledge of mechanical systems and electronics, she consistently completes every task assigned by the Wolfein MegaCorp with excellence.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Social>-1</Social>
+            <Construction>4</Construction>
+            <Crafting>5</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 服务员 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_19</defName>
+        <title>Wolfein waiter</title>
+        <titleShort>waiter</titleShort>
+        <description>[PAWN_nameDef] works as a waitress at a restaurant and has a unique talent for resolving customer complaints. Every guest she serves ends up leaving the place with a smile.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Cooking>3</Cooking>
+            <Social>5</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 护林员 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_20</defName>
+        <title>Wolfein ranger</title>
+        <titleShort>ranger</titleShort>
+        <description>[PAWN_nameDef] is a forest ranger tasked with protecting the Wolfein MegaCorp's woodland territory and monitoring for any violations of corporate property. She prefers living close to nature over breathing smog in the city—especially when she gets paid for it.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>4</Shooting>
+            <Plants>2</Plants>
+            <Animals>3</Animals>
+            <Crafting>1</Crafting>
+            <Social>-2</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 警员 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_21</defName>
+        <title>Wolfein police</title>
+        <titleShort>police</titleShort>
+        <description>[PAWN_nameDef] is a city patrol officer, usually handling neighborhood disputes, thefts, and brawls. Occasionally, she is requisitioned by the Wolfein MegaCorp’s security division to help suppress strikes. But with resistance attacks growing more severe, she now faces far more dangerous assignments than before.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>3</Melee>
+            <Shooting>4</Shooting>
+            <Social>2</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 生物研究员 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_22</defName>
+        <title>Wolfein biologist</title>
+        <titleShort>biologist</titleShort>
+        <description>[PAWN_nameDef] is a biotech researcher focused on genetic studies. Through in-depth analysis of Wolfein genetics, she has developed new methods for treating diseases and made significant contributions to unlocking the potential of the Wolfein race.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>-2</Melee>
+            <Medicine>1</Medicine>
+            <Animals>4</Animals>
+            <Intellectual>6</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 城市流浪汉 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_23</defName>
+        <title>Wolfein tramp</title>
+        <titleShort>tramp</titleShort>
+        <description>[PAWN_nameDef] has no job in the Wolfein city and would rather wander the streets than sell herself to the Wolfein MegaCorp. She survives by begging and scavenging. But if a major crisis were to strike the city, she might be the one who knows best how to survive it.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Cooking>2</Cooking>
+            <Animals>2</Animals>
+            <Crafting>1</Crafting>
+            <Social>-5</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 失业者 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_24</defName>
+        <title>Wolfein unemployed</title>
+        <titleShort>unemployed</titleShort>
+        <description>[PAWN_nameDef] is currently unemployed in the Wolfein city. She was fired for refusing to work overtime—something she has grown used to by now. She's looking for a job that doesn’t demand overtime, though everyone knows Wolfein MegaCorp never puts “overtime” in the contract.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Crafting>2</Crafting>
+            <Social>3</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 外卖配送员 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_25</defName>
+        <title>Wolfein food-delivery staff</title>
+        <titleShort>food-delivery staff</titleShort>
+        <description>[PAWN_nameDef] picked up a part-time job as a food delivery worker. No matter the road conditions, she always managed to deliver meals on time. But after seeing news of some food companies testing drone deliveries, she’s already getting ready to look for her next gig.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>2</Melee>
+            <Social>4</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 水管工 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_26</defName>
+        <title>Wolfein plumber</title>
+        <titleShort>plumber</titleShort>
+        <description>[PAWN_nameDef] is a plumber responsible for inspecting and maintaining pipeline systems. Dealing with all kinds of pipes takes up most of her day. Tired of constantly getting soaked, she’s now thinking about switching to electrical work instead.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>2</Melee>
+            <Construction>4</Construction>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 维修电工 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_27</defName>
+        <title>Wolfein electrician</title>
+        <titleShort>electrician</titleShort>
+        <description>[PAWN_nameDef] is an electrician in charge of inspecting and maintaining electrical systems. Most of her time is spent dealing with all sorts of wiring. Tired of constantly getting her hair tangled in wires, she’s now thinking of switching to plumbing.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Construction>4</Construction>
+            <Crafting>3</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 运动员 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_28</defName>
+        <title>Wolfein athlete</title>
+        <titleShort>athlete</titleShort>
+        <description>[PAWN_nameDef] is a talented sprinter who has won multiple awards in city-level athletic meets. She dreams of one day running on a bigger stage, where she can fully showcase her speed and strength.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>6</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 保安 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_29</defName>
+        <title>Wolfein bouncer</title>
+        <titleShort>bouncer</titleShort>
+        <description>[PAWN_nameDef] works as a security guard at a large shopping mall. In the past, her duties mostly involved keeping out thieves and vagrants. But after a series of terrorist attacks by the resistance in Wolfein Federation cities, she’s been forced to rethink the risks of her job.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 花匠 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_30</defName>
+        <title>Wolfein florist</title>
+        <titleShort>florist</titleShort>
+        <description>[PAWN_nameDef] is a florist who finds comfort in the company of plants amid the cold, rigid life of the city. After a terrorist attack destroyed the flower shop where she once worked, she was forced to seek a new path—but deep down, she never gave up her love for the craft.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Plants>4</Plants>
+            <Social>2</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 律师 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_31</defName>
+        <title>Wolfein lawyer</title>
+        <titleShort>lawyer</titleShort>
+        <description>[PAWN_nameDef] works at a law firm, handling various disputes on behalf of Wolfein MegaCorp. But after repeatedly witnessing the dark truths behind the cases, she has begun to question her faith in the profession.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>-1</Melee>
+            <Social>6</Social>
+            <Intellectual>7</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 记者 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_32</defName>
+        <title>Wolfein reporter</title>
+        <titleShort>reporter</titleShort>
+        <description>[PAWN_nameDef] once worked as a journalist at a television station. After reporting on a scandal tangled with too many vested interests, she was reassigned to cover far more dangerous stories.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>-3</Melee>
+            <Social>7</Social>
+            <Intellectual>6</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 清洁工 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_33</defName>
+        <title>Wolfein cleaner</title>
+        <titleShort>cleaner</titleShort>
+        <description>[PAWN_nameDef] works for a domestic cleaning company and is exceptionally good at her job. She almost always receives top ratings on Wolfein’s service platform—after all, if a client doesn’t leave a good review, she has her own ways of convincing them to reconsider. So far, it’s never failed.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>3</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 会计 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_34</defName>
+        <title>Wolfein accountant</title>
+        <titleShort>accountant</titleShort>
+        <description>[PAWN_nameDef] works as an accountant at Wolfein MegaCorp, and her ledgers often contain some rather unusual entries. Her creative techniques have earned the company a fair share of extra profit. So when the corporation decided to pin the blame for some bad accounts on her, [PAWN_nameDef] had already filed for administrative leave—just in time.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 艺人 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_35</defName>
+        <title>Wolfein actor</title>
+        <titleShort>actor</titleShort>
+        <description>[PAWN_nameDef] is a moderately well-known performer, known for [PAWN_pronoun]’s impressive acting and captivating voice in several films. However, during a trip for a performance, [PAWN_pronoun] was caught in an accident and was forced to make an emergency landing in the outer frontier.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Social>8</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 雕塑家 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_36</defName>
+        <title>Wolfein sculptor</title>
+        <titleShort>sculptor</titleShort>
+        <description>[PAWN_nameDef] is a sculptor who insists on using traditional carving techniques. As technology advances, this old craft is slowly fading from memory—but [PAWN_nameDef] still finds deep satisfaction in shaping each piece by hand. After all, there’s never a shortage of clueless rich Wolfeins willing to pay top credits to decorate their homes with “art.”</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Artistic>4</Artistic>
+            <Construction>4</Construction>
+            <Crafting>4</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 画师 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_37</defName>
+        <title>Wolfein artist</title>
+        <titleShort>artist</titleShort>
+        <description>[PAWN_nameDef] is a talented artist skilled in both digital illustration and traditional painting. As automated image generation becomes increasingly widespread and far more efficient than hand-drawn art, many artists have seen their livelihoods impacted. Yet, [PAWN_nameDef] scoffs at the trend, continuing to paint her own world, one brushstroke at a time.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Artistic>8</Artistic>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 幼儿园教师 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_38</defName>
+        <title>Wolfein kindergarten teacher</title>
+        <titleShort>kindergarten teacher</titleShort>
+        <description>[PAWN_nameDef] has always loved children, and after much effort, she finally became a kindergarten teacher. Though caring for and educating young kids is far from easy, [PAWN_nameDef] remains passionate about her work and continues to cherish her role.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Social>4</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>
+            <li>Violent</li>
+        </workDisables>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 地质学者 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_39</defName>
+        <title>Wolfein geologist</title>
+        <titleShort>geologist</titleShort>
+        <description>[PAWN_nameDef] is an accomplished geologist, primarily focused on studying tectonic activity, volcanic patterns, and other geological phenomena. However, most of [PAWN_pronoun]’s time is spent conducting commercial surveys for the Wolfein MegaCorp. To support her research, [PAWN_pronoun] is also well-versed in excavation tools and often carries out ground sampling herself.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Mining>4</Mining>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <workDisables>
+            <li>Violent</li>
+        </workDisables>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 按摩师 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_40</defName>
+        <title>Wolfein massager</title>
+        <titleShort>massager</titleShort>
+        <description>[PAWN_nameDef] runs a legitimate massage parlor in a city within the Wolfein Federation. Her skilled hands are well-known for relieving the stress and fatigue of a long day’s work. Occasionally, some clients come in seeking "extra services," but after a firm explanation—and, when necessary, some persuasive physical methods—they quickly learn to take their business elsewhere.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>3</Melee>
+            <Medicine>1</Medicine>
+            <Social>4</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 红灯区按摩师 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_41</defName>
+        <title>Wolfein massager</title>
+        <titleShort>massager</titleShort>
+        <description>[PAWN_nameDef] works at a massage parlor in the red-light district of a Wolfein Federation city. With an in-depth understanding of Wolfein physiology and a remarkable ability to cater to her clients' unique requests, she has helped make the establishment notably successful.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>2</Melee>
+            <Medicine>1</Medicine>
+            <Social>5</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 黑客 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_42</defName>
+        <title>Wolfein hacker</title>
+        <titleShort>hacker</titleShort>
+        <description>[PAWN_nameDef] possesses an exceptional understanding of IT and hacking. In an attempt to showcase [PAWN_pronoun]’s skills, [PAWN_pronoun] breached a company’s system and stole classified business data. Now a wanted figure, [PAWN_nameDef] is on the run, constantly evading law enforcement.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Social>-1</Social>
+            <Intellectual>8</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 小偷 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_43</defName>
+        <title>Wolfein thief</title>
+        <titleShort>thief</titleShort>
+        <description>[PAWN_nameDef] comes from an impoverished background. With the crushing pressure from the MegaCorp and the escalating civil conflict, [PAWN_pronoun]’s life has become increasingly desperate. Left with few choices, [PAWN_pronoun] turned to petty theft just to survive.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>2</Melee>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 劫匪 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_44</defName>
+        <title>Wolfein robber</title>
+        <titleShort>robber</titleShort>
+        <description>[PAWN_nameDef] is a seasoned criminal who turned to robbery and kidnapping after a failed investment. Together with [PAWN_pronoun]’s accomplices, [PAWN_pronoun] abducts Wolfein citizens to extort ransom from their families. With sharp counter-surveillance skills, [PAWN_nameDef] has become a constant thorn in the side of law enforcement.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>2</Shooting>
+            <Social>-1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 毒贩 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_45</defName>
+        <title>Wolfein drug dealer</title>
+        <titleShort>drug dealer</titleShort>
+        <description>[PAWN_nameDef] makes a living selling illegal psychoactive drugs. Through a special supply channel, [PAWN_pronoun] acquires the substances and resells them to those in need of a fix. [PAWN_pronoun]’s clients come from all walks of life—corporate executives, famous actors, homeless drifters, and even underage students.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>2</Melee>
+            <Social>2</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 职业杀手 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_46</defName>
+        <title>Wolfein hit man</title>
+        <titleShort>hit man</titleShort>
+        <description>[PAWN_nameDef] is a professional assassin, an expert at making targets disappear without a trace. As a true professional, [PAWN_pronoun] never asks about the employer’s motives—only how much the job pays.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>5</Melee>
+            <Shooting>6</Shooting>
+            <Social>-2</Social>
+        </skillGains>
+        <forcedTraitsChance>
+            <li>
+                <defName>Bloodlust</defName>
+                <chance>25</chance>
+            </li>
+        </forcedTraitsChance>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 灵能杀手 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_47</defName>
+        <title>Wolfein psionic killer</title>
+        <titleShort>psionic killer</titleShort>
+        <description>[PAWN_nameDef] is no ordinary assassin—[PAWN_pronoun] possesses unique psionic abilities that aid in completing missions. This uncommon power has made [PAWN_pronoun] a favored choice among high-paying clients.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>2</Melee>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <forcedTraitsChance>
+            <li>
+                <defName>Bloodlust</defName>
+                <chance>25</chance>
+            </li>
+        </forcedTraitsChance>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 逃犯 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_48</defName>
+        <title>Wolfein fugitive</title>
+        <titleShort>fugitive</titleShort>
+        <description>[PAWN_nameDef] was imprisoned for a murder charge. When a series of terrorist attacks plunged the city into chaos, [PAWN_pronoun] seized the chance to escape. Now, [PAWN_pronoun] is on the run, living as a fugitive.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>1</Melee>
+            <Shooting>3</Shooting>
+            <Social>2</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 走私犯 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_49</defName>
+        <title>Wolfein smuggler</title>
+        <titleShort>smuggler</titleShort>
+        <description>[PAWN_nameDef] works in a smuggling crew, primarily handling the transportation of contraband and the delivery of sensitive information. This illegal line of work has earned her a generous profit. She often brags to her associates about the high status and deep pockets of her clientele.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>1</Melee>
+            <Shooting>2</Shooting>
+            <Social>2</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 渣滓 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_50</defName>
+        <title>Wolfein fugitive</title>
+        <titleShort>fugitive</titleShort>
+        <description>[PAWN_nameDef] was imprisoned for a murder charge. When a series of terrorist attacks plunged the city into chaos, [PAWN_pronoun] seized the chance to escape. Now, [PAWN_pronoun] is on the run, living as a fugitive.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>1</Melee>
+            <Shooting>1</Shooting>
+            <Social>-1</Social>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+
+    <!-- 大坏狼 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_AdultBackstory">
+        <defName>Wolfein_BackstoryAdult_51</defName>
+        <title>Wolfein Big Bad Wolf</title>
+        <titleShort>Big Bad Wolf</titleShort>
+        <description>[PAWN_nameDef] is a big, bad Wolfein who claims she was born for the kind of work that's "not exactly aboveboard"—though in the eyes of others, she might just be a little too fond of acting tough.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>2</Melee>
+            <Shooting>2</Shooting>
+            <Medicine>1</Medicine>
+            <Plants>1</Plants>
+            <Animals>1</Animals>
+            <Social>1</Social>
+        </skillGains>
+        <forcedTraitsChance>
+            <li>
+                <defName>Kind</defName>
+                <chance>100</chance>
+            </li>
+        </forcedTraitsChance>
+        <spawnCategories>
+            <li>Wolfein_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+</Defs>

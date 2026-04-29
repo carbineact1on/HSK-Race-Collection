@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ate chocolate -->
+  <Wolfein_AteChocolate.stages.ate_chocolate.label>食用了巧克力</Wolfein_AteChocolate.stages.ate_chocolate.label>
+  <!-- EN: Tastes pretty good! But... why do I feel a little uncomfortable? -->
+  <Wolfein_AteChocolate.stages.ate_chocolate.description>不錯的味道！但我怎麼感覺有點不舒服...</Wolfein_AteChocolate.stages.ate_chocolate.description>
+  
+  <!-- EN: ate Custard Cake. -->
+  <Wolfein_AteCustardCake.stages.ate_Custard_Cake.label>食用了蛋黃派</Wolfein_AteCustardCake.stages.ate_Custard_Cake.label>
+  <!-- EN: Delicious, is there any more? -->
+  <Wolfein_AteCustardCake.stages.ate_Custard_Cake.description>好吃，還有嗎？</Wolfein_AteCustardCake.stages.ate_Custard_Cake.description>
+  
+  <!-- EN: ate Grilled Meat. -->
+  <Wolfein_AteGrilledMeat.stages.ate_Grilled_Meat.label>食用了烤肉排</Wolfein_AteGrilledMeat.stages.ate_Grilled_Meat.label>
+  <!-- EN: This is delicious, and I hope I can have it again for the next meal. -->
+  <Wolfein_AteGrilledMeat.stages.ate_Grilled_Meat.description>這很美味，我希望下一頓還能吃到。</Wolfein_AteGrilledMeat.stages.ate_Grilled_Meat.description>
+  
+  <!-- EN: ate Honey Glazed Ham. -->
+  <Wolfein_AteHoneyGlazedHam.stages.ate_Honey_Glazed_Ham.label>食用了蜜汁火腿</Wolfein_AteHoneyGlazedHam.stages.ate_Honey_Glazed_Ham.label>
+  <!-- EN: This is just… too delicious! -->
+  <Wolfein_AteHoneyGlazedHam.stages.ate_Honey_Glazed_Ham.description>這實在是...太美味了！</Wolfein_AteHoneyGlazedHam.stages.ate_Honey_Glazed_Ham.description>
+  
+  <!-- EN: ate meat bites. -->
+  <Wolfein_AteMeatBites.stages.ate_meat_bites.label>食用了肉粒塊零食</Wolfein_AteMeatBites.stages.ate_meat_bites.label>
+  <!-- EN: Nice snack! -->
+  <Wolfein_AteMeatBites.stages.ate_meat_bites.description>不錯的零食！</Wolfein_AteMeatBites.stages.ate_meat_bites.description>
+  
+  <!-- EN: ate Packing Staff Meals -->
+  <Wolfein_AtePackingStaffMeals.stages.ate_Packing_Staff_Meals.label>食用了員工餐</Wolfein_AtePackingStaffMeals.stages.ate_Packing_Staff_Meals.label>
+  <!-- EN: It tastes good and I feel more energetic after eating it! -->
+  <Wolfein_AtePackingStaffMeals.stages.ate_Packing_Staff_Meals.description>味道不錯，吃完感覺身體更有精神了！</Wolfein_AtePackingStaffMeals.stages.ate_Packing_Staff_Meals.description>
+  
+  <!-- EN: drank mood stability drink. -->
+  <Wolfein_DrankStabilityDrink.stages.drank_mood_stability_drink.label>飲用了情緒穩定飲料</Wolfein_DrankStabilityDrink.stages.drank_mood_stability_drink.label>
+  <!-- EN: I feel good... too good. -->
+  <Wolfein_DrankStabilityDrink.stages.drank_mood_stability_drink.description>我感覺很好...有些太好了。</Wolfein_DrankStabilityDrink.stages.drank_mood_stability_drink.description>
+  
+  <!-- EN: Needs to satisfy meat food requirement -->
+  <Wolfein_MeatNeedLack.stages.Needs_to_satisfy_meat_food_requirement.label>需要滿足肉類食物需求</Wolfein_MeatNeedLack.stages.Needs_to_satisfy_meat_food_requirement.label>
+  <!-- EN: Lately, something feels off with my meals—like something』s missing. -->
+  <Wolfein_MeatNeedLack.stages.Needs_to_satisfy_meat_food_requirement.description>最近總覺得吃得不太對勁，缺點什麼。</Wolfein_MeatNeedLack.stages.Needs_to_satisfy_meat_food_requirement.description>
+  <!-- EN: Urgently needs to satisfy meat food requirement -->
+  <Wolfein_MeatNeedLack.stages.Urgently_needs_to_satisfy_meat_food_requirement.label>非常需要滿足肉類食物需求</Wolfein_MeatNeedLack.stages.Urgently_needs_to_satisfy_meat_food_requirement.label>
+  <!-- EN: Where』s my meat? Where』s my meat? Seriously—where』s my meat!? -->
+  <Wolfein_MeatNeedLack.stages.Urgently_needs_to_satisfy_meat_food_requirement.description>我肉呢？我肉呢？我肉呢！？</Wolfein_MeatNeedLack.stages.Urgently_needs_to_satisfy_meat_food_requirement.description>
+  
+  <!-- EN: Meat food requirement fulfilled -->
+  <Wolfein_MeatNeedSatisfied.stages.Meat_food_requirement_fulfilled.label>肉類食物需求已滿足</Wolfein_MeatNeedSatisfied.stages.Meat_food_requirement_fulfilled.label>
+  <!-- EN: This taste is familiar and comforting. -->
+  <Wolfein_MeatNeedSatisfied.stages.Meat_food_requirement_fulfilled.description>這種味道熟悉又安心。</Wolfein_MeatNeedSatisfied.stages.Meat_food_requirement_fulfilled.description>
+  
+</LanguageData>

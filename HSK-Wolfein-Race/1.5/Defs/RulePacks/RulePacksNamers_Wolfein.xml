@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <RulePackDef>
+        <defName>NamerPerson_Wolfein</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>name->[Wolfein_FirstName] [Wolfein_LastName]</li>
+            </rulesStrings>
+            <rulesRaw>
+                <li Class="Rule_File">
+                    <keyword>Wolfein_FirstName</keyword>
+                    <path>Names/Wolfein_First</path>
+                </li>
+                <li Class="Rule_File">
+                    <keyword>Wolfein_LastName</keyword>
+                    <path>Names/Wolfein_Last</path>
+                </li>
+            </rulesRaw>
+        </rulePack>
+    </RulePackDef>
+</Defs>

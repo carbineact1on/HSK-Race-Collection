@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <RecipeDef Name="Wolfein_MechRecipeMilitaryBase" ParentName="BaseMechanoidRecipe" Abstract="True">
+        <gestationCycles>4</gestationCycles>
+        <researchPrerequisite>Wolfein_BasicMilitaryMech</researchPrerequisite>
+    </RecipeDef>
+
+    <RecipeDef Name="Wolfein_MechRecipe_MilitaryA" ParentName="Wolfein_MechRecipeMilitaryBase">
+        <defName>Wolfein_MechRecipe_MilitaryA</defName>
+        <label>Manufacture Basic Military Mech Unit</label>
+        <description>Manufacture a Basic Military Mech Unit.</description>
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_AlloyMaterials</li>
+                    </thingDefs>
+                </filter>
+                <count>200</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_MegaCorpMechCore</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_ElectronicComponent</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_MechanicalComponent</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+        </ingredients>
+        <products>
+            <Wolfein_Mechanoid_MilitaryA>1</Wolfein_Mechanoid_MilitaryA>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>Wolfein_Mechanoid_MilitaryA</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+
+    <RecipeDef ParentName="Wolfein_MechRecipe_MilitaryA">
+        <defName>Wolfein_MechRecipe_MilitaryB</defName>
+        <label>Manufacture Close-Combat Military Mech Unit</label>
+        <description>Manufacture a Close-Combat Military Mech Unit.</description>
+        <products Inherit="False">
+            <Wolfein_Mechanoid_MilitaryB>1</Wolfein_Mechanoid_MilitaryB>
+        </products>
+        <descriptionHyperlinks Inherit="False">
+            <ThingDef>Wolfein_Mechanoid_MilitaryB</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+    <RecipeDef ParentName="Wolfein_MechRecipe_MilitaryA">
+        <defName>Wolfein_MechRecipe_MilitaryC</defName>
+        <label>Manufacture Shielded Military Mech Unit</label>
+        <description>Manufacture a Shielded Military Mech Unit.</description>
+        <products Inherit="False">
+            <Wolfein_Mechanoid_MilitaryC>1</Wolfein_Mechanoid_MilitaryC>
+        </products>
+        <descriptionHyperlinks Inherit="False">
+            <ThingDef>Wolfein_Mechanoid_MilitaryC</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+    <RecipeDef ParentName="Wolfein_MechRecipe_MilitaryA">
+        <defName>Wolfein_MechRecipe_MilitaryD</defName>
+        <label>Manufacture Sniper-Class Military Mech Unit</label>
+        <description>Manufacture a Sniper-Class Military Mech Unit.</description>
+        <products Inherit="False">
+            <Wolfein_Mechanoid_MilitaryD>1</Wolfein_Mechanoid_MilitaryD>
+        </products>
+        <descriptionHyperlinks Inherit="False">
+            <ThingDef>Wolfein_Mechanoid_MilitaryD</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+
+    <!-- 重型 -->
+    <RecipeDef ParentName="Wolfein_MechRecipe_MilitaryA">
+        <defName>Wolfein_MechRecipe_MilitaryE</defName>
+        <label>Manufacture Heavy Fire Support Mech Unit</label>
+        <description>Manufacture a Heavy Fire Support Mech Unit.</description>
+        <researchPrerequisite>Wolfein_GiantMilitaryMech</researchPrerequisite>
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_AlloyMaterials</li>
+                    </thingDefs>
+                </filter>
+                <count>350</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_MegaCorpMechCore</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_ElectronicComponent</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_MechanicalComponent</li>
+                    </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+        </ingredients>
+        <products Inherit="False">
+            <Wolfein_Mechanoid_MilitaryE>1</Wolfein_Mechanoid_MilitaryE>
+        </products>
+        <descriptionHyperlinks Inherit="False">
+            <ThingDef>Wolfein_Mechanoid_MilitaryE</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+    <RecipeDef ParentName="Wolfein_MechRecipe_MilitaryA">
+        <defName>Wolfein_MechRecipe_MilitaryF</defName>
+        <label>Manufacture Heavy Close-Range Support Mech Unit.</label>
+        <description>Manufacture a Heavy Close-Range Support Mech Unit.</description>
+        <researchPrerequisite>Wolfein_GiantMilitaryMech</researchPrerequisite>
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_AlloyMaterials</li>
+                    </thingDefs>
+                </filter>
+                <count>350</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_MegaCorpMechCore</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_ElectronicComponent</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_MechanicalComponent</li>
+                    </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+        </ingredients>
+        <products Inherit="False">
+            <Wolfein_Mechanoid_MilitaryF>1</Wolfein_Mechanoid_MilitaryF>
+        </products>
+        <descriptionHyperlinks Inherit="False">
+            <ThingDef>Wolfein_Mechanoid_MilitaryF</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+
+    <!-- 无人机A -->
+    <RecipeDef ParentName="Wolfein_MechRecipeMilitaryBase">
+        <defName>Wolfein_MechRecipe_Drone</defName>
+        <label>Manufacture Mech Drone</label>
+        <description>Manufacture a Military Reconnaissance Drone.</description>
+        <gestationCycles>1</gestationCycles>
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_AlloyMaterials</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+        </ingredients>
+        <products>
+            <Wolfein_Mechanoid_Drone>1</Wolfein_Mechanoid_Drone>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>Wolfein_Mechanoid_Drone</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+    <!-- 无人机B -->
+    <RecipeDef ParentName="Wolfein_MechRecipeMilitaryBase">
+        <defName>Wolfein_MechRecipe_DroneArmed</defName>
+        <label>Manufacture Mech Armed Drone</label>
+        <description>Manufacture a Military Reconnaissance Drone.</description>
+        <gestationCycles>1</gestationCycles>
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_AlloyMaterials</li>
+                    </thingDefs>
+                </filter>
+                <count>40</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>6</count>
+            </li>
+        </ingredients>
+        <products>
+            <Wolfein_Mechanoid_DroneArmed>1</Wolfein_Mechanoid_DroneArmed>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>Wolfein_Mechanoid_DroneArmed</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+
+
+    <RecipeDef ParentName="Wolfein_MechRecipe_MilitaryA">
+        <defName>Wolfein_MechRecipe_MilitaryGiant</defName>
+        <label>Manufacture  Extra Heavy Multi-Legged Firepower Platform</label>
+        <description>Manufacture a Extra Heavy Multi-Legged Firepower Platform.</description>
+        <researchPrerequisite>Wolfein_GiantMilitaryMech</researchPrerequisite>
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_AlloyMaterials</li>
+                    </thingDefs>
+                </filter>
+                <count>550</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_MegaCorpMechCore</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_ElectronicComponent</li>
+                    </thingDefs>
+                </filter>
+                <count>8</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_MechanicalComponent</li>
+                    </thingDefs>
+                </filter>
+                <count>6</count>
+            </li>
+        </ingredients>
+        <products Inherit="False">
+            <Wolfein_Mechanoid_MilitaryGiant>1</Wolfein_Mechanoid_MilitaryGiant>
+        </products>
+        <descriptionHyperlinks Inherit="False">
+            <ThingDef>Wolfein_Mechanoid_MilitaryGiant</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+
+
+</Defs>

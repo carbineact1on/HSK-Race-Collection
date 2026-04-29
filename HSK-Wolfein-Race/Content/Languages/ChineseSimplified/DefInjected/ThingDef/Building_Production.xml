@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: wolfein electric tailor bench -->
+  <Wolfein_Electric_TailoringBench.label>沃芬族电力缝纫台</Wolfein_Electric_TailoringBench.label>
+  <!-- EN: The Wolfein electric sewing station combines advanced technology with traditional tailoring craftsmanship, allowing sewing workers to operate more efficiently. -->
+  <Wolfein_Electric_TailoringBench.description>沃芬族的电力缝纫台，结合了较为先进的科技和传统裁缝工艺，缝纫工作者可以使用它进行更加高效的工作。</Wolfein_Electric_TailoringBench.description>
+  
+  <!-- EN: Reverse engineering bench -->
+  <Wolfein_ReverseResearchBench.label>沃芬逆向分析工作台</Wolfein_ReverseResearchBench.label>
+  <!-- EN: A workstation designed to bypass the heavy security protocols on MegaCorp mech units in order to extract their core components. It can also be used to craft equipment hidden behind encrypted disk drives. -->
+  <Wolfein_ReverseResearchBench.description>用于绕过军企机械体上的重重保护措施以提取其核心部件的工作台，同时也可以用于制作藏在磁盘加密后的装备。</Wolfein_ReverseResearchBench.description>
+  
+  <!-- EN: Wolfein machining table -->
+  <Wolfein_TableMachining.label>沃芬族机械加工台</Wolfein_TableMachining.label>
+  <!-- EN: The Wolfein machining station integrates advanced CNC technology, enabling high-precision processing and manufacturing of complex components, providing Wolfein engineers with a reliable and safe machining platform. -->
+  <Wolfein_TableMachining.description>沃芬族的机械加工台，集成了先进的数控技术，实现复杂零部件的高精度加工和制造，为沃芬族工程师们提供了可靠安全的的加工平台。</Wolfein_TableMachining.description>
+
+  <!-- EN: Wolfein solar generator -->
+  <Wolfein_SolarGenerator.label>沃芬太阳能发电机</Wolfein_SolarGenerator.label>
+  <!-- EN: A proud achievement of the MegaCorp energy division: in addition to boasting photoelectric conversion efficiency far surpassing comparable products, its built-in automatic tracking system allows the solar panels to remain constantly aligned at the optimal azimuth for maximum power generation. -->
+  <Wolfein_SolarGenerator.description>军企能源部门的得意之作，除了有远超同类产品的光电转化效率外，其内置的自动追踪系统，能令太阳能板始终处于发电效率最高的方位角。</Wolfein_SolarGenerator.description>
+</LanguageData>

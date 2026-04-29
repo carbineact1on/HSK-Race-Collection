@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef Name="Wolfein_ApparelBase" ParentName="ApparelBase" Abstract="True">
+        <pathCost>10</pathCost>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.0</drawSize>
+            <drawOffset>(0,0,0)</drawOffset>
+        </graphicData>
+        <apparel>
+            <useWornGraphicMask>true</useWornGraphicMask>
+            <tags>
+                <li>Royal</li>
+                <li>RoyalTier5</li>
+            </tags>
+            <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+        </apparel>
+        <statBases>
+            <Flammability>0.4</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Forbiddable" />
+            <li>
+                <compClass>CompColorable</compClass>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- 裁缝台 -->
+    <ThingDef Name="Wolfein_MakeableBase_Tailoring" ParentName="Wolfein_ApparelBase" Abstract="True">
+        <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Tailor</effectWorking>
+            <soundWorking>Recipe_Tailor</soundWorking>
+            <recipeUsers>
+                <li>Wolfein_Electric_TailoringBench</li>
+            </recipeUsers>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <defaultIngredientFilter>
+                <categories>
+                    <li>Root</li>
+                </categories>
+                <disallowedThingDefs>
+                    <li>Gold</li>
+                    <li>Silver</li>
+                    <li>Plasteel</li>
+                    <li>Jade</li>
+                    <li>Uranium</li>
+                </disallowedThingDefs>
+            </defaultIngredientFilter>
+        </recipeMaker>
+    </ThingDef>
+
+    <!-- 机工台 -->
+    <ThingDef Name="Wolfein_MakeableBase_Smithing" ParentName="Wolfein_MakeableBase_Tailoring" Abstract="True">
+        <recipeMaker>
+            <recipeUsers Inherit="false">
+                <li>ElectricTailoringBench</li>
+            </recipeUsers>
+        </recipeMaker>
+    </ThingDef>
+
+</Defs>

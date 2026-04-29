@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ate Packing Staff Meals -->
+  <Wolfein_PackingStaffMeals.label>食用了沃芬族员工餐</Wolfein_PackingStaffMeals.label>
+  <!-- EN: Food containing ingredients that enhance mental focus can help the Wolfein stay more concentrated at work, while ensuring it is free of addictive substances. -->
+  <Wolfein_PackingStaffMeals.description>食用了含有能提高精神的配料的食物，可以让沃芬在工作上更为专注，保证不含有成瘾物质。</Wolfein_PackingStaffMeals.description>
+
+  <!-- EN: Emotionally Stabilized -->
+  <Wolfein_MoodStabilized.label>情绪稳定</Wolfein_MoodStabilized.label>
+  <!-- EN: Mental breaks are prevented while this effect is active. -->
+  <Wolfein_MoodStabilized.description>该效果生效期间将阻止精神崩溃的发生。</Wolfein_MoodStabilized.description>
+  <!-- EN: Mental breaks are prevented while this effect is active. -->
+  <Wolfein_MoodStabilized.descriptionCached>该效果生效期间将阻止精神崩溃的发生。</Wolfein_MoodStabilized.descriptionCached>
+
+  <!-- EN: Prototype Shield Belt Activated -->
+  <Wolfein_PrototypeShieldBelt.label>试制型护盾腰带已激活</Wolfein_PrototypeShieldBelt.label>
+  <!-- EN: The Prototype Shield Belt is currently active, nullifying all attacks directed at the wearer. -->
+  <Wolfein_PrototypeShieldBelt.description>试制型护盾腰带正处于激活状态，一段时间内能够无效化任何针对佩戴者的攻击。</Wolfein_PrototypeShieldBelt.description>
+  
+  <!-- EN: Full Moon Sprint -->
+  <Wolfein_SprintFullMoon.label>满月冲刺</Wolfein_SprintFullMoon.label>
+  <!-- EN: During a full moon, a Wolfein’s leg muscles remain exceptionally active even after a sprint, effectively reducing the chance of losing prey or failing to pursue an enemy after a missed charge. -->
+  <Wolfein_SprintFullMoon.description>满月状态下的沃芬，冲刺后的腿部肌肉仍能继续超常活跃一段时间，有效降低了冲刺扑空后追猎敌人失败的可能性。</Wolfein_SprintFullMoon.description>
+
+  <!-- EN: Severely Injured -->
+  <Wolfein_Abasia.label>身受重伤</Wolfein_Abasia.label>
+  <!-- EN: Bleeding heavily, the body is gravely wounded, limbs barely able to support itself, and every movement consumes immense effort. -->
+  <Wolfein_Abasia.description>血液不断流失，身体严重受创，四肢几乎无法支撑，任何动作都消耗着极大的力气。</Wolfein_Abasia.description>
+
+</LanguageData>

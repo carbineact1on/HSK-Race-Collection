@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <IncidentDef>
+        <defName>Wolfein_RebelRaid</defName>
+        <label>Wolfein Rebel Raid</label>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+        <workerClass>Wolfein.IncidentWorker_RaidRebel</workerClass>
+        <baseChance>2</baseChance>
+        <minPopulation>4</minPopulation>
+        <minRefireDays>30</minRefireDays>
+        <earliestDay>40</earliestDay>
+        <category>ThreatBig</category>
+        <pointsScaleable>true</pointsScaleable>
+        <tale>Raid</tale>
+        <ignoreRecentSelectionWeighting>true</ignoreRecentSelectionWeighting>
+    </IncidentDef>
+
+    <!-- <IncidentDef>
+        <defName>FullmoonRaidEnemy</defName>
+        <label>fullmoon enemy raid</label>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+        <workerClass>MoonPhase.IncidentWorkerExt.IncidentWorker_PhaseRaid</workerClass>
+        <baseChance>100</baseChance>
+        <category>ThreatBig</category>
+        <pointsScaleable>true</pointsScaleable>
+        <tale>Raid</tale>
+        <ignoreRecentSelectionWeighting>true</ignoreRecentSelectionWeighting>
+        <modExtensions>
+            <li Class="MoonPhase.PhaseRaidDef">
+                <phases>
+                    <li>FullMoon</li>
+                </phases>
+                <faction>Wolfein_Faction_MegaCorp</faction>
+            </li>
+        </modExtensions>
+    </IncidentDef> -->
+</Defs>

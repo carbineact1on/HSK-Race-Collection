@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>threatDescription-></li>
+  -->
+  <Wolfein_Util_MegaCropMechRaidWaves.questDescriptionRules.rulesStrings>threatDescription-</Wolfein_Util_MegaCropMechRaidWaves.questDescriptionRules.rulesStrings>
+  <!-- EN: MegaCorp Mechanical Assault: First Wave. -->
+  <Wolfein_Util_MegaCropMechRaidWaves.root.nodes.Delay.node.nodes.Letter.label.slateRef>軍企機械襲擊：第一波</Wolfein_Util_MegaCropMechRaidWaves.root.nodes.Delay.node.nodes.Letter.label.slateRef>
+  <!-- EN: A MegaCorp mechanical composite cluster has been deployed nearby, and an advance squadron of aerial drones is approaching the colony. -->
+  <Wolfein_Util_MegaCropMechRaidWaves.root.nodes.Delay.node.nodes.Letter.text.slateRef>軍企機械複合集群已部署到附近，先遣飛行無人機編隊正在靠近殖民地。</Wolfein_Util_MegaCropMechRaidWaves.root.nodes.Delay.node.nodes.Letter.text.slateRef>
+  <!-- EN: MegaCorp Mechanical Assault: Second Wave. -->
+  <Wolfein_Util_MegaCropMechRaidWaves.root.nodes.Greater-0.node.nodes.Delay.node.nodes.Letter.label.slateRef>軍企機械襲擊：第二波</Wolfein_Util_MegaCropMechRaidWaves.root.nodes.Greater-0.node.nodes.Delay.node.nodes.Letter.label.slateRef>
+  <!-- EN: A mixed-unit formation of military humanoid machines has reached the outskirts of the colony. -->
+  <Wolfein_Util_MegaCropMechRaidWaves.root.nodes.Greater-0.node.nodes.Delay.node.nodes.Letter.text.slateRef>混編軍用人形機械體已到達殖民地邊緣。</Wolfein_Util_MegaCropMechRaidWaves.root.nodes.Greater-0.node.nodes.Delay.node.nodes.Letter.text.slateRef>
+  <!-- EN: MegaCorp Mechanical Assault: Third Wave. -->
+  <Wolfein_Util_MegaCropMechRaidWaves.root.nodes.Greater-1.node.nodes.Delay.node.nodes.Letter.label.slateRef>軍企機械襲擊：第三波</Wolfein_Util_MegaCropMechRaidWaves.root.nodes.Greater-1.node.nodes.Delay.node.nodes.Letter.label.slateRef>
+  <!-- EN: Heavy mech units have been deployed, and the full MegaCorp mechanical composite cluster has arrived at the colony. -->
+  <Wolfein_Util_MegaCropMechRaidWaves.root.nodes.Greater-1.node.nodes.Delay.node.nodes.Letter.text.slateRef>重型機械族單位已部署，軍企機械複合集群已全數抵達殖民地。</Wolfein_Util_MegaCropMechRaidWaves.root.nodes.Greater-1.node.nodes.Delay.node.nodes.Letter.text.slateRef>
+  
+  <!-- UNUSED -->
+  <Wolfein_Util_MegaCropMechRaidWaves.questDescriptionRules.rulesStrings>UNUSED</Wolfein_Util_MegaCropMechRaidWaves.questDescriptionRules.rulesStrings>
+  <Wolfein_Util_MegaCropMechRaidWaves.root.nodes.Letter.label.slateRef>UNUSED</Wolfein_Util_MegaCropMechRaidWaves.root.nodes.Letter.label.slateRef>
+  <Wolfein_Util_MegaCropMechRaidWaves.root.nodes.Letter.text.slateRef>UNUSED</Wolfein_Util_MegaCropMechRaidWaves.root.nodes.Letter.text.slateRef>
+  
+</LanguageData>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- 沃芬族前世代禁卫动力甲（固定材料） -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wolfein_ImperialGuardPowerArmor"]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>400</MaxHitPoints>
+            <Flammability>0.4</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+            <Mass>9</Mass>
+            <EquipDelay>14</EquipDelay>
+            <WorkToMake>65000</WorkToMake>
+            <Insulation_Cold>36</Insulation_Cold>
+            <Insulation_Heat>12</Insulation_Heat>
+            <ArmorRating_Sharp>34</ArmorRating_Sharp>
+            <ArmorRating_Blunt>60</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.3</ArmorRating_Heat>
+            <ArmorRating_Electric>0</ArmorRating_Electric>
+            <Bulk>100</Bulk>
+            <WornBulk>15</WornBulk>
+          </statBases>
+        </value>
+      </li>
+      <li Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[defName="Wolfein_ImperialGuardPowerArmor"]</xpath>
+        <value>
+          <li Class="CombatExtended.PartialArmorExt">
+            <stats>
+              <li>
+                <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+                <parts>
+                  <li>Hand</li>
+                  <li>Finger</li>
+                  <li>Foot</li>
+                  <li>Toe</li>
+                </parts>
+              </li>
+            </stats>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Wolfein_ImperialGuardPowerArmor"]/equippedStatOffsets</xpath>
+		<value>
+				<CarryWeight>100</CarryWeight>
+				<CarryBulk>20</CarryBulk>
+				<ShootingAccuracyPawn>0.15</ShootingAccuracyPawn>
+				<ToxicEnvironmentResistance>0.50</ToxicEnvironmentResistance>
+		</value>
+	</Operation>
+</Patch>

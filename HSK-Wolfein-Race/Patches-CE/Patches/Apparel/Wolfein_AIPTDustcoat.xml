@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- AIPT防尘大衣（固定材料） -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wolfein_AIPTDustcoat"]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>280</MaxHitPoints>
+            <Flammability>0.5</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+            <Mass>2</Mass>
+            <EquipDelay>3</EquipDelay>
+            <WorkToMake>20000</WorkToMake>
+            <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+            <Insulation_Cold>10</Insulation_Cold>
+            <Insulation_Heat>28</Insulation_Heat>
+            <ArmorRating_Sharp>2.75</ArmorRating_Sharp>
+            <ArmorRating_Blunt>1.35</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.4</ArmorRating_Heat>
+            <ArmorRating_Electric>0</ArmorRating_Electric>
+            <Bulk>1</Bulk>
+            <WornBulk>1</WornBulk>
+          </statBases>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

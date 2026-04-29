@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein apparel -->
+  <Wolfein_Apparel.label>沃芬裝備</Wolfein_Apparel.label>
+  
+  <!-- EN: Wolfein apparel Onskin -->
+  <Wolfein_Apparel_OnSkin.label>沃芬貼身層裝備</Wolfein_Apparel_OnSkin.label>
+  
+  <!-- EN: Wolfein apparel Head Equip -->
+  <Wolfein_Apparel_OverHead.label>沃芬頭部裝備</Wolfein_Apparel_OverHead.label>
+  
+  <!-- EN: Wolfein apparel Shell -->
+  <Wolfein_Apparel_Shell.label>沃芬外套層裝備</Wolfein_Apparel_Shell.label>
+  
+  <!-- EN: Wolfein apparel special -->
+  <Wolfein_Apparel_Special.label>沃芬特殊裝備</Wolfein_Apparel_Special.label>
+  
+  <!-- EN: Wolfein apparel Sundry -->
+  <Wolfein_Apparel_Sundry.label>沃芬雜項裝備</Wolfein_Apparel_Sundry.label>
+  
+  <!-- EN: Wolfein apparel Underwear -->
+  <Wolfein_Apparel_Underwear.label>沃芬內衣層裝備</Wolfein_Apparel_Underwear.label>
+  
+</LanguageData>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: bacon and eggs -->
+  <Wolfein_BaconAndEggs.label>培根煎蛋</Wolfein_BaconAndEggs.label>
+  <!-- EN: A classic dish that nearly all Wolfein can prepare, typically eaten for breakfast. Its rich fat and protein content is sufficient to sustain an average Wolfein through the first half of the night. -->
+  <Wolfein_BaconAndEggs.description>几乎所有沃芬都会做的经典菜式，通常被作为早饭食用。其富含的油脂和蛋白质足以让普通沃芬轻松撑过上半夜。</Wolfein_BaconAndEggs.description>
+  
+  <!-- EN: Bone Broth -->
+  <Wolfein_BoneBroth.label>大骨汤</Wolfein_BoneBroth.label>
+  <!-- EN: A stewed bone soup rich in various meats and vegetables, even the least vegetable lover Wolfein child won't refuse to have a hot big bone soup. -->
+  <Wolfein_BoneBroth.description>富含各种肉类和蔬菜的炖骨头汤，即使是最不爱吃蔬菜的小沃芬也不会拒绝来上一口热乎乎的大骨汤</Wolfein_BoneBroth.description>
+  
+  <!-- EN: Custard Cake -->
+  <Wolfein_CustardCake.label>蛋黄派</Wolfein_CustardCake.label>
+  <!-- EN: Although it has nothing to do with meat—the essential element of life for the Wolfein—it inexplicably became popular among Wolfein spacecraft pilots born in the highlands, thanks to its high energy content and pleasant taste. Later, promoted by a Wolfein influencer, it gradually turned into a national snack. -->
+  <Wolfein_CustardCake.description>虽然与肉这一沃芬族必需生命元素完全不搭边，但莫名其妙在出生于高原地带的沃芬族飞船驾驶员间以高能量含量和不错的口感的理由火了起来，又在某位沃芬网红的带货之下逐渐成为国民零食。</Wolfein_CustardCake.description>
+  
+  <!-- EN: Grilled Steak -->
+  <Wolfein_GrilledSteak.label>烤肉排</Wolfein_GrilledSteak.label>
+  <!-- EN: Grilled meat chops may be one of the oldest dishes among the Wolfein. Their skill in grilling meat is highly reliable. However, one should be cautious about the doneness—when a Wolfein offers you a freshly grilled chop, be sure to check it carefully, as most non-Wolfein who consume it tend to experience some degree of stomach discomfort. -->
+  <Wolfein_GrilledSteak.description>烤肉排也许是沃芬族最古老的菜式之一了，沃芬烤肉的手艺值得信赖。不过需要注意的是当一名沃芬请你吃她刚烤完的肉排时，一定要注意其熟度，大部分非沃芬族食用后都产生了一定的胃部不适症状。</Wolfein_GrilledSteak.description>
+  
+  <!-- EN: Honey-Glazed Ham -->
+  <Wolfein_HoneyGlazedHam.label>蜜汁火腿</Wolfein_HoneyGlazedHam.label>
+  <!-- EN: One of the traditional delicacies of the Wolfein, and no Wolfein can resist such a carefully prepared all-meat feast. According to MegaCorp prison records, many criminals, after being starved for several days, could not withstand the temptation of honey-glazed ham and chose to confess. -->
+  <Wolfein_HoneyGlazedHam.description>沃芬族传统美食之一，没有沃芬能够拒绝这样一道精心制作的纯肉大餐。经军企的监狱统计，不少罪犯在被饿几天后均无法抵抗蜜汁火腿的诱惑选择了招供。</Wolfein_HoneyGlazedHam.description>
+  
+  <!-- EN: meat bites -->
+  <Wolfein_MeatBites.label>肉粒块零食</Wolfein_MeatBites.label>
+  <!-- EN: A snack suitable for all ages, it consistently ranks first on the list of the fastest disappearing snacks in Mega Corp lounges. -->
+  <Wolfein_MeatBites.description>老少皆宜的小零食，常年占据军企休息室最快消失的零食榜的第一名。</Wolfein_MeatBites.description>
+  
+  <!-- EN: Meat-Flavored Nutrient Juice -->
+  <Wolfein_MeatNutrientJuice.label>肉味营养汁</Wolfein_MeatNutrientJuice.label>
+  <!-- EN: A liquid meat substitute recently promoted by MegaCorp. It is produced by blending plant-based meat materials with real meat and introducing food additives to improve taste, aiming to satisfy the Wolfein’s carnivorous cravings while reducing the overall meat content to the greatest extent possible. -->
+  <Wolfein_MeatNutrientJuice.description>军企近期开始推广的代肉类液体食物，其通过将素肉材料二者混合，并引入改善口感的食品添加剂以在保证满足沃芬肉食渴望的前提下，最大程度削减食物肉类用量。</Wolfein_MeatNutrientJuice.description>
+
+  <!-- EN: Wolfein Packing Staff Meals -->
+  <Wolfein_PackingStaffMeals.label>沃芬包装员工餐</Wolfein_PackingStaffMeals.label>
+  <!-- EN: Pre-packaged meals provided by Wolfein companies for their employees. These meals come in a variety of flavors and include ingredients that enhance mental clarity and focus, aiming to encourage more productive work. -->
+  <Wolfein_PackingStaffMeals.description>沃芬族公司为员工提供的食物经过精心包装，口味多样，并添加了一些有助于提高精神集中力和专注度的成分，旨在激发员工更积极地投入工作，当然，这些食物绝对不含任何成瘾物质。</Wolfein_PackingStaffMeals.description>
+  
+  <!-- EN: Wolfein Resistance Army Rations -->
+  <Wolfein_ResistanceArmyRations.label>沃芬抵抗军军粮</Wolfein_ResistanceArmyRations.label>
+  <!-- EN: A high-density compressed meat ration regularly consumed by the Wolfein Resistance Army. It is easy to carry and designed for long-term preservation. The taste is unremarkable, but it provides enough sustenance to endure prolonged combat. -->
+  <Wolfein_ResistanceArmyRations.description>沃芬族抵抗军平时食用的高密度压缩肉食，便于携带与长期保存。味道一般，但足以支撑长时间作战。</Wolfein_ResistanceArmyRations.description>
+  
+</LanguageData>

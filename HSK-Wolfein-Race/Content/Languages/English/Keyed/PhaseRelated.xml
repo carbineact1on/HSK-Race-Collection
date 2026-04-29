@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <MoonPhase>moon phase</MoonPhase>
+
+    <Wolfein.NewMoon>New Moon</Wolfein.NewMoon>
+    <Wolfein.WaxingCrescent>Waxing Crescent</Wolfein.WaxingCrescent>
+    <Wolfein.FirstQuarter>First Quarter</Wolfein.FirstQuarter>
+    <Wolfein.WaxingGibbous>Waxing Gibbous</Wolfein.WaxingGibbous>
+    <Wolfein.FullMoon>Full Moon</Wolfein.FullMoon>
+    <Wolfein.WaningGibbous>Waning Gibbous</Wolfein.WaningGibbous>
+    <Wolfein.LastQuarter>Last Quarter</Wolfein.LastQuarter>
+    <Wolfein.WaningCrescent>Waning Crescent</Wolfein.WaningCrescent>
+
+
+    <Wolfein.MoonPhaseTip_NewMoon>The lunar body is entirely in shadow, with no visible illuminated side.</Wolfein.MoonPhaseTip_NewMoon>
+    <Wolfein.MoonPhaseTip_WaxingCrescent>The lunar body begins to reflect light, with a thin curved bright edge.</Wolfein.MoonPhaseTip_WaxingCrescent>
+    <Wolfein.MoonPhaseTip_FirstQuarter>Half of the lunar body is illuminated, with a clear light-dark division.</Wolfein.MoonPhaseTip_FirstQuarter>
+    <Wolfein.MoonPhaseTip_WaxingGibbous>More than half of the surface is lit, approaching a full circular shape.</Wolfein.MoonPhaseTip_WaxingGibbous>
+    <Wolfein.MoonPhaseTip_FullMoon>The lunar body is fully illuminated, forming a complete circle.</Wolfein.MoonPhaseTip_FullMoon>
+    <Wolfein.MoonPhaseTip_WaningGibbous>The illuminated area begins to shrink, though the shape remains near-full.</Wolfein.MoonPhaseTip_WaningGibbous>
+    <Wolfein.MoonPhaseTip_LastQuarter>The lit surface reduces to half again, restoring light-dark symmetry.</Wolfein.MoonPhaseTip_LastQuarter>
+    <Wolfein.MoonPhaseTip_WaningCrescent>Only a small portion remains lit, the rest fades into shadow.</Wolfein.MoonPhaseTip_WaningCrescent>
+
+
+
+</LanguageData>

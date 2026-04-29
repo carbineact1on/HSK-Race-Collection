@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <Wolfein.RaceSetting>Race settings</Wolfein.RaceSetting>
+
+    <Wolfein.raceRestrictedApparel>Apparel control</Wolfein.raceRestrictedApparel>
+    <Wolfein.raceRestrictedApparelDesc>Determine whether Wolfein can only wear a restricted range of apparel.\n\nWhen disabled, Wolfein can wear any type of apparel.Not responsible for any potential conflicts or errors that may occur.</Wolfein.raceRestrictedApparelDesc>
+
+    <Wolfein.showMoonPhaseAlert>Show moon phase info</Wolfein.showMoonPhaseAlert>
+    <Wolfein.showMoonPhaseAlertDesc>Whether show moon phase info on the right side of the screen.</Wolfein.showMoonPhaseAlertDesc>
+
+</LanguageData>

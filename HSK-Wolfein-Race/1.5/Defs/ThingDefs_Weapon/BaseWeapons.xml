@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef Name="WolfeinBaseHG" ParentName="BaseHumanMakeableGun" Abstract="True">
+        <tradeTags Inherit="false"/>
+        <weaponTags Inherit="false"/>
+    </ThingDef>
+
+    <ThingDef Name="WolfeinBaseSMG" ParentName="BaseHumanMakeableGun" Abstract="True">
+        <tradeTags Inherit="false"/>
+        <weaponTags Inherit="false"/>
+    </ThingDef>
+
+    <ThingDef Name="WolfeinBaseAR" ParentName="BaseHumanMakeableGun" Abstract="True">
+        <tradeTags Inherit="false"/>
+        <weaponTags Inherit="false"/>
+    </ThingDef>
+
+    <ThingDef Name="WolfeinBaseRF" ParentName="BaseHumanMakeableGun" Abstract="True">
+        <tradeTags Inherit="false"/>
+        <weaponTags Inherit="false"/>
+    </ThingDef>
+
+    <ThingDef Name="WolfeinBaseMG" ParentName="BaseHumanMakeableGun" Abstract="True">
+        <tradeTags Inherit="false"/>
+        <weaponTags Inherit="false"/>
+    </ThingDef>
+
+    <ThingDef Name="WolfeinBaseSG" ParentName="BaseHumanMakeableGun" Abstract="True">
+        <tradeTags Inherit="false"/>
+        <weaponTags Inherit="false"/>
+    </ThingDef>
+
+    <ThingDef Name="WolfeinBaseLauncher" ParentName="BaseHumanMakeableGun" Abstract="True">
+        <tradeTags Inherit="false"/>
+        <weaponTags Inherit="false"/>
+    </ThingDef>
+
+    <ThingDef Name="WolfeinBaseMeleeBlunt" ParentName="BaseMeleeWeapon_Blunt_Quality" Abstract="True">
+        <tradeTags Inherit="false"/>
+        <weaponTags Inherit="false"/>
+    </ThingDef>
+
+    <ThingDef Name="WolfeinBaseMeleeSharp" ParentName="BaseMeleeWeapon_Sharp_Quality" Abstract="True">
+        <tradeTags Inherit="false"/>
+        <weaponTags Inherit="false"/>
+    </ThingDef>
+
+    <ThingDef Name="WolfeinBaseGrenade" ParentName="BaseMakeableGrenade" Abstract="True">
+        <tradeTags Inherit="false"/>
+        <weaponTags Inherit="false"/>
+    </ThingDef>
+
+    <ThingDef Name="WolfeinBaseGrenadeProjectile" ParentName="BaseGrenadeProjectile" Abstract="True">
+        <tradeTags Inherit="false"/>
+    </ThingDef>
+
+    <!-- ================================= Bullet ==================================== -->
+    <ThingDef Name="WolfeinBaseBullet" ParentName="BaseBullet" Abstract="True">
+    </ThingDef>
+
+    <ThingDef Name="WolfeinBaseBullet_TaserGeneric" ParentName="WolfeinBaseBullet" Abstract="True">
+        <!-- <drawOffscreen>true</drawOffscreen> -->
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Projectile/Charge_Small</texPath>
+            <shaderType>TransparentPostLight</shaderType>
+            <drawSize>1.5</drawSize>
+        </graphicData>
+        <projectile>
+            <damageDef>Bomb</damageDef>
+            <speed>100</speed>
+        </projectile>
+    </ThingDef>
+
+</Defs>

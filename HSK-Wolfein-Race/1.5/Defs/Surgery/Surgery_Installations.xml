@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- 安装人工假狼耳 -->
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+        <defName>Wolfein_InstallArtificialEar</defName>
+        <label>install artificial ear</label>
+        <description>Installing an artificial ear for the Wolfein.</description>
+        <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+        <jobString>Installing wolfein artificial ear.</jobString>
+        <workAmount>4000</workAmount>
+        <skillRequirements>
+            <Medicine>5</Medicine>
+        </skillRequirements>
+        <descriptionHyperlinks>
+            <ThingDef>Wolfein_ArtificialEar</ThingDef>
+            <HediffDef>Wolfein_ArtificialEarInstalled</HediffDef>
+        </descriptionHyperlinks>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Medicine</li>
+                    </categories>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_ArtificialEar</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+            <thingDefs>
+                <li>Wolfein_ArtificialEar</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Ear</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Wolfein_ArtificialEarInstalled</addsHediff>
+    </RecipeDef>
+
+    <!-- 安装仿生狼耳 -->
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+        <defName>Wolfein_InstallBionicEar</defName>
+        <label>install bionic ear</label>
+        <description>Installing a Wolfein bionic wolf ear.</description>
+        <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+        <jobString>Installing bionic wolfein ear.</jobString>
+        <workAmount>5000</workAmount>
+        <skillRequirements>
+            <Medicine>7</Medicine>
+        </skillRequirements>
+        <descriptionHyperlinks>
+            <ThingDef>Wolfein_BionicEar</ThingDef>
+            <HediffDef>Wolfein_BionicEarInstalled</HediffDef>
+        </descriptionHyperlinks>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Medicine</li>
+                    </categories>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_BionicEar</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+            <thingDefs>
+                <li>Wolfein_BionicEar</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Ear</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Wolfein_BionicEarInstalled</addsHediff>
+    </RecipeDef>
+
+    <!-- 安装战斗仿生狼耳 -->
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+        <defName>Wolfein_InstallCombatBionicEar</defName>
+        <label>install combat bionic ear</label>
+        <description>Installing a Wolfein combat bionic wolf ear.</description>
+        <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+        <jobString>Installing combat bionic wolfein ear.</jobString>
+        <workAmount>5000</workAmount>
+        <skillRequirements>
+            <Medicine>7</Medicine>
+        </skillRequirements>
+        <descriptionHyperlinks>
+            <ThingDef>Wolfein_CombatBionicEar</ThingDef>
+            <HediffDef>Wolfein_CombatBionicEarInstalled</HediffDef>
+        </descriptionHyperlinks>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Medicine</li>
+                    </categories>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_CombatBionicEar</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+            <thingDefs>
+                <li>Wolfein_CombatBionicEar</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Ear</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Wolfein_CombatBionicEarInstalled</addsHediff>
+    </RecipeDef>
+
+    <!-- 安装人工假狼尾 -->
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+        <defName>Wolfein_InstallArtificialTail</defName>
+        <label>install artificial tail</label>
+        <description>Installing an artificial tail for the Wolfein</description>
+        <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+        <jobString>Installing wolfein artificial tail.</jobString>
+        <workAmount>4000</workAmount>
+        <skillRequirements>
+            <Medicine>5</Medicine>
+        </skillRequirements>
+        <descriptionHyperlinks>
+            <ThingDef>Wolfein_ArtificialTail</ThingDef>
+            <HediffDef>Wolfein_ArtificialTailInstalled</HediffDef>
+        </descriptionHyperlinks>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Medicine</li>
+                    </categories>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_ArtificialTail</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+            <thingDefs>
+                <li>Wolfein_ArtificialTail</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Wolfein_Tail</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Wolfein_ArtificialTailInstalled</addsHediff>
+    </RecipeDef>
+
+    <!-- 安装仿生狼尾 -->
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+        <defName>Wolfein_InstallBionicTail</defName>
+        <label>install bionic tail</label>
+        <description>Installing a Wolfein bionic wolf tail.</description>
+        <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+        <jobString>Installing bionic wolfein tail.</jobString>
+        <workAmount>4500</workAmount>
+        <skillRequirements>
+            <Medicine>7</Medicine>
+        </skillRequirements>
+        <descriptionHyperlinks>
+            <ThingDef>Wolfein_BionicTail</ThingDef>
+            <HediffDef>Wolfein_BionicTailInstalled</HediffDef>
+        </descriptionHyperlinks>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Medicine</li>
+                    </categories>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_BionicTail</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+            <thingDefs>
+                <li>Wolfein_BionicTail</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Wolfein_Tail</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Wolfein_BionicTailInstalled</addsHediff>
+    </RecipeDef>
+
+    <!-- 安装战斗仿生狼尾 -->
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+        <defName>Wolfein_InstallCombatBionicTail</defName>
+        <label>install combat bionic tail</label>
+        <description>Installing a Wolfein combat bionic wolf tail.</description>
+        <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+        <jobString>Installing combat bionic wolfein tail.</jobString>
+        <workAmount>4500</workAmount>
+        <skillRequirements>
+            <Medicine>7</Medicine>
+        </skillRequirements>
+        <descriptionHyperlinks>
+            <ThingDef>Wolfein_CombatBionicTail</ThingDef>
+            <HediffDef>Wolfein_CombatBionicTailInstalled</HediffDef>
+        </descriptionHyperlinks>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Medicine</li>
+                    </categories>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_CombatBionicTail</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+            <thingDefs>
+                <li>Wolfein_CombatBionicTail</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Wolfein_Tail</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Wolfein_CombatBionicTailInstalled</addsHediff>
+    </RecipeDef>
+
+    <!-- 安装金属指爪 -->
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+        <defName>Wolfein_InstallMetalClaw</defName>
+        <label>install metal claw</label>
+        <description>Installing a pair of Wolfein metal claws.</description>
+        <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+        <jobString>Installing wolfein metal claw.</jobString>
+        <workAmount>4500</workAmount>
+        <skillRequirements>
+            <Medicine>7</Medicine>
+        </skillRequirements>
+        <descriptionHyperlinks>
+            <ThingDef>Wolfein_MetalClaw</ThingDef>
+            <HediffDef>Wolfein_MetalClawInstalled</HediffDef>
+        </descriptionHyperlinks>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Medicine</li>
+                    </categories>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_MetalClaw</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+            <thingDefs>
+                <li>Wolfein_MetalClaw</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Hand</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Wolfein_MetalClawInstalled</addsHediff>
+    </RecipeDef>
+
+    <!-- 安装机械义腿 -->
+    <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+        <defName>Wolfein_InstallMechinalLeg</defName>
+        <label>install mechinal leg</label>
+        <description>Installing a Wolfein mechinal leg.</description>
+        <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+        <jobString>Installing wolfein mechinal leg.</jobString>
+        <workAmount>4500</workAmount>
+        <skillRequirements>
+            <Medicine>7</Medicine>
+        </skillRequirements>
+        <descriptionHyperlinks>
+            <ThingDef>Wolfein_MechinalLeg</ThingDef>
+            <HediffDef>Wolfein_MechinalLegInstalled</HediffDef>
+        </descriptionHyperlinks>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Medicine</li>
+                    </categories>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_MechinalLeg</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+            <thingDefs>
+                <li>Wolfein_MechinalLeg</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Leg</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>Wolfein_MechinalLegInstalled</addsHediff>
+    </RecipeDef>
+</Defs>

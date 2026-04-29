@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <Wolfein.RaceSetting>種族設定</Wolfein.RaceSetting>
+
+    <Wolfein.raceRestrictedApparel>服裝管制</Wolfein.raceRestrictedApparel>
+    <Wolfein.raceRestrictedApparelDesc>決定沃芬族是否僅能著裝限定範圍內的服裝種類。\n\n實驗性功能。禁用后，沃芬族可以著裝任意服裝。不對任何可能出現的衝突或錯誤負責。</Wolfein.raceRestrictedApparelDesc>
+
+    <Wolfein.showMoonPhaseAlert>顯示月相資訊</Wolfein.showMoonPhaseAlert>
+    <Wolfein.showMoonPhaseAlertDesc>是否在螢幕右側顯示月相資訊。</Wolfein.showMoonPhaseAlertDesc>
+
+
+</LanguageData>

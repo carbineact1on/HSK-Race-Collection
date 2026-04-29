@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <AlienRace.AlienBackstoryDef Name="Wolfein_ChildBackstory" Abstract="True">
+        <disallowedTraitsChance>
+        </disallowedTraitsChance>
+        <forcedHediffs>
+        </forcedHediffs>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Female</bodyTypeMale>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 城市孩子 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_01</defName>
+        <title>Wolfein urban child</title>
+        <titleShort>urban child</titleShort>
+        <description>Born and raised in one of the Wolfein megacities, [PAWN_nameDef] received a quality education and grew up with hopeful dreams for the future.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Artistic>1</Artistic>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 乡下孩子 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_02</defName>
+        <title>Wolfein rural child</title>
+        <titleShort>rural child</titleShort>
+        <description>[PAWN_nameDef] spent [PAWN_pronoun] childhood in the countryside. Like many other rural Wolfein children, it was a time filled with joy and fulfillment.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Cooking>1</Cooking>
+            <Plants>2</Plants>
+            <Animals>1</Animals>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 遗孤 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_03</defName>
+        <title>Wolfein orphan</title>
+        <titleShort>orphan</titleShort>
+        <description>[PAWN_nameDef]'s parents passed away in a tragic accident during her early childhood. The catastrophe left a deep, lasting scar on her heart, but it also forged a stronger, more resolute will within her.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Melee>2</Melee>
+            <Cooking>1</Cooking>
+            <Medicine>1</Medicine>
+            <Construction>1</Construction>
+            <Crafting>1</Crafting>
+            <Social>-3</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <forcedTraitsChance>
+            <li>
+                <defName Degree="1">Nerves</defName>
+                <chance>50</chance>
+            </li>
+        </forcedTraitsChance>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 懂事的孩子 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_04</defName>
+        <title>Wolfein tractable child</title>
+        <titleShort>tractable child</titleShort>
+        <description>[PAWN_nameDef]'s family wasn't well-off, so she matured early. From a young age, she often helped with household chores within her ability. In front of others, [PAWN_nameDef] always came across as especially well-behaved and considerate.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Cooking>3</Cooking>
+            <Medicine>2</Medicine>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 淘气包 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_05</defName>
+        <title>Wolfein naughty child</title>
+        <titleShort>naughty child</titleShort>
+        <description>[PAWN_nameDef] was a mischievous child from an early age. Her energetic and restless nature often caused trouble for those around her. It didn’t take long before she became the ringleader among the neighborhood kids — much to the dismay of the adults.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Shooting>1</Shooting>
+            <Animals>1</Animals>
+            <Social>2</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 平凡的孩子 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_06</defName>
+        <title>Wolfein ordinary child</title>
+        <titleShort>ordinary child</titleShort>
+        <description>[PAWN_nameDef] was born into an average middle-class family, and her childhood was as ordinary as that of most of her peers. Yet deep down, she longed for a future filled with a unique adventure all her own.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Cooking>1</Cooking>
+            <Medicine>1</Medicine>
+            <Plants>1</Plants>
+            <Construction>1</Construction>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 倒霉蛋 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_07</defName>
+        <title>Wolfein unlucky child</title>
+        <titleShort>unlucky child</titleShort>
+        <description>[PAWN_nameDef]'s childhood was far from smooth—minor misfortunes seemed to follow her wherever she went. Yet, when it came to major events, she always seemed incredibly lucky, narrowly escaping trouble time and again. Even her parents couldn't quite make sense of it.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Artistic>1</Artistic>
+            <Medicine>2</Medicine>
+            <Social>2</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 自闭儿童 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_08</defName>
+        <title>Wolfein autistic child</title>
+        <titleShort>autistic child</titleShort>
+        <description>Since childhood, [PAWN_nameDef] has been afraid of interacting with others and reluctant to engage with the outside world. She finds greater comfort and peace in solitude than in the noise of social life.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Plants>2</Plants>
+            <Animals>2</Animals>
+            <Crafting>1</Crafting>
+            <Social>-5</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <forcedTraitsChance>
+            <li>
+                <defName>Undergrounder</defName>
+                <chance>50</chance>
+            </li>
+        </forcedTraitsChance>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 胆小鬼 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_09</defName>
+        <title>Wolfein timid child</title>
+        <titleShort>timid child</titleShort>
+        <description>[PAWN_nameDef] is extremely timid— even the slightest noise can startle her. Her anxious and easily frightened nature has often brought complications into her daily life.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Social>-3</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 勤学的孩子 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_10</defName>
+        <title>Wolfein diligent child</title>
+        <titleShort>diligent child</titleShort>
+        <description>[PAWN_nameDef] has a deep love for the feeling of gaining new knowledge, spending nearly all her time immersed in study. Her favorite place to be is the local library near her home, where she can lose herself for hours on end.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <forcedTraitsChance>
+            <li>
+                <defName Degree="1">Industriousness</defName>
+                <chance>50</chance>
+            </li>
+        </forcedTraitsChance>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 优等生 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_11</defName>
+        <title>Wolfein top student</title>
+        <titleShort>top student</titleShort>
+        <description>[PAWN_nameDef] is highly motivated when it comes to her studies. Her diligence has earned the admiration of adults. At school, she excels academically and maintains strong, positive relationships with her peers.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Artistic>3</Artistic>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 懒惰的孩子 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_12</defName>
+        <title>Wolfein lazy child</title>
+        <titleShort>lazy child</titleShort>
+        <description>[PAWN_nameDef] is quite lazy by nature. She dislikes going out or exercising, preferring instead to spend her days at home playing games and reading comics. Her grades at school are mediocre at best, much to the frustration of her parents.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Social>4</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <forcedTraitsChance>
+            <li>
+                <defName Degree="-1">Industriousness</defName>
+                <chance>50</chance>
+            </li>
+        </forcedTraitsChance>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 天才 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_13</defName>
+        <title>Wolfein genius</title>
+        <titleShort>genius</titleShort>
+        <description>From a young age, [PAWN_nameDef] demonstrated intelligence far beyond her peers, showing exceptional talent across multiple fields. However, her naturally frail body made it difficult for her to take part in physical activities or play with other children her age.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Intellectual>7</Intellectual>
+        </skillGains>
+        <forcedTraitsChance>
+            <li>
+                <defName>TooSmart</defName>
+            </li>
+        </forcedTraitsChance>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 留守儿童 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_14</defName>
+        <title>Wolfein left-behind child</title>
+        <titleShort>left-behind child</titleShort>
+        <description>[PAWN_nameDef]'s parents left when she was still very young due to work-related reasons, and she spent her childhood in the care of her grandparents. Her memories of her parents are faint, yet she has always quietly longed for the day she might see them again.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Cooking>4</Cooking>
+            <Medicine>3</Medicine>
+            <Social>-2</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 留学生 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_15</defName>
+        <title>Wolfein overseas student</title>
+        <titleShort>overseas student</titleShort>
+        <description>[PAWN_nameDef] received her education in a nation governed by another racial faction. Growing up in a diverse and multicultural environment broadened her perspective far beyond that of most others.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Social>4</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 孤僻的孩子 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_16</defName>
+        <title>Wolfein lonely child</title>
+        <titleShort>lonely child</titleShort>
+        <description>[PAWN_nameDef] has always been somewhat reclusive since childhood. For reasons unknown, people around her seemed to keep their distance, intentionally or not. But [PAWN_nameDef] never minded—she found greater comfort in solitude than in company.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Artistic>3</Artistic>
+            <Plants>3</Plants>
+            <Crafting>3</Crafting>
+            <Social>-4</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 贫穷的孩子 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_17</defName>
+        <title>Wolfein poor child</title>
+        <titleShort>poor child</titleShort>
+        <description>[PAWN_nameDef]'s family lived in deep poverty, and her childhood was marked by hardship. Her parents worked late into the night every day, leaving [PAWN_nameDef] to take care of herself. As a result, she matured far earlier than most children her age.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Cooking>3</Cooking>
+            <Construction>2</Construction>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 小画家 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_18</defName>
+        <title>Wolfein little painter</title>
+        <titleShort>little painter</titleShort>
+        <description>From an early age, [PAWN_nameDef] showed an exceptional talent for the arts, with a deep passion for drawing. She often spent her class time sketching in secret, which led to her falling behind academically.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Artistic>4</Artistic>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 小运动员 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_19</defName>
+        <title>Wolfein little athlete</title>
+        <titleShort>little athlete</titleShort>
+        <description>[PAWN_nameDef] has a strong passion for sports. She joined the school’s track and field club and actively took part in numerous athletic competitions. Her exceptional physical abilities earned her many awards and widespread recognition.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Melee>4</Melee>
+            <Mining>2</Mining>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 小厨师 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_20</defName>
+        <title>Wolfein little chef</title>
+        <titleShort>little chef</titleShort>
+        <description>[PAWN_nameDef] has always had a strong interest in cooking. She not only enjoys good food but also finds great satisfaction in preparing it herself. [PAWN_nameDef] dreams of becoming an outstanding chef in the future.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Cooking>6</Cooking>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 小工匠 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_21</defName>
+        <title>Wolfein little artisan</title>
+        <titleShort>little artisan</titleShort>
+        <description>[PAWN_nameDef] enjoys tinkering with small machines and crafting various handmade items. Her creations are always clever and full of personality, and her friends absolutely adore the handcrafted gifts she makes for them.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Artistic>1</Artistic>
+            <Crafting>4</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 小服务员 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_22</defName>
+        <title>Wolfein little artisan</title>
+        <titleShort>little artisan</titleShort>
+        <description>[PAWN_nameDef]'s family runs a restaurant, and in her spare time, she helps out with tasks she can manage. The customers are fond of this hardworking girl and often give her small tips as pocket money, which always brings her great joy.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Cooking>2</Cooking>
+            <Social>4</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 小园丁 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_23</defName>
+        <title>Wolfein little gardener</title>
+        <titleShort>little gardener</titleShort>
+        <description>[PAWN_nameDef] has a deep love for nature. Her favorite pastime is visiting the botanical garden near her home. There, she learned some basic gardening skills and began growing a few charming little plants at home.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Plants>6</Plants>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 小音乐家 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_24</defName>
+        <title>Wolfein little gardener</title>
+        <titleShort>little gardener</titleShort>
+        <description>[PAWN_nameDef] has loved music since childhood. After learning some basic music theory, she often played simple instruments with friends from the school music club, losing herself in the joyful world of melodies and rhythm.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Artistic>4</Artistic>
+            <Social>2</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 小恶霸 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_25</defName>
+        <title>Wolfein little bully</title>
+        <titleShort>little bully</titleShort>
+        <description>Due to a lack of proper guidance at home, [PAWN_nameDef] developed a habit of bullying her peers from a young age. She often took other children's snacks and toys for herself, much to the frustration of both her teachers and parents.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Melee>4</Melee>
+            <Social>1</Social>
+        </skillGains>
+        <forcedTraitsChance>
+            <li>
+                <defName>Bloodlust</defName>
+                <chance>25</chance>
+            </li>
+        </forcedTraitsChance>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 动物之友 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_26</defName>
+        <title>Wolfein friend of animals</title>
+        <titleShort>friend of animals</titleShort>
+        <description>[PAWN_nameDef] has always had a deep affection for animals. She pleaded with her parents many times to let her keep a pet at home, but due to financial or living conditions, her wish never came true. Still, [PAWN_nameDef] hopes that one day, when she's grown up, she can have a few animals to keep her company.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Animals>6</Animals>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 善良的孩子 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_27</defName>
+        <title>Wolfein kind child</title>
+        <titleShort>kind child</titleShort>
+        <description>[PAWN_nameDef] is a kind and gentle child. Whenever her friends are in trouble, she’s always the first to offer help. Her warm and sincere nature gradually won the hearts of those around her, and she began making more and more friends.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Medicine>1</Medicine>
+            <Plants>1</Plants>
+            <Animals>1</Animals>
+            <Social>3</Social>
+        </skillGains>
+        <forcedTraitsChance>
+            <li>
+                <defName>Kind</defName>
+                <chance>75</chance>
+            </li>
+        </forcedTraitsChance>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 富人家的孩子 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_28</defName>
+        <title>Wolfein richer child</title>
+        <titleShort>richer child</titleShort>
+        <description>[PAWN_nameDef] comes from a very wealthy family, living a life of comfort and abundance. All household chores are taken care of by the servants, and for [PAWN_nameDef], life is simply about enjoying its luxuries.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Social>4</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <possessions>
+            <Silver>30</Silver>
+        </possessions>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 童子军 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_29</defName>
+        <title>Wolfein scout</title>
+        <titleShort>scout</titleShort>
+        <description>[PAWN_nameDef] had always been fascinated by the idea of joining the scouts. One day, by a stroke of luck, her wish came true. During her time with the scouts, [PAWN_nameDef] learned many useful survival skills, such as foraging for food in the wild, setting up camp, and identifying different types of plants.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Shooting>1</Shooting>
+            <Medicine>2</Medicine>
+            <Plants>1</Plants>
+            <Construction>2</Construction>
+            <Crafting>1</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 孤儿院的孩子 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_30</defName>
+        <title>Wolfein institutional child</title>
+        <titleShort>institutional child</titleShort>
+        <description>[PAWN_nameDef] was abandoned by her parents at a very young age. She grew up in an orphanage, surrounded by children who shared the same fate. [PAWN_nameDef] never understood why her parents left her, and this lingering question left her feeling lost and uncertain about the future.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Cooking>1</Cooking>
+            <Medicine>1</Medicine>
+            <Plants>1</Plants>
+            <Animals>1</Animals>
+            <Crafting>1</Crafting>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 差等生 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_31</defName>
+        <title>Wolfein underachiever</title>
+        <titleShort>underachiever</titleShort>
+        <description>[PAWN_nameDef] consistently ranked near the bottom of her class. She was playful and often avoided her studies, even skipping classes from time to time. Her teachers were deeply disappointed in her, but [PAWN_nameDef] didn’t seem to care. She remained indifferent, lost in her own world with no intention of changing.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Mining>1</Mining>
+            <Animals>3</Animals>
+            <Crafting>2</Crafting>
+            <Social>-1</Social>
+            <Intellectual>-2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 勇敢的孩子 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_32</defName>
+        <title>Wolfein brave child</title>
+        <titleShort>brave child</titleShort>
+        <description>[PAWN_nameDef] has shown remarkable courage from a young age. Her character dictates that she will never stand idly by in the face of injustice. Whenever someone close to her is being bullied, [PAWN_nameDef] always steps up, even when facing opponents far stronger than herself.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Melee>4</Melee>
+            <Social>2</Social>
+        </skillGains>
+        <forcedTraitsChance>
+            <li>
+                <defName>Kind</defName>
+                <chance>50</chance>
+            </li>
+        </forcedTraitsChance>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 受气包 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_33</defName>
+        <title>Wolfein doormat</title>
+        <titleShort>doormat</titleShort>
+        <description>Due to [PAWN_nameDef]’s introverted nature, she was often ostracized and bullied at school, with even the teachers choosing to ignore her struggles. These experiences left a deep psychological scar on [PAWN_nameDef], affecting her trust in others and the world around her.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Plants>2</Plants>
+            <Animals>1</Animals>
+            <Social>-2</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 危险的孩子 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_34</defName>
+        <title>Wolfein dangerous child</title>
+        <titleShort>dangerous child</titleShort>
+        <description>[PAWN_nameDef] has shown antisocial tendencies from a young age, having been in and out of prison several times at an early age. Whether inside or outside of prison, [PAWN_nameDef] prefers to communicate through force rather than words.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Melee>2</Melee>
+            <Shooting>2</Shooting>
+            <Social>-1</Social>
+        </skillGains>
+        <forcedTraitsChance>
+            <li>
+                <defName>Bloodlust</defName>
+                <chance>100</chance>
+            </li>
+        </forcedTraitsChance>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 恶童 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_35</defName>
+        <title>Wolfein Evil child</title>
+        <titleShort>Evil child</titleShort>
+        <description>[PAWN_nameDef] has displayed a natural inclination towards rebellion and malice from a young age, as if entirely opposed to kindness. Her actions are ruthless and selfish, showing no mercy towards others.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Melee>5</Melee>
+            <Shooting>1</Shooting>
+        </skillGains>
+        <forcedTraitsChance>
+            <li>
+                <defName>Psychopath</defName>
+                <chance>100</chance>
+            </li>
+        </forcedTraitsChance>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 古怪的孩子 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_36</defName>
+        <title>Wolfein Strange child</title>
+        <titleShort>Strange child</titleShort>
+        <description>[PAWN_nameDef] never cries, and never smiles. She seems to lack certain emotions, as if living purely on instinct. Some teachers once suspected she had an emotional disorder—but no one dared to look into it too deeply.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Social>-5</Social>
+            <Intellectual>5</Intellectual>
+        </skillGains>
+        <forcedTraitsChance>
+            <li>
+                <defName Degree="-2">PsychicSensitivity</defName>
+                <chance>100</chance>
+            </li>
+        </forcedTraitsChance>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 痴迷火焰的孩子 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_37</defName>
+        <title>Wolfein Flame-Obsessed child</title>
+        <titleShort>Flame-Obsessed child</titleShort>
+        <description>[PAWN_nameDef] is fascinated by fire. She repeatedly sets paper on fire, plays with lighters, and even tries to create explosions in the kitchen. She often says, “When it burns, everything is cleansed.”</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Artistic>4</Artistic>
+        </skillGains>
+        <forcedTraitsChance>
+            <li>
+                <defName>Pyromaniac</defName>
+                <chance>100</chance>
+            </li>
+        </forcedTraitsChance>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 易紧张的孩子 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_38</defName>
+        <title>Wolfein Nervous child</title>
+        <titleShort>Nervous child</titleShort>
+        <description>[PAWN_nameDef] became separated from her family in the underground market. That hours-long experience of being lost still leaves her feeling uneasy in crowds to this day.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Plants>2</Plants>
+            <Animals>3</Animals>
+            <Social>-2</Social>
+        </skillGains>
+        <forcedTraitsChance>
+            <li>
+              <defName Degree="-1">Nerves</defName>
+              <chance>100</chance>
+            </li>
+        </forcedTraitsChance>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 制造混乱的孩子 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_ChildBackstory">
+        <defName>Wolfein_BackstoryChild_39</defName>
+        <title>Wolfein Chaos-Making child</title>
+        <titleShort>Chaos-Making child</titleShort>
+        <description>[PAWN_nameDef] was born with an intense desire for control, particularly over others’ emotions. Sometimes, she deliberately incites panic in front of others—then calmly sits back and watches as everything spirals out of control.</description>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Anomaly">
+                <defName>Disturbing</defName>
+                <chance>100</chance>
+            </li>
+        </forcedTraitsChance>
+        <spawnCategories>
+            <li>Wolfein_ChildGeneral</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+</Defs>

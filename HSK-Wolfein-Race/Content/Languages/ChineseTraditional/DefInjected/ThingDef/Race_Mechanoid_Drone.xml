@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein mechanoid drone -->
+  <Wolfein_Mechanoid_Drone.label>沃芬軍用偵察無人機</Wolfein_Mechanoid_Drone.label>
+  <!-- EN: A reconnaissance drone developed by the MegaCorp, constructed from parts sourced from the lowest-bidding departments. It features only basic patrol capabilities and a single low-powered laser gun. However, MegaCorp often deploys these drones in large numbers—when clustered together, they can still pose a considerable threat. -->
+  <Wolfein_Mechanoid_Drone.description>軍企旗下的偵察無人機，其零件均由招標出價最低的部門製造，僅具備基本的巡飛功能和一挺低功率鐳射槍。但軍企通常習慣一次派出大量無人機進行偵察，它們若聚集起來仍然是個麻煩。</Wolfein_Mechanoid_Drone.description>
+  <!-- EN: drone body -->
+  <Wolfein_Mechanoid_Drone.tools.drone_body.label>無人機體</Wolfein_Mechanoid_Drone.tools.drone_body.label>
+  
+  <!-- EN: Wolfein mechanoid armed drone -->
+  <Wolfein_Mechanoid_DroneArmed.label>沃芬軍用武裝無人機</Wolfein_Mechanoid_DroneArmed.label>
+  <!-- EN: The armed drone equipped with dual rocket pods possesses high maneuverability and firepower coverage capability, enabling rapid deployment across various combat environments to execute suppression and clearance missions. -->
+  <Wolfein_Mechanoid_DroneArmed.description>配備雙火箭巢的武裝無人機，具備高機動性與火力覆蓋能力，可快速部署于多種作戰環境中，執行壓制與清除任務。</Wolfein_Mechanoid_DroneArmed.description>
+  <!-- EN: drone body -->
+  <Wolfein_Mechanoid_DroneArmed.tools.drone_body.label>無人機體</Wolfein_Mechanoid_DroneArmed.tools.drone_body.label>
+  
+</LanguageData>

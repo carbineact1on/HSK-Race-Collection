@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Wolfein_Head_A</defName>
+		<graphicPath>Wolfein/Heads/WolfeinHead</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Wolfein_Head_B</defName>
+		<graphicPath>Wolfein/Heads/WolfeinHead1</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Wolfein_Head_C</defName>
+		<graphicPath>Wolfein/Heads/WolfeinHead2</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Wolfein_Head_D</defName>
+		<graphicPath>Wolfein/Heads/WolfeinHead3</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Wolfein_Head_E</defName>
+		<graphicPath>Wolfein/Heads/WolfeinHead4</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Wolfein_Head_F</defName>
+		<graphicPath>Wolfein/Heads/WolfeinHead5</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Wolfein_Head_G</defName>
+		<graphicPath>Wolfein/Heads/WolfeinHead6</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Wolfein_Head_H</defName>
+		<graphicPath>Wolfein/Heads/WolfeinHead7</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Wolfein_Head_I</defName>
+		<graphicPath>Wolfein/Heads/WolfeinHead8</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Wolfein_Head_J</defName>
+		<graphicPath>Wolfein/Heads/WolfeinHead9</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>Wolfein_Head_K</defName>
+		<graphicPath>Wolfein/Heads/WolfeinHead10</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+
+
+</Defs>

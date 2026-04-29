@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Wolfein_Race"]/alienRace/raceRestriction/whiteApparelList</xpath>
+        <value>
+          <li>Wolfein_SpaceSuitHelmet</li>
+          <li>Wolfein_SpaceSuit</li>
+        </value>
+    </Operation>
+
+
+</Patch>

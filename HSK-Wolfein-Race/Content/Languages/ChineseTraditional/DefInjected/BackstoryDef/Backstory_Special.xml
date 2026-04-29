@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: [PAWN_nameDef] was once an elite armed employee in the MegaCorp, until one day she grew completely disillusioned with it all. She escaped the company at any cost and ultimately ended up in the Fringe World. -->
+  <Wolfein_OutlierWolf_1.description>[PAWN_nameDef]曾是軍企中的一名精英武裝員工，直到某天她徹底厭倦了這一切。她不惜一切代價從公司叛逃，最終流落至邊緣世界。</Wolfein_OutlierWolf_1.description>
+  <!-- EN: Wolfein Outlier Wolf -->
+  <Wolfein_OutlierWolf_1.title>沃芬族 離群狼</Wolfein_OutlierWolf_1.title>
+  <!-- EN: Outlier Wolf -->
+  <Wolfein_OutlierWolf_1.titleShort>離群狼</Wolfein_OutlierWolf_1.titleShort>
+
+  <!-- EN: [PAWN_nameDef], a former special operations unit member, was discharged after multiple missions when the MegaCorp deemed her "mentally unfit for further assignments." Originally slated for deployment to a mining site to work off her debts, [PAWN_nameDef] chose instead to flee the MegaCorp's jurisdiction. -->
+  <Wolfein_OutlierWolf_2.description>[PAWN_nameDef]作為前特遣隊成員，在執行多次任務后被軍企認為「心理狀態不足以繼續執行任務」而被除名。本應被派去礦場以贖清債務的[PAWN_nameDef]選擇了逃離軍企管轄區。</Wolfein_OutlierWolf_2.description>
+  <!-- EN: Wolfein Outlier Wolf -->
+  <Wolfein_OutlierWolf_2.title>沃芬族 離群狼</Wolfein_OutlierWolf_2.title>
+  <!-- EN: Outlier Wolf -->
+  <Wolfein_OutlierWolf_2.titleShort>離群狼</Wolfein_OutlierWolf_2.titleShort>
+
+  <!-- EN: [PAWN_nameDef], once an undercover agent for the Resistance Army within the MegaCorp, was meant to fight for the cause from the shadows. However, after an unexpected intelligence leak exposed her identity, [PAWN_nameDef] had no choice but to abandon everything she once had. -->
+  <Wolfein_OutlierWolf_3.description>[PAWN_nameDef]作為抵抗軍在軍企里的暗線之一，本應為抵抗軍在暗面發光發熱。但在一次意外的情報泄露中被揭發了身份，[PAWN_nameDef]不得不選擇離開自己曾擁有的一切。</Wolfein_OutlierWolf_3.description>
+  <!-- EN: Wolfein Outlier Wolf -->
+  <Wolfein_OutlierWolf_3.title>沃芬族 離群狼</Wolfein_OutlierWolf_3.title>
+  <!-- EN: Outlier Wolf -->
+  <Wolfein_OutlierWolf_3.titleShort>離群狼</Wolfein_OutlierWolf_3.titleShort>
+
+  <!-- EN: After earning her doctorate, [PAWN_nameDef] was directly recruited by the MegaCorp as a researcher. However, shortly after joining, she was framed by her immediate superior and dragged into a lawsuit to take the fall. Knowing she would likely spend the rest of her life in prison, [PAWN_nameDef] chose to take revenge on her superior before fleeing into the shadows. -->
+  <Wolfein_OutlierWolf_4.description>[PAWN_nameDef]在攻讀完博士學位后被軍企直聘為研究員。然而，在入職后不久便被自己的直屬上司告上法庭以替上司頂罪。在開庭前深知自己必定在監獄度過下半生的[PAWN_nameDef]選擇了報復上司后遠走高飛。</Wolfein_OutlierWolf_4.description>
+  <!-- EN: Wolfein Outlier Wolf -->
+  <Wolfein_OutlierWolf_4.title>沃芬族 離群狼</Wolfein_OutlierWolf_4.title>
+  <!-- EN: Outlier Wolf -->
+  <Wolfein_OutlierWolf_4.titleShort>離群狼</Wolfein_OutlierWolf_4.titleShort>
+
+  <!-- EN: [PAWN_nameDef] was supposed to spend her remaining years working off her crimes in one of the MegaCorp』s prison mines. However, during a prison riot, she seized the opportunity to steal classified corporate assets, offering them as a bargaining chip to any faction willing to take her in. -->
+  <Wolfein_OutlierWolf_5.description>[PAWN_nameDef]本應在監獄的礦場里為自己充滿罪行的上半生來向軍企大業贖罪，但在一次監獄暴亂中，[PAWN_nameDef]選擇了竊取軍企機密資產，將其拿來做向任何願意收留她的勢力的投名狀。</Wolfein_OutlierWolf_5.description>
+  <!-- EN: Wolfein Outlier Wolf -->
+  <Wolfein_OutlierWolf_5.title>沃芬族 離群狼</Wolfein_OutlierWolf_5.title>
+  <!-- EN: Outlier Wolf -->
+  <Wolfein_OutlierWolf_5.titleShort>離群狼</Wolfein_OutlierWolf_5.titleShort>
+
+  <!-- EN: [PAWN_nameDef] refuses to speak of her past. The scars on her body and her non-human, modified form silently hint at a military background. Her extensive combat experience only deepens the mystery of how she ultimately became a slave of the MegaCorp. -->
+  <Wolfein_Slave.description>[PAWN_nameDef]拒絕談論自己過去的經歷。身上的傷痕與非人形的改造軀體，無聲地透露著她曾有過一定的軍事背景。而[PAWN_nameDef]豐富的戰鬥經驗，更讓人難以理解，為何她最終淪為軍企的奴隸。</Wolfein_Slave.description>
+  <!-- EN: Wolfein MegaCorp Slave -->
+  <Wolfein_Slave.title>沃芬族 軍企奴隸</Wolfein_Slave.title>
+  <!-- EN: MegaCorp Slave -->
+  <Wolfein_Slave.titleShort>軍企奴隸</Wolfein_Slave.titleShort>
+
+</LanguageData>

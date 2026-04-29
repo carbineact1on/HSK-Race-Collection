@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="UnfinishedBase">
+        <defName>Wolfein_UnfinishedHealthItem</defName>
+        <label>unfinished healthItem</label>
+        <description>An unfinished Wolfein bionic body.</description>
+        <statBases>
+            <Flammability>1.0</Flammability>
+        </statBases>
+        <graphicData>
+            <texPath>Wolfein/Items/Unfinished/UnfinishedHealthItem</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+        <stuffCategories Inherit="false" />
+    </ThingDef>
+
+    <ThingDef ParentName="UnfinishedBase">
+        <defName>Wolfein_UnfinishedGun</defName>
+        <label>unfinished gun</label>
+        <description>An unfinished Wolfein weapon.</description>
+        <statBases>
+            <Flammability>1.0</Flammability>
+        </statBases>
+        <graphicData>
+            <texPath>Wolfein/Items/Unfinished/UnfinishedGun</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+            <drawSize>1.0</drawSize>
+        </graphicData>
+        <stuffCategories Inherit="false" />
+    </ThingDef>
+
+    <ThingDef ParentName="UnfinishedBase">
+        <defName>Wolfein_UnfinishedArmor</defName>
+        <label>unfinished armor</label>
+        <description>An unfinished piece of armor.</description>
+        <statBases>
+          <Flammability>0.4</Flammability>
+        </statBases>
+        <graphicData>
+          <texPath>Things/Item/Unfinished/UnfinishedTechArmor</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <stuffCategories Inherit="false" />
+      </ThingDef>
+
+      <ThingDef ParentName="UnfinishedBase">
+        <defName>Wolfein_UnfinishedApparel</defName>
+        <label>unfinished apparel</label>
+        <description>An unfinished piece of an apparel.</description>
+        <graphicData>
+          <texPath>Things/Item/Unfinished/UnfinishedApparel</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <stuffCategories Inherit="false" />
+        <comps>
+          <li>
+            <compClass>CompColorable</compClass>
+          </li>
+        </comps>
+      </ThingDef>
+
+</Defs>

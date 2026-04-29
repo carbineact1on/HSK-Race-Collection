@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- 沃芬族AIPT处理组作战制服（固定材料） -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wolfein_AIPTCombatSuit"]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>320</MaxHitPoints>
+            <Flammability>0.5</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+            <Mass>1</Mass>
+            <EquipDelay>1.5</EquipDelay>
+            <WorkToMake>18000</WorkToMake>
+            <Insulation_Cold>16</Insulation_Cold>
+            <Insulation_Heat>10</Insulation_Heat>
+            <ArmorRating_Sharp>7.8</ArmorRating_Sharp>
+            <ArmorRating_Blunt>9</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.15</ArmorRating_Heat>
+            <ArmorRating_Electric>0</ArmorRating_Electric>
+            <Bulk>1</Bulk>
+            <WornBulk>3</WornBulk>
+          </statBases>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Wolfein_AIPTCombatSuit"]/equippedStatOffsets</xpath>
+		<value>
+      <CarryBulk>15</CarryBulk>
+      <CarryWeight>21</CarryWeight>
+		</value>
+	</Operation>
+
+</Patch>

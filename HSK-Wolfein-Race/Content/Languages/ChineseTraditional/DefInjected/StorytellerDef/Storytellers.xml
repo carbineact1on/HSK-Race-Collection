@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Fenrir·Sparre -->
+  <Wolfein_Storyteller.label>芬里爾·斯帕雷</Wolfein_Storyteller.label>
+  <!-- EN: Fenrir·Sparre\nFormer Deputy Captain of the 13th Elite Mobile Task Force\n\nHer training schedules rarely follow a fixed pattern. Timing, content, and intensity are all subject to change, often feeling like tasks inserted on the fly—keeping everyone in a constant state of readiness. Fenrir is outgoing and lively, usually the one lightening the mood with a casual tone. But the moment training or operations begin, she becomes sharp and focused, leaving little room for hesitation.\n\nAs a Wolfein, she simply pushes their natural advantage further—most high-intensity drills and operations are conducted at night. Over time, related conflicts also tend to occur during these hours. Her schedules go beyond combat alone; various ad-hoc coordination tasks and unexpected situations are deliberately introduced, training her team to respond to change rather than rely on routine.\n\nLater, she began wearing an ornament that was never originally hers.\nShe continues to organize training, assign tasks, and keep morale up as usual—almost as if nothing has changed. Only the direction and stance of the team no longer need to be repeatedly stated.\n\nEffects:\n\nIncreased chance of Wolfein-related events\nEnemy raids are more likely to occur at night\nIncreased raid strength\nIncreased frequency of positive events -->
+  <Wolfein_Storyteller.description>前第13精英機動特遣隊副隊長
+
+她的訓練計劃很少按部就班。時間、內容、強度都不固定，更多時候像是臨時插入的安排，讓人始終處在「隨時要動起來」的狀態。芬里爾性格外向活躍，平時喜歡調節氣氛，說話也不太嚴肅。但一旦進入訓練或任務，她會立刻變得乾脆而專注，幾乎不給人反應遲緩的空間。 
+
+作為沃芬，她只是把夜間的優勢用得更徹底——大部分高強度演練與行動都安排在夜晚。久而久之，相關衝突也更容易在這一時段發生。她的安排里不只有戰鬥。各種臨時協作與突發事件被不斷加入，讓隊員逐漸習慣應對變化，而不是依賴既定流程。 
+
+後來，她開始佩戴那枚不屬於她的髮飾。 她依舊照常安排訓練、分配任務、活躍氣氛，就像什麼都沒有改變一樣——只是隊伍的去向與立場，漸漸不再需要被反覆確認。 
+
+效果： 
+沃芬相關事件觸發概率提高 
+敵對襲擊更大概率在夜間發生 
+敵對襲擊強度提升 
+正面事件觸發次數增加</Wolfein_Storyteller.description>
+  
+</LanguageData>

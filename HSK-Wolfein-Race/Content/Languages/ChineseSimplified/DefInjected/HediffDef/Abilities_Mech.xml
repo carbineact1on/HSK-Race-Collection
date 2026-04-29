@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: invisibility -->
+  <Wolfein_MechInvisibility.label>光学隐形</Wolfein_MechInvisibility.label>
+  <!-- EN: Equipped with an optical cloaking system, it can significantly reduce visual and thermal signatures for a limited time, making it suitable for ambushes and long-term surveillance operations. -->
+  <Wolfein_MechInvisibility.description>已搭载的光学隐身系统，可在一定时间内大幅降低可视与热能信号，适合执行伏击与长期监视任务。</Wolfein_MechInvisibility.description>
+  
+</LanguageData>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- 红帽作战头盔（固定材料） -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wolfein_RedCombatHelmet"]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>340</MaxHitPoints>
+            <Flammability>0.4</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+            <Mass>1.5</Mass>
+            <EquipDelay>5</EquipDelay>
+            <WorkToMake>22000</WorkToMake>
+            <Insulation_Cold>10</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <ArmorRating_Sharp>11</ArmorRating_Sharp>
+            <ArmorRating_Blunt>21</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.3</ArmorRating_Heat>
+            <ArmorRating_Electric>0.6</ArmorRating_Electric>
+            <Bulk>1</Bulk>
+            <WornBulk>1.56</WornBulk>
+          </statBases>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Wolfein_RedCombatHelmet"]/equippedStatOffsets</xpath>
+		<value>
+			<equippedStatOffsets>
+      <SmokeSensitivity>-1</SmokeSensitivity>
+      <AimingAccuracy>0.25</AimingAccuracy>
+      <ToxicEnvironmentResistance>1.0</ToxicEnvironmentResistance>
+      <MoveSpeed>0.05</MoveSpeed>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+</Patch>

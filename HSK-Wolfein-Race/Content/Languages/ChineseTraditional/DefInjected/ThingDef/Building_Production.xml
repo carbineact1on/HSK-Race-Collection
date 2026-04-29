@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: wolfein electric tailor bench -->
+  <Wolfein_Electric_TailoringBench.label>沃芬族電力縫紉臺</Wolfein_Electric_TailoringBench.label>
+  <!-- EN: The Wolfein electric sewing station combines advanced technology with traditional tailoring craftsmanship, allowing sewing workers to operate more efficiently. -->
+  <Wolfein_Electric_TailoringBench.description>沃芬族的電力縫紉臺，結合了較為先進的科技和傳統裁縫工藝，縫紉工作者可以使用它進行更加高效的工作。</Wolfein_Electric_TailoringBench.description>
+  
+  <!-- EN: Reverse engineering bench -->
+  <Wolfein_ReverseResearchBench.label>沃芬逆向分析工作臺</Wolfein_ReverseResearchBench.label>
+  <!-- EN: A workstation designed to bypass the heavy security protocols on MegaCorp mech units in order to extract their core components. It can also be used to craft equipment hidden behind encrypted disk drives. -->
+  <Wolfein_ReverseResearchBench.description>用於繞過軍企機械體上的重重保護措施以提取其核心部件的工作臺，同時也可以用於製作藏在磁碟加密後的裝備。</Wolfein_ReverseResearchBench.description>
+  
+  <!-- EN: Wolfein machining table -->
+  <Wolfein_TableMachining.label>沃芬族機械加工臺</Wolfein_TableMachining.label>
+  <!-- EN: The Wolfein machining station integrates advanced CNC technology, enabling high-precision processing and manufacturing of complex components, providing Wolfein engineers with a reliable and safe machining platform. -->
+  <Wolfein_TableMachining.description>沃芬族的機械加工臺，整合了先進的數控技術，實現複雜零部件的高精度加工和製造，為沃芬族工程師們提供了可靠安全的的加工平臺。</Wolfein_TableMachining.description>
+
+  <!-- EN: Wolfein solar generator -->
+  <Wolfein_SolarGenerator.label>沃芬太陽能發電機</Wolfein_SolarGenerator.label>
+  <!-- EN: A proud achievement of the MegaCorp energy division: in addition to boasting photoelectric conversion efficiency far surpassing comparable products, its built-in automatic tracking system allows the solar panels to remain constantly aligned at the optimal azimuth for maximum power generation. -->
+  <Wolfein_SolarGenerator.description>軍企能源部門的得意之作，除了有遠超同類產品的光電轉化效率外，其內建的自動追蹤系統，能令太陽能板始終處於發電效率最高的方位角。</Wolfein_SolarGenerator.description>
+</LanguageData>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <AbilityDef>
+        <defName>Wolfein_MechInvisibility</defName>
+        <label>invisibility</label>
+        <description>Equipped with an optical cloaking system, it can significantly reduce visual and thermal signatures for a limited time, making it suitable for ambushes and long-term surveillance operations.</description>
+        <iconPath>Wolfein/Icon/MechStealth</iconPath>
+        <!-- <jobDef>CastAbilityOnThingWithoutWeaponInterruptible</jobDef> -->
+        <writeCombatLog>True</writeCombatLog>
+        <cooldownTicksRange>60000</cooldownTicksRange>
+        <hostile>false</hostile>
+        <hotKey>Misc1</hotKey>
+        <aiCanUse>false</aiCanUse>
+        <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+        <targetRequired>false</targetRequired>
+        <showCastingProgressBar>true</showCastingProgressBar>
+        <statBases>
+            <Ability_Duration>20</Ability_Duration>
+        </statBases>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <warmupTime>1</warmupTime>
+            <range>-1</range>
+            <drawAimPie>false</drawAimPie>
+            <onlyManualCast>True</onlyManualCast>
+            <targetParams>
+                <canTargetSelf>True</canTargetSelf>
+            </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class = "CompProperties_AbilityGiveHediff">
+                <compClass>CompAbilityEffect_GiveHediff</compClass>
+                <hediffDef>Wolfein_MechInvisibility</hediffDef>
+                <psychic>false</psychic>
+            </li>
+        </comps>
+    </AbilityDef>
+    <HediffDef>
+        <defName>Wolfein_MechInvisibility</defName>
+        <label>invisibility</label>
+        <hediffClass>HediffWithComps</hediffClass>
+        <description>Equipped with an optical cloaking system, it can significantly reduce visual and thermal signatures for a limited time, making it suitable for ambushes and long-term surveillance operations.</description>
+        <isBad>false</isBad>
+        <initialSeverity>1</initialSeverity>
+        <maxSeverity>1</maxSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Invisibility">
+                <visibleToPlayer>true</visibleToPlayer>
+            </li>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>1200</disappearsAfterTicks>
+                <showRemainingTime>True</showRemainingTime>
+            </li>
+            <li Class="HediffCompProperties_DisappearsOnDeath"/>
+        </comps>
+    </HediffDef>
+
+</Defs>

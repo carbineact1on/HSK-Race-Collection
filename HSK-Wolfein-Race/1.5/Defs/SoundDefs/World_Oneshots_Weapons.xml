@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <SoundDef>
+        <defName>Wolfein_TaserShot_Electricity</defName>
+        <context>MapOnly</context>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Wolfein/Bullet_fire_Electric_sound</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>35~35</volumeRange>
+                <pitchRange>0.8~1.3</pitchRange>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>Wolfein_Shot_AR_MG</defName>
+        <context>MapOnly</context>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Wolfein/Bullet_fire_AR_MG_sound</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>35~35</volumeRange>
+                <pitchRange>0.8~1.3</pitchRange>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>Wolfein_Shot_HG_SMG</defName>
+        <context>MapOnly</context>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Wolfein/Bullet_fire_HG_SMG_sound</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>35~35</volumeRange>
+                <pitchRange>0.8~1.3</pitchRange>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>Wolfein_Shot_RF</defName>
+        <context>MapOnly</context>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Wolfein/Bullet_fire_RF_sound</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>35~35</volumeRange>
+                <pitchRange>0.8~1.3</pitchRange>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>Wolfein_Shot_SG</defName>
+        <context>MapOnly</context>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Wolfein/Bullet_fire_SG_sound</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>35~35</volumeRange>
+                <pitchRange>0.8~1.3</pitchRange>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+    <SoundDef>
+        <defName>Wolfein_WeaponInteract</defName>
+        <context>MapOnly</context>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Wolfein/WeaponInteract</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>35~35</volumeRange>
+                <pitchRange>0.8~1.3</pitchRange>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+
+</Defs>

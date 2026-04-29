@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="BaseMechCharger">
+        <defName>Wolfein_MechCharger</defName>
+        <label>Wolfein mech charger</label>
+        <thingClass>Building_MechCharger</thingClass>
+        <description>Lightweight general-purpose charging station, compatible with humanoid machines, drones, and other light to medium units. Supports multi-port rapid energy replenishment, making it suitable for routine patrols and post-combat energy recovery.</description>
+        <graphicData>
+            <texPath>Wolfein/Building/Workbenches/Recharger</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(3.5,3.5)</drawSize>
+            <drawOffset>(0,0,-0.2)</drawOffset>
+            <shadowData>
+                <volume>(0.5, 0.5, 0.5)</volume>
+            </shadowData>
+        </graphicData>
+        <!-- <uiIconScale>1.4</uiIconScale> -->
+        <interactionCellOffset>(0,0,0)</interactionCellOffset>
+        <passability>PassThroughOnly</passability>
+        <rotatable>false</rotatable>
+        <altitudeLayer>DoorMoveable</altitudeLayer>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsProduction</li>
+        </thingCategories>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <WorkToBuild>8000</WorkToBuild>
+            <Mass>25</Mass>
+            <Flammability>0.5</Flammability>
+        </statBases>
+        <size>(1,1)</size>
+        <building>
+            <requiredMechWeightClasses>
+                <li>Medium</li>
+            </requiredMechWeightClasses>
+        </building>
+        <costList>
+            <SteelBar>25</SteelBar>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
+        <researchPrerequisites>
+            <li>BasicMechtech</li>
+            <li>Wolfein_BasicCivilianMech</li>
+        </researchPrerequisites>
+        <comps Inherit="false">
+            <li Class="CompProperties_Flickable"/>
+            <li Class="CompProperties_Forbiddable"/>
+            <li Class="CompProperties_WasteProducer">
+                <showContentsInInspectPane>false</showContentsInInspectPane>
+            </li>
+            <li Class="CompProperties_ThingContainer">
+                <compClass>CompThingContainer</compClass>
+                <stackLimit>5</stackLimit>
+                <drawContainedThing>false</drawContainedThing>
+                <dropEffecterDef>MechChargerWasteRemoved</dropEffecterDef>
+            </li>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>200</basePowerConsumption>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseMechCharger">
+        <defName>Wolfein_MechChargerLarge</defName>
+        <label>Wolfein Large Mech charger</label>
+        <thingClass>Building_MechCharger</thingClass>
+        <description>Heavy-duty charging station, developed for heavy machinery. It provides high-power, stable energy replenishment to meet the endurance demands after prolonged high-intensity operations.</description>
+        <graphicData>
+            <texPath>Wolfein/Building/Workbenches/LargeRecharger</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(4.5,4.5)</drawSize>
+            <drawOffset>(0,0,0)</drawOffset>
+            <shadowData>
+                <volume>(2.5, 0.5, 2.5)</volume>
+            </shadowData>
+        </graphicData>
+        <!-- <uiIconScale>1.4</uiIconScale> -->
+        <interactionCellOffset>(0,0,0)</interactionCellOffset>
+        <passability>PassThroughOnly</passability>
+        <rotatable>false</rotatable>
+        <altitudeLayer>DoorMoveable</altitudeLayer>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsProduction</li>
+        </thingCategories>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <WorkToBuild>8000</WorkToBuild>
+            <Mass>25</Mass>
+            <Flammability>0.5</Flammability>
+        </statBases>
+        <size>(3,3)</size>
+        <building>
+            <requiredMechWeightClasses>
+                <li>Heavy</li>
+            </requiredMechWeightClasses>
+        </building>
+        <costList>
+            <SteelBar>36</SteelBar>
+            <Plasteel>60</Plasteel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>
+        <researchPrerequisites>
+            <li>Wolfein_GiantMilitaryMech</li>
+        </researchPrerequisites>
+        <comps Inherit="false">
+            <li Class="CompProperties_Flickable"/>
+            <li Class="CompProperties_Forbiddable"/>
+            <li Class="CompProperties_WasteProducer">
+                <showContentsInInspectPane>false</showContentsInInspectPane>
+            </li>
+            <li Class="CompProperties_ThingContainer">
+                <compClass>CompThingContainer</compClass>
+                <stackLimit>5</stackLimit>
+                <drawContainedThing>false</drawContainedThing>
+                <dropEffecterDef>MechChargerWasteRemoved</dropEffecterDef>
+            </li>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>200</basePowerConsumption>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

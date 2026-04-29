@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- 灵能战斗服（固定材料） -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wolfein_PsionicCombatSuit"]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>250</MaxHitPoints>
+            <Flammability>0.5</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+            <Mass>1.5</Mass>
+            <EquipDelay>5</EquipDelay>
+            <WorkToMake>25000</WorkToMake>
+            <Insulation_Cold>22</Insulation_Cold>
+            <Insulation_Heat>30</Insulation_Heat>
+            <ArmorRating_Sharp>14</ArmorRating_Sharp>
+            <ArmorRating_Blunt>12</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.15</ArmorRating_Heat>
+            <ArmorRating_Electric>0</ArmorRating_Electric>
+            <Bulk>2</Bulk>
+            <WornBulk>2.1</WornBulk>
+          </statBases>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Wolfein_PsionicCombatSuit"]/equippedStatOffsets</xpath>
+		<value>
+      <CarryBulk>24</CarryBulk>
+      <CarryWeight>14</CarryWeight>
+		</value>
+	</Operation>
+</Patch>

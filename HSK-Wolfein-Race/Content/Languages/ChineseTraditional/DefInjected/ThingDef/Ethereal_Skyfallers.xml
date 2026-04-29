@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: wolfein shuttle (incoming) -->
+  <Wolfein_ShuttleIncoming.label>沃芬重型運輸機（即將抵達）</Wolfein_ShuttleIncoming.label>
+  
+  <!-- EN: wolfein shuttle (leaving) -->
+  <Wolfein_ShuttleLeaving.label>沃芬重型運輸機（即將駛離）</Wolfein_ShuttleLeaving.label>
+  
+</LanguageData>

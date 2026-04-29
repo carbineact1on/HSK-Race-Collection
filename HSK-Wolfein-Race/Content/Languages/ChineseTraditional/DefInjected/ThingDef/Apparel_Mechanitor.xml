@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein Array glass -->
+  <Wolfein_ArrayGlass.label>沃芬族陣列目鏡</Wolfein_ArrayGlass.label>
+  <!-- EN: Standard-issue gear for MegaCorp Mechanitors. Its built-in microcomputer not only assists in controlling mech units but also projects probable enemy movements onto the monocle display to aid with targeting. -->
+  <Wolfein_ArrayGlass.description>軍企機械師的制式裝備，內建的微型計算機除了輔助機械師操縱機械體外，還能在目鏡上推測敵人可能動向以輔助瞄準。</Wolfein_ArrayGlass.description>
+  
+  <!-- EN: Wolfein Civil control pack -->
+  <Wolfein_CivilControlPack.label>沃芬族民用數控揹包</Wolfein_CivilControlPack.label>
+  <!-- EN: A civilian Mechanitor controlpack licensed for production by MegaCorp. Compared to the military version, it sacrifices some mech control capabilities in exchange for a lighter build. -->
+  <Wolfein_CivilControlPack.description>軍企特許生產的民間機械師輔助揹包，相比軍用型只削減了機械控制性能以換取更輕的質量。</Wolfein_CivilControlPack.description>
+  
+  <!-- EN: Wolfein Mechanitor suit -->
+  <Wolfein_MechanitorSuit.label>沃芬族機械師套裝</Wolfein_MechanitorSuit.label>
+  <!-- EN: The standard outfit for MegaCorp Mechanitors comes with powered armor legs housing numerous signal boosters and microcomputers. To reduce the overall weight, the original upper-body armor was replaced with a heavy coat. However, since the coat』s lining is also packed with essential Mechanitor support systems, it offers poor ventilation—leading most Wolfein Mechanitors to wear it half-off. -->
+  <Wolfein_MechanitorSuit.description>軍企機械師的制式套裝，配套的動力甲腿部內裝有大量訊號增強裝置和微型計算機。爲了對整體套裝減重去掉了原有的上半身裝甲而換成了厚重的大衣。由於大衣夾層內也加裝了必要的機械師輔助裝置，導致其透氣效果過差，絕大多數沃芬機械師們選擇了半脫大衣。</Wolfein_MechanitorSuit.description>
+  
+  <!-- EN: Wolfein Military control pack -->
+  <Wolfein_MilitaryControlPack.label>沃芬族軍用數控揹包</Wolfein_MilitaryControlPack.label>
+  <!-- EN: An auxiliary device used by MegaCorp Task Force units. Equipped with a specialized support-grade mech core, it's the key that allows Task Force Mechanitors to command a large number of heavy mechs. Only issued to certified Wolfein Mechanitors, and biologically coded to prevent any leakage of corporate secrets. -->
+  <Wolfein_MilitaryControlPack.description>軍企機動特遣隊的輔助裝置，加裝的輔助型機械核心是特遣隊機械師能操縱大量重型機械體的秘訣。只會發配給經過考覈的沃芬機械師，並對其進行生物編碼以確保軍企機密不外泄。</Wolfein_MilitaryControlPack.description>
+  
+  <!-- EN: Wolfein Prototypical mech signal booster -->
+  <Wolfein_PrototypicalMechSignalBooster.label>沃芬族原型機械訊號激勵器</Wolfein_PrototypicalMechSignalBooster.label>
+  <!-- EN: The latest breakthrough from MegaCorp, this device marks a significant leap in Mechanitor support technology. Equipped with a quantum computer capable of effortlessly simulating even human cognition, users have described it as a Mechanitor tool straight out of the age of miracles. -->
+  <Wolfein_PrototypicalMechSignalBooster.description>軍企的最新研發成果，代表了軍企在機械師輔助裝置水平上的一次飛躍。內建的量子計算機令其即使是人類心智也能輕鬆模擬，使用者評價為其宛如超凡時代的機械師裝置。</Wolfein_PrototypicalMechSignalBooster.description>
+  
+</LanguageData>

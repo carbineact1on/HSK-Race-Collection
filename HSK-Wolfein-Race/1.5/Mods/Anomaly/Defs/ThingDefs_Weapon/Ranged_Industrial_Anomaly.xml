@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- 土制喷火器 -->
+    <ThingDef ParentName="WolfeinBaseRF">
+        <defName>W_Weapon_HomemadeFlamethrower</defName>
+        <label>Wolfein homemade flamethrower</label>
+        <description>A makeshift flamethrower crafted from a repurposed gas canister and scavenged scrap metal. To prevent the canister from exploding, the internal pressure of the flammable gas is kept relatively low, resulting in a shorter effective range.</description>
+        <possessionCount>0</possessionCount>
+        <graphicData>
+            <texPath>Wolfein/Weapon/HomemadeFlamethrower</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.2</drawSize>
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <weaponClasses>
+            <li>RangedHeavy</li>
+        </weaponClasses>
+        <weaponTags>
+            <li>W_Weapon_HomemadeFlamethrower</li>
+        </weaponTags>
+        <tradeTags>
+            <li>Wolfein_WeaponII</li>
+        </tradeTags>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>Wolfein_Weapon_II</li>
+            </researchPrerequisites>
+            <recipeUsers Inherit="False">
+                <li>AdvWeaponCraftingWorkTable</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Crafting>7</Crafting>
+            </skillRequirements>
+            <displayPriority>425</displayPriority>
+            <unfinishedThingDef>Wolfein_UnfinishedGun</unfinishedThingDef>
+        </recipeMaker>
+        <statBases>
+            <WorkToMake>18000</WorkToMake>
+            <MarketValue>360</MarketValue>
+            <Mass>4</Mass>
+            <AccuracyTouch>0.50</AccuracyTouch>
+            <AccuracyShort>0.70</AccuracyShort>
+            <AccuracyMedium>0.86</AccuracyMedium>
+            <AccuracyLong>0.9</AccuracyLong>
+            <RangedWeapon_Cooldown>2.6</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <SteelBar>12</SteelBar>
+            <Chemfuel>50</Chemfuel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+                    <Rifle_Component>1</Rifle_Component>
+            <Weapon_Parts>1</Weapon_Parts>
+            <Plastic>5</Plastic>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_ArcSprayIncinerator</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <warmupTime>0.8</warmupTime>
+                <range>13.9</range>
+                <minRange>5.9</minRange>
+                <beamFullWidthRange>6</beamFullWidthRange>
+                <burstShotCount>12</burstShotCount>
+                <showBurstShotStats>false</showBurstShotStats>
+                <requireLineOfSight>true</requireLineOfSight>
+                <beamWidth>6</beamWidth>
+                <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+                <beamDamageDef>Flame</beamDamageDef>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+                <soundCastBeam>Flamethrower_Firing</soundCastBeam>
+                <beamGroundFleckDef>Fleck_IncineratorBeamBurn</beamGroundFleckDef>
+                <beamFleckChancePerTick>0.32</beamFleckChancePerTick>
+                <beamMaxDeviation>0.5</beamMaxDeviation>
+                <beamCurvature>0</beamCurvature>
+                <beamEndEffecterDef>IncineratorBeam_End</beamEndEffecterDef>
+                <beamChanceToStartFire>0.85</beamChanceToStartFire>
+                <beamFireSizeRange>0.55~0.85</beamFireSizeRange>
+                <beamStartOffset>.5</beamStartOffset>
+                <beamHitsNeighborCells>true</beamHitsNeighborCells>
+                <beamCantHitWithinMinRange>true</beamCantHitWithinMinRange>
+                <beamHitsNeighborCellsRequiresLOS>true</beamHitsNeighborCellsRequiresLOS>
+                <beamSetsGroundOnFire>true</beamSetsGroundOnFire>
+                <ai_BeamIsIncendiary>true</ai_BeamIsIncendiary>
+                <beamLineFleckDef>Fleck_IncineratorBeamSmoke</beamLineFleckDef>
+                <highlightColor>(180, 60, 10)</highlightColor>
+                <secondaryHighlightColor>(220, 210, 20)</secondaryHighlightColor>
+                <beamLineFleckChanceCurve>
+                    <points>
+                        <li>(0, 0)</li>
+                        <li>(0.65, 0.02)</li>
+                        <li>(1, .5)</li>
+                    </points>
+                </beamLineFleckChanceCurve>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+                <flammabilityAttachFireChanceCurve>
+                    <points>
+                        <li>(0.6, 0)</li>
+                        <li>(0.7, 0.2)</li>
+                        <li>(1.2, 0.8)</li>
+                    </points>
+                </flammabilityAttachFireChanceCurve>
+                <rangedFireRulepack>Combat_RangedFlamethrower</rangedFireRulepack>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <!-- AIPT喷火器 -->
+    <ThingDef ParentName="WolfeinBaseRF">
+        <defName>W_Weapon_RF_Incinerator</defName>
+        <label>Wolfein Incinerator</label>
+        <description>The standard flamethrower issued by the AIPT division unleashes ignited napalm, turning any area into a hellscape for organic targets. Especially effective against flesh-based enemies.</description>
+        <possessionCount>0</possessionCount>
+        <graphicData>
+            <texPath>Wolfein/Weapon/Flamethrower</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.2</drawSize>
+        </graphicData>
+        <uiIconScale>1.2</uiIconScale>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <weaponClasses>
+            <li>RangedHeavy</li>
+        </weaponClasses>
+        <weaponTags>
+            <li>Wolfein_RF_Incinerator</li>
+        </weaponTags>
+        <tradeTags>
+            <li>Wolfein_WeaponIV</li>
+        </tradeTags>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>Wolfein_AIPTWeapon</li>
+            </researchPrerequisites>
+            <recipeUsers Inherit="False">
+                <li>AdvWeaponCraftingWorkTable</li>
+            </recipeUsers>
+            <skillRequirements>
+                <Crafting>7</Crafting>
+            </skillRequirements>
+            <displayPriority>425</displayPriority>
+            <unfinishedThingDef>Wolfein_UnfinishedGun</unfinishedThingDef>
+        </recipeMaker>
+        <statBases>
+            <WorkToMake>50000</WorkToMake>
+            <MarketValue>780</MarketValue>
+            <Mass>4</Mass>
+            <AccuracyTouch>0.50</AccuracyTouch>
+            <AccuracyShort>0.70</AccuracyShort>
+            <AccuracyMedium>0.86</AccuracyMedium>
+            <AccuracyLong>0.9</AccuracyLong>
+            <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Wolfein_AlloyMaterials>50</Wolfein_AlloyMaterials>
+            <Chemfuel>50</Chemfuel>
+            <ComponentIndustrial>8</ComponentIndustrial>
+                    <Sniper_Component>1</Sniper_Component>
+            <Weapon_Parts>9</Weapon_Parts>
+            <Plastic>10</Plastic>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_ArcSprayIncinerator</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <warmupTime>0.5</warmupTime>
+                <range>19.9</range>
+                <minRange>5.9</minRange>
+                <beamFullWidthRange>11</beamFullWidthRange>
+                <burstShotCount>25</burstShotCount>
+                <showBurstShotStats>false</showBurstShotStats>
+                <requireLineOfSight>true</requireLineOfSight>
+                <beamWidth>6</beamWidth>
+                <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+                <beamDamageDef>Flame</beamDamageDef>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+                <soundCastBeam>Flamethrower_Firing</soundCastBeam>
+                <beamGroundFleckDef>Fleck_IncineratorBeamBurn</beamGroundFleckDef>
+                <beamFleckChancePerTick>0.32</beamFleckChancePerTick>
+                <beamMaxDeviation>0.5</beamMaxDeviation>
+                <beamCurvature>0</beamCurvature>
+                <beamEndEffecterDef>IncineratorBeam_End</beamEndEffecterDef>
+                <beamChanceToStartFire>0.85</beamChanceToStartFire>
+                <beamFireSizeRange>0.55~0.85</beamFireSizeRange>
+                <beamStartOffset>.5</beamStartOffset>
+                <beamHitsNeighborCells>true</beamHitsNeighborCells>
+                <beamCantHitWithinMinRange>true</beamCantHitWithinMinRange>
+                <beamHitsNeighborCellsRequiresLOS>true</beamHitsNeighborCellsRequiresLOS>
+                <beamSetsGroundOnFire>true</beamSetsGroundOnFire>
+                <ai_BeamIsIncendiary>true</ai_BeamIsIncendiary>
+                <beamLineFleckDef>Fleck_IncineratorBeamSmoke</beamLineFleckDef>
+                <highlightColor>(180, 60, 10)</highlightColor>
+                <secondaryHighlightColor>(220, 210, 20)</secondaryHighlightColor>
+                <beamLineFleckChanceCurve>
+                    <points>
+                        <li>(0, 0)</li>
+                        <li>(0.65, 0.02)</li>
+                        <li>(1, .5)</li>
+                    </points>
+                </beamLineFleckChanceCurve>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+                <flammabilityAttachFireChanceCurve>
+                    <points>
+                        <li>(0.6, 0)</li>
+                        <li>(0.7, 0.2)</li>
+                        <li>(1.2, 0.8)</li>
+                    </points>
+                </flammabilityAttachFireChanceCurve>
+                <rangedFireRulepack>Combat_RangedFlamethrower</rangedFireRulepack>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+</Defs>

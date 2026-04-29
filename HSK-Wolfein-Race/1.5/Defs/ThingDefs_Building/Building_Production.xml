@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- 缝纫台 -->
+    <ThingDef ParentName="BenchBase">
+        <defName>Wolfein_Electric_TailoringBench</defName>
+        <label>wolfein electric tailor bench</label>
+        <description>The Wolfein electric sewing station combines advanced technology with traditional tailoring craftsmanship, allowing sewing workers to operate more efficiently.</description>
+        <thingClass>Building_WorkTable</thingClass>
+        <graphicData>
+            <texPath>Wolfein/Building/Workbenches/ElectricTailoringBench</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3.95, 4.15)</drawSize>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <castEdgeShadows>true</castEdgeShadows>
+        <staticSunShadowHeight>0.20</staticSunShadowHeight>
+        <costStuffCount>150</costStuffCount>
+        <costList>
+            <SteelBar>10</SteelBar>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <altitudeLayer>Building</altitudeLayer>
+        <fillPercent>0.5</fillPercent>
+        <useHitPoints>True</useHitPoints>
+        <statBases>
+            <WorkToBuild>3000</WorkToBuild>
+            <MaxHitPoints>250</MaxHitPoints>
+            <Flammability>1.0</Flammability>
+        </statBases>
+        <size>(3,1)</size>
+        <designationCategory>Production</designationCategory>
+        <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+        <passability>PassThroughOnly</passability>
+        <pathCost>50</pathCost>
+        <hasInteractionCell>True</hasInteractionCell>
+        <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+        <surfaceType>Item</surfaceType>
+        <designationHotKey>Misc12</designationHotKey>
+        <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+        <inspectorTabs>
+            <li>ITab_Bills</li>
+        </inspectorTabs>
+        <building>
+            <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+            <unpoweredWorkTableWorkSpeedFactor>0.5</unpoweredWorkTableWorkSpeedFactor>
+        </building>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <shortCircuitInRain>true</shortCircuitInRain>
+                <basePowerConsumption>140</basePowerConsumption>
+            </li>
+            <li Class="CompProperties_Flickable" />
+            <li Class="CompProperties_AffectedByFacilities">
+                <linkableFacilities>
+                    <li>ToolCabinet</li>
+                </linkableFacilities>
+            </li>
+            <li Class="CompProperties_Breakdownable" />
+        </comps>
+        <recipes>
+        </recipes>
+        <placeWorkers>
+            <li>PlaceWorker_ShowFacilitiesConnections</li>
+            <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+        </placeWorkers>
+        <researchPrerequisites>
+            <li>Wolfein_Apparel_Basic</li>
+            <li>Electricity</li>
+        </researchPrerequisites>
+    </ThingDef>
+
+    <!-- 工作台 -->
+    <ThingDef ParentName="BenchBase">
+        <defName>Wolfein_TableMachining</defName>
+        <label>Wolfein machining table</label>
+        <description>The Wolfein machining station integrates advanced CNC technology, enabling high-precision processing and manufacturing of complex components, providing Wolfein engineers with a reliable and safe machining platform.</description>
+        <thingClass>Building_WorkTable</thingClass>
+        <graphicData>
+            <texPath>Wolfein/Building/Workbenches/TableMachining</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3.95, 4.15)</drawSize>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <castEdgeShadows>true</castEdgeShadows>
+        <staticSunShadowHeight>0.20</staticSunShadowHeight>
+        <costStuffCount>150</costStuffCount>
+        <costList>
+            <SteelBar>10</SteelBar>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <altitudeLayer>Building</altitudeLayer>
+        <fillPercent>0.5</fillPercent>
+        <useHitPoints>True</useHitPoints>
+        <statBases>
+            <WorkToBuild>3000</WorkToBuild>
+            <MaxHitPoints>250</MaxHitPoints>
+            <Flammability>1.0</Flammability>
+        </statBases>
+        <size>(3,1)</size>
+        <designationCategory>Production</designationCategory>
+        <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+        <passability>PassThroughOnly</passability>
+        <pathCost>50</pathCost>
+        <hasInteractionCell>True</hasInteractionCell>
+        <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+        <surfaceType>Item</surfaceType>
+        <designationHotKey>Misc12</designationHotKey>
+        <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+        <inspectorTabs>
+            <li>ITab_Bills</li>
+        </inspectorTabs>
+        <building>
+            <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+            <unpoweredWorkTableWorkSpeedFactor>0.5</unpoweredWorkTableWorkSpeedFactor>
+        </building>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <shortCircuitInRain>true</shortCircuitInRain>
+                <basePowerConsumption>140</basePowerConsumption>
+            </li>
+            <li Class="CompProperties_Flickable" />
+            <li Class="CompProperties_AffectedByFacilities">
+                <linkableFacilities>
+                    <li>ToolCabinet</li>
+                </linkableFacilities>
+            </li>
+            <li Class="CompProperties_Breakdownable" />
+        </comps>
+        <recipes>
+            <li>Make_ComponentIndustrial</li>
+            <li>Make_ComponentSpacer</li>
+        </recipes>
+        <placeWorkers>
+            <li>PlaceWorker_ShowFacilitiesConnections</li>
+            <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+        </placeWorkers>
+        <researchPrerequisites>
+            <li>Wolfein_Industrial_production</li>
+            <li>Electricity</li>
+        </researchPrerequisites>
+    </ThingDef>
+
+    <!-- 工作台 -->
+    <ThingDef ParentName="BenchBase">
+        <defName>Wolfein_ReverseResearchBench</defName>
+        <label>Reverse engineering bench</label>
+        <description>A workstation designed to bypass the heavy security protocols on MegaCorp mech units in order to extract their core components. It can also be used to craft equipment hidden behind encrypted disk drives.</description>
+        <thingClass>Building_WorkTable</thingClass>
+        <graphicData>
+            <texPath>Wolfein/Building/Workbenches/ReverseResearchBench</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3.95, 4.15)</drawSize>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <castEdgeShadows>true</castEdgeShadows>
+        <staticSunShadowHeight>0.20</staticSunShadowHeight>
+        <costStuffCount>150</costStuffCount>
+        <costList>
+            <SteelBar>10</SteelBar>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <altitudeLayer>Building</altitudeLayer>
+        <fillPercent>0.5</fillPercent>
+        <useHitPoints>True</useHitPoints>
+        <statBases>
+            <WorkToBuild>3000</WorkToBuild>
+            <MaxHitPoints>250</MaxHitPoints>
+            <Flammability>1.0</Flammability>
+        </statBases>
+        <size>(3,1)</size>
+        <designationCategory>Production</designationCategory>
+        <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+        <passability>PassThroughOnly</passability>
+        <pathCost>50</pathCost>
+        <hasInteractionCell>True</hasInteractionCell>
+        <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+        <surfaceType>Item</surfaceType>
+        <designationHotKey>Misc12</designationHotKey>
+        <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+        <inspectorTabs>
+            <li>ITab_Bills</li>
+        </inspectorTabs>
+        <building>
+            <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+            <unpoweredWorkTableWorkSpeedFactor>0.5</unpoweredWorkTableWorkSpeedFactor>
+        </building>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <shortCircuitInRain>true</shortCircuitInRain>
+                <basePowerConsumption>140</basePowerConsumption>
+            </li>
+            <li Class="CompProperties_Flickable" />
+            <li Class="CompProperties_AffectedByFacilities">
+                <linkableFacilities>
+                    <li>ToolCabinet</li>
+                </linkableFacilities>
+            </li>
+            <li Class="CompProperties_Breakdownable" />
+        </comps>
+        <recipes>
+        </recipes>
+        <placeWorkers>
+            <li>PlaceWorker_ShowFacilitiesConnections</li>
+            <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+        </placeWorkers>
+        <researchPrerequisites>
+            <li>Wolfein_Industrial_production</li>
+            <li>Electricity</li>
+        </researchPrerequisites>
+    </ThingDef>
+</Defs>

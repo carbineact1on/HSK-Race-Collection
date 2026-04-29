@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein artificial ear -->
+  <Wolfein_ArtificialEar.label>沃芬人工假狼耳</Wolfein_ArtificialEar.label>
+  <!-- EN: A rudimentary Wolfein bionic ear, suitable only for temporary use. -->
+  <Wolfein_ArtificialEar.description>一隻簡陋的沃芬族仿生耳朵，僅適用於臨時使用。</Wolfein_ArtificialEar.description>
+  
+  <!-- EN: Wolfein artificial tail -->
+  <Wolfein_ArtificialTail.label>沃芬人工假狼尾</Wolfein_ArtificialTail.label>
+  <!-- EN: A temporary Wolfein bionic tail, at least better than none. -->
+  <Wolfein_ArtificialTail.description>一條臨時的沃芬族仿生尾巴，至少比沒有要好。</Wolfein_ArtificialTail.description>
+  
+  <!-- EN: Wolfein bionic ear -->
+  <Wolfein_BionicEar.label>沃芬仿生狼耳</Wolfein_BionicEar.label>
+  <!-- EN: A Wolfein bionic ear, which looks exactly like a real wolf's ear, provides the user with clearer and more accurate sound perception. -->
+  <Wolfein_BionicEar.description>一隻沃芬族的仿生耳朵，看起來與真實的狼耳一模一樣，能夠為使用者提供更加清晰、準確的聲音感知。</Wolfein_BionicEar.description>
+  
+  <!-- EN: Wolfein bionic tail -->
+  <Wolfein_BionicTail.label>沃芬仿生狼尾</Wolfein_BionicTail.label>
+  <!-- EN: A Wolfein bionic tail that enhances the user's mobility and coordination, providing greater stability while walking or running. -->
+  <Wolfein_BionicTail.description>一條沃芬族的仿生尾巴，可以提高使用者的運動效能和協調能力，使其在行走和奔跑時更加穩定。</Wolfein_BionicTail.description>
+  
+  <!-- EN: Wolfein combat mech ear -->
+  <Wolfein_CombatBionicEar.label>沃芬戰鬥機械狼耳</Wolfein_CombatBionicEar.label>
+  <!-- EN: Highly optimized mechanical auditory devices, equipped with directional detection and noise filtering functions. Commonly used for reconnaissance, night operations, and urban warfare missions. -->
+  <Wolfein_CombatBionicEar.description>高度優化的機械化聽覺裝置，具備方向捕捉與噪聲過濾功能。常用於偵察、夜戰與城市作戰任務。</Wolfein_CombatBionicEar.description>
+  
+  <!-- EN: Wolfein combat mech tail -->
+  <Wolfein_CombatBionicTail.label>沃芬戰鬥機械狼尾</Wolfein_CombatBionicTail.label>
+  <!-- EN: A mechanical metal tail composed of multiple joints, designed for powerful attacks and flexible manipulation. It is specifically built for close-quarters combat and high-mobility tasks. -->
+  <Wolfein_CombatBionicTail.description>一條由多關節構成的機械金屬尾巴，具備強力攻擊與靈活操控能力。專為近戰作戰和高機動性任務設計。</Wolfein_CombatBionicTail.description>
+    
+  <!-- EN: Wolfein heavy gear augmentation -->
+  <Wolfein_HeavyGearAugmentation.label>沃芬重型裝備適配改造</Wolfein_HeavyGearAugmentation.label>
+  <!-- EN: The war between the Wolfein and the mechanoids has spanned two administrations. The prolonged conflict and resulting manpower shortages forced MegaCorp』s old aristocrats and newly risen commanders to jointly decide on developing mechanoids specifically for the Wolfein. Despite extensive loyalty tests and large-scale deployments, the board remained concerned about potential mechanoid uprisings, leading to the consensus to form a secret police force to handle possible rebellions and dissenters. The Heavy Gear Augmentation was established for this force, cybernetically enhancing the Wolfein』s limbs and spine with high-powered motors, granting them superhuman strength and load-bearing capability, and finally making single-soldier, oversized weapons—once only a fantasy—viable in actual combat. -->
+  <Wolfein_HeavyGearAugmentation.description>沃芬族與機械族的戰爭持續了兩屆政權。長期戰爭造成的人力缺口迫使軍企內部的舊貴族與新晉將領聯合決策，開發沃芬專用機械體。儘管經過大量忠誠度測試和大規模部署，董事會仍對機械體可能叛亂心存憂慮，因此組建一支秘密警察部隊以應對潛在叛亂和異見成為共識。重型裝備適配改造專案正是為該部隊而設，通過義體化沃芬的四肢與脊椎，並內建大功率電機，為改造者提供超常力量與負重能力，使原本只存在於幻想中的單兵超規格武器得以投入實戰。
+  安裝該仿生體后將禁用以下工作型別：醫生，馴獸，烹飪，種植，割除，藝術，清潔，研究，保育，暗黑調查，釣魚。</Wolfein_HeavyGearAugmentation.description>
+  
+  <!-- EN: Wolfein light heavy gear augmentation -->
+  <Wolfein_HeavyGearAugmentationLight.label>沃芬重型裝備輕量化適配改造</Wolfein_HeavyGearAugmentationLight.label>
+  <!-- EN: The Lightweight Heavy Gear Augmentation Module differs from the standard version: its lower-limb prosthetics are designed to closely resemble those of a normal Wolfein, nearly indistinguishable at a glance. However, as a result, the augmented individual』s limb strength is comparatively weaker than that of a standard augmentation. -->
+  <Wolfein_HeavyGearAugmentationLight.description>重型裝備輕量化適配改造元件與標準版不同，採用的下肢義體外表若不細看，與普通沃芬的下肢幾乎沒有任何區別，但也因此，改造者的四肢力量相對標準改造更差。
+  安裝該仿生體后將禁用以下工作型別：醫生，種植，割除，藝術，保育。</Wolfein_HeavyGearAugmentationLight.description>
+
+  <!-- EN: Wolfein mechinal leg -->
+  <Wolfein_MechinalLeg.label>沃芬機械義腿</Wolfein_MechinalLeg.label>
+  <!-- EN: A pre-installed military-grade prosthetic limb manufactured by the MegaCorp, equipped with stable gait support and basic power-assisted movement. Designed for use across various terrains and combat environments. -->
+  <Wolfein_MechinalLeg.description>一條已經安裝好的由軍企製造的軍工級義肢，具備穩定步態支援與基礎動力輔助。適用於多種地形與作戰環境。</Wolfein_MechinalLeg.description>
+  
+  <!-- EN: Wolfein metal claw -->
+  <Wolfein_MetalClaw.label>沃芬金屬指爪</Wolfein_MetalClaw.label>
+  <!-- EN: A modified bionic body designed for close combat, featuring metal retractable claws with excellent piercing ability, allowing the user to strike quickly and unexpectedly. -->
+  <Wolfein_MetalClaw.description>適用於近身搏鬥的改造仿生體，其金屬材質的伸縮指甲具有強大的刺擊能力，可以讓使用者能夠快速且出其不意地攻擊對手。</Wolfein_MetalClaw.description>
+  
+</LanguageData>

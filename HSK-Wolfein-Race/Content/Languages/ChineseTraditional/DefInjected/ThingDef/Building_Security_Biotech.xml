@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein Laser Turret -->
+  <Wolfein_Turret_C.label>沃芬族鐳射炮塔</Wolfein_Turret_C.label>
+  <!-- EN: Equipped with a powerful energy emitter, this turret excels at eliminating organic threats with precision beams. A built-in cooldown system prevents the barrel from melting down after each burst. -->
+  <Wolfein_Turret_C.description>炮塔底座上配置的大型鐳射器對有機質效果極佳，炮塔每次掃射間需要一段時間來冷卻鐳射器防止融毀。</Wolfein_Turret_C.description>
+  <!-- EN: Barrel durability -->
+  <Wolfein_Turret_C.comps.CompRefuelable.fuelGizmoLabel>炮管耐用度</Wolfein_Turret_C.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until barrel change -->
+  <Wolfein_Turret_C.comps.CompRefuelable.fuelLabel>直到更換炮管為止的射擊次數</Wolfein_Turret_C.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Needs new barrel -->
+  <Wolfein_Turret_C.comps.CompRefuelable.outOfFuelMessage>需要新炮管</Wolfein_Turret_C.comps.CompRefuelable.outOfFuelMessage>
+  
+  <!-- EN: Wolfein Laser Turret -->
+  <Wolfein_TurretGun_C.label>沃芬族鐳射炮塔</Wolfein_TurretGun_C.label>
+  <!-- EN: Equipped with a powerful energy emitter, this turret excels at eliminating organic threats with precision beams. A built-in cooldown system prevents the barrel from melting down after each burst. -->
+  <Wolfein_TurretGun_C.description>炮塔底座上配置的大型鐳射器對有機質效果極佳，炮塔每次掃射間需要一段時間來冷卻鐳射器防止融毀。</Wolfein_TurretGun_C.description>
+  <!-- EN: Wolfein Laser Turret -->
+  <Wolfein_TurretGun_C.verbs.Verb_ShootBeam.label>沃芬族鐳射炮塔</Wolfein_TurretGun_C.verbs.Verb_ShootBeam.label>
+  
+</LanguageData>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <QuestScriptDef>
+    <defName>Wolfein_MegaCropMechDeserter</defName>
+    <defaultChallengeRating>3</defaultChallengeRating>
+    <minRefireDays>300</minRefireDays>
+    <expireDaysRange>0.5~1</expireDaysRange>
+    <rootSelectionWeight>1.5</rootSelectionWeight>
+    <rootMinPoints>500</rootMinPoints>
+    <questNameRules>
+      <rulesStrings>
+        <li>questName->Defector</li>
+      </rulesStrings>
+    </questNameRules>
+    <questDescriptionRules>
+      <rulesStrings>
+        <li>questDescription->A deserter from the Megacorp is contacting us near the colony. She is currently wanted for sabotage and theft of critical Megacorp assets. [Deserter0_nameDef] seeks our protection and is willing to join the colony in service to us. She also claims to possess important information related to advanced equipment from the Wolfein royal era, as well as other valuable Megacorp assets, and is willing to share them with us.
+
+            Be advised: the Wolfein Megacorp will not tolerate the loss of its critical assets. Should we choose to shelter [Deserter0_nameDef], the Megacorp will undoubtedly declare us an enemy, and their forces will immediately launch an assault on our colony.</li>
+      </rulesStrings>
+    </questDescriptionRules>
+    <root Class="QuestNode_Sequence">
+      <nodes>
+
+        <li Class="QuestNode_GetMap" />
+
+        <li Class="QuestNode_GetWalkInSpot" />
+
+        <li Class="QuestNode_GeneratePawn">
+          <kindDef>Wolfein_MegaCorpGuardDeserter</kindDef>
+          <faction>Wolfein_Faction_MegaCorp</faction>
+          <addToList>Deserter</addToList>
+          <allowAddictions>false</allowAddictions>
+          <biocodeWeaponChance>0</biocodeWeaponChance>
+          <biocodeApparelChance>0</biocodeApparelChance>
+          <allowPregnant>false</allowPregnant>
+        </li>
+
+        <li Class="QuestNode_Set">
+          <name>delayTicks</name>
+          <value>$(roundToTicksRough(randInt(300,600)))</value>
+        </li>
+        <li Class="QuestNode_Delay">
+          <delayTicks>$delayTicks</delayTicks>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+              <li Class="QuestNode_PawnsArrive">
+                <pawns>$Deserter</pawns>
+                <arrivalMode>EdgeWalkIn</arrivalMode>
+                <joinPlayer>true</joinPlayer>
+              </li>
+            </nodes>
+          </node>
+        </li>
+
+
+        <li Class="Wolfein.QuestNode_GetFaction">
+          <storeAs>faction</storeAs>
+          <factionDef>Wolfein_Faction_MegaCorp</factionDef>
+        </li>
+
+        <li Class="QuestNode_QuestUnique">
+          <tag>Wolfein_MegaCropMechDeserter</tag>
+          <faction>$faction</faction>
+        </li>
+
+        <li Class="QuestNode_Delay">
+          <delayTicks>$(roundToTicksRough(randInt(1000,1200)))</delayTicks>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+              <li Class="QuestNode_Letter">
+                <label>Purge Order</label>
+                <text>The Megacorp mechanical forces have received orders to carry out a purge operation against the colony harboring the defector. Lethal force is fully authorized. Regardless of evacuation attempts, both the colony and the defector are to be treated as targets for elimination.</text>
+                <lookTargets>$Deserter</lookTargets>
+                <letterDef>ThreatBig</letterDef>
+              </li>
+              <li Class="Wolfein.QuestNode_FactionGoodwillAffect">
+                <faction>$faction</faction>
+                <historyEvent>Wolfein_ServeRebels</historyEvent>
+                <goodwill>-200</goodwill>
+              </li>
+            </nodes>
+          </node>
+        </li>
+
+        <li Class="QuestNode_SubScript">
+          <def>Wolfein_Util_MegaCropMechRaidWaves</def>
+          <parms>
+            <pointsFactor>0.6</pointsFactor>
+            <waveSecondPoints>2000</waveSecondPoints>
+            <waveThirdPoints>4000</waveThirdPoints>
+          </parms>
+        </li>
+
+        <li Class="QuestNode_Set">
+          <name>endTicks</name>
+          <value>$(roundToTicksRough(randInt(12200,12500)))</value>
+        </li>
+        <li Class="QuestNode_Delay">
+          <delayTicks>$endTicks</delayTicks>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+              <li Class="QuestNode_End">
+                <outcome>Success</outcome>
+              </li>
+            </nodes>
+          </node>
+        </li>
+
+        
+
+      </nodes>
+    </root>
+  </QuestScriptDef>
+
+</Defs>

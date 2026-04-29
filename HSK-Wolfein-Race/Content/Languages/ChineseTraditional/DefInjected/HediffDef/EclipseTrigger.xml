@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein Eclipse Trigger -->
+  <Wolfein_EclipseTrigger.label>月蝕激發劑</Wolfein_EclipseTrigger.label>
+  <!-- EN: Enhances physical capabilities, heightens perception, and boosts reaction speed. The effects last for 24 hours, after which the user enters a recovery phase marked by significant physical and mental fatigue. -->
+  <Wolfein_EclipseTrigger.description>身體能力提升，感知與反應速度增強。效果持續24小時，之後將進入恢復期，表現出體力與精神的顯著衰退。</Wolfein_EclipseTrigger.description>
+  <!-- EN: a go-juice high -->
+  <Wolfein_EclipseTrigger.labelNoun>興奮期</Wolfein_EclipseTrigger.labelNoun>
+  <!-- EN: New Moon Phase -->
+  <Wolfein_EclipseTrigger.stages.New_Moon_Phase.label>新月期</Wolfein_EclipseTrigger.stages.New_Moon_Phase.label>
+  <!-- EN: Full Moon Phase -->
+  <Wolfein_EclipseTrigger.stages.Full_Moon_Phase.label>滿月期</Wolfein_EclipseTrigger.stages.Full_Moon_Phase.label>
+  
+</LanguageData>

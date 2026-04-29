@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: longbow arrow -->
+  <W_Arrow.label>長箭</W_Arrow.label>
+  
+  <!-- EN: Wolfein Grenade Launcher Bullet -->
+  <W_Bullet_Grenade.label>榴彈</W_Bullet_Grenade.label>
+  
+  <!-- EN: High-Accuracy Cannon — AP round -->
+  <W_Bullet_HighAccuracyCannonAP.label>高精度狙擊炮穿甲彈</W_Bullet_HighAccuracyCannonAP.label>
+  
+  <!-- EN: High-Accuracy Cannon — HE round -->
+  <W_Bullet_HighAccuracyCannonHE.label>高精度狙擊炮高爆彈</W_Bullet_HighAccuracyCannonHE.label>
+  
+  <!-- EN: Wolfein Large Homemade Bullet -->
+  <W_Bullet_HomemadeLarge.label>土質重型子彈</W_Bullet_HomemadeLarge.label>
+  
+  <!-- EN: Wolfein Medium Homemade Bullet -->
+  <W_Bullet_HomemadeMedium.label>土質中型子彈</W_Bullet_HomemadeMedium.label>
+  
+  <!-- EN: Wolfein Small homemade Bullet -->
+  <W_Bullet_HomemadeSmall.label>土質輕型子彈</W_Bullet_HomemadeSmall.label>
+  
+  <!-- EN: Wolfein Large Caliber Bullet -->
+  <W_Bullet_Large.label>重型子彈</W_Bullet_Large.label>
+  
+  <!-- EN: Wolfein Medium Caliber Bullet -->
+  <W_Bullet_Medium.label>中型子彈</W_Bullet_Medium.label>
+  
+  <!-- EN: Wolfein Laser Bullet -->
+  <W_Bullet_MediumLaser.label>鐳射彈</W_Bullet_MediumLaser.label>
+  
+  <!-- EN: Wolfein Laser Bullet -->
+  <W_Bullet_MediumLaserII.label>鐳射彈</W_Bullet_MediumLaserII.label>
+  
+  <!-- EN: Wolfein Missile -->
+  <W_Bullet_Missile.label>導彈</W_Bullet_Missile.label>
+  
+  <!-- EN: Electromagnetic crossbow -->
+  <W_Bullet_PrototypeRailBalista.label>電磁弩箭</W_Bullet_PrototypeRailBalista.label>
+  
+  <!-- EN: Electromagnetic crossbow -->
+  <W_Bullet_PrototypeRailBalistaTriple.label>電磁弩箭</W_Bullet_PrototypeRailBalistaTriple.label>
+  
+  <!-- EN: Wolfein Shrapnel -->
+  <W_Bullet_Shrapnel.label>彈片</W_Bullet_Shrapnel.label>
+  
+  <!-- EN: Wolfein Small Caliber Bullet -->
+  <W_Bullet_Small.label>輕型子彈</W_Bullet_Small.label>
+  
+  <!-- EN: Wolfein Taser Gun Bullet -->
+  <W_Bullet_TaserGun.label>電擊槍針</W_Bullet_TaserGun.label>
+  <!-- EN: Wolfein Taser Gun Bullet. -->
+  <W_Bullet_TaserGun.description>電擊槍針</W_Bullet_TaserGun.description>
+  
+  <!-- EN: Wolfein Large Charge Bullet -->
+  <W_ChargeBullet_Large.label>重型電荷子彈</W_ChargeBullet_Large.label>
+  
+  <!-- EN: Wolfein Medium Charge Bullet -->
+  <W_ChargeBullet_Medium.label>中型電荷子彈</W_ChargeBullet_Medium.label>
+  
+  <!-- EN: Wolfein Medium Charge Bullet -->
+  <W_ChargeBullet_Medium_EMP.label>中型emp電荷子彈</W_ChargeBullet_Medium_EMP.label>
+  
+  <!-- EN: Wolfein Charge Shrapnel -->
+  <W_ChargeBullet_Shrapnel.label>電荷彈片</W_ChargeBullet_Shrapnel.label>
+  
+  <!-- EN: Wolfein Small Charge Bullet -->
+  <W_ChargeBullet_Small.label>輕型電荷子彈</W_ChargeBullet_Small.label>
+  
+  <!-- EN: Wolfein AIPT Stun Rifle -->
+  <W_Weapon_AR_AIPTStungun.label>沃芬AIPT高斯步槍</W_Weapon_AR_AIPTStungun.label>
+  <!-- EN: A MegaCorp experimental weapon that uses electromagnetic force between rails to accelerate projectiles to incredible speeds, designed to destroy anomalous objects. The specially designed projectiles are capable of causing temporary disorientation to the target upon impact. -->
+  <W_Weapon_AR_AIPTStungun.description>軍企試驗型武器，通過導軌間的電磁力將彈丸加速到不可思議的速度以擊毀異常物體。同時特製的彈丸在擊中目標後足以使目標眩暈一段時間。</W_Weapon_AR_AIPTStungun.description>
+  <!-- EN: stock -->
+  <W_Weapon_AR_AIPTStungun.tools.stock.label>槍托</W_Weapon_AR_AIPTStungun.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_AR_AIPTStungun.tools.barrel.label>槍管</W_Weapon_AR_AIPTStungun.tools.barrel.label>
+  <!-- EN: Wolfein AIPT Stun Rifle -->
+  <W_Weapon_AR_AIPTStungun.verbs.Verb_Shoot.label>沃芬AIPT高斯步槍</W_Weapon_AR_AIPTStungun.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Military Assault Rifle -->
+  <W_Weapon_AR_AssaultRifle.label>沃芬族突擊步槍</W_Weapon_AR_AssaultRifle.label>
+  <!-- EN: A multi-role combat system engineered for diverse tactical environments, achieving optimal balance between effective range, shot grouping consistency, and cyclic rate, complemented by high-capacity magazine options. -->
+  <W_Weapon_AR_AssaultRifle.description>多功能設計，適用於各種戰術環境，平衡了射程、精準度和射速的需求，並且可以配備較多的彈藥量。</W_Weapon_AR_AssaultRifle.description>
+  <!-- EN: stock -->
+  <W_Weapon_AR_AssaultRifle.tools.stock.label>槍托</W_Weapon_AR_AssaultRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_AR_AssaultRifle.tools.barrel.label>槍管</W_Weapon_AR_AssaultRifle.tools.barrel.label>
+  <!-- EN: Wolfein Military Assault Rifle -->
+  <W_Weapon_AR_AssaultRifle.verbs.Verb_Shoot.label>沃芬族突擊步槍</W_Weapon_AR_AssaultRifle.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Military Carbine Gun -->
+  <W_Weapon_AR_Carbine.label>沃芬族卡賓槍</W_Weapon_AR_Carbine.label>
+  <!-- EN: A versatile combat solution for wilderness operations and urban warfare, delivering balanced ballistic profile with enhanced barrel harmonics for mid-range precision and controlled stopping power. -->
+  <W_Weapon_AR_Carbine.description>一種適用於野外或城市內作戰的通用武器，它有不錯的威力，不俗的射程和良好的精確性。</W_Weapon_AR_Carbine.description>
+  <!-- EN: stock -->
+  <W_Weapon_AR_Carbine.tools.stock.label>槍托</W_Weapon_AR_Carbine.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_AR_Carbine.tools.barrel.label>槍管</W_Weapon_AR_Carbine.tools.barrel.label>
+  <!-- EN: Wolfein Military Carbine Gun -->
+  <W_Weapon_AR_Carbine.verbs.Verb_Shoot.label>沃芬族卡賓槍</W_Weapon_AR_Carbine.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Charge Assault Rifle -->
+  <W_Weapon_AR_ChargeAssaultRifle.label>沃芬族電荷突擊步槍</W_Weapon_AR_ChargeAssaultRifle.label>
+  <!-- EN: Utilizes charge-cell technology, equipped with a precision targeting system and stable firing performance, commonly deployed by MegaCorp tactical task forces. -->
+  <W_Weapon_AR_ChargeAssaultRifle.description>使用了電荷彈科技，配備了精密瞄準系統，且擁有穩定射擊效能，常見於軍企的特遣機動隊。</W_Weapon_AR_ChargeAssaultRifle.description>
+  <!-- EN: stock -->
+  <W_Weapon_AR_ChargeAssaultRifle.tools.stock.label>槍托</W_Weapon_AR_ChargeAssaultRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_AR_ChargeAssaultRifle.tools.barrel.label>槍管</W_Weapon_AR_ChargeAssaultRifle.tools.barrel.label>
+  <!-- EN: Wolfein Charge Assault Rifle -->
+  <W_Weapon_AR_ChargeAssaultRifle.verbs.Verb_Shoot.label>沃芬族電荷突擊步槍</W_Weapon_AR_ChargeAssaultRifle.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Charge Combat Rifle -->
+  <W_Weapon_AR_ChargeCombatRifle.label>沃芬族電荷戰鬥步槍</W_Weapon_AR_ChargeCombatRifle.label>
+  <!-- EN: This weapon utilizes charge-cell ammunition to deliver superior firepower and extended range compared to standard assault rifles, but trades these advantages for significant recoil and reduced magazine capacity. -->
+  <W_Weapon_AR_ChargeCombatRifle.description>這種武器可以發射高脈衝能量子彈，相比普通的突擊步槍它擁有更高的威力與射程，但與之帶來的則是較高的後坐力和更少的彈容量。</W_Weapon_AR_ChargeCombatRifle.description>
+  <!-- EN: stock -->
+  <W_Weapon_AR_ChargeCombatRifle.tools.stock.label>槍托</W_Weapon_AR_ChargeCombatRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_AR_ChargeCombatRifle.tools.barrel.label>槍管</W_Weapon_AR_ChargeCombatRifle.tools.barrel.label>
+  <!-- EN: Wolfein Charge Combat Rifle -->
+  <W_Weapon_AR_ChargeCombatRifle.verbs.Verb_Shoot.label>沃芬族電荷戰鬥步槍</W_Weapon_AR_ChargeCombatRifle.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Homemade Rifle -->
+  <W_Weapon_AR_HomemadeRifle.label>沃芬族土製突擊步槍</W_Weapon_AR_HomemadeRifle.label>
+  <!-- EN: A rough-hewn weapon crafted from scrap materials, retaining core firing functionality though its crude manufacturing process compromises accuracy and effective range compared to industrial-grade rifles. -->
+  <W_Weapon_AR_HomemadeRifle.description>一把由隨處可見的材料製成的粗糙武器，但是具有基本的射擊功能。由於製作工藝簡單，精度和射程可能不如工業製造的步槍。</W_Weapon_AR_HomemadeRifle.description>
+  <!-- EN: stock -->
+  <W_Weapon_AR_HomemadeRifle.tools.stock.label>槍托</W_Weapon_AR_HomemadeRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_AR_HomemadeRifle.tools.barrel.label>槍管</W_Weapon_AR_HomemadeRifle.tools.barrel.label>
+  <!-- EN: Wolfein Homemade Rifle -->
+  <W_Weapon_AR_HomemadeRifle.verbs.Verb_Shoot.label>沃芬族土製突擊步槍</W_Weapon_AR_HomemadeRifle.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Rebel Assault Rifle -->
+  <W_Weapon_AR_RebelAssaultRifle.label>沃芬族抵抗軍突擊步槍</W_Weapon_AR_RebelAssaultRifle.label>
+  <!-- EN: The primary standard-issue weapon of the Wolfein Resistance, featuring a modular composite construction and an adaptive gas system, ensuring stability in all-terrain combat and compatibility with multiple types of ammunition. -->
+  <W_Weapon_AR_RebelAssaultRifle.description>沃芬抵抗軍主力制式武器，採用模組化複合材質與自適應導氣系統，兼顧全地形作戰穩定性與多型別彈藥相容性。</W_Weapon_AR_RebelAssaultRifle.description>
+  <!-- EN: stock -->
+  <W_Weapon_AR_RebelAssaultRifle.tools.stock.label>槍托</W_Weapon_AR_RebelAssaultRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_AR_RebelAssaultRifle.tools.barrel.label>槍管</W_Weapon_AR_RebelAssaultRifle.tools.barrel.label>
+  <!-- EN: Wolfein Rebel Assault Rifle -->
+  <W_Weapon_AR_RebelAssaultRifle.verbs.Verb_Shoot.label>沃芬族抵抗軍突擊步槍</W_Weapon_AR_RebelAssaultRifle.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Charge Rapid-Fire Pistol -->
+  <W_Weapon_HG_ChargeRapidFirePistol.label>沃芬族電荷速射手槍</W_Weapon_HG_ChargeRapidFirePistol.label>
+  <!-- EN: MegaCorp-issued sidearm for armed forces, integrating charge-cell technology to unleash rapid bursts of high-pulse energy projectiles with armor-shredding capability. -->
+  <W_Weapon_HG_ChargeRapidFirePistol.description>配備給軍企武裝部隊的速射手槍，這種手槍融合了電荷彈科技，能夠快速的發射高脈衝能量子彈。</W_Weapon_HG_ChargeRapidFirePistol.description>
+  <!-- EN: grip -->
+  <W_Weapon_HG_ChargeRapidFirePistol.tools.grip.label>握把</W_Weapon_HG_ChargeRapidFirePistol.tools.grip.label>
+  <!-- EN: barrel -->
+  <W_Weapon_HG_ChargeRapidFirePistol.tools.barrel.label>槍管</W_Weapon_HG_ChargeRapidFirePistol.tools.barrel.label>
+  <!-- EN: Wolfein Charge Rapid-Fire Pistol -->
+  <W_Weapon_HG_ChargeRapidFirePistol.verbs.Verb_Shoot.label>沃芬族電荷速射手槍</W_Weapon_HG_ChargeRapidFirePistol.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Heavy Pistol -->
+  <W_Weapon_HG_HeavyPistol.label>沃芬族重型手槍</W_Weapon_HG_HeavyPistol.label>
+  <!-- EN: A rarely encountered high-caliber sidearm manufactured by MegaCorp, delivering exceptional firepower at the cost of poor ergonomics and punishing recoil. -->
+  <W_Weapon_HG_HeavyPistol.description>一種比較少見的由軍企製造的大口徑高威力重型手槍，但操作性較差。</W_Weapon_HG_HeavyPistol.description>
+  <!-- EN: grip -->
+  <W_Weapon_HG_HeavyPistol.tools.grip.label>握把</W_Weapon_HG_HeavyPistol.tools.grip.label>
+  <!-- EN: barrel -->
+  <W_Weapon_HG_HeavyPistol.tools.barrel.label>槍管</W_Weapon_HG_HeavyPistol.tools.barrel.label>
+  <!-- EN: Wolfein Heavy Pistol -->
+  <W_Weapon_HG_HeavyPistol.verbs.Verb_Shoot.label>沃芬族重型手槍</W_Weapon_HG_HeavyPistol.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Homemade Pistol -->
+  <W_Weapon_HG_HomemadePistol.label>沃芬族土製手槍</W_Weapon_HG_HomemadePistol.label>
+  <!-- EN: A crude, single-shot improvised firearm with rudimentary construction. Though vastly inferior to manufactured weapons, its compact design and ease of concealment make it a desperation-sidearm for close-quarter emergencies. -->
+  <W_Weapon_HG_HomemadePistol.description>一把十分簡陋，結構簡單的自製手槍，雖然它遠不如沃芬工業製造的武器，但在一些特定情況下，它仍然可以作為一種簡易的自衛武器。</W_Weapon_HG_HomemadePistol.description>
+  <!-- EN: grip -->
+  <W_Weapon_HG_HomemadePistol.tools.grip.label>槍托</W_Weapon_HG_HomemadePistol.tools.grip.label>
+  <!-- EN: barrel -->
+  <W_Weapon_HG_HomemadePistol.tools.barrel.label>槍管</W_Weapon_HG_HomemadePistol.tools.barrel.label>
+  <!-- EN: Wolfein Homemade Pistol -->
+  <W_Weapon_HG_HomemadePistol.verbs.Verb_Shoot.label>沃芬族土製手槍</W_Weapon_HG_HomemadePistol.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Machine Pistol -->
+  <W_Weapon_HG_MachinePistol.label>沃芬族自動手槍</W_Weapon_HG_MachinePistol.label>
+  <!-- EN: A compact machine pistol optimized for close-quarters engagements, offering full-auto firepower with greater portability than standard submachine guns. -->
+  <W_Weapon_HG_MachinePistol.description>一種適合在近距離作戰的全自動衝鋒手槍，與衝鋒鎗相比更加輕便易用。</W_Weapon_HG_MachinePistol.description>
+  <!-- EN: grip -->
+  <W_Weapon_HG_MachinePistol.tools.grip.label>握把</W_Weapon_HG_MachinePistol.tools.grip.label>
+  <!-- EN: barrel -->
+  <W_Weapon_HG_MachinePistol.tools.barrel.label>槍管</W_Weapon_HG_MachinePistol.tools.barrel.label>
+  <!-- EN: Wolfein Machine Pistol -->
+  <W_Weapon_HG_MachinePistol.verbs.Verb_Shoot.label>沃芬族自動手槍</W_Weapon_HG_MachinePistol.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Pistol -->
+  <W_Weapon_HG_Pistol.label>沃芬族自衛手槍</W_Weapon_HG_Pistol.label>
+  <!-- EN: A sleek, user-friendly pistol commonly issued to Wolfein corporate security and law enforcement personnel, prioritizing reliability in high-stress scenarios. -->
+  <W_Weapon_HG_Pistol.description>這種結構緊湊操作簡單的手槍常見於沃芬族的執法人員與公司職員。</W_Weapon_HG_Pistol.description>
+  <!-- EN: grip -->
+  <W_Weapon_HG_Pistol.tools.grip.label>握把</W_Weapon_HG_Pistol.tools.grip.label>
+  <!-- EN: barrel -->
+  <W_Weapon_HG_Pistol.tools.barrel.label>槍管</W_Weapon_HG_Pistol.tools.barrel.label>
+  <!-- EN: Wolfein Pistol -->
+  <W_Weapon_HG_Pistol.verbs.Verb_Shoot.label>沃芬族自衛手槍</W_Weapon_HG_Pistol.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Rebel Pistol -->
+  <W_Weapon_HG_RebelPistol.label>沃芬族抵抗軍手槍</W_Weapon_HG_RebelPistol.label>
+  <!-- EN: The standard-issue compact semi-automatic sidearm for Wolfein ResistanceArmy, providing reliable rapid-response capability in close-quarters engagements. -->
+  <W_Weapon_HG_RebelPistol.description>沃芬抵抗軍標準配發的緊湊型半自動武器，在近距離遭遇戰中提供可靠的快速反應能力。</W_Weapon_HG_RebelPistol.description>
+  <!-- EN: grip -->
+  <W_Weapon_HG_RebelPistol.tools.grip.label>握把</W_Weapon_HG_RebelPistol.tools.grip.label>
+  <!-- EN: barrel -->
+  <W_Weapon_HG_RebelPistol.tools.barrel.label>槍管</W_Weapon_HG_RebelPistol.tools.barrel.label>
+  <!-- EN: Wolfein Rebel Pistol -->
+  <W_Weapon_HG_RebelPistol.verbs.Verb_Shoot.label>沃芬族抵抗軍手槍</W_Weapon_HG_RebelPistol.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Grenade Launcher -->
+  <W_Weapon_Launcher_GrenadeLauncher.label>沃芬族榴彈發射器</W_Weapon_Launcher_GrenadeLauncher.label>
+  <!-- EN: A portable weapon used by the Wolfein to launch explosive projectiles, offering convenient mobility and formidable blast power, making it the preferred choice for engaging medium-range group targets. -->
+  <W_Weapon_Launcher_GrenadeLauncher.description>這是一種沃芬族用於發射榴彈的攜帶型武器，在需要對付中距離集團目標的時候，方便攜帶且具有強大爆炸威力的它成爲了沃芬族的首選武器。</W_Weapon_Launcher_GrenadeLauncher.description>
+  <!-- EN: stock -->
+  <W_Weapon_Launcher_GrenadeLauncher.tools.stock.label>槍托</W_Weapon_Launcher_GrenadeLauncher.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_Launcher_GrenadeLauncher.tools.barrel.label>槍管</W_Weapon_Launcher_GrenadeLauncher.tools.barrel.label>
+  <!-- EN: Wolfein Grenade Launcher -->
+  <W_Weapon_Launcher_GrenadeLauncher.verbs.Verb_Shoot.label>沃芬族榴彈發射器</W_Weapon_Launcher_GrenadeLauncher.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Taser Gun -->
+  <W_Weapon_Launcher_TaserGun.label>沃芬族電擊槍</W_Weapon_Launcher_TaserGun.label>
+  <!-- EN: A non-lethal weapon utilizing high-voltage electroshock technology to swiftly incapacitate targets, serving as essential equipment for Wolfein security personnel. -->
+  <W_Weapon_Launcher_TaserGun.description>這把低致命武器利用高壓電擊技術，能夠迅速、有效地制服目標，是沃芬族的警備人員的重要裝備。</W_Weapon_Launcher_TaserGun.description>
+  <!-- EN: grip -->
+  <W_Weapon_Launcher_TaserGun.tools.grip.label>握把</W_Weapon_Launcher_TaserGun.tools.grip.label>
+  <!-- EN: barrel -->
+  <W_Weapon_Launcher_TaserGun.tools.barrel.label>槍管</W_Weapon_Launcher_TaserGun.tools.barrel.label>
+  <!-- EN: Wolfein Taser Gun -->
+  <W_Weapon_Launcher_TaserGun.verbs.Verb_Shoot.label>沃芬族電擊槍</W_Weapon_Launcher_TaserGun.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Longbow -->
+  <W_Weapon_Longbow.label>沃芬族長弓</W_Weapon_Longbow.label>
+  <!-- EN: Crafted from meticulously selected wood and imbued with artisan craftsmanship, this traditional weapon pales in effectiveness compared to modern firearms. -->
+  <W_Weapon_Longbow.description>利用精心挑選的木材製成的長弓，儘管其中灌注了工匠不少的心血，但在制式火器的面前也不過爾爾。</W_Weapon_Longbow.description>
+  <!-- EN: limb -->
+  <W_Weapon_Longbow.tools.limb.label>弓身</W_Weapon_Longbow.tools.limb.label>
+  <!-- EN: Wolfein Longbow -->
+  <W_Weapon_Longbow.verbs.Verb_Shoot.label>沃芬族長弓</W_Weapon_Longbow.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Charge Minigun -->
+  <W_Weapon_MG_ChargeMinigun.label>沃芬族電荷速射機槍</W_Weapon_MG_ChargeMinigun.label>
+  <!-- EN: A rapid-fire rotary weapon utilizing charge-cell ammunition to unleash devastating suppressive fire against massed enemies, though requiring extended spin-up and cooldown cycles. -->
+  <W_Weapon_MG_ChargeMinigun.description>能夠發射電荷彈的速射機槍，對集群敵人有著恐怖的壓制力，但是有著較長的預熱與冷卻時間。</W_Weapon_MG_ChargeMinigun.description>
+  <!-- EN: stock -->
+  <W_Weapon_MG_ChargeMinigun.tools.stock.label>槍托</W_Weapon_MG_ChargeMinigun.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_MG_ChargeMinigun.tools.barrel.label>槍管</W_Weapon_MG_ChargeMinigun.tools.barrel.label>
+  <!-- EN: Wolfein Charge Minigun -->
+  <W_Weapon_MG_ChargeMinigun.verbs.Verb_Shoot_Laser.label>沃芬族電荷速射機槍</W_Weapon_MG_ChargeMinigun.verbs.Verb_Shoot_Laser.label>
+  
+  <!-- EN: Wolfein Minigun -->
+  <W_Weapon_MG_Minigun.label>沃芬族轉輪機槍</W_Weapon_MG_Minigun.label>
+  <!-- EN: A high-capacity, rapid-fire support weapon with formidable firepower offset by its cumbersome weight, typically deployed by Wolfein heavy weapons teams to deliver sustained suppressive fire. -->
+  <W_Weapon_MG_Minigun.description>一種火力強大但十分笨重的武器，擁有極佳的載彈量與高射速，在沃芬族武裝部隊中一般由支援兵攜帶以此提供火力支援。</W_Weapon_MG_Minigun.description>
+  <!-- EN: stock -->
+  <W_Weapon_MG_Minigun.tools.stock.label>槍托</W_Weapon_MG_Minigun.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_MG_Minigun.tools.barrel.label>槍管</W_Weapon_MG_Minigun.tools.barrel.label>
+  <!-- EN: Wolfein Minigun -->
+  <W_Weapon_MG_Minigun.verbs.Verb_Shoot.label>沃芬族轉輪機槍</W_Weapon_MG_Minigun.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Rebel Light MachineGun -->
+  <W_Weapon_MG_RebelLightMachineGun.label>沃芬族抵抗軍輕機槍</W_Weapon_MG_RebelLightMachineGun.label>
+  <!-- EN: The backbone weapon for squad fire support in the Wolfein Resistance, featuring an open-belt feed system and a quick-change barrel design to meet the dual tactical needs of mobile assault and static defense. -->
+  <W_Weapon_MG_RebelLightMachineGun.description>沃芬抵抗軍班組火力支援的中堅武器，開放式彈鏈供彈與速換槍管設計，兼顧機動突擊與靜態防禦的雙重戰術需求。</W_Weapon_MG_RebelLightMachineGun.description>
+  <!-- EN: stock -->
+  <W_Weapon_MG_RebelLightMachineGun.tools.stock.label>槍托</W_Weapon_MG_RebelLightMachineGun.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_MG_RebelLightMachineGun.tools.barrel.label>槍管</W_Weapon_MG_RebelLightMachineGun.tools.barrel.label>
+  <!-- EN: Wolfein Rebel Light MachineGun -->
+  <W_Weapon_MG_RebelLightMachineGun.verbs.Verb_Shoot.label>沃芬族抵抗軍輕機槍</W_Weapon_MG_RebelLightMachineGun.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Twin-Charge Minigun -->
+  <W_Weapon_MG_TwinChargeMinigun.label>沃芬族雙聯電荷速射機槍</W_Weapon_MG_TwinChargeMinigun.label>
+  <!-- EN: The project faced wide controversy at launch — cost, mechanical complexity, cooling, and more. But once prototype firing tests began, critics fell silent faster than the target drones went down. -->
+  <W_Weapon_MG_TwinChargeMinigun.description>該專案上馬時遭到了許多非議，例如成本問題、機械複雜度問題、散熱問題等等。但當進入樣槍試射環節后，批評家們嘴巴啞火的速度比靶機倒下速度還快。</W_Weapon_MG_TwinChargeMinigun.description>
+  <!-- EN: stock -->
+  <W_Weapon_MG_TwinChargeMinigun.tools.stock.label>槍托</W_Weapon_MG_TwinChargeMinigun.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_MG_TwinChargeMinigun.tools.barrel.label>槍管</W_Weapon_MG_TwinChargeMinigun.tools.barrel.label>
+  <!-- EN: Wolfein Twin-Charge Minigun -->
+  <W_Weapon_MG_TwinChargeMinigun.verbs.Verb_Shoot_Laser.label>沃芬族雙聯電荷速射機槍</W_Weapon_MG_TwinChargeMinigun.verbs.Verb_Shoot_Laser.label>
+  
+  <!-- EN: Wolfein Missile Launcher -->
+  <W_Weapon_MissileLauncher.label>沃芬族反載具火箭筒</W_Weapon_MissileLauncher.label>
+  <!-- EN: An anti-vehicle rocket launcher capable of tearing through the heavy armor of the Machina. Due to its relatively high cost, its deployment across units remains limited. -->
+  <W_Weapon_MissileLauncher.description>一種專為反載具作戰設計的火箭筒，所發射的火箭彈足以撕裂機械族的重型裝甲。由於成本相對較高，該武器在部隊中的配發率仍有限。</W_Weapon_MissileLauncher.description>
+  <!-- EN: barrel -->
+  <W_Weapon_MissileLauncher.tools.barrel.label>炮筒</W_Weapon_MissileLauncher.tools.barrel.label>
+  <!-- EN: Wolfein Missile Launcher -->
+  <W_Weapon_MissileLauncher.verbs.Verb_Shoot.label>沃芬反載具火箭筒</W_Weapon_MissileLauncher.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Prototype Rail Ballista -->
+  <W_Weapon_PrototypeRailBalista.label>沃芬族試製型電磁弩炮</W_Weapon_PrototypeRailBalista.label>
+  <!-- EN: Projectiles drawn by a bowstring and accelerated by electromagnetic propulsion carry extremely high kinetic energy and penetrating power, allowing them to pierce any armor or flesh along their flight path; at close range or with a favorable angle of incidence they can even tear through and penetrate relatively thin walls. -->
+  <W_Weapon_PrototypeRailBalista.description>由弩弦牽引並經電磁推進加速發射的彈丸攜帶著極高的動能與穿透力，能夠貫穿其飛行路徑上的任何裝甲與軀體；在近距離或入射角有利時，甚至能撕裂並穿透較薄的墻體。</W_Weapon_PrototypeRailBalista.description>
+  <!-- EN: stock -->
+  <W_Weapon_PrototypeRailBalista.tools.stock.label>槍托</W_Weapon_PrototypeRailBalista.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_PrototypeRailBalista.tools.barrel.label>炮管</W_Weapon_PrototypeRailBalista.tools.barrel.label>
+  <!-- EN: Wolfein Prototype Rail Ballista -->
+  <W_Weapon_PrototypeRailBalista.verbs.Verb_Shoot.label>沃芬族試製型電磁弩炮</W_Weapon_PrototypeRailBalista.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Rebel Missile Launcher -->
+  <W_Weapon_RebelMissileLauncher.label>沃芬抵抗軍反載具火箭筒</W_Weapon_RebelMissileLauncher.label>
+  <!-- EN: A makeshift anti-vehicle rocket launcher used by the Resistance. While it lacks the precision and reliability of MegaCorp models, its low cost and simple design make it a genuine threat to armored units. -->
+  <W_Weapon_RebelMissileLauncher.description>抵抗軍自製的反載具火箭筒，雖在精度和穩定性上不及軍企制式型號，但勝在結構簡單、製造成本低廉，足以對載具單位構成實質性威脅。</W_Weapon_RebelMissileLauncher.description>
+  <!-- EN: barrel -->
+  <W_Weapon_RebelMissileLauncher.tools.barrel-0.label>炮筒</W_Weapon_RebelMissileLauncher.tools.barrel-0.label>
+  <!-- EN: barrel -->
+  <W_Weapon_RebelMissileLauncher.tools.barrel-1.label>炮筒</W_Weapon_RebelMissileLauncher.tools.barrel-1.label>
+  <!-- EN: Wolfein Rebel Missile Launcher -->
+  <W_Weapon_RebelMissileLauncher.verbs.Verb_Shoot.label>沃芬抵抗軍反載具火箭筒</W_Weapon_RebelMissileLauncher.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Charge Sniper Rifle -->
+  <W_Weapon_RF_ChargeSniperRifle.label>沃芬族電荷狙擊步槍</W_Weapon_RF_ChargeSniperRifle.label>
+  <!-- EN: A sniper rifle enhanced with charge-round technology, offering exceptional penetration and precision, effectively engaging heavily armored targets at long range. -->
+  <W_Weapon_RF_ChargeSniperRifle.description>在原有狙擊步槍基礎上融合了電荷彈科技，具備極高的穿透力和精確度，可有效打擊遠距離重灌目標。</W_Weapon_RF_ChargeSniperRifle.description>
+  <!-- EN: stock -->
+  <W_Weapon_RF_ChargeSniperRifle.tools.stock.label>槍托</W_Weapon_RF_ChargeSniperRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_RF_ChargeSniperRifle.tools.barrel.label>槍管</W_Weapon_RF_ChargeSniperRifle.tools.barrel.label>
+  <!-- EN: Wolfein Charge Sniper Rifle -->
+  <W_Weapon_RF_ChargeSniperRifle.verbs.Verb_Shoot.label>沃芬族電荷狙擊步槍</W_Weapon_RF_ChargeSniperRifle.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein High-Accuracy Cannon -->
+  <W_Weapon_RF_HighAccuracyCannon.label>沃芬族高精度狙擊炮</W_Weapon_RF_HighAccuracyCannon.label>
+  <!-- EN: In the mechanoid wars, the frontline』s intense demand for single-soldier-portable, high-precision direct-fire weaponry has long plagued MegaCorp』s departments. Although the Wolfein possess greater physical strength than humans, it is clearly insufficient for an individual to bear and operate a large-caliber cannon. The recent successful development of heavy-equipment adaptation kits tailored for the Wolfein has turned the single-soldier high-accuracy cannon—once thought to be mere fantasy—into a practical reality. -->
+  <W_Weapon_RF_HighAccuracyCannon.description>機械族戰爭中，前線對單兵可攜帶的高精度直射火力的強烈需求一直困擾著軍企研發部門，沃芬們的肉體強度雖強於智人種，但顯然不足以單人支撐一門大口徑火炮。而近期針對沃芬族設計的重型裝備適配改造的成功研發，將單兵可攜帶的高精度火炮這一本應只存在於幻想中的武器變為可實現的事實。</W_Weapon_RF_HighAccuracyCannon.description>
+  <!-- EN: stock -->
+  <W_Weapon_RF_HighAccuracyCannon.tools.stock.label>槍托</W_Weapon_RF_HighAccuracyCannon.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_RF_HighAccuracyCannon.tools.barrel.label>炮管</W_Weapon_RF_HighAccuracyCannon.tools.barrel.label>
+  <!-- EN: Wolfein High-Accuracy Cannon -->
+  <W_Weapon_RF_HighAccuracyCannon.verbs.Verb_Shoot.label>沃芬族高精度狙擊炮</W_Weapon_RF_HighAccuracyCannon.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Homemade Bolt-action Rifle -->
+  <W_Weapon_RF_HomemadeBolt-actionRifle.label>沃芬族土製栓動步槍</W_Weapon_RF_HomemadeBolt-actionRifle.label>
+  <!-- EN: A primitive-looking firearm constructed from scavenged materials. Its rudimentary sights maintain basic accuracy, with a stock wrapped in coarse leather. -->
+  <W_Weapon_RF_HomemadeBolt-actionRifle.description>這把栓動步槍外觀原始，由隨處可見的材料製成。瞄具簡陋但仍較準確，槍托包裹著粗糙的皮革。</W_Weapon_RF_HomemadeBolt-actionRifle.description>
+  <!-- EN: stock -->
+  <W_Weapon_RF_HomemadeBolt-actionRifle.tools.stock.label>槍托</W_Weapon_RF_HomemadeBolt-actionRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_RF_HomemadeBolt-actionRifle.tools.barrel.label>槍管</W_Weapon_RF_HomemadeBolt-actionRifle.tools.barrel.label>
+  <!-- EN: Wolfein Homemade Bolt-action Rifle -->
+  <W_Weapon_RF_HomemadeBolt-actionRifle.verbs.Verb_Shoot.label>沃芬族土製栓動步槍</W_Weapon_RF_HomemadeBolt-actionRifle.verbs.Verb_Shoot.label>
+  
+  <!-- UNUSED -->
+  <W_Weapon_RF_Incinerator.verbs.Verb_Shoot.label>沃芬族AIPT制式噴火器</W_Weapon_RF_Incinerator.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Rebel Sniper Rifle -->
+  <W_Weapon_RF_RebelSniperRifle.label>沃芬族抵抗軍狙擊步槍</W_Weapon_RF_RebelSniperRifle.label>
+  <!-- EN: The core long-range precision strike equipment of the Wolfein Resistance, specifically designed for behind-enemy-lines infiltration and high-value target elimination missions. -->
+  <W_Weapon_RF_RebelSniperRifle.description>沃芬抵抗軍遠端精確打擊核心裝備，專為敵後滲透與高價值目標清除任務設計。</W_Weapon_RF_RebelSniperRifle.description>
+  <!-- EN: stock -->
+  <W_Weapon_RF_RebelSniperRifle.tools.stock.label>槍托</W_Weapon_RF_RebelSniperRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_RF_RebelSniperRifle.tools.barrel.label>槍管</W_Weapon_RF_RebelSniperRifle.tools.barrel.label>
+  <!-- EN: Wolfein Rebel Sniper Rifle -->
+  <W_Weapon_RF_RebelSniperRifle.verbs.Verb_Shoot.label>沃芬族抵抗軍狙擊步槍</W_Weapon_RF_RebelSniperRifle.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Sniper Rifle -->
+  <W_Weapon_RF_SniperRifle.label>沃芬族狙擊步槍</W_Weapon_RF_SniperRifle.label>
+  <!-- EN: A weapon specifically engineered by MegaCorp for long-range precision engagements, featuring exceptional accuracy and extended effective range for surgical target elimination. -->
+  <W_Weapon_RF_SniperRifle.description>軍企專為遠距離精準射擊而設計的武器，具有高精準度和遠射程，用於精確打擊目標。</W_Weapon_RF_SniperRifle.description>
+  <!-- EN: stock -->
+  <W_Weapon_RF_SniperRifle.tools.stock.label>槍托</W_Weapon_RF_SniperRifle.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_RF_SniperRifle.tools.barrel.label>槍管</W_Weapon_RF_SniperRifle.tools.barrel.label>
+  <!-- EN: Wolfein Sniper Rifle -->
+  <W_Weapon_RF_SniperRifle.verbs.Verb_Shoot.label>沃芬族狙擊步槍</W_Weapon_RF_SniperRifle.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Automatic Shotgun -->
+  <W_Weapon_SG_AutomaticShotgun.label>沃芬族自動霰彈槍</W_Weapon_SG_AutomaticShotgun.label>
+  <!-- EN: Excels in close-quarters combat with rapid shell ejection capability, delivering wide-area devastation through high-volume buckshot saturation. -->
+  <W_Weapon_SG_AutomaticShotgun.description>在近距離作戰中表現突出，它能夠在短時間內快速發射霰彈，具有較大的殺傷力和火力覆蓋面積。</W_Weapon_SG_AutomaticShotgun.description>
+  <!-- EN: stock -->
+  <W_Weapon_SG_AutomaticShotgun.tools.stock.label>槍托</W_Weapon_SG_AutomaticShotgun.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_SG_AutomaticShotgun.tools.barrel.label>槍管</W_Weapon_SG_AutomaticShotgun.tools.barrel.label>
+  <!-- EN: Wolfein Automatic Shotgun -->
+  <W_Weapon_SG_AutomaticShotgun.verbs.Verb_Shoot.label>沃芬族自動霰彈槍</W_Weapon_SG_AutomaticShotgun.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Charge Automatic Shotgun -->
+  <W_Weapon_SG_ChargeAutomaticShotgun.label>沃芬族電荷自動霰彈槍</W_Weapon_SG_ChargeAutomaticShotgun.label>
+  <!-- EN: An automatic shotgun utilizing charge-round technology, effective against heavily armored targets and ideal for close-quarters suppression combat. -->
+  <W_Weapon_SG_ChargeAutomaticShotgun.description>使用了電荷彈科技的自動霰彈槍，有效對抗重灌目標，適用於近距離壓制作戰。</W_Weapon_SG_ChargeAutomaticShotgun.description>
+  <!-- EN: stock -->
+  <W_Weapon_SG_ChargeAutomaticShotgun.tools.stock.label>槍托</W_Weapon_SG_ChargeAutomaticShotgun.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_SG_ChargeAutomaticShotgun.tools.barrel.label>槍管</W_Weapon_SG_ChargeAutomaticShotgun.tools.barrel.label>
+  <!-- EN: Wolfein Charge Automatic Shotgun -->
+  <W_Weapon_SG_ChargeAutomaticShotgun.verbs.Verb_Shoot.label>沃芬族電荷自動霰彈槍</W_Weapon_SG_ChargeAutomaticShotgun.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Rebel Shotgun -->
+  <W_Weapon_SG_RebelShotgun.label>沃芬族抵抗軍霰彈槍</W_Weapon_SG_RebelShotgun.label>
+  <!-- EN: A specialized breaching weapon for close-quarters combat in the Wolfein Resistance, featuring a compact pump-action mechanism and a jam-resistant rifled barrel design. -->
+  <W_Weapon_SG_RebelShotgun.description>沃芬抵抗軍近接作戰專用破障武器，採用緊湊型泵動結構搭配防卡殼膛線設計。</W_Weapon_SG_RebelShotgun.description>
+  <!-- EN: stock -->
+  <W_Weapon_SG_RebelShotgun.tools.stock.label>槍托</W_Weapon_SG_RebelShotgun.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_SG_RebelShotgun.tools.barrel.label>槍管</W_Weapon_SG_RebelShotgun.tools.barrel.label>
+  <!-- EN: Wolfein Rebel Shotgun -->
+  <W_Weapon_SG_RebelShotgun.verbs.Verb_Shoot.label>沃芬族抵抗軍霰彈槍</W_Weapon_SG_RebelShotgun.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Long Barreled Shotgun -->
+  <W_Weapon_SG_Shotgun.label>沃芬族長管獵槍</W_Weapon_SG_Shotgun.label>
+  <!-- EN: A hunting-oriented scattergun with extended barrel length for tighter pellet spread and increased stopping power, optimized for medium-range engagements. -->
+  <W_Weapon_SG_Shotgun.description>這種霰彈槍具有較長的槍管，適合於狩獵，提供更集中的射擊精度和更高的威力。</W_Weapon_SG_Shotgun.description>
+  <!-- EN: stock -->
+  <W_Weapon_SG_Shotgun.tools.stock.label>槍托</W_Weapon_SG_Shotgun.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_SG_Shotgun.tools.barrel.label>槍管</W_Weapon_SG_Shotgun.tools.barrel.label>
+  <!-- EN: Wolfein Long Barreled Shotgun -->
+  <W_Weapon_SG_Shotgun.verbs.Verb_Shoot.label>沃芬族長管獵槍</W_Weapon_SG_Shotgun.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Charge Submachine Gun -->
+  <W_Weapon_SMG_ChargeSubmachineGun.label>沃芬族電荷衝鋒鎗</W_Weapon_SMG_ChargeSubmachineGun.label>
+  <!-- EN: A compact submachine gun incorporating charge-cell technology, designed for confined spaces with enhanced close-quarters burst potential through rapid energy projectile saturation. -->
+  <W_Weapon_SMG_ChargeSubmachineGun.description>融合了電荷彈科技的緊湊型衝鋒鎗，方便攜帶，適用於狹窄室內的短距離作戰環境，擁有更強的近距離爆發能力。</W_Weapon_SMG_ChargeSubmachineGun.description>
+  <!-- EN: stock -->
+  <W_Weapon_SMG_ChargeSubmachineGun.tools.stock.label>槍托</W_Weapon_SMG_ChargeSubmachineGun.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_SMG_ChargeSubmachineGun.tools.barrel.label>槍管</W_Weapon_SMG_ChargeSubmachineGun.tools.barrel.label>
+  <!-- EN: Wolfein Charge Submachine Gun -->
+  <W_Weapon_SMG_ChargeSubmachineGun.verbs.Verb_Shoot.label>沃芬族電荷衝鋒鎗</W_Weapon_SMG_ChargeSubmachineGun.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Light Submachine Gun -->
+  <W_Weapon_SMG_LightSubmachineGun.label>沃芬族輕型衝鋒鎗</W_Weapon_SMG_LightSubmachineGun.label>
+  <!-- EN: While falling short in range and stopping power compared to standard arms, its compact frame and blistering fire rate make it ideal for close-quarters urban engagements. -->
+  <W_Weapon_SMG_LightSubmachineGun.description>雖然射程與威力稍遜色于其他武器，但是多虧于輕便的設計與高射速，使它非常適合室內作戰。</W_Weapon_SMG_LightSubmachineGun.description>
+  <!-- EN: stock -->
+  <W_Weapon_SMG_LightSubmachineGun.tools.stock.label>槍托</W_Weapon_SMG_LightSubmachineGun.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_SMG_LightSubmachineGun.tools.barrel.label>槍管</W_Weapon_SMG_LightSubmachineGun.tools.barrel.label>
+  <!-- EN: Wolfein Light Submachine Gun -->
+  <W_Weapon_SMG_LightSubmachineGun.verbs.Verb_Shoot.label>沃芬族輕型衝鋒鎗</W_Weapon_SMG_LightSubmachineGun.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Wolfein Rebel Submachine Gun -->
+  <W_Weapon_SMG_RebelSubmachineGun.label>沃芬族抵抗軍衝鋒鎗</W_Weapon_SMG_RebelSubmachineGun.label>
+  <!-- EN: The standard urban guerrilla warfare equipment for Wolfein ResistanceArmy, featuring a short barrel and collapsible stock design to achieve high-rate suppressive fire and rapid tactical repositioning in confined spaces. -->
+  <W_Weapon_SMG_RebelSubmachineGun.description>沃芬抵抗軍城市游擊戰的標準裝備，短槍管配合伸縮式槍托設計，在狹窄環境中實現高射速火力壓制與快速戰術轉移。</W_Weapon_SMG_RebelSubmachineGun.description>
+  <!-- EN: stock -->
+  <W_Weapon_SMG_RebelSubmachineGun.tools.stock.label>槍托</W_Weapon_SMG_RebelSubmachineGun.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_SMG_RebelSubmachineGun.tools.barrel.label>槍管</W_Weapon_SMG_RebelSubmachineGun.tools.barrel.label>
+  <!-- EN: Wolfein Rebel Submachine Gun -->
+  <W_Weapon_SMG_RebelSubmachineGun.verbs.Verb_Shoot.label>沃芬族抵抗軍衝鋒鎗</W_Weapon_SMG_RebelSubmachineGun.verbs.Verb_Shoot.label>
+  
+</LanguageData>

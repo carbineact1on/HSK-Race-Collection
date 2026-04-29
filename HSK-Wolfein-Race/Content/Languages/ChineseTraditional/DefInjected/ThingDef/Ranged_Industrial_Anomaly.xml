@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein homemade flamethrower -->
+  <W_Weapon_HomemadeFlamethrower.label>沃芬族土製噴火器</W_Weapon_HomemadeFlamethrower.label>
+  <!-- EN: A makeshift flamethrower crafted from a repurposed gas canister and scavenged scrap metal. To prevent the canister from exploding, the internal pressure of the flammable gas is kept relatively low, resulting in a shorter effective range. -->
+  <W_Weapon_HomemadeFlamethrower.description>由回收的氣罐配上拼湊的廢金屬製成的簡易噴火器。爲了防止氣罐炸裂，內部可燃氣體氣壓相對較低導致噴火器射程較短。</W_Weapon_HomemadeFlamethrower.description>
+  <!-- EN: stock -->
+  <W_Weapon_HomemadeFlamethrower.tools.stock.label>槍托</W_Weapon_HomemadeFlamethrower.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_HomemadeFlamethrower.tools.barrel.label>槍管</W_Weapon_HomemadeFlamethrower.tools.barrel.label>
+  <!-- EN: Wolfein homemade flamethrower -->
+  <W_Weapon_HomemadeFlamethrower.verbs.Verb_ArcSprayIncinerator.label>沃芬族土製噴火器</W_Weapon_HomemadeFlamethrower.verbs.Verb_ArcSprayIncinerator.label>
+  
+  <!-- EN: Wolfein Incinerator -->
+  <W_Weapon_RF_Incinerator.label>沃芬族AIPT制式噴火器</W_Weapon_RF_Incinerator.label>
+  <!-- EN: The standard flamethrower issued by the AIPT division unleashes ignited napalm, turning any area into a hellscape for organic targets. Especially effective against flesh-based enemies. -->
+  <W_Weapon_RF_Incinerator.description>AIPT部門所用的制式噴火器，噴射的點燃凝固汽油能迅速將一片區域化為有機體的煉獄，尤其擅長對付血肉目標。</W_Weapon_RF_Incinerator.description>
+  <!-- EN: stock -->
+  <W_Weapon_RF_Incinerator.tools.stock.label>槍托</W_Weapon_RF_Incinerator.tools.stock.label>
+  <!-- EN: barrel -->
+  <W_Weapon_RF_Incinerator.tools.barrel.label>槍管</W_Weapon_RF_Incinerator.tools.barrel.label>
+  <!-- EN: Wolfein Incinerator -->
+  <W_Weapon_RF_Incinerator.verbs.Verb_ArcSprayIncinerator.label>沃芬族AIPT制式噴火器</W_Weapon_RF_Incinerator.verbs.Verb_ArcSprayIncinerator.label>
+</LanguageData>

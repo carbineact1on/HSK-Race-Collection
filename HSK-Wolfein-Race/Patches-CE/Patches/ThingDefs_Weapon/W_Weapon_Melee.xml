@@ -1,0 +1,628 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- 镇暴棍 -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="W_Weapon_Melee_Baton"]/tools</xpath>
+        <value>
+          <tools>
+            <li Class="CombatExtended.ToolCE">
+              <label>握把</label>
+              <capacities>
+                <li>Poke</li>
+              </capacities>
+              <power>8</power>
+              <cooldownTime>2</cooldownTime>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>棍身</label>
+              <capacities>
+                <li>Blunt</li>
+              </capacities>
+              <armorPenetrationBlunt>0.8</armorPenetrationBlunt>
+              <power>15</power>
+              <cooldownTime>1.6</cooldownTime>
+            </li>
+          </tools>
+        </value>
+      </li>
+      <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>W_Weapon_Melee_Baton</defName>
+        <statBases>
+          <Bulk>10.03</Bulk>
+        </statBases>
+        <weaponTags>
+          <li>Wolfein_M_WeaponII</li>
+          <li>Wolfein_Baton</li>
+          <li>CE_OneHandedWeapon</li>
+        </weaponTags>
+      </li>
+    </operations>
+  </Operation>
+
+    <!-- 重型动力斧 -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="W_Weapon_Melee_HeavyPowerAxe"]/tools</xpath>
+        <value>
+          <tools>
+            <li Class="CombatExtended.ToolCE">
+              <label>握柄</label>
+              <capacities>
+                <li>Poke</li>
+              </capacities>
+              <power>10</power>
+              <armorPenetrationBlunt>0.55</armorPenetrationBlunt>
+              <cooldownTime>1.8</cooldownTime>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>斧刃</label>
+              <capacities>
+                <li>Cut</li>
+              </capacities>
+              <armorPenetrationBlunt>0.5</armorPenetrationBlunt>
+              <armorPenetrationSharp>26</armorPenetrationSharp>
+              <power>42</power>
+              <cooldownTime>3.3</cooldownTime>
+            </li>
+          </tools>
+        </value>
+      </li>
+      <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>W_Weapon_Melee_HeavyPowerAxe</defName>
+        <statBases>
+          <Bulk>10.03</Bulk>
+        </statBases>
+        <weaponTags>
+          <li>Wolfein_M_WeaponII</li>
+          <li>Wolfein_HeavyPowerAxe</li>
+        </weaponTags>
+      </li>
+    </operations>
+  </Operation>
+
+    <!-- 合金军刀 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="W_Weapon_Melee_AlloySabre"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>2</power>
+					<chanceFactor>0.33</chanceFactor>
+					<cooldownTime>1.26</cooldownTime>
+					<armorPenetrationBlunt>0.35</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>刀刃</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>12</power>
+					<cooldownTime>1.12</cooldownTime>
+					<armorPenetrationBlunt>12</armorPenetrationBlunt>
+					<armorPenetrationSharp>15</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Blade</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>point</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>14</power>
+					<cooldownTime>1.2</cooldownTime>
+					<armorPenetrationBlunt>17</armorPenetrationBlunt>
+					<armorPenetrationSharp>18</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+    <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="W_Weapon_Melee_AlloySabre"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.49</MeleeCritChance>
+				<MeleeParryChance>0.42</MeleeParryChance>
+				<MeleeDodgeChance>0.29</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="W_Weapon_Melee_AlloySabre"]/statBases</xpath>
+		<value>
+		<statBases>
+			<Bulk>6.7</Bulk>
+			<MeleeCounterParryBonus>0.48</MeleeCounterParryBonus>
+            <WorkToMake>18000</WorkToMake>
+            <Mass>3</Mass>
+		</statBases>
+		</value>
+	</Operation>
+
+    <!-- 巨型砍刀 -->
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="W_Weapon_Melee_HeavyMachete"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>刀尖</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>30</power>
+					<cooldownTime>1.6</cooldownTime>
+					<armorPenetrationSharp>4.8</armorPenetrationSharp>
+					<armorPenetrationBlunt>0.625</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>刀刃</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>37</power>
+					<cooldownTime>1.8</cooldownTime>
+					<armorPenetrationBlunt>1.45</armorPenetrationBlunt>
+					<armorPenetrationSharp>6.2</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>shaft</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>12</power>
+					<cooldownTime>1.5</cooldownTime>
+					<armorPenetrationBlunt>2.15</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Shaft</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="W_Weapon_Melee_HeavyMachete"]/equippedStatOffsets</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.34</MeleeCritChance>
+				<MeleeParryChance>0.29</MeleeParryChance>
+				<MeleeDodgeChance>0.19</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="W_Weapon_Melee_HeavyMachete"]/statBases</xpath>
+		<value>
+		<statBases>
+            <WorkToMake>21000</WorkToMake>
+            <Mass>18</Mass>
+			<Bulk>7.7</Bulk>
+			<MeleeCounterParryBonus>0.32</MeleeCounterParryBonus>
+		</statBases>
+		</value>
+	</Operation>
+
+    <!-- 合金匕首 -->
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="W_Weapon_Melee_AlloyDagger"]/tools</xpath>
+			<value>
+				<tools>
+					<li Class="CombatExtended.ToolCE">
+						<label>柄</label>
+						<capacities>
+							<li>Poke</li>
+						</capacities>
+						<power>1</power>
+						<cooldownTime>1.2</cooldownTime>
+						<armorPenetrationBlunt>0.25</armorPenetrationBlunt>
+						<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+					</li>
+					<li Class="CombatExtended.ToolCE">
+						<label>刀身</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>10</power>
+						<cooldownTime>0.5</cooldownTime>
+						<armorPenetrationBlunt>0.25</armorPenetrationBlunt>
+						<armorPenetrationSharp>1.5</armorPenetrationSharp>
+						<linkedBodyPartsGroup>Blade</linkedBodyPartsGroup>
+					</li>
+					<li Class="CombatExtended.ToolCE">
+						<label>刀尖</label>
+						<capacities>
+							<li>Stab</li>
+						</capacities>
+						<power>14</power>
+						<cooldownTime>0.75</cooldownTime>
+						<chanceFactor>1.2</chanceFactor>
+						<armorPenetrationBlunt>0.2</armorPenetrationBlunt>
+						<armorPenetrationSharp>1.7</armorPenetrationSharp>
+						<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+					</li>
+				</tools>
+			</value>
+		</Operation>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="W_Weapon_Melee_AlloyDagger"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.49</MeleeCritChance>
+				<MeleeParryChance>0.18</MeleeParryChance>
+				<MeleeDodgeChance>0.49</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="W_Weapon_Melee_AlloyDagger"]/statBases</xpath>
+		<value>
+		<statBases>
+			<Bulk>2.7</Bulk>
+			<MeleeCounterParryBonus>0.58</MeleeCounterParryBonus>
+            <WorkToMake>20000</WorkToMake>
+            <Mass>1.0</Mass>
+		</statBases>
+		</value>
+	</Operation>
+
+    <!-- 重型军刀 -->
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="W_Weapon_Melee_HeavySabre"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>刀尖</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>17</power>
+					<cooldownTime>1.76</cooldownTime>
+					<armorPenetrationSharp>15</armorPenetrationSharp>
+					<armorPenetrationBlunt>8</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>刀刃</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>23</power>
+					<cooldownTime>0.85</cooldownTime>
+					<armorPenetrationBlunt>13</armorPenetrationBlunt>
+					<armorPenetrationSharp>11</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="W_Weapon_Melee_HeavySabre"]/equippedStatOffsets</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.42</MeleeCritChance>
+				<MeleeParryChance>0.33</MeleeParryChance>
+				<MeleeDodgeChance>0.25</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="W_Weapon_Melee_HeavySabre"]/statBases</xpath>
+		<value>
+		<statBases>
+			<Bulk>8.7</Bulk>
+			<MeleeCounterParryBonus>0.38</MeleeCounterParryBonus>
+            <WorkToMake>35000</WorkToMake>
+            <Mass>16</Mass>
+		</statBases>
+		</value>
+	</Operation>
+
+
+    <!-- 沃芬族简易匕首 -->
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="W_Weapon_Melee_SimpleDagger"]/tools</xpath>
+			<value>
+				<tools>
+					<li Class="CombatExtended.ToolCE">
+						<label>柄</label>
+						<capacities>
+							<li>Poke</li>
+						</capacities>
+						<power>1</power>
+						<cooldownTime>1.2</cooldownTime>
+						<armorPenetrationBlunt>0.25</armorPenetrationBlunt>
+						<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+					</li>
+					<li Class="CombatExtended.ToolCE">
+						<label>刀身</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>10</power>
+						<cooldownTime>0.5</cooldownTime>
+						<armorPenetrationBlunt>0.25</armorPenetrationBlunt>
+						<armorPenetrationSharp>0.5</armorPenetrationSharp>
+						<linkedBodyPartsGroup>Blade</linkedBodyPartsGroup>
+					</li>
+					<li Class="CombatExtended.ToolCE">
+						<label>刀尖</label>
+						<capacities>
+							<li>Stab</li>
+						</capacities>
+						<power>14</power>
+						<cooldownTime>0.75</cooldownTime>
+						<chanceFactor>1.2</chanceFactor>
+						<armorPenetrationBlunt>0.2</armorPenetrationBlunt>
+						<armorPenetrationSharp>0.7</armorPenetrationSharp>
+						<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+					</li>
+				</tools>
+			</value>
+		</Operation>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="W_Weapon_Melee_SimpleDagger"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.19</MeleeCritChance>
+				<MeleeParryChance>0.08</MeleeParryChance>
+				<MeleeDodgeChance>0.19</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="W_Weapon_Melee_SimpleDagger"]/statBases</xpath>
+		<value>
+		<statBases>
+            <WorkToMake>1000</WorkToMake>
+            <Mass>1</Mass>
+			<Bulk>2.7</Bulk>
+			<MeleeCounterParryBonus>0.28</MeleeCounterParryBonus>
+		</statBases>
+		</value>
+	</Operation>
+
+    <!-- 沃芬族简易长矛 -->
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="W_Weapon_Melee_SimpleSpear"]/tools</xpath>
+			<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>矛身</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>2</power>
+					<cooldownTime>1.2</cooldownTime>
+					<chanceFactor>0.2</chanceFactor>
+					<armorPenetrationBlunt>3</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Shaft</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>矛头</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>30</power>
+					<cooldownTime>1.4</cooldownTime>
+					<chanceFactor>0.8</chanceFactor>
+					<armorPenetrationBlunt>3</armorPenetrationBlunt>
+					<armorPenetrationSharp>6</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+				</li>
+			</tools>
+			</value>
+	</Operation>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="W_Weapon_Melee_SimpleSpear"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.19</MeleeCritChance>
+				<MeleeParryChance>0.18</MeleeParryChance>
+				<MeleeDodgeChance>0.19</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="W_Weapon_Melee_SimpleSpear"]/statBases</xpath>
+		<value>
+		<statBases>
+            <WorkToMake>1200</WorkToMake>
+            <Mass>1.5</Mass>
+			<Bulk>3.7</Bulk>
+			<MeleeCounterParryBonus>0.28</MeleeCounterParryBonus>
+		</statBases>
+		</value>
+	</Operation>
+
+    <!-- 沃芬族铁丝棒球棍 -->
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="W_Weapon_Melee_SimpleMace"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>柄</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>23</power>
+					<cooldownTime>1.4</cooldownTime>
+					<armorPenetrationBlunt>8</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>头</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>15</power>
+					<cooldownTime>1.6</cooldownTime>
+					<armorPenetrationBlunt>14</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="W_Weapon_Melee_SimpleMace"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.29</MeleeCritChance>
+				<MeleeParryChance>0.18</MeleeParryChance>
+				<MeleeDodgeChance>0.19</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="W_Weapon_Melee_SimpleMace"]/statBases</xpath>
+		<value>
+		<statBases>
+			<Bulk>4.7</Bulk>
+            <WorkToMake>1200</WorkToMake>
+            <Mass>1</Mass>
+			<MeleeCounterParryBonus>0.28</MeleeCounterParryBonus>
+		</statBases>
+		</value>
+	</Operation>
+
+    <!-- 抵抗军合金匕首 -->
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="W_Weapon_Melee_RebelAlloyDagger"]/tools</xpath>
+			<value>
+				<tools>
+					<li Class="CombatExtended.ToolCE">
+						<label>柄</label>
+						<capacities>
+							<li>Poke</li>
+						</capacities>
+						<power>1</power>
+						<cooldownTime>1.2</cooldownTime>
+						<armorPenetrationBlunt>0.25</armorPenetrationBlunt>
+						<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+					</li>
+					<li Class="CombatExtended.ToolCE">
+						<label>刀身</label>
+						<capacities>
+							<li>Cut</li>
+						</capacities>
+						<power>10</power>
+						<cooldownTime>0.5</cooldownTime>
+						<armorPenetrationBlunt>0.25</armorPenetrationBlunt>
+						<armorPenetrationSharp>0.65</armorPenetrationSharp>
+						<linkedBodyPartsGroup>Blade</linkedBodyPartsGroup>
+					</li>
+					<li Class="CombatExtended.ToolCE">
+						<label>刀尖</label>
+						<capacities>
+							<li>Stab</li>
+						</capacities>
+						<power>14</power>
+						<cooldownTime>0.75</cooldownTime>
+						<chanceFactor>1.32</chanceFactor>
+						<armorPenetrationBlunt>0.2</armorPenetrationBlunt>
+						<armorPenetrationSharp>0.7</armorPenetrationSharp>
+						<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+					</li>
+				</tools>
+			</value>
+		</Operation>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="W_Weapon_Melee_RebelAlloyDagger"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.39</MeleeCritChance>
+				<MeleeParryChance>0.08</MeleeParryChance>
+				<MeleeDodgeChance>0.39</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="W_Weapon_Melee_RebelAlloyDagger"]/statBases</xpath>
+		<value>
+		<statBases>
+			<Bulk>2.7</Bulk>
+            <WorkToMake>17500</WorkToMake>
+            <Mass>1.0</Mass>
+			<MeleeCounterParryBonus>0.58</MeleeCounterParryBonus>
+		</statBases>
+		</value>
+	</Operation>
+
+
+    <!-- AIPT链锯 -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="W_Weapon_Melee_AIPTChainSaw"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>柄</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>5</power>
+					<cooldownTime>1.65</cooldownTime>
+					<chanceFactor>0.33</chanceFactor>
+					<armorPenetrationBlunt>1.425</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>链锯</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>32</power>
+					<cooldownTime>1.4</cooldownTime>
+					<armorPenetrationSharp>16</armorPenetrationSharp>
+					<armorPenetrationBlunt>2.4</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="W_Weapon_Melee_AIPTChainSaw"]/equippedStatOffsets</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.29</MeleeCritChance>
+				<MeleeParryChance>0.58</MeleeParryChance>
+				<MeleeDodgeChance>0.29</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+  <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="W_Weapon_Melee_AIPTChainSaw"]/statBases</xpath>
+		<value>
+		<statBases>
+            <WorkToMake>20000</WorkToMake>
+            <Mass>15</Mass>
+			<Bulk>5.7</Bulk>
+			<MeleeCounterParryBonus>0.58</MeleeCounterParryBonus>
+		</statBases>
+		</value>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GeneCategoryDef>
+    <defName>Wolfein_GeneCategory</defName>
+    <label>Wolfein</label>
+    <displayPriorityInXenotype>532</displayPriorityInXenotype>
+  </GeneCategoryDef>
+
+  <GeneDef Name="WolfeinGeneBase" Abstract="True">
+    <displayCategory>Wolfein_GeneCategory</displayCategory>
+    <randomChosen>true</randomChosen>
+  </GeneDef>
+
+  <!--纯血-->
+  <GeneDef ParentName="WolfeinGeneBase">
+    <defName>Wolfein_PureBlood</defName>
+    <label>Pureblood</label>
+    <description>Bearers of this pureblood gene are highly sensitive to lunar phase changes. During the full moon, their perception and reaction abilities are greatly enhanced, while during the new moon, they are more prone to entering a state of physiological suppression.</description>
+    <iconPath>Wolfein/Icon/Gene_PureBlood</iconPath>
+    <displayOrderInCategory>10</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>Wolfein_PureBlood</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-2</biostatMet>
+    <biostatCpx>6</biostatCpx>
+  </GeneDef>
+
+  <!-- 肉食 -->
+  <GeneDef ParentName="WolfeinGeneBase">
+    <defName>Wolfein_MeatLover</defName>
+    <label>Meat lover</label>
+    <description>Bearers of this gene need to regularly consume meat to maintain physiological and psychological balance. Eating meat provides a mood boost, while prolonged deprivation of meat can lead to emotional downturns and mood deterioration.</description>
+    <geneClass>Wolfein.Gene_MeatLover</geneClass>
+    <iconPath>Wolfein/Icon/Gene_MeatLover</iconPath>
+    <displayOrderInCategory>11</displayOrderInCategory>
+    <statFactors>
+    </statFactors>
+    <statOffsets>
+      <ButcheryFleshEfficiency>0.2</ButcheryFleshEfficiency>
+      <PlantHarvestYield>-0.4</PlantHarvestYield>
+    </statOffsets>
+    <biostatMet>1</biostatMet>
+    <biostatCpx>1</biostatCpx>
+  </GeneDef>
+
+  <!-- 月相 -->
+  <GeneDef ParentName="WolfeinGeneBase">
+    <defName>Wolfein_MoonPhase</defName>
+    <label>Moon phase</label>
+    <description>Bearers of this gene experience fluctuations in their perception, reaction, and aggressiveness according to the phases of the moon. Their abilities are significantly enhanced during the full moon, while they reach their lowest point during the new moon.</description>
+    <geneClass>Wolfein.Gene_MoonPhase</geneClass>
+    <iconPath>Wolfein/Icon/Gene_MoonPhase</iconPath>
+    <displayOrderInCategory>12</displayOrderInCategory>
+    <statFactors>
+    </statFactors>
+    <statOffsets>
+    </statOffsets>
+    <biostatMet>0</biostatMet>
+    <biostatCpx>4</biostatCpx>
+    <modExtensions>
+      <li Class="Wolfein.ModExtension_MoonPhase">
+        <overrideHediff>false</overrideHediff>
+        <moonPhaseHediff>
+          <!-- 衰弱期 -->
+          <li>
+            <moonPhase>WaningCrescent</moonPhase>
+            <hediff>Wolfein_MoonStrength</hediff>
+            <severity>0.1</severity>
+            <severity_PureBlood>0.5</severity_PureBlood>
+          </li>
+          <li>
+            <moonPhase>NewMoon</moonPhase>
+            <hediff>Wolfein_MoonStrength</hediff>
+            <severity>0.2</severity>
+            <severity_PureBlood>0.6</severity_PureBlood>
+          </li>
+          <li>
+            <moonPhase>WaxingCrescent</moonPhase>
+            <hediff>Wolfein_MoonStrength</hediff>
+            <severity>0.1</severity>
+            <severity_PureBlood>0.5</severity_PureBlood>
+          </li>
+          <!-- 强化期 -->
+          <li>
+            <moonPhase>WaxingGibbous</moonPhase>
+            <hediff>Wolfein_MoonStrength</hediff>
+            <severity>0.3</severity>
+            <severity_PureBlood>0.7</severity_PureBlood>
+          </li>
+          <li>
+            <moonPhase>FullMoon</moonPhase>
+            <hediff>Wolfein_MoonStrength</hediff>
+            <severity>0.4</severity>
+            <severity_PureBlood>0.8</severity_PureBlood>
+          </li>
+          <li>
+            <moonPhase>WaningGibbous</moonPhase>
+            <hediff>Wolfein_MoonStrength</hediff>
+            <severity>0.3</severity>
+            <severity_PureBlood>0.7</severity_PureBlood>
+          </li>
+          <!-- 两个无增幅弦月 -->
+          <li>
+            <moonPhase>LastQuarter</moonPhase>
+            <hediff>Wolfein_MoonStrength</hediff>
+            <severity>0.01</severity>
+            <severity_PureBlood>0.01</severity_PureBlood>
+          </li>
+          <li>
+            <moonPhase>FirstQuarter</moonPhase>
+            <hediff>Wolfein_MoonStrength</hediff>
+            <severity>0.01</severity>
+            <severity_PureBlood>0.01</severity_PureBlood>
+          </li>
+        </moonPhaseHediff>
+      </li>
+    </modExtensions>
+  </GeneDef>
+
+  <!-- 适应夜行 -->
+  <GeneDef ParentName="WolfeinGeneBase">
+    <defName>Wolfein_NightAdaptation</defName>
+    <label>Night adaptation</label>
+    <description>Bearers of this gene are accustomed to performing their daily activities at night. With their innate night vision and sharp hearing, they are able to move freely in the darkness.</description>
+    <geneClass>Wolfein.Gene_NightAdaptation</geneClass>
+    <iconPath>Wolfein/Icon/Gene_NightAdaptation</iconPath>
+    <displayOrderInCategory>13</displayOrderInCategory>
+    <forcedTraits>
+      <li>
+        <def>NightOwl</def>
+      </li>
+    </forcedTraits>
+    <biostatMet>-1</biostatMet>
+    <biostatCpx>2</biostatCpx>
+  </GeneDef>
+
+  <!-- 弱毒 -->
+  <GeneDef ParentName="WolfeinGeneBase">
+    <defName>Wolfein_ToxicEnvironmentResistance_Weak</defName>
+    <label>Toxic environment resistance weak</label>
+    <description>Bearers of this gene are more sensitive to toxic environments. Even slight exposure to toxic gases, polluted air, or decaying fumes can have a noticeable impact on their health.</description>
+    <iconPath>Wolfein/Icon/Gene_ToxicEnvironmentResistance_Weak</iconPath>
+    <displayOrderInCategory>14</displayOrderInCategory>
+    <statOffsets>
+      <ToxicEnvironmentResistance>-0.3</ToxicEnvironmentResistance>
+    </statOffsets>
+    <exclusionTags>
+      <li>ToxicEnvironmentResistance</li>
+    </exclusionTags>
+    <biostatMet>1</biostatMet>
+    <biostatCpx>1</biostatCpx>
+  </GeneDef>
+
+  <!-- 易燃毛发 -->
+  <GeneDef ParentName="WolfeinGeneBase">
+    <defName>Wolfein_FireWeakness</defName>
+    <label>Fire weakness</label>
+    <description>Bearers of this gene have animal-like ears and tails, but this also makes their fur more flammable. When exposed to fire or high-temperature environments, their fur may ignite rapidly, increasing the danger.</description>
+    <iconPath>Wolfein/Icon/Gene_FireWeakness</iconPath>
+    <displayOrderInCategory>15</displayOrderInCategory>
+    <damageFactors>
+      <Flame>1.5</Flame>
+    </damageFactors>
+    <exclusionTags>
+      <li>FireDamage</li>
+    </exclusionTags>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>dry</symbol></li>
+        <li><symbol>tinder</symbol></li>
+        <li><symbol>kindle</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+    <biostatMet>1</biostatMet>
+    <biostatCpx>1</biostatCpx>
+  </GeneDef>
+
+  <!-- 弱肉强食 -->
+  <GeneDef ParentName="WolfeinGeneBase">
+    <defName>Wolfein_JungleLaw</defName>
+    <label>Jungle law</label>
+    <description>Bearers of this gene have a certain advantage in close-quarters combat, possessing stronger attack instincts and faster reaction speed. Their strength and motor coordination are better suited for melee fighting and hand-to-hand attacks.</description>
+    <iconPath>Wolfein/Icon/Gene_JungleLaw</iconPath>
+    <displayOrderInCategory>15</displayOrderInCategory>
+    <statFactors>
+      <MeleeDamageFactor>1.2</MeleeDamageFactor>
+    </statFactors>
+    <exclusionTags>
+      <li>MeleeDamage</li>
+    </exclusionTags>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li><symbol>basher</symbol></li>
+        <li><symbol>striker</symbol></li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li><symbol>bash</symbol></li>
+        <li><symbol>strong</symbol></li>
+        <li><symbol>strike</symbol></li>
+        <li><symbol>hercu</symbol></li>
+        <li><symbol>achillo</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+    <biostatMet>-1</biostatMet>
+    <biostatCpx>2</biostatCpx>
+  </GeneDef>
+
+
+</Defs>

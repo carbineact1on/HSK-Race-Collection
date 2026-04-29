@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- 沃芬族前世代斥候动力甲（固定材料） -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wolfein_ImperialScoutPowerArmor"]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>400</MaxHitPoints>
+            <Flammability>0.4</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+            <Mass>53.33</Mass>
+            <EquipDelay>14</EquipDelay>
+            <WorkToMake>65000</WorkToMake>
+            <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
+            <Insulation_Cold>28</Insulation_Cold>
+            <Insulation_Heat>20</Insulation_Heat>
+            <ArmorRating_Sharp>20</ArmorRating_Sharp>
+            <ArmorRating_Blunt>45</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.2</ArmorRating_Heat>
+            <ArmorRating_Electric>0</ArmorRating_Electric>
+            <Bulk>106.67</Bulk>
+            <WornBulk>16</WornBulk>
+          </statBases>
+        </value>
+      </li>
+      <li Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[defName="Wolfein_ImperialScoutPowerArmor"]</xpath>
+        <value>
+          <li Class="CombatExtended.PartialArmorExt">
+            <stats>
+              <li>
+                <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+                <parts>
+                  <li>Hand</li>
+                  <li>Finger</li>
+                  <li>Foot</li>
+                  <li>Toe</li>
+                </parts>
+              </li>
+            </stats>
+          </li>
+        </value>
+      </li>
+
+    </operations>
+  </Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Wolfein_ImperialScoutPowerArmor"]/equippedStatOffsets</xpath>
+		<value>
+				<CarryWeight>87.3</CarryWeight>
+				<CarryBulk>11.20</CarryBulk>
+				<ShootingAccuracyPawn>0.15</ShootingAccuracyPawn>
+				<ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
+				<MoveSpeed>0.4</MoveSpeed>
+				<TrapSpringChance>-1</TrapSpringChance>
+		</value>
+	</Operation>
+
+</Patch>

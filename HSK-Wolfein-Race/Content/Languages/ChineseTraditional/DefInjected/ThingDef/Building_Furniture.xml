@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein Table (1x2) -->
+  <Wolfein_1x2_Table.label>沃芬風格桌子(1x2)</Wolfein_1x2_Table.label>
+  <!-- EN: MegaCorp standard-issue dining table, sturdy, durable, and easy to clean. Its reinforced tabletop can even withstand small-arms fire from the resistance army. -->
+  <Wolfein_1x2_Table.description>軍企制式餐桌，結構堅固，耐用且易於清潔。同時，其加固桌面甚至能夠抵擋抵抗軍的輕武器射擊。</Wolfein_1x2_Table.description>
+  
+  <!-- EN: Wolfein Table (2x2) -->
+  <Wolfein_2x2_Table.label>沃芬風格桌子(2x2)</Wolfein_2x2_Table.label>
+  <!-- EN: MegaCorp standard-issue dining table, sturdy, durable, and easy to clean. Its reinforced tabletop can even withstand small-arms fire from the resistance army. -->
+  <Wolfein_2x2_Table.description>軍企制式餐桌，結構堅固，耐用且易於清潔。同時，其加固桌面甚至能夠抵擋抵抗軍的輕武器射擊。</Wolfein_2x2_Table.description>
+  
+  <!-- EN: Wolfein Carpet (2x3) -->
+  <Wolfein_2x3_Carpet.label>沃芬風格地毯(2x3)</Wolfein_2x3_Carpet.label>
+  <!-- EN: A carpet designed in the Wolfein industrial aesthetic, woven from durable composite fibers with a micro-metallic layer. Its restrained geometric patterns offer subtle decoration while reflecting the Wolfein culture of discipline and rationality, commonly used in command rooms and functional areas to soften the starkness of metal interiors. -->
+  <Wolfein_2x3_Carpet.description>採用沃芬族工業美學設計的地毯，由耐磨複合纖維與微金屬織層製成。冷靜的幾何紋路既具裝飾性，也體現了沃芬族嚴謹理性的文化風格，常見於指揮室與功能區域，用於緩和金屬空間的冷硬感。</Wolfein_2x3_Carpet.description>
+  
+  <!-- EN: Wolfein Table (2x3) -->
+  <Wolfein_2x3_Table.label>沃芬風格桌子(2x3)</Wolfein_2x3_Table.label>
+  <!-- EN: MegaCorp standard-issue dining table, sturdy, durable, and easy to clean. Its reinforced tabletop can even withstand small-arms fire from the resistance army. -->
+  <Wolfein_2x3_Table.description>軍企制式餐桌，結構堅固，耐用且易於清潔。同時，其加固桌面甚至能夠抵擋抵抗軍的輕武器射擊。</Wolfein_2x3_Table.description>
+  
+  <!-- EN: Wolfein Carpet (3x3) -->
+  <Wolfein_3x3_Carpet.label>沃芬風格地毯(3x3)</Wolfein_3x3_Carpet.label>
+  <!-- EN: A carpet designed in the Wolfein industrial aesthetic, woven from durable composite fibers with a micro-metallic layer. Its restrained geometric patterns offer subtle decoration while reflecting the Wolfein culture of discipline and rationality, commonly used in command rooms and functional areas to soften the starkness of metal interiors. -->
+  <Wolfein_3x3_Carpet.description>採用沃芬族工業美學設計的地毯，由耐磨複合纖維與微金屬織層製成。冷靜的幾何紋路既具裝飾性，也體現了沃芬族嚴謹理性的文化風格，常見於指揮室與功能區域，用於緩和金屬空間的冷硬感。</Wolfein_3x3_Carpet.description>
+  
+  <!-- EN: Wolfein Table (3x3) -->
+  <Wolfein_3x3_Table.label>沃芬風格桌子(3x3)</Wolfein_3x3_Table.label>
+  <!-- EN: MegaCorp standard-issue dining table, sturdy, durable, and easy to clean. Its reinforced tabletop can even withstand small-arms fire from the resistance army. -->
+  <Wolfein_3x3_Table.description>軍企制式餐桌，結構堅固，耐用且易於清潔。同時，其加固桌面甚至能夠抵擋抵抗軍的輕武器射擊。</Wolfein_3x3_Table.description>
+  
+  <!-- EN: Artificial Moon Apparatus -->
+  <Wolfein_ArtificialMoonApparatus.label>沃芬擬月儀</Wolfein_ArtificialMoonApparatus.label>
+  <!-- EN: Since the Wolfein first developed self-awareness, one question has lingered in their minds: why are our physical capabilities influenced by the phases of the moon? For generations, countless Wolfein researchers have pursued an answer to this mystery, while numerous ambitious figures have attempted to exploit this trait to create an unstoppable army. All of them failed.\n\n            Now, however, MegaCorp has proposed a military application of the Wolfein lunar-phase mechanism through the reverse engineering of transcendent intelligence: psychic suggestion. By collecting moonstone samples from the Wolfein homeworld, they have replicated a multitude of miniature moons to construct the Artificial Moon Apparatus.\n            \n            When activated, the Apparatus uses an embedded psychic device to influence all Wolfein within the affected zone, forcibly inducing a full moon state in their bodies. To maintain the radiation output and counteract the adverse effects that follow a prolonged full moon phase, the device consumes an immense amount of energy during activation. -->
+  <Wolfein_ArtificialMoonApparatus.description>自沃芬族產生自我意識以來，這個問題便一直伴隨在人們的心中：為何我們的身體素質會受到月相的影響？長久以來，無數沃芬研究者們追求著該問題的答案，又有無數的野心家們試圖利用沃芬族的這一特點來創造出無人能敵的軍隊。他們全都失敗了。\n    而如今，軍企通過逆向超凡智慧的造物給出了沃芬族月相機制在軍事上的運用：心靈暗示。他們利用採集的母星月巖樣本複製出了大量迷你版月球來建造擬月儀。\n    擬月儀激發時，會通過內建的心靈裝置來影響該區域內所有的沃芬族，令她們的身體強制進入滿月狀態。爲了保持輻射功率和抵消沃芬身體在滿月月相過後產生的副作用，該裝置激發時會消耗巨額能量。</Wolfein_ArtificialMoonApparatus.description>
+  
+  <!-- EN: Wolfein Bedside Table -->
+  <Wolfein_BedsideTable.label>沃芬風格牀頭櫃</Wolfein_BedsideTable.label>
+  <!-- EN: Adhering to the Wolfein tribe』s signature industrial design philosophy, this bedside cabinet is constructed from high-strength composite materials, offering a clean and reliable structure. Its surface features anti-fouling and wear-resistant treatment, making daily cleaning and maintenance effortless. -->
+  <Wolfein_BedsideTable.description>採用沃芬族一貫的工業化設計風格，這款牀頭櫃以高強度複合材料打造，結構簡潔而可靠。表面經過防污與耐磨處理，便於日常清潔與維護。</Wolfein_BedsideTable.description>
+  
+  <!-- EN: Wolfein Crib -->
+  <Wolfein_Crib.label>沃芬嬰兒床</Wolfein_Crib.label>
+  <!-- EN: The overall structure is specially softened to maximize infant safety; however, a reinforced crossbar is deliberately retained on the side, allowing Wolfein infants to gnaw and teethe in accordance with their natural instincts. -->
+  <Wolfein_Crib.description>整體結構經過專門的軟化處理，以最大限度保護嬰兒安全，但在側面刻意保留了一道加固橫樑，供沃芬族嬰幼兒用於磨牙。</Wolfein_Crib.description>
+  
+  <!-- EN: Wolfein Defense Wall -->
+  <Wolfein_DefenseWall.label>沃芬風格防禦墻</Wolfein_DefenseWall.label>
+  <!-- EN: Due to the constant state of warfare on the RimWorlds, MegaCorp ground outposts commonly use this reinforced defensive wall in the construction of various facilities, ensuring resilience in prolonged and high-intensity conflict environments. -->
+  <Wolfein_DefenseWall.description>由於邊緣世界戰亂不斷，軍企的地面據點往往採用這種經過強化的防禦墻來建造各類設施，以應對長期而高強度的衝突環境。</Wolfein_DefenseWall.description>
+  
+  <!-- EN: Wolfein Doormat -->
+  <Wolfein_Doormat.label>沃芬風格門墊</Wolfein_Doormat.label>
+  <!-- EN: Before entering, Wolfeins usually give their tails a light shake on the doormat to prevent large amounts of dust from being carried indoors. -->
+  <Wolfein_Doormat.description>沃芬們在進門前通常會在門墊上輕輕抖動尾巴，以避免將大量灰塵帶入室內。</Wolfein_Doormat.description>
+  
+  <!-- EN: Wolfein Double Bed -->
+  <Wolfein_DoubleBed.label>沃芬雙人床</Wolfein_DoubleBed.label>
+  <!-- EN: Some MegaCorp employees choose to pay out of pocket to replace their dormitory beds with double beds, making it easier to fall asleep while also preventing the awkward mishap of rolling off the bed in the middle of the night. -->
+  <Wolfein_DoubleBed.description>部分軍企員工會自費將宿舍內的床更換為雙人床，不僅能讓入睡過程更加舒適順利，也避免了半夜翻身跌下床的尷尬情況。</Wolfein_DoubleBed.description>
+  
+  <!-- EN: Wolfein Floor Lamp -->
+  <Wolfein_FloorLamp.label>沃芬風格落地燈</Wolfein_FloorLamp.label>
+  <!-- EN: MegaCorp standard indoor lighting fixture. It appears warm and inviting, yet in actual operation it produces virtually no heat. -->
+  <Wolfein_FloorLamp.description>軍企標準室內照明用具，外觀給人以溫暖柔和的感覺，但在實際使用中幾乎不會產生熱量。</Wolfein_FloorLamp.description>
+  
+  <!-- EN: Outstanding Employee Rest Pod -->
+  <Wolfein_IntegratedRepairUnit.label>優秀員工休息艙</Wolfein_IntegratedRepairUnit.label>
+  <!-- EN: In response to requests from some monthly outstanding employees in the clerical departments, who suggested adding rest facilities within the office to save commuting time and generate more value for the company, MegaCorp installed these single-person sleep pods in executive offices and public rest areas, providing a comfortable daytime rest environment for employees working overtime. After taking a sleep-inducing medication, the pod automatically supplies the user with nutrients and repairs their clothing and equipment, ensuring that the monthly outstanding employees maintain a flawless appearance. -->
+  <Wolfein_IntegratedRepairUnit.description>鑑於部分文職部門的月度優秀員工提出申請，認為辦公區域應增設休息場所，以便節省通勤時間併爲公司創造更多價值，軍企遂在高管辦公室及公共休息區安裝了這種單人休眠艙，為加班員工提供舒適的晝間休息環境。使用者服用助眠藥物入睡后，艙內裝置會自動為其注入營養液，同時修復身上的衣物與裝備，以確保月度優秀員工的形象完美無缺。</Wolfein_IntegratedRepairUnit.description>
+  
+  <!-- EN: Wolfein Low Cabinet -->
+  <Wolfein_LowCabinet.label>沃芬風格矮柜</Wolfein_LowCabinet.label>
+  <!-- EN: This type of cabinet was originally designed to hold furniture such as televisions, which today are mostly only found on the RimWorlds. Although such bulky, old-fashioned appliances have long been phased out on the Wolfein homeworld, the cabinet design has been preserved and is now commonly used to display game consoles or potted plants. -->
+  <Wolfein_LowCabinet.description>這種櫃子最早用於擺放如今主要只在邊緣世界常見的電視一類傢俱。雖然沃芬母星早已淘汰了這種老式大型家電，但這一櫃型仍被保留下來，如今多用於放置遊戲機或盆栽等物品。</Wolfein_LowCabinet.description>
+  
+  <!-- EN: Wolfein Lunar Globe -->
+  <Wolfein_LunarGlobe.label>月球儀</Wolfein_LunarGlobe.label>
+  <!-- EN: It perfectly reproduces all major geological features of the satellite orbiting the Wolfein homeworld, and on the desks of corporate executives transferred from the homeworld, a lunar globe like this is often displayed. -->
+  <Wolfein_LunarGlobe.description>其完美還原了沃芬母星旁衛星表面的所有主要地質結構，那些從母星調來的公司高管桌面上通常會擺一個月球儀。</Wolfein_LunarGlobe.description>
+  
+  <!-- EN: Wolfein Medical Bed -->
+  <Wolfein_MedicalBed.label>沃芬醫療床</Wolfein_MedicalBed.label>
+  <!-- EN: Designed to Wolfein medical system standards, this medical bed features a robust structure with a high degree of modularity. It is equipped with emergency restraint and rapid adjustment mechanisms, allowing treatment to be deployed quickly in high-intensity environments while balancing basic comfort with efficiency and safety. -->
+  <Wolfein_MedicalBed.description>採用沃芬族醫療體系標準設計的醫療床，結構穩固且模組化程度極高。床體配備應急固定與快速調節機構，便於在高強度環境下迅速展開治療，在保證基本舒適度的同時，兼顧效率與安全性。</Wolfein_MedicalBed.description>
+  
+  <!-- EN: Wolfein Medical Control Panel -->
+  <Wolfein_MedicalControlPanel.label>醫療控制面板</Wolfein_MedicalControlPanel.label>
+  <!-- EN: Designed to work in tandem with the Wolfein medical bed, it is used to monitor patients』 vital signs in real time. It provides standardized data interfaces for easy access by medical-grade civilian mechanoids. -->
+  <Wolfein_MedicalControlPanel.description>與沃芬醫療床配套使用，用於實時監控病人的生命體徵。提供了資訊介面以方便醫護型民用機械體呼叫。</Wolfein_MedicalControlPanel.description>
+  
+  <!-- EN: Multi-Legged Firepower Platform Model -->
+  <Wolfein_Model.label>多足火力平臺模型</Wolfein_Model.label>
+  <!-- EN: A remotely controlled multi-legged fire support platform model, its appearance and mechanical structure are almost a direct scale replica of the real multi-legged fire support platform. The firing sound effects are recorded from the actual machine, and upon release it quickly rose to the top of the Wolfein teenagers』 most-wanted gift list. -->
+  <Wolfein_Model.description>可遙控的多足火力平臺模型，外觀和機械結構上幾乎就是多足火力平臺的等比放縮版，開火時的音效均是實機錄製。一經上市便榮登沃芬青少年最想要的禮物榜首。</Wolfein_Model.description>
+  
+  <!-- EN: Wolfein Neon Planter -->
+  <Wolfein_NeonPlanter.label>沃芬霓虹盆栽</Wolfein_NeonPlanter.label>
+  <!-- EN: In essence, it is a desk lamp disguised as a decorative planter, featuring a sleek and futuristic design. It requires no watering or maintenance, yet adds a calm, high-tech atmosphere to any interior space. -->
+  <Wolfein_NeonPlanter.description>本質上是一款偽裝成裝飾盆栽的桌面燈具，造型前衛而富有科技感。無需澆水或額外維護，擺放在桌面上即可為室內環境增添穩定而冷靜的未來氛圍。</Wolfein_NeonPlanter.description>
+  
+  <!-- EN: Wolfein Office Chair -->
+  <Wolfein_OfficeChair.label>沃芬風格辦公椅</Wolfein_OfficeChair.label>
+  <!-- EN: Designed according to the Wolfein philosophy of function first, its appearance is restrained and rational. The overall structure emphasizes stability and load-bearing capacity, making it suitable for long hours of desk work or monitoring tasks. It is commonly deployed in offices and central control positions, serving as a standard fixture in high-intensity work environments. -->
+  <Wolfein_OfficeChair.description>以沃芬族一貫的功能優先理念設計，外形克制而理性。整體結構強調穩定與承重能力，適合長時間伏案或監控工作使用，常被部署在辦公區與中樞控制崗位，成為高負荷工作環境中的基礎配置之一。</Wolfein_OfficeChair.description>
+  
+  <!-- EN: Wolfein Office Desk -->
+  <Wolfein_OfficeDesk.label>沃芬風格辦公桌</Wolfein_OfficeDesk.label>
+  <!-- EN: Featuring a clean, angular design, this desk emphasizes durability and load-bearing capacity. Its spacious surface accommodates a variety of work tools and terminal devices, while hidden cable channels and modular accessory interfaces support high-intensity office work and command operations, making it an ideal choice for offices and central control stations. -->
+  <Wolfein_OfficeDesk.description>外形簡潔、線條硬朗，強調耐用性與承重能力。桌面空間寬敞，便於部署多種工作用具與終端裝置，同時配置隱蔽電纜槽與模組化附件介面，滿足高強度辦公與指揮操作的需求，是辦公區與中樞控制崗位的理想選擇。</Wolfein_OfficeDesk.description>
+
+  <!-- EN: Wolfein Reinforced Door -->
+  <Wolfein_ReinforcedDoor.label>沃芬風格自動門</Wolfein_ReinforcedDoor.label>
+  <!-- EN: This type of automatic door reflects the Wolfein emphasis on procedural order and operational stability. Its response is swift, and its movement is restrained and uniform, allowing it to handle continuous, high-density traffic. Commonly installed at key corridors and section entrances within bases, it rarely draws attention, yet reliably fulfills its function at all times. -->
+  <Wolfein_ReinforcedDoor.description>這類自動門更多體現的是沃芬族對流程化與穩定性的追求。門體響應迅速，運作節奏克制而統一，能夠適應連續、高密度的通行需求，常被安裝在基地內部的關鍵通道與分割槽入口，幾乎不會引起使用者的注意，卻始終穩定地履行著自身職能。</Wolfein_ReinforcedDoor.description>
+  
+  <!-- EN: Wolfein Repair Shelf -->
+  <Wolfein_ShelfSmall.label>沃芬維修工作站</Wolfein_ShelfSmall.label>
+  <!-- EN: A fully automated repair unit commonly found in logistics departments, capable of swiftly restoring a wide range of equipment and devices. A slightly worn handwritten note on one corner warns: "Do not let living beings enter!" -->
+  <Wolfein_ShelfSmall.description>一臺在後勤部門常見的全自動維修裝置，能夠快速維修各類裝備與裝置。裝置一角貼著一張略顯陳舊的手寫便籤，「切勿讓活人進入！」</Wolfein_ShelfSmall.description>
+  
+  <!-- EN: Wolfein Single Bed -->
+  <Wolfein_SingleBed.label>沃芬單人床</Wolfein_SingleBed.label>
+  <!-- EN: Standard equipment in MegaCorp employee dormitories, modest in appearance yet surprisingly comfortable, offering a restful night』s sleep after long and demanding work shifts. -->
+  <Wolfein_SingleBed.description>軍企員工宿舍的標準配置，外觀樸素克制，卻意外地舒適，足以讓人在高強度工作后安穩入眠。</Wolfein_SingleBed.description>
+  
+  <!-- EN: Wolfein Street Light -->
+  <Wolfein_StreetLight.label>沃芬風格街燈</Wolfein_StreetLight.label>
+  <!-- EN: Streetlights are ubiquitous throughout MegaCorp-controlled areas, their bright illumination lighting the way for employees returning home from night shifts. -->
+  <Wolfein_StreetLight.description>軍企管轄區內隨處可見的街燈，光線明亮，為夜間上班的員工們照亮回程的道路。</Wolfein_StreetLight.description>
+  
+  <!-- EN: Wolfein Surveillance Camera -->
+  <Wolfein_SurveillanceCamera.label>沃芬監控攝像頭</Wolfein_SurveillanceCamera.label>
+  <!-- EN: In accordance with MegaCorp regulations, all work areas within corporate facilities are required to be equipped with four or more surveillance cameras to prevent any incidents that could negatively impact quarterly profits. -->
+  <Wolfein_SurveillanceCamera.description>按照軍企規章制度，所有設施內的工作場所都必須安裝四個及以上的監控攝像頭，以防止任何可能影響本季度收益的不利情況發生。</Wolfein_SurveillanceCamera.description>
+
+  <!-- EN: Wolfein Wall Lamp -->
+  <Wolfein_WallLamp.label>沃芬壁燈</Wolfein_WallLamp.label>
+  <!-- EN: These lights are typically installed in the corridors of MegaCorp facilities, their illumination bright—even slightly harsh. Designers believe this helps minimize the time employees spend lingering in the hallways. -->
+  <Wolfein_WallLamp.description>這種燈通常安裝在軍企設施的走廊上，光線明亮甚至略顯刺眼，設計者認為如此可以有效減少員工在走廊上閑逛的時間。</Wolfein_WallLamp.description>
+  
+  <!-- EN: Wolfein Wardrobe -->
+  <Wolfein_Wardrobe.label>沃芬風格衣櫃</Wolfein_Wardrobe.label>
+  <!-- EN: Though it appears compact, its storage capacity is surprisingly large, leading some timid employees to worry that something might 「crawl out」 of the wardrobe at night. -->
+  <Wolfein_Wardrobe.description>外觀看似緊湊，但儲存能力出乎意料地強大，因此有些膽小的員工甚至擔心晚上睡覺時衣櫃里會「爬出」什麼東西。</Wolfein_Wardrobe.description>
+
+  <!-- EN: Wolfein Bookcase -->
+  <Wolfein_Bookcase.label>沃芬風格書櫃</Wolfein_Bookcase.label>
+  <!-- EN: A multifunctional piece of furniture combining a display cabinet, bookcase, and drawers, designed to showcase books, documents, and various collectibles. By integrating open and enclosed storage, it allows quick access to frequently used reading materials while securely storing private or miscellaneous items. -->
+  <Wolfein_Bookcase.description>一種集展示櫃、書櫃與抽屜於一體的多功能傢俱，用於陳列書籍、資料與各類收藏物。開放與封閉空間相結合，既便於快速取用常用讀物，也能將私密或零散物品妥善收納。</Wolfein_Bookcase.description>
+
+  <!-- EN: Wolfein Shelf (1x2) -->
+  <Wolfein_1x2_Shelf.label>沃芬置物架（1x2）</Wolfein_1x2_Shelf.label>
+  <!-- EN: A simple industrial storage shelf designed for organizing and storing various supplies. Its reinforced frame is built to withstand long-term use and is commonly found in MegaCorp facilities and frontline supply zones. -->
+  <Wolfein_1x2_Shelf.description>一種結構簡潔的工業置物架，用於分類與存放各類物資，加固框架能夠承受長期使用，常見於軍企設施與前線補給區。</Wolfein_1x2_Shelf.description>
+
+  <!-- EN: Wolfein Shelf (1x1) -->
+  <Wolfein_1x1_Shelf.label>沃芬置物架（1x1）</Wolfein_1x1_Shelf.label>
+  <!-- EN: A simple industrial storage shelf designed for organizing and storing various supplies. Its reinforced frame is built to withstand long-term use and is commonly found in MegaCorp facilities and frontline supply zones. -->
+  <Wolfein_1x1_Shelf.description>一種結構簡潔的工業置物架，用於分類與存放各類物資，加固框架能夠承受長期使用，常見於軍企設施與前線補給區。</Wolfein_1x1_Shelf.description>
+
+</LanguageData>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <RecipeDef Name="Wolfein_MechRecipeCivilBase" ParentName="BaseMechanoidRecipe" Abstract="True">
+        <gestationCycles>2</gestationCycles>
+    </RecipeDef>
+
+    <RecipeDef Name="Wolfein_MechRecipe_CivilBase" ParentName="Wolfein_MechRecipeCivilBase">
+        <defName>Wolfein_MechRecipe_CivilBase</defName>
+        <label>Manufacture Basic Civilian Mech Unit</label>
+        <description>Manufacture a Basic Civilian Mech Unit.</description>
+        <researchPrerequisite>Wolfein_BasicCivilianMech</researchPrerequisite>
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>120</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+        </ingredients>
+        <products>
+            <Wolfein_Mechanoid_CivilBase>1</Wolfein_Mechanoid_CivilBase>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>Wolfein_Mechanoid_CivilBase</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+
+    <RecipeDef Name="Wolfein_MechRecipe_CivilA" ParentName="Wolfein_MechRecipe_CivilBase">
+        <defName>Wolfein_MechRecipe_CivilA</defName>
+        <label>Manufacture Construction-Type Civilian Mech Unit</label>
+        <description>Manufacture a Construction-Type Civilian Mech Unit.</description>
+        <researchPrerequisite>Wolfein_CivilianUtilityMech</researchPrerequisite>
+        <ingredients Inherit="False">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>200</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>8</count>
+            </li>
+        </ingredients>
+        <products Inherit="False">
+            <Wolfein_Mechanoid_CivilA>1</Wolfein_Mechanoid_CivilA>
+        </products>
+        <descriptionHyperlinks Inherit="False">
+            <ThingDef>Wolfein_Mechanoid_CivilA</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+    <RecipeDef ParentName="Wolfein_MechRecipe_CivilA">
+        <defName>Wolfein_MechRecipe_CivilB</defName>
+        <label>Manufacture Domestic-Type Civilian Mech Unit</label>
+        <description>Manufacture a Domestic-Type Civilian Mech Unit.</description>
+        <researchPrerequisite>Wolfein_CivilianUtilityMech</researchPrerequisite>
+        <products Inherit="False">
+            <Wolfein_Mechanoid_CivilB>1</Wolfein_Mechanoid_CivilB>
+        </products>
+        <descriptionHyperlinks Inherit="False">
+            <ThingDef>Wolfein_Mechanoid_CivilB</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+    <RecipeDef ParentName="Wolfein_MechRecipe_CivilA">
+        <defName>Wolfein_MechRecipe_CivilC</defName>
+        <label>Manufacture Agricultural-Type Civilian Mech Unit</label>
+        <description>Manufacture an Agricultural-Type Civilian Mech Unit.</description>
+        <researchPrerequisite>Wolfein_CivilianUtilityMech</researchPrerequisite>
+        <products Inherit="False">
+            <Wolfein_Mechanoid_CivilC>1</Wolfein_Mechanoid_CivilC>
+        </products>
+        <descriptionHyperlinks Inherit="False">
+            <ThingDef>Wolfein_Mechanoid_CivilC</ThingDef>
+        </descriptionHyperlinks>
+    </RecipeDef>
+
+
+</Defs>

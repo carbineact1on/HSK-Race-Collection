@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: make apparel -->
+  <DoBillsMakeWFApparel.label>在缝纫台制作</DoBillsMakeWFApparel.label>
+  <!-- EN: tailoring at -->
+  <DoBillsMakeWFApparel.gerund>制作于</DoBillsMakeWFApparel.gerund>
+  <!-- EN: tailor -->
+  <DoBillsMakeWFApparel.verb>制作</DoBillsMakeWFApparel.verb>
+  
+  <!-- EN: make weapons -->
+  <DoBillsMakeWFWeapons.label>在加工台制造</DoBillsMakeWFWeapons.label>
+  <!-- EN: smithing at -->
+  <DoBillsMakeWFWeapons.gerund>制造于</DoBillsMakeWFWeapons.gerund>
+  <!-- EN: smith -->
+  <DoBillsMakeWFWeapons.verb>制造</DoBillsMakeWFWeapons.verb>
+
+  <!-- EN: make weapons -->
+  <Wolfein_MechDrill.label>钻探</Wolfein_MechDrill.label>
+  <!-- EN: smithing at -->
+  <Wolfein_MechDrill.gerund>钻探</Wolfein_MechDrill.gerund>
+  <!-- EN: smith -->
+  <Wolfein_MechDrill.verb>钻探</Wolfein_MechDrill.verb>
+  
+</LanguageData>

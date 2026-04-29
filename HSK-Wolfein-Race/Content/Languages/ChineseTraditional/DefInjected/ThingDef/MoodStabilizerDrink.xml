@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Mood Stabilizer Drink -->
+  <Wolfein_MoodStabilizerDrink.label>情緒穩定飲料</Wolfein_MoodStabilizerDrink.label>
+  <!-- EN: To effectively reduce passive and unproductive behavior in the research department caused by excessive overtime, MegaCorp introduced this beverage. It can temporarily enhance the drinker』s emotional state and prevent mental breakdowns, thereby avoiding damage to corporate assets. -->
+  <Wolfein_MoodStabilizerDrink.description>爲了有效減少研發部因加班過多產生的消極怠工行為，軍企推出了這款飲料。它能在短期內有效提升飲用者的情緒狀態，防止精神崩潰，以避免對軍企資產造成損害。</Wolfein_MoodStabilizerDrink.description>
+  <!-- EN: Drink {0} -->
+  <Wolfein_MoodStabilizerDrink.ingestible.ingestCommandString>飲用 {0}</Wolfein_MoodStabilizerDrink.ingestible.ingestCommandString>
+  <!-- EN: Drinking {0}. -->
+  <Wolfein_MoodStabilizerDrink.ingestible.ingestReportString>飲用 {0}</Wolfein_MoodStabilizerDrink.ingestible.ingestReportString>
+  
+</LanguageData>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- AIPT动力甲重盔（固定材料） -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wolfein_AIPTHeavyPowerArmorHelmet"]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>400</MaxHitPoints>
+            <Flammability>0.4</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+            <Mass>1.5</Mass>
+            <EquipDelay>5</EquipDelay>
+            <WorkToMake>28000</WorkToMake>
+            <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+            <Insulation_Cold>4</Insulation_Cold>
+            <Insulation_Heat>2</Insulation_Heat>
+            <ArmorRating_Sharp>19</ArmorRating_Sharp>
+            <ArmorRating_Blunt>39</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.6</ArmorRating_Heat>
+            <ArmorRating_Electric>0</ArmorRating_Electric>
+            <Bulk>1</Bulk>
+            <WornBulk>1.7</WornBulk>
+          </statBases>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Wolfein_AIPTHeavyPowerArmorHelmet"]/equippedStatOffsets</xpath>
+		<value>
+      <SmokeSensitivity>-1</SmokeSensitivity>
+      <AimingAccuracy>0.15</AimingAccuracy>
+      <NightVisionEfficiency_Apparel>0.75</NightVisionEfficiency_Apparel>
+		</value>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Basic Resistance Army Mech Unit -->
+  <Wolfein_Mechanoid_RebelA.label>抵抗军基础型机械体</Wolfein_Mechanoid_RebelA.label>
+  <!-- EN: A product created by hacking and rewriting the underlying systems of military mechs that, for various reasons, temporarily lost connection with the MegaCorp network. These mechanoids are likewise deployed on the frontlines as infantry. Since the resistance army lacks large bases capable of maintaining mechanoids, these units often develop individual malfunctions that require frequent adjustments by mechanitors. -->
+  <Wolfein_Mechanoid_RebelA.description>对由于各种理由短暂与军企网络失联的军企机械体进行骇入和底层改写后的产物，同样被用在前线作为步兵使用。由于抵抗军缺乏能够对机械体进行维护的大型据点，这些机械体通常有着各自不同的毛病，需要机械师时常调整。</Wolfein_Mechanoid_RebelA.description>
+  <!-- EN: left fist -->
+  <Wolfein_Mechanoid_RebelA.tools.left_fist.label>左拳</Wolfein_Mechanoid_RebelA.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Wolfein_Mechanoid_RebelA.tools.right_fist.label>右拳</Wolfein_Mechanoid_RebelA.tools.right_fist.label>
+  
+  <!-- EN: Close-Combat Resistance Mech Unit -->
+  <Wolfein_Mechanoid_RebelB.label>抵抗军近距型机械体</Wolfein_Mechanoid_RebelB.label>
+  <!-- EN: Also obtained through hacking by the resistance army. Due to their combat range, the number of close-combat mechanoids equipped by the resistance army is greater compared to the basic type. -->
+  <Wolfein_Mechanoid_RebelB.description>同样由抵抗军骇入得到。由于其作战距离，抵抗军装备的近距型机械体的数目相比基础型较多。</Wolfein_Mechanoid_RebelB.description>
+  <!-- EN: left fist -->
+  <Wolfein_Mechanoid_RebelB.tools.left_fist.label>左拳</Wolfein_Mechanoid_RebelB.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Wolfein_Mechanoid_RebelB.tools.right_fist.label>右拳</Wolfein_Mechanoid_RebelB.tools.right_fist.label>
+  
+</LanguageData>

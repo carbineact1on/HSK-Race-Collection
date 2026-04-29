@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ate Packing Staff Meals -->
+  <Wolfein_PackingStaffMeals.label>食用了沃芬族員工餐</Wolfein_PackingStaffMeals.label>
+  <!-- EN: Food containing ingredients that enhance mental focus can help the Wolfein stay more concentrated at work, while ensuring it is free of addictive substances. -->
+  <Wolfein_PackingStaffMeals.description>食用了含有能提高精神的配料的食物，可以讓沃芬在工作上更為專注，保證不含有成癮物質。</Wolfein_PackingStaffMeals.description>
+
+  <!-- EN: Emotionally Stabilized -->
+  <Wolfein_MoodStabilized.label>情緒穩定</Wolfein_MoodStabilized.label>
+  <!-- EN: Mental breaks are prevented while this effect is active. -->
+  <Wolfein_MoodStabilized.description>該效果生效期間將阻止精神崩潰的發生。</Wolfein_MoodStabilized.description>
+  <!-- EN: Mental breaks are prevented while this effect is active. -->
+  <Wolfein_MoodStabilized.descriptionCached>該效果生效期間將阻止精神崩潰的發生。</Wolfein_MoodStabilized.descriptionCached>
+
+  <!-- EN: Prototype Shield Belt Activated -->
+  <Wolfein_PrototypeShieldBelt.label>試製型護盾腰帶已啟用</Wolfein_PrototypeShieldBelt.label>
+  <!-- EN: The Prototype Shield Belt is currently active, nullifying all attacks directed at the wearer. -->
+  <Wolfein_PrototypeShieldBelt.description>試製型護盾腰帶正處於啟用狀態，一段時間內能夠無效化任何針對佩戴者的攻擊。</Wolfein_PrototypeShieldBelt.description>
+  
+  <!-- EN: Full Moon Sprint -->
+  <Wolfein_SprintFullMoon.label>滿月衝刺</Wolfein_SprintFullMoon.label>
+  <!-- EN: During a full moon, a Wolfein』s leg muscles remain exceptionally active even after a sprint, effectively reducing the chance of losing prey or failing to pursue an enemy after a missed charge. -->
+  <Wolfein_SprintFullMoon.description>滿月狀態下的沃芬，衝刺后的腿部肌肉仍能繼續超常活躍一段時間，有效降低了衝刺撲空后追獵敵人失敗的可能性。</Wolfein_SprintFullMoon.description>
+
+  <!-- EN: Severely Injured -->
+  <Wolfein_Abasia.label>身受重傷</Wolfein_Abasia.label>
+  <!-- EN: Bleeding heavily, the body is gravely wounded, limbs barely able to support itself, and every movement consumes immense effort. -->
+  <Wolfein_Abasia.description>血液不斷流失，身體嚴重受創，四肢幾乎無法支撐，任何動作都消耗著極大的力氣。</Wolfein_Abasia.description>
+
+</LanguageData>

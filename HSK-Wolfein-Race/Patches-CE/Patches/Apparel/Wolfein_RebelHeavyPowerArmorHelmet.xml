@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- 抵抗军动力甲重盔（固定材料） -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wolfein_RebelHeavyPowerArmorHelmet"]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>380</MaxHitPoints>
+            <Flammability>0.4</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+            <Mass>1.5</Mass>
+            <EquipDelay>5</EquipDelay>
+            <WorkToMake>26000</WorkToMake>
+            <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+            <Insulation_Cold>4</Insulation_Cold>
+            <Insulation_Heat>2</Insulation_Heat>
+            <ArmorRating_Sharp>16</ArmorRating_Sharp>
+            <ArmorRating_Blunt>38</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.4</ArmorRating_Heat>
+            <ArmorRating_Electric>0</ArmorRating_Electric>
+            <Bulk>1</Bulk>
+            <WornBulk>1</WornBulk>
+          </statBases>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Wolfein_RebelHeavyPowerArmorHelmet"]/equippedStatOffsets</xpath>
+		<value>
+      <SmokeSensitivity>-0.75</SmokeSensitivity>
+			<NightVisionEfficiency_Apparel>0.75</NightVisionEfficiency_Apparel>
+		</value>
+	</Operation>
+</Patch>

@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef Name="Wolfein_SundryBase" ParentName="Wolfein_MakeableBase_Tailoring" Abstract="True">
+        <defName>Wolfein_Apparel_Sundry</defName>
+        <statBases>
+            <Mass>0.8</Mass>
+            <EquipDelay>1.0</EquipDelay>
+        </statBases>
+        <apparel>
+            <layers>
+                <li>Wolfein_Apparel_Sundry</li>
+            </layers>
+            <tags>
+                <li>Wolfein_Sundry</li>
+                <li>Royal</li>
+                <li>RoyalTier5</li>
+            </tags>
+            <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+        </apparel>
+        <thingCategories>
+            <li>Wolfein_Apparel_Sundry</li>
+        </thingCategories>
+    </ThingDef>
+
+    <!-- 部落衣物 -->
+    <ThingDef Name="Wolfein_SundryBase_I" ParentName="Wolfein_SundryBase" Abstract="True">
+        <recipeMaker>
+            <researchPrerequisite>Wolfein_Apparel_I</researchPrerequisite>
+            <recipeUsers>
+                <li>ElectricTailoringBench</li>
+                <li>HandTailoringBench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <techLevel>Medieval</techLevel>
+        <tradeTags>
+            <li>Wolfein_ClothingI</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!-- 日常服 -->
+    <ThingDef Name="Wolfein_SundryBase_II" ParentName="Wolfein_SundryBase" Abstract="True">
+        <recipeMaker>
+            <researchPrerequisite>Wolfein_Apparel_II</researchPrerequisite>
+            <recipeUsers>
+                <li>ElectricTailoringBench</li>
+                <li>HandTailoringBench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <techLevel>Industrial</techLevel>
+        <tradeTags>
+            <li>Wolfein_ClothingII</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!-- 职员服 -->
+    <ThingDef Name="Wolfein_SundryBase_III" ParentName="Wolfein_SundryBase" Abstract="True">
+        <recipeMaker>
+            <researchPrerequisite>Wolfein_Apparel_III</researchPrerequisite>
+        </recipeMaker>
+        <techLevel>Industrial</techLevel>
+        <tradeTags>
+            <li>Wolfein_ClothingIII</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!-- 普通战斗服 -->
+    <ThingDef Name="Wolfein_SundryBase_CombatI" ParentName="Wolfein_SundryBase" Abstract="True">
+        <recipeMaker>
+            <researchPrerequisite>Wolfein_Apparel_CombatI</researchPrerequisite>
+        </recipeMaker>
+        <techLevel>Industrial</techLevel>
+        <tradeTags>
+            <li>Wolfein_Clothing_CombatI</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!-- 进阶战斗服 -->
+    <ThingDef Name="Wolfein_SundryBase_CombatII" ParentName="Wolfein_SundryBase" Abstract="True">
+        <recipeMaker>
+            <researchPrerequisite>Wolfein_Apparel_CombatII</researchPrerequisite>
+        </recipeMaker>
+        <techLevel>Industrial</techLevel>
+        <tradeTags>
+            <li>Wolfein_Clothing_CombatII</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!-- 工作服 -->
+    <ThingDef Name="Wolfein_SundryBase_Work" ParentName="Wolfein_SundryBase" Abstract="True">
+        <recipeMaker>
+            <researchPrerequisite>Wolfein_Apparel_Work</researchPrerequisite>
+        </recipeMaker>
+        <techLevel>Industrial</techLevel>
+        <tradeTags>
+            <li>Wolfein_Clothing_Work</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!-- 机械师 -->
+    <ThingDef Name="Wolfein_SundryBase_Mechanitor" ParentName="Wolfein_SundryBase" Abstract="True">
+        <recipeMaker>
+            <researchPrerequisite>Wolfein_Apparel_Mechanitor</researchPrerequisite>
+        </recipeMaker>
+        <techLevel>Industrial</techLevel>
+        <tradeTags>
+            <li>Wolfein_Clothing_Mechanitor</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!-- 单兵防卫 -->
+    <ThingDef Name="Wolfein_SundryBase_IndividualDefense" ParentName="Wolfein_SundryBase" Abstract="True">
+        <recipeMaker>
+            <researchPrerequisite>Wolfein_IndividualDefensetechnology</researchPrerequisite>
+        </recipeMaker>
+        <techLevel>Industrial</techLevel>
+        <tradeTags>
+            <li>Wolfein_equipment_IndividualDefense</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!-- 信息识别牌（固定材料） -->
+    <ThingDef ParentName="Wolfein_SundryBase_III">
+        <defName>Wolfein_InformationIdentificationCard</defName>
+        <label>Wolfein Information Identification Card</label>
+        <description>An identification card used to verify identity, commonly carried by Wolfein company employees.</description>
+        <costList>
+            <SteelBar>2</SteelBar>
+            <Cloth>5</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/Sundry/InformationIdentificationCard/InformationIdentificationCard</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+        </recipeMaker>
+        <statBases>
+            <MaxHitPoints>80</MaxHitPoints>
+            <WorkToMake>1000</WorkToMake>
+            <Mass>0.5</Mass>
+            <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.05</ArmorRating_Heat>
+            <Insulation_Cold>1</Insulation_Cold>
+            <Insulation_Heat>1</Insulation_Heat>
+            <EquipDelay>0.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Neck</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/Sundry/InformationIdentificationCard/InformationIdentificationCard</wornGraphicPath>
+            <tags>
+                <li>Wolfein_Sundry_Staff</li>
+                <li>Wolfein_Sundry_Combat</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+            <drawData>
+                <dataNorth>
+                    <layer>250</layer>
+                </dataNorth>
+                <dataSouth>
+                    <layer>50</layer>
+                </dataSouth>
+                <dataEast>
+                    <layer>50</layer>
+                </dataEast>
+                <dataWest>
+                    <layer>50</layer>
+                </dataWest>
+            </drawData>
+        </apparel>
+        <equippedStatOffsets>
+            <NegotiationAbility>0.1</NegotiationAbility>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 束尾（固定材料） -->
+    <ThingDef ParentName="Wolfein_SundryBase_CombatI">
+        <defName>Wolfein_TailBelt</defName>
+        <label>Wolfein tail belt</label>
+        <description>A strap used to secure the tail in place, preventing it from getting tangled with clothing, weapons, or other items. Some Wolfein also wrap it around their tail purely as a decorative accessory.</description>
+        <costList>
+            <SteelBar>2</SteelBar>
+            <Cloth>5</Cloth>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/Sundry/TailBelt/TailBelt</texPath>
+            <shaderType>CutoutComplex</shaderType>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+        </recipeMaker>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <WorkToMake>2000</WorkToMake>
+            <Mass>0.5</Mass>
+            <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.12</ArmorRating_Heat>
+            <Insulation_Cold>1</Insulation_Cold>
+            <Insulation_Heat>1</Insulation_Heat>
+            <EquipDelay>0.5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Torso</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/Sundry/TailBelt/TailBelt</wornGraphicPath>
+            <tags>
+                <li>Wolfein_Sundry_Combat</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+            <drawData>
+                <dataNorth>
+                    <layer>50</layer>
+                </dataNorth>
+                <dataSouth>
+                    <layer>-100</layer>
+                </dataSouth>
+                <dataEast>
+                    <layer>-100</layer>
+                </dataEast>
+                <dataWest>
+                    <layer>-100</layer>
+                </dataWest>
+            </drawData>
+        </apparel>
+        <equippedStatOffsets>
+            <MoveSpeed>0.05</MoveSpeed>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 防暴盾（固定材料） -->
+    <ThingDef ParentName="Wolfein_SundryBase_IndividualDefense">
+        <defName>Wolfein_RiotShield</defName>
+        <label>Wolfein Riot shield</label>
+        <description>Issued to Task Force units under the MegaCorp, this transparent, bullet-resistant riot shield is commonly used in formation to suppress violent insurgents. Some members assigned to guard high-value facilities favor it highly.</description>
+        <costList>
+            <SteelBar>10</SteelBar>
+            <Wolfein_AlloyMaterials>50</Wolfein_AlloyMaterials>
+            <Plasteel>30</Plasteel>
+                    <Mechanism>1</Mechanism>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/Sundry/RiotShield/RiotShield</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+            <recipeUsers Inherit="false">
+                <li>ElectricTailoringBench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <statBases>
+            <MaxHitPoints>600</MaxHitPoints>
+            <WorkToMake>30000</WorkToMake>
+            <Flammability>0.1</Flammability>
+            <Mass>10</Mass>
+            <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.4</ArmorRating_Heat>
+            <Insulation_Cold>1</Insulation_Cold>
+            <Insulation_Heat>1</Insulation_Heat>
+            <EquipDelay>1</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Neck</li>
+                <li>Torso</li>
+                <li>Arms</li>
+                <li>Hands</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/Sundry/RiotShield/RiotShield</wornGraphicPath>
+            <tags>
+                <li>Wolfein_Sundry_Shield</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+            <drawData>
+                <dataNorth>
+                    <layer>-100</layer>
+                </dataNorth>
+                <dataSouth>
+                    <layer>50</layer>
+                </dataSouth>
+                <dataEast>
+                    <layer>50</layer>
+                </dataEast>
+                <dataWest>
+                    <layer>50</layer>
+                </dataWest>
+            </drawData>
+        </apparel>
+        <equippedStatOffsets>
+            <MoveSpeed>-0.3</MoveSpeed>
+            <MeleeHitChance>-2</MeleeHitChance>
+            <MeleeDodgeChance>-2</MeleeDodgeChance>
+            <ShootingAccuracyPawn>-1</ShootingAccuracyPawn>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+    <!-- 外骨骼护盾（固定材料） -->
+    <ThingDef ParentName="Wolfein_SundryBase_IndividualDefense">
+        <defName>Wolfein_ExoskeletonShield</defName>
+        <label>Wolfein Exoskeleton shield</label>
+        <description>Exoskeletal shield equipped with internal motors to adjust its angle and position for optimal protection. While it significantly enhances defensive performance, the heavy armor plating limits the wearer’s combat mobility.</description>
+        <costList>
+            <SteelBar>16</SteelBar>
+            <Wolfein_AlloyMaterials>150</Wolfein_AlloyMaterials>
+            <Plasteel>100</Plasteel>
+                    <Mechanism>1</Mechanism>
+        </costList>
+        <graphicData>
+            <texPath>Wolfein/Apparel/Sundry/ExoskeletonShield/ExoskeletonShield</texPath>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
+            <recipeUsers Inherit="false">
+                <li>ElectricTailoringBench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <statBases>
+            <MaxHitPoints>1000</MaxHitPoints>
+            <WorkToMake>60000</WorkToMake>
+            <Flammability>0.1</Flammability>
+            <Mass>15</Mass>
+            <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.5</ArmorRating_Heat>
+            <Insulation_Cold>1</Insulation_Cold>
+            <Insulation_Heat>1</Insulation_Heat>
+            <EquipDelay>5</EquipDelay>
+        </statBases>
+        <apparel>
+            <useWornGraphicMask>false</useWornGraphicMask>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>Neck</li>
+                <li>Torso</li>
+                <li>Arms</li>
+                <li>Hands</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Wolfein/Apparel/Sundry/ExoskeletonShield/ExoskeletonShield</wornGraphicPath>
+            <tags>
+                <li>Wolfein_Sundry_Shield</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+            <drawData>
+                <dataNorth>
+                    <layer>50</layer>
+                </dataNorth>
+                <dataSouth>
+                    <layer>50</layer>
+                </dataSouth>
+                <dataEast>
+                    <layer>50</layer>
+                </dataEast>
+                <dataWest>
+                    <layer>50</layer>
+                </dataWest>
+            </drawData>
+        </apparel>
+        <equippedStatOffsets>
+            <MoveSpeed>-0.5</MoveSpeed>
+            <MeleeHitChance>-3</MeleeHitChance>
+            <MeleeDodgeChance>-5</MeleeDodgeChance>
+            <ShootingAccuracyPawn>-5</ShootingAccuracyPawn>
+        </equippedStatOffsets>
+        <colorGenerator Class="ColorGenerator_Options">
+            <options>
+                <li>
+                    <weight>100</weight>
+                    <only>(255,255,255)</only>
+                </li>
+            </options>
+        </colorGenerator>
+    </ThingDef>
+
+
+    <ThingDef ParentName="Wolfein_SundryBase_IndividualDefense">
+        <defName>Wolfein_ShieldBelt</defName>
+        <label>wolfein shield belt</label>
+        <description>A personal energy shield belt manufactured by MegaCorp. Although it offers no protection against melee damage, it functions as a unidirectional shield—capable of shielding the wearer from incoming bullets while allowing them to return fire without obstruction. To further enhance survivability, the belt is equipped with redundant energy cells designed to rapidly recharge the shield in critical moments. However, recharging causes irreversible damage to the circuitry. Once both backup cells have been depleted, the system requires component replacement and manual maintenance to restore functionality.</description>
+        <thingClass>Apparel</thingClass>
+        <graphicData>
+            <texPath>Wolfein/Apparel/Sundry/EnergyShieldBelt/EnergyShieldBelt</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <tickerType>Normal</tickerType>
+        <techLevel>Spacer</techLevel>
+        <statBases>
+            <Mass>3</Mass>
+            <WorkToMake>21000</WorkToMake>
+            <Flammability>0.4</Flammability>
+            <EnergyShieldRechargeRate>0.15</EnergyShieldRechargeRate>
+            <EnergyShieldEnergyMax>1.2</EnergyShieldEnergyMax>
+            <EquipDelay>1.2</EquipDelay>
+        </statBases>
+        <costList>
+            <Wolfein_AlloyMaterials>80</Wolfein_AlloyMaterials>
+            <ComponentIndustrial>18</ComponentIndustrial>
+            <ComponentSpacer>2</ComponentSpacer>
+                    <Mechanism>1</Mechanism>
+        </costList>
+        <recipeMaker>
+            <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+            <researchPrerequisites>
+                <li>ShieldBelt</li>
+            </researchPrerequisites>
+            <recipeUsers Inherit="false">
+                <li>ElectricTailoringBench</li>
+            </recipeUsers>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Machining</soundWorking>
+            <useIngredientsForColor>false</useIngredientsForColor>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+            <displayPriority>300</displayPriority>
+        </recipeMaker>
+        <apparel>
+            <countsAsClothingForNudity>false</countsAsClothingForNudity>
+            <careIfWornByCorpse>false</careIfWornByCorpse>
+            <careIfDamaged>false</careIfDamaged>
+            <wearPerDay>0</wearPerDay>
+            <bodyPartGroups>
+                <li>Waist</li>
+            </bodyPartGroups>
+            <layers Inherit="false">
+                <li>Belt</li>
+            </layers>
+            <tags>
+                <li>Wolfein_ShieldBelt</li>
+            </tags>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+        </apparel>
+        <comps>
+            <li Class="CompProperties_Shield">
+                <blocksRangedWeapons>false</blocksRangedWeapons>
+                <energyOnReset>1</energyOnReset>
+            </li>
+            <li Class="Wolfein.CompProperties_ChargeEnergyShield">
+            </li>
+            <li Class="CompProperties_ApparelReloadable">
+                <maxCharges>2</maxCharges>
+                <ammoDef>ComponentIndustrial</ammoDef>
+                <ammoCountPerCharge>5</ammoCountPerCharge>
+                <baseReloadTicks>60</baseReloadTicks>
+                <soundReload>Standard_Reload</soundReload>
+                <hotKey>Misc4</hotKey>
+                <chargeNoun>charge</chargeNoun>
+                <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+            </li>
+        </comps>
+        <allowedArchonexusCount>1</allowedArchonexusCount>
+        <tradeTags>
+            <li>Wolfein_ShieldBelt</li>
+        </tradeTags>
+    </ThingDef>
+
+</Defs>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- 军用数控背包（固定材料） -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wolfein_MilitaryControlPack"]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <Flammability>0.4</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+            <Mass>3</Mass>
+            <EquipDelay>2</EquipDelay>
+            <WorkToMake>2000</WorkToMake>
+            <ArmorRating_Sharp>0</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0</ArmorRating_Blunt>
+            <ArmorRating_Heat>0</ArmorRating_Heat>
+            <ArmorRating_Electric>0</ArmorRating_Electric>
+            <Bulk>1</Bulk>
+            <WornBulk>0.82</WornBulk>
+          </statBases>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Wolfein_MilitaryControlPack"]/equippedStatOffsets</xpath>
+		<value>
+				<CarryWeight>24</CarryWeight>
+				<CarryBulk>18</CarryBulk>
+		</value>
+	</Operation>
+</Patch>

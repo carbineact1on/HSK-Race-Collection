@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: wolfein shuttle -->
+  <Wolfein_TravelingShuttle.label>沃芬重型运输机</Wolfein_TravelingShuttle.label>
+  <!-- EN: A shuttle in flight. -->
+  <Wolfein_TravelingShuttle.description>重型运输机正在飞行。</Wolfein_TravelingShuttle.description>
+  
+</LanguageData>

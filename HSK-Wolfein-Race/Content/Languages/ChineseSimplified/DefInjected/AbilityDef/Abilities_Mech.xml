@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: invisibility -->
+  <Wolfein_MechInvisibility.label>光学隐形</Wolfein_MechInvisibility.label>
+  <!-- EN: Equipped with an optical cloaking system, it can significantly reduce visual and thermal signatures for a limited time, making it suitable for ambushes and long-term surveillance operations. -->
+  <Wolfein_MechInvisibility.description>已搭载的光学隐身系统，可在一定时间内大幅降低可视与热能信号，适合执行伏击与长期监视任务。</Wolfein_MechInvisibility.description>
+  
+  <!-- EN: Electromagnetic Charging Burst -->
+  <Wolfein_RailBalistaTripleBurst.label>电充连发</Wolfein_RailBalistaTripleBurst.label>
+  <!-- EN: By repeatedly charging the electromagnetic accelerator with the large-capacity capacitor array built into the crossbow, the user can fire electromagnetically propelled bolts in rapid succession, with greatly enhanced penetration. Due to material limitations, the capacitors must be recharged after consecutive shots. -->
+  <Wolfein_RailBalistaTripleBurst.description>通过弩身上的大容量电容组反复为电磁加速器充能，可在短时间内连续发射经电磁推进的弩箭，并且其穿透力大幅提升。受材料限制，连续射击后需等待电容重置。</Wolfein_RailBalistaTripleBurst.description>
+  
+  <!-- EN: Shrapnel Blast -->
+  <Wolfein_ShrapnelBlast.label>霰爆</Wolfein_ShrapnelBlast.label>
+  <!-- EN: Detonate the explosive buckshot loaded in the gunlance — give every enemy who thinks they can overwhelm the wielder with sheer numbers one last, bitter lesson. -->
+  <Wolfein_ShrapnelBlast.description>激发铳枪内装填的霰射炸药，让所有认为能靠人数优势来和装备者打近身战的敌人们吃上他们人生中最后一次苦头。</Wolfein_ShrapnelBlast.description>
+  
+  <!-- EN: Wolfein Sprint -->
+  <Wolfein_Sprint.label>沃芬冲刺</Wolfein_Sprint.label>
+  <!-- EN: The Wolfein’s hormone levels fluctuate with the lunar phases, allowing their leg muscles to unleash tremendous bursts of power for short durations—enabling them to cover great distances in an instant.\nDuring a full moon, a Wolfein’s leg muscles remain exceptionally active even after a sprint, effectively reducing the chance of losing prey or failing to pursue an enemy after a missed charge. -->
+  <Wolfein_Sprint.description>沃芬族体内因月相变化的激素水平使得他们的腿部肌肉能在短时内爆发出夸张的力量，允许沃芬在短时内跨过一大段距离。 满月状态下的沃芬，冲刺后的腿部肌肉仍能继续超常活跃一段时间，有效降低了冲刺扑空后追猎敌人失败的可能性。</Wolfein_Sprint.description>
+  <!-- EN: sprint -->
+  <Wolfein_Sprint.verbProperties.label>冲刺</Wolfein_Sprint.verbProperties.label>
+  
+  <!-- EN: Warp Slash -->
+  <Wolfein_WarpSlash.label>折跃斩击</Wolfein_WarpSlash.label>
+  <!-- EN: A miniature fold-jump device built into the scabbard allows the user to teleport a short distance. It cannot be used repeatedly in quick succession—doing so risks the user disappearing without a trace. -->
+  <Wolfein_WarpSlash.description>刀鞘内内置微型折跃装置，可让使用者进行短距离传送。该装置不可快速连续使用——否则使用者可能会在此消失得无影无踪。</Wolfein_WarpSlash.description>
+
+</LanguageData>

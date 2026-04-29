@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein Rebel Deserter -->
+  <Wolfein_RebelDeserter.label>沃芬抵抗軍逃兵</Wolfein_RebelDeserter.label>
+  
+  <!-- EN: Wolfein Rebel Gas Soldier -->
+  <Wolfein_RebelGasSoldier.label>沃芬抵抗軍毒氣士兵</Wolfein_RebelGasSoldier.label>
+  
+  <!-- EN: Wolfein Rebel Scout -->
+  <Wolfein_RebelMelee.label>沃芬抵抗軍斥候</Wolfein_RebelMelee.label>
+  
+  <!-- EN: Wolfein Rebel Scout -->
+  <Wolfein_RebelScout.label>沃芬抵抗軍斥候</Wolfein_RebelScout.label>
+  
+  <!-- EN: Wolfein Rebel Soldier -->
+  <Wolfein_RebelSoldier.label>沃芬抵抗軍士兵</Wolfein_RebelSoldier.label>
+  
+  <!-- EN: Wolfein Rebel Heavy-Armored Soldier -->
+  <Wolfein_RebelSoldier_HeavyArmored.label>沃芬抵抗軍重甲士兵</Wolfein_RebelSoldier_HeavyArmored.label>
+  
+</LanguageData>

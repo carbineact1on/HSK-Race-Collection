@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Wolfein Race (HSK/CE Patched, All-in-One)</name>
+	<author>MelonDove, Ancot — HSK/CE patch by CarbineAction; CE patches by leaople</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<packageId>CarbineAction.HSK.Wolfein.Race</packageId>
+	<modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
+	<description>HSK/CE-patched all-in-one fork of the Wolfein Race mod.
+
+ABSORBED MODS (do not enable separately):
+  - Wolfein Race           (workshop 3473140562, MelonDove + Ancot)
+  - Wolfein Race Gene Patch (workshop 3473178683, Ancot)
+  - Wolfein CE Patches     (workshop 3485371294, leaople)
+
+All three are bundled. Disable the originals and enable this fork instead.
+
+--- HSK-NATIVE WEAPON RECIPES ---
+
+All 70 Wolfein weapons reworked to follow HSK's class-component pipeline:
+
+  HG (homemade + industrial)         + Pistol_Component + Weapon_Parts + Plastic
+  HG charge                          + Pistol_Component + Charged_Component + Weapon_Parts + Plastic
+  SMG industrial                     + SMG_Component + Weapon_Parts + Plastic
+  SMG charge                         + SMG_Component + Charged_Component + Weapon_Parts + Plastic
+  SG industrial                      + Shotgun_Component + Weapon_Parts + Plastic
+  SG charge                          + Shotgun_Component + Charged_Component + Weapon_Parts + Plastic
+  AR homemade                        + Rifle_Component + Weapon_Parts + Plastic
+  AR industrial                      + AdvRifle_Component + Weapon_Parts + Plastic
+  AR charge                          + AdvRifle_Component + Charged_Component + Weapon_Parts + Plastic
+  RF homemade                        + Rifle_Component + Weapon_Parts + Plastic
+  RF industrial                      + Sniper_Component + Weapon_Parts + Plastic
+  RF charge                          + AdvSniper_Component + Charged_Component + Weapon_Parts + Plastic
+  MG industrial                      + Heavy_Component + Weapon_Parts + Plastic
+  MG charge                          + Heavy_Component + Charged_Component + Weapon_Parts + Plastic
+  Launcher (Grenade/Missile)         + Launcher_Component + Weapon_Parts + Plastic
+  TaserGun (HG-class)                + Pistol_Component + Weapon_Parts + Plastic
+  Longbow                            + Weapon_Parts + Plastic
+  Grenades                           + Weapon_Parts + Plastic
+  Melee Tier I (Simple variants)     + Weapon_Parts
+  Melee Tier III (Heavy + AIPT)      + Weapon_Parts
+
+Wolfein_AlloyMaterials and ComponentIndustrial counts preserved as the racial prestige material — alloy is now an additive on top of the HSK component pipeline rather than a substitute.
+
+--- HSK-NATIVE APPAREL RECIPES ---
+
+~75 apparel items across 5 layers (OnSkin, OverHead, Shell, Sundry, Underwear) reworked:
+
+  Tactical/Military uniforms         + Plastic
+  Goggles + Helmets                  + Plastic + Electronics (goggles only)
+  Power Armor (all variants)         + Mechanism + Microchips (Imperial only)
+  GasMask                            + Plastic (filter)
+  ShieldBelt                         + Mechanism
+
+Wolfein_CompositeFabric preserved as the racial prestige textile.
+
+--- INGREDIENT SWAPS ---
+
+Raw &lt;Steel&gt; -&gt; refined &lt;SteelBar&gt; at 1:5 (HSK convention; Steel is iron ore, SteelBar is the smelted product). Raw &lt;Uranium&gt; -&gt; refined &lt;DepletedUranium&gt; at 1:1 (matches HSK's MakeDepletedUraniumAlloy 10:10 ratio).
+
+--- BENCH ROUTING ---
+
+  HG / SMG / SG               -&gt; HSK WeaponCraftingWorkTable
+  AR / RF / MG / Launcher     -&gt; HSK AdvWeaponCraftingWorkTable
+  Charge variants             -&gt; HSK AdvWeaponCraftingWorkTable
+  Melee weapons               -&gt; HSK ElectricSmithy
+  Apparel (tactical+)         -&gt; HSK ElectricTailoringBench
+  Apparel (basic civilian)    -&gt; HSK HandTailoringBench
+  Wolfein_AlloyMaterials      -&gt; HSK ElectricSmithy
+  Wolfein_CompositeFabric     -&gt; HSK ElectricTailoringBench
+
+Wolfein's own crafting bench (Wolfein_TableMachining) is hidden from the architect menu.
+
+--- BUNDLED CE PATCHES ---
+
+leaople's Wolfein CE Patches (workshop 3485371294) bundled into Patches-CE/, gated by IfModActive="CETeam.CombatExtended" in loadFolders.xml. Covers 70+ apparel + weapon CE adjustments + 1 grenade ammo def.
+
+--- BUNDLED GENE PATCH ---
+
+Ancot's Wolfein Race Gene Patch (workshop 3473178683) bundled into 1.5/Defs/GeneDefs/ + XenotypeDefs/ + Patches/. Adds Wolfein-specific genes and the Wolfein xenotype, integrated with vanilla Biotech.
+
+--- COMPATIBILITY ---
+
+Requires: HSK (skyarkhangel.hsk), Combat Extended (CETeam.CombatExtended), Harmony, Humanoid Alien Races, Biotech DLC.
+
+NOT compatible with:
+  - MelonDove.WolfeinRace (original Wolfein Race) — disable, enable this instead
+  - Ancot.WolfeinRaceGenePatch (gene patch) — bundled, do not enable separately
+  - leaople.WolfeinCEPatch (CE patches) — bundled, do not enable separately</description>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>erdelf.HumanoidAlienRaces</packageId>
+			<displayName>Humanoid Alien Races</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=839005762</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>Ludeon.RimWorld.Biotech</packageId>
+			<displayName>Biotech</displayName>
+		</li>
+	</modDependencies>
+	<incompatibleWith>
+		<li>MelonDove.WolfeinRace</li>
+		<li>Ancot.WolfeinRaceGenePatch</li>
+		<li>leaople.WolfeinCEPatch</li>
+	</incompatibleWith>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>erdelf.HumanoidAlienRaces</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>skyarkhangel.hsk</li>
+		<li>CETeam.CombatExtended</li>
+	</loadAfter>
+</ModMetaData>

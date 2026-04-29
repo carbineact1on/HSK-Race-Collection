@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- 飞船事故 -->
+    <ScenarioDef>
+        <defName>Wolfein_Scenarios</defName>
+        <label>Wolfein New start</label>
+        <description>Due to an unexpected spaceship accident, three Wolfein have found themselves stranded together in the Outer Rim. It seems there's no going back to their former lives anytime soon—and so, a brand-new story of their own quietly begins in this unfamiliar land.</description>
+        <scenario>
+            <summary>A new outpost built by the Wolfein who found themselves stranded in the Outer Rim.</summary>
+            <playerFaction>
+                <def>PlayerFaction</def>
+                <factionDef>Wolfein_PlayerFaction</factionDef>
+            </playerFaction>
+            <parts>
+
+                <!-- 开局人数 -->
+                <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+                    <def>ConfigPage_ConfigureStartingPawns</def>
+                    <pawnCount>3</pawnCount>
+                    <pawnChoiceCount>8</pawnChoiceCount>
+                </li>
+
+                <li Class="ScenPart_PlayerPawnsArriveMethod">
+                    <def>PlayerPawnsArriveMethod</def>
+                    <method>DropPods</method>
+                </li>
+
+                <!-- 开局携带物资 -->
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Silver</thingDef>
+                    <count>200</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>W_Weapon_HG_Pistol</thingDef>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>W_Weapon_Melee_AlloyDagger</thingDef>
+                    <stuff>Wolfein_AlloyMaterials</stuff>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <count>20</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>ComponentIndustrial</thingDef>
+                    <count>25</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Wolfein_PackingStaffMeals</thingDef>
+                    <count>60</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Wolfein_FlakJacket</thingDef>
+                </li>
+
+                <li Class="ScenPart_ScatterThingsNearPlayerStart">
+                    <def>ScatterThingsNearPlayerStart</def>
+                    <thingDef>WoodLog</thingDef>
+                    <count>400</count>
+                </li>
+                <li Class="ScenPart_ScatterThingsNearPlayerStart">
+                    <def>ScatterThingsNearPlayerStart</def>
+                    <thingDef>Steel</thingDef>
+                    <count>300</count>
+                </li>
+
+                <!-- 开局随机散落物资 -->
+                <li Class="ScenPart_ScatterThingsAnywhere">
+                    <def>ScatterThingsAnywhere</def>
+                    <thingDef>Steel</thingDef>
+                    <count>450</count>
+                </li>
+                <li Class="ScenPart_ScatterThingsAnywhere">
+                    <def>ScatterThingsAnywhere</def>
+                    <thingDef>ShipChunk</thingDef>
+                    <allowRoofed>false</allowRoofed>
+                    <count>5</count>
+                </li>
+                <li Class="ScenPart_ScatterThingsAnywhere">
+                    <def>ScatterThingsAnywhere</def>
+                    <thingDef>Wolfein_PackingStaffMeals</thingDef>
+                    <count>8</count>
+                </li>
+
+            </parts>
+        </scenario>
+    </ScenarioDef>
+
+    <!-- 离群狼 -->
+    <ScenarioDef>
+        <defName>Wolfein_OutlierWolf</defName>
+        <label>Wolfein Outlier Wolf</label>
+        <description>Whether to escape the cold grip of the MegaCorp or to pursue personal freedom and dignity, this Wolfein now wanders the Outer Rim.</description>
+        <scenario>
+            <summary>A new outpost established by the outcasts.</summary>
+            <playerFaction>
+                <def>PlayerFaction</def>
+                <factionDef>Wolfein_PlayerFaction_MegaCorpHostile</factionDef>
+            </playerFaction>
+            <parts>
+
+                <!-- 开局人数 -->
+                <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+                    <def>ConfigPage_ConfigureStartingPawns</def>
+                    <pawnCount>1</pawnCount>
+                    <pawnChoiceCount>8</pawnChoiceCount>
+                </li>
+
+                <li Class="ScenPart_PlayerPawnsArriveMethod">
+                    <def>PlayerPawnsArriveMethod</def>
+                    <method>Standing</method>
+                </li>
+
+                <!-- 开局携带物资 -->
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Silver</thingDef>
+                    <count>70</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>W_Weapon_SMG_LightSubmachineGun</thingDef>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>MedicineIndustrial</thingDef>
+                    <count>5</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>ComponentIndustrial</thingDef>
+                    <count>15</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Wolfein_PackingStaffMeals</thingDef>
+                    <count>15</count>
+                </li>
+                <li Class="ScenPart_ScatterThingsNearPlayerStart">
+                    <def>ScatterThingsNearPlayerStart</def>
+                    <thingDef>WoodLog</thingDef>
+                    <count>250</count>
+                </li>
+
+                <!-- 开局随机散落物资 -->
+                <li Class="ScenPart_ScatterThingsAnywhere">
+                    <def>ScatterThingsAnywhere</def>
+                    <thingDef>Steel</thingDef>
+                    <count>200</count>
+                </li>
+
+            </parts>
+        </scenario>
+    </ScenarioDef>
+
+</Defs>
+    

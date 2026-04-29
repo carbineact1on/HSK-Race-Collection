@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- 沃芬工业药物 -->
+    <ThingDef ParentName="MedicineBase">
+        <defName>Wolfein_MedicineIndustrial</defName>
+        <label>Wolfein Medicine</label>
+        <description>An industrial-grade medical kit, containing commonly used basic medications and various medical tools of the Wolfein, capable of providing accurate diagnosis and treatment support.</description>
+        <possessionCount>3</possessionCount>
+        <graphicData>
+            <texPath>Wolfein/Items/WolfeinMedicineIndustrial</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <techLevel>Industrial</techLevel>
+        <statBases>
+            <MarketValue>20</MarketValue>
+            <Mass>0.50</Mass>
+            <Flammability>0.8</Flammability>
+            <MedicalPotency>1.25</MedicalPotency>
+            <MedicalQualityMax>1.10</MedicalQualityMax>
+            <DeteriorationRate>2</DeteriorationRate>
+            <WorkToMake>1000</WorkToMake>
+        </statBases>
+        <costList>
+            <MedicineHerbal>3</MedicineHerbal>
+            <Neutroamine>1</Neutroamine>
+            <Cloth>5</Cloth>
+        </costList>
+        <recipeMaker>
+            <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+            <workSkill>Intellectual</workSkill>
+            <recipeUsers>
+                <li>DrugLab</li>
+            </recipeUsers>
+            <researchPrerequisite>Wolfein_Medicine</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+                <Intellectual>4</Intellectual>
+                <Medicine>3</Medicine>
+            </skillRequirements>
+            <bulkRecipeCount>4</bulkRecipeCount>
+            <displayPriority>2000</displayPriority>
+        </recipeMaker>
+        <allowedArchonexusCount>20</allowedArchonexusCount>
+    </ThingDef>
+
+    <!-- 沃芬复合面料 -->
+    <ThingDef ParentName="ResourceBase">
+        <defName>Wolfein_CompositeFabric</defName>
+        <label>Wolfein Composite Fabric</label>
+        <description>The Wolfein Corp’s specialized composite fabric is made from various fabrics and leather through a composite process. As a new type of material, it possesses multiple characteristics such as waterproof, breathable, windproof, and thermal insulation, making it widely used in outdoor clothing, sports gear, and specialized workwear.</description>
+        <graphicData>
+            <texPath>Wolfein/Items/WolfeinCompositeFabric</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <useHitPoints>false</useHitPoints>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <Mass>0.02</Mass>
+            <MarketValue>3.5</MarketValue>
+            <Flammability>0</Flammability>
+            <StuffPower_Armor_Sharp>1.6</StuffPower_Armor_Sharp>
+            <StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
+            <StuffPower_Armor_Heat>3.0</StuffPower_Armor_Heat>
+            <StuffPower_Insulation_Cold>26</StuffPower_Insulation_Cold>
+            <StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+        </statBases>
+        <burnableByRecipe>true</burnableByRecipe>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <minRewardCount>30</minRewardCount>
+        <stuffProps>
+            <categories>
+                <li>Fabric</li>
+            </categories>
+            <commonality>0.10</commonality>
+            <color>(1,1,1)</color>
+            <statFactors>
+                <Flammability>0</Flammability>
+                <MaxHitPoints>1.0</MaxHitPoints>
+                <Beauty>1</Beauty>
+            </statFactors>
+        </stuffProps>
+        <thingCategories>
+            <li>Textiles</li>
+        </thingCategories>
+    </ThingDef>
+
+    <!-- 沃芬高性能合金 -->
+    <ThingDef ParentName="ResourceBase">
+        <defName>Wolfein_AlloyMaterials</defName>
+        <label>Wolfein Alloy</label>
+        <description>This superalloy, manufactured by the Wolfein Corp, is primarily used in the military sector. It demonstrates exceptional durability and corrosion resistance in the production of military equipment, ensuring that the gear remains stable and operational in harsh environments for extended periods.</description>
+        <graphicData>
+            <texPath>Wolfein/Items/WolfeinAlloyMaterials</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>11</MarketValue>
+            <Mass>1.0</Mass>
+            <Flammability>0</Flammability>
+            <StuffPower_Armor_Sharp>1.25</StuffPower_Armor_Sharp>
+            <StuffPower_Armor_Blunt>0.6</StuffPower_Armor_Blunt>
+            <StuffPower_Armor_Heat>0.7</StuffPower_Armor_Heat>
+            <SharpDamageMultiplier>1.35</SharpDamageMultiplier>
+            <BluntDamageMultiplier>1.15</BluntDamageMultiplier>
+        </statBases>
+        <useHitPoints>false</useHitPoints>
+        <thingCategories>
+            <li>ResourcesRaw</li>
+        </thingCategories>
+        <burnableByRecipe>false</burnableByRecipe>
+        <stuffProps>
+            <categories>
+                <li>Metallic</li>
+            </categories>
+            <constructEffect>ConstructMetal</constructEffect>
+            <commonality>0.05</commonality>
+            <color>(0.26,0.26,0.26)</color>
+            <statFactors>
+                <MaxHitPoints>2.5</MaxHitPoints>
+                <Flammability>0</Flammability>
+                <WorkToBuild>2.7</WorkToBuild>
+                <WorkToMake>2.7</WorkToMake>
+                <DoorOpenSpeed>0.8</DoorOpenSpeed>
+                <MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
+                <Beauty>1.0</Beauty>
+            </statFactors>
+        </stuffProps>
+        <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    </ThingDef>
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>Wolfein_ElectronicComponent</defName>
+        <label>Wolfein Electronic component</label>
+        <description>A pile of Wolfein electronic components, packed with high-tech gadgets, primarily used to construct the nervous systems of mech units.</description>
+        <graphicData>
+            <texPath>Wolfein/Items/ElectronicComponent/ElectronicComponent</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.2</drawSize>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Standard_Drop</soundInteract>
+        <soundDrop>Standard_Drop</soundDrop>
+        <stackLimit>25</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <WorkToMake>2400</WorkToMake>
+            <Mass>0.1</Mass>
+            <Flammability>0</Flammability>
+        </statBases>
+        <costList>
+            <ComponentIndustrial>5</ComponentIndustrial>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Plasteel>20</Plasteel>
+        </costList>
+        <recipeMaker>
+            <researchPrerequisites>
+            </researchPrerequisites>
+            <recipeUsers>
+                <li>Wolfein_ReverseResearchBench</li>
+            </recipeUsers>
+            <workSkill>Crafting</workSkill>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <thingCategories>
+            <li>Manufactured</li>
+        </thingCategories>
+        <tradeability>All</tradeability>
+        <techLevel>Industrial</techLevel>
+        <tradeTags>
+            <li>ExoticMisc</li>
+        </tradeTags>
+    </ThingDef>
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>Wolfein_MechanicalComponent</defName>
+        <label>Wolfein mechanical component</label>
+        <description>A pile of Wolfein mechanical components. Thanks to the exceptional quality of Wolfein high-performance alloys, mech units built with them exhibit noticeably superior defense compared to others of similar size.</description>
+        <graphicData>
+            <texPath>Wolfein/Items/MechanicalComponents/MechanicalComponents</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.2</drawSize>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Standard_Drop</soundInteract>
+        <soundDrop>Standard_Drop</soundDrop>
+        <stackLimit>25</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <WorkToMake>2400</WorkToMake>
+            <Mass>0.1</Mass>
+            <Flammability>0</Flammability>
+        </statBases>
+        <costList>
+            <SteelBar>10</SteelBar>
+            <Plasteel>20</Plasteel>
+            <Wolfein_AlloyMaterials>20</Wolfein_AlloyMaterials>
+        </costList>
+        <recipeMaker>
+            <researchPrerequisites>
+            </researchPrerequisites>
+            <recipeUsers>
+                <li>ElectricSmithy</li>
+            </recipeUsers>
+            <workSkill>Crafting</workSkill>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <thingCategories>
+            <li>Manufactured</li>
+        </thingCategories>
+        <tradeability>All</tradeability>
+        <techLevel>Industrial</techLevel>
+        <tradeTags>
+            <li>ExoticMisc</li>
+        </tradeTags>
+    </ThingDef>
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>Wolfein_ImperialDataAnalysis</defName>
+        <label>Wolfein Imperial Data Analysis</label>
+        <description>The final report produced by the MegaCorp through reverse-engineering the previous-generation power armor left behind after the fall of the Wolfein royal lineage. Overall, the MegaCorp concluded that the armor was "excessively costly" and "filled with unnecessary redundant components."</description>
+        <graphicData>
+            <texPath>Wolfein/Items/ImperialDataAnalysis/ImperialDataAnalysis</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.2</drawSize>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Standard_Drop</soundInteract>
+        <soundDrop>Standard_Drop</soundDrop>
+        <stackLimit>25</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <MarketValue>600</MarketValue>
+            <Mass>0.1</Mass>
+            <Flammability>0</Flammability>
+        </statBases>
+        <thingCategories>
+            <li>Manufactured</li>
+        </thingCategories>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Industrial</techLevel>
+        <tradeTags>
+            <li>ExoticMisc</li>
+        </tradeTags>
+    </ThingDef>
+    
+</Defs>

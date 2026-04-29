@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein race -->
+  <Wolfein_Race.label>沃芬</Wolfein_Race.label>
+
+  <Wolfein_Race.description>沃芬族，一种夜行性类人种族，拥有超越人类的夜间视觉与听觉能力。他们最显著的外貌特征是头顶的狼耳与尾部蓬松的狼尾。如今，这个种族完全被名为"军工联合体"的巨型企业统治——这家前身为旧沃芬帝国国防承包商的组织，已渗透进每个沃芬从出生到死亡的生存全周期。
+    尽管沃芬文明已发展至星际时代，但一代代传承下来的狼性基因带来的反抗本能，正被企业机器日益瓦解。绝大多数沃芬人不得不蜷缩在军企的极权统治下，他们的生活被全天候无死角的监控系统分割成用于量化个体的数据单元。即便偶有逃离的念头，也会在密不透风的管控网络中消弭于无形。
+    在过去与机械族的全面战争导致沃芬人口断崖式下跌，军工巨企治根基开始松动。为填补战力真空，企业通过逆向解析机械族科技，批量生产出高效杀戮机器。而战争的疮痍中，一个抵抗组织正在阴影中蔓延。他们以"不惜代价推翻军企"为信条，那些被官方媒体称为"恐怖行径"的行动，正在锈蚀的统治铁幕上撕开裂缝。</Wolfein_Race.description>
+  <!-- EN: left fist -->
+  <Wolfein_Race.tools.left_fist.label>左拳</Wolfein_Race.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Wolfein_Race.tools.right_fist.label>右拳</Wolfein_Race.tools.right_fist.label>
+  <!-- EN: teeth -->
+  <Wolfein_Race.tools.teeth.label>牙</Wolfein_Race.tools.teeth.label>
+  <!-- EN: head -->
+  <Wolfein_Race.tools.head.label>头</Wolfein_Race.tools.head.label>
+  
+</LanguageData>

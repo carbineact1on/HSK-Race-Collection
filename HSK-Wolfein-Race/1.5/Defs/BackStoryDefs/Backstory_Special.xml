@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <AlienRace.AlienBackstoryDef Name="Wolfein_SpecialBackstory" Abstract="True">
+        <disallowedTraitsChance>
+        </disallowedTraitsChance>
+        <forcedHediffs>
+        </forcedHediffs>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Female</bodyTypeMale>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 离群狼1 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_SpecialBackstory">
+        <defName>Wolfein_OutlierWolf_1</defName>
+        <title>Wolfein Outlier Wolf</title>
+        <titleShort>Outlier Wolf</titleShort>
+        <description>[PAWN_nameDef] was once an elite armed employee in the MegaCorp, until one day she grew completely disillusioned with it all. She escaped the company at any cost and ultimately ended up in the Fringe World.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>6</Shooting>
+            <Social>3</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_Special_OutlierWolf</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 离群狼2 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_SpecialBackstory">
+        <defName>Wolfein_OutlierWolf_2</defName>
+        <title>Wolfein Outlier Wolf</title>
+        <titleShort>Outlier Wolf</titleShort>
+        <description>[PAWN_nameDef], a former special operations unit member, was discharged after multiple missions when the MegaCorp deemed her "mentally unfit for further assignments." Originally slated for deployment to a mining site to work off her debts, [PAWN_nameDef] chose instead to flee the MegaCorp's jurisdiction.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>8</Melee>
+            <Shooting>8</Shooting>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_Special_OutlierWolf</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 离群狼3 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_SpecialBackstory">
+        <defName>Wolfein_OutlierWolf_3</defName>
+        <title>Wolfein Outlier Wolf</title>
+        <titleShort>Outlier Wolf</titleShort>
+        <description>[PAWN_nameDef], once an undercover agent for the Resistance Army within the MegaCorp, was meant to fight for the cause from the shadows. However, after an unexpected intelligence leak exposed her identity, [PAWN_nameDef] had no choice but to abandon everything she once had.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>5</Melee>
+            <Shooting>4</Shooting>
+            <Social>6</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_Special_OutlierWolf</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 离群狼4 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_SpecialBackstory">
+        <defName>Wolfein_OutlierWolf_4</defName>
+        <title>Wolfein Outlier Wolf</title>
+        <titleShort>Outlier Wolf</titleShort>
+        <description>After earning her doctorate, [PAWN_nameDef] was directly recruited by the MegaCorp as a researcher. However, shortly after joining, she was framed by her immediate superior and dragged into a lawsuit to take the fall. Knowing she would likely spend the rest of her life in prison, [PAWN_nameDef] chose to take revenge on her superior before fleeing into the shadows.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Social>5</Social>
+            <Intellectual>8</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_Special_OutlierWolf</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 离群狼5 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_SpecialBackstory">
+        <defName>Wolfein_OutlierWolf_5</defName>
+        <title>Wolfein Outlier Wolf</title>
+        <titleShort>Outlier Wolf</titleShort>
+        <description>[PAWN_nameDef] was supposed to spend her remaining years working off her crimes in one of the MegaCorp’s prison mines. However, during a prison riot, she seized the opportunity to steal classified corporate assets, offering them as a bargaining chip to any faction willing to take her in.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>6</Melee>
+            <Social>5</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_Special_OutlierWolf</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+</Defs>

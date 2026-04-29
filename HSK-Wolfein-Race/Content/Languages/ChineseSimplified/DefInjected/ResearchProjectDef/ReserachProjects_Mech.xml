@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein Mechanitor Apparel -->
+  <Wolfein_Apparel_Mechanitor.label>沃芬族机械师装备</Wolfein_Apparel_Mechanitor.label>
+  <!-- EN: Research how to produce wolfein mechanitor apparel. -->
+  <Wolfein_Apparel_Mechanitor.description>研究如何制造沃芬族的机械师装备</Wolfein_Apparel_Mechanitor.description>
+  
+  <!-- EN: Wolfein Basic Civilian Mech -->
+  <Wolfein_BasicCivilianMech.label>沃芬族基础民用机械体</Wolfein_BasicCivilianMech.label>
+  <!-- EN: Research how to produce wolfein basic civilian mech. -->
+  <Wolfein_BasicCivilianMech.description>研究如何制造沃芬族的基础民用机械体。</Wolfein_BasicCivilianMech.description>
+  
+  <!-- EN: Wolfein Basic Military Mech -->
+  <Wolfein_BasicMilitaryMech.label>沃芬族基础军用机械体</Wolfein_BasicMilitaryMech.label>
+  <!-- EN: Research how to produce wolfein basic military mech. -->
+  <Wolfein_BasicMilitaryMech.description>研究如何制造沃芬族的基础军用机械体。</Wolfein_BasicMilitaryMech.description>
+  
+  <!-- EN: Wolfein Civilian Utility Mech -->
+  <Wolfein_CivilianUtilityMech.label>沃芬族民用特化机械体</Wolfein_CivilianUtilityMech.label>
+  <!-- EN: Research how to produce wolfein civilian utility mech. -->
+  <Wolfein_CivilianUtilityMech.description>研究如何制造沃芬族的民用特化机械体。</Wolfein_CivilianUtilityMech.description>
+  
+  <!-- EN: Wolfein Giant Military Mech -->
+  <Wolfein_GiantMilitaryMech.label>沃芬族巨型军用机械体</Wolfein_GiantMilitaryMech.label>
+  <!-- EN: Research how to produce wolfein giant military mech. -->
+  <Wolfein_GiantMilitaryMech.description>研究如何制造沃芬族的巨型军用机械体。</Wolfein_GiantMilitaryMech.description>
+  
+</LanguageData>

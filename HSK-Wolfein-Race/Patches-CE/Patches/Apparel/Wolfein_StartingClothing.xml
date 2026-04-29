@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- 起始服装（固定材料） -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wolfein_StartingClothing"]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <Flammability>0.5</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+            <Mass>0.5</Mass>
+            <EquipDelay>1.5</EquipDelay>
+            <WorkToMake>7000</WorkToMake>
+            <Insulation_Cold>6</Insulation_Cold>
+            <Insulation_Heat>6</Insulation_Heat>
+            <ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+            <ArmorRating_Heat>0</ArmorRating_Heat>
+            <ArmorRating_Electric>0</ArmorRating_Electric>
+            <Bulk>1</Bulk>
+            <WornBulk>1.3</WornBulk>
+          </statBases>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

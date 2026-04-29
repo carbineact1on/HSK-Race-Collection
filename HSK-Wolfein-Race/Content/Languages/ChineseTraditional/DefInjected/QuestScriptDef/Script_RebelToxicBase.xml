@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->A Wolfein resistance officer has decided to employ their renowned expertise in toxic gas warfare to launch an attack on the colony. A toxic gas generator has been constructed near the colony, continuously releasing lethal poisonous dust into the surrounding area.\n\nWhile the device remains operational, the colony will be shrouded in toxic haze. The generator must be destroyed as soon as possible, before the gas causes irreversible damage.\n\nIntelligence reports indicate that resistance forces have been deployed around the generator to guard the installation.</li>
+  -->
+  <Wolfein_RebelToxicBase.questDescriptionRules.rulesStrings>
+    <li>questDescription->一名沃芬抵抗軍軍官決定動用她們引以為傲的毒氣技術，對殖民地發動襲擊。她們已在殖民地附近架設了一臺毒氣發生器，持續向周邊區域釋放致命的有毒塵埃。 在該裝置運作期間，殖民地將長期籠罩在毒霧之中，必須在毒氣造成不可逆損失之前，儘快摧毀這臺發生器。\n\n情報顯示，抵抗軍已在發生器周邊部署武裝力量，對該裝置進行防守。</li>
+  </Wolfein_RebelToxicBase.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Toxic Gas Blockade</li>
+  -->
+  <Wolfein_RebelToxicBase.questNameRules.rulesStrings>
+    <li>questName->毒氣封鎖</li>
+  </Wolfein_RebelToxicBase.questNameRules.rulesStrings>
+  
+</LanguageData>

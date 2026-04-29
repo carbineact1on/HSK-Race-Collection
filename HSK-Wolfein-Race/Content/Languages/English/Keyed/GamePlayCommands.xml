@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Wolfein.CommandToggleTurret>Toggle turret</Wolfein.CommandToggleTurret>
+  <Wolfein.CommandToggleTurretDesc>Toggle turret auto-fire mode.\n\n when disabled, the turret will not fire automatically unless a target is manually designated.</Wolfein.CommandToggleTurretDesc>
+
+  <Wolfein.ExitRestPod>Exit Rest Pod</Wolfein.ExitRestPod>
+  <Wolfein.ExitRestPodDesc>"I don’t wanna go back to work—!"</Wolfein.ExitRestPodDesc>
+
+  <Wolfein.EnterRestPod>Enter Rest Pod</Wolfein.EnterRestPod>
+  <Wolfein.EnterRestPodDesc>"Time to slack off!"</Wolfein.EnterRestPodDesc>
+
+  <Wolfein.RestPodDisabled>"Someone’s still in there? Hurry up!"</Wolfein.RestPodDisabled>
+  
+</LanguageData>

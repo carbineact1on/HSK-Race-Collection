@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein AIPT CombatSuit -->
+  <Wolfein_AIPTCombatSuit.label>沃芬族AIPT處理組作戰制服</Wolfein_AIPTCombatSuit.label>
+  <!-- EN: The Wolfein AIPT combat uniform, designed for close-quarters handling of anomalies and their former owners, ensures the wearer can dominate in close combat situations. -->
+  <Wolfein_AIPTCombatSuit.description>沃芬族異象處理組作戰制服，爲了近距離處理異常及其前擁有者而被製造出來，保證穿著者能夠主宰近距離作戰。</Wolfein_AIPTCombatSuit.description>
+  
+  <!-- EN: Wolfein AIPT StandardUniform -->
+  <Wolfein_AIPTStandardUniform.label>沃芬族AIPT處理組標準制服</Wolfein_AIPTStandardUniform.label>
+  <!-- EN: The standard uniform for Wolfein AIPT Process Unit employees, emphasizing protection more than the Investigate Unit's attire, with an overall solemn style. -->
+  <Wolfein_AIPTStandardUniform.description>沃芬族異象處理組員工的標準制服，相比調查組服裝更強調防護性，且整體風格肅穆。</Wolfein_AIPTStandardUniform.description>
+  
+  <!-- EN: Wolfein AIPT SupportSuit -->
+  <Wolfein_AIPTSupportSuit.label>沃芬族AIPT處理組支援服</Wolfein_AIPTSupportSuit.label>
+  <!-- EN: The Wolfein AIPT support suit, typically worn by remote fire support units of the Process Team, is designed for efficient processing anomaly and focuses on enhancing the wearer's shooting accuracy. -->
+  <Wolfein_AIPTSupportSuit.description>沃芬族異象處理組支援服，通常由處理組的遠端火力單位穿著，專為高效處置異常而設計，著重提升穿著者的射擊精度。</Wolfein_AIPTSupportSuit.description>
+  
+  <!-- EN: Wolfein AIPT Uniform(Pants) -->
+  <Wolfein_AIPTUniform_Pants.label>沃芬族AIPT調查組制服（短褲）</Wolfein_AIPTUniform_Pants.label>
+  <!-- EN: The uniform of the Wolfein AIPT signifies that its wearer will face hyperintelligent archotech mind creations and bear the responsibility of protecting MegaCorp assets from any harm. -->
+  <Wolfein_AIPTUniform_Pants.description>沃芬異象調查組員工制服，穿戴者將直面超凡智慧造物，肩負起保護公司財產免受任何侵害的責任。</Wolfein_AIPTUniform_Pants.description>
+  
+  <!-- EN: Wolfein AIPT Uniform(Skirt) -->
+  <Wolfein_AIPTUniform_Skirt.label>沃芬族AIPT調查組制服（裙裝）</Wolfein_AIPTUniform_Skirt.label>
+  <!-- EN: The uniform of the Wolfein AIPT signifies that its wearer will face hyperintelligent archotech mind creations and bear the responsibility of protecting MegaCorp assets from any harm. -->
+  <Wolfein_AIPTUniform_Skirt.description>沃芬異象調查組員工制服，穿戴者將直面超凡智慧造物，肩負起保護公司財產免受任何侵害的責任。</Wolfein_AIPTUniform_Skirt.description>
+  
+  <!-- EN: Wolfein AIPT Uniform(Trousers) -->
+  <Wolfein_AIPTUniform_Trousers.label>沃芬族AIPT調查組制服（長褲）</Wolfein_AIPTUniform_Trousers.label>
+  <!-- EN: The uniform of the Wolfein AIPT signifies that its wearer will face hyperintelligent archotech mind creations and bear the responsibility of protecting MegaCorp assets from any harm. -->
+  <Wolfein_AIPTUniform_Trousers.description>沃芬異象調查組員工制服，穿戴者將直面超凡智慧造物，肩負起保護公司財產免受任何侵害的責任。</Wolfein_AIPTUniform_Trousers.description>
+  
+  <!-- EN: Wolfein BusinessUniform -->
+  <Wolfein_BusinessUniform.label>沃芬族商務職員服</Wolfein_BusinessUniform.label>
+  <!-- EN: A more breathable Wolfein staff uniform, paired with a shorter skirt, perfect for spring and summer wear. -->
+  <Wolfein_BusinessUniform.description>比較清涼的沃芬職員制服，搭配著一條比較短的裙子，適合春夏季穿著。</Wolfein_BusinessUniform.description>
+  
+  <!-- EN: Wolfein Chef Uniform -->
+  <Wolfein_ChefsUniform.label>沃芬族廚師服</Wolfein_ChefsUniform.label>
+  <!-- EN: The Wolfein MegaCorp stipulates chefs in all legal restaurants within its jurisdiction must wear this uniforms. -->
+  <Wolfein_ChefsUniform.description>沃芬軍企規定，其管轄區內所有合法餐館的廚師必須統一穿著的指定服裝。</Wolfein_ChefsUniform.description>
+  
+  <!-- EN: Wolfein Cropped Jacket -->
+  <Wolfein_CroppedJacket.label>沃芬族短款夾克</Wolfein_CroppedJacket.label>
+  <!-- EN: A short jacket paired with hot pants, a summer favorite among Wolfein girls. However, for some unknown reason, a peculiar trend has emerged where they fasten only the collar and leave the zipper undone. -->
+  <Wolfein_CroppedJacket.description>短夾克配熱褲，沃芬族少女的夏季最愛，但不知為何在少女間流傳著只扣領口而不拉拉鍊的奇妙穿法。</Wolfein_CroppedJacket.description>
+  
+  <!-- EN: Wolfein Highcut Leotard -->
+  <Wolfein_HighcutLeotard.label>沃芬族高叉緊身衣</Wolfein_HighcutLeotard.label>
+  <!-- EN: Made from specially crafted composite fabric, this form-fitting design incorporates embedded assistive devices that enhance the user』s speed and make shooting movements smoother. -->
+  <Wolfein_HighcutLeotard.description>由特製複合面料縫製而成，緊身設計外加植入的輔助裝置，能夠幫助使用者高速移動，且射擊動作更為流暢。</Wolfein_HighcutLeotard.description>
+  
+  <!-- EN: Wolfein Hoodie -->
+  <Wolfein_Hoodie.label>沃芬族連帽衫</Wolfein_Hoodie.label>
+  <!-- EN: Extra hood, extra warm. And make you dress like a hacker. -->
+  <Wolfein_Hoodie.description>額外的兜帽，額外的保暖，並且能讓你看起來更像是個黑客。</Wolfein_Hoodie.description>
+  
+  <!-- EN: Wolfein Labgown -->
+  <Wolfein_Labgown.label>沃芬族研究服</Wolfein_Labgown.label>
+  <!-- EN: Wolfein researchers' uniform, which would protect them from chemicals. -->
+  <Wolfein_Labgown.description>沃芬族研究員的制服，能夠保護研究員被化學品損傷。</Wolfein_Labgown.description>
+  
+  <!-- EN: Wolfein Lightweight Combat Suit -->
+  <Wolfein_LightweightCombatUniform.label>沃芬族輕型作戰服</Wolfein_LightweightCombatUniform.label>
+  <!-- EN: A Wolfein Lightweight Combat Suit, designed to make Soldiers move faster. But it's protection level is lower compared with other Wolfein Army's combat suit. -->
+  <Wolfein_LightweightCombatUniform.description>一件沃芬族輕型作戰服，設計旨在讓士兵行動更快。但與其他沃芬族作戰服相比防護水平較低。</Wolfein_LightweightCombatUniform.description>
+  
+  <!-- EN: Wolfein Longuette Staff uniform -->
+  <Wolfein_LonguetteStaffUniform.label>沃芬族長裙職員服</Wolfein_LonguetteStaffUniform.label>
+  <!-- EN: A common Wolfein staff uniform, paired with a relatively long skirt. -->
+  <Wolfein_LonguetteStaffUniform.description>常見的沃芬族職員制服，配套有一條較長的裙子。</Wolfein_LonguetteStaffUniform.description>
+  
+  <!-- EN: Wolfein Medical Gowns -->
+  <Wolfein_MedicalUniform.label>沃芬族醫生服</Wolfein_MedicalUniform.label>
+  <!-- EN: A Surgical Gown with a white coat, may not so clean but quite useful. -->
+  <Wolfein_MedicalUniform.description>一件手術服配一件白大褂，可能不那麼幹凈，但很方便。</Wolfein_MedicalUniform.description>
+  
+  <!-- EN: Wolfein OL Suit -->
+  <Wolfein_OLSuit.label>沃芬族OL制服</Wolfein_OLSuit.label>
+  <!-- EN: A professional Wolfein OL uniform, consisting of a simple shirt and a fitted skirt. Among civilians, this outfit has become a symbol of the company』s corporate image. -->
+  <Wolfein_OLSuit.description>一套得體的沃芬族OL制服，包括一件簡約的襯衫和一條修身的裙子，在平民間這身衣服儼然成爲了公司的商務代言人。</Wolfein_OLSuit.description>
+  
+  <!-- EN: Wolfein Short Overalls -->
+  <Wolfein_Overalls.label>沃芬族工作服</Wolfein_Overalls.label>
+  <!-- EN: Wolfein workers' best friend. The waist bags can store much more tools than it looks can. -->
+  <Wolfein_Overalls.description>沃芬族工人最好的朋友，腰包可以存放比看上去多得多的工具。</Wolfein_Overalls.description>
+  
+  <!-- EN: Wolfein Rebel Combat Suit -->
+  <Wolfein_RebelCombatSuit.label>沃芬族抵抗軍作戰制服</Wolfein_RebelCombatSuit.label>
+  <!-- EN: The Wolfein Rebel combat uniform, designed for close-quarters engagement with the enemies of the Rebel, whether they be made of steel or flesh. -->
+  <Wolfein_RebelCombatSuit.description>沃芬族抵抗軍作戰制服，用於近距離處理抵抗軍的敵人們，無論是鋼鐵還是血肉。</Wolfein_RebelCombatSuit.description>
+  
+  <!-- EN: Wolfein Rebel Guerrilla Uniform -->
+  <Wolfein_RebelGuerrillaUniform.label>沃芬族抵抗軍游擊隊員服</Wolfein_RebelGuerrillaUniform.label>
+  <!-- EN: The Wolfein Rebel guerrilla uniform is issued to those volunteers who bravely resist outside the city, signifying that they are members of the Rebel, not bandits or marauders. -->
+  <Wolfein_RebelGuerrillaUniform.description>沃芬族抵抗軍游擊隊員服，專門發放給那些自願為抵抗軍偉大事業而在城區外頑強抵抗的游擊隊員，以表明他們是抵抗軍的一員，而非土匪或強盜。</Wolfein_RebelGuerrillaUniform.description>
+  
+  <!-- EN: Wolfein Rebel Support Suit -->
+  <Wolfein_RebelSupportSuit.label>沃芬族抵抗軍支援服</Wolfein_RebelSupportSuit.label>
+  <!-- EN: The Wolfein Rebel support suit, worn by those providing long-range support to their comrades, is designed solely for assistance on the frontlines, not for ease of retreat to the rear. -->
+  <Wolfein_RebelSupportSuit.description>沃芬族抵抗軍支援服，穿戴者通常在遠距離支援同僚們，絕不是爲了方便將戰友護至身前。</Wolfein_RebelSupportSuit.description>
+  
+  <!-- EN: Wolfein Rebel Uniform -->
+  <Wolfein_RebelUniform.label>沃芬族抵抗軍常規制服</Wolfein_RebelUniform.label>
+  <!-- EN: Wolfein Rebel's Uniform, every new Wolfein Rebel member would wear them proudly, at first. -->
+  <Wolfein_RebelUniform.description>沃芬族抵抗軍中最普遍的制服，每個沃芬族抵抗軍的新成員都會自豪地穿著它，至少剛開始是。</Wolfein_RebelUniform.description>
+  
+  <!-- EN: Wolfein Reflective Vest -->
+  <Wolfein_ReflectiveOveralls.label>沃芬族反光背心工作服</Wolfein_ReflectiveOveralls.label>
+  <!-- EN: The Reflective Vest and the thickened jeans would keep you safe in the construction site. -->
+  <Wolfein_ReflectiveOveralls.description>反光背心和加厚的牛仔褲將確保沃芬族工人在建築工地的安全。</Wolfein_ReflectiveOveralls.description>
+  
+  <!-- EN: Wolfein Regular Uniform -->
+  <Wolfein_RegularUniform.label>沃芬族常規軍服</Wolfein_RegularUniform.label>
+  <!-- EN: The standard military uniform of the Wolfein military corporation's mobile unit, meticulously crafted with rigorous techniques to ensure durability and functionality, making it ideal for extended combat and training. -->
+  <Wolfein_RegularUniform.description>沃芬族軍企機動隊的標配軍服，整套服裝經過嚴格的工藝製作，確保了其耐用性和功能性，適合長時間的作戰和訓練。</Wolfein_RegularUniform.description>
+
+  <!-- EN: Wolfein Sailor Suit -->
+  <Wolfein_SailorSuit.label>沃芬族水手服</Wolfein_SailorSuit.label>
+  <!-- EN: One of the common clothing styles in Wolfien schools, designed with a focus on convenience during sports, making it the top choice for sporty Wolfien girls. -->
+  <Wolfein_SailorSuit.description>沃芬學校常見的服裝款式之一，設計似乎來自各個閃耀世界，喜愛表達青春活力和追逐時尚的沃芬少女們最愛。</Wolfein_SailorSuit.description>
+
+  <!-- EN: Wolfein Nun Outfit -->
+  <Wolfein_NunOutfit.label>沃芬族修女服</Wolfein_NunOutfit.label>
+  <!-- EN: The Wolfein people have no organized religious beliefs. This outfit is not a product of their own culture, but a replica inspired by the nun garments of other species. To the Wolfein, it has shed its original religious meaning and exists solely as a neutral, restrained attire with an alien aesthetic, used for display or as a uniform in specific situations. -->
+  <Wolfein_NunOutfit.description>沃芬族並不存在任何成體系的宗教信仰，這套服裝並非本族文化產物，而是仿製自其他種族的修女服。對沃芬而言，它已脫離原有的宗教含義，僅作為一種中立、克制且具有異族風格的裝束存在，用於特定場合的展示或制服需求。</Wolfein_NunOutfit.description>
+
+  <!-- EN: Wolfein Maid Outfit -->
+  <Wolfein_MaidOutfit.label>沃芬女僕裝</Wolfein_MaidOutfit.label>
+  <!-- EN: A maid outfit inherited from alien traditions, consisting of a black long dress and a white apron. Its overall style is simple and restrained, and it is still used by some high-end restaurants and formal venues as a staff uniform. -->
+  <Wolfein_MaidOutfit.description>一套沿襲自異族傳統的女僕裝，由黑色長裙與白色圍裙構成，整體風格簡潔而剋制。至今仍被部分高檔餐廳和正式場所採用，作為員工制服使用。</Wolfein_MaidOutfit.description>
+
+  <!-- EN: Wolfein Bunny Girl Outfit -->
+  <Wolfein_BunnyGirlOutfit.label>沃芬兔女郎服裝</Wolfein_BunnyGirlOutfit.label>
+  <!-- EN: The form-fitting corset accentuates smooth, well-defined body lines, while the subtle impressions left by the garter straps against the stockings echo the deep V-shaped contour formed jointly by the corset and the stockings at the hips. The overall design is bold yet restrained. -->
+  <Wolfein_BunnyGirlOutfit.description>緊緻的束腹胸衣勾勒出流暢而鮮明的身體曲線，腿環在絲襪上壓出的細微質感，與胸衣和絲襪共同描繪出胯部深邃的V形線條，相互呼應。整體設計大膽而不失節制。</Wolfein_BunnyGirlOutfit.description>
+
+  <!-- EN: Wolfein Reverse Bunny Girl Outfit -->
+  <Wolfein_ReverseBunnyGirlOutfit.label>沃芬逆兔女郎服裝</Wolfein_ReverseBunnyGirlOutfit.label>
+  <!-- EN: Only those Wolfein with absolute confidence in their own bodies dare to wear this extremely revealing outfit. -->
+  <Wolfein_ReverseBunnyGirlOutfit.description>只有那些對自己身體有極致自信的沃芬們才敢穿上這件極致暴露的衣服。</Wolfein_ReverseBunnyGirlOutfit.description>
+
+  <!-- EN: Wolfein Reverse Bunny Girl Outfit -->
+  <Wolfein_ReverseBunnyGirlOutfit.label>沃芬逆兔女郎服裝</Wolfein_ReverseBunnyGirlOutfit.label>
+  <!-- EN: Only those Wolfein with absolute confidence in their own bodies dare to wear this extremely revealing outfit. -->
+  <Wolfein_ReverseBunnyGirlOutfit.description>只有那些對自己身體有極致自信的沃芬們才敢穿上這件極致暴露的衣服。</Wolfein_ReverseBunnyGirlOutfit.description>
+
+  <!-- EN: Wolfein Shirt(Skirt) -->
+  <Wolfein_Shirt_Skirt.label>沃芬族襯衫（裙裝）</Wolfein_Shirt_Skirt.label>
+  <!-- EN: A simple shirt with skirt, widely used by Wolfein. -->
+  <Wolfein_Shirt_Skirt.description>一種設計簡單配有短裙的襯衫，被沃芬族們廣泛使用。</Wolfein_Shirt_Skirt.description>
+  
+  <!-- EN: Wolfein Shirt(Trousers) -->
+  <Wolfein_Shirt_Trousers.label>沃芬族襯衫（長褲）</Wolfein_Shirt_Trousers.label>
+  <!-- EN: A simple shirt with trousers, widely used by Wolfein. -->
+  <Wolfein_Shirt_Trousers.description>一種設計簡單配有褲子的襯衫，被沃芬族們廣泛使用。</Wolfein_Shirt_Trousers.description>
+  
+  <!-- EN: Wolfein Shirt Staff uniform -->
+  <Wolfein_ShirtStaffUniform.label>沃芬族襯衫職員服</Wolfein_ShirtStaffUniform.label>
+  <!-- EN: A common Wolfein staff uniform, but this one lacks the suit jacket. -->
+  <Wolfein_ShirtStaffUniform.description>常見的沃芬族職員制服，不過這件沒有西服外套。</Wolfein_ShirtStaffUniform.description>
+  
+  <!-- EN: Wolfein Short T-shirt -->
+  <Wolfein_ShortT-shirt.label>沃芬族露臍T恤衫</Wolfein_ShortT-shirt.label>
+  <!-- EN: Common summer attire for Wolfein girls, featuring a shorter and breezier crop top. Paired with denim shorts, it exudes both style and sexy. -->
+  <Wolfein_ShortT-shirt.description>常見於沃芬族少女的夏日著裝，更短更清涼的露臍T恤衫，搭配牛仔短褲顯得更為時尚且性感。</Wolfein_ShortT-shirt.description>
+  
+  <!-- EN: Wolfein Slave Apron -->
+  <Wolfein_Slave.label>沃芬族奴隸服</Wolfein_Slave.label>
+  <!-- EN: Especially designed for Wolfein slaves. The collar will make them know who is the Boss. -->
+  <Wolfein_Slave.description>特別為沃芬族奴隸設計，項圈會讓他們知道誰才是主人。</Wolfein_Slave.description>
+  
+  <!-- EN: Wolfein Staff uniform -->
+  <Wolfein_StaffUniform.label>沃芬族職員西服</Wolfein_StaffUniform.label>
+  <!-- EN: A neat uniform worn by Wolfein employees while working for the MegaCorp, often serving as a symbol of their status. It is frequently effective in intimidating civilians. -->
+  <Wolfein_StaffUniform.description>沃芬族的職員在公司工作時會穿戴的得體制服，有時也是職員身份的象徵，在威懾平民時常常十分有用。</Wolfein_StaffUniform.description>
+  
+  <!-- EN: Wolfein Crew Suit -->
+  <Wolfein_StartingClothing.label>沃芬族船員服</Wolfein_StartingClothing.label>
+  <!-- EN: Wolfein Crew Suits are made of special composite fabrics, which can effectively keep warm while maintaining convenience of movement. -->
+  <Wolfein_StartingClothing.description>沃芬族飛船乘員的制服，由特製複合面料縫製而成，高效保溫且保持運動的便利度。</Wolfein_StartingClothing.description>
+  
+  <!-- EN: Wolfein Sweater -->
+  <Wolfein_Sweater.label>沃芬族毛衣</Wolfein_Sweater.label>
+  <!-- EN: A comfortable and warmly insulating everyday sweater, perfect for autumn and winter. Though it appears loose-fitting, it surprisingly accentuates the body's curves. -->
+  <Wolfein_Sweater.description>一件舒適且保暖效果不錯的日常毛衣，適合在秋冬季穿戴，雖然看似寬鬆，但出奇的凸顯身體曲線。</Wolfein_Sweater.description>
+  
+  <!-- EN: Wolfein Tactical Jacket (Pants) -->
+  <Wolfein_TacticalJacket_Pants.label>沃芬族衝鋒衣（褲裝）</Wolfein_TacticalJacket_Pants.label>
+  <!-- EN: The jacket recently launched by The Wolfein MegaCorp has become the first choice for Wolfein outdoor travelers because of its best windproof and rainproof performance on the market. -->
+  <Wolfein_TacticalJacket_Pants.description>軍企最近推出的衝鋒衣，因擁有市面上最優秀的防風防雨效能而讓其成為沃芬族戶外旅行者的首選。</Wolfein_TacticalJacket_Pants.description>
+  
+  <!-- EN: Wolfein Tactical Jacket (Skirt) -->
+  <Wolfein_TacticalJacket_Skirt.label>沃芬族衝鋒衣（裙裝）</Wolfein_TacticalJacket_Skirt.label>
+  <!-- EN: The jacket recently launched by The Wolfein MegaCorp has become the first choice for Wolfein outdoor travelers because of its best windproof and rainproof performance on the market. -->
+  <Wolfein_TacticalJacket_Skirt.description>軍企最近推出的衝鋒衣，因擁有市面上最優秀的防風防雨效能而讓其成為沃芬族戶外旅行者的首選。</Wolfein_TacticalJacket_Skirt.description>
+
+  <!-- EN: Fenrir』s Jacket -->
+  <Wolfein_Fenrir_Jacket.label>芬里爾的衝鋒衣</Wolfein_Fenrir_Jacket.label>
+  <!-- EN: A white shirt is tucked beneath the jacket, giving it a compact and well-defined silhouette. The exterior straps add a touch of casual ease and layered depth, allowing the garment to express a distinctive personal style beyond mere practicality. -->
+  <Wolfein_Fenrir_Jacket.description>白色襯衫被收束在衝鋒衣之下，輪廓緊湊而明確。外側的帶子為整體增添了一點隨性與層次感，讓這件衣服在實用之外，也多了幾分不拘一格的個人風格。</Wolfein_Fenrir_Jacket.description>
+  
+  <!-- EN: Wolfein Combat Bodysuit -->
+  <Wolfein_TightCombatUniform.label>沃芬族緊身作戰服</Wolfein_TightCombatUniform.label>
+  <!-- EN: A Wolfein Combat Bodysuit, thanks for Wolfein Composite Fabric, it could provide much higher protection level than it looks. -->
+  <Wolfein_TightCombatUniform.description>沃芬族緊身作戰服，多虧了沃芬族的特製複合面料，它可以提供比看起來更高的防護水平。</Wolfein_TightCombatUniform.description>
+  
+  <!-- EN: Wolfein Tribal -->
+  <Wolfein_Tribal.label>沃芬族臨時衣物</Wolfein_Tribal.label>
+  <!-- EN: A piece of Wolfein clothing made from various scraps of leather and fabric, designed for temporary coverage. -->
+  <Wolfein_Tribal.description>一件由各種皮革破布組成用來臨時遮體的沃芬族衣服。</Wolfein_Tribal.description>
+  
+  <!-- EN: Wolfein T-shirt -->
+  <Wolfein_T-shirt.label>沃芬族T恤衫</Wolfein_T-shirt.label>
+  <!-- EN: Maybe a bit oversized, but it makes you stay cool. -->
+  <Wolfein_T-shirt.description>也許有點大，但它能讓你保持涼爽。</Wolfein_T-shirt.description>
+
+  <!-- EN: Traveling Wolf』s Merchant Outfit -->
+  <Wolfein_MerchantOutfit.label>旅狼的商旅裝</Wolfein_MerchantOutfit.label>
+  <!-- EN: An outfit that appears simple at first glance yet proves endlessly intriguing upon closer look. The loose cloak and travel-friendly design convey the air of someone seasoned by long journeys and well-versed in trade. Details adorned with symbols of harvest and wisdom seem to quietly tell the story of a 「wolf」 who walks between towns and wilderness, and of her long journey alongside a merchant. -->
+  <Wolfein_MerchantOutfit.description>一套看似樸素卻處處耐人尋味的商旅裝束，寬鬆的披風與便於行走的服飾設計，流露出穿戴者久經旅途、熟稔交易的氣質。細節中點綴著象徵豐收與智慧的元素，彷彿在無聲訴說著一位行走于城鎮與荒野之間的「狼」，以及她與商人同行的漫長旅途。</Wolfein_MerchantOutfit.description>
+  
+</LanguageData>

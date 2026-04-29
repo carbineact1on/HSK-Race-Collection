@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <WorkGiverDef>
+        <defName>DoBillsMakeWFApparel</defName>
+        <label>make apparel</label>
+        <giverClass>WorkGiver_DoBill</giverClass>
+        <workType>Tailoring</workType>
+        <priorityInType>110</priorityInType>
+        <fixedBillGiverDefs>
+            <li>Wolfein_Electric_TailoringBench</li>
+        </fixedBillGiverDefs>
+        <verb>tailor</verb>
+        <gerund>tailoring at</gerund>
+        <requiredCapacities>
+            <li>Manipulation</li>
+        </requiredCapacities>
+        <prioritizeSustains>true</prioritizeSustains>
+    </WorkGiverDef>
+
+    <WorkGiverDef>
+        <defName>DoBillsMakeWFWeapons</defName>
+        <label>make weapons</label>
+        <giverClass>WorkGiver_DoBill</giverClass>
+        <workType>Smithing</workType>
+        <priorityInType>110</priorityInType>
+        <fixedBillGiverDefs>
+            <li>Wolfein_TableMachining</li>
+            <li>Wolfein_ReverseResearchBench</li>
+        </fixedBillGiverDefs>
+        <verb>smith</verb>
+        <gerund>smithing at</gerund>
+        <requiredCapacities>
+            <li>Manipulation</li>
+        </requiredCapacities>
+        <prioritizeSustains>true</prioritizeSustains>
+    </WorkGiverDef>
+
+    <WorkGiverDef>
+        <defName>Wolfein_MechDrill</defName>
+        <label>drill at deep drill</label>
+        <giverClass>Wolfein.WorkGiver_MechDeepDrill</giverClass>
+        <workType>Mining</workType>
+        <priorityInType>50</priorityInType>
+        <verb>drill</verb>
+        <gerund>drilling</gerund>
+        <requiredCapacities>
+            <li>Manipulation</li>
+        </requiredCapacities>
+        <canBeDoneByMutants>false</canBeDoneByMutants>
+        <modExtensions>
+            <li Class="Wolfein.ModExtension_MechDeepDrill">
+                <mechs>
+                    <li>Wolfein_Mechanoid_CivilA</li>
+                </mechs>
+                <jobDef>Wolfein_MechOperateDeepDrill</jobDef>
+            </li>
+        </modExtensions>
+    </WorkGiverDef>
+    <JobDef>
+        <defName>Wolfein_MechOperateDeepDrill</defName>
+        <driverClass>Wolfein.JobDriver_MechOperateDeepDrill</driverClass>
+        <reportString>drilling at TargetA.</reportString>
+        <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+    </JobDef>
+
+</Defs>

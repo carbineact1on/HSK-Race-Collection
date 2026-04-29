@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- 抵抗军作战服（固定材料） -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wolfein_RebelUniform"]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>320</MaxHitPoints>
+            <Flammability>0.5</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+            <Mass>2.5</Mass>
+            <EquipDelay>1.5</EquipDelay>
+            <WorkToMake>17000</WorkToMake>
+            <Insulation_Cold>9</Insulation_Cold>
+            <Insulation_Heat>7</Insulation_Heat>
+            <ArmorRating_Sharp>2.1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>1.3</ArmorRating_Blunt>
+            <ArmorRating_Heat>0</ArmorRating_Heat>
+            <ArmorRating_Electric>0</ArmorRating_Electric>
+            <Bulk>2</Bulk>
+            <WornBulk>0.9</WornBulk>
+          </statBases>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Wolfein_RebelUniform"]/equippedStatOffsets</xpath>
+		<value>
+      <CarryBulk>8</CarryBulk>
+      <CarryWeight>12</CarryWeight>
+		</value>
+	</Operation>
+</Patch>

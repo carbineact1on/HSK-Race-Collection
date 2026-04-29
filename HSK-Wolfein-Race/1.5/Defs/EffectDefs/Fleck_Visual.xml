@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <FleckDef ParentName="FleckBase_Thrown">
+        <defName>Wolfein_LaserStartPoint</defName>
+        <graphicData>
+            <texPath>Wolfein/Effect/GlowPointSmall</texPath>
+            <renderInstanced>true</renderInstanced>
+        </graphicData>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <fadeInTime>0.01</fadeInTime>
+        <solidTime>0.05</solidTime>
+        <fadeOutTime>0.03</fadeOutTime>
+        <growthRate>0</growthRate>
+    </FleckDef>
+
+    <FleckDef ParentName="FleckBase_Thrown">
+        <defName>Wolfein_Fleck_ArtificialMoonGlow</defName>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <fleckSystemClass>FleckSystemThrown</fleckSystemClass>
+        <fadeInTime>0.1</fadeInTime>
+        <fadeOutTime>0.55</fadeOutTime>
+        <solidTime>0.4</solidTime>
+        <growthRate>2</growthRate>
+        <graphicData>
+          <texPath>Wolfein/Effect/ArtificialMoonGlow</texPath>
+          <shaderType>MoteGlow</shaderType>
+          <drawSize>(4.5, 4.5)</drawSize>
+        </graphicData>
+      </FleckDef>
+    
+      <FleckDef ParentName="FleckBase_Thrown">
+        <defName>Wolfein_Fleck_ArtificialMoonRays_A</defName>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <fleckSystemClass>FleckSystemThrown</fleckSystemClass>
+        <fadeInTime>0.2</fadeInTime>
+        <fadeOutTime>1.0</fadeOutTime>
+        <solidTime>0.2</solidTime>
+        <graphicData>
+          <texPath>Wolfein/Effect/ArtificialMoonRays_A</texPath>
+          <shaderType>MoteGlow</shaderType>
+          <drawSize>(14, 14)</drawSize>
+        </graphicData>
+      </FleckDef>
+    
+      <FleckDef ParentName="FleckBase_Thrown">
+        <defName>Wolfein_Fleck_ArtificialMoonRays_B</defName>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <fleckSystemClass>FleckSystemThrown</fleckSystemClass>
+        <fadeInTime>0.2</fadeInTime>
+        <fadeOutTime>1.0</fadeOutTime>
+        <solidTime>0.2</solidTime>
+        <graphicData>
+          <texPath>Wolfein/Effect/ArtificialMoonRays_B</texPath>
+          <shaderType>MoteGlow</shaderType>
+          <drawSize>(14, 14)</drawSize>
+        </graphicData>
+      </FleckDef>
+
+      <FleckDef ParentName="FleckGlowDistortBackground">
+        <defName>Wolfein_ArtificialMoonDistortion</defName>
+        <fleckSystemClass>FleckSystemThrown</fleckSystemClass>
+        <altitudeLayer>MoteOverheadLow</altitudeLayer>
+        <graphicData>
+          <texPath>Things/Mote/Black</texPath>
+          <shaderParameters>
+            <_distortionIntensity>0.18</_distortionIntensity>
+            <_brightnessMultiplier>10.0</_brightnessMultiplier>
+            <_DistortionTex>/Wolfein/Effect/Distortion</_DistortionTex>
+          </shaderParameters>
+          <color>(0.95,0.93,0.42,1.0)</color>
+          <drawSize>(2, 2)</drawSize>
+        </graphicData>
+        <fadeInTime>0.05</fadeInTime>
+        <solidTime>0.1</solidTime>
+        <fadeOutTime>1.0</fadeOutTime>
+        <growthRate>20.0</growthRate>
+      </FleckDef>
+
+</Defs>

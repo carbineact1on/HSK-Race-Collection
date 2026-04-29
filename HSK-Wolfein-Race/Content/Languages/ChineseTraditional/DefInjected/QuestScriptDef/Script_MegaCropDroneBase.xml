@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->Due to your hostile relationship with the Wolfein military MegaCorp, the corporation has established a field mechanoid factory near the colony. Although its scale and efficiency cannot compare to similar facilities on the Wolfein homeworld, it is still capable of continuously producing military mechanoids and launching periodic drone harassment against the colony.\n\nAs long as the factory remains operational, the mechanoid threat will not cease. If it is not destroyed in time, the colony will eventually be worn down and overwhelmed by a steady stream of MegaCorp mechanoids.</li>
+  -->
+  <Wolfein_MegaCropDroneBase.questDescriptionRules.rulesStrings><li>questDescription->由於與沃芬族軍工巨企的敵對關係，軍企已在殖民地附近建立了一座野戰型機械體工廠。雖然其規模與效率無法與沃芬母星上的同類設施相比，但它仍在持續生產軍用機械體，並定期向殖民地發動無人機襲擾。 只要這座工廠繼續運作，機械體的威脅就不會停止。若不盡快將其摧毀，殖民地終將被源源不斷的軍企機械體所消耗並壓垮。</li></Wolfein_MegaCropDroneBase.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Drone Factory</li>
+  -->
+  <Wolfein_MegaCropDroneBase.questNameRules.rulesStrings>
+    <li>questName->無人機工廠</li>
+  </Wolfein_MegaCropDroneBase.questNameRules.rulesStrings>
+  
+</LanguageData>

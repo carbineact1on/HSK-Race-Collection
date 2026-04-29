@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <AlienRace.RaceSettings>
+        <defName>WolfeinRaceSettings</defName>
+        <pawnKindSettings>
+            <startingColonists>
+                <li>
+                    <pawnKindEntries>
+                        <li>
+                            <kindDefs>
+                                <li>Wolfein_Colonist</li>
+                            </kindDefs>
+                            <chance>100.0</chance>
+                        </li>
+                        <li>
+                            <kindDefs>
+                                <li>Wolfein_OutlierWolf</li>
+                            </kindDefs>
+                            <chance>5.0</chance>
+                        </li>
+                    </pawnKindEntries>
+                    <factionDefs>
+                        <li>Wolfein_PlayerFaction</li>
+                    </factionDefs>
+                </li>
+            </startingColonists>
+
+            <alienwandererkinds>
+                <li>
+                    <pawnKindEntries>
+                        <li>
+                            <kindDefs>
+                                <li>Wolfein_Colonist</li>
+                            </kindDefs>
+                            <chance>0.0</chance>
+                        </li>
+                    </pawnKindEntries>
+                    <factionDefs>
+                        <li>Wolfein_PlayerFaction</li>
+                    </factionDefs>
+                </li>
+            </alienwandererkinds>
+
+            <alienslavekinds>
+                <li>
+                    <kindDefs>
+                        <li>Wolfein_Colonist</li>
+                    </kindDefs>
+                    <chance>0.0</chance>
+                </li>
+            </alienslavekinds>
+
+            <alienrefugeekinds>
+                <li>
+                    <kindDefs>
+                        <li>Wolfein_Colonist</li>
+                    </kindDefs>
+                    <chance>0.0</chance>
+                </li>
+            </alienrefugeekinds>
+
+        </pawnKindSettings>
+    </AlienRace.RaceSettings>
+
+</Defs>

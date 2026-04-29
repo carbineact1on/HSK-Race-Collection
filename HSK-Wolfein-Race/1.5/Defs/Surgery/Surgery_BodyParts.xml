@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- 人工假狼耳 -->
+    <ThingDef ParentName="BodyPartProstheticMakeableBase">
+        <defName>Wolfein_ArtificialEar</defName>
+        <label>Wolfein artificial ear</label>
+        <description>A rudimentary Wolfein bionic ear, suitable only for temporary use.</description>
+        <recipeMaker>
+            <researchPrerequisite>Wolfein_SimpleProsthesis</researchPrerequisite>
+        </recipeMaker>
+        <descriptionHyperlinks>
+            <RecipeDef>Wolfein_InstallArtificialEar</RecipeDef>
+        </descriptionHyperlinks>
+        <techLevel>Medieval</techLevel>
+        <costList>
+            <Cloth>20</Cloth>
+            <SteelBar>3</SteelBar>
+        </costList>
+        <statBases>
+            <WorkToMake>7500</WorkToMake>
+            <Mass>0.1</Mass>
+        </statBases>
+    </ThingDef>
+
+    <!-- 仿生狼耳 -->
+    <ThingDef ParentName="BodyPartBionicBase">
+        <defName>Wolfein_BionicEar</defName>
+        <label>Wolfein bionic ear</label>
+        <description>A Wolfein bionic ear, which looks exactly like a real wolf's ear, provides the user with clearer and more accurate sound perception.</description>
+        <graphicData>
+            <texPath>Wolfein/Items/WolfeinHealthItem</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <color>(255,255,255)</color>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedHealthItem</unfinishedThingDef>
+            <researchPrerequisite>Wolfein_ComplexBionic</researchPrerequisite>
+        </recipeMaker>
+        <descriptionHyperlinks>
+            <RecipeDef>Wolfein_InstallBionicEar</RecipeDef>
+        </descriptionHyperlinks>
+        <techLevel>Industrial</techLevel>
+        <costList>
+            <SteelBar>5</SteelBar>
+            <Plasteel>15</Plasteel>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Cloth>30</Cloth>
+        </costList>
+        <statBases>
+            <WorkToMake>22000</WorkToMake>
+            <Mass>0.1</Mass>
+        </statBases>
+    </ThingDef>
+
+    <!-- 战斗机械狼耳 -->
+    <ThingDef ParentName="BodyPartBionicBase">
+        <defName>Wolfein_CombatBionicEar</defName>
+        <label>Wolfein combat mech ear</label>
+        <description>Highly optimized mechanical auditory devices, equipped with directional detection and noise filtering functions. Commonly used for reconnaissance, night operations, and urban warfare missions.</description>
+        <graphicData>
+            <texPath>Wolfein/Items/WolfeinHealthItem</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <color>(255,255,255)</color>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedHealthItem</unfinishedThingDef>
+            <researchPrerequisite>Wolfein_CombatBionic</researchPrerequisite>
+        </recipeMaker>
+        <descriptionHyperlinks>
+            <RecipeDef>Wolfein_InstallBionicEar</RecipeDef>
+        </descriptionHyperlinks>
+        <techLevel>Industrial</techLevel>
+        <costList>
+            <SteelBar>5</SteelBar>
+            <Plasteel>15</Plasteel>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Cloth>30</Cloth>
+        </costList>
+        <statBases>
+            <WorkToMake>22000</WorkToMake>
+            <Mass>0.1</Mass>
+        </statBases>
+    </ThingDef>
+
+    <!-- 人工假狼尾 -->
+    <ThingDef ParentName="BodyPartProstheticMakeableBase">
+        <defName>Wolfein_ArtificialTail</defName>
+        <label>Wolfein artificial tail</label>
+        <description>A temporary Wolfein bionic tail, at least better than none.</description>
+        <recipeMaker>
+            <researchPrerequisite>Wolfein_SimpleProsthesis</researchPrerequisite>
+        </recipeMaker>
+        <descriptionHyperlinks>
+            <RecipeDef>Wolfein_InstallArtificialTail</RecipeDef>
+        </descriptionHyperlinks>
+        <techLevel>Medieval</techLevel>
+        <costList>
+            <Cloth>25</Cloth>
+            <SteelBar>3</SteelBar>
+        </costList>
+        <statBases>
+            <WorkToMake>8000</WorkToMake>
+            <Mass>0.1</Mass>
+        </statBases>
+    </ThingDef>
+
+    <!-- 仿生狼尾 -->
+    <ThingDef ParentName="BodyPartBionicBase">
+        <defName>Wolfein_BionicTail</defName>
+        <label>Wolfein bionic tail</label>
+        <description>A Wolfein bionic tail that enhances the user's mobility and coordination, providing greater stability while walking or running.</description>
+        <graphicData>
+            <texPath>Wolfein/Items/WolfeinHealthItem</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <color>(255,255,255)</color>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedHealthItem</unfinishedThingDef>
+            <researchPrerequisite>Wolfein_ComplexBionic</researchPrerequisite>
+        </recipeMaker>
+        <descriptionHyperlinks>
+            <RecipeDef>Wolfein_InstallBionicTail</RecipeDef>
+        </descriptionHyperlinks>
+        <techLevel>Industrial</techLevel>
+        <costList>
+            <SteelBar>7</SteelBar>
+            <Plasteel>20</Plasteel>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Cloth>40</Cloth>
+        </costList>
+        <statBases>
+            <WorkToMake>25000</WorkToMake>
+            <Mass>0.1</Mass>
+        </statBases>
+    </ThingDef>
+
+    <!-- 战斗机械狼尾 -->
+    <ThingDef ParentName="BodyPartBionicBase">
+        <defName>Wolfein_CombatBionicTail</defName>
+        <label>Wolfein combat mech tail</label>
+        <description>A mechanical metal tail composed of multiple joints, designed for powerful attacks and flexible manipulation. It is specifically built for close-quarters combat and high-mobility tasks.</description>
+        <graphicData>
+            <texPath>Wolfein/Items/WolfeinHealthItem</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <color>(255,255,255)</color>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedHealthItem</unfinishedThingDef>
+            <researchPrerequisite>Wolfein_CombatBionic</researchPrerequisite>
+        </recipeMaker>
+        <descriptionHyperlinks>
+            <RecipeDef>Wolfein_InstallCombatBionicTail</RecipeDef>
+        </descriptionHyperlinks>
+        <techLevel>Industrial</techLevel>
+        <costList>
+            <SteelBar>7</SteelBar>
+            <Plasteel>20</Plasteel>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Cloth>40</Cloth>
+        </costList>
+        <statBases>
+            <WorkToMake>25000</WorkToMake>
+            <Mass>0.1</Mass>
+        </statBases>
+    </ThingDef>
+
+    <!-- 金属指爪 -->
+    <ThingDef ParentName="BodyPartBionicBase">
+        <defName>Wolfein_MetalClaw</defName>
+        <label>Wolfein metal claw</label>
+        <description>A modified bionic body designed for close combat, featuring metal retractable claws with excellent piercing ability, allowing the user to strike quickly and unexpectedly.</description>
+        <graphicData>
+            <texPath>Wolfein/Items/WolfeinHealthItem</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <color>(255,255,255)</color>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedHealthItem</unfinishedThingDef>
+            <researchPrerequisite>Wolfein_CombatBionic</researchPrerequisite>
+        </recipeMaker>
+        <descriptionHyperlinks>
+            <RecipeDef>Wolfein_InstallMetalClaw</RecipeDef>
+        </descriptionHyperlinks>
+        <techLevel>Industrial</techLevel>
+        <costList>
+            <SteelBar>3</SteelBar>
+            <Plasteel>10</Plasteel>
+            <ComponentSpacer>3</ComponentSpacer>
+        </costList>
+        <statBases>
+            <WorkToMake>20000</WorkToMake>
+            <Mass>0.1</Mass>
+        </statBases>
+    </ThingDef>
+
+    <!-- 机械义腿 -->
+    <ThingDef ParentName="BodyPartBionicBase">
+        <defName>Wolfein_MechinalLeg</defName>
+        <label>Wolfein mechinal leg</label>
+        <description>A pre-installed military-grade prosthetic limb manufactured by the MegaCorp, equipped with stable gait support and basic power-assisted movement. Designed for use across various terrains and combat environments.</description>
+        <graphicData>
+            <texPath>Wolfein/Items/WolfeinHealthItem</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <color>(255,255,255)</color>
+        </graphicData>
+        <recipeMaker>
+            <unfinishedThingDef>Wolfein_UnfinishedHealthItem</unfinishedThingDef>
+            <researchPrerequisite>Wolfein_CombatBionic</researchPrerequisite>
+        </recipeMaker>
+        <descriptionHyperlinks>
+            <RecipeDef>Wolfein_InstallMechinalLeg</RecipeDef>
+        </descriptionHyperlinks>
+        <techLevel>Industrial</techLevel>
+        <costList>
+            <SteelBar>3</SteelBar>
+            <Plasteel>15</Plasteel>
+            <ComponentSpacer>3</ComponentSpacer>
+        </costList>
+        <statBases>
+            <WorkToMake>25000</WorkToMake>
+            <Mass>0.1</Mass>
+        </statBases>
+    </ThingDef>
+</Defs>

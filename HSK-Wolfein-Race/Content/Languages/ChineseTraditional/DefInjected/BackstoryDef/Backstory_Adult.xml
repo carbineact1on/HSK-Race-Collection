@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: [PAWN_nameDef] is an ordinary citizen living in a Wolfein city. The growing pressure of survival and the escalating civil conflict have taken a toll on her daily life. Rather than being drafted to fulfill some civic duty, she simply hopes to hold on to what little stability she still has. -->
+  <Wolfein_BackstoryAdult_01.description>[PAWN_nameDef]是沃芬城市裡的一位普通市民。日益加劇的生存壓力和緊張的內戰局勢讓她的生活變得愈發艱難。相比被政府徵召履行所謂的公民義務，她更希望能守住眼下這份來之不易的安穩。</Wolfein_BackstoryAdult_01.description>
+  <!-- EN: Wolfein citizen -->
+  <Wolfein_BackstoryAdult_01.title>沃芬族 城市公民</Wolfein_BackstoryAdult_01.title>
+  <!-- EN: citizen -->
+  <Wolfein_BackstoryAdult_01.titleShort>市民</Wolfein_BackstoryAdult_01.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] lives in a rural area far from the Wolfein cities, toiling diligently in the fields contracted by a Wolfein company to meet the exorbitant taxes imposed by MegaCorp. -->
+  <Wolfein_BackstoryAdult_02.description>[PAWN_nameDef]居住在遠離沃芬族城市的鄉村，在被沃芬公司承包的田地上，爲了繳納軍企苛刻的稅費而辛勤勞作。</Wolfein_BackstoryAdult_02.description>
+  <!-- EN: Wolfein farmer -->
+  <Wolfein_BackstoryAdult_02.title>沃芬族 農民</Wolfein_BackstoryAdult_02.title>
+  <!-- EN: farmer -->
+  <Wolfein_BackstoryAdult_02.titleShort>農民</Wolfein_BackstoryAdult_02.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a worker on the assembly line of a Wolfein company, where her entire life revolves around tirelessly meeting the various quotas assigned by the line supervisor. -->
+  <Wolfein_BackstoryAdult_03.description>[PAWN_nameDef]是一位在沃芬公司流水線上的工人，每天在崗位上忙碌地完成線長分配的各項指標，幾乎構成了她生活的全部。</Wolfein_BackstoryAdult_03.description>
+  <!-- EN: Wolfein anassembly line worker -->
+  <Wolfein_BackstoryAdult_03.title>沃芬族 流水線員工</Wolfein_BackstoryAdult_03.title>
+  <!-- EN: anassembly line worker -->
+  <Wolfein_BackstoryAdult_03.titleShort>流水線員工</Wolfein_BackstoryAdult_03.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a miner in the Resource Development Department of a Wolfein company. Though she works day after day in the harsh and perilous environment of the mines, [PAWN_nameDef] has never forgotten the dreams and aspirations she once held. -->
+  <Wolfein_BackstoryAdult_04.description>[PAWN_nameDef]是一位隸屬於沃芬公司資源開發部的礦工，儘管日復一日在環境惡劣、危機四伏的礦山中勞作，[PAWN_nameDef]卻始終未曾忘卻自己曾經懷抱的夢想與志向。</Wolfein_BackstoryAdult_04.description>
+  <!-- EN: Wolfein contract miner -->
+  <Wolfein_BackstoryAdult_04.title>沃芬族 契約礦工</Wolfein_BackstoryAdult_04.title>
+  <!-- EN: miner -->
+  <Wolfein_BackstoryAdult_04.titleShort>契約礦工</Wolfein_BackstoryAdult_04.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is tasked with adding more concrete pillars to the Wolfein cities, and the busy, arduous life spent on scaffolding has become her daily routine. -->
+  <Wolfein_BackstoryAdult_05.description>[PAWN_nameDef]負責為沃芬城市增建更多的混凝土柱子，每天在腳手架上忙碌而艱辛的生活，已成為她的日常。</Wolfein_BackstoryAdult_05.description>
+  <!-- EN: Wolfein builder -->
+  <Wolfein_BackstoryAdult_05.title>沃芬族 建築工人</Wolfein_BackstoryAdult_05.title>
+  <!-- EN: builder -->
+  <Wolfein_BackstoryAdult_05.titleShort>建築工人</Wolfein_BackstoryAdult_05.titleShort>
+  
+  <!-- EN: [PAWN_nameDef], unable to repay her debts, was forced to sell everything she had, including her freedom and human rights, to the Wolfein MegaCorp. Now, she clings to life as an agricultural slave under their control. -->
+  <Wolfein_BackstoryAdult_06.description>[PAWN_nameDef]因為無力償還債務，被迫將自己的一切，包括自由與人權，出售給沃芬公司。如今，她作為沃芬公司的一名農用奴隸茍延殘喘。</Wolfein_BackstoryAdult_06.description>
+  <!-- EN: Wolfein serf -->
+  <Wolfein_BackstoryAdult_06.title>沃芬族 農奴</Wolfein_BackstoryAdult_06.title>
+  <!-- EN: serf -->
+  <Wolfein_BackstoryAdult_06.titleShort>農奴</Wolfein_BackstoryAdult_06.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] once lived by hunting in the forest, avoiding the cities controlled by the Wolfein MegaCorp. Her self-reliant life kept her free from Wolfein rule. But as the cities kept growing, her land kept shrinking. In the end, [PAWN_nameDef] fled to the edge of the world. -->
+  <Wolfein_BackstoryAdult_07.description>[PAWN_nameDef]曾在森林中靠打獵為生，避開沃芬公司掌控的城市。她通過自給自足的生活擺脫了沃芬社會的約束。但隨著沃芬城市不斷擴張，她的活動空間越來越小。最終，[PAWN_nameDef]選擇逃往邊緣世界。</Wolfein_BackstoryAdult_07.description>
+  <!-- EN: Wolfein hunter -->
+  <Wolfein_BackstoryAdult_07.title>沃芬族 獵戶</Wolfein_BackstoryAdult_07.title>
+  <!-- EN: hunter -->
+  <Wolfein_BackstoryAdult_07.titleShort>獵戶</Wolfein_BackstoryAdult_07.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] made a living by fishing and brought her catch to a nearby market, where it was collected by the Wolfein MegaCorp. With her skill and experience, she ranked among the top ten thousand registered fishers under the Wolfein system that year. -->
+  <Wolfein_BackstoryAdult_08.description>[PAWN_nameDef]靠捕魚為生，將捕來的魚運到附近集市，由沃芬公司統一回收。憑藉出色的捕魚經驗，[PAWN_nameDef]曾進入沃芬公司註冊漁戶的年度前一萬名。</Wolfein_BackstoryAdult_08.description>
+  <!-- EN: Wolfein fisher -->
+  <Wolfein_BackstoryAdult_08.title>沃芬族 漁夫</Wolfein_BackstoryAdult_08.title>
+  <!-- EN: fisher -->
+  <Wolfein_BackstoryAdult_08.titleShort>漁夫</Wolfein_BackstoryAdult_08.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] formed her own trade caravan, traveling between settler colonies to sell goods. Sometimes she also visited settlements of other factions to make deals. But her biggest problem was the rising number of bandit attacks along the trade routes. -->
+  <Wolfein_BackstoryAdult_09.description>[PAWN_nameDef]組建了自己的商隊，在各個殖民者定居點間往返販售商品。有時她也會前往其他派系的據點進行交易。但對她來說，最大的麻煩是經商途中遇到強盜的次數越來越多。</Wolfein_BackstoryAdult_09.description>
+  <!-- EN: Wolfein merchant -->
+  <Wolfein_BackstoryAdult_09.title>沃芬族 行商</Wolfein_BackstoryAdult_09.title>
+  <!-- EN: merchant -->
+  <Wolfein_BackstoryAdult_09.titleShort>行商</Wolfein_BackstoryAdult_09.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a traditional carpenter. With rapid technological advances, such work has long been replaced by machines. But in a village far from the Wolfein cities, her craftsmanship remains essential. After all, the Wolfein MegaCorp's mass-produced goods are neither customized nor cost-effective. -->
+  <Wolfein_BackstoryAdult_10.description>[PAWN_nameDef]是一位傳統木匠。隨著科技迅速發展，這類工作早已被機械取代。但在遠離沃芬城市的偏遠村莊，[PAWN_nameDef]的手藝仍不可或缺。畢竟沃芬公司提供的流水線產品既不客製化，也不物美價廉。</Wolfein_BackstoryAdult_10.description>
+  <!-- EN: Wolfein carpenter -->
+  <Wolfein_BackstoryAdult_10.title>沃芬族 木匠</Wolfein_BackstoryAdult_10.title>
+  <!-- EN: carpenter -->
+  <Wolfein_BackstoryAdult_10.titleShort>木匠</Wolfein_BackstoryAdult_10.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a tailor running her own small shop. Her excellent sewing skills have earned the trust of the local residents. Sometimes she designs and creates clothes herself, but most of her time is spent fulfilling military textile orders from the Wolfein MegaCorp. -->
+  <Wolfein_BackstoryAdult_11.description>[PAWN_nameDef]是一位自營小店的裁縫，憑藉出色的縫紉技巧贏得了當地居民的喜愛。她有時也會嘗試設計並親手製作服裝。但她的大部分時間都用在完成沃芬公司下放的軍用紡織訂單上。</Wolfein_BackstoryAdult_11.description>
+  <!-- EN: Wolfein tailor -->
+  <Wolfein_BackstoryAdult_11.title>沃芬族 裁縫</Wolfein_BackstoryAdult_11.title>
+  <!-- EN: tailor -->
+  <Wolfein_BackstoryAdult_11.titleShort>裁縫</Wolfein_BackstoryAdult_11.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] works at an educational institution under the Wolfein MegaCorp in a Wolfein Federation city. Though teaching is exhausting, she prefers being around students who are still untouched by society. Their innocence and energy inspire her and make all the effort feel worthwhile. -->
+  <Wolfein_BackstoryAdult_12.description>[PAWN_nameDef]在沃芬聯邦城市的一所沃芬公司教育機構任職。儘管教書育人十分辛苦，[PAWN_nameDef]更喜歡與這些尚未被社會影響的學生相處。他們的純真與活力深深感染了她，也讓她覺得這一切辛苦都是值得的。</Wolfein_BackstoryAdult_12.description>
+  <!-- EN: Wolfein teacher -->
+  <Wolfein_BackstoryAdult_12.title>沃芬族 中學教師</Wolfein_BackstoryAdult_12.title>
+  <!-- EN: teacher -->
+  <Wolfein_BackstoryAdult_12.titleShort>中學教師</Wolfein_BackstoryAdult_12.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] works at a local hospital, where the daily workload is already demanding. After a recent wave of terrorist attacks by the resistance, she has been overwhelmed treating large numbers of innocent casualties. -->
+  <Wolfein_BackstoryAdult_13.description>[PAWN_nameDef]在當地一家醫院工作，平日裡就已經十分忙碌。最近一系列抵抗軍的恐怖襲擊事件，讓她面對大量無辜傷員，忙得幾乎喘不過氣來。</Wolfein_BackstoryAdult_13.description>
+  <!-- EN: Wolfein surgeon -->
+  <Wolfein_BackstoryAdult_13.title>沃芬族 外科醫生</Wolfein_BackstoryAdult_13.title>
+  <!-- EN: surgeon -->
+  <Wolfein_BackstoryAdult_13.titleShort>外科醫生</Wolfein_BackstoryAdult_13.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] works at a local hospital, usually handling minor cases and only occasionally dealing with severe ones. Now, she is helping treat victims of a terrorist attack, and the work has placed a significant psychological strain on her. -->
+  <Wolfein_BackstoryAdult_14.description>[PAWN_nameDef]在當地一家醫院工作，平時主要負責處理輕癥患者，偶爾才會接觸重癥。如今，她需要協助救治恐怖襲擊中的受害者，這份工作讓她承受了不小的心理壓力。</Wolfein_BackstoryAdult_14.description>
+  <!-- EN: Wolfein emergency nurse -->
+  <Wolfein_BackstoryAdult_14.title>沃芬族 應急護士</Wolfein_BackstoryAdult_14.title>
+  <!-- EN: emergency nurse -->
+  <Wolfein_BackstoryAdult_14.titleShort>應急護士</Wolfein_BackstoryAdult_14.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] works at an upscale restaurant, where her unique cooking skills have won over many core employees of the company. Her dream is to one day become head chef at an even more luxurious venue, hoping to reach the upper class through her craft—at least in terms of taste. -->
+  <Wolfein_BackstoryAdult_15.description>[PAWN_nameDef]在一家高階餐館工作，憑藉獨特的烹飪技巧贏得了不少公司核心員工的青睞。她的夢想是有朝一日能在更豪華的餐廳擔任主廚，憑自己的手藝進入上流社會——哪怕只是從味蕾開始。</Wolfein_BackstoryAdult_15.description>
+  <!-- EN: Wolfein chef -->
+  <Wolfein_BackstoryAdult_15.title>沃芬族 廚師</Wolfein_BackstoryAdult_15.title>
+  <!-- EN: chef -->
+  <Wolfein_BackstoryAdult_15.titleShort>廚師</Wolfein_BackstoryAdult_15.titleShort>
+  
+  <!-- EN: In the untamed forests where technology has yet to reach, [PAWN_nameDef] makes a living by felling trees with more primitive methods. Though machines can now do the job more efficiently, she still prefers the feel of swinging an axe herself. After all, this way she doesn』t have to pay the company』s steep maintenance fees. -->
+  <Wolfein_BackstoryAdult_16.description>在科技尚未普及的荒野森林中，[PAWN_nameDef]靠使用較為原始的方式砍伐樹木為生。雖然如今已經可以用機器更高效地完成這項工作，但她仍偏愛親手揮斧的感覺。畢竟這樣就不用向公司支付高昂的裝置維護費。</Wolfein_BackstoryAdult_16.description>
+  <!-- EN: Wolfein logger -->
+  <Wolfein_BackstoryAdult_16.title>沃芬族 伐木工</Wolfein_BackstoryAdult_16.title>
+  <!-- EN: logger -->
+  <Wolfein_BackstoryAdult_16.titleShort>伐木工</Wolfein_BackstoryAdult_16.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] works at an auto repair shop, equipped with solid knowledge of vehicle maintenance. She skillfully uses various diagnostic tools to inspect, tune, and repair vehicles. -->
+  <Wolfein_BackstoryAdult_17.description>[PAWN_nameDef]在一家汽修店工作，擁有紮實的汽車維修知識，能夠熟練使用各類檢測裝置，對載具進行檢修、除錯與維護。</Wolfein_BackstoryAdult_17.description>
+  <!-- EN: Wolfein car mechanic -->
+  <Wolfein_BackstoryAdult_17.title>沃芬族 汽修工</Wolfein_BackstoryAdult_17.title>
+  <!-- EN: car mechanic -->
+  <Wolfein_BackstoryAdult_17.titleShort>汽修工</Wolfein_BackstoryAdult_17.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a mechanic responsible for installing, calibrating, and maintaining various machines. With solid knowledge of mechanical systems and electronics, she consistently completes every task assigned by the Wolfein MegaCorp with excellence. -->
+  <Wolfein_BackstoryAdult_18.description>[PAWN_nameDef]是一名機修工，負責各類機械的安裝、除錯與維護。憑藉紮實的機械原理和電子技術，她總能出色完成沃芬公司交付的每一項任務。</Wolfein_BackstoryAdult_18.description>
+  <!-- EN: Wolfein mechanic -->
+  <Wolfein_BackstoryAdult_18.title>沃芬族 機修工</Wolfein_BackstoryAdult_18.title>
+  <!-- EN: mechanic -->
+  <Wolfein_BackstoryAdult_18.titleShort>機修工</Wolfein_BackstoryAdult_18.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] works as a waitress at a restaurant and has a unique talent for resolving customer complaints. Every guest she serves ends up leaving the place with a smile. -->
+  <Wolfein_BackstoryAdult_19.description>[PAWN_nameDef]在一家餐館擔任服務員，擁有獨特的應對技巧，總能化解顧客的不滿。每一位接受她服務的顧客，最終都帶著笑容離開了餐廳。</Wolfein_BackstoryAdult_19.description>
+  <!-- EN: Wolfein waiter -->
+  <Wolfein_BackstoryAdult_19.title>沃芬族 服務員</Wolfein_BackstoryAdult_19.title>
+  <!-- EN: waiter -->
+  <Wolfein_BackstoryAdult_19.titleShort>服務員</Wolfein_BackstoryAdult_19.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a forest ranger tasked with protecting the Wolfein MegaCorp's woodland territory and monitoring for any violations of corporate property. She prefers living close to nature over breathing smog in the city—especially when she gets paid for it. -->
+  <Wolfein_BackstoryAdult_20.description>[PAWN_nameDef]是一名護林員，負責守護沃芬公司轄下的森林區域，並監控是否有他人侵犯公司權益。比起在大城市裡吸著廢氣，[PAWN_nameDef]更喜歡住在大自然旁，還能拿工資。</Wolfein_BackstoryAdult_20.description>
+  <!-- EN: Wolfein ranger -->
+  <Wolfein_BackstoryAdult_20.title>沃芬族 護林員</Wolfein_BackstoryAdult_20.title>
+  <!-- EN: ranger -->
+  <Wolfein_BackstoryAdult_20.titleShort>護林員</Wolfein_BackstoryAdult_20.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a city patrol officer, usually handling neighborhood disputes, thefts, and brawls. Occasionally, she is requisitioned by the Wolfein MegaCorp』s security division to help suppress strikes. But with resistance attacks growing more severe, she now faces far more dangerous assignments than before. -->
+  <Wolfein_BackstoryAdult_21.description>[PAWN_nameDef]是一名負責城市治安的警員，平時主要處理鄰里糾紛、盜竊和鬥毆等小案件。偶爾，她也會被沃芬公司巡警部門徵調，用於鎮壓罷工。但隨著抵抗軍襲擊愈發嚴重，[PAWN_nameDef]將不得不面對比以往更危險的任務。</Wolfein_BackstoryAdult_21.description>
+  <!-- EN: Wolfein police -->
+  <Wolfein_BackstoryAdult_21.title>沃芬族 公司警員</Wolfein_BackstoryAdult_21.title>
+  <!-- EN: police -->
+  <Wolfein_BackstoryAdult_21.titleShort>警員</Wolfein_BackstoryAdult_21.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a biotech researcher focused on genetic studies. Through in-depth analysis of Wolfein genetics, she has developed new methods for treating diseases and made significant contributions to unlocking the potential of the Wolfein race. -->
+  <Wolfein_BackstoryAdult_22.description>[PAWN_nameDef]是一名致力於基因研究的生物技術研究員。她通過對沃芬族基因的深入分析，提出了多種治療疾病的新方法，並在開發沃芬族潛力方面做出了重要貢獻。</Wolfein_BackstoryAdult_22.description>
+  <!-- EN: Wolfein biologist -->
+  <Wolfein_BackstoryAdult_22.title>沃芬族 生物研究員</Wolfein_BackstoryAdult_22.title>
+  <!-- EN: biologist -->
+  <Wolfein_BackstoryAdult_22.titleShort>生物研究員</Wolfein_BackstoryAdult_22.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] has no job in the Wolfein city and would rather wander the streets than sell herself to the Wolfein MegaCorp. She survives by begging and scavenging. But if a major crisis were to strike the city, she might be the one who knows best how to survive it. -->
+  <Wolfein_BackstoryAdult_23.description>[PAWN_nameDef]在沃芬城市中沒有工作，寧願流浪街頭，也不願將自己賣給沃芬公司。她靠乞討和拾荒勉強維生。但若城市陷入嚴重危機，[PAWN_nameDef]或許是最知道該如何活下來的人。</Wolfein_BackstoryAdult_23.description>
+  <!-- EN: Wolfein tramp -->
+  <Wolfein_BackstoryAdult_23.title>沃芬族 城市邊緣狼</Wolfein_BackstoryAdult_23.title>
+  <!-- EN: tramp -->
+  <Wolfein_BackstoryAdult_23.titleShort>城市邊緣狼</Wolfein_BackstoryAdult_23.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is currently unemployed in the Wolfein city. She was fired for refusing to work overtime—something she has grown used to by now. She's looking for a job that doesn』t demand overtime, though everyone knows Wolfein MegaCorp never puts 「overtime」 in the contract. -->
+  <Wolfein_BackstoryAdult_24.description>[PAWN_nameDef]目前在沃芬城市處於失業狀態。她因拒絕加班被解僱，但這種經歷對她來說早已習以為常。如今，她正在尋找一份不用加班的工作——儘管所有人都知道，沃芬公司從不會在合同里寫上「加班」兩個字。</Wolfein_BackstoryAdult_24.description>
+  <!-- EN: Wolfein unemployed -->
+  <Wolfein_BackstoryAdult_24.title>沃芬族 失業者</Wolfein_BackstoryAdult_24.title>
+  <!-- EN: unemployed -->
+  <Wolfein_BackstoryAdult_24.titleShort>失業者</Wolfein_BackstoryAdult_24.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] picked up a part-time job as a food delivery worker. No matter the road conditions, she always managed to deliver meals on time. But after seeing news of some food companies testing drone deliveries, she』s already getting ready to look for her next gig. -->
+  <Wolfein_BackstoryAdult_25.description>[PAWN_nameDef]找到了一份送外賣的兼職，無論路況如何，她總能準時將餐點送到顧客手中。但在看到部分餐飲公司開始試行無人機送餐后，[PAWN_nameDef]已經開始準備尋找下一份兼職工作了。</Wolfein_BackstoryAdult_25.description>
+  <!-- EN: Wolfein food-delivery staff -->
+  <Wolfein_BackstoryAdult_25.title>沃芬族 外賣配送員</Wolfein_BackstoryAdult_25.title>
+  <!-- EN: food-delivery staff -->
+  <Wolfein_BackstoryAdult_25.titleShort>外賣配送員</Wolfein_BackstoryAdult_25.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a plumber responsible for inspecting and maintaining pipeline systems. Dealing with all kinds of pipes takes up most of her day. Tired of constantly getting soaked, she』s now thinking about switching to electrical work instead. -->
+  <Wolfein_BackstoryAdult_26.description>[PAWN_nameDef]是一名水管工，負責管道裝置的檢修與維護。每天與各式管道打交道幾乎佔據了她所有時間。因為厭倦了總是被水濺得一身濕，現在她更想換一份電工的工作。</Wolfein_BackstoryAdult_26.description>
+  <!-- EN: Wolfein plumber -->
+  <Wolfein_BackstoryAdult_26.title>沃芬族 水管工</Wolfein_BackstoryAdult_26.title>
+  <!-- EN: plumber -->
+  <Wolfein_BackstoryAdult_26.titleShort>水管工</Wolfein_BackstoryAdult_26.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is an electrician in charge of inspecting and maintaining electrical systems. Most of her time is spent dealing with all sorts of wiring. Tired of constantly getting her hair tangled in wires, she』s now thinking of switching to plumbing. -->
+  <Wolfein_BackstoryAdult_27.description>[PAWN_nameDef]是一名負責電氣系統線路檢修與維護的電工，每天都要與各式各樣的電纜打交道，佔據了她大部分時間。因為厭倦了總是被電線纏住毛髮，現在她更想換一份水管工的工作。</Wolfein_BackstoryAdult_27.description>
+  <!-- EN: Wolfein electrician -->
+  <Wolfein_BackstoryAdult_27.title>沃芬族 維修電工</Wolfein_BackstoryAdult_27.title>
+  <!-- EN: electrician -->
+  <Wolfein_BackstoryAdult_27.titleShort>維修電工</Wolfein_BackstoryAdult_27.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a talented sprinter who has won multiple awards in city-level athletic meets. She dreams of one day running on a bigger stage, where she can fully showcase her speed and strength. -->
+  <Wolfein_BackstoryAdult_28.description>[PAWN_nameDef]是一名出色的短跑運動員，多次在城市運動會上獲獎。她夢想著有朝一日能在更大的舞臺上盡情奔跑，展現自己的速度與力量。</Wolfein_BackstoryAdult_28.description>
+  <!-- EN: Wolfein athlete -->
+  <Wolfein_BackstoryAdult_28.title>沃芬族 運動員</Wolfein_BackstoryAdult_28.title>
+  <!-- EN: athlete -->
+  <Wolfein_BackstoryAdult_28.titleShort>運動員</Wolfein_BackstoryAdult_28.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] works as a security guard at a large shopping mall. In the past, her duties mostly involved keeping out thieves and vagrants. But after a series of terrorist attacks by the resistance in Wolfein Federation cities, she』s been forced to rethink the risks of her job. -->
+  <Wolfein_BackstoryAdult_29.description>[PAWN_nameDef]在一所大型商場擔任保安。過去，她的工作主要是防範竊賊和流浪漢進入，但自從抵抗軍在沃芬聯邦城市發動恐怖襲擊之後，[PAWN_nameDef]不得不重新審視這份工作的危險性。</Wolfein_BackstoryAdult_29.description>
+  <!-- EN: Wolfein bouncer -->
+  <Wolfein_BackstoryAdult_29.title>沃芬族 商場保安</Wolfein_BackstoryAdult_29.title>
+  <!-- EN: bouncer -->
+  <Wolfein_BackstoryAdult_29.titleShort>商場保安</Wolfein_BackstoryAdult_29.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a florist who finds comfort in the company of plants amid the cold, rigid life of the city. After a terrorist attack destroyed the flower shop where she once worked, she was forced to seek a new path—but deep down, she never gave up her love for the craft. -->
+  <Wolfein_BackstoryAdult_30.description>[PAWN_nameDef]是一位花匠，在冰冷的城市生活中，她更願意與花草為伴。恐怖襲擊摧毀了她原本工作的花店后，[PAWN_nameDef]被迫另尋出路，但她內心從未放棄對這份職業的熱愛。</Wolfein_BackstoryAdult_30.description>
+  <!-- EN: Wolfein florist -->
+  <Wolfein_BackstoryAdult_30.title>沃芬族 花匠</Wolfein_BackstoryAdult_30.title>
+  <!-- EN: florist -->
+  <Wolfein_BackstoryAdult_30.titleShort>花匠</Wolfein_BackstoryAdult_30.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] works at a law firm, handling various disputes on behalf of Wolfein MegaCorp. But after repeatedly witnessing the dark truths behind the cases, she has begun to question her faith in the profession. -->
+  <Wolfein_BackstoryAdult_31.description>[PAWN_nameDef]在一家律師事務所工作，負責為沃芬公司處理各類大小糾紛。可在一次次接觸案件背後的黑幕之後，[PAWN_nameDef]開始對自己的職業信念產生動搖。</Wolfein_BackstoryAdult_31.description>
+  <!-- EN: Wolfein lawyer -->
+  <Wolfein_BackstoryAdult_31.title>沃芬族 律師</Wolfein_BackstoryAdult_31.title>
+  <!-- EN: lawyer -->
+  <Wolfein_BackstoryAdult_31.titleShort>律師</Wolfein_BackstoryAdult_31.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] once worked as a journalist at a television station. After reporting on a scandal tangled with too many vested interests, she was reassigned to cover far more dangerous stories. -->
+  <Wolfein_BackstoryAdult_32.description>[PAWN_nameDef]曾在一家電視臺擔任記者。由於報道了一起牽涉利益過多的黑幕事件，如今她被調去負責更危險的採訪任務。</Wolfein_BackstoryAdult_32.description>
+  <!-- EN: Wolfein reporter -->
+  <Wolfein_BackstoryAdult_32.title>沃芬族 記者</Wolfein_BackstoryAdult_32.title>
+  <!-- EN: reporter -->
+  <Wolfein_BackstoryAdult_32.titleShort>記者</Wolfein_BackstoryAdult_32.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] works for a domestic cleaning company and is exceptionally good at her job. She almost always receives top ratings on Wolfein』s service platform—after all, if a client doesn』t leave a good review, she has her own ways of convincing them to reconsider. So far, it』s never failed. -->
+  <Wolfein_BackstoryAdult_33.description>[PAWN_nameDef]在一家家政清潔公司工作，清潔技巧一流。她幾乎每次都能在沃芬公司的平臺上獲得顧客好評——畢竟如果沒有好評，她總有辦法「勸」對方改主意，這招從未失效過。</Wolfein_BackstoryAdult_33.description>
+  <!-- EN: Wolfein cleaner -->
+  <Wolfein_BackstoryAdult_33.title>沃芬族 清潔工</Wolfein_BackstoryAdult_33.title>
+  <!-- EN: cleaner -->
+  <Wolfein_BackstoryAdult_33.titleShort>清潔工</Wolfein_BackstoryAdult_33.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] works as an accountant at Wolfein MegaCorp, and her ledgers often contain some rather unusual entries. Her creative techniques have earned the company a fair share of extra profit. So when the corporation decided to pin the blame for some bad accounts on her, [PAWN_nameDef] had already filed for administrative leave—just in time. -->
+  <Wolfein_BackstoryAdult_34.description>[PAWN_nameDef]是沃芬公司的一名會計，她的賬本上總能出現些奇怪的專案，而這些「獨特技巧」也為公司帶來了不少額外收益。當沃芬公司打算讓她為某些爛賬背鍋時，[PAWN_nameDef]早已機敏地遞交了行政休假申請。</Wolfein_BackstoryAdult_34.description>
+  <!-- EN: Wolfein accountant -->
+  <Wolfein_BackstoryAdult_34.title>沃芬族 會計</Wolfein_BackstoryAdult_34.title>
+  <!-- EN: accountant -->
+  <Wolfein_BackstoryAdult_34.titleShort>會計</Wolfein_BackstoryAdult_34.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a moderately well-known performer, known for [PAWN_pronoun]』s impressive acting and captivating voice in several films. However, during a trip for a performance, [PAWN_pronoun] was caught in an accident and was forced to make an emergency landing in the outer frontier. -->
+  <Wolfein_BackstoryAdult_35.description>[PAWN_nameDef]是一位小有名氣的藝人，曾憑藉出色的演技與動人的聲線在多部電影中亮相。但在一次外出演出的途中，[PAWN_pronoun]遭遇意外，被迫降落在了邊緣世界。</Wolfein_BackstoryAdult_35.description>
+  <!-- EN: Wolfein actor -->
+  <Wolfein_BackstoryAdult_35.title>沃芬族 藝人</Wolfein_BackstoryAdult_35.title>
+  <!-- EN: actor -->
+  <Wolfein_BackstoryAdult_35.titleShort>藝人</Wolfein_BackstoryAdult_35.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a sculptor who insists on using traditional carving techniques. As technology advances, this old craft is slowly fading from memory—but [PAWN_nameDef] still finds deep satisfaction in shaping each piece by hand. After all, there』s never a shortage of clueless rich Wolfeins willing to pay top credits to decorate their homes with 「art.」 -->
+  <Wolfein_BackstoryAdult_36.description>[PAWN_nameDef]是一位堅持使用傳統技藝的雕塑藝術家。隨著科技的發展，這門古老的藝術正逐漸被時代遺忘，但[PAWN_nameDef]仍偏愛用雙手雕刻帶來的那份成就感。反正沃芬族的上流社會裡，總有些不懂行的蠢貨願意花大價錢在家裡擺幾件「藝術品」。</Wolfein_BackstoryAdult_36.description>
+  <!-- EN: Wolfein sculptor -->
+  <Wolfein_BackstoryAdult_36.title>沃芬族 雕塑家</Wolfein_BackstoryAdult_36.title>
+  <!-- EN: sculptor -->
+  <Wolfein_BackstoryAdult_36.titleShort>雕塑家</Wolfein_BackstoryAdult_36.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a talented artist skilled in both digital illustration and traditional painting. As automated image generation becomes increasingly widespread and far more efficient than hand-drawn art, many artists have seen their livelihoods impacted. Yet, [PAWN_nameDef] scoffs at the trend, continuing to paint her own world, one brushstroke at a time. -->
+  <Wolfein_BackstoryAdult_37.description>[PAWN_nameDef]是一位擅長電腦繪圖與傳統美術的優秀畫師。在自動化影象產生愈發普及、效率遠超手工繪畫的當下，許多畫師的生計受到了衝擊。但[PAWN_nameDef]對此不屑一顧，仍堅持用畫筆描繪屬於自己的世界。</Wolfein_BackstoryAdult_37.description>
+  <!-- EN: Wolfein artist -->
+  <Wolfein_BackstoryAdult_37.title>沃芬族 畫師</Wolfein_BackstoryAdult_37.title>
+  <!-- EN: artist -->
+  <Wolfein_BackstoryAdult_37.titleShort>畫師</Wolfein_BackstoryAdult_37.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] has always loved children, and after much effort, she finally became a kindergarten teacher. Though caring for and educating young kids is far from easy, [PAWN_nameDef] remains passionate about her work and continues to cherish her role. -->
+  <Wolfein_BackstoryAdult_38.description>[PAWN_nameDef]非常喜歡小孩子，經過不懈努力，她終於成爲了一名幼兒園教師。儘管照顧和教育幼兒的工作並不輕鬆，[PAWN_nameDef]仍滿懷熱情地投入其中，始終熱愛著這份職業。</Wolfein_BackstoryAdult_38.description>
+  <!-- EN: Wolfein kindergarten teacher -->
+  <Wolfein_BackstoryAdult_38.title>沃芬族 幼兒園教師</Wolfein_BackstoryAdult_38.title>
+  <!-- EN: kindergarten teacher -->
+  <Wolfein_BackstoryAdult_38.titleShort>幼兒園教師</Wolfein_BackstoryAdult_38.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is an accomplished geologist, primarily focused on studying tectonic activity, volcanic patterns, and other geological phenomena. However, most of [PAWN_pronoun]』s time is spent conducting commercial surveys for the Wolfein MegaCorp. To support her research, [PAWN_pronoun] is also well-versed in excavation tools and often carries out ground sampling herself. -->
+  <Wolfein_BackstoryAdult_39.description>[PAWN_nameDef]是一位出色的地質學者，平日主要研究地殼活動、火山動向等地質變化。不過，大多數時候她的工作是為沃芬公司執行各類商業地質勘查任務。爲了更深入地開展研究，[PAWN_pronoun]也熟練掌握各類挖掘工具，親自進行地面採樣與探測。</Wolfein_BackstoryAdult_39.description>
+  <!-- EN: Wolfein geologist -->
+  <Wolfein_BackstoryAdult_39.title>沃芬族 地質學者</Wolfein_BackstoryAdult_39.title>
+  <!-- EN: geologist -->
+  <Wolfein_BackstoryAdult_39.titleShort>地質學者</Wolfein_BackstoryAdult_39.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] runs a legitimate massage parlor in a city within the Wolfein Federation. Her skilled hands are well-known for relieving the stress and fatigue of a long day』s work. Occasionally, some clients come in seeking "extra services," but after a firm explanation—and, when necessary, some persuasive physical methods—they quickly learn to take their business elsewhere. -->
+  <Wolfein_BackstoryAdult_40.description>[PAWN_nameDef]在沃芬聯邦的一座城市裡經營著一家正規的按摩店。她手藝出衆，能有效緩解顧客一天的疲勞。偶爾也有不懷好意、期待「特殊服務」的人上門，但在[PAWN_nameDef]冷靜的解釋——以及必要時動用的一些「物理手段」后，他們都會知趣地離開。</Wolfein_BackstoryAdult_40.description>
+  <!-- EN: Wolfein massager -->
+  <Wolfein_BackstoryAdult_40.title>沃芬族 按摩師</Wolfein_BackstoryAdult_40.title>
+  <!-- EN: massager -->
+  <Wolfein_BackstoryAdult_40.titleShort>按摩師</Wolfein_BackstoryAdult_40.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] works at a massage parlor in the red-light district of a Wolfein Federation city. With an in-depth understanding of Wolfein physiology and a remarkable ability to cater to her clients' unique requests, she has helped make the establishment notably successful. -->
+  <Wolfein_BackstoryAdult_41.description>[PAWN_nameDef]在沃芬聯邦城市的紅燈區一家按摩店工作。她對沃芬族的身體結構有著深入瞭解，也擅長滿足顧客提出的各類特殊需求。憑藉她出色的技巧，店裡的生意一直相當興旺。</Wolfein_BackstoryAdult_41.description>
+  <!-- EN: Wolfein massager -->
+  <Wolfein_BackstoryAdult_41.title>沃芬族 紅燈區按摩師</Wolfein_BackstoryAdult_41.title>
+  <!-- EN: massager -->
+  <Wolfein_BackstoryAdult_41.titleShort>按摩師</Wolfein_BackstoryAdult_41.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] possesses an exceptional understanding of IT and hacking. In an attempt to showcase [PAWN_pronoun]』s skills, [PAWN_pronoun] breached a company』s system and stole classified business data. Now a wanted figure, [PAWN_nameDef] is on the run, constantly evading law enforcement. -->
+  <Wolfein_BackstoryAdult_42.description>[PAWN_nameDef]在IT技術領域有著遠超常人的理解。爲了證明自己的黑客實力，[PAWN_pronoun]入侵併竊取了一家公司的商業機密。如今，[PAWN_nameDef]正被執法機構通緝，不得不四處藏匿，躲避追捕。</Wolfein_BackstoryAdult_42.description>
+  <!-- EN: Wolfein hacker -->
+  <Wolfein_BackstoryAdult_42.title>沃芬族 黑客</Wolfein_BackstoryAdult_42.title>
+  <!-- EN: hacker -->
+  <Wolfein_BackstoryAdult_42.titleShort>黑客</Wolfein_BackstoryAdult_42.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] comes from an impoverished background. With the crushing pressure from the MegaCorp and the escalating civil conflict, [PAWN_pronoun]』s life has become increasingly desperate. Left with few choices, [PAWN_pronoun] turned to petty theft just to survive. -->
+  <Wolfein_BackstoryAdult_43.description>[PAWN_nameDef]出身貧寒，在公司壓迫與內戰動盪的雙重打擊下，生活愈發艱難。迫於生計，[PAWN_pronoun]不得不靠偷竊來勉強維持生活。</Wolfein_BackstoryAdult_43.description>
+  <!-- EN: Wolfein thief -->
+  <Wolfein_BackstoryAdult_43.title>沃芬族 小偷</Wolfein_BackstoryAdult_43.title>
+  <!-- EN: thief -->
+  <Wolfein_BackstoryAdult_43.titleShort>小偷</Wolfein_BackstoryAdult_43.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a seasoned criminal who turned to robbery and kidnapping after a failed investment. Together with [PAWN_pronoun]』s accomplices, [PAWN_pronoun] abducts Wolfein citizens to extort ransom from their families. With sharp counter-surveillance skills, [PAWN_nameDef] has become a constant thorn in the side of law enforcement. -->
+  <Wolfein_BackstoryAdult_44.description>[PAWN_nameDef]是一名慣犯，因投資失敗走上了犯罪道路。[PAWN_pronoun]與同夥綁架沃芬公民並向其親友勒索贖金。憑藉出色的反偵察意識，[PAWN_nameDef]一直讓執法部門頭疼不已。</Wolfein_BackstoryAdult_44.description>
+  <!-- EN: Wolfein robber -->
+  <Wolfein_BackstoryAdult_44.title>沃芬族 劫匪</Wolfein_BackstoryAdult_44.title>
+  <!-- EN: robber -->
+  <Wolfein_BackstoryAdult_44.titleShort>劫匪</Wolfein_BackstoryAdult_44.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] makes a living selling illegal psychoactive drugs. Through a special supply channel, [PAWN_pronoun] acquires the substances and resells them to those in need of a fix. [PAWN_pronoun]』s clients come from all walks of life—corporate executives, famous actors, homeless drifters, and even underage students. -->
+  <Wolfein_BackstoryAdult_45.description>[PAWN_nameDef]靠販賣非法精神藥物維生，[PAWN_pronoun]通過一條特殊渠道獲取藥物，再轉賣給那些成癮者。[PAWN_pronoun]的客戶形形色色，從大公司的高層、知名演員，到流浪者，甚至未成年的學生。</Wolfein_BackstoryAdult_45.description>
+  <!-- EN: Wolfein drug dealer -->
+  <Wolfein_BackstoryAdult_45.title>沃芬族 毒販</Wolfein_BackstoryAdult_45.title>
+  <!-- EN: drug dealer -->
+  <Wolfein_BackstoryAdult_45.titleShort>毒販</Wolfein_BackstoryAdult_45.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a professional assassin, an expert at making targets disappear without a trace. As a true professional, [PAWN_pronoun] never asks about the employer』s motives—only how much the job pays. -->
+  <Wolfein_BackstoryAdult_46.description>[PAWN_nameDef]是一名職業殺手，在讓目標悄無聲息地消失方面堪稱專家。作為一名專業人士，[PAWN_pronoun]從不追問僱主的動機，[PAWN_pronoun]只關心這份工作能帶來多少利益。</Wolfein_BackstoryAdult_46.description>
+  <!-- EN: Wolfein hit man -->
+  <Wolfein_BackstoryAdult_46.title>沃芬族 職業殺手</Wolfein_BackstoryAdult_46.title>
+  <!-- EN: hit man -->
+  <Wolfein_BackstoryAdult_46.titleShort>職業殺手</Wolfein_BackstoryAdult_46.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is no ordinary assassin—[PAWN_pronoun] possesses unique psionic abilities that aid in completing missions. This uncommon power has made [PAWN_pronoun] a favored choice among high-paying clients. -->
+  <Wolfein_BackstoryAdult_47.description>[PAWN_nameDef]是一名特殊的殺手，與其他人不同，[PAWN_pronoun]掌握著獨特的靈能技藝來輔助執行任務。正是這份異於常人的能力，讓[PAWN_pronoun]贏得了不少高價僱主的青睞。</Wolfein_BackstoryAdult_47.description>
+  <!-- EN: Wolfein psionic killer -->
+  <Wolfein_BackstoryAdult_47.title>沃芬族 靈能殺手</Wolfein_BackstoryAdult_47.title>
+  <!-- EN: psionic killer -->
+  <Wolfein_BackstoryAdult_47.titleShort>靈能殺手</Wolfein_BackstoryAdult_47.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was imprisoned for a murder charge. When a series of terrorist attacks plunged the city into chaos, [PAWN_pronoun] seized the chance to escape. Now, [PAWN_pronoun] is on the run, living as a fugitive. -->
+  <Wolfein_BackstoryAdult_48.description>[PAWN_nameDef]因一樁謀殺案被捕入獄。在恐怖襲擊引發的大規模混亂中，[PAWN_pronoun]趁亂越獄，如今以逃犯的身份四處躲藏，亡命天涯。</Wolfein_BackstoryAdult_48.description>
+  <!-- EN: Wolfein fugitive -->
+  <Wolfein_BackstoryAdult_48.title>沃芬族 逃犯</Wolfein_BackstoryAdult_48.title>
+  <!-- EN: fugitive -->
+  <Wolfein_BackstoryAdult_48.titleShort>逃犯</Wolfein_BackstoryAdult_48.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] works in a smuggling crew, primarily handling the transportation of contraband and the delivery of sensitive information. This illegal line of work has earned her a generous profit. She often brags to her associates about the high status and deep pockets of her clientele. -->
+  <Wolfein_BackstoryAdult_49.description>[PAWN_nameDef]在一個走私團隊中工作，主要負責走私物品的運輸與情報的傳遞。這份非法的工作為她帶來了不菲的收益。[PAWN_nameDef]常常向同夥吹噓她的客戶有多麼顯赫的身份和多麼闊綽的出手。</Wolfein_BackstoryAdult_49.description>
+  <!-- EN: Wolfein smuggler -->
+  <Wolfein_BackstoryAdult_49.title>沃芬族 走私犯</Wolfein_BackstoryAdult_49.title>
+  <!-- EN: smuggler -->
+  <Wolfein_BackstoryAdult_49.titleShort>走私犯</Wolfein_BackstoryAdult_49.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was imprisoned for a murder charge. When a series of terrorist attacks plunged the city into chaos, [PAWN_pronoun] seized the chance to escape. Now, [PAWN_pronoun] is on the run, living as a fugitive. -->
+  <Wolfein_BackstoryAdult_50.description>[PAWN_nameDef]誕生於沃芬聯邦廢墟之都的貧民窟。在這個被政府與社會徹底遺忘的角落裡茍且求生，是她來到這個殘酷世界的唯一意義。像她這樣的人，對沃芬聯邦而言連被榨取價值的資格都沒有。但或許，在不計成本與效益的世界盡頭，她也能擁有一份只屬於她的價值？</Wolfein_BackstoryAdult_50.description>
+  <!-- EN: Wolfein fugitive -->
+  <Wolfein_BackstoryAdult_50.title>沃芬族 渣滓</Wolfein_BackstoryAdult_50.title>
+  <!-- EN: fugitive -->
+  <Wolfein_BackstoryAdult_50.titleShort>渣滓</Wolfein_BackstoryAdult_50.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a big, bad Wolfein who claims she was born for the kind of work that's "not exactly aboveboard"—though in the eyes of others, she might just be a little too fond of acting tough. -->
+  <Wolfein_BackstoryAdult_51.description>[PAWN_nameDef]是一隻又大又壞的沃芬，自稱天生就適合做這種「不那麼光明正大」的活兒——雖然別人眼中，她或許只是有點愛逞兇罷了。</Wolfein_BackstoryAdult_51.description>
+  <!-- EN: Wolfein Big Bad Wolf -->
+  <Wolfein_BackstoryAdult_51.title>沃芬族 大壞狼</Wolfein_BackstoryAdult_51.title>
+  <!-- EN: Big Bad Wolf -->
+  <Wolfein_BackstoryAdult_51.titleShort>大壞狼</Wolfein_BackstoryAdult_51.titleShort>
+  
+</LanguageData>

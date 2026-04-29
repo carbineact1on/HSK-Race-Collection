@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein Space Suit Helmet -->
+  <Wolfein_SpaceSuitHelmet.label>沃芬太空活動頭盔</Wolfein_SpaceSuitHelmet.label>
+  <!-- EN: Used in conjunction with space activity suits. The display screen on the helmet can show the user's physical condition in real time, and the built-in heater effectively reduces the likelihood of migraines. -->
+  <Wolfein_SpaceSuitHelmet.description>與太空活動服配套使用。頭盔上的顯示屏能實時顯示使用者的身體狀態，內建的加熱器能有效降低偏頭痛的發生概率。</Wolfein_SpaceSuitHelmet.description>
+  
+</LanguageData>

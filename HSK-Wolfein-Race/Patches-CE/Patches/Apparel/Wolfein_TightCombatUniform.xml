@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- 紧身作战服（固定材料） -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wolfein_TightCombatUniform"]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>280</MaxHitPoints>
+            <Flammability>0.5</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+            <Mass>1</Mass>
+            <EquipDelay>1.5</EquipDelay>
+            <WorkToMake>15000</WorkToMake>
+            <Insulation_Cold>11</Insulation_Cold>
+            <Insulation_Heat>9</Insulation_Heat>
+            <ArmorRating_Sharp>3.2</ArmorRating_Sharp>
+            <ArmorRating_Blunt>2.3</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.15</ArmorRating_Heat>
+            <ArmorRating_Electric>0</ArmorRating_Electric>
+            <Bulk>2</Bulk>
+            <WornBulk>0.9</WornBulk>
+          </statBases>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Wolfein_TightCombatUniform"]/equippedStatOffsets</xpath>
+		<value>
+      <CarryBulk>11</CarryBulk>
+      <CarryWeight>14</CarryWeight>
+		</value>
+	</Operation>
+</Patch>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef Name="Wolfein_BaseMechDrone" ParentName="Wolfein_BaseMech" Abstract="True">
+        <race>
+            <intelligence>ToolUser</intelligence>
+            <thinkTreeMain>Mechanoid</thinkTreeMain>
+            <baseBodySize>0.5</baseBodySize>
+            <body>Wolfein_MechDrone</body>
+            <baseHealthScale>0.8</baseHealthScale>
+            <soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+            <mechWeightClass>Light</mechWeightClass>
+            <lifeStageAges>
+                <li>
+                    <def>MechanoidFullyFormed</def>
+                    <minAge>0</minAge>
+                </li>
+            </lifeStageAges>
+        </race>
+        <tools>
+            <li>
+                <label>drone body</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>2.0</power>
+                <cooldownTime>1.0</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+            </li>
+        </tools>
+        <statBases>
+            <MoveSpeed>6.25</MoveSpeed>
+            <MarketValue>1000</MarketValue>
+            <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+            <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+            <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">1</BandwidthCost>            <!-- 带宽 -->
+            <WastepacksPerRecharge MayRequire="Ludeon.RimWorld.Biotech">1</WastepacksPerRecharge>
+        </statBases>
+        <comps>
+        </comps>
+    </ThingDef>
+    <PawnKindDef Name="Wolfein_BaseMechKind_Drone" ParentName="Wolfein_BaseMechKind" Abstract="True">
+        <combatPower>80</combatPower>
+        <techHediffsChance>1</techHediffsChance>
+        <techHediffsMoney>9999~9999</techHediffsMoney>
+        <weaponMoney>9999~9999</weaponMoney>
+    </PawnKindDef>
+
+    <ThingDef ParentName="Wolfein_BaseMechDrone">
+        <defName>Wolfein_Mechanoid_Drone</defName>
+        <label>Wolfein mechanoid drone</label>
+        <description>A reconnaissance drone developed by the MegaCorp, constructed from parts sourced from the lowest-bidding departments. It features only basic patrol capabilities and a single low-powered laser gun. However, MegaCorp often deploys these drones in large numbers—when clustered together, they can still pose a considerable threat.</description>
+        <statBases>
+        </statBases>
+        <race>
+        </race>
+    </ThingDef>
+    <PawnKindDef ParentName="Wolfein_BaseMechKind_Drone">
+        <defName>Wolfein_Mechanoid_Drone</defName>
+        <label>Wolfein mechanoid drone</label>
+        <race>Wolfein_Mechanoid_Drone</race>
+        <weaponTags>
+            <li>W_Weapon_Drone</li>
+        </weaponTags>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>Wolfein/Mech/MegaCorpDrone/MegaCorpDrone</texPath>
+                    <maskPath>Wolfein/Mech/Mask/Mask</maskPath>
+                    <shaderType>CutoutWithOverlay</shaderType>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>1.6</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.8, 0.4)</volume>
+                    </shadowData>
+                </bodyGraphicData>
+            </li>
+        </lifeStages>
+    </PawnKindDef>
+
+
+    <ThingDef ParentName="Wolfein_BaseMechDrone">
+        <defName>Wolfein_Mechanoid_DroneArmed</defName>
+        <label>Wolfein mechanoid armed drone</label>
+        <description>The armed drone equipped with dual rocket pods possesses high maneuverability and firepower coverage capability, enabling rapid deployment across various combat environments to execute suppression and clearance missions.</description>
+        <statBases>
+            <MoveSpeed>5.2</MoveSpeed>
+            <MarketValue>1250</MarketValue>
+            <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+            <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+            <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">2</BandwidthCost>            <!-- 带宽 -->
+        </statBases>
+        <race>
+        </race>
+    </ThingDef>
+    <PawnKindDef ParentName="Wolfein_BaseMechKind_Drone">
+        <defName>Wolfein_Mechanoid_DroneArmed</defName>
+        <label>Wolfein mechanoid armed drone</label>
+        <race>Wolfein_Mechanoid_DroneArmed</race>
+        <combatPower>140</combatPower>
+        <weaponTags>
+            <li>W_Weapon_DroneRocket</li>
+        </weaponTags>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>Wolfein/Mech/MegaCorpArmedDrone/MegaCorpArmedDrone</texPath>
+                    <maskPath>Wolfein/Mech/Mask/Mask</maskPath>
+                    <shaderType>CutoutWithOverlay</shaderType>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>1.6</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.8, 0.4)</volume>
+                    </shadowData>
+                </bodyGraphicData>
+            </li>
+        </lifeStages>
+    </PawnKindDef>
+
+
+
+
+</Defs>

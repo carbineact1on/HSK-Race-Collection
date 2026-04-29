@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <RecipeDef ParentName="BaseMechanoidResurrectionRecipe">
+        <defName>Wolfein_MechCivilResurrect</defName>
+        <label>Reboot and Repair</label>
+        <description>Reboot and Repair Wolfein Civilian Mech Unit.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Corpses</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>60</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Corpse_Wolfein_Mechanoid_CivilBase</li>
+                <li>Corpse_Wolfein_Mechanoid_CivilA</li>
+                <li>Corpse_Wolfein_Mechanoid_CivilB</li>
+                <li>Corpse_Wolfein_Mechanoid_CivilC</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+    </RecipeDef>
+
+    <RecipeDef ParentName="BaseMechanoidResurrectionRecipe">
+        <defName>Wolfein_MechMilitaryResurrect</defName>
+        <label>Reboot and Repair</label>
+        <description>Reboot and Repair Wolfein Military Mech Unit.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Corpses</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_AlloyMaterials</li>
+                    </thingDefs>
+                </filter>
+                <count>30</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Corpse_Wolfein_Mechanoid_MilitaryA</li>
+                <li>Corpse_Wolfein_Mechanoid_MilitaryB</li>
+                <li>Corpse_Wolfein_Mechanoid_MilitaryC</li>
+                <li>Corpse_Wolfein_Mechanoid_MilitaryD</li>
+                <li>Corpse_Wolfein_Mechanoid_MilitaryE</li>
+                <li>Corpse_Wolfein_Mechanoid_MilitaryF</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+    </RecipeDef>
+    
+    <RecipeDef ParentName="BaseMechanoidResurrectionRecipe">
+        <defName>Wolfein_MechMilitaryGiantResurrect</defName>
+        <label>Reboot and Repair</label>
+        <description>Reboot and Repair Wolfein Giant Military Mech Unit.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Corpses</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_AlloyMaterials</li>
+                    </thingDefs>
+                </filter>
+                <count>120</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_ElectronicComponent</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>Corpse_Wolfein_Mechanoid_MilitaryGiant</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+    </RecipeDef>
+
+
+</Defs>

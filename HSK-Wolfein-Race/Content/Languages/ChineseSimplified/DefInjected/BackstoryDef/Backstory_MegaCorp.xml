@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: After finishing her student years, [PAWN_nameDef] successfully passed the military entrance exam and voluntarily enlisted as a soldier in the Wolfein MegaCorp. [PAWN_nameDef] always maintained a positive attitude, full of creativity, and excelled at finding innovative solutions to problems in high-pressure environments. -->
+  <Wolfein_BackstoryMegaCorp_01.description>[PAWN_nameDef]在学生时代结束后顺利通过了参军考核，自愿加入了沃芬军企，成为一名士兵。[PAWN_nameDef]始终保持积极的态度，富有创造力，擅长在紧张的环境中找到解决问题的创新方式。</Wolfein_BackstoryMegaCorp_01.description>
+  <!-- EN: Wolfein Mega Corp recruit -->
+  <Wolfein_BackstoryMegaCorp_01.title>沃芬族 军企特遣机动队新兵</Wolfein_BackstoryMegaCorp_01.title>
+  <!-- EN: Mega Corp recruit -->
+  <Wolfein_BackstoryMegaCorp_01.titleShort>军企新兵</Wolfein_BackstoryMegaCorp_01.titleShort>
+  
+  <!-- EN: Upon learning that it was the ResistanceArmy who carried out the terrorist attack in the city, [PAWN_nameDef] was filled with intense rage. With her passionate nature, she enlisted without hesitation and became a soldier in the MegaCorp, secretly vowing to drive these rebels out of their homeland -->
+  <Wolfein_BackstoryMegaCorp_02.description>在得知是抵抗军在城市内实施恐怖袭击后，[PAWN_nameDef]感到异常愤怒。满腔热血的[PAWN_nameDef]毫不犹豫地参军，成为了军企的士兵，并暗自发誓，一定要将这些叛军驱逐出他们的家园。</Wolfein_BackstoryMegaCorp_02.description>
+  <!-- EN: Wolfein Mega Corp recruit -->
+  <Wolfein_BackstoryMegaCorp_02.title>沃芬族 军企特遣机动队新兵</Wolfein_BackstoryMegaCorp_02.title>
+  <!-- EN: Mega Corp recruit -->
+  <Wolfein_BackstoryMegaCorp_02.titleShort>军企新兵</Wolfein_BackstoryMegaCorp_02.titleShort>
+  
+  <!-- EN: Feeling lost about her future, [PAWN_nameDef] enlisted in the military on the recommendation of others. Living alongside fellow recruits helped her gradually find clarity in her path forward. -->
+  <Wolfein_BackstoryMegaCorp_03.description>[PAWN_nameDef]对未来感到迷茫，在他人的推荐下，[PAWN_nameDef]选择了参军。与其他新兵一起生活的日子让她的人生道路逐渐变得清晰起来。</Wolfein_BackstoryMegaCorp_03.description>
+  <!-- EN: Wolfein Mega Corp recruit -->
+  <Wolfein_BackstoryMegaCorp_03.title>沃芬族 军企特遣机动队新兵</Wolfein_BackstoryMegaCorp_03.title>
+  <!-- EN: Mega Corp recruit -->
+  <Wolfein_BackstoryMegaCorp_03.titleShort>军企新兵</Wolfein_BackstoryMegaCorp_03.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a member of the Wolfein Task Force, assigned to the fringes to carry out security duties for the Wolfein colonies, defending against the ResistanceArmy. [PAWN_nameDef] hopes that, once the civil war ends, she will be able to return to her family and live a peaceful life. -->
+  <Wolfein_BackstoryMegaCorp_04.description>[PAWN_nameDef]隶属于沃芬特遣机动队，所在部队被派往边缘世界执行沃芬族殖民地的安保任务，以抵御抵抗军的威胁。[PAWN_nameDef]希望有朝一日内战结束后，能重新回到家人身边，过上平静的生活。</Wolfein_BackstoryMegaCorp_04.description>
+  <!-- EN: Wolfein Mega Corp soldier -->
+  <Wolfein_BackstoryMegaCorp_04.title>沃芬族 军企特遣机动队士兵</Wolfein_BackstoryMegaCorp_04.title>
+  <!-- EN: Mega Corp soldier -->
+  <Wolfein_BackstoryMegaCorp_04.titleShort>军企士兵</Wolfein_BackstoryMegaCorp_04.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is part of the Wolfein Task Force, and the constant battles against the resistance have left her mentally and physically exhausted. [PAWN_nameDef] finds herself questioning the reason for her fight—why, as members of the same race, must they engage in such mutual destruction? -->
+  <Wolfein_BackstoryMegaCorp_05.description>[PAWN_nameDef]隶属于沃芬特遣机动队，与抵抗军的频繁交战让她感到身心俱疲。[PAWN_nameDef]开始不禁思考自己战斗的意义，为什么身为同胞彼此却要互相残杀。</Wolfein_BackstoryMegaCorp_05.description>
+  <!-- EN: Wolfein Mega Corp soldier -->
+  <Wolfein_BackstoryMegaCorp_05.title>沃芬族 军企特遣机动队士兵</Wolfein_BackstoryMegaCorp_05.title>
+  <!-- EN: Mega Corp soldier -->
+  <Wolfein_BackstoryMegaCorp_05.titleShort>军企士兵</Wolfein_BackstoryMegaCorp_05.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a member of the Wolfein Task Force, harboring deep hatred for the terrorist organization known as the resistance. With each successive terrorist attack in the city, [PAWN_nameDef]'s resolve to oppose the resistance grows even stronger. -->
+  <Wolfein_BackstoryMegaCorp_06.description>[PAWN_nameDef]隶属于沃芬特遣机动队，深深痛恨这群自称为抵抗军的恐怖主义组织。随着城市内一次又一次恐怖袭击事件的发生，[PAWN_nameDef]与抵抗军为敌的决心愈加坚定。</Wolfein_BackstoryMegaCorp_06.description>
+  <!-- EN: Wolfein Mega Corp soldier -->
+  <Wolfein_BackstoryMegaCorp_06.title>沃芬族 军企特遣机动队士兵</Wolfein_BackstoryMegaCorp_06.title>
+  <!-- EN: Mega Corp soldier -->
+  <Wolfein_BackstoryMegaCorp_06.titleShort>军企士兵</Wolfein_BackstoryMegaCorp_06.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a member of the Wolfein Task Force, and over time, she has lost the passion and ambition she once had. After countless battles, [PAWN_nameDef] has become numb, choosing to abandon further thought—she only needs to follow her superiors' orders without question. -->
+  <Wolfein_BackstoryMegaCorp_07.description>[PAWN_nameDef]隶属于沃芬特遣机动队，随着时间的推移，她逐渐失去了曾经的热血与抱负。在一次次战斗中变得麻木的[PAWN_nameDef]选择放弃思考，她只需要完全服从上级的命令，其他的都不再关心。</Wolfein_BackstoryMegaCorp_07.description>
+  <!-- EN: Wolfein Mega Corp soldier -->
+  <Wolfein_BackstoryMegaCorp_07.title>沃芬族 军企特遣机动队士兵</Wolfein_BackstoryMegaCorp_07.title>
+  <!-- EN: Mega Corp soldier -->
+  <Wolfein_BackstoryMegaCorp_07.titleShort>军企士兵</Wolfein_BackstoryMegaCorp_07.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a member of the Wolfein Task Force, fully aware that the resistance was born to oppose the oppression of the lower classes by the Wolfein MegaCorp. However, when the actions of the resistance strayed from their original purpose, [PAWN_nameDef] realized that the resistance had become her enemy. -->
+  <Wolfein_BackstoryMegaCorp_08.description>[PAWN_nameDef]隶属于沃芬特遣机动队，深知抵抗军的诞生是为了反抗沃芬军工巨企对底层人民的压迫。然而，当抵抗军的行为与他们的初衷背道而驰时，[PAWN_nameDef]意识到，抵抗军已经成为了她的敌人。</Wolfein_BackstoryMegaCorp_08.description>
+  <!-- EN: Wolfein Mega Corp soldier -->
+  <Wolfein_BackstoryMegaCorp_08.title>沃芬族 军企特遣机动队士兵</Wolfein_BackstoryMegaCorp_08.title>
+  <!-- EN: Mega Corp soldier -->
+  <Wolfein_BackstoryMegaCorp_08.titleShort>军企士兵</Wolfein_BackstoryMegaCorp_08.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a member of the Wolfein Task Force and has served in the military for many years. There are rumors that she once fought in the war against the Mechanoids and survived. Now, she is a seasoned veteran with extensive combat experience. Her journey has given her a profound understanding of organization and discipline, but it has also made her more cautious and vigilant, holding a reserved stance on how to resolve conflicts. -->
+  <Wolfein_BackstoryMegaCorp_09.description>[PAWN_nameDef]隶属于沃芬特遣机动队，已经在部队服役多年。传言称，她曾参与沃芬与机械族的战争，并成功幸存。如今，她已是个拥有丰富作战经验的老兵，[PAWN_nameDef]的经历让她对组织和纪律有着深刻的理解，但也使她变得更加警觉和慎重，对冲突的解决方式持保留态度。</Wolfein_BackstoryMegaCorp_09.description>
+  <!-- EN: Wolfein Mega Corp soldier -->
+  <Wolfein_BackstoryMegaCorp_09.title>沃芬族 军企特遣机动队士兵</Wolfein_BackstoryMegaCorp_09.title>
+  <!-- EN: Mega Corp soldier -->
+  <Wolfein_BackstoryMegaCorp_09.titleShort>军企士兵</Wolfein_BackstoryMegaCorp_09.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a member of the Wolfein Task Force, and within the military, [PAWN_nameDef] operates like a cold, emotionless machine. No matter what task is assigned by the higher-ups, [PAWN_nameDef] accepts it without complaint. Whether it’s killing the enemy or being killed, [PAWN_nameDef] is mentally prepared for either outcome. -->
+  <Wolfein_BackstoryMegaCorp_10.description>[PAWN_nameDef]隶属于沃芬特遣机动队，在部队中，[PAWN_nameDef]就像一台冷血的机器，无论上级分派什么任务，[PAWN_nameDef]都毫无怨言地接受。杀敌或被杀，[PAWN_nameDef]早已做好了心理准备。</Wolfein_BackstoryMegaCorp_10.description>
+  <!-- EN: Wolfein Mega Corp soldier -->
+  <Wolfein_BackstoryMegaCorp_10.title>沃芬族 军企特遣机动队士兵</Wolfein_BackstoryMegaCorp_10.title>
+  <!-- EN: Mega Corp soldier -->
+  <Wolfein_BackstoryMegaCorp_10.titleShort>军企士兵</Wolfein_BackstoryMegaCorp_10.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a member of the Wolfein Task Force, previously handling security-related matters. Amid the increasingly tense social environment, [PAWN_nameDef] was reassigned to the more dangerous and desolate Fringe Worlds, tasked with protecting the colonies of the Wolfein MegaCorp. -->
+  <Wolfein_BackstoryMegaCorp_11.description>[PAWN_nameDef]隶属于沃芬特遣机动队，曾负责安保事务。在社会环境日益紧张的背景下，[PAWN_nameDef]被调往更加危险且荒芜的边缘世界，承担起保护沃芬军工巨企殖民地的任务。</Wolfein_BackstoryMegaCorp_11.description>
+  <!-- EN: Wolfein Mega Corp soldier -->
+  <Wolfein_BackstoryMegaCorp_11.title>沃芬族 军企特遣机动队士兵</Wolfein_BackstoryMegaCorp_11.title>
+  <!-- EN: Mega Corp soldier -->
+  <Wolfein_BackstoryMegaCorp_11.titleShort>军企士兵</Wolfein_BackstoryMegaCorp_11.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a member of a security detail within the Wolfein MegaCorp, responsible for escorting and transporting key personnel, critical cargo, and sensitive information. In the tense backdrop of the ongoing civil war, [PAWN_nameDef]'s duties have become all the more crucial. -->
+  <Wolfein_BackstoryMegaCorp_12.description>[PAWN_nameDef]隶属于沃芬军企的一支护卫队，护卫队日常负责重要人员、重要货物及信息的护送与运输。在紧张的内战局势下，[PAWN_nameDef]的护卫工作显得尤为重要。</Wolfein_BackstoryMegaCorp_12.description>
+  <!-- EN: Wolfein Mega Corp guard -->
+  <Wolfein_BackstoryMegaCorp_12.title>沃芬族 军企护卫</Wolfein_BackstoryMegaCorp_12.title>
+  <!-- EN: Mega Corp guard -->
+  <Wolfein_BackstoryMegaCorp_12.titleShort>军企护卫</Wolfein_BackstoryMegaCorp_12.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a member of the Wolfein MegaCorp's scout squad. As the vanguard of the unit, [PAWN_nameDef]'s duties include, but are not limited to, reconnaissance, sabotage, and gathering military intelligence. With her calm and decisive nature, as well as a keen awareness of environmental changes, [PAWN_nameDef] has become an excellent scout. -->
+  <Wolfein_BackstoryMegaCorp_13.description>[PAWN_nameDef]是沃芬军企斥候小队的一员，作为部队的先锋，[PAWN_nameDef]的任务不仅包括侦察、破坏与获取军事情报，还要求她保持高度的环境警觉性。凭借冷静果断的判断，[PAWN_nameDef]如今已经成长为一名出色的斥候。</Wolfein_BackstoryMegaCorp_13.description>
+  <!-- EN: Wolfein Mega Corp scout -->
+  <Wolfein_BackstoryMegaCorp_13.title>沃芬族 军企斥候</Wolfein_BackstoryMegaCorp_13.title>
+  <!-- EN: Mega Corp scout -->
+  <Wolfein_BackstoryMegaCorp_13.titleShort>军企斥候</Wolfein_BackstoryMegaCorp_13.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] serves as a military doctor within the Wolfein MegaCorp, having joined as a field medic with the intent of saving more lives on the frontlines. However, on the battlefield, [PAWN_nameDef] came to understand that in order to save one life, sometimes another must be ended. -->
+  <Wolfein_BackstoryMegaCorp_14.description>[PAWN_nameDef]在沃芬军企担任军医，成为随军医生的初衷是为了在前线救助更多的人。然而，在战场上，[PAWN_nameDef]逐渐领悟到，要拯救一条生命，有时必须先终结另一条生命。</Wolfein_BackstoryMegaCorp_14.description>
+  <!-- EN: Wolfein Mega Corp surgeon -->
+  <Wolfein_BackstoryMegaCorp_14.title>沃芬族 军企医生</Wolfein_BackstoryMegaCorp_14.title>
+  <!-- EN: Mega Corp surgeon -->
+  <Wolfein_BackstoryMegaCorp_14.titleShort>军企医生</Wolfein_BackstoryMegaCorp_14.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a sniper in a squad within the Wolfein MegaCorp, possessing extraordinary skills and a high level of professionalism. Even in extreme environments, [PAWN_nameDef] can maintain precise shooting. One bullet, one enemy—this is the result of [PAWN_nameDef]'s hard-earned training. -->
+  <Wolfein_BackstoryMegaCorp_15.description>[PAWN_nameDef]是沃芬军企中一支小队的狙击手，[PAWN_nameDef]有着超凡的技术与极高的专业素养，哪怕是在极端的环境里也可以保持精准的射击。一颗子弹，一名敌人，这正是[PAWN_nameDef]通过艰苦的训练得到的成果。</Wolfein_BackstoryMegaCorp_15.description>
+  <!-- EN: Wolfein Mega Corp sniper -->
+  <Wolfein_BackstoryMegaCorp_15.title>沃芬族 军企狙击手</Wolfein_BackstoryMegaCorp_15.title>
+  <!-- EN: Mega Corp sniper -->
+  <Wolfein_BackstoryMegaCorp_15.titleShort>军企狙击手</Wolfein_BackstoryMegaCorp_15.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] serves as a support soldier in a squad within the Wolfein MegaCorp. Wolfein support soldiers typically wear heavy armor and carry high-powered, sustained weapons to provide powerful fire support for their teammates. [PAWN_nameDef] is always the strongest pillar in the squad. -->
+  <Wolfein_BackstoryMegaCorp_16.description>[PAWN_nameDef]在沃芬军企的一支小队中担任支援兵。沃芬的支援兵通常穿戴重型护甲，携带高火力的持续武器，为队友提供强大的火力支援。[PAWN_nameDef]始终是小队中最坚强的后盾。</Wolfein_BackstoryMegaCorp_16.description>
+  <!-- EN: Wolfein Mega Corp support -->
+  <Wolfein_BackstoryMegaCorp_16.title>沃芬族 军企支援兵</Wolfein_BackstoryMegaCorp_16.title>
+  <!-- EN: Mega Corp support -->
+  <Wolfein_BackstoryMegaCorp_16.titleShort>军企支援兵</Wolfein_BackstoryMegaCorp_16.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a member of the Wolfein MegaCorp's Vanguard Squad. The members of the Vanguard are typically composed of melee units who have undergone specialized combat training. [PAWN_nameDef] was promoted to this elite squad due to her outstanding combat abilities and went on to achieve remarkable feats in several subsequent battles. -->
+  <Wolfein_BackstoryMegaCorp_17.description>[PAWN_nameDef]是沃芬军企尖兵小队的一员。尖兵队的成员通常由经过专业格斗训练的近战单位组成。[PAWN_nameDef]凭借出色的战斗能力被提拔进入这支精英小队，并在随后的多次战斗中立下赫赫战功。</Wolfein_BackstoryMegaCorp_17.description>
+  <!-- EN: Wolfein Mega Corp vanguard -->
+  <Wolfein_BackstoryMegaCorp_17.title>沃芬族 军企尖兵</Wolfein_BackstoryMegaCorp_17.title>
+  <!-- EN: Mega Corp vanguard -->
+  <Wolfein_BackstoryMegaCorp_17.titleShort>军企尖兵</Wolfein_BackstoryMegaCorp_17.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a combat mechanic in the Wolven military corporation. Due to the scarce population of the Wolven species, the actual number of Wolven soldiers in the military is significantly insufficient. As a result, the corporation makes extensive use of autonomous combat units within its military forces to compensate for this shortfall. After all, the cost of training a professional Wolven soldier far exceeds that of producing and maintaining autonomous machinery. Within the squad, [PAWN_nameDef]'s role is to command, calibrate, and maintain these autonomous combat machines. -->
+  <Wolfein_BackstoryMegaCorp_18.description>[PAWN_nameDef]是沃芬军企的一名战斗机械师。由于沃芬族人口稀少，军队中的实际沃芬数量远远不足。因此，军企在军工部队中大量使用自行机械战斗单位来弥补这一不足。毕竟，培养一名专业的沃芬士兵的成本远远高于制造和维护自行机械。在小队中，[PAWN_nameDef]的工作就是负责指挥、调试和维护这些自行战斗机械。</Wolfein_BackstoryMegaCorp_18.description>
+  <!-- EN: Wolfein Mega Corp mechanic -->
+  <Wolfein_BackstoryMegaCorp_18.title>沃芬族 军企机械师</Wolfein_BackstoryMegaCorp_18.title>
+  <!-- EN: Mega Corp mechanic -->
+  <Wolfein_BackstoryMegaCorp_18.titleShort>军企机械师</Wolfein_BackstoryMegaCorp_18.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] has constantly tried to explain to those around her in the squad that she is not a hacker, but rather an "electronic warfare and intelligence acquisition specialist." Compared to other soldiers, [PAWN_nameDef] is not particularly skilled in combat, but her role in supporting combat is indispensable. -->
+  <Wolfein_BackstoryMegaCorp_19.description>[PAWN_nameDef] 在小队中一直试图向周围的人解释，她并不是黑客，而是一位“电子战情报获取专家”。与其他成员相比，[PAWN_nameDef] 的战斗能力较弱，但她在辅助战斗中的作用却不可或缺。</Wolfein_BackstoryMegaCorp_19.description>
+  <!-- EN: Wolfein Mega Corp hacker -->
+  <Wolfein_BackstoryMegaCorp_19.title>沃芬族 军企特战黑客</Wolfein_BackstoryMegaCorp_19.title>
+  <!-- EN: Mega Corp hacker -->
+  <Wolfein_BackstoryMegaCorp_19.titleShort>军企特战黑客</Wolfein_BackstoryMegaCorp_19.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] holds a unique position within the Wolfein MegaCorp. Only a select few in the military are capable of using psychic powers in combat, and their role in battle is not to be underestimated. [PAWN_nameDef] was born with powerful psychic abilities and, upon reaching adulthood, was recruited into the MegaCorp as a psychic sorcerer. -->
+  <Wolfein_BackstoryMegaCorp_20.description>[PAWN_nameDef] 在沃芬军企中的地位非常特殊。军队中只有极少数人能使用灵能进行作战，并且他们在战斗中的作用不可小觑。[PAWN_nameDef] 天生拥有强大的灵能，成年后，她以灵能术士的身份被招募进入了军企。</Wolfein_BackstoryMegaCorp_20.description>
+  <!-- EN: Wolfein Mega Corp psionic warlock -->
+  <Wolfein_BackstoryMegaCorp_20.title>沃芬族 军企灵能术士</Wolfein_BackstoryMegaCorp_20.title>
+  <!-- EN: Mega Corp psionic warlock -->
+  <Wolfein_BackstoryMegaCorp_20.titleShort>军企灵能术士</Wolfein_BackstoryMegaCorp_20.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] comes from a mysterious special forces squad within the MegaCorp, known as the "Red Hats." This elite squad is responsible for handling covert operations such as infiltration, assassination, intelligence theft, and sabotage. The distinctive red uniforms and hoods are the most obvious symbols of the "Red Hats." No one would dare to make an enemy of such a mysterious and formidable elite special forces unit. -->
+  <Wolfein_BackstoryMegaCorp_21.description>[PAWN_nameDef] 来自一支隶属于军企的神秘特种小队——“红帽”。这支特殊小队专门负责执行潜入、暗杀、情报窃取或设施破坏等秘密任务。统一的鲜红色制服与兜帽是“红帽”最显著的标识，没人愿意与这样一支神秘而可怕的精英特种小队为敌。</Wolfein_BackstoryMegaCorp_21.description>
+  <!-- EN: Wolfein Mega Corp "red-cap"team member -->
+  <Wolfein_BackstoryMegaCorp_21.title>沃芬族 军企"红帽"特种队员</Wolfein_BackstoryMegaCorp_21.title>
+  <!-- EN: Mega Corp "red-cap"team member -->
+  <Wolfein_BackstoryMegaCorp_21.titleShort>军企"红帽"特种队员</Wolfein_BackstoryMegaCorp_21.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a trade representative assigned to the frontlines by the MegaCorp’s trade department. She is responsible for negotiating material exchanges with local military forces and other colonies to secure the company's maximum profit. At the same time, [PAWN_nameDef] must also gather firsthand battlefield intelligence to support corporate decision-making. -->
+  <Wolfein_BackstoryMegaCorp_22.description>[PAWN_nameDef] 是沃芬军企商贸部门派驻前线的商贸代表。她负责与当地军事力量以及其他殖民地进行物资交易洽谈，以谋取公司最大利益。同时，[PAWN_nameDef] 还需要收集一手战场情报，为企业决策提供支持。</Wolfein_BackstoryMegaCorp_22.description>
+  <!-- EN: Wolfein Mega Corp Trader -->
+  <Wolfein_BackstoryMegaCorp_22.title>沃芬族 军企商贸代表</Wolfein_BackstoryMegaCorp_22.title>
+  <!-- EN: Mega Corp Trader -->
+  <Wolfein_BackstoryMegaCorp_22.titleShort>军企商贸代表</Wolfein_BackstoryMegaCorp_22.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] successfully joined the administrative department of the MegaCorp through professional training and evaluation. As a civilian staff member responsible for administrative affairs, [PAWN_nameDef] handles various tedious paperwork and coordinates tasks between different departments. -->
+  <Wolfein_BackstoryMegaCorp_23.description>[PAWN_nameDef] 通过专业的培训考核，顺利加入了军工巨企的行政部门。作为一名负责行政事务的文职人员，[PAWN_nameDef] 需要处理各种繁琐的文书工作，并协调各部门之间的工作。</Wolfein_BackstoryMegaCorp_23.description>
+  <!-- EN: Wolfein Mega Corp Clerk -->
+  <Wolfein_BackstoryMegaCorp_23.title>沃芬族 军企文职</Wolfein_BackstoryMegaCorp_23.title>
+  <!-- EN: Mega Corp Clerk -->
+  <Wolfein_BackstoryMegaCorp_23.titleShort>军企文职</Wolfein_BackstoryMegaCorp_23.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is part of the logistics department within the Wolfein MegaCorp, responsible for the procurement and storage of military supplies. [PAWN_nameDef] must constantly monitor changes in battlefield demands and adjust procurement plans accordingly to ensure the availability of critical supplies. -->
+  <Wolfein_BackstoryMegaCorp_24.description>[PAWN_nameDef] 隶属于沃芬军企的物流部门，负责军用物资的采购和仓储。[PAWN_nameDef] 需要时刻关注战场需求的变化，及时调整采购计划，确保关键物资的充足供应。</Wolfein_BackstoryMegaCorp_24.description>
+  <!-- EN: Wolfein Mega Corp Clerk -->
+  <Wolfein_BackstoryMegaCorp_24.title>沃芬族 军企文职</Wolfein_BackstoryMegaCorp_24.title>
+  <!-- EN: Mega Corp Clerk -->
+  <Wolfein_BackstoryMegaCorp_24.titleShort>军企文职</Wolfein_BackstoryMegaCorp_24.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a member of the financial department within the Wolfein MegaCorp, responsible for managing the company’s financial accounts and taxes. [PAWN_nameDef] conducts thorough audits across various departments and writes detailed audit reports, but this has led to making quite a few enemies. -->
+  <Wolfein_BackstoryMegaCorp_25.description>[PAWN_nameDef] 作为沃芬军企财务部门的一员，负责管理企业的各项财务账目和税务。[PAWN_nameDef] 深入各个部门，进行全面的账目审查，并撰写详细的审计报告，但也因此得罪了不少人。</Wolfein_BackstoryMegaCorp_25.description>
+  <!-- EN: Wolfein Mega Corp Clerk -->
+  <Wolfein_BackstoryMegaCorp_25.title>沃芬族 军企文职</Wolfein_BackstoryMegaCorp_25.title>
+  <!-- EN: Mega Corp Clerk -->
+  <Wolfein_BackstoryMegaCorp_25.titleShort>军企文职</Wolfein_BackstoryMegaCorp_25.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a personnel officer in the human resources department of the Wolfein MegaCorp, primarily responsible for employee recruitment, allocation, and management training. -->
+  <Wolfein_BackstoryMegaCorp_26.description>[PAWN_nameDef] 是沃芬军企人力资源部门的人事专员，主要负责员工招聘、调配和管理培训等工作。</Wolfein_BackstoryMegaCorp_26.description>
+  <!-- EN: Wolfein Mega Corp Clerk -->
+  <Wolfein_BackstoryMegaCorp_26.title>沃芬族 军企文职</Wolfein_BackstoryMegaCorp_26.title>
+  <!-- EN: Mega Corp Clerk -->
+  <Wolfein_BackstoryMegaCorp_26.titleShort>军企文职</Wolfein_BackstoryMegaCorp_26.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is the core coordinator of the logistics support department within the MegaCorp, overseeing all internal logistics affairs. From meal provisions to employee accommodations, everything falls under [PAWN_nameDef]'s management. -->
+  <Wolfein_BackstoryMegaCorp_27.description>[PAWN_nameDef] 是军企后勤保障部门的核心协调员，负责统筹企业内部各项后勤事务。从伙食供给到员工宿舍，所有事务都在[PAWN_nameDef]的管理之下。</Wolfein_BackstoryMegaCorp_27.description>
+  <!-- EN: Wolfein Mega Corp Clerk -->
+  <Wolfein_BackstoryMegaCorp_27.title>沃芬族 军企文职</Wolfein_BackstoryMegaCorp_27.title>
+  <!-- EN: Mega Corp Clerk -->
+  <Wolfein_BackstoryMegaCorp_27.titleShort>军企文职</Wolfein_BackstoryMegaCorp_27.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a professional in the records management department of the Wolfein MegaCorp, responsible for classifying and archiving various important documents and materials within the company, as well as managing them digitally. -->
+  <Wolfein_BackstoryMegaCorp_28.description>[PAWN_nameDef] 是沃芬军企档案管理部门的专业人员，负责对企业内部各种重要文件和资料进行分类归档以及信息化管理。</Wolfein_BackstoryMegaCorp_28.description>
+  <!-- EN: Wolfein Mega Corp Clerk -->
+  <Wolfein_BackstoryMegaCorp_28.title>沃芬族 军企文职</Wolfein_BackstoryMegaCorp_28.title>
+  <!-- EN: Mega Corp Clerk -->
+  <Wolfein_BackstoryMegaCorp_28.titleShort>军企文职</Wolfein_BackstoryMegaCorp_28.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a senior consultant in the legal department of the Wolfein MegaCorp, responsible for handling various legal matters and safeguarding the company's interests. -->
+  <Wolfein_BackstoryMegaCorp_29.description>[PAWN_nameDef] 是沃芬军企法务部门的资深顾问，负责处理企业各类法律事务，维护企业的权益。</Wolfein_BackstoryMegaCorp_29.description>
+  <!-- EN: Wolfein Mega Corp Clerk -->
+  <Wolfein_BackstoryMegaCorp_29.title>沃芬族 军企文职</Wolfein_BackstoryMegaCorp_29.title>
+  <!-- EN: Mega Corp Clerk -->
+  <Wolfein_BackstoryMegaCorp_29.titleShort>军企文职</Wolfein_BackstoryMegaCorp_29.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is an elite employee of the Wolfein MegaCorp. Although [PAWN_nameDef] does not come from a military background, to carry out certain fieldwork that requires the use of "force," [PAWN_nameDef] has undergone rigorous combat training and is equipped with basic weaponry. -->
+  <Wolfein_BackstoryMegaCorp_30.description>[PAWN_nameDef] 是沃芬军企中的一位精英员工，尽管[PAWN_nameDef] 并非军事系统出身，但为了完成一些不得不使用“暴力”的外勤工作，[PAWN_nameDef] 经过了严格的战斗技能培训，并配备了基础的武装装备。</Wolfein_BackstoryMegaCorp_30.description>
+  <!-- EN: Wolfein Mega Corp Armed Clerk -->
+  <Wolfein_BackstoryMegaCorp_30.title>沃芬族 军企武装职员</Wolfein_BackstoryMegaCorp_30.title>
+  <!-- EN: Mega Corp Armed Clerk -->
+  <Wolfein_BackstoryMegaCorp_30.titleShort>军企武装职员</Wolfein_BackstoryMegaCorp_30.titleShort>
+  
+  <!-- EN: Although [PAWN_nameDef]'s primary duties are administrative and managerial, [PAWN_nameDef] has also undergone basic combat training and can quickly arm herself when necessary to assist the MegaCorp's task force in missions that require the intervention of "hard power." -->
+  <Wolfein_BackstoryMegaCorp_31.description>尽管[PAWN_nameDef]的主要工作是一些文职管理，但[PAWN_nameDef]也接受过基础的战斗训练，能够在必要时迅速武装自己，协助军企特遣机动队执行一些需要“硬实力”介入的任务。</Wolfein_BackstoryMegaCorp_31.description>
+  <!-- EN: Wolfein Mega Corp Armed Clerk -->
+  <Wolfein_BackstoryMegaCorp_31.title>沃芬族 军企武装职员</Wolfein_BackstoryMegaCorp_31.title>
+  <!-- EN: Mega Corp Armed Clerk -->
+  <Wolfein_BackstoryMegaCorp_31.titleShort>军企武装职员</Wolfein_BackstoryMegaCorp_31.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is an elite employee of the Wolfein MegaCorp, primarily responsible for the security of high-ranking personnel within the company. After training, [PAWN_nameDef] has mastered various tactical skills and the use of weapons. -->
+  <Wolfein_BackstoryMegaCorp_32.description>[PAWN_nameDef] 是沃芬军企中的一位精英员工，主要负责企业内部高层人员的安保工作。经过训练后，[PAWN_nameDef] 已经掌握了各种战术技能和武器使用。</Wolfein_BackstoryMegaCorp_32.description>
+  <!-- EN: Wolfein Mega Corp Armed Clerk -->
+  <Wolfein_BackstoryMegaCorp_32.title>沃芬族 军企武装职员</Wolfein_BackstoryMegaCorp_32.title>
+  <!-- EN: Mega Corp Armed Clerk -->
+  <Wolfein_BackstoryMegaCorp_32.titleShort>军企武装职员</Wolfein_BackstoryMegaCorp_32.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a senior purging officer in an internal special department. Although [PAWN_nameDef] does not have a military or police background, through professional training and years of accumulated experience, she has become a nightmare for anyone disloyal to the company. -->
+  <Wolfein_BackstoryMegaCorp_33.description>[PAWN_nameDef] 是内部特殊部门的资深肃清专员，尽管[PAWN_nameDef]的履历并非军警背景，但通过专业训练和多年来积累的工作经验，她已然成为所有对公司不忠之人的噩梦。</Wolfein_BackstoryMegaCorp_33.description>
+  <!-- EN: Wolfein Mega Corp Armed Clerk -->
+  <Wolfein_BackstoryMegaCorp_33.title>沃芬族 军企武装职员</Wolfein_BackstoryMegaCorp_33.title>
+  <!-- EN: Mega Corp Armed Clerk -->
+  <Wolfein_BackstoryMegaCorp_33.titleShort>军企武装职员</Wolfein_BackstoryMegaCorp_33.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is the overall head of all business operations for the MegaCorp in the region. To handle a workload far beyond what an average person can bear, the MegaCorp provided [PAWN_nameDef] with extensive additional training and the use of pharmaceuticals, enabling her to perform in this role. -->
+  <Wolfein_BackstoryMegaCorp_34.description>[PAWN_nameDef] 是军企在该地区所有业务的总负责人。为了完成远超常人所能承担的工作量，军企对[PAWN_nameDef]进行了大量额外训练和药物使用，使她能够胜任这一职位。</Wolfein_BackstoryMegaCorp_34.description>
+  <!-- EN: Wolfein Mega Corp Regional Supervisor -->
+  <Wolfein_BackstoryMegaCorp_34.title>沃芬族 军企区域主管</Wolfein_BackstoryMegaCorp_34.title>
+  <!-- EN: Mega Corp Regional Supervisor -->
+  <Wolfein_BackstoryMegaCorp_34.titleShort>军企区域主管</Wolfein_BackstoryMegaCorp_34.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] developed a taste for gambling and accumulated an overwhelming debt after a streak of successive losses. To escape the criminal syndicate pursuing repayment, she applied to join the Anomaly Investigation Unit, hoping that long-term deployments to fringe worlds would allow her to finally sever their trail. -->
+  <Wolfein_BackstoryMegaCorp_35.description>[PAWN_nameDef] 嗜好赌博，在一次连败中欠下了巨额债务。为此她选择了申请加入异象调查组，尝试通过被派遣到边缘世界和追债的黑帮说拜拜。希望她的霉运已经在赌博中耗光了。</Wolfein_BackstoryMegaCorp_35.description>
+  <!-- EN: Wolfein AIPT Rookie Investigator -->
+  <Wolfein_BackstoryMegaCorp_35.title>沃芬族AIPT新人调查员</Wolfein_BackstoryMegaCorp_35.title>
+  <!-- EN: AIPT Rookie Investigator -->
+  <Wolfein_BackstoryMegaCorp_35.titleShort>AIPT新人调查员</Wolfein_BackstoryMegaCorp_35.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] once served as a senior police officer. During a police raid on a cult gathering, she and her colleagues were met with a one-sided massacre carried out by a dark creation. As one of the few survivors, she insisted on joining the AIPT, determined to ensure such abominations never again threaten the Wolfein. -->
+  <Wolfein_BackstoryMegaCorp_36.description>[PAWN_nameDef] 过去曾是一名资深刑警。在一次警方针对邪教徒的聚会突袭中，她和她的同事们遭到了黑暗造物的单方面屠杀。侥幸存活的她强烈要求加入AIPT以让这些憎恶之物不再威胁沃芬们。</Wolfein_BackstoryMegaCorp_36.description>
+  <!-- EN: Wolfein AIPT Rookie Investigator -->
+  <Wolfein_BackstoryMegaCorp_36.title>沃芬族AIPT新人调查员</Wolfein_BackstoryMegaCorp_36.title>
+  <!-- EN: AIPT Rookie Investigator -->
+  <Wolfein_BackstoryMegaCorp_36.titleShort>AIPT新人调查员</Wolfein_BackstoryMegaCorp_36.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was once an active urban-legend content creator. During a live broadcast, she trespassed into a MegaCorp research facility without authorization and was arrested. When given the choice between becoming a debt slave or joining the AIPT for deployment to fringe worlds, she chose the latter. The sharp instincts she cultivated during her streaming career have already allowed her to survive several near-fatal encounters. -->
+  <Wolfein_BackstoryMegaCorp_37.description>[PAWN_nameDef] 过去曾是活跃的都市传说博主。但在某次直播中，因私自闯入军企研究设施而被逮捕，在成为债务奴隶和加入AIPT被派遣到边缘世界中选择了后者。[PAWN_nameDef] 在直播中培养的敏锐直觉使得她已经数次死里逃生。</Wolfein_BackstoryMegaCorp_37.description>
+  <!-- EN: Wolfein AIPT Rookie Investigator -->
+  <Wolfein_BackstoryMegaCorp_37.title>沃芬族AIPT新人调查员</Wolfein_BackstoryMegaCorp_37.title>
+  <!-- EN: AIPT Rookie Investigator -->
+  <Wolfein_BackstoryMegaCorp_37.titleShort>AIPT新人调查员</Wolfein_BackstoryMegaCorp_37.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] once believed her life would settle into quiet routine after becoming an administrative employee within the MegaCorp. However, her unexpectedly outstanding performance in an inter-departmental operation led to her reassignment to the AIPT—far beyond anything she ever anticipated. Now, all she thinks about is finding a way back to her original post. -->
+  <Wolfein_BackstoryMegaCorp_38.description>[PAWN_nameDef] 曾以为，当上军企文职人员后生活就会平淡度过。但因为在跨部门合作中表现过于突出而被调去AIPT还是太超出她的想象了。现在的她只想着如何回到原部门。</Wolfein_BackstoryMegaCorp_38.description>
+  <!-- EN: Wolfein AIPT Rookie Investigator -->
+  <Wolfein_BackstoryMegaCorp_38.title>沃芬族AIPT新人调查员</Wolfein_BackstoryMegaCorp_38.title>
+  <!-- EN: AIPT Rookie Investigator -->
+  <Wolfein_BackstoryMegaCorp_38.titleShort>AIPT新人调查员</Wolfein_BackstoryMegaCorp_38.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was formerly a researcher in MegaCorp’s development division. After encountering fragments of Dark Paranormal phenomena, she became fascinated by their hidden practical value and voluntarily transferred to the Investigation Unit to gain access to more firsthand data. -->
+  <Wolfein_BackstoryMegaCorp_39.description>[PAWN_nameDef] 曾是军企研发部门的研究员，在接触到暗黑超凡碎片后为其潜藏的实用价值而着迷，自愿转入了调查组以获取更多的一手资料。</Wolfein_BackstoryMegaCorp_39.description>
+  <!-- EN: Wolfein AIPT Rookie Investigator -->
+  <Wolfein_BackstoryMegaCorp_39.title>沃芬族AIPT新人调查员</Wolfein_BackstoryMegaCorp_39.title>
+  <!-- EN: AIPT Rookie Investigator -->
+  <Wolfein_BackstoryMegaCorp_39.titleShort>AIPT新人调查员</Wolfein_BackstoryMegaCorp_39.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was once a gym instructor, and eagerly enlisted after learning that the AIPT had access to pharmaceuticals capable of further enhancing physical strength. Rumor has it that she passed the entry evaluation by beating a ghoul to death in close-quarters combat while under the effects of those stimulants. -->
+  <Wolfein_BackstoryMegaCorp_40.description>[PAWN_nameDef] 曾是一名健身房教练，得知AIPT有更多药物能加强自身力量后欣然加入。传言她靠磕药在肉搏里干翻了一头食尸鬼因此通过了入队考核。</Wolfein_BackstoryMegaCorp_40.description>
+  <!-- EN: Wolfein AIPT Rookie Processing Officer -->
+  <Wolfein_BackstoryMegaCorp_40.title>沃芬族AIPT新人处理员</Wolfein_BackstoryMegaCorp_40.title>
+  <!-- EN: AIPT Rookie Processing Officer -->
+  <Wolfein_BackstoryMegaCorp_40.titleShort>AIPT新人处理员</Wolfein_BackstoryMegaCorp_40.titleShort>
+
+  <!-- EN: [PAWN_nameDef] is a newly assigned member of the Wolfein MegaCorp Vanguard Squad. During a training session with a melee weapon equipped with a compact warp module, repeated misuse triggered an instability, resulting in her being abruptly transported to an unfamiliar colony. Although she often makes mistakes in tactical execution, her ability in direct combat remains undeniably strong—at least for now, she seems to have little choice but to prove it here. -->
+  <Wolfein_BackstoryMegaCorp_60.description>[PAWN_nameDef]是沃芬军企尖兵小队的新成员。在一次使用搭载小型折跃模块的近战武器进行训练时，她因连续误操作触发了不稳定效应，结果被直接传送到了某个陌生的殖民地。\n\n尽管[PAWN_nameDef]在战术执行上时常出错，但她在正面战斗中展现出的能力依然十分突出——至少在眼下，她似乎别无选择，只能在这里证明这一点。</Wolfein_BackstoryMegaCorp_60.description>
+  <!-- EN: Wolfein Mega Corp vanguard recruit -->
+  <Wolfein_BackstoryMegaCorp_60.title>沃芬族 军企新人尖兵</Wolfein_BackstoryMegaCorp_60.title>
+  <!-- EN: Mega Corp vanguard recruit -->
+  <Wolfein_BackstoryMegaCorp_60.titleShort>军企新人尖兵</Wolfein_BackstoryMegaCorp_60.titleShort>
+
+</LanguageData>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <QuestScriptDef>
+    <defName>Wolfein_Util_MegaCropMechRaidWaves</defName>
+    <questDescriptionRules>
+      <rulesStrings>
+        <li>threatDescription-></li>
+      </rulesStrings>
+    </questDescriptionRules>
+    <root Class="QuestNode_Sequence">
+      <nodes>
+
+        <li Class="QuestNode_IsSet">
+          <name>pointsFactor</name>
+          <elseNode Class="QuestNode_Set">
+            <name>pointsFactor</name>
+            <value>1</value>
+          </elseNode>
+        </li>
+        <li Class="QuestNode_IsSet">
+          <name>waveSecondPoints</name>
+          <elseNode Class="QuestNode_Set">
+            <name>waveSecondPoints</name>
+            <value>2000</value>
+          </elseNode>
+        </li>
+        <li Class="QuestNode_IsSet">
+          <name>waveThirdPoints</name>
+          <elseNode Class="QuestNode_Set">
+            <name>waveThirdPoints</name>
+            <value>2000</value>
+          </elseNode>
+        </li>
+
+        <li Class="QuestNode_Set">
+          <name>points</name>
+          <value>$($points * $pointsFactor)</value>
+        </li>
+
+        <li Class="QuestNode_GetMap" />
+
+        <li Class="QuestNode_GetWalkInSpot" />
+
+        <!-- 第一批 -->
+        <li Class="QuestNode_Set">
+          <name>delayTicks</name>
+          <value>$(roundToTicksRough(randInt(3200,4000)))</value>
+        </li>
+        <li Class="QuestNode_Delay">
+          <delayTicks>$delayTicks</delayTicks>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+              <li Class="QuestNode_LoopCount">
+                <loopCount>$(randInt(($points * 0.6 / 80 - 1),($points * 0.6 / 80 + 1)))</loopCount>
+                <node Class="QuestNode_GeneratePawn">
+                  <kindDef>Wolfein_Mechanoid_Drone</kindDef>
+                  <faction>Wolfein_Faction_MegaCorp</faction>
+                  <addToList>Drone</addToList>
+                  <allowAddictions>false</allowAddictions>
+                  <biocodeWeaponChance>0</biocodeWeaponChance>
+                  <biocodeApparelChance>0</biocodeApparelChance>
+                  <allowPregnant>false</allowPregnant>
+                </node>
+              </li>
+              <li Class="QuestNode_LoopCount">
+                <loopCount>$(randInt(($points * 0.4 / 140 - 1),($points * 0.4 / 140 + 1)))</loopCount>
+                <node Class="QuestNode_GeneratePawn">
+                  <kindDef>Wolfein_Mechanoid_DroneArmed</kindDef>
+                  <faction>Wolfein_Faction_MegaCorp</faction>
+                  <addToList>Drone</addToList>
+                  <allowAddictions>false</allowAddictions>
+                  <biocodeWeaponChance>0</biocodeWeaponChance>
+                  <biocodeApparelChance>0</biocodeApparelChance>
+                  <allowPregnant>false</allowPregnant>
+                </node>
+              </li>
+              <li Class="QuestNode_Letter">
+                <label>MegaCorp Mechanical Assault: First Wave.</label>
+                <text>A MegaCorp mechanical composite cluster has been deployed nearby, and an advance squadron of aerial drones is approaching the colony.</text>
+                <lookTargets>$Drone</lookTargets>
+                <letterDef>ThreatBig</letterDef>
+              </li>
+              <li Class="Wolfein.QuestNode_PawnsArrive">
+                <pawns>$Drone</pawns>
+                <arrivalMode>EdgeWalkIn</arrivalMode>
+              </li>
+              <li Class="Wolfein.QuestNode_LordJob_AssaultColony">
+                <pawns>$Drone</pawns>
+                <faction>Wolfein_Faction_MegaCorp</faction>
+              </li>
+            </nodes>
+          </node>
+        </li>
+        
+
+        <!-- 第二批 -->
+        <li Class="QuestNode_Greater">
+          <value1>$points</value1>
+          <value2>$waveSecondPoints</value2>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+              <li Class="QuestNode_LoopCount">
+                <loopCount>$(randInt(($points * 0.3 / 200 - 1),($points * 0.3 / 200 + 1)))</loopCount>
+                <node Class="QuestNode_GeneratePawn">
+                  <kindDef>Wolfein_Mechanoid_MilitaryA</kindDef>
+                  <faction>Wolfein_Faction_MegaCorp</faction>
+                  <addToList>Mech</addToList>
+                  <allowAddictions>false</allowAddictions>
+                  <biocodeWeaponChance>0</biocodeWeaponChance>
+                  <biocodeApparelChance>0</biocodeApparelChance>
+                  <allowPregnant>false</allowPregnant>
+                </node>
+              </li>
+              <li Class="QuestNode_LoopCount">
+                <loopCount>$(randInt(($points * 0.3 / 200 - 1),($points * 0.3 / 200 + 1)))</loopCount>
+                <node Class="QuestNode_GeneratePawn">
+                  <kindDef>Wolfein_Mechanoid_MilitaryB</kindDef>
+                  <faction>Wolfein_Faction_MegaCorp</faction>
+                  <addToList>Mech</addToList>
+                  <allowAddictions>false</allowAddictions>
+                  <biocodeWeaponChance>0</biocodeWeaponChance>
+                  <biocodeApparelChance>0</biocodeApparelChance>
+                  <allowPregnant>false</allowPregnant>
+                </node>
+              </li>
+              <li Class="QuestNode_LoopCount">
+                <loopCount>$(randInt(($points * 0.2 / 240 - 1),($points * 0.2 / 240 + 1)))</loopCount>
+                <node Class="QuestNode_GeneratePawn">
+                  <kindDef>Wolfein_Mechanoid_MilitaryC</kindDef>
+                  <faction>Wolfein_Faction_MegaCorp</faction>
+                  <addToList>Mech</addToList>
+                  <allowAddictions>false</allowAddictions>
+                  <biocodeWeaponChance>0</biocodeWeaponChance>
+                  <biocodeApparelChance>0</biocodeApparelChance>
+                  <allowPregnant>false</allowPregnant>
+                </node>
+              </li>
+              <li Class="QuestNode_LoopCount">
+                <loopCount>$(randInt(($points * 0.2 / 200 - 1),($points * 0.2 / 200 + 1)))</loopCount>
+                <node Class="QuestNode_GeneratePawn">
+                  <kindDef>Wolfein_Mechanoid_MilitaryD</kindDef>
+                  <faction>Wolfein_Faction_MegaCorp</faction>
+                  <addToList>Mech</addToList>
+                  <allowAddictions>false</allowAddictions>
+                  <biocodeWeaponChance>0</biocodeWeaponChance>
+                  <biocodeApparelChance>0</biocodeApparelChance>
+                  <allowPregnant>false</allowPregnant>
+                </node>
+              </li>
+              <li Class="QuestNode_Set">
+                <name>delayTicks</name>
+                <value>$(roundToTicksRough(randInt(6400,8000)))</value>
+              </li>
+              <li Class="QuestNode_Delay">
+                <delayTicks>$delayTicks</delayTicks>
+                <node Class="QuestNode_Sequence">
+                  <nodes>
+                    <li Class="QuestNode_Letter">
+                      <label>MegaCorp Mechanical Assault: Second Wave.</label>
+                      <text>A mixed-unit formation of military humanoid machines has reached the outskirts of the colony.</text>
+                      <lookTargets>$Mech</lookTargets>
+                      <letterDef>ThreatBig</letterDef>
+                    </li>
+                    <li Class="Wolfein.QuestNode_PawnsArrive">
+                      <pawns>$Mech</pawns>
+                      <arrivalMode>EdgeWalkIn</arrivalMode>
+                    </li>
+                    <li Class="Wolfein.QuestNode_LordJob_AssaultColony">
+                      <pawns>$Mech</pawns>
+                      <faction>Wolfein_Faction_MegaCorp</faction>
+                    </li>
+                  </nodes>
+                </node>
+              </li>
+            </nodes>
+          </node>
+        </li>
+
+        <!-- 第三批 -->
+        <li Class="QuestNode_Greater">
+          <value1>$points</value1>
+          <value2>$waveThirdPoints</value2>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+              <li Class="QuestNode_GeneratePawn">
+                <kindDef>Wolfein_Mechanoid_MilitaryGiant</kindDef>
+                <faction>Wolfein_Faction_MegaCorp</faction>
+                <addToList>Heavy</addToList>
+                <allowAddictions>false</allowAddictions>
+                <biocodeWeaponChance>0</biocodeWeaponChance>
+                <biocodeApparelChance>0</biocodeApparelChance>
+                <allowPregnant>false</allowPregnant>
+              </li>
+              <li Class="QuestNode_LoopCount">
+                <loopCount>$(randInt((($points - 1200) * 0.2 / 400 - 1),(($points - 1200) * 0.2 / 400 + 1)))</loopCount>
+                <node Class="QuestNode_GeneratePawn">
+                  <kindDef>Wolfein_Mechanoid_MilitaryE</kindDef>
+                  <faction>Wolfein_Faction_MegaCorp</faction>
+                  <addToList>Heavy</addToList>
+                  <allowAddictions>false</allowAddictions>
+                  <biocodeWeaponChance>0</biocodeWeaponChance>
+                  <biocodeApparelChance>0</biocodeApparelChance>
+                  <allowPregnant>false</allowPregnant>
+                </node>
+              </li>
+              <li Class="QuestNode_LoopCount">
+                <loopCount>$(randInt((($points - 1200) * 0.2 / 400 - 1),(($points - 1200) * 0.2 / 400 + 1)))</loopCount>
+                <node Class="QuestNode_GeneratePawn">
+                  <kindDef>Wolfein_Mechanoid_MilitaryF</kindDef>
+                  <faction>Wolfein_Faction_MegaCorp</faction>
+                  <addToList>Heavy</addToList>
+                  <allowAddictions>false</allowAddictions>
+                  <biocodeWeaponChance>0</biocodeWeaponChance>
+                  <biocodeApparelChance>0</biocodeApparelChance>
+                  <allowPregnant>false</allowPregnant>
+                </node>
+              </li>
+              <li Class="QuestNode_LoopCount">
+                <loopCount>$(randInt((($points - 1200) * 0.6 / 240 - 1),(($points - 1200) * 0.6 / 240 + 1)))</loopCount>
+                <node Class="QuestNode_GeneratePawn">
+                  <kindDef>Wolfein_Mechanoid_MilitaryC</kindDef>
+                  <faction>Wolfein_Faction_MegaCorp</faction>
+                  <addToList>Heavy</addToList>
+                  <allowAddictions>false</allowAddictions>
+                  <biocodeWeaponChance>0</biocodeWeaponChance>
+                  <biocodeApparelChance>0</biocodeApparelChance>
+                  <allowPregnant>false</allowPregnant>
+                </node>
+              </li>
+              <li Class="QuestNode_Set">
+                <name>delayTicks</name>
+                <value>$(roundToTicksRough(randInt(9600,12000)))</value>
+              </li>
+              <li Class="QuestNode_Delay">
+                <delayTicks>$delayTicks</delayTicks>
+                <node Class="QuestNode_Sequence">
+                  <nodes>
+                    <li Class="QuestNode_Letter">
+                      <label>MegaCorp Mechanical Assault: Third Wave.</label>
+                      <text>Heavy mech units have been deployed, and the full MegaCorp mechanical composite cluster has arrived at the colony.</text>
+                      <lookTargets>$Heavy</lookTargets>
+                      <letterDef>ThreatBig</letterDef>
+                    </li>
+                    <li Class="Wolfein.QuestNode_PawnsArrive">
+                      <pawns>$Heavy</pawns>
+                      <arrivalMode>EdgeWalkIn</arrivalMode>
+                    </li>
+                    <li Class="Wolfein.QuestNode_LordJob_AssaultColony">
+                      <pawns>$Heavy</pawns>
+                      <faction>Wolfein_Faction_MegaCorp</faction>
+                    </li>
+                  </nodes>
+                </node>
+              </li>
+            </nodes>
+          </node>
+        </li>
+
+
+      </nodes>
+    </root>
+  </QuestScriptDef>
+
+</Defs>

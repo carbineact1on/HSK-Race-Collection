@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- 沃芬包装员工餐 -->
+    <ThingDef ParentName="MealBase">
+        <defName>Wolfein_PackingStaffMeals</defName>
+        <label>Wolfein Packing Staff Meals</label>
+        <description>Pre-packaged meals provided by Wolfein companies for their employees. These meals come in a variety of flavors and include ingredients that enhance mental clarity and focus, aiming to encourage more productive work.</description>
+        <graphicData>
+            <texPath>Wolfein/Items/PackingStaffMeals</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <socialPropernessMatters>true</socialPropernessMatters>
+        <statBases>
+            <DeteriorationRate>0.25</DeteriorationRate>
+            <MarketValue>30</MarketValue>
+            <Mass>0.3</Mass>
+            <WorkToMake>460</WorkToMake>
+            <Nutrition>0.9</Nutrition>
+        </statBases>
+        <ingestible>
+            <preferability>MealFine</preferability>
+            <foodType>Meal</foodType>
+            <joyKind>Chemical</joyKind>
+            <joy>0.08</joy>
+            <!-- <optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes> -->
+            <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
+            <ingestEffect>EatMeat</ingestEffect>
+            <ingestSound>Meal_Eat</ingestSound>
+            <tasteThought>Wolfein_AtePackingStaffMeals</tasteThought>
+            <outcomeDoers>
+                <li Class="IngestionOutcomeDoer_GiveHediff">
+                    <hediffDef>Wolfein_PackingStaffMeals</hediffDef>
+                    <severity>1.0</severity>
+                </li>
+            </outcomeDoers>
+        </ingestible>
+        <allowedArchonexusCount>40</allowedArchonexusCount>
+    </ThingDef>
+
+    <!-- 沃芬抵抗军口粮 -->
+    <ThingDef ParentName="MealFineBase">
+        <defName>Wolfein_ResistanceArmyRations</defName>
+        <label>Wolfein Resistance Army Rations</label>
+        <description>A high-density compressed meat ration regularly consumed by the Wolfein Resistance Army. It is easy to carry and designed for long-term preservation. The taste is unremarkable, but it provides enough sustenance to endure prolonged combat.</description>
+        <possessionCount>2</possessionCount>
+        <graphicData>
+            <texPath>Wolfein/Items/ResistanceArmyRations</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <ingestible>
+            <preferability>MealSimple</preferability>
+            <foodType>Meal</foodType>
+            <optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
+            <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
+        </ingestible>
+        <comps Inherit="false">
+            <li Class="CompProperties_Ingredients">
+                <noIngredientsFoodKind>Meat</noIngredientsFoodKind>
+            </li>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>30</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+            <li Class="CompProperties_Forbiddable" />
+            <li Class="CompProperties_FoodPoisonable" />
+            <li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_MetalhorrorInfectible" />
+        </comps>
+    </ThingDef>
+</Defs>

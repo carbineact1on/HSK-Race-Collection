@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->The colony has received an urgent transmission. A Wolfein MegaCorp transport pilot is struggling to keep a heavy transport aircraft airborne while circling above the colony. The aircraft was previously attacked by resistance forces and has sustained severe damage, making long-distance flight impossible.\n\nThey are requesting permission to perform an emergency landing at the edge of the colony. The transmission is filled with harsh wind noise, structural alarms, and weapons-lock warnings, making it clear that the aircraft has not fully escaped the combat zone.\n\nIf the landing succeeds, the pilot and accompanying personnel will remain at the site temporarily until conditions allow them to withdraw. During this time, resistance forces are likely to track the target down and launch another attack.</li>
+  -->
+  <Wolfein_MegaCropShuttleCrashedRescue.questDescriptionRules.rulesStrings>
+    <li>questDescription->殖民地收到了一條緊急通訊。一名沃芬族軍工軍企的運輸機飛行員正駕駛一架重型運輸機在殖民地上空勉強維持飛行。該運輸機此前遭到抵抗軍襲擊，機體嚴重受損，已無法繼續遠距離航行。\n\n她們請求允許在殖民地邊緣進行迫降。通訊中混雜著刺耳的風噪、結構警報與武器鎖定提示，顯然這架運輸機並未完全脫離戰區。\n\n如果迫降成功，飛行員和隨行人員將暫時滯留在現場，直到情況允許他們撤離。在此期間，抵抗軍很可能再次追蹤到目標並發動襲擊。</li>
+  </Wolfein_MegaCropShuttleCrashedRescue.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Emergency Landing Request</li>
+  -->
+  <Wolfein_MegaCropShuttleCrashedRescue.questNameRules.rulesStrings>
+    <li>questName->迫降請求</li>
+  </Wolfein_MegaCropShuttleCrashedRescue.questNameRules.rulesStrings>
+  <!-- EN: Landing Completed -->
+  <Wolfein_MegaCropShuttleCrashedRescue.root.nodes.Delay-1.node.nodes.AnyPawnAlive.node.label.slateRef>迫降完成</Wolfein_MegaCropShuttleCrashedRescue.root.nodes.Delay-1.node.nodes.AnyPawnAlive.node.label.slateRef>
+  <!-- EN: With the colonists』 assistance, the MegaCorp transport successfully completed its emergency landing. The pilot and accompanying personnel secured the site and withdrew on their own once the situation stabilized. Resistance forces failed to intercept the target, and the immediate crisis has come to an end. -->
+  <Wolfein_MegaCropShuttleCrashedRescue.root.nodes.Delay-1.node.nodes.AnyPawnAlive.node.text.slateRef>在殖民者協助下，軍企運輸機成功完成迫降。飛行員與隨行人員已整理現場，並在確認局勢穩定后自行撤離。抵抗軍的追擊未能得手，這次危機暫時告一段落。</Wolfein_MegaCropShuttleCrashedRescue.root.nodes.Delay-1.node.nodes.AnyPawnAlive.node.text.slateRef>
+  <!-- EN: Resistance Attack -->
+  <Wolfein_MegaCropShuttleCrashedRescue.root.nodes.Delay-2.node.nodes.PawnsArrive.customLetterLabel.slateRef>抵抗軍來襲</Wolfein_MegaCropShuttleCrashedRescue.root.nodes.Delay-2.node.nodes.PawnsArrive.customLetterLabel.slateRef>
+  <!-- EN: Resistance forces have tracked the crash site and are now launching an assault on the area. Their primary targets appear to be the stranded MegaCorp personnel and the transport wreckage, but anyone approaching the site risks being drawn into the fighting. -->
+  <Wolfein_MegaCropShuttleCrashedRescue.root.nodes.Delay-2.node.nodes.PawnsArrive.customLetterText.slateRef>抵抗軍部隊已追蹤到迫降地點，並正向現場發動襲擊。她們的首要目標顯然是迫降的軍企人員與運輸機殘骸，但任何試圖靠近該區域的人都可能被捲入戰鬥。</Wolfein_MegaCropShuttleCrashedRescue.root.nodes.Delay-2.node.nodes.PawnsArrive.customLetterText.slateRef>
+  <!-- EN: Quest Failed -->
+  <Wolfein_MegaCropShuttleCrashedRescue.root.nodes.askerFactionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>任務中止</Wolfein_MegaCropShuttleCrashedRescue.root.nodes.askerFactionBecameHostileToPlayer.node.nodes.Letter.label.slateRef>
+  <!-- EN: The mission has been aborted after your relationship with the MegaCorp faction turned hostile. -->
+  <Wolfein_MegaCropShuttleCrashedRescue.root.nodes.askerFactionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>你與軍企派系的關係已轉變為敵對狀態。鑑於目前局勢，該次救援任務被迫中止。</Wolfein_MegaCropShuttleCrashedRescue.root.nodes.askerFactionBecameHostileToPlayer.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>

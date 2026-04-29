@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Woflein.InjuredSlaveLetter>沃芬重伤奴隶</Woflein.InjuredSlaveLetter>
+  <Woflein.InjuredSlaveLetterDesc>一名全身装有多处义体的沃芬奴隶在殖民地边缘重伤倒下。她似乎已失去明确的行动目标，只是凭借本能向最近有人活动的方向爬行，试图寻求帮助。\n\n无论你打算如何处置她，若不尽快采取行动，她很可能会因失血过多而死亡。</Woflein.InjuredSlaveLetterDesc>
+  
+  <Woflein.LostSoldierLetter>意外来者：{PAWN_nameDef}</Woflein.LostSoldierLetter>
+  <Woflein.LostSoldierLetterDesc>一位名叫 {PAWN_nameDef} 的 {PAWN_title} 突然出现在你的殖民地中。\n\n[PAWN_pronoun]显然对这一情况同样感到困惑。据{PAWN_pronoun}所述，她在进行武器训练时误触了折跃装置，结果被直接传送到了这里。眼下[PAWN_pronoun]既无法返回原来的位置，也没有其他去处，只能请求暂时留在殖民地中。{PAWN_objective}表示自己具备战斗经验，愿意通过实际行动来证明价值。\n\n{PAWN_objective}不会主动离开。你可以选择拒绝{PAWN_objective}，将{PAWN_objective}送走，但你的殖民者可能会对放弃一位身处困境的人感到不安。</Woflein.LostSoldierLetterDesc>
+
+  <Woflein.MegaCropDroneRaidLetter>无人机骚扰</Woflein.MegaCropDroneRaidLetter>
+  <Woflein.MegaCropDroneRaidLetterDesc>一支军企无人机编队已从附近的无人机工厂据点出发，正向殖民地发动袭击。这似乎并非一次全面进攻，而是例行的骚扰行动，用以试探殖民地的防御能力并持续消耗资源。</Woflein.MegaCropDroneRaidLetterDesc>
+
+
+
+</LanguageData>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="BasePawn" Name="Wolfein_BaseMech" Abstract="True">
+        <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+        <statBases>
+            <MarketValue>1200</MarketValue>
+            <Mass>60</Mass>
+            <CarryingCapacity>100</CarryingCapacity>
+            <MaxHitPoints>300</MaxHitPoints>
+            <PsychicSensitivity>0.5</PsychicSensitivity>
+            <ToxicResistance>1</ToxicResistance>
+            <Flammability>0</Flammability>
+            <!-- <EMPResistance>1.0</EMPResistance> -->
+            <ComfyTemperatureMin>-100</ComfyTemperatureMin>
+            <ComfyTemperatureMax>250</ComfyTemperatureMax>
+            <MeatAmount>0</MeatAmount>
+            <ArmorRating_Heat>2.00</ArmorRating_Heat>
+            <BandwidthCost MayRequire="Ludeon.RimWorld.Biotech">1</BandwidthCost>
+            <ControlTakingTime MayRequire="Ludeon.RimWorld.Biotech">12</ControlTakingTime>
+            <ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>
+            <MechEnergyLossPerHP MayRequire="Ludeon.RimWorld.Biotech">0.33</MechEnergyLossPerHP>
+            <WastepacksPerRecharge MayRequire="Ludeon.RimWorld.Biotech">3</WastepacksPerRecharge>
+            <WorkSpeedGlobal MayRequire="Ludeon.RimWorld.Biotech">0.6</WorkSpeedGlobal>
+        </statBases>
+        <receivesSignals>true</receivesSignals>
+        <tradeability>None</tradeability>
+        <race>
+            <fleshType>Mechanoid</fleshType>
+            <needsRest>false</needsRest>
+            <hasGenders>false</hasGenders>
+            <foodType>None</foodType>
+            <lifeExpectancy>1000</lifeExpectancy>
+            <bloodDef>Filth_MachineBits</bloodDef>
+            <nameGenerator MayRequire="Ludeon.RimWorld.Biotech">NamerMech</nameGenerator>
+            <soundCallIntervalRange>1000~2000</soundCallIntervalRange>
+            <soundCallIntervalFriendlyFactor>2</soundCallIntervalFriendlyFactor>
+            <thinkTreeConstant MayRequire="Ludeon.RimWorld.Biotech">MechConstant</thinkTreeConstant>
+            <mechWeightClass>Medium</mechWeightClass>
+        </race>
+        <comps>
+            <li Class="CompProperties_CanBeDormant" />
+            <li Class="CompProperties_WakeUpDormant">
+                <wakeUpOnDamage>true</wakeUpOnDamage>
+                <wakeUpCheckRadius>30</wakeUpCheckRadius>
+                <wakeUpSound>MechanoidsWakeUp</wakeUpSound>
+            </li>
+            <li MayRequire="Ludeon.Rimworld.Biotech" Class="CompProperties_OverseerSubject">
+                <needsOverseerEffect>MechUncontrolled</needsOverseerEffect>
+                <delayUntilFeralCheck>60000</delayUntilFeralCheck>
+                <feralMtbDays>10</feralMtbDays>
+                <feralCascadeRadialDistance>25</feralCascadeRadialDistance>
+            </li>
+            <li MayRequire="Ludeon.Rimworld.Biotech" Class="CompProperties_MechRepairable" />
+        </comps>
+        <butcherProducts>
+            <SteelBar>6</SteelBar>
+            <Plasteel>10</Plasteel>
+        </butcherProducts>
+    </ThingDef>
+
+    <PawnKindDef Name="Wolfein_BaseMechKind" Abstract="True">
+        <defaultFactionType>Wolfein_Faction_MegaCorp</defaultFactionType>
+        <aiAvoidCover>true</aiAvoidCover>
+        <minGenerationAge MayRequire="Ludeon.Rimworld.Biotech">5</minGenerationAge>
+        <maxGenerationAge>600</maxGenerationAge>
+        <destroyGearOnDrop>true</destroyGearOnDrop>
+        <forceNormalGearQuality>true</forceNormalGearQuality>
+        <allowInMechClusters>false</allowInMechClusters>
+        <allowOldAgeInjuries>false</allowOldAgeInjuries>
+        <!-- 控制组的肖像缩放 -->
+        <controlGroupPortraitZoom>1.5</controlGroupPortraitZoom>
+    </PawnKindDef>
+
+
+
+
+</Defs>

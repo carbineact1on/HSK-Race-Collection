@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein Outlier Wolf -->
+  <Wolfein_OutlierWolf.label>沃芬族離群狼</Wolfein_OutlierWolf.label>
+  <!-- EN: Whether to escape the cold grip of the MegaCorp or to pursue personal freedom and dignity, this Wolfein now wanders the Outer Rim. -->
+  <Wolfein_OutlierWolf.description>無論是爲了擺脫軍企冰冷的管控，還是爲了追尋個體的自由與尊嚴，如今這位沃芬正在邊緣世界流浪。</Wolfein_OutlierWolf.description>
+  <!-- EN: Whether to escape the cold grip of the MegaCorp or to pursue personal freedom and dignity, this Wolfein now wanders the Outer Rim. -->
+  <Wolfein_OutlierWolf.scenario.description>無論是爲了擺脫軍企冰冷的管控，還是爲了追尋個體的自由與尊嚴，如今這位沃芬正在邊緣世界流浪。</Wolfein_OutlierWolf.scenario.description>
+  <!-- EN: Wolfein Outlier Wolf -->
+  <Wolfein_OutlierWolf.scenario.name>沃芬族離群狼</Wolfein_OutlierWolf.scenario.name>
+  <!-- EN: A new outpost established by the outcasts. -->
+  <Wolfein_OutlierWolf.scenario.summary>離群者所建立的新據點</Wolfein_OutlierWolf.scenario.summary>
+  
+  <!-- EN: Wolfein New start -->
+  <Wolfein_Scenarios.label>沃芬族新開始</Wolfein_Scenarios.label>
+  <!-- EN: Due to an unexpected spaceship accident, three Wolfein have found themselves stranded together in the Outer Rim. It seems there's no going back to their former lives anytime soon—and so, a brand-new story of their own quietly begins in this unfamiliar land. -->
+  <Wolfein_Scenarios.description>三名沃芬因一場飛船事故陰差陽錯地一同流落到了邊緣世界，看來她們在短時間內已無法回到過去的生活。屬於她們的全新故事，也將在這片陌生之地悄然展開。</Wolfein_Scenarios.description>
+  <!-- EN: Due to an unexpected spaceship accident, three Wolfein have found themselves stranded together in the Outer Rim. It seems there's no going back to their former lives anytime soon—and so, a brand-new story of their own quietly begins in this unfamiliar land. -->
+  <Wolfein_Scenarios.scenario.description>三名沃芬因一場飛船事故陰差陽錯地一同流落到了邊緣世界，看來她們在短時間內已無法回到過去的生活。屬於她們的全新故事，也將在這片陌生之地悄然展開。</Wolfein_Scenarios.scenario.description>
+  <!-- EN: Wolfein New start -->
+  <Wolfein_Scenarios.scenario.name>沃芬族新開始</Wolfein_Scenarios.scenario.name>
+  <!-- EN: A new outpost built by the Wolfein who found themselves stranded in the Outer Rim. -->
+  <Wolfein_Scenarios.scenario.summary>流落到邊緣世界的沃芬們所建設的新據點。</Wolfein_Scenarios.scenario.summary>
+  
+</LanguageData>

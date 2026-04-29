@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- AIPT辅瞄器（固定材料） -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wolfein_AIPTGunlink"]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>80</MaxHitPoints>
+            <Flammability>0.4</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+            <Mass>1</Mass>
+            <EquipDelay>0.5</EquipDelay>
+            <WorkToMake>8000</WorkToMake>
+            <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+            <Insulation_Cold>0</Insulation_Cold>
+            <Insulation_Heat>0</Insulation_Heat>
+            <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+            <ArmorRating_Heat>0</ArmorRating_Heat>
+            <ArmorRating_Electric>0</ArmorRating_Electric>
+            <Bulk>1</Bulk>
+            <WornBulk>1</WornBulk>
+          </statBases>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Wolfein_AIPTGunlink"]/equippedStatOffsets</xpath>
+		<value>
+      <NightVisionEfficiency>0.8</NightVisionEfficiency>
+      <AimingAccuracy>0.6</AimingAccuracy>
+		</value>
+	</Operation>
+
+</Patch>

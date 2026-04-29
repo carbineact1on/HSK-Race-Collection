@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <AlienRace.AlienBackstoryDef Name="Wolfein_MegaCorpBackstory" Abstract="True">
+        <disallowedTraitsChance>
+        </disallowedTraitsChance>
+        <forcedHediffs>
+        </forcedHediffs>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Female</bodyTypeMale>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企新兵 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_01</defName>
+        <title>Wolfein Mega Corp recruit</title>
+        <titleShort>Mega Corp recruit</titleShort>
+        <description>After finishing her student years, [PAWN_nameDef] successfully passed the military entrance exam and voluntarily enlisted as a soldier in the Wolfein MegaCorp. [PAWN_nameDef] always maintained a positive attitude, full of creativity, and excelled at finding innovative solutions to problems in high-pressure environments.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>3</Melee>
+            <Shooting>4</Shooting>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企新兵 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_02</defName>
+        <title>Wolfein Mega Corp recruit</title>
+        <titleShort>Mega Corp recruit</titleShort>
+        <description>Upon learning that it was the ResistanceArmy who carried out the terrorist attack in the city, [PAWN_nameDef] was filled with intense rage. With her passionate nature, she enlisted without hesitation and became a soldier in the MegaCorp, secretly vowing to drive these rebels out of their homeland</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企新兵 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_03</defName>
+        <title>Wolfein Mega Corp recruit</title>
+        <titleShort>Mega Corp recruit</titleShort>
+        <description>Feeling lost about her future, [PAWN_nameDef] enlisted in the military on the recommendation of others. Living alongside fellow recruits helped her gradually find clarity in her path forward.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>3</Melee>
+            <Shooting>3</Shooting>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企士兵 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_04</defName>
+        <title>Wolfein Mega Corp soldier</title>
+        <titleShort>Mega Corp soldier</titleShort>
+        <description>[PAWN_nameDef] is a member of the Wolfein Task Force, assigned to the fringes to carry out security duties for the Wolfein colonies, defending against the ResistanceArmy. [PAWN_nameDef] hopes that, once the civil war ends, she will be able to return to her family and live a peaceful life.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>4</Shooting>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企士兵 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_05</defName>
+        <title>Wolfein Mega Corp soldier</title>
+        <titleShort>Mega Corp soldier</titleShort>
+        <description>[PAWN_nameDef] is part of the Wolfein Task Force, and the constant battles against the resistance have left her mentally and physically exhausted. [PAWN_nameDef] finds herself questioning the reason for her fight—why, as members of the same race, must they engage in such mutual destruction?</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>4</Shooting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企士兵 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_06</defName>
+        <title>Wolfein Mega Corp soldier</title>
+        <titleShort>Mega Corp soldier</titleShort>
+        <description>[PAWN_nameDef] is a member of the Wolfein Task Force, harboring deep hatred for the terrorist organization known as the resistance. With each successive terrorist attack in the city, [PAWN_nameDef]'s resolve to oppose the resistance grows even stronger.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>5</Melee>
+            <Shooting>4</Shooting>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企士兵 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_07</defName>
+        <title>Wolfein Mega Corp soldier</title>
+        <titleShort>Mega Corp soldier</titleShort>
+        <description>[PAWN_nameDef] is a member of the Wolfein Task Force, and over time, she has lost the passion and ambition she once had. After countless battles, [PAWN_nameDef] has become numb, choosing to abandon further thought—she only needs to follow her superiors' orders without question.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>5</Melee>
+            <Shooting>5</Shooting>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企士兵 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_08</defName>
+        <title>Wolfein Mega Corp soldier</title>
+        <titleShort>Mega Corp soldier</titleShort>
+        <description>[PAWN_nameDef] is a member of the Wolfein Task Force, fully aware that the resistance was born to oppose the oppression of the lower classes by the Wolfein MegaCorp. However, when the actions of the resistance strayed from their original purpose, [PAWN_nameDef] realized that the resistance had become her enemy.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>5</Shooting>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企士兵 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_09</defName>
+        <title>Wolfein Mega Corp soldier</title>
+        <titleShort>Mega Corp soldier</titleShort>
+        <description>[PAWN_nameDef] is a member of the Wolfein Task Force and has served in the military for many years. There are rumors that she once fought in the war against the Mechanoids and survived. Now, she is a seasoned veteran with extensive combat experience. Her journey has given her a profound understanding of organization and discipline, but it has also made her more cautious and vigilant, holding a reserved stance on how to resolve conflicts.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>5</Shooting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企士兵 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_10</defName>
+        <title>Wolfein Mega Corp soldier</title>
+        <titleShort>Mega Corp soldier</titleShort>
+        <description>[PAWN_nameDef] is a member of the Wolfein Task Force, and within the military, [PAWN_nameDef] operates like a cold, emotionless machine. No matter what task is assigned by the higher-ups, [PAWN_nameDef] accepts it without complaint. Whether it’s killing the enemy or being killed, [PAWN_nameDef] is mentally prepared for either outcome.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>5</Melee>
+            <Shooting>6</Shooting>
+            <Social>-2</Social>
+            <Intellectual>-1</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企士兵 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_11</defName>
+        <title>Wolfein Mega Corp soldier</title>
+        <titleShort>Mega Corp soldier</titleShort>
+        <description>[PAWN_nameDef] is a member of the Wolfein Task Force, previously handling security-related matters. Amid the increasingly tense social environment, [PAWN_nameDef] was reassigned to the more dangerous and desolate Fringe Worlds, tasked with protecting the colonies of the Wolfein MegaCorp.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>5</Melee>
+            <Shooting>4</Shooting>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_General</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企护卫 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_12</defName>
+        <title>Wolfein Mega Corp guard</title>
+        <titleShort>Mega Corp guard</titleShort>
+        <description>[PAWN_nameDef] is a member of a security detail within the Wolfein MegaCorp, responsible for escorting and transporting key personnel, critical cargo, and sensitive information. In the tense backdrop of the ongoing civil war, [PAWN_nameDef]'s duties have become all the more crucial.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>3</Melee>
+            <Shooting>4</Shooting>
+            <Social>1</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_Guard</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企斥候 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_13</defName>
+        <title>Wolfein Mega Corp scout</title>
+        <titleShort>Mega Corp scout</titleShort>
+        <description>[PAWN_nameDef] is a member of the Wolfein MegaCorp's scout squad. As the vanguard of the unit, [PAWN_nameDef]'s duties include, but are not limited to, reconnaissance, sabotage, and gathering military intelligence. With her calm and decisive nature, as well as a keen awareness of environmental changes, [PAWN_nameDef] has become an excellent scout.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>2</Melee>
+            <Shooting>5</Shooting>
+            <Intellectual>3</Intellectual>
+            <Medicine>1</Medicine>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_Scout</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企医生 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_14</defName>
+        <title>Wolfein Mega Corp surgeon</title>
+        <titleShort>Mega Corp surgeon</titleShort>
+        <description>[PAWN_nameDef] serves as a military doctor within the Wolfein MegaCorp, having joined as a field medic with the intent of saving more lives on the frontlines. However, on the battlefield, [PAWN_nameDef] came to understand that in order to save one life, sometimes another must be ended.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>2</Melee>
+            <Shooting>4</Shooting>
+            <Medicine>6</Medicine>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_Surgeon</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企狙击手 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_15</defName>
+        <title>Wolfein Mega Corp sniper</title>
+        <titleShort>Mega Corp sniper</titleShort>
+        <description>[PAWN_nameDef] is a sniper in a squad within the Wolfein MegaCorp, possessing extraordinary skills and a high level of professionalism. Even in extreme environments, [PAWN_nameDef] can maintain precise shooting. One bullet, one enemy—this is the result of [PAWN_nameDef]'s hard-earned training.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>3</Melee>
+            <Shooting>8</Shooting>
+            <Social>-1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_Sniper</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企支援兵 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_16</defName>
+        <title>Wolfein Mega Corp support</title>
+        <titleShort>Mega Corp support</titleShort>
+        <description>[PAWN_nameDef] serves as a support soldier in a squad within the Wolfein MegaCorp. Wolfein support soldiers typically wear heavy armor and carry high-powered, sustained weapons to provide powerful fire support for their teammates. [PAWN_nameDef] is always the strongest pillar in the squad.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>3</Melee>
+            <Shooting>4</Shooting>
+            <Construction>4</Construction>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_Support</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企尖兵 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_17</defName>
+        <title>Wolfein Mega Corp vanguard</title>
+        <titleShort>Mega Corp vanguard</titleShort>
+        <description>[PAWN_nameDef] is a member of the Wolfein MegaCorp's Vanguard Squad. The members of the Vanguard are typically composed of melee units who have undergone specialized combat training. [PAWN_nameDef] was promoted to this elite squad due to her outstanding combat abilities and went on to achieve remarkable feats in several subsequent battles.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>8</Melee>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_Vanguard</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企机械师 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_18</defName>
+        <title>Wolfein Mega Corp mechanic</title>
+        <titleShort>Mega Corp mechanic</titleShort>
+        <description>[PAWN_nameDef] is a combat mechanic in the Wolven military corporation. Due to the scarce population of the Wolven species, the actual number of Wolven soldiers in the military is significantly insufficient. As a result, the corporation makes extensive use of autonomous combat units within its military forces to compensate for this shortfall. After all, the cost of training a professional Wolven soldier far exceeds that of producing and maintaining autonomous machinery. Within the squad, [PAWN_nameDef]'s role is to command, calibrate, and maintain these autonomous combat machines.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>3</Melee>
+            <Shooting>3</Shooting>
+            <Construction>3</Construction>
+            <Crafting>5</Crafting>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企特战黑客 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_19</defName>
+        <title>Wolfein Mega Corp hacker</title>
+        <titleShort>Mega Corp hacker</titleShort>
+        <description>[PAWN_nameDef] has constantly tried to explain to those around her in the squad that she is not a hacker, but rather an "electronic warfare and intelligence acquisition specialist." Compared to other soldiers, [PAWN_nameDef] is not particularly skilled in combat, but her role in supporting combat is indispensable.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>2</Melee>
+            <Shooting>3</Shooting>
+            <Intellectual>7</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_Hacker</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企灵能术士 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_20</defName>
+        <title>Wolfein Mega Corp psionic warlock</title>
+        <titleShort>Mega Corp psionic warlock</titleShort>
+        <description>[PAWN_nameDef] holds a unique position within the Wolfein MegaCorp. Only a select few in the military are capable of using psychic powers in combat, and their role in battle is not to be underestimated. [PAWN_nameDef] was born with powerful psychic abilities and, upon reaching adulthood, was recruited into the MegaCorp as a psychic sorcerer.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>2</Melee>
+            <Shooting>2</Shooting>
+            <Social>2</Social>
+            <Intellectual>5</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企"红帽"特种队员 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_21</defName>
+        <title>Wolfein Mega Corp "red-cap"team member</title>
+        <titleShort>Mega Corp "red-cap"team member</titleShort>
+        <description>[PAWN_nameDef] comes from a mysterious special forces squad within the MegaCorp, known as the "Red Hats." This elite squad is responsible for handling covert operations such as infiltration, assassination, intelligence theft, and sabotage. The distinctive red uniforms and hoods are the most obvious symbols of the "Red Hats." No one would dare to make an enemy of such a mysterious and formidable elite special forces unit.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>7</Melee>
+            <Shooting>7</Shooting>
+            <Social>-3</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企商贸代表 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_22</defName>
+        <title>Wolfein Mega Corp Trader</title>
+        <titleShort>Mega Corp Trader</titleShort>
+        <description>[PAWN_nameDef] is a trade representative assigned to the frontlines by the MegaCorp’s trade department. She is responsible for negotiating material exchanges with local military forces and other colonies to secure the company's maximum profit. At the same time, [PAWN_nameDef] must also gather firsthand battlefield intelligence to support corporate decision-making.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>5</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_Trader</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企文职 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_23</defName>
+        <title>Wolfein Mega Corp Clerk</title>
+        <titleShort>Mega Corp Clerk</titleShort>
+        <description>[PAWN_nameDef] successfully joined the administrative department of the MegaCorp through professional training and evaluation. As a civilian staff member responsible for administrative affairs, [PAWN_nameDef] handles various tedious paperwork and coordinates tasks between different departments.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Social>5</Social>
+            <Intellectual>5</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_Clerk</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企文职 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_24</defName>
+        <title>Wolfein Mega Corp Clerk</title>
+        <titleShort>Mega Corp Clerk</titleShort>
+        <description>[PAWN_nameDef] is part of the logistics department within the Wolfein MegaCorp, responsible for the procurement and storage of military supplies. [PAWN_nameDef] must constantly monitor changes in battlefield demands and adjust procurement plans accordingly to ensure the availability of critical supplies.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>1</Melee>
+            <Social>4</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_Clerk</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企文职 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_25</defName>
+        <title>Wolfein Mega Corp Clerk</title>
+        <titleShort>Mega Corp Clerk</titleShort>
+        <description>[PAWN_nameDef] is a member of the financial department within the Wolfein MegaCorp, responsible for managing the company’s financial accounts and taxes. [PAWN_nameDef] conducts thorough audits across various departments and writes detailed audit reports, but this has led to making quite a few enemies.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>3</Melee>
+            <Shooting>3</Shooting>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_Clerk</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企文职 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_26</defName>
+        <title>Wolfein Mega Corp Clerk</title>
+        <titleShort>Mega Corp Clerk</titleShort>
+        <description>[PAWN_nameDef] is a personnel officer in the human resources department of the Wolfein MegaCorp, primarily responsible for employee recruitment, allocation, and management training.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Social>4</Social>
+            <Intellectual>5</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_Clerk</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企文职 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_27</defName>
+        <title>Wolfein Mega Corp Clerk</title>
+        <titleShort>Mega Corp Clerk</titleShort>
+        <description>[PAWN_nameDef] is the core coordinator of the logistics support department within the MegaCorp, overseeing all internal logistics affairs. From meal provisions to employee accommodations, everything falls under [PAWN_nameDef]'s management.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Social>6</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_Clerk</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企文职 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_28</defName>
+        <title>Wolfein Mega Corp Clerk</title>
+        <titleShort>Mega Corp Clerk</titleShort>
+        <description>[PAWN_nameDef] is a professional in the records management department of the Wolfein MegaCorp, responsible for classifying and archiving various important documents and materials within the company, as well as managing them digitally.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Social>4</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_Clerk</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企文职 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_29</defName>
+        <title>Wolfein Mega Corp Clerk</title>
+        <titleShort>Mega Corp Clerk</titleShort>
+        <description>[PAWN_nameDef] is a senior consultant in the legal department of the Wolfein MegaCorp, responsible for handling various legal matters and safeguarding the company's interests.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Social>5</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_Clerk</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企武装职员 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_30</defName>
+        <title>Wolfein Mega Corp Armed Clerk</title>
+        <titleShort>Mega Corp Armed Clerk</titleShort>
+        <description>[PAWN_nameDef] is an elite employee of the Wolfein MegaCorp. Although [PAWN_nameDef] does not come from a military background, to carry out certain fieldwork that requires the use of "force," [PAWN_nameDef] has undergone rigorous combat training and is equipped with basic weaponry.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>3</Melee>
+            <Shooting>4</Shooting>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_ArmedClerk</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企武装职员 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_31</defName>
+        <title>Wolfein Mega Corp Armed Clerk</title>
+        <titleShort>Mega Corp Armed Clerk</titleShort>
+        <description>Although [PAWN_nameDef]'s primary duties are administrative and managerial, [PAWN_nameDef] has also undergone basic combat training and can quickly arm herself when necessary to assist the MegaCorp's task force in missions that require the intervention of "hard power."</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>3</Shooting>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_ArmedClerk</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企武装职员 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_32</defName>
+        <title>Wolfein Mega Corp Armed Clerk</title>
+        <titleShort>Mega Corp Armed Clerk</titleShort>
+        <description>[PAWN_nameDef] is an elite employee of the Wolfein MegaCorp, primarily responsible for the security of high-ranking personnel within the company. After training, [PAWN_nameDef] has mastered various tactical skills and the use of weapons.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>5</Melee>
+            <Shooting>1</Shooting>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_ArmedClerk</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企武装职员 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_33</defName>
+        <title>Wolfein Mega Corp Armed Clerk</title>
+        <titleShort>Mega Corp Armed Clerk</titleShort>
+        <description>[PAWN_nameDef] is a senior purging officer in an internal special department. Although [PAWN_nameDef] does not have a military or police background, through professional training and years of accumulated experience, she has become a nightmare for anyone disloyal to the company.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>6</Shooting>
+            <Social>-1</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_ArmedClerk</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <!-- 军企局域主管 -->
+    <AlienRace.AlienBackstoryDef ParentName="Wolfein_MegaCorpBackstory">
+        <defName>Wolfein_BackstoryMegaCorp_34</defName>
+        <title>Wolfein Mega Corp Regional Supervisor</title>
+        <titleShort>Mega Corp Regional Supervisor</titleShort>
+        <description>[PAWN_nameDef] is the overall head of all business operations for the MegaCorp in the region. To handle a workload far beyond what an average person can bear, the MegaCorp provided [PAWN_nameDef] with extensive additional training and the use of pharmaceuticals, enabling her to perform in this role.</description>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Social>8</Social>
+            <Intellectual>5</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>Wolfein_MegaCorp_RegionalSupervisor</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+</Defs>

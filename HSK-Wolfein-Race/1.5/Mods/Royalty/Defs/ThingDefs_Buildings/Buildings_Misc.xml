@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>Wolfein_Shuttle</defName>
+        <label>Wolfein transport aircraft</label>
+        <description>A transport aircraft used by the Wolfein MegaCorp for rapid intra-atmospheric deployment of heavy units. Though it lacks self-defense weaponry, its superior flight speed allows it to swiftly deploy large mechanized forces and retreat from the battlefield safely.</description>
+        <altitudeLayer>BuildingOnTop</altitudeLayer>
+        <pathCost>50</pathCost>
+        <blockWind>true</blockWind>
+        <passability>Impassable</passability>
+        <fillPercent>1.0</fillPercent>
+        <size>(5,3)</size>
+        <drawHighlight>true</drawHighlight>
+        <highlightColor>(0.56, 0.62, 0.9)</highlightColor>
+        <!-- <minifiedDef>MinifiedThing</minifiedDef> -->
+        <!-- <thingCategories>
+            <li>BuildingsSpecial</li>
+        </thingCategories> -->
+        <graphicData>
+            <texPath>Wolfein/Vehicle/TransportPlane_east</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(10,10)</drawSize>
+            <drawOffset>(0, 0, -0.4)</drawOffset>
+            <color>(255,255,255)</color>
+            <shadowData>
+                <volume>(4.1, 1.0, 1.8)</volume>
+                <offset>(0, 0, -0.1)</offset>
+            </shadowData>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>1000</MaxHitPoints>
+            <Mass>1600</Mass>
+            <WorkToBuild>42000</WorkToBuild>
+            <Flammability>1</Flammability>
+        </statBases>
+        <tickerType>Normal</tickerType>
+        <canOverlapZones>true</canOverlapZones>
+        <costList>
+            <Wolfein_AlloyMaterials>350</Wolfein_AlloyMaterials>
+            <DepletedUranium>50</DepletedUranium>
+            <ComponentIndustrial>20</ComponentIndustrial>
+            <Wolfein_ElectronicComponent>5</Wolfein_ElectronicComponent>
+            <Wolfein_MechanicalComponent>5</Wolfein_MechanicalComponent>
+        </costList>
+        <rotatable>false</rotatable>
+        <selectable>true</selectable>
+        <designationCategory>Misc</designationCategory>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+        <preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <repairEffect>ConstructMetal</repairEffect>
+        <forceDebugSpawnable>true</forceDebugSpawnable>
+        <uiIconScale>1.0</uiIconScale>
+        <building>
+            <soundAmbient>ShuttleIdle_Ambience</soundAmbient>
+            <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+            <expandHomeArea>false</expandHomeArea>
+        </building>
+        <inspectorTabs>
+            <li>ITab_ContentsTransporter</li>
+        </inspectorTabs>
+        <researchPrerequisites>
+            <li>Wolfein_Shuttle</li>
+        </researchPrerequisites>
+        <comps>
+            <li Class="CompProperties_Shuttle">
+                <compClass>Wolfein.CompShuttle_Wolfein</compClass>
+            </li>
+            <li Class="CompProperties_Transporter">
+                <massCapacity>1500</massCapacity>
+                <max1PerGroup>true</max1PerGroup>
+                <canChangeAssignedThingsAfterStarting>true</canChangeAssignedThingsAfterStarting>
+                <showOverallStats>true</showOverallStats>
+                <pawnLoadedSound>Shuttle_PawnLoaded</pawnLoadedSound>
+                <pawnExitSound>Shuttle_PawnExit</pawnExitSound>
+            </li>
+            <li Class="CompProperties_Refuelable">
+                <fuelCapacity>500.0</fuelCapacity>
+                <targetFuelLevelConfigurable>true</targetFuelLevelConfigurable>
+                <initialConfigurableTargetFuelLevel>150</initialConfigurableTargetFuelLevel>
+                <fuelFilter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </fuelFilter>
+                <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+                <autoRefuelPercent>1.0</autoRefuelPercent>
+                <showFuelGizmo>true</showFuelGizmo>
+                <drawOutOfFuelOverlay>false</drawOutOfFuelOverlay>
+                <drawFuelGaugeInMap>false</drawFuelGaugeInMap>
+                <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

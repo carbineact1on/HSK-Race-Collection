@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Manufacture Mech Drone -->
+  <Wolfein_MechRecipe_Drone.label>制造军用侦察无人机</Wolfein_MechRecipe_Drone.label>
+  <!-- EN: Manufacture a Military Reconnaissance Drone. -->
+  <Wolfein_MechRecipe_Drone.description>制造一架军用侦察无人机。</Wolfein_MechRecipe_Drone.description>
+  <!-- EN: Gestating mech. -->
+  <Wolfein_MechRecipe_Drone.jobString>制造机械体</Wolfein_MechRecipe_Drone.jobString>
+  
+  <!-- EN: Manufacture Mech Armed Drone -->
+  <Wolfein_MechRecipe_DroneArmed.label>制造军用武装无人机</Wolfein_MechRecipe_DroneArmed.label>
+  <!-- EN: Manufacture a Military Reconnaissance Drone. -->
+  <Wolfein_MechRecipe_DroneArmed.description>制造一架军用武装无人机</Wolfein_MechRecipe_DroneArmed.description>
+  <!-- EN: Gestating mech. -->
+  <Wolfein_MechRecipe_DroneArmed.jobString>制造机械体</Wolfein_MechRecipe_DroneArmed.jobString>
+  
+  <!-- EN: Manufacture Basic Military Mech Unit -->
+  <Wolfein_MechRecipe_MilitaryA.label>制造基础型军用机械体</Wolfein_MechRecipe_MilitaryA.label>
+  <!-- EN: Manufacture a Basic Military Mech Unit. -->
+  <Wolfein_MechRecipe_MilitaryA.description>制造一台基础型军用机械体。</Wolfein_MechRecipe_MilitaryA.description>
+  <!-- EN: Gestating mech. -->
+  <Wolfein_MechRecipe_MilitaryA.jobString>制造机械体</Wolfein_MechRecipe_MilitaryA.jobString>
+  
+  <!-- EN: Manufacture Close-Combat Military Mech Unit -->
+  <Wolfein_MechRecipe_MilitaryB.label>制造近距型军用机械体</Wolfein_MechRecipe_MilitaryB.label>
+  <!-- EN: Manufacture a Close-Combat Military Mech Unit. -->
+  <Wolfein_MechRecipe_MilitaryB.description>制造一台近距型军用机械体。</Wolfein_MechRecipe_MilitaryB.description>
+  <!-- EN: Gestating mech. -->
+  <Wolfein_MechRecipe_MilitaryB.jobString>制造机械体</Wolfein_MechRecipe_MilitaryB.jobString>
+  
+  <!-- EN: Manufacture Shielded Military Mech Unit -->
+  <Wolfein_MechRecipe_MilitaryC.label>制造盾卫型军用机械体</Wolfein_MechRecipe_MilitaryC.label>
+  <!-- EN: Manufacture a Shielded Military Mech Unit. -->
+  <Wolfein_MechRecipe_MilitaryC.description>制造一台盾卫型军用机械体。</Wolfein_MechRecipe_MilitaryC.description>
+  <!-- EN: Gestating mech. -->
+  <Wolfein_MechRecipe_MilitaryC.jobString>制造机械体</Wolfein_MechRecipe_MilitaryC.jobString>
+  
+  <!-- EN: Manufacture Sniper-Class Military Mech Unit -->
+  <Wolfein_MechRecipe_MilitaryD.label>制造狙击型军用机械体</Wolfein_MechRecipe_MilitaryD.label>
+  <!-- EN: Manufacture a Sniper-Class Military Mech Unit. -->
+  <Wolfein_MechRecipe_MilitaryD.description>制造一台狙击型军用机械体。</Wolfein_MechRecipe_MilitaryD.description>
+  <!-- EN: Gestating mech. -->
+  <Wolfein_MechRecipe_MilitaryD.jobString>制造机械体</Wolfein_MechRecipe_MilitaryD.jobString>
+  
+  <!-- EN: Manufacture Heavy Fire Support Mech Unit -->
+  <Wolfein_MechRecipe_MilitaryE.label>制造重型火力支援步行机械体</Wolfein_MechRecipe_MilitaryE.label>
+  <!-- EN: Manufacture a Heavy Fire Support Mech Unit. -->
+  <Wolfein_MechRecipe_MilitaryE.description>制造一台重型火力支援步行机械体。</Wolfein_MechRecipe_MilitaryE.description>
+  <!-- EN: Gestating mech. -->
+  <Wolfein_MechRecipe_MilitaryE.jobString>制造机械体</Wolfein_MechRecipe_MilitaryE.jobString>
+  
+  <!-- EN: Manufacture Heavy Close-Range Support Mech Unit. -->
+  <Wolfein_MechRecipe_MilitaryF.label>制造重型近程支援步行机械体</Wolfein_MechRecipe_MilitaryF.label>
+  <!-- EN: Manufacture a Heavy Close-Range Support Mech Unit. -->
+  <Wolfein_MechRecipe_MilitaryF.description>制造一台重型近程支援步行机械体</Wolfein_MechRecipe_MilitaryF.description>
+  <!-- EN: Gestating mech. -->
+  <Wolfein_MechRecipe_MilitaryF.jobString>制造机械体</Wolfein_MechRecipe_MilitaryF.jobString>
+  
+  <!-- EN: Manufacture  Extra Heavy Multi-Legged Firepower Platform -->
+  <Wolfein_MechRecipe_MilitaryGiant.label>制造超重型多足火力平台</Wolfein_MechRecipe_MilitaryGiant.label>
+  <!-- EN: Manufacture a Extra Heavy Multi-Legged Firepower Platform. -->
+  <Wolfein_MechRecipe_MilitaryGiant.description>制造一台超重型多足火力平台</Wolfein_MechRecipe_MilitaryGiant.description>
+  <!-- EN: Gestating mech. -->
+  <Wolfein_MechRecipe_MilitaryGiant.jobString>制造机械体</Wolfein_MechRecipe_MilitaryGiant.jobString>
+  
+</LanguageData>

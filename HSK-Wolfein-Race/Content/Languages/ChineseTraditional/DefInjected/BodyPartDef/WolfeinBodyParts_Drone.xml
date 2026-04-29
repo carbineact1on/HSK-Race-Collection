@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: body -->
+  <Wolfein_DroneBody.label>機體</Wolfein_DroneBody.label>
+  
+  <!-- EN: DroneRotor -->
+  <Wolfein_DroneRotor.label>無人機旋翼</Wolfein_DroneRotor.label>
+  
+</LanguageData>

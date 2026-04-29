@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef Name="Wolfein_BaseMechMilitary" ParentName="Wolfein_BaseMech" Abstract="True">
+        <race>
+            <intelligence>ToolUser</intelligence>
+            <thinkTreeMain>Mechanoid</thinkTreeMain>
+            <baseBodySize>1.0</baseBodySize>
+            <body>Wolfein_MechHumanoid</body>
+            <baseHealthScale>1.6</baseHealthScale>
+            <soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+            <lifeStageAges>
+                <li>
+                    <def>MechanoidFullyFormed</def>
+                    <minAge>0</minAge>
+                </li>
+            </lifeStageAges>
+        </race>
+        <tools>
+            <li>
+                <label>left fist</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>6.0</power>
+                <cooldownTime>2.0</cooldownTime>
+                <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+                <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+            </li>
+            <li>
+                <label>right fist</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>6.0</power>
+                <cooldownTime>2.0</cooldownTime>
+                <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+                <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+            </li>
+        </tools>
+        <statBases>
+            <MoveSpeed>4.8</MoveSpeed>
+            <MarketValue>2200</MarketValue>
+            <ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+            <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+            <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">3</BandwidthCost>            <!-- 带宽 -->
+        </statBases>
+        <butcherProducts>
+            <SteelBar>6</SteelBar>
+            <Plasteel>10</Plasteel>
+            <Wolfein_AlloyMaterials>6</Wolfein_AlloyMaterials>
+            <Wolfein_MegaCorpMechCore MayRequire="Ludeon.RimWorld.Biotech">1</Wolfein_MegaCorpMechCore>
+        </butcherProducts>
+        <comps>
+        </comps>
+    </ThingDef>
+    <PawnKindDef Name="Wolfein_BaseMechKind_Military" ParentName="Wolfein_BaseMechKind" Abstract="True">
+        <techHediffsChance>1</techHediffsChance>
+        <techHediffsMoney>9999~9999</techHediffsMoney>
+        <weaponMoney>9999~9999</weaponMoney>
+    </PawnKindDef>
+
+    <!-- 基础型军用机械体 -->
+    <ThingDef ParentName="Wolfein_BaseMechMilitary">
+        <defName>Wolfein_Mechanoid_MilitaryA</defName>
+        <label>Basic Military Mech Unit</label>
+        <description>A product of reverse-engineering Mechanoid technology, this basic military mech is mass-produced by the MegaCorp and deployed to the frontlines to replace the steadily declining Wolfein soldier population.</description>
+        <statBases>
+        </statBases>
+        <comps>
+        </comps>
+    </ThingDef>
+    <PawnKindDef ParentName="Wolfein_BaseMechKind_Military">
+        <defName>Wolfein_Mechanoid_MilitaryA</defName>
+        <label>Basic Military Mech Unit</label>
+        <race>Wolfein_Mechanoid_MilitaryA</race>
+        <combatPower>200</combatPower>
+        <weaponTags>
+            <li>Wolfein_AR_ChargeAssaultRifle</li>
+        </weaponTags>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>Wolfein/Mech/MegaCorpBaseA/MegaCorpBaseA</texPath>
+                    <maskPath>Wolfein/Mech/Mask/Mask</maskPath>
+                    <shaderType>CutoutWithOverlay</shaderType>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>1.6</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.8, 0.4)</volume>
+                    </shadowData>
+                </bodyGraphicData>
+            </li>
+        </lifeStages>
+    </PawnKindDef>
+
+    <!-- 近距型军用机械体 -->
+    <ThingDef ParentName="Wolfein_BaseMechMilitary">
+        <defName>Wolfein_Mechanoid_MilitaryB</defName>
+        <label>Close-Combat Military Mech Unit</label>
+        <description>Designed for close-quarters engagement, this unit trades visual clarity for a wider field of view and heightened sensor sensitivity, allowing it to perform more effectively in short-range combat scenarios.</description>
+        <statBases>
+        </statBases>
+        <comps>
+        </comps>
+    </ThingDef>
+    <PawnKindDef ParentName="Wolfein_BaseMechKind_Military">
+        <defName>Wolfein_Mechanoid_MilitaryB</defName>
+        <label>Close-Combat Military Mech Unit</label>
+        <race>Wolfein_Mechanoid_MilitaryB</race>
+        <combatPower>200</combatPower>
+        <weaponTags>
+            <li>Wolfein_SG_ChargeAutomaticShotgun</li>
+        </weaponTags>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>Wolfein/Mech/MegaCorpBaseB/MegaCorpBaseB</texPath>
+                    <maskPath>Wolfein/Mech/Mask/Mask</maskPath>
+                    <shaderType>CutoutWithOverlay</shaderType>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>1.6</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.8, 0.4)</volume>
+                    </shadowData>
+                </bodyGraphicData>
+            </li>
+        </lifeStages>
+    </PawnKindDef>
+
+    <!-- 盾卫型军用机械体 -->
+    <ThingDef ParentName="Wolfein_BaseMechMilitary">
+        <defName>Wolfein_Mechanoid_MilitaryC</defName>
+        <label>Shielded Military Mech Unit</label>
+        <description>Equipped with a heavy shield and an impact drill, this unit excels at close-range encounters with heavily armored mech targets. Its drill's exceptional destructive power against structures also makes it a frequent choice for demolition operations.</description>
+        <tools>
+            <li>
+                <label>Heavy shield</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>15</power>
+                <cooldownTime>2.0</cooldownTime>
+                <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+                <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+            </li>
+            <li>
+                <label>Impact drill</label>
+                <capacities>
+                    <li>Demolish</li>
+                </capacities>
+                <power>28.0</power>
+                <cooldownTime>2.0</cooldownTime>
+                <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+                <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+            </li>
+        </tools>
+        <race>
+            <baseHealthScale>2.0</baseHealthScale>
+        </race>
+        <statBases>
+            <IncomingDamageFactor>0.8</IncomingDamageFactor>
+            <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+            <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+        </statBases>
+        <comps>
+        </comps>
+    </ThingDef>
+    <PawnKindDef ParentName="Wolfein_BaseMechKind_Military">
+        <defName>Wolfein_Mechanoid_MilitaryC</defName>
+        <label>Shielded Military Mech Unit</label>
+        <race>Wolfein_Mechanoid_MilitaryC</race>
+        <combatPower>240</combatPower>
+        <weaponTags>
+        </weaponTags>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>Wolfein/Mech/MegaCorpBaseC/MegaCorpBaseC</texPath>
+                    <maskPath>Wolfein/Mech/Mask/Mask</maskPath>
+                    <shaderType>CutoutWithOverlay</shaderType>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>1.6</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.8, 0.4)</volume>
+                    </shadowData>
+                </bodyGraphicData>
+            </li>
+        </lifeStages>
+    </PawnKindDef>
+
+    <!-- 狙击型军用机械体 -->
+    <ThingDef ParentName="Wolfein_BaseMechMilitary">
+        <defName>Wolfein_Mechanoid_MilitaryD</defName>
+        <label>Sniper-Class Military Mech Unit</label>
+        <description>In addition to upgraded sensors, this unit features heat-insulating skirt armor on its torso, reducing the chance of infrared detection compared to the standard model.</description>
+        <statBases>
+            <MoveSpeed>4.4</MoveSpeed>
+            <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+            <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+            <ShootingAccuracyPawn>6</ShootingAccuracyPawn>
+        </statBases>
+        <comps>
+        </comps>
+    </ThingDef>
+    <PawnKindDef ParentName="Wolfein_BaseMechKind_Military">
+        <defName>Wolfein_Mechanoid_MilitaryD</defName>
+        <label>Sniper-Class Military Mech Unit</label>
+        <race>Wolfein_Mechanoid_MilitaryD</race>
+        <combatPower>200</combatPower>
+        <weaponTags>
+            <li>Wolfein_RF_ChargeSniperRifle</li>
+        </weaponTags>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>Wolfein/Mech/MegaCorpBaseD/MegaCorpBaseD</texPath>
+                    <maskPath>Wolfein/Mech/Mask/Mask</maskPath>
+                    <shaderType>CutoutWithOverlay</shaderType>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>1.6</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.8, 0.4)</volume>
+                    </shadowData>
+                </bodyGraphicData>
+            </li>
+        </lifeStages>
+        <abilities>
+            <li>Wolfein_MechInvisibility</li>
+        </abilities>
+    </PawnKindDef>
+
+    <!-- 重型火力支援步行机械体 -->
+    <ThingDef ParentName="Wolfein_BaseMechMilitary">
+        <defName>Wolfein_Mechanoid_MilitaryE</defName>
+        <label>Heavy Fire Support Mech Unit</label>
+        <description>The heavy fire support Mech Unit serves primarily as an all-terrain platform for mounting heavy weaponry. According to reports, members of the MegaCorp Task Force experience an average 50% morale boost when advancing alongside one.</description>
+        <statBases>
+            <MoveSpeed>3.8</MoveSpeed>
+            <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+            <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+            <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">5</BandwidthCost>
+            <MechEnergyLossPerHP MayRequire="Ludeon.RimWorld.Biotech">0.1</MechEnergyLossPerHP>
+        </statBases>
+        <comps>
+        </comps>
+        <race>
+            <baseHealthScale>2.8</baseHealthScale>
+            <baseBodySize>2.8</baseBodySize>
+            <mechWeightClass>Heavy</mechWeightClass>
+        </race>
+    </ThingDef>
+    <PawnKindDef ParentName="Wolfein_BaseMechKind_Military">
+        <defName>Wolfein_Mechanoid_MilitaryE</defName>
+        <label>Heavy Fire Support Mech Unit</label>
+        <race>Wolfein_Mechanoid_MilitaryE</race>
+        <combatPower>400</combatPower>
+        <weaponTags>
+            <li>Wolfein_HeavyMech</li>
+        </weaponTags>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>Wolfein/Mech/MegaCorpHeavyB/MegaCorpHeavyB</texPath>
+                    <maskPath>Wolfein/Mech/Mask/Mask</maskPath>
+                    <shaderType>CutoutWithOverlay</shaderType>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>3.0</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.8, 0.4)</volume>
+                    </shadowData>
+                </bodyGraphicData>
+            </li>
+        </lifeStages>
+    </PawnKindDef>
+    <!-- 重型火力支援步行机械体 -->
+    <ThingDef ParentName="Wolfein_BaseMechMilitary">
+        <defName>Wolfein_Mechanoid_MilitaryF</defName>
+        <label>Heavy Close-Range Support Mech Unit.</label>
+        <description>The Heavy Close-Range Support Mech Unit, unlike units tasked with mid-to-long-range fire support, is equipped with additional armor and a large shield, making it better suited for providing mid-to-close-range support to other mechanical units.</description>
+        <statBases>
+            <MoveSpeed>3.8</MoveSpeed>
+            <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+            <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
+            <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">5</BandwidthCost>
+            <MechEnergyLossPerHP MayRequire="Ludeon.RimWorld.Biotech">0.1</MechEnergyLossPerHP>
+        </statBases>
+        <comps>
+        </comps>
+        <race>
+            <baseHealthScale>2.8</baseHealthScale>
+            <baseBodySize>2.8</baseBodySize>
+            <mechWeightClass>Heavy</mechWeightClass>
+        </race>
+    </ThingDef>
+    <PawnKindDef ParentName="Wolfein_BaseMechKind_Military">
+        <defName>Wolfein_Mechanoid_MilitaryF</defName>
+        <label>Heavy Fire Support Mech Unit</label>
+        <race>Wolfein_Mechanoid_MilitaryF</race>
+        <combatPower>400</combatPower>
+        <weaponTags>
+            <li>Wolfein_HeavyMechMinigun</li>
+        </weaponTags>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>Wolfein/Mech/MegaCorpHeavyA/MegaCorpHeavyA</texPath>
+                    <maskPath>Wolfein/Mech/Mask/Mask</maskPath>
+                    <shaderType>CutoutWithOverlay</shaderType>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>3.0</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.8, 0.4)</volume>
+                    </shadowData>
+                </bodyGraphicData>
+            </li>
+        </lifeStages>
+    </PawnKindDef>
+
+
+
+
+    <!-- 超重型多足火力平台 -->
+    <ThingDef ParentName="Wolfein_BaseMechMilitary">
+        <defName>Wolfein_Mechanoid_MilitaryGiant</defName>
+        <label>Extra Heavy Multi-Legged Firepower Platform.</label>
+        <description>The extra heavy multi-legged firepower platform, the largest active mech in the MegaCorp arsenal, requires approval from the highest local military authority for each deployment. Its weapons are powerful enough to breach the enemy's most fortified defenses after just a few shots.</description>
+        <uiIconScale>1.2</uiIconScale>
+        <statBases>
+            <MoveSpeed>2.6</MoveSpeed>
+            <ArmorRating_Blunt>1.5</ArmorRating_Blunt>
+            <ArmorRating_Sharp>1.8</ArmorRating_Sharp>
+            <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">10</BandwidthCost>
+            <EMPResistance MayRequire="Ludeon.RimWorld.Biotech">0.8</EMPResistance>
+            <MechEnergyLossPerHP MayRequire="Ludeon.Rimworld.Biotech">0.06</MechEnergyLossPerHP>
+        </statBases>
+        <race>
+            <baseHealthScale>6</baseHealthScale>
+            <baseBodySize>5.5</baseBodySize>
+            <body>Wolfein_GiantMech</body>
+            <mechWeightClass>UltraHeavy</mechWeightClass>
+            <thinkTreeConstant MayRequire="Ludeon.RimWorld.Biotech">Wolfein_GiantMechConstant</thinkTreeConstant>
+        </race>
+        <tools Inherit="false">
+            <li>
+                <label>blunt</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>60.0</power>
+                <cooldownTime>4.0</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+            </li>
+        </tools>
+        <butcherProducts Inherit="False">
+            <SteelBar>45</SteelBar>
+            <Wolfein_AlloyMaterials>80</Wolfein_AlloyMaterials>
+            <Plasteel>125</Plasteel>
+        </butcherProducts>
+        <comps>
+            <li Class="Wolfein.CompProperties_TurretGun_Custom">
+                <turretDef>Wolfein_GiantTurret</turretDef>
+                <turretLabel>GiantTurret</turretLabel>
+                <num>1</num>
+                <angleOffset>-90</angleOffset>
+                <autoAttack>false</autoAttack>
+                <gizmoIconPath_Aim>Wolfein/UI/Aiming_Turret</gizmoIconPath_Aim>
+                <renderNodeProperties>
+                    <li Class="Wolfein.PawnRenderNodeProperties_TurretGun_Custom">
+                        <nodeClass>Wolfein.PawnRenderNode_TurretGun_Custom</nodeClass>
+                        <workerClass>Wolfein.PawnRenderNodeWorker_TurretGun_Custom</workerClass>
+                        <overrideMeshSize>(6, 6)</overrideMeshSize>
+                        <parentTagDef>Body</parentTagDef>
+                        <baseLayer>30</baseLayer>
+                        <pawnType>Any</pawnType>
+                        <drawData>
+                            <dataWest>
+                                <rotationOffset>180</rotationOffset>
+                            </dataWest>
+                        </drawData>
+                    </li>
+                </renderNodeProperties>
+            </li>
+            <li Class="Wolfein.CompProperties_TurretGun_Custom">
+                <turretDef>Wolfein_GiantTurret_MechineGun</turretDef>
+                <turretLabel>MechineGunA</turretLabel>
+                <primaryWeapon>false</primaryWeapon>
+                <num>2</num>
+                <gizmoIconPath_Aim>Wolfein/UI/Aiming_MG</gizmoIconPath_Aim>
+                <saveKeysPrefix>One</saveKeysPrefix>
+                <angleOffset>-90</angleOffset>
+                <autoAttack>false</autoAttack>
+            </li>
+            <li Class="Wolfein.CompProperties_TurretGun_Custom">
+                <turretDef>Wolfein_GiantTurret_MechineGun</turretDef>
+                <turretLabel>MechineGunB</turretLabel>
+                <primaryWeapon>false</primaryWeapon>
+                <num>3</num>
+                <gizmoIconPath_Aim>Wolfein/UI/Aiming_MG</gizmoIconPath_Aim>
+                <saveKeysPrefix>Two</saveKeysPrefix>
+                <angleOffset>-90</angleOffset>
+                <autoAttack>false</autoAttack>
+            </li>
+            <li Class="Wolfein.CompProperties_TurretControl">
+                <gizmoA>Wolfein/UI/Aiming_Turret</gizmoA>
+                <gizmoB>Wolfein/UI/Aiming_MG</gizmoB>
+            </li>
+        </comps>
+    </ThingDef>
+    <PawnKindDef ParentName="Wolfein_BaseMechKind_Military">
+        <defName>Wolfein_Mechanoid_MilitaryGiant</defName>
+        <label>Wolfein Extra Heavy Multi-Legged Firepower Platform</label>
+        <race>Wolfein_Mechanoid_MilitaryGiant</race>
+        <combatPower>1200</combatPower>
+        <maxPerGroup>1</maxPerGroup>
+        <controlGroupPortraitZoom>0.5</controlGroupPortraitZoom>
+        <weaponTags>
+        </weaponTags>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>Wolfein/Mech/MegaCorpGiant/MegaCorpGiant</texPath>
+                    <maskPath>Wolfein/Mech/Mask/Mask</maskPath>
+                    <shaderType>CutoutWithOverlay</shaderType>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>6.0</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.8, 0.4)</volume>
+                    </shadowData>
+                </bodyGraphicData>
+            </li>
+        </lifeStages>
+    </PawnKindDef>
+    <!-- 炮塔 -->
+    <ThingDef ParentName="BaseWeaponTurret">
+        <defName>Wolfein_GiantTurret</defName>
+        <label>Extra Heavy Multi-Legged Firepower Platform Main Cannon.</label>
+        <description>The main offensive system of the Extra Heavy Multi-Legged Firepower Platform; it can be said that the platform was designed primarily to deliver this heavy cannon to the frontline where it is needed most..</description>
+        <tradeability>None</tradeability>
+        <destroyOnDrop>true</destroyOnDrop>
+        <graphicData>
+            <texPath>Wolfein/Mech/MegaCorpGiant/MegaCorpGiantTop</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <Mass>2.6</Mass>
+            <AccuracyTouch>0.60</AccuracyTouch>
+            <AccuracyShort>0.80</AccuracyShort>
+            <AccuracyMedium>0.90</AccuracyMedium>
+            <AccuracyLong>0.85</AccuracyLong>
+        </statBases>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <defaultProjectile>W_Bullet_Missile</defaultProjectile>
+                <range>44.9</range>
+                <minRange>3.9</minRange>
+                <forcedMissRadius>1.9</forcedMissRadius>
+                <soundCast>Shot_IncendiaryLauncher</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+                <defaultCooldownTime>10</defaultCooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                <ticksBetweenBurstShots>150</ticksBetweenBurstShots>
+                <ai_AvoidFriendlyFireRadius>6</ai_AvoidFriendlyFireRadius>
+                <ai_RangedAlawaysShootGroundBelowTarget>true</ai_RangedAlawaysShootGroundBelowTarget>
+                <ai_ProjectileLaunchingIgnoresMeleeThreats>true</ai_ProjectileLaunchingIgnoresMeleeThreats>
+                <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+                <!-- <requireLineOfSight>false</requireLineOfSight> -->
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+            </li>
+        </verbs>
+    </ThingDef>
+    <!-- 炮塔 -->
+    <ThingDef ParentName="BaseWeaponTurret">
+        <defName>Wolfein_GiantTurret_MechineGun</defName>
+        <label>Extra Heavy Multi-Legged Firepower Platform Machine Gun.</label>
+        <description>A rapid-fire machine gun mounted on the turret, capable of clearing out units attempting to enter the main cannon’s blind spots..</description>
+        <tradeability>None</tradeability>
+        <destroyOnDrop>true</destroyOnDrop>
+        <graphicData>
+            <texPath>Wolfein/Mech/MegaCorpGiant/MegaCorpGiantTop</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <Mass>2.6</Mass>
+            <AccuracyTouch>0.85</AccuracyTouch>
+            <AccuracyShort>0.55</AccuracyShort>
+            <AccuracyMedium>0.42</AccuracyMedium>
+            <AccuracyLong>0.35</AccuracyLong>
+        </statBases>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <defaultProjectile>W_ChargeBullet_Medium</defaultProjectile>
+                <range>31.9</range>
+                <soundCast>Wolfein_Shot_AR_MG</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+                <defaultCooldownTime>8.5</defaultCooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+                <burstShotCount>24</burstShotCount>
+                <ai_ProjectileLaunchingIgnoresMeleeThreats>true</ai_ProjectileLaunchingIgnoresMeleeThreats>
+            </li>
+        </verbs>
+    </ThingDef>
+
+
+
+
+
+</Defs>

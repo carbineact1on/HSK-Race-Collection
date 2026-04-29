@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- 沃芬太空服装 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_Apparel_Spacer</defName>
+        <label>Wolfein Spacer Apparel</label>
+        <description>Research how to produce wolfein spacer apparel.</description>
+        <baseCost>800</baseCost>
+        <techLevel>Industrial</techLevel>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+            <li>Wolfein_Apparel_CombatI</li>
+            <li>Fabrication</li>
+        </prerequisites>
+        <researchViewX>5</researchViewX>
+        <researchViewY>1.2</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+
+</Defs>

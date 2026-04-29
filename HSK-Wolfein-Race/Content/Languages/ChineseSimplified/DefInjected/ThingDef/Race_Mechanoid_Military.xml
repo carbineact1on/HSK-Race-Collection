@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Extra Heavy Multi-Legged Firepower Platform Main Cannon. -->
+  <Wolfein_GiantTurret.label>火力平台主炮</Wolfein_GiantTurret.label>
+  <!-- EN: The main offensive system of the Extra Heavy Multi-Legged Firepower Platform; it can be said that the platform was designed primarily to deliver this heavy cannon to the frontline where it is needed most. -->
+  <Wolfein_GiantTurret.description>超重型多足火力平台的主要输出手段，可以说火力平台的设计目的就是将这门重型火炮送到前线需要它的地方。</Wolfein_GiantTurret.description>
+  <!-- EN: Extra Heavy Multi-Legged Firepower Platform Main Cannon. -->
+  <Wolfein_GiantTurret.verbs.Verb_Shoot.label>火力平台主炮</Wolfein_GiantTurret.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Extra Heavy Multi-Legged Firepower Platform Machine Gun. -->
+  <Wolfein_GiantTurret_MechineGun.label>火力平台机枪</Wolfein_GiantTurret_MechineGun.label>
+  <!-- EN: A rapid-fire machine gun mounted on the turret, capable of clearing out units attempting to enter the main cannon’s blind spots.. -->
+  <Wolfein_GiantTurret_MechineGun.description>安装在炮塔上的速射机枪，足以清扫试图进入主炮火力盲区的单位。</Wolfein_GiantTurret_MechineGun.description>
+  <!-- EN: Extra Heavy Multi-Legged Firepower Platform Machine Gun. -->
+  <Wolfein_GiantTurret_MechineGun.verbs.Verb_Shoot.label>超重型多足火力平台机枪</Wolfein_GiantTurret_MechineGun.verbs.Verb_Shoot.label>
+  
+  <!-- EN: Basic Military Mech Unit -->
+  <Wolfein_Mechanoid_MilitaryA.label>基础型军用机械体</Wolfein_Mechanoid_MilitaryA.label>
+  <!-- EN: A product of reverse-engineering Mechanoid technology, this basic military mech is mass-produced by the MegaCorp and deployed to the frontlines to replace the steadily declining Wolfein soldier population. -->
+  <Wolfein_Mechanoid_MilitaryA.description>基础型军用机械体，逆向分析机械族技术的产物，被军企大批量部署到前线以代替日渐减少的沃芬族士兵。</Wolfein_Mechanoid_MilitaryA.description>
+  <!-- EN: left fist -->
+  <Wolfein_Mechanoid_MilitaryA.tools.left_fist.label>左拳</Wolfein_Mechanoid_MilitaryA.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Wolfein_Mechanoid_MilitaryA.tools.right_fist.label>右拳</Wolfein_Mechanoid_MilitaryA.tools.right_fist.label>
+  
+  <!-- EN: Close-Combat Military Mech Unit -->
+  <Wolfein_Mechanoid_MilitaryB.label>近距型军用机械体</Wolfein_Mechanoid_MilitaryB.label>
+  <!-- EN: Designed for close-quarters engagement, this unit trades visual clarity for a wider field of view and heightened sensor sensitivity, allowing it to perform more effectively in short-range combat scenarios. -->
+  <Wolfein_Mechanoid_MilitaryB.description>近距型军用机械体，以牺牲视觉传感器清晰度为代价换来了大视场和高灵敏度，使其在近距作战中表现更佳。</Wolfein_Mechanoid_MilitaryB.description>
+  <!-- EN: left fist -->
+  <Wolfein_Mechanoid_MilitaryB.tools.left_fist.label>左拳</Wolfein_Mechanoid_MilitaryB.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Wolfein_Mechanoid_MilitaryB.tools.right_fist.label>右拳</Wolfein_Mechanoid_MilitaryB.tools.right_fist.label>
+  
+  <!-- EN: Shielded Military Mech Unit -->
+  <Wolfein_Mechanoid_MilitaryC.label>盾卫型军用机械体</Wolfein_Mechanoid_MilitaryC.label>
+  <!-- EN: Equipped with a heavy shield and an impact drill, this unit excels at close-range encounters with heavily armored mech targets. Its drill's exceptional destructive power against structures also makes it a frequent choice for demolition operations. -->
+  <Wolfein_Mechanoid_MilitaryC.description>盾卫型军用机械体，配备的盾牌和冲击钻让其在贴身处理重装甲机械族时效率出众。由于其冲击钻对建筑物的破坏力惊人，也被经常部署于破拆建筑。</Wolfein_Mechanoid_MilitaryC.description>
+  <!-- EN: left fist -->
+  <Wolfein_Mechanoid_MilitaryC.tools.left_fist.label>左拳</Wolfein_Mechanoid_MilitaryC.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Wolfein_Mechanoid_MilitaryC.tools.right_fist.label>右拳</Wolfein_Mechanoid_MilitaryC.tools.right_fist.label>
+  <!-- EN: Heavy shield -->
+  <Wolfein_Mechanoid_MilitaryC.tools.Heavy_shield.label>盾牌</Wolfein_Mechanoid_MilitaryC.tools.Heavy_shield.label>
+  <!-- EN: Impact drill -->
+  <Wolfein_Mechanoid_MilitaryC.tools.Impact_drill.label>冲击钻</Wolfein_Mechanoid_MilitaryC.tools.Impact_drill.label>
+  
+  <!-- EN: Sniper-Class Military Mech Unit -->
+  <Wolfein_Mechanoid_MilitaryD.label>狙击型军用机械体</Wolfein_Mechanoid_MilitaryD.label>
+  <!-- EN: In addition to upgraded sensors, this unit features heat-insulating skirt armor on its torso, reducing the chance of infrared detection compared to the standard model. -->
+  <Wolfein_Mechanoid_MilitaryD.description>狙击型军用机械体，除去传感器的升级外，相比基础型号在躯干部位加装了隔热裙甲，降低被红外线探测到的概率。</Wolfein_Mechanoid_MilitaryD.description>
+  <!-- EN: left fist -->
+  <Wolfein_Mechanoid_MilitaryD.tools.left_fist.label>左拳</Wolfein_Mechanoid_MilitaryD.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Wolfein_Mechanoid_MilitaryD.tools.right_fist.label>右拳</Wolfein_Mechanoid_MilitaryD.tools.right_fist.label>
+  
+  <!-- EN: Heavy Fire Support Mech Unit -->
+  <Wolfein_Mechanoid_MilitaryE.label>重型火力支援步行机械体</Wolfein_Mechanoid_MilitaryE.label>
+  <!-- EN: The heavy fire support Mech Unit serves primarily as an all-terrain platform for mounting heavy weaponry. According to reports, members of the MegaCorp Task Force experience an average 50% morale boost when advancing alongside one. -->
+  <Wolfein_Mechanoid_MilitaryE.description>重型火力支援步行机械体，主要作为全地形的重型武器搭载平台来使用。据统计，军企机动特遣队的成员们在伴随步行机进攻时士气平均提升50%。</Wolfein_Mechanoid_MilitaryE.description>
+  <!-- EN: left fist -->
+  <Wolfein_Mechanoid_MilitaryE.tools.left_fist.label>左拳</Wolfein_Mechanoid_MilitaryE.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Wolfein_Mechanoid_MilitaryE.tools.right_fist.label>右拳</Wolfein_Mechanoid_MilitaryE.tools.right_fist.label>
+  
+  <!-- EN: Heavy Close-Range Support Mech Unit. -->
+  <Wolfein_Mechanoid_MilitaryF.label>重型近程支援步行机械体</Wolfein_Mechanoid_MilitaryF.label>
+  <!-- EN: The Heavy Close-Range Support Mech Unit, unlike units tasked with mid-to-long-range fire support, is equipped with additional armor and a large shield, making it better suited for providing mid-to-close-range support to other mechanical units. -->
+  <Wolfein_Mechanoid_MilitaryF.description>重型近程支援步行机械体，与其承担中远程火力支援任务的机体不同，附加的额外装甲和大型护盾使其更适合承担中近距离支援其他机械体的任务。</Wolfein_Mechanoid_MilitaryF.description>
+  <!-- EN: left fist -->
+  <Wolfein_Mechanoid_MilitaryF.tools.left_fist.label>左拳</Wolfein_Mechanoid_MilitaryF.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <Wolfein_Mechanoid_MilitaryF.tools.right_fist.label>右拳</Wolfein_Mechanoid_MilitaryF.tools.right_fist.label>
+  
+  <!-- EN: Extra Heavy Multi-Legged Firepower Platform. -->
+  <Wolfein_Mechanoid_MilitaryGiant.label>超重型多足火力平台</Wolfein_Mechanoid_MilitaryGiant.label>
+  <!-- EN: The extra heavy multi-legged firepower platform, the largest active mech in the MegaCorp arsenal, requires approval from the highest local military authority for each deployment. Its weapons are powerful enough to breach the enemy's most fortified defenses after just a few shots. -->
+  <Wolfein_Mechanoid_MilitaryGiant.description>超重型多足火力平台，作为军企现役最大的机械体，其每次部署都需要当地最高军事主管的批准。而其上配置的武器足以在数次开火后撕开敌方最严密的防线。</Wolfein_Mechanoid_MilitaryGiant.description>
+  <!-- EN: blunt -->
+  <Wolfein_Mechanoid_MilitaryGiant.tools.blunt.label>钝击</Wolfein_Mechanoid_MilitaryGiant.tools.blunt.label>
+  <!-- EN: GiantTurret -->
+  <Wolfein_Mechanoid_MilitaryGiant.comps.CompTurretGun_Custom-0.turretLabel>主炮</Wolfein_Mechanoid_MilitaryGiant.comps.CompTurretGun_Custom-0.turretLabel>
+  <!-- EN: MechineGunA -->
+  <Wolfein_Mechanoid_MilitaryGiant.comps.CompTurretGun_Custom-1.turretLabel>机枪A</Wolfein_Mechanoid_MilitaryGiant.comps.CompTurretGun_Custom-1.turretLabel>
+  <!-- EN: MechineGunB -->
+  <Wolfein_Mechanoid_MilitaryGiant.comps.CompTurretGun_Custom-2.turretLabel>机枪B</Wolfein_Mechanoid_MilitaryGiant.comps.CompTurretGun_Custom-2.turretLabel>
+</LanguageData>

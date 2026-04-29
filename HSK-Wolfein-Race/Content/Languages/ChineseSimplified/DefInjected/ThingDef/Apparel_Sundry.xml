@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Deployable Shield Generator Belt -->
+  <Wolfein_DeployableShieldGenerator.label>便携式部署护盾腰带</Wolfein_DeployableShieldGenerator.label>
+  <!-- EN: During engagements with heavily armored mechanical units, traditional battlefield cover often disintegrates after just a few enemy volleys. Frontline soldiers urgently required a portable yet durable form of protection — and the Deployable Shield Generator Belt was created to meet that need.Once charged, the belt’s side-mounted generator can be deployed to a designated location, projecting a temporary energy shield that effectively blocks incoming projectiles and explosive impacts. This gives its user crucial moments to regroup, counterattack, or reposition under fire. -->
+  <Wolfein_DeployableShieldGenerator.description>在与重型机械族的交火中，传统战地掩体往往在敌方几轮齐射后便被彻底摧毁。前线士兵迫切需要一种足够坚固、能够随身携带的防御装置。便携部署护盾腰带正是为此而生。其侧部装载的护盾发生器在充能完成后可被快速投射，于指定位置展开一道能量护盾，在短时间内有效阻挡来自外部的弹道与爆炸冲击，为使用者争取宝贵的反击与转移时机。</Wolfein_DeployableShieldGenerator.description>
+  <!-- EN: charge -->
+  <Wolfein_DeployableShieldGenerator.comps.CompApparelReloadable.chargeNoun>充能</Wolfein_DeployableShieldGenerator.comps.CompApparelReloadable.chargeNoun>
+  <!-- EN: on cooldown -->
+  <Wolfein_DeployableShieldGenerator.comps.CompApparelReloadable.cooldownGerund>冷却中</Wolfein_DeployableShieldGenerator.comps.CompApparelReloadable.cooldownGerund>
+  <!-- EN: Deployable Shield Generator Belt -->
+  <Wolfein_DeployableShieldGenerator.verbs.Verb_LaunchShieldUnit.label>便携式部署护盾腰带</Wolfein_DeployableShieldGenerator.verbs.Verb_LaunchShieldUnit.label>
+  
+  <!-- UNUSED -->
+  <Wolfein_DeployableShieldGenerator.verbs.Verb_LaunchProjectileStatic.label>便携式部署护盾腰带</Wolfein_DeployableShieldGenerator.verbs.Verb_LaunchProjectileStatic.label>
+  
+  <!-- EN: Deploy Broad Shield -->
+  <Wolfein_DeployedBroadShield.label>部署护盾</Wolfein_DeployedBroadShield.label>
+  <!-- EN: Activates the belt’s generator to deploy an energy shield at the targeted location. The barrier remains active for a limited duration, blocking incoming projectiles and providing temporary cover for the user and nearby allies. -->
+  <Wolfein_DeployedBroadShield.description>激活腰带上的能量发生器，在目标位置部署能量护盾。护盾持续一段时间，阻挡来袭的投射物，并为使用者和附近的盟友提供临时掩护。</Wolfein_DeployedBroadShield.description>
+  <!-- EN: Burnout in -->
+  <Wolfein_DeployedBroadShield.comps.CompDestroyAfterDelay.countdownLabel>剩余持续时间：</Wolfein_DeployedBroadShield.comps.CompDestroyAfterDelay.countdownLabel>
+  
+  <!-- EN: Shield Projector -->
+  <Wolfein_DeployShield_Proj.label>护盾投射器</Wolfein_DeployShield_Proj.label>
+  
+  <!-- EN: Wolfein Exoskeleton shield -->
+  <Wolfein_ExoskeletonShield.label>沃芬族外骨骼护盾</Wolfein_ExoskeletonShield.label>
+  <!-- EN: Exoskeletal shield equipped with internal motors to adjust its angle and position for optimal protection. While it significantly enhances defensive performance, the heavy armor plating limits the wearer’s combat mobility. -->
+  <Wolfein_ExoskeletonShield.description>外骨骼护盾，内置的电机可以调整护盾的角度和位置以更好保护目标。但沉重的装甲板限制了装备者的作战能力。</Wolfein_ExoskeletonShield.description>
+  
+  <!-- EN: Wolfein Information Identification Card -->
+  <Wolfein_InformationIdentificationCard.label>沃芬族信息识别牌</Wolfein_InformationIdentificationCard.label>
+  <!-- EN: An identification card used to verify identity, commonly carried by Wolfein company employees. -->
+  <Wolfein_InformationIdentificationCard.description>用于识别身份的信息卡，沃芬公司职员通常会随身携带。</Wolfein_InformationIdentificationCard.description>
+  
+  <!-- EN: Wolfein Military backpack -->
+  <Wolfein_MilitaryBackpack.label>沃芬族军用背包</Wolfein_MilitaryBackpack.label>
+  <!-- EN: Provides massive storage capacity without compromising the user’s operational efficiency. However, when fully loaded, its bulk can hinder mobility to some extent, so it is typically used only by those who require specialized equipment during combat. -->
+  <Wolfein_MilitaryBackpack.description>在不影响使用者操作能力的情况下提供了巨额容量。由于其装满后体积过大，在一定程度上影响了移动能力，作战中通常仅由队伍内对特殊装备有需求的人员使用。</Wolfein_MilitaryBackpack.description>
+  
+  <!-- EN: Prototype Shield Belt -->
+  <Wolfein_PrototypeShieldBelt.label>试制型护盾腰带</Wolfein_PrototypeShieldBelt.label>
+  <!-- EN: Given that the standard shield belt could not adequately ensure the safety of close-quarters combatants during their assaults, the MegaCorp development division designed this prototype model. When activated, it nullifies all incoming attacks against the wearer. -->
+  <Wolfein_PrototypeShieldBelt.description>鉴于标准型护盾腰带并不能很好地保证近程作战人员的冲锋中的安全性，军企的研发部门设计出了这款试制型护盾腰带。其在激活状态的时间内，能够无效化任何对使用者的攻击。</Wolfein_PrototypeShieldBelt.description>
+  <!-- EN: charge -->
+  <Wolfein_PrototypeShieldBelt.comps.CompApparelReloadable.chargeNoun>充能</Wolfein_PrototypeShieldBelt.comps.CompApparelReloadable.chargeNoun>
+  <!-- EN: on cooldown -->
+  <Wolfein_PrototypeShieldBelt.comps.CompApparelReloadable.cooldownGerund>冷却中</Wolfein_PrototypeShieldBelt.comps.CompApparelReloadable.cooldownGerund>
+  <!-- EN: Prototype Shield Belt -->
+  <Wolfein_PrototypeShieldBelt.verbs.Verb_Job.label>试制型护盾腰带</Wolfein_PrototypeShieldBelt.verbs.Verb_Job.label>
+  
+  <!-- EN: Wolfein Riot shield -->
+  <Wolfein_RiotShield.label>沃芬族防暴盾</Wolfein_RiotShield.label>
+  <!-- EN: Issued to Task Force units under the MegaCorp, this transparent, bullet-resistant riot shield is commonly used in formation to suppress violent insurgents. Some members assigned to guard high-value facilities favor it highly. -->
+  <Wolfein_RiotShield.description>发配给军企特遣队的防暴盾牌，透明防弹设计使其通常被用于列阵镇压暴恐分子。部分担任重要设施安防任务的特遣队成员对其非常中意。</Wolfein_RiotShield.description>
+  
+  <!-- EN: wolfein shield belt -->
+  <Wolfein_ShieldBelt.label>沃芬族护盾腰带</Wolfein_ShieldBelt.label>
+  <!-- EN: A personal energy shield belt manufactured by MegaCorp. Although it offers no protection against melee damage, it functions as a unidirectional shield—capable of shielding the wearer from incoming bullets while allowing them to return fire without obstruction. To further enhance survivability, the belt is equipped with redundant energy cells designed to rapidly recharge the shield in critical moments. However, recharging causes irreversible damage to the circuitry. Once both backup cells have been depleted, the system requires component replacement and manual maintenance to restore functionality. -->
+  <Wolfein_ShieldBelt.description>军企制造出的单兵能量护盾腰带。其虽无法抵御近战伤害，但其作为单向护盾，能够在防护穿戴者免受子弹侵扰的同时不妨碍穿戴者开火。同时，为了进一步提高穿戴者生存性，该腰带设置了冗余的能量电池以在短时间内为护盾充能。需注意的是充能会对电路造成不可逆损伤，在冗余的两个能量电池都被使用后需要使用零部件重新维护电路。</Wolfein_ShieldBelt.description>
+  <!-- EN: charge -->
+  <Wolfein_ShieldBelt.comps.CompApparelReloadable.chargeNoun>充能</Wolfein_ShieldBelt.comps.CompApparelReloadable.chargeNoun>
+  <!-- EN: on cooldown -->
+  <Wolfein_ShieldBelt.comps.CompApparelReloadable.cooldownGerund>正在冷却</Wolfein_ShieldBelt.comps.CompApparelReloadable.cooldownGerund>
+  
+  <!-- EN: Wolfein tail belt -->
+  <Wolfein_TailBelt.label>沃芬族束尾</Wolfein_TailBelt.label>
+  <!-- EN: A strap used to secure the tail in place, preventing it from getting tangled with clothing, weapons, or other items. Some Wolfein also wrap it around their tail purely as a decorative accessory. -->
+  <Wolfein_TailBelt.description>一条用来将尾巴固定位置的束带，防止尾巴与衣物，武器等纠缠。也有沃芬将其单纯缠在尾巴上做装饰用品。</Wolfein_TailBelt.description>
+  
+</LanguageData>

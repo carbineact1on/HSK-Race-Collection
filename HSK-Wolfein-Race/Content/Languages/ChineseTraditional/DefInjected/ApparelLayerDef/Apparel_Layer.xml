@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Onskin -->
+  <Wolfein_Apparel_OnSkin.label>沃芬族貼身衣物</Wolfein_Apparel_OnSkin.label>
+  
+  <!-- EN: Overhead -->
+  <Wolfein_Apparel_OverHead.label>沃芬族頭部裝備</Wolfein_Apparel_OverHead.label>
+  
+  <!-- EN: Shell -->
+  <Wolfein_Apparel_Shell.label>沃芬族外層衣物</Wolfein_Apparel_Shell.label>
+  
+  <!-- EN: Sundry -->
+  <Wolfein_Apparel_Sundry.label>沃芬族其他衣物</Wolfein_Apparel_Sundry.label>
+  
+  <!-- EN: Underwear -->
+  <Wolfein_Apparel_Underwear.label>沃芬族內衣</Wolfein_Apparel_Underwear.label>
+  
+</LanguageData>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <EffecterDef>
+    <defName>Wolfein_ArtificialMoonActive</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <fleckDef>Wolfein_Fleck_ArtificialMoonGlow</fleckDef>
+        <burstCount>1</burstCount>
+        <scale>1.5~2.0</scale>
+        <color>(1,1,1,0.2)</color>
+        <chancePerTick>0.01</chancePerTick>
+        <positionOffset>(0,0,1.0)</positionOffset>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <fleckDef>Wolfein_Fleck_ArtificialMoonRays_A</fleckDef>
+        <burstCount>1</burstCount>
+        <scale>1.5~2.0</scale>
+        <color>(1,1,1,0.3)</color>
+        <chancePerTick>0.01</chancePerTick>
+        <angle>0~360</angle>
+        <rotationRate>-5~5</rotationRate>
+        <positionOffset>(0,0,1.0)</positionOffset>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <fleckDef>Wolfein_Fleck_ArtificialMoonRays_B</fleckDef>
+        <burstCount>1</burstCount>
+        <scale>1.5~2.0</scale>
+        <color>(1,1,1,0.3)</color>
+        <chancePerTick>0.01</chancePerTick>
+        <angle>0~360</angle>
+        <rotationRate>-5~5</rotationRate>
+        <positionOffset>(0,0,1.0)</positionOffset>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+  </EffecterDef>
+
+</Defs>

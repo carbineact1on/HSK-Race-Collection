@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <StyleItemCategoryDef>
+        <defName>WolfeinHair_Category</defName>
+        <label>Wolfein_hair</label>
+    </StyleItemCategoryDef>
+
+    <HairDef>
+        <defName>Wolfein_HairNull</defName>
+        <label>Wolfein hair style</label>
+        <hairGender>Any</hairGender>
+        <texPath>Wolfein/HairNull/Null</texPath>
+        <category>Misc</category>
+        <styleTags>
+            <li>WolfeinHair_Category</li>
+        </styleTags>
+    </HairDef>
+
+    <!--<HairDef>
+    <HairDef Abstract="True" Name="BaseWolfeinHair">
+        <styleTags>
+            <li>WolfeinHair_Category</li>
+        </styleTags>
+        <styleGender>Any</styleGender>
+        <category>Misc</category>
+    </HairDef>
+
+    <HairDef ParentName="BaseWolfeinHair">
+        <defName>Wolfein_Hair_0</defName>
+        <label>Wolfein Hair 0</label>
+        <texPath>Wolfein/Hair/hair</texPath>
+    </HairDef>
+
+    <HairDef ParentName="BaseWolfeinHair">
+        <defName>Wolfein_Hair_1</defName>
+        <label>Wolfein Hair 1</label>
+        <texPath>Wolfein/Hair/hair1</texPath>
+    </HairDef>
+
+    <HairDef ParentName="BaseWolfeinHair">
+        <defName>Wolfein_Hair_2</defName>
+        <label>Wolfein Hair 2</label>
+        <texPath>Wolfein/Hair/hair2</texPath>
+    </HairDef>
+
+    <HairDef ParentName="BaseWolfeinHair">
+        <defName>Wolfein_Hair_3</defName>
+        <label>Wolfein Hair 3</label>
+        <texPath>Wolfein/Hair/hair3</texPath>
+    </HairDef>
+
+    <HairDef ParentName="BaseWolfeinHair">
+        <defName>Wolfein_Hair_4</defName>
+        <label>Wolfein Hair 4</label>
+        <texPath>Wolfein/Hair/hair4</texPath>
+    </HairDef>
+
+    <HairDef ParentName="BaseWolfeinHair">
+        <defName>Wolfein_Hair_5</defName>
+        <label>Wolfein Hair 5</label>
+        <texPath>Wolfein/Hair/hair5</texPath>
+    </HairDef>
+
+    <HairDef ParentName="BaseWolfeinHair">
+        <defName>Wolfein_Hair_6</defName>
+        <label>Wolfein Hair 6</label>
+        <texPath>Wolfein/Hair/hair6</texPath>
+    </HairDef>
+
+    <HairDef ParentName="BaseWolfeinHair">
+        <defName>Wolfein_Hair_7</defName>
+        <label>Wolfein Hair 7</label>
+        <texPath>Wolfein/Hair/hair7</texPath>
+    </HairDef>
+
+    <HairDef ParentName="BaseWolfeinHair">
+        <defName>Wolfein_Hair_8</defName>
+        <label>Wolfein Hair 8</label>
+        <texPath>Wolfein/Hair/hair8</texPath>
+    </HairDef>
+
+    <HairDef ParentName="BaseWolfeinHair">
+        <defName>Wolfein_Hair_9</defName>
+        <label>Wolfein Hair 9</label>
+        <texPath>Wolfein/Hair/hair9</texPath>
+    </HairDef>
+
+    <HairDef ParentName="BaseWolfeinHair">
+        <defName>Wolfein_Hair_10</defName>
+        <label>Wolfein Hair 10</label>
+        <texPath>Wolfein/Hair/hair10</texPath>
+    </HairDef>
+
+    <HairDef ParentName="BaseWolfeinHair">
+        <defName>Wolfein_Hair_11</defName>
+        <label>Wolfein Hair 11</label>
+        <texPath>Wolfein/Hair/hair11</texPath>
+    </HairDef>
+
+    <HairDef ParentName="BaseWolfeinHair">
+        <defName>Wolfein_Hair_12</defName>
+        <label>Wolfein Hair 12</label>
+        <texPath>Wolfein/Hair/hair12</texPath>
+    </HairDef>
+
+    <HairDef ParentName="BaseWolfeinHair">
+        <defName>Wolfein_Hair_13</defName>
+        <label>Wolfein Hair 13</label>
+        <texPath>Wolfein/Hair/hair13</texPath>
+    </HairDef>
+
+    <HairDef ParentName="BaseWolfeinHair">
+        <defName>Wolfein_Hair_14</defName>
+        <label>Wolfein Hair 14</label>
+        <texPath>Wolfein/Hair/hair14</texPath>
+    </HairDef>
+
+    <HairDef ParentName="BaseWolfeinHair">
+        <defName>Wolfein_Hair_15</defName>
+        <label>Wolfein Hair 15</label>
+        <texPath>Wolfein/Hair/hair15</texPath>
+    </HairDef>
+
+    <HairDef ParentName="BaseWolfeinHair">
+        <defName>Wolfein_Hair_16</defName>
+        <label>Wolfein Hair 16</label>
+        <texPath>Wolfein/Hair/hair16</texPath>
+    </HairDef>
+
+    <HairDef ParentName="BaseWolfeinHair">
+        <defName>Wolfein_Hair_17</defName>
+        <label>Wolfein Hair 17</label>
+        <texPath>Wolfein/Hair/hair17</texPath>
+    </HairDef>
+
+    <HairDef ParentName="BaseWolfeinHair">
+        <defName>Wolfein_Hair_18</defName>
+        <label>Wolfein Hair 18</label>
+        <texPath>Wolfein/Hair/hair18</texPath>
+    </HairDef>
+
+    <HairDef ParentName="BaseWolfeinHair">
+        <defName>Wolfein_Hair_19</defName>
+        <label>Wolfein Hair 19</label>
+        <texPath>Wolfein/Hair/hair19</texPath>
+	</HairDef>-->
+
+</Defs>

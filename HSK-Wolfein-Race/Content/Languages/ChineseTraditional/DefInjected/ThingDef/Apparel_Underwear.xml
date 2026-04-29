@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein Bandage -->
+  <Wolfein_Bandage.label>沃芬族繃帶內衣</Wolfein_Bandage.label>
+  <!-- EN: A makeshift lingerie set made from wrapped fabric strips, designed for temporary coverage. -->
+  <Wolfein_Bandage.description>用布條包紮製成的簡陋內衣，用來臨時遮體。</Wolfein_Bandage.description>
+  
+  <!-- EN: Wolfein Black Pantyhose -->
+  <Wolfein_Black_Pantynose.label>沃芬族深色連褲襪內衣</Wolfein_Black_Pantynose.label>
+  <!-- EN: A dark-colored lingerie set paired with tights, designed to provide some warmth. -->
+  <Wolfein_Black_Pantynose.description>搭配了連褲襪的深色內衣套裝，並且具備一些保暖效果。</Wolfein_Black_Pantynose.description>
+  
+  <!-- EN: Wolfein Black Sports Shorts -->
+  <Wolfein_Black_SportsShorts.label>沃芬族深色短身運動內衣</Wolfein_Black_SportsShorts.label>
+  <!-- EN: A short dark-colored sports bra with excellent breathability. -->
+  <Wolfein_Black_SportsShorts.description>一件短款的深色運動內衣，擁有良好的透氣效果。</Wolfein_Black_SportsShorts.description>
+  
+  <!-- EN: Wolfein Black Sports Underwear -->
+  <Wolfein_Black_SportsUnderwear.label>沃芬族深色長身運動內衣</Wolfein_Black_SportsUnderwear.label>
+  <!-- EN: A long dark-colored sports bra with excellent breathability. -->
+  <Wolfein_Black_SportsUnderwear.description>一件長款的深色運動內衣，擁有良好的透氣效果。</Wolfein_Black_SportsUnderwear.description>
+  
+  <!-- EN: Wolfein Black_Stocking -->
+  <Wolfein_Black_Stocking.label>沃芬族深色絲襪內衣</Wolfein_Black_Stocking.label>
+  <!-- EN: A comfortable dark-colored lingerie set paired with over-the-knee stockings. -->
+  <Wolfein_Black_Stocking.description>一件搭配了過膝絲襪的舒適深色內衣套裝。</Wolfein_Black_Stocking.description>
+  
+  <!-- EN: Wolfein Black_Suspender -->
+  <Wolfein_Black_Suspender.label>沃芬族深色吊帶襪內衣</Wolfein_Black_Suspender.label>
+  <!-- EN: A dark-colored lingerie set paired with garter stockings, blending elegance and sensuality. -->
+  <Wolfein_Black_Suspender.description>一件搭配了吊帶襪的深色內衣套裝，優雅與性感並存。</Wolfein_Black_Suspender.description>
+  
+  <!-- EN: Wolfein Combat Tight Underwear -->
+  <Wolfein_CombattightUnderwear.label>沃芬族戰鬥緊身內衣</Wolfein_CombattightUnderwear.label>
+  <!-- EN: A form-fitting lingerie set designed for combat, offering greater protection compared to regular underwear. -->
+  <Wolfein_CombattightUnderwear.description>一件適合在作戰中穿戴的緊身內衣，與普通內衣相比它擁有更高的防護能力。</Wolfein_CombattightUnderwear.description>
+  
+  <!-- EN: Wolfein Lightweight Combat Suit -->
+  <Wolfein_LightweightCombatSuit.label>沃芬族輕量級作戰內衣</Wolfein_LightweightCombatSuit.label>
+  <!-- EN: A lightweight combat undergarment for the Wofen, sacrificing protection to enhance the wearer's mobility. -->
+  <Wolfein_LightweightCombatSuit.description>一件沃芬族的輕量級作戰內衣，以放棄防護性為代價來提高穿戴者的機動性。</Wolfein_LightweightCombatSuit.description>
+  
+  <!-- EN: Wolfein Mesh Socks -->
+  <Wolfein_MeshSocks.label>沃芬族網襪內衣</Wolfein_MeshSocks.label>
+  <!-- EN: A lingerie set paired with fishnet stockings, exuding a unique allure. -->
+  <Wolfein_MeshSocks.description>一件搭配了鏤空網襪的內衣套裝，散發著獨特的魅力。</Wolfein_MeshSocks.description>
+  
+  <!-- EN: Wolfein Skintight Garment -->
+  <Wolfein_SkintightGarment.label>沃芬族戰鬥連身緊身內衣</Wolfein_SkintightGarment.label>
+  <!-- EN: A combat bodysuit designed to cover the entire body, providing enhanced protection for the wearer. -->
+  <Wolfein_SkintightGarment.description>一件戰鬥用的連身緊身內衣，它可以覆蓋全身以此來更好的保護穿戴者。</Wolfein_SkintightGarment.description>
+  
+  <!-- EN: Wolfein White Pantynose -->
+  <Wolfein_White_Pantynose.label>沃芬族淺色連褲襪內衣</Wolfein_White_Pantynose.label>
+  <!-- EN: A light-colored lingerie set paired with tights, designed to provide some warmth. -->
+  <Wolfein_White_Pantynose.description>搭配了連褲襪的淺色內衣套裝，並且具備一些保暖效果。</Wolfein_White_Pantynose.description>
+  
+  <!-- EN: Wolfein White Sports Shorts -->
+  <Wolfein_White_SportsShorts.label>沃芬族淺色短身運動內衣</Wolfein_White_SportsShorts.label>
+  <!-- EN: A short light-colored sports bra with excellent breathability. -->
+  <Wolfein_White_SportsShorts.description>一件短款的淺色運動內衣，擁有良好的透氣效果。</Wolfein_White_SportsShorts.description>
+  
+  <!-- EN: Wolfein White Sports Underwear -->
+  <Wolfein_White_SportsUnderwear.label>沃芬族淺色長身運動內衣</Wolfein_White_SportsUnderwear.label>
+  <!-- EN: A long light-colored sports bra with excellent breathability. -->
+  <Wolfein_White_SportsUnderwear.description>一件長款的淺色運動內衣，擁有良好的透氣效果。</Wolfein_White_SportsUnderwear.description>
+  
+  <!-- EN: Wolfein White_Stocking -->
+  <Wolfein_White_Stocking.label>沃芬族淺色絲襪內衣</Wolfein_White_Stocking.label>
+  <!-- EN: A comfortable light-colored lingerie set paired with over-the-knee stockings. -->
+  <Wolfein_White_Stocking.description>一件搭配了過膝絲襪的舒適淺色內衣套裝。</Wolfein_White_Stocking.description>
+  
+  <!-- EN: Wolfein White_Suspender -->
+  <Wolfein_White_Suspender.label>沃芬族淺色吊帶襪內衣</Wolfein_White_Suspender.label>
+  <!-- EN: A light-colored lingerie set paired with garter stockings, combining elegance and sensuality. -->
+  <Wolfein_White_Suspender.description>一件搭配了吊帶襪的淺色內衣套裝，優雅與性感並存。</Wolfein_White_Suspender.description>
+
+  <!-- EN: Wolfein Sleep Gown -->
+  <Wolfein_SleepGown.label>沃芬族睡紗</Wolfein_SleepGown.label>
+  <!-- EN: Extremely soft and breathable, making it ideal for sleeping during the summer. Aside from being somewhat revealing, it has few drawbacks. -->
+  <Wolfein_SleepGown.description>非常輕柔透氣，適合夏天穿著入眠。除了過於暴露沒什麼缺點。</Wolfein_SleepGown.description>
+  
+</LanguageData>

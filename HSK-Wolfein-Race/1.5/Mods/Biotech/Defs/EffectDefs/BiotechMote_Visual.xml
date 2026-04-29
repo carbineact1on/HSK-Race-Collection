@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="MoteBase">
+        <defName>Wolfein_GestatorForming</defName>
+        <mote>
+            <fadeInTime>0.1</fadeInTime>
+            <solidTime>999999999</solidTime>
+            <fadeOutTime>0.5</fadeOutTime>
+            <needsMaintenance>True</needsMaintenance>
+        </mote>
+        <graphicData>
+            <texPath>Wolfein/Blank/Blank</texPath>
+            <color>(1.0, 1.0, 1.0, 0)</color>
+            <drawSize>(3, 3)</drawSize>
+            <drawOffset>(0, 0, 0.3)</drawOffset>
+        </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="MoteBase">
+        <defName>Wolfein_Mote_GraserBeam</defName>
+        <thingClass>MoteDualAttached</thingClass>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <mote>
+            <fadeInTime>0.2</fadeInTime>
+            <fadeOutTime>0.3</fadeOutTime>
+            <solidTime>999999</solidTime>
+            <needsMaintenance>True</needsMaintenance>
+            <rotateTowardsTarget>True</rotateTowardsTarget>
+            <scaleToConnectTargets>True</scaleToConnectTargets>
+            <fadeOutUnmaintained>True</fadeOutUnmaintained>
+        </mote>
+        <drawOffscreen>true</drawOffscreen>
+        <graphicData>
+            <texPath>Wolfein/Effect/GraserBeam</texPath>
+            <graphicClass>Graphic_MoteWithAgeSecs</graphicClass>
+            <shaderType>MoteBeam</shaderType>
+            <drawSize>(1.2,1.0)</drawSize>
+            <shaderParameters>
+                <_ExtraTexA>/Things/Mote/BeamSecondaryNoise_A</_ExtraTexA>
+                <_ExtraTexB>/Things/Mote/BeamSecondaryNoise_B</_ExtraTexB>
+                <_ScrollSpeedA>-4 </_ScrollSpeedA>
+                <_ScrollSpeedB>3</_ScrollSpeedB>
+                <_Intensity>2</_Intensity>
+            </shaderParameters>
+        </graphicData>
+    </ThingDef>
+
+    <FleckDef ParentName="FleckBase_Thrown">
+        <defName>Wolfein_Fleck_BeamSpark</defName>
+        <fadeInTime>0.03</fadeInTime>
+        <solidTime>0.1</solidTime>
+        <fadeOutTime>0.5</fadeOutTime>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <graphicData>
+          <texPath>Wolfein/Effect/SparkThrownRed</texPath>
+          <shaderType>MoteGlow</shaderType>
+          <drawSize>0.08</drawSize>
+          <color>(0.7, 0.9, 1.0, 1.0)</color>
+        </graphicData>
+        <acceleration>(0, 0, 0.5)</acceleration>
+        <speedPerTime>0.2~0.5</speedPerTime>
+      </FleckDef>
+</Defs>

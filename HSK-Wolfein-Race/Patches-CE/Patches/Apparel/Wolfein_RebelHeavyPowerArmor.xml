@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- 抵抗军重型动力甲（固定材料） -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wolfein_RebelHeavyPowerArmor"]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>380</MaxHitPoints>
+            <Flammability>0.4</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+            <Mass>18</Mass>
+            <EquipDelay>18</EquipDelay>
+            <WorkToMake>90000</WorkToMake>
+            <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+            <Insulation_Cold>4</Insulation_Cold>
+            <Insulation_Heat>2</Insulation_Heat>
+            <ArmorRating_Sharp>16</ArmorRating_Sharp>
+            <ArmorRating_Blunt>40</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.18</ArmorRating_Heat>
+            <ArmorRating_Electric>0</ArmorRating_Electric>
+            <Bulk>1</Bulk>
+            <WornBulk>4</WornBulk>
+          </statBases>
+        </value>
+      </li>
+
+      <li Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[defName="Wolfein_RebelHeavyPowerArmor"]</xpath>
+        <value>
+          <li Class="CombatExtended.PartialArmorExt">
+            <stats>
+              <li>
+                <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+                <parts>
+                  <li>Hand</li>
+                  <li>Finger</li>
+                  <li>Foot</li>
+                  <li>Toe</li>
+                </parts>
+              </li>
+            </stats>
+          </li>
+        </value>
+      </li>
+
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Wolfein_RebelHeavyPowerArmor"]/equippedStatOffsets</xpath>
+		<value>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
+      <CarryBulk>10</CarryBulk>
+      <CarryWeight>50</CarryWeight>
+		</value>
+	</Operation>
+</Patch>

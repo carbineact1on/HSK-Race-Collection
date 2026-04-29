@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN:
+    <li>questDescription->A deserter from the Megacorp is contacting us near the colony. She is currently wanted for sabotage and theft of critical Megacorp assets. [Deserter0_nameDef] seeks our protection and is willing to join the colony in service to us. She also claims to possess important information related to advanced equipment from the Wolfein royal era, as well as other valuable Megacorp assets, and is willing to share them with us.
+
+Be advised: the Wolfein Megacorp will not tolerate the loss of its critical assets. Should we choose to shelter [Deserter0_nameDef], the Megacorp will undoubtedly declare us an enemy, and their forces will immediately launch an assault on our colony.</li>
+  -->
+  <Wolfein_MegaCropMechDeserter.questDescriptionRules.rulesStrings><li>questDescription->一名来自军企的叛逃人员正在殖民地附近联系我们。她由于涉嫌破坏窃取军企重要资产而正被通缉追捕。[Deserter0_nameDef]希望得到我们的庇护并愿意加入殖民地为我们效劳，同时[Deserter0_nameDef]表明其携带着与沃芬皇族时期高级装备相关的重要信息和其他军企重要资产，并很乐意与我们分享。\n\n需注意的是，沃芬军企并不会坐视重要资产外流发生，我们若选择接纳[Deserter0_nameDef]，毫无疑问的是军企将于我们为敌，追击而来的军企部队也会马上向我们进攻。</li></Wolfein_MegaCropMechDeserter.questDescriptionRules.rulesStrings>
+  <!-- EN:
+    <li>questName->Defector</li>
+  -->
+  <Wolfein_MegaCropMechDeserter.questNameRules.rulesStrings><li>questName->叛逃者</li></Wolfein_MegaCropMechDeserter.questNameRules.rulesStrings>
+  <!-- EN: Purge Order -->
+  <Wolfein_MegaCropMechDeserter.root.nodes.Delay-1.node.nodes.Letter.label.slateRef>清除令</Wolfein_MegaCropMechDeserter.root.nodes.Delay-1.node.nodes.Letter.label.slateRef>
+  <!-- EN: The Megacorp mechanical forces have received orders to carry out a purge operation against the colony harboring the defector. Lethal force is fully authorized. Regardless of evacuation attempts, both the colony and the defector are to be treated as targets for elimination. -->
+  <Wolfein_MegaCropMechDeserter.root.nodes.Delay-1.node.nodes.Letter.text.slateRef>军企机械部队已接到指令，对庇护叛徒的殖民地进行清除行动。授权使用致命火力，无论撤离与否，目标与叛徒一并视为消灭对象。</Wolfein_MegaCropMechDeserter.root.nodes.Delay-1.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>

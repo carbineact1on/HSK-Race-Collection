@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- 民用base -->
+    <ThingDef Name="Wolfein_BaseMechCivil" ParentName="Wolfein_BaseMech" Abstract="True">
+        <race>
+            <intelligence>ToolUser</intelligence>
+            <thinkTreeMain>Mechanoid</thinkTreeMain>
+            <baseBodySize>1.0</baseBodySize>
+            <body>Wolfein_MechHumanoid</body>
+            <baseHealthScale>1.0</baseHealthScale>
+            <mechFixedSkillLevel>12</mechFixedSkillLevel>            <!-- 专职型号技能等级 -->
+            <soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+            <lifeStageAges>
+                <li>
+                    <def>MechanoidFullyFormed</def>
+                    <minAge>0</minAge>
+                </li>
+            </lifeStageAges>
+        </race>
+        <tools>
+            <li>
+                <label>left fist</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>6.0</power>
+                <cooldownTime>2.0</cooldownTime>
+                <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+                <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+            </li>
+            <li>
+                <label>right fist</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>6.0</power>
+                <cooldownTime>2.0</cooldownTime>
+                <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+                <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+            </li>
+        </tools>
+        <statBases>
+            <ConstructionSpeed>0.4</ConstructionSpeed>
+            <CleaningSpeed>0.4</CleaningSpeed>
+            <FoodPoisonChance>0.001</FoodPoisonChance>
+            <MoveSpeed>4.5</MoveSpeed>
+            <MarketValue>1400</MarketValue>
+            <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+            <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+            <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">2</BandwidthCost>            <!-- 带宽 -->
+        </statBases>
+        <comps>
+        </comps>
+    </ThingDef>
+    <PawnKindDef Name="Wolfein_BaseMechKind_Civil" ParentName="Wolfein_BaseMechKind" Abstract="True">
+        <combatPower>20</combatPower>
+        <techHediffsChance>1</techHediffsChance>
+        <techHediffsMoney>9999~9999</techHediffsMoney>
+    </PawnKindDef>
+
+    <!-- 基础型 -->
+    <ThingDef ParentName="Wolfein_BaseMechCivil">
+        <defName>Wolfein_Mechanoid_CivilBase</defName>
+        <label>Basic Civilian Mech Unit</label>
+        <description>After the war, the MegaCorp repurposed some of its military-grade mech units into civilian models to address the population shortage and perform simple tasks. Upon release, they quickly became a fashionable accessory among corporate executives. Thanks to their retained military-level strength, these units also conveniently eliminated the need for personal bodyguards.</description>
+        <statBases>
+            <WorkSpeedGlobal MayRequire="Ludeon.RimWorld.Biotech">0.5</WorkSpeedGlobal>
+        </statBases>
+        <race>
+            <mechFixedSkillLevel>8</mechFixedSkillLevel>
+            <mechEnabledWorkTypes>
+                <li>Hauling</li>
+                <li>Cleaning</li>
+            </mechEnabledWorkTypes>
+        </race>
+    </ThingDef>
+    <PawnKindDef ParentName="Wolfein_BaseMechKind_Civil">
+        <defName>Wolfein_Mechanoid_CivilBase</defName>
+        <label>Basic Civilian Mech Unit</label>
+        <race>Wolfein_Mechanoid_CivilBase</race>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>Wolfein/Mech/CivilBase/CivilBase</texPath>
+                    <maskPath>Wolfein/Mech/Mask/Mask</maskPath>
+                    <shaderType>CutoutWithOverlay</shaderType>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>1.6</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.8, 0.4)</volume>
+                    </shadowData>
+                </bodyGraphicData>
+            </li>
+        </lifeStages>
+    </PawnKindDef>
+
+    <!-- A 工人 -->
+    <ThingDef ParentName="Wolfein_BaseMechCivil">
+        <defName>Wolfein_Mechanoid_CivilA</defName>
+        <label>Construction-Type Civilian Mech Unit</label>
+        <description>Designed to handle most construction tasks, this mech can also perform basic component processing when needed. Though intended for civilian use, they are occasionally spotted on the battlefield assisting in the setup of defensive structures.</description>
+        <statBases>
+            <WorkSpeedGlobal MayRequire="Ludeon.RimWorld.Biotech">0.7</WorkSpeedGlobal>
+        </statBases>
+        <race>
+            <mechEnabledWorkTypes>
+                <li>Hauling</li>
+                <li>Construction</li>
+                <li>Crafting</li>
+                <li>Smithing</li>
+                <li>Mining</li>
+            </mechEnabledWorkTypes>
+        </race>
+    </ThingDef>
+    <PawnKindDef ParentName="Wolfein_BaseMechKind_Civil">
+        <defName>Wolfein_Mechanoid_CivilA</defName>
+        <label>民用A</label>
+        <race>Wolfein_Mechanoid_CivilA</race>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>Wolfein/Mech/CivilA/CivilA</texPath>
+                    <maskPath>Wolfein/Mech/Mask/Mask</maskPath>
+                    <shaderType>CutoutWithOverlay</shaderType>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>1.6</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.8, 0.4)</volume>
+                    </shadowData>
+                </bodyGraphicData>
+            </li>
+        </lifeStages>
+    </PawnKindDef>
+
+    <!-- B 居家 -->
+    <ThingDef ParentName="Wolfein_BaseMechCivil">
+        <defName>Wolfein_Mechanoid_CivilB</defName>
+        <label>Domestic-Type Civilian Mech Unit</label>
+        <description>Capable of handling all household needs for Wolfein families, this model is especially praised for its childcare features—boasting a 99.9% satisfaction rate.</description>
+        <statBases>
+            <WorkSpeedGlobal MayRequire="Ludeon.RimWorld.Biotech">0.7</WorkSpeedGlobal>
+            <CleaningSpeed>0.9</CleaningSpeed>
+        </statBases>
+        <race>
+            <mechEnabledWorkTypes>
+                <li>Hauling</li>
+                <li>Cleaning</li>
+                <li>Firefighter</li>
+                <li>Cooking</li>
+                <li>Doctor</li>
+            </mechEnabledWorkTypes>
+        </race>
+    </ThingDef>
+    <PawnKindDef ParentName="Wolfein_BaseMechKind_Civil">
+        <defName>Wolfein_Mechanoid_CivilB</defName>
+        <label>Domestic-Type Civilian Mech Unit</label>
+        <race>Wolfein_Mechanoid_CivilB</race>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>Wolfein/Mech/CivilB/CivilB</texPath>
+                    <maskPath>Wolfein/Mech/Mask/Mask</maskPath>
+                    <shaderType>CutoutWithOverlay</shaderType>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>1.6</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.8, 0.4)</volume>
+                    </shadowData>
+                </bodyGraphicData>
+            </li>
+        </lifeStages>
+    </PawnKindDef>
+
+    <!-- C 耕种 -->
+    <ThingDef ParentName="Wolfein_BaseMechCivil">
+        <defName>Wolfein_Mechanoid_CivilC</defName>
+        <label>Agricultural-Type Civilian Mech Unit</label>
+        <description>Widely deployed in MegaCorp-controlled plant factories, this model is purpose-built to meet the corporation’s strict demands for production efficiency, with every aspect of its design focused solely on output.</description>
+        <statBases>
+            <WorkSpeedGlobal MayRequire="Ludeon.RimWorld.Biotech">0.7</WorkSpeedGlobal>
+        </statBases>
+        <race>
+            <mechEnabledWorkTypes>
+                <li>Hauling</li>
+                <li>PlantCutting</li>
+                <li>Growing</li>
+            </mechEnabledWorkTypes>
+        </race>
+    </ThingDef>
+    <PawnKindDef ParentName="Wolfein_BaseMechKind_Civil">
+        <defName>Wolfein_Mechanoid_CivilC</defName>
+        <label>Agricultural-Type Civilian Mech Unit</label>
+        <race>Wolfein_Mechanoid_CivilC</race>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>Wolfein/Mech/CivilC/CivilC</texPath>
+                    <maskPath>Wolfein/Mech/Mask/Mask</maskPath>
+                    <shaderType>CutoutWithOverlay</shaderType>
+                    <graphicClass>Graphic_Multi</graphicClass>
+                    <drawSize>1.6</drawSize>
+                    <shadowData>
+                        <volume>(0.4, 0.8, 0.4)</volume>
+                    </shadowData>
+                </bodyGraphicData>
+            </li>
+        </lifeStages>
+    </PawnKindDef>
+
+
+
+
+
+</Defs>

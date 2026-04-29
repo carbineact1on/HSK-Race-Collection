@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein mech charger -->
+  <Wolfein_MechCharger.label>沃芬机械体充电站</Wolfein_MechCharger.label>
+  <!-- EN: Lightweight general-purpose charging station, compatible with humanoid machines, drones, and other light to medium units. Supports multi-port rapid energy replenishment, making it suitable for routine patrols and post-combat energy recovery. -->
+  <Wolfein_MechCharger.description>轻型通用充电设施，适配人形机械体、无人机等轻中型单位。支持多端口快速补能，适合日常巡逻与作战后的能源恢复。</Wolfein_MechCharger.description>
+  
+  <!-- EN: Wolfein Large Mech charger -->
+  <Wolfein_MechChargerLarge.label>沃芬大型机械体充电站</Wolfein_MechChargerLarge.label>
+  <!-- EN: Heavy-duty charging station, developed for heavy machinery. It provides high-power, stable energy replenishment to meet the endurance demands after prolonged high-intensity operations. -->
+  <Wolfein_MechChargerLarge.description>重载型充电设施，针对重型机械体开发。提供高功率稳定能源补给，满足长时间高强度作业后的续航需求。</Wolfein_MechChargerLarge.description>
+  
+</LanguageData>

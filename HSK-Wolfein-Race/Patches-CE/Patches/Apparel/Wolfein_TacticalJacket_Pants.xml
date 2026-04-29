@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- 沃芬族冲锋衣（裤装）（固定材料） -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wolfein_TacticalJacket_Pants"]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>250</MaxHitPoints>
+            <Flammability>0.5</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+            <Mass>1</Mass>
+            <EquipDelay>1.5</EquipDelay>
+            <WorkToMake>4000</WorkToMake>
+            <Insulation_Cold>11</Insulation_Cold>
+            <Insulation_Heat>9</Insulation_Heat>
+            <ArmorRating_Sharp>4</ArmorRating_Sharp>
+            <ArmorRating_Blunt>3</ArmorRating_Blunt>
+            <ArmorRating_Heat>0</ArmorRating_Heat>
+            <ArmorRating_Electric>0</ArmorRating_Electric>
+            <Bulk>0.3</Bulk>
+            <WornBulk>2.1</WornBulk>
+          </statBases>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Wolfein_TacticalJacket_Pants"]/equippedStatOffsets</xpath>
+		<value>
+      <CarryBulk>11</CarryBulk>
+      <CarryWeight>8</CarryWeight>
+		</value>
+	</Operation>
+</Patch>

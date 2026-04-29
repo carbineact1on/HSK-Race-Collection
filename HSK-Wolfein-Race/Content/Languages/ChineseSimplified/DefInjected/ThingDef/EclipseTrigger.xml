@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein Eclipse Trigger -->
+  <Wolfein_EclipseTrigger.label>月蚀激发剂</Wolfein_EclipseTrigger.label>
+  <!-- EN: A specialized enhancement serum developed by the MegaCorp specifically for the Wolfein. It forcibly activates their latent physical functions during non-full moon periods. To ensure combat stability, all addictive components have been removed from the formula. Due to its mechanism being deeply reliant on the unique physiology of the Wolfein, use by other species is typically ineffective—or may trigger unpredictable side effects.-->
+  <Wolfein_EclipseTrigger.description>由军企专为沃芬族设计的强化药剂，可在非满月期间强制激发其潜在身体机能，为确保战斗人员的稳定性，制剂已剔除潜在成瘾成分。因其机制深度依赖沃芬族特有的生理结构，其他种族使用后通常无效，或引发不可预测的副作用。</Wolfein_EclipseTrigger.description>
+  <!-- EN: Inject {0} -->
+  <Wolfein_EclipseTrigger.ingestible.ingestCommandString>注射 {0}</Wolfein_EclipseTrigger.ingestible.ingestCommandString>
+  <!-- EN: Injecting {0}. -->
+  <Wolfein_EclipseTrigger.ingestible.ingestReportString>注射中 {0}</Wolfein_EclipseTrigger.ingestible.ingestReportString>
+  
+</LanguageData>

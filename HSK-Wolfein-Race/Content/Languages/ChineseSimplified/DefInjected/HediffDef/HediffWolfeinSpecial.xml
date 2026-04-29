@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <!-- EN: Lunar Phase Effect -->
+    <Wolfein_MoonStrength.label>月相效应</Wolfein_MoonStrength.label>
+    <!-- EN: The physiological state of the Wolfein species fluctuates at night in response to lunar phases. As the full moon approaches, their sensory perception, reaction speed, and aggression intensify. These effects are especially pronounced in pureblood individuals. -->
+    <Wolfein_MoonStrength.description>沃芬族在夜间的生理状态会随月相变化而波动，越接近满月，其感知能力、反应速度与攻击性便越发增强，而反之在新月时分则最为羸弱。纯血种沃芬受到的影响更为显著。</Wolfein_MoonStrength.description>
+    <!-- EN: disable -->
+    <Wolfein_MoonStrength.stages.disable.label>抑制期</Wolfein_MoonStrength.stages.disable.label>
+    <!-- EN: New Moon (Half) -->
+    <Wolfein_MoonStrength.stages.1.label>新月 半盛期</Wolfein_MoonStrength.stages.1.label>
+    <!-- EN: New Moon (Full) -->
+    <Wolfein_MoonStrength.stages.2.label>新月 鼎盛期</Wolfein_MoonStrength.stages.2.label>
+    <!-- EN: Full Moon (Half) -->
+    <Wolfein_MoonStrength.stages.3.label>满月 半盛期</Wolfein_MoonStrength.stages.3.label>
+    <!-- EN: Full Moon (Full) -->
+    <Wolfein_MoonStrength.stages.4.label>满月 鼎盛期</Wolfein_MoonStrength.stages.4.label>
+    <!-- EN: New Moon (Pureblood - Half) -->
+    <Wolfein_MoonStrength.stages.5.label>新月 半盛期[纯血种]</Wolfein_MoonStrength.stages.5.label>
+    <!-- EN: New Moon (Pureblood - Full) -->
+    <Wolfein_MoonStrength.stages.6.label>新月 鼎盛期[纯血种]</Wolfein_MoonStrength.stages.6.label>
+    <!-- EN: Full Moon (Pureblood - Half) -->
+    <Wolfein_MoonStrength.stages.7.label>满月 半盛期[纯血种]</Wolfein_MoonStrength.stages.7.label>
+    <!-- EN: Full Moon (Pureblood - Full) -->
+    <Wolfein_MoonStrength.stages.8.label>满月 鼎盛期[纯血种]</Wolfein_MoonStrength.stages.8.label>
+
+    <!-- EN: Night wolfein strength -->
+    <Wolfein_NightStrength.label>夜间效应</Wolfein_NightStrength.label>
+    <!-- EN: An enhancement that occurs in wolfeins over a period of time, often at night. -->
+    <Wolfein_NightStrength.description>沃芬族在特定时间内产生的渐进性身体机能强化现象，通常发生于夜间，在深夜时到达鼎盛期。</Wolfein_NightStrength.description>
+    <!-- EN: a period of enhancement -->
+    <Wolfein_NightStrength.labelNoun>增强阶段</Wolfein_NightStrength.labelNoun>
+    <!-- EN: disable -->
+    <Wolfein_NightStrength.stages.disable.label>抑制期</Wolfein_NightStrength.stages.disable.label>
+    <!-- EN: initial -->
+    <Wolfein_NightStrength.stages.initial.label>初现期</Wolfein_NightStrength.stages.initial.label>
+    <!-- EN: minor -->
+    <Wolfein_NightStrength.stages.minor.label>微增期</Wolfein_NightStrength.stages.minor.label>
+    <!-- EN: serious -->
+    <Wolfein_NightStrength.stages.serious.label>强化期</Wolfein_NightStrength.stages.serious.label>
+    <!-- EN: extreme -->
+    <Wolfein_NightStrength.stages.extreme.label>鼎盛期</Wolfein_NightStrength.stages.extreme.label>
+
+</LanguageData>

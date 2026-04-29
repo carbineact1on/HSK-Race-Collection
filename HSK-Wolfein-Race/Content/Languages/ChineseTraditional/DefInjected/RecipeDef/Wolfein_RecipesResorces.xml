@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: cook Wolfein Packing Staff Meals -->
+  <Cook_Wolfein_PackingStaffMeals.label>烹飪包裝員工餐</Cook_Wolfein_PackingStaffMeals.label>
+  <!-- EN: Preparing packaged staff meals for the Wolfein. -->
+  <Cook_Wolfein_PackingStaffMeals.description>烹飪製作沃芬族的包裝員工餐。</Cook_Wolfein_PackingStaffMeals.description>
+  <!-- EN: protein -->
+  <Cook_Wolfein_PackingStaffMeals.ingredients.0.filter.customSummary>肉食</Cook_Wolfein_PackingStaffMeals.ingredients.0.filter.customSummary>
+  <!-- EN: cook Wolfein Packing Staff Meals. -->
+  <Cook_Wolfein_PackingStaffMeals.jobString>烹飪包裝員工餐。</Cook_Wolfein_PackingStaffMeals.jobString>
+  
+  <!-- EN: cook Wolfein Packing Staff Meals x4 -->
+  <Cook_Wolfein_PackingStaffMealsBulk.label>烹飪包裝員工餐 x4</Cook_Wolfein_PackingStaffMealsBulk.label>
+  <!-- EN: Preparing packaged staff meals for the Wolfein. -->
+  <Cook_Wolfein_PackingStaffMealsBulk.description>烹飪製作四份沃芬族的包裝員工餐。</Cook_Wolfein_PackingStaffMealsBulk.description>
+  <!-- EN: protein -->
+  <Cook_Wolfein_PackingStaffMealsBulk.ingredients.0.filter.customSummary>肉食</Cook_Wolfein_PackingStaffMealsBulk.ingredients.0.filter.customSummary>
+  <!-- EN: cook Wolfein Packing Staff Meals. -->
+  <Cook_Wolfein_PackingStaffMealsBulk.jobString>烹飪包裝員工餐。</Cook_Wolfein_PackingStaffMealsBulk.jobString>
+  
+  <!-- EN: cook wolfein resistance army rations -->
+  <Cook_Wolfein_ResistanceArmyRations.label>烹飪製作抵抗軍軍糧</Cook_Wolfein_ResistanceArmyRations.label>
+  <!-- EN: Preparing resistance army rations for the Wolfein. -->
+  <Cook_Wolfein_ResistanceArmyRations.description>烹飪製作沃芬族抵抗軍軍糧</Cook_Wolfein_ResistanceArmyRations.description>
+  <!-- EN: protein -->
+  <Cook_Wolfein_ResistanceArmyRations.ingredients.0.filter.customSummary>肉食</Cook_Wolfein_ResistanceArmyRations.ingredients.0.filter.customSummary>
+  <!-- EN: cook canned resistance army rations. -->
+  <Cook_Wolfein_ResistanceArmyRations.jobString>製作沃芬族抵抗軍軍糧</Cook_Wolfein_ResistanceArmyRations.jobString>
+  
+  <!-- EN: cook wolfein resistance army rations x4 -->
+  <Cook_Wolfein_ResistanceArmyRationsBulk.label>烹飪製作抵抗軍軍糧 x4</Cook_Wolfein_ResistanceArmyRationsBulk.label>
+  <!-- EN: Preparing resistance army rations for the Wolfein. -->
+  <Cook_Wolfein_ResistanceArmyRationsBulk.description>烹飪製作四份沃芬族抵抗軍軍糧。</Cook_Wolfein_ResistanceArmyRationsBulk.description>
+  <!-- EN: protein -->
+  <Cook_Wolfein_ResistanceArmyRationsBulk.ingredients.0.filter.customSummary>肉食</Cook_Wolfein_ResistanceArmyRationsBulk.ingredients.0.filter.customSummary>
+  <!-- EN: cook canned resistance army rations. -->
+  <Cook_Wolfein_ResistanceArmyRationsBulk.jobString>製作沃芬族抵抗軍軍糧</Cook_Wolfein_ResistanceArmyRationsBulk.jobString>
+  
+  <!-- EN: make alloymaterials -->
+  <Make_Wolfein_AlloyMaterials.label>鍛造高效能合金</Make_Wolfein_AlloyMaterials.label>
+  <!-- EN: Forging a set of Wolfein alloy materials. -->
+  <Make_Wolfein_AlloyMaterials.description>鍛造一組沃芬族的高效能合金材料。</Make_Wolfein_AlloyMaterials.description>
+  <!-- EN: Making AlloyMaterials. -->
+  <Make_Wolfein_AlloyMaterials.jobString>鍛造高效能合金。</Make_Wolfein_AlloyMaterials.jobString>
+  
+  <!-- EN: make compositefabric -->
+  <Make_Wolfein_CompositeFabric.label>縫製複合面料</Make_Wolfein_CompositeFabric.label>
+  <!-- EN: Sewing a set of Wolfein composite fabric. -->
+  <Make_Wolfein_CompositeFabric.description>縫製一組沃芬族的複合面料。</Make_Wolfein_CompositeFabric.description>
+  <!-- EN: Making CompositeFabric. -->
+  <Make_Wolfein_CompositeFabric.jobString>縫製複合面料。</Make_Wolfein_CompositeFabric.jobString>
+  
+  <!-- EN: make eclipse trigger x3 -->
+  <Make_Wolfein_EclipseTrigger.label>製作月蝕激發劑x3</Make_Wolfein_EclipseTrigger.label>
+  <!-- EN: make some Wolfein eclipse trigger. -->
+  <Make_Wolfein_EclipseTrigger.description>製作三份沃芬族的月蝕激發劑。</Make_Wolfein_EclipseTrigger.description>
+  <!-- EN: Making eclipse triggers. -->
+  <Make_Wolfein_EclipseTrigger.jobString>製作月蝕激發劑。</Make_Wolfein_EclipseTrigger.jobString>
+  
+  <!-- EN: cook bacon and eggs -->
+  <Wolfein_CookBaconAndEggs.label>烹飪培根煎蛋</Wolfein_CookBaconAndEggs.label>
+  <!-- EN: Prepare bacon and eggs for the Wolfein. -->
+  <Wolfein_CookBaconAndEggs.description>烹飪沃芬族的特色培根煎蛋。</Wolfein_CookBaconAndEggs.description>
+  <!-- EN: protein -->
+  <Wolfein_CookBaconAndEggs.ingredients.0.filter.customSummary>肉食</Wolfein_CookBaconAndEggs.ingredients.0.filter.customSummary>
+  <!-- EN: eggs -->
+  <Wolfein_CookBaconAndEggs.ingredients.1.filter.customSummary>蛋類</Wolfein_CookBaconAndEggs.ingredients.1.filter.customSummary>
+  <!-- EN: Cook bacon and eggs. -->
+  <Wolfein_CookBaconAndEggs.jobString>烹飪培根煎蛋。</Wolfein_CookBaconAndEggs.jobString>
+  
+  <!-- EN: cook bacon and eggs x4 -->
+  <Wolfein_CookBaconAndEggsBulk.label>烹飪培根煎蛋x4</Wolfein_CookBaconAndEggsBulk.label>
+  <!-- EN: Preparing bacon and eggs for the Wolfein. -->
+  <Wolfein_CookBaconAndEggsBulk.description>烹飪四份沃芬族的特色培根煎蛋。</Wolfein_CookBaconAndEggsBulk.description>
+  <!-- EN: protein -->
+  <Wolfein_CookBaconAndEggsBulk.ingredients.0.filter.customSummary>肉食</Wolfein_CookBaconAndEggsBulk.ingredients.0.filter.customSummary>
+  <!-- EN: eggs -->
+  <Wolfein_CookBaconAndEggsBulk.ingredients.1.filter.customSummary>蛋類</Wolfein_CookBaconAndEggsBulk.ingredients.1.filter.customSummary>
+  <!-- EN: Cook bacon and eggs. -->
+  <Wolfein_CookBaconAndEggsBulk.jobString>烹飪培根煎蛋。</Wolfein_CookBaconAndEggsBulk.jobString>
+  
+  <!-- EN: cook bone broth -->
+  <Wolfein_CookBoneBroth.label>烹飪大骨湯</Wolfein_CookBoneBroth.label>
+  <!-- EN: Prepare bone broth for the Wolfein. -->
+  <Wolfein_CookBoneBroth.description>烹飪沃芬族的特色大骨湯。</Wolfein_CookBoneBroth.description>
+  <!-- EN: protein -->
+  <Wolfein_CookBoneBroth.ingredients.0.filter.customSummary>肉食</Wolfein_CookBoneBroth.ingredients.0.filter.customSummary>
+  <!-- EN: vegetables -->
+  <Wolfein_CookBoneBroth.ingredients.1.filter.customSummary>素食</Wolfein_CookBoneBroth.ingredients.1.filter.customSummary>
+  <!-- EN: Cook bone broth. -->
+  <Wolfein_CookBoneBroth.jobString>烹飪大骨湯。</Wolfein_CookBoneBroth.jobString>
+  
+  <!-- EN: cook bone broth x4 -->
+  <Wolfein_CookBoneBrothBulk.label>烹飪大骨湯x4</Wolfein_CookBoneBrothBulk.label>
+  <!-- EN: Preparing bone broth for the Wolfein. -->
+  <Wolfein_CookBoneBrothBulk.description>烹飪四份沃芬族的特色大骨湯。</Wolfein_CookBoneBrothBulk.description>
+  <!-- EN: protein -->
+  <Wolfein_CookBoneBrothBulk.ingredients.0.filter.customSummary>肉食</Wolfein_CookBoneBrothBulk.ingredients.0.filter.customSummary>
+  <!-- EN: vegetables -->
+  <Wolfein_CookBoneBrothBulk.ingredients.1.filter.customSummary>素食</Wolfein_CookBoneBrothBulk.ingredients.1.filter.customSummary>
+  <!-- EN: Cook bone broth. -->
+  <Wolfein_CookBoneBrothBulk.jobString>烹飪大骨湯。</Wolfein_CookBoneBrothBulk.jobString>
+  
+  <!-- EN: cook custard cake x4 -->
+  <Wolfein_CookCustardCake.label>烹飪製作蛋黃派x4</Wolfein_CookCustardCake.label>
+  <!-- EN: Preparing custard cake for the Wolfein. -->
+  <Wolfein_CookCustardCake.description>烹飪製作四份蛋黃派。</Wolfein_CookCustardCake.description>
+  <!-- EN: Cook custard cake. -->
+  <Wolfein_CookCustardCake.jobString>烹飪製作蛋黃派。</Wolfein_CookCustardCake.jobString>
+  
+  <!-- EN: cook grilled steak -->
+  <Wolfein_CookGrilledSteak.label>烹飪烤肉排</Wolfein_CookGrilledSteak.label>
+  <!-- EN: Prepare grilled steak for the Wolfein. -->
+  <Wolfein_CookGrilledSteak.description>烹飪沃芬族的特色烤肉排</Wolfein_CookGrilledSteak.description>
+  <!-- EN: protein -->
+  <Wolfein_CookGrilledSteak.ingredients.0.filter.customSummary>肉食</Wolfein_CookGrilledSteak.ingredients.0.filter.customSummary>
+  <!-- EN: Cook grilled steak. -->
+  <Wolfein_CookGrilledSteak.jobString>烹飪烤肉排。</Wolfein_CookGrilledSteak.jobString>
+  
+  <!-- EN: cook grilled steak x4 -->
+  <Wolfein_CookGrilledSteakBulk.label>烹飪烤肉排x4</Wolfein_CookGrilledSteakBulk.label>
+  <!-- EN: Preparing grilled steak for the Wolfein. -->
+  <Wolfein_CookGrilledSteakBulk.description>烹飪四份沃芬族的特色烤肉排</Wolfein_CookGrilledSteakBulk.description>
+  <!-- EN: protein -->
+  <Wolfein_CookGrilledSteakBulk.ingredients.0.filter.customSummary>肉食</Wolfein_CookGrilledSteakBulk.ingredients.0.filter.customSummary>
+  <!-- EN: Cook grilled steak. -->
+  <Wolfein_CookGrilledSteakBulk.jobString>烹飪烤肉排。</Wolfein_CookGrilledSteakBulk.jobString>
+  
+  <!-- EN: cook honey glazed ham -->
+  <Wolfein_CookHoneyGlazedHam.label>烹飪蜜汁火腿</Wolfein_CookHoneyGlazedHam.label>
+  <!-- EN: Preparing honey glazed ham for the Wolfein. -->
+  <Wolfein_CookHoneyGlazedHam.description>烹飪製作沃芬族的特色蜜汁火腿。</Wolfein_CookHoneyGlazedHam.description>
+  <!-- EN: protein -->
+  <Wolfein_CookHoneyGlazedHam.ingredients.0.filter.customSummary>肉食</Wolfein_CookHoneyGlazedHam.ingredients.0.filter.customSummary>
+  <!-- EN: Cook honey glazed ham. -->
+  <Wolfein_CookHoneyGlazedHam.jobString>烹飪製作蜜汁火腿。</Wolfein_CookHoneyGlazedHam.jobString>
+  
+  <!-- EN: cook honey glazed ham x4 -->
+  <Wolfein_CookHoneyGlazedHamBulk.label>烹飪蜜汁火腿x4</Wolfein_CookHoneyGlazedHamBulk.label>
+  <!-- EN: Preparing honey glazed ham for the Wolfein. -->
+  <Wolfein_CookHoneyGlazedHamBulk.description>烹飪製作四份特色蜜汁火腿</Wolfein_CookHoneyGlazedHamBulk.description>
+  <!-- EN: protein -->
+  <Wolfein_CookHoneyGlazedHamBulk.ingredients.0.filter.customSummary>肉食</Wolfein_CookHoneyGlazedHamBulk.ingredients.0.filter.customSummary>
+  <!-- EN: Cook honey glazed ham. -->
+  <Wolfein_CookHoneyGlazedHamBulk.jobString>烹飪製作蜜汁火腿。</Wolfein_CookHoneyGlazedHamBulk.jobString>
+  
+  <!-- EN: cook meat bite x4 -->
+  <Wolfein_CookMeatBites.label>製作肉粒塊零食x4</Wolfein_CookMeatBites.label>
+  <!-- EN: Preparing meat bite for the Wolfein. -->
+  <Wolfein_CookMeatBites.description>製作四份沃芬族的肉粒塊零食。</Wolfein_CookMeatBites.description>
+  <!-- EN: protein -->
+  <Wolfein_CookMeatBites.ingredients.0.filter.customSummary>肉食</Wolfein_CookMeatBites.ingredients.0.filter.customSummary>
+  <!-- EN: Cook meat bite. -->
+  <Wolfein_CookMeatBites.jobString>製作肉粒塊零食。</Wolfein_CookMeatBites.jobString>
+  
+  <!-- EN: cook meat nutrient juice x4 -->
+  <Wolfein_CookMeatNutrientJuiceBulk.label>製作肉味營養汁x4</Wolfein_CookMeatNutrientJuiceBulk.label>
+  <!-- EN: Preparing meat nutrient juice for the Wolfein. -->
+  <Wolfein_CookMeatNutrientJuiceBulk.description>製作四份肉味營養汁</Wolfein_CookMeatNutrientJuiceBulk.description>
+  <!-- EN: protein -->
+  <Wolfein_CookMeatNutrientJuiceBulk.ingredients.0.filter.customSummary>肉食</Wolfein_CookMeatNutrientJuiceBulk.ingredients.0.filter.customSummary>
+  <!-- EN: Cook meat nutrient juice. -->
+  <Wolfein_CookMeatNutrientJuiceBulk.jobString>製作肉味營養汁</Wolfein_CookMeatNutrientJuiceBulk.jobString>
+  
+  <!-- EN: make mood stability drink -->
+  <Wolfein_MakeMoodStabilizerDrink.label>調製情緒穩定飲料</Wolfein_MakeMoodStabilizerDrink.label>
+  <!-- EN: Preparing mood stability drink for the Wolfein. -->
+  <Wolfein_MakeMoodStabilizerDrink.description>調製沃芬族的情緒穩定飲料</Wolfein_MakeMoodStabilizerDrink.description>
+  <!-- EN: Producing mood stability drink. -->
+  <Wolfein_MakeMoodStabilizerDrink.jobString>調製情緒穩定飲料。</Wolfein_MakeMoodStabilizerDrink.jobString>
+  
+  <!-- EN: make mood stability drink x4 -->
+  <Wolfein_MakeMoodStabilizerDrinkBulk.label>調製情緒穩定飲料x4</Wolfein_MakeMoodStabilizerDrinkBulk.label>
+  <!-- EN: Preparing mood stability drink for the Wolfein. -->
+  <Wolfein_MakeMoodStabilizerDrinkBulk.description>調製四份沃芬族的情緒穩定飲料</Wolfein_MakeMoodStabilizerDrinkBulk.description>
+  <!-- EN: Producing mood stability drink. -->
+  <Wolfein_MakeMoodStabilizerDrinkBulk.jobString>調製情緒穩定飲料。</Wolfein_MakeMoodStabilizerDrinkBulk.jobString>
+  
+</LanguageData>

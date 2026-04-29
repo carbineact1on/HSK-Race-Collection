@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Crashed MegaCorp Transport -->
+  <Wolfein_ShuttleCrashed.label>已墜毀的軍企運輸機</Wolfein_ShuttleCrashed.label>
+  <!-- EN: The wreckage of a heavy transport developed by the Wolfein military MegaCorp. This model was originally designed for the rapid deployment of high-intensity combat units within an atmosphere. After suffering severe damage during the forced landing, the aircraft has completely lost its flight and transport capabilities, leaving behind nothing but a mass of metal wreckage still radiating residual heat. -->
+  <Wolfein_ShuttleCrashed.description>一架沃芬族軍工軍企開發的重型運輸機殘骸。該型號原本用於在大氣層內快速部署高強度戰力單位，如今機體在迫降過程中遭受嚴重損傷，已完全失去飛行與運輸功能，只剩下一具仍在散發餘熱的金屬殘骸。</Wolfein_ShuttleCrashed.description>
+  
+  <!-- EN: Crashed MegaCorp Transport -->
+  <Wolfein_ShuttleCrashing.label>已墜毀的軍企運輸機</Wolfein_ShuttleCrashing.label>
+  <!-- EN: The wreckage of a heavy transport developed by the Wolfein military MegaCorp. This model was originally designed for the rapid deployment of high-intensity combat units within an atmosphere. After suffering severe damage during the forced landing, the aircraft has completely lost its flight and transport capabilities, leaving behind nothing but a mass of metal wreckage still radiating residual heat. -->
+  <Wolfein_ShuttleCrashing.description>一架沃芬族軍工軍企開發的重型運輸機殘骸。該型號原本用於在大氣層內快速部署高強度戰力單位，如今機體在迫降過程中遭受嚴重損傷，已完全失去飛行與運輸功能，只剩下一具仍在散發餘熱的金屬殘骸。</Wolfein_ShuttleCrashing.description>
+  
+</LanguageData>

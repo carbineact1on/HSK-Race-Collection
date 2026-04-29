@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Born and raised in one of the Wolfein megacities, [PAWN_nameDef] received a quality education and grew up with hopeful dreams for the future. -->
+  <Wolfein_BackstoryChild_01.description>[PAWN_nameDef]出生併成長於沃芬族的大城市中，在那裡接受了良好的教育，並對未來充滿憧憬。</Wolfein_BackstoryChild_01.description>
+  <!-- EN: Wolfein urban child -->
+  <Wolfein_BackstoryChild_01.title>沃芬族 城市孩子</Wolfein_BackstoryChild_01.title>
+  <!-- EN: urban child -->
+  <Wolfein_BackstoryChild_01.titleShort>城市孩子</Wolfein_BackstoryChild_01.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] spent [PAWN_pronoun] childhood in the countryside. Like many other rural Wolfein children, it was a time filled with joy and fulfillment. -->
+  <Wolfein_BackstoryChild_02.description>[PAWN_nameDef]的童年是在鄉村度過的，像其他鄉下的沃芬孩子一樣，[PAWN_pronoun]擁有一個充實而快樂的童年。</Wolfein_BackstoryChild_02.description>
+  <!-- EN: Wolfein rural child -->
+  <Wolfein_BackstoryChild_02.title>沃芬族 鄉下孩子</Wolfein_BackstoryChild_02.title>
+  <!-- EN: rural child -->
+  <Wolfein_BackstoryChild_02.titleShort>鄉下孩子</Wolfein_BackstoryChild_02.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]'s parents passed away in a tragic accident during her early childhood. The catastrophe left a deep, lasting scar on her heart, but it also forged a stronger, more resolute will within her. -->
+  <Wolfein_BackstoryChild_03.description>[PAWN_nameDef]的父母在她年幼時因一場意外事故不幸去世，這場災難給她留下了無法抹去的傷痛，但也錘鍊了她堅韌的意志。</Wolfein_BackstoryChild_03.description>
+  <!-- EN: Wolfein orphan -->
+  <Wolfein_BackstoryChild_03.title>沃芬族 遺孤</Wolfein_BackstoryChild_03.title>
+  <!-- EN: orphan -->
+  <Wolfein_BackstoryChild_03.titleShort>遺孤</Wolfein_BackstoryChild_03.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]'s family wasn't well-off, so she matured early. From a young age, she often helped with household chores within her ability. In front of others, [PAWN_nameDef] always came across as especially well-behaved and considerate. -->
+  <Wolfein_BackstoryChild_04.description>[PAWN_nameDef]的家庭並不富裕，因此她從小就十分懂事，經常幫家裡分擔力所能及的家務。在外人面前，[PAWN_nameDef]也總是表現得格外乖巧懂事。</Wolfein_BackstoryChild_04.description>
+  <!-- EN: Wolfein tractable child -->
+  <Wolfein_BackstoryChild_04.title>沃芬族 懂事的孩子</Wolfein_BackstoryChild_04.title>
+  <!-- EN: tractable child -->
+  <Wolfein_BackstoryChild_04.titleShort>懂事的孩子</Wolfein_BackstoryChild_04.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was a mischievous child from an early age. Her energetic and restless nature often caused trouble for those around her. It didn』t take long before she became the ringleader among the neighborhood kids — much to the dismay of the adults. -->
+  <Wolfein_BackstoryChild_05.description>[PAWN_nameDef]從小就非常調皮，她活潑好動的性格常常給周圍的人帶來不少麻煩。很快，[PAWN_nameDef]就在小夥伴中成了孩子王，這也讓大人們感到十分頭疼。</Wolfein_BackstoryChild_05.description>
+  <!-- EN: Wolfein naughty child -->
+  <Wolfein_BackstoryChild_05.title>沃芬族 淘氣包</Wolfein_BackstoryChild_05.title>
+  <!-- EN: naughty child -->
+  <Wolfein_BackstoryChild_05.titleShort>淘氣包</Wolfein_BackstoryChild_05.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was born into an average middle-class family, and her childhood was as ordinary as that of most of her peers. Yet deep down, she longed for a future filled with a unique adventure all her own. -->
+  <Wolfein_BackstoryChild_06.description>[PAWN_nameDef]出生於一個普通的中產階級家庭，她的童年和大多數同齡人一樣平凡無奇。但她始終渴望著，在未來能擁有一段只屬於自己的獨特冒險。</Wolfein_BackstoryChild_06.description>
+  <!-- EN: Wolfein ordinary child -->
+  <Wolfein_BackstoryChild_06.title>沃芬族 平凡的孩子</Wolfein_BackstoryChild_06.title>
+  <!-- EN: ordinary child -->
+  <Wolfein_BackstoryChild_06.titleShort>平凡的孩子</Wolfein_BackstoryChild_06.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]'s childhood was far from smooth—minor misfortunes seemed to follow her wherever she went. Yet, when it came to major events, she always seemed incredibly lucky, narrowly escaping trouble time and again. Even her parents couldn't quite make sense of it. -->
+  <Wolfein_BackstoryChild_07.description>[PAWN_nameDef]的童年並不算順利，幾乎所有倒霉的小事都能落到她頭上。但奇怪的是，在面對一些重大事件時，[PAWN_nameDef]卻總能逢兇化吉，格外幸運，就連她的父母也無法解釋其中的原因。</Wolfein_BackstoryChild_07.description>
+  <!-- EN: Wolfein unlucky child -->
+  <Wolfein_BackstoryChild_07.title>沃芬族 倒霉蛋</Wolfein_BackstoryChild_07.title>
+  <!-- EN: unlucky child -->
+  <Wolfein_BackstoryChild_07.titleShort>倒霉蛋</Wolfein_BackstoryChild_07.titleShort>
+  
+  <!-- EN: Since childhood, [PAWN_nameDef] has been afraid of interacting with others and reluctant to engage with the outside world. She finds greater comfort and peace in solitude than in the noise of social life. -->
+  <Wolfein_BackstoryChild_08.description>[PAWN_nameDef]從小就害怕與人交流，也不喜歡接觸外面的世界。相比喧囂的人群，她更享受獨處帶來的寧靜與安全感。</Wolfein_BackstoryChild_08.description>
+  <!-- EN: Wolfein autistic child -->
+  <Wolfein_BackstoryChild_08.title>沃芬族 自閉兒童</Wolfein_BackstoryChild_08.title>
+  <!-- EN: autistic child -->
+  <Wolfein_BackstoryChild_08.titleShort>自閉兒童</Wolfein_BackstoryChild_08.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is extremely timid— even the slightest noise can startle her. Her anxious and easily frightened nature has often brought complications into her daily life. -->
+  <Wolfein_BackstoryChild_09.description>[PAWN_nameDef]膽子極小，稍有風吹草動都會讓她驚慌失措。她那敏感多疑、動輒受驚的性格，也給她的生活帶來了不少困擾。</Wolfein_BackstoryChild_09.description>
+  <!-- EN: Wolfein timid child -->
+  <Wolfein_BackstoryChild_09.title>沃芬族 膽小的孩子</Wolfein_BackstoryChild_09.title>
+  <!-- EN: timid child -->
+  <Wolfein_BackstoryChild_09.titleShort>膽小的孩子</Wolfein_BackstoryChild_09.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] has a deep love for the feeling of gaining new knowledge, spending nearly all her time immersed in study. Her favorite place to be is the local library near her home, where she can lose herself for hours on end. -->
+  <Wolfein_BackstoryChild_10.description>[PAWN_nameDef]非常熱愛獲取新知識的感覺，幾乎把整天的時間都投入到學習中。她最喜歡做的事情，就是待在家附近的圖書館裡流連忘返。</Wolfein_BackstoryChild_10.description>
+  <!-- EN: Wolfein diligent child -->
+  <Wolfein_BackstoryChild_10.title>沃芬族 勤學的孩子</Wolfein_BackstoryChild_10.title>
+  <!-- EN: diligent child -->
+  <Wolfein_BackstoryChild_10.titleShort>勤學的孩子</Wolfein_BackstoryChild_10.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is highly motivated when it comes to her studies. Her diligence has earned the admiration of adults. At school, she excels academically and maintains strong, positive relationships with her peers. -->
+  <Wolfein_BackstoryChild_11.description>[PAWN_nameDef]在學習方面非常上進，勤奮刻苦，深受長輩喜愛。她在學校成績優異，與朋友之間也維持著良好的關係。</Wolfein_BackstoryChild_11.description>
+  <!-- EN: Wolfein top student -->
+  <Wolfein_BackstoryChild_11.title>沃芬族 優等生</Wolfein_BackstoryChild_11.title>
+  <!-- EN: top student -->
+  <Wolfein_BackstoryChild_11.titleShort>優等生</Wolfein_BackstoryChild_11.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is quite lazy by nature. She dislikes going out or exercising, preferring instead to spend her days at home playing games and reading comics. Her grades at school are mediocre at best, much to the frustration of her parents. -->
+  <Wolfein_BackstoryChild_12.description>[PAWN_nameDef]性格懶散，不愛運動，也不喜歡出門。她更願意整天窩在家裡打遊戲、看漫畫。她在學校的成績也普普通通，這讓她的父母感到頗為無奈。</Wolfein_BackstoryChild_12.description>
+  <!-- EN: Wolfein lazy child -->
+  <Wolfein_BackstoryChild_12.title>沃芬族 懶惰的孩子</Wolfein_BackstoryChild_12.title>
+  <!-- EN: lazy child -->
+  <Wolfein_BackstoryChild_12.titleShort>懶惰的孩子</Wolfein_BackstoryChild_12.titleShort>
+  
+  <!-- EN: From a young age, [PAWN_nameDef] demonstrated intelligence far beyond her peers, showing exceptional talent across multiple fields. However, her naturally frail body made it difficult for her to take part in physical activities or play with other children her age. -->
+  <Wolfein_BackstoryChild_13.description>[PAWN_nameDef]從小就展現出遠超常人的智慧，在多個領域都展現出非凡的天賦。然而，[PAWN_nameDef]的體質天生較為虛弱，無法像其他同齡人那樣參與運動或戶外遊戲。</Wolfein_BackstoryChild_13.description>
+  <!-- EN: Wolfein genius -->
+  <Wolfein_BackstoryChild_13.title>沃芬族 天才兒童</Wolfein_BackstoryChild_13.title>
+  <!-- EN: genius -->
+  <Wolfein_BackstoryChild_13.titleShort>天才兒童</Wolfein_BackstoryChild_13.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]'s parents left when she was still very young due to work-related reasons, and she spent her childhood in the care of her grandparents. Her memories of her parents are faint, yet she has always quietly longed for the day she might see them again. -->
+  <Wolfein_BackstoryChild_14.description>[PAWN_nameDef]的父母在她年幼時因工作原因離開了她，她的童年是在祖父母的陪伴下度過的。對父母的記憶，她所剩無幾，但內心始終懷著希望，盼望著有朝一日能再見到他們。</Wolfein_BackstoryChild_14.description>
+  <!-- EN: Wolfein left-behind child -->
+  <Wolfein_BackstoryChild_14.title>沃芬族 留守兒童</Wolfein_BackstoryChild_14.title>
+  <!-- EN: left-behind child -->
+  <Wolfein_BackstoryChild_14.titleShort>留守兒童</Wolfein_BackstoryChild_14.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] received her education in a nation governed by another racial faction. Growing up in a diverse and multicultural environment broadened her perspective far beyond that of most others. -->
+  <Wolfein_BackstoryChild_15.description>[PAWN_nameDef]從小就在其他種族派系的國家接受教育，在多元文化的環境中成長與學習，使她的眼界遠比常人開闊。</Wolfein_BackstoryChild_15.description>
+  <!-- EN: Wolfein overseas student -->
+  <Wolfein_BackstoryChild_15.title>沃芬族 留學生</Wolfein_BackstoryChild_15.title>
+  <!-- EN: overseas student -->
+  <Wolfein_BackstoryChild_15.titleShort>留學生</Wolfein_BackstoryChild_15.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] has always been somewhat reclusive since childhood. For reasons unknown, people around her seemed to keep their distance, intentionally or not. But [PAWN_nameDef] never minded—she found greater comfort in solitude than in company. -->
+  <Wolfein_BackstoryChild_16.description>[PAWN_nameDef]從小性格就較為孤僻，不知為何，身邊的人似乎總是有意無意地疏遠她。不過對此，[PAWN_nameDef]並不在意，反而更享受一個人獨處的安靜時光。</Wolfein_BackstoryChild_16.description>
+  <!-- EN: Wolfein lonely child -->
+  <Wolfein_BackstoryChild_16.title>沃芬族 孤僻的孩子</Wolfein_BackstoryChild_16.title>
+  <!-- EN: lonely child -->
+  <Wolfein_BackstoryChild_16.titleShort>孤僻的孩子</Wolfein_BackstoryChild_16.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]'s family lived in deep poverty, and her childhood was marked by hardship. Her parents worked late into the night every day, leaving [PAWN_nameDef] to take care of herself. As a result, she matured far earlier than most children her age. -->
+  <Wolfein_BackstoryChild_17.description>[PAWN_nameDef]的家庭十分貧困，她的童年也因此格外艱辛。父母每天工作到深夜才回家，[PAWN_nameDef]平時只能獨自照顧自己，這也讓她比同齡人更加早熟懂事。</Wolfein_BackstoryChild_17.description>
+  <!-- EN: Wolfein poor child -->
+  <Wolfein_BackstoryChild_17.title>沃芬族 貧窮的孩子</Wolfein_BackstoryChild_17.title>
+  <!-- EN: poor child -->
+  <Wolfein_BackstoryChild_17.titleShort>貧窮的孩子</Wolfein_BackstoryChild_17.titleShort>
+  
+  <!-- EN: From an early age, [PAWN_nameDef] showed an exceptional talent for the arts, with a deep passion for drawing. She often spent her class time sketching in secret, which led to her falling behind academically. -->
+  <Wolfein_BackstoryChild_18.description>[PAWN_nameDef]從小便展現出非凡的藝術天賦，尤其熱愛繪畫。她經常在上課時偷偷作畫，以至於學業成績並不出色。</Wolfein_BackstoryChild_18.description>
+  <!-- EN: Wolfein little painter -->
+  <Wolfein_BackstoryChild_18.title>沃芬族 小畫家</Wolfein_BackstoryChild_18.title>
+  <!-- EN: little painter -->
+  <Wolfein_BackstoryChild_18.titleShort>小畫家</Wolfein_BackstoryChild_18.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] has a strong passion for sports. She joined the school』s track and field club and actively took part in numerous athletic competitions. Her exceptional physical abilities earned her many awards and widespread recognition. -->
+  <Wolfein_BackstoryChild_19.description>[PAWN_nameDef]熱愛運動，加入了學校的田徑社團，並積極參與各類大小型比賽。憑藉出色的運動能力，[PAWN_nameDef]贏得了許多獎項，備受矚目。</Wolfein_BackstoryChild_19.description>
+  <!-- EN: Wolfein little athlete -->
+  <Wolfein_BackstoryChild_19.title>沃芬族 小運動員</Wolfein_BackstoryChild_19.title>
+  <!-- EN: little athlete -->
+  <Wolfein_BackstoryChild_19.titleShort>小運動員</Wolfein_BackstoryChild_19.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] has always had a strong interest in cooking. She not only enjoys good food but also finds great satisfaction in preparing it herself. [PAWN_nameDef] dreams of becoming an outstanding chef in the future. -->
+  <Wolfein_BackstoryChild_20.description>[PAWN_nameDef]從小就對烹飪充滿興趣，她不僅熱愛享受美食，更喜歡親手製作佳餚時帶來的滿足與成就感。[PAWN_nameDef]夢想著有一天能成為一名出色的廚師。</Wolfein_BackstoryChild_20.description>
+  <!-- EN: Wolfein little chef -->
+  <Wolfein_BackstoryChild_20.title>沃芬族 小廚師</Wolfein_BackstoryChild_20.title>
+  <!-- EN: little chef -->
+  <Wolfein_BackstoryChild_20.titleShort>小廚師</Wolfein_BackstoryChild_20.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] enjoys tinkering with small machines and crafting various handmade items. Her creations are always clever and full of personality, and her friends absolutely adore the handcrafted gifts she makes for them. -->
+  <Wolfein_BackstoryChild_21.description>[PAWN_nameDef]喜歡擺弄小機械，也熱衷於製作各種手工小物。她親手製作的工藝品總是別具匠心，深受朋友們喜愛，大家對她的手工作品總是愛不釋手。</Wolfein_BackstoryChild_21.description>
+  <!-- EN: Wolfein little artisan -->
+  <Wolfein_BackstoryChild_21.title>沃芬族 小工匠</Wolfein_BackstoryChild_21.title>
+  <!-- EN: little artisan -->
+  <Wolfein_BackstoryChild_21.titleShort>小工匠</Wolfein_BackstoryChild_21.titleShort>
+  
+  <!-- EN: [PAWN_nameDef]'s family runs a restaurant, and in her spare time, she helps out with tasks she can manage. The customers are fond of this hardworking girl and often give her small tips as pocket money, which always brings her great joy. -->
+  <Wolfein_BackstoryChild_22.description>[PAWN_nameDef]的家庭經營著一家餐廳，閑暇時她常會幫家裡做些力所能及的事情。顧客們也很喜歡這個勤快的孩子，經常會給她一些小費當作零花錢，這讓[PAWN_nameDef]感到格外開心。</Wolfein_BackstoryChild_22.description>
+  <!-- EN: Wolfein little artisan -->
+  <Wolfein_BackstoryChild_22.title>沃芬族 小服務員</Wolfein_BackstoryChild_22.title>
+  <!-- EN: little artisan -->
+  <Wolfein_BackstoryChild_22.titleShort>小服務員</Wolfein_BackstoryChild_22.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] has a deep love for nature. Her favorite pastime is visiting the botanical garden near her home. There, she learned some basic gardening skills and began growing a few charming little plants at home. -->
+  <Wolfein_BackstoryChild_23.description>[PAWN_nameDef]非常熱愛大自然，她最喜歡做的事就是前往家附近的植物園散步。在那裡，[PAWN_nameDef]學到了一些關於植物栽培的知識，並在家中嘗試種植了幾株可愛的植物。</Wolfein_BackstoryChild_23.description>
+  <!-- EN: Wolfein little gardener -->
+  <Wolfein_BackstoryChild_23.title>沃芬族 小園丁</Wolfein_BackstoryChild_23.title>
+  <!-- EN: little gardener -->
+  <Wolfein_BackstoryChild_23.titleShort>小園丁</Wolfein_BackstoryChild_23.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] has loved music since childhood. After learning some basic music theory, she often played simple instruments with friends from the school music club, losing herself in the joyful world of melodies and rhythm. -->
+  <Wolfein_BackstoryChild_24.description>[PAWN_nameDef]從小就熱愛音樂。在學習了一些基礎樂理知識后，[PAWN_nameDef]經常與音樂社團的小夥伴們一起，用簡單的樂器演奏樂曲，沉浸在音樂的海洋中，樂在其中。</Wolfein_BackstoryChild_24.description>
+  <!-- EN: Wolfein little gardener -->
+  <Wolfein_BackstoryChild_24.title>沃芬族 小音樂家</Wolfein_BackstoryChild_24.title>
+  <!-- EN: little gardener -->
+  <Wolfein_BackstoryChild_24.titleShort>小音樂家</Wolfein_BackstoryChild_24.titleShort>
+  
+  <!-- EN: Due to a lack of proper guidance at home, [PAWN_nameDef] developed a habit of bullying her peers from a young age. She often took other children's snacks and toys for herself, much to the frustration of both her teachers and parents. -->
+  <Wolfein_BackstoryChild_25.description>由於家庭教育上的缺失，[PAWN_nameDef]從小便養成了欺負同齡人的壞習慣。她常常強佔其他孩子的零食和玩具，令老師和父母都十分頭疼。</Wolfein_BackstoryChild_25.description>
+  <!-- EN: Wolfein little bully -->
+  <Wolfein_BackstoryChild_25.title>沃芬族 小惡霸</Wolfein_BackstoryChild_25.title>
+  <!-- EN: little bully -->
+  <Wolfein_BackstoryChild_25.titleShort>小惡霸</Wolfein_BackstoryChild_25.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] has always had a deep affection for animals. She pleaded with her parents many times to let her keep a pet at home, but due to financial or living conditions, her wish never came true. Still, [PAWN_nameDef] hopes that one day, when she's grown up, she can have a few animals to keep her company. -->
+  <Wolfein_BackstoryChild_26.description>[PAWN_nameDef]特別喜愛小動物，多次懇求父母允許在家中飼養寵物。可惜由於家庭條件的限制，這個願望一直未能實現。[PAWN_nameDef]一直希望等自己長大后，能夠養幾隻動物來陪伴自己。</Wolfein_BackstoryChild_26.description>
+  <!-- EN: Wolfein friend of animals -->
+  <Wolfein_BackstoryChild_26.title>沃芬族 動物之友</Wolfein_BackstoryChild_26.title>
+  <!-- EN: friend of animals -->
+  <Wolfein_BackstoryChild_26.titleShort>動物之友</Wolfein_BackstoryChild_26.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] is a kind and gentle child. Whenever her friends are in trouble, she』s always the first to offer help. Her warm and sincere nature gradually won the hearts of those around her, and she began making more and more friends. -->
+  <Wolfein_BackstoryChild_27.description>[PAWN_nameDef]是個溫柔善良的孩子。每當夥伴遇到困難時，[PAWN_nameDef]總是第一個伸出援手。她的友善與真誠逐漸打動了身邊的人，也因此結交了越來越多的朋友。</Wolfein_BackstoryChild_27.description>
+  <!-- EN: Wolfein kind child -->
+  <Wolfein_BackstoryChild_27.title>沃芬族 善良的孩子</Wolfein_BackstoryChild_27.title>
+  <!-- EN: kind child -->
+  <Wolfein_BackstoryChild_27.titleShort>善良的孩子</Wolfein_BackstoryChild_27.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] comes from a very wealthy family, living a life of comfort and abundance. All household chores are taken care of by the servants, and for [PAWN_nameDef], life is simply about enjoying its luxuries. -->
+  <Wolfein_BackstoryChild_28.description>[PAWN_nameDef]的家庭十分富有，她從小衣食無憂，生活無比優渥。家中的大小事務都由僕人打理，[PAWN_nameDef]只需安心享受生活帶來的舒適與便利。</Wolfein_BackstoryChild_28.description>
+  <!-- EN: Wolfein richer child -->
+  <Wolfein_BackstoryChild_28.title>沃芬族 富人家的孩子</Wolfein_BackstoryChild_28.title>
+  <!-- EN: richer child -->
+  <Wolfein_BackstoryChild_28.titleShort>富人家的孩子</Wolfein_BackstoryChild_28.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] had always been fascinated by the idea of joining the scouts. One day, by a stroke of luck, her wish came true. During her time with the scouts, [PAWN_nameDef] learned many useful survival skills, such as foraging for food in the wild, setting up camp, and identifying different types of plants. -->
+  <Wolfein_BackstoryChild_29.description>[PAWN_nameDef]一直對童子軍生活充滿嚮往。在一次偶然的機會下，她終於實現了這個願望。加入童子軍后，[PAWN_nameDef]學會了許多實用技能，比如在野外尋找食物、搭建營地，以及辨識各種植物等生存知識。</Wolfein_BackstoryChild_29.description>
+  <!-- EN: Wolfein scout -->
+  <Wolfein_BackstoryChild_29.title>沃芬族 童子軍</Wolfein_BackstoryChild_29.title>
+  <!-- EN: scout -->
+  <Wolfein_BackstoryChild_29.titleShort>童子軍</Wolfein_BackstoryChild_29.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] was abandoned by her parents at a very young age. She grew up in an orphanage, surrounded by children who shared the same fate. [PAWN_nameDef] never understood why her parents left her, and this lingering question left her feeling lost and uncertain about the future. -->
+  <Wolfein_BackstoryChild_30.description>[PAWN_nameDef]在年幼時便被父母遺棄，她的童年是在孤兒院中度過的，和一群境遇相似的孩子們相依為命。[PAWN_nameDef]始終無法理解，父母為何要離開她，這份疑惑與失落也讓她對未來感到格外迷茫。</Wolfein_BackstoryChild_30.description>
+  <!-- EN: Wolfein institutional child -->
+  <Wolfein_BackstoryChild_30.title>沃芬族 孤兒院的孩子</Wolfein_BackstoryChild_30.title>
+  <!-- EN: institutional child -->
+  <Wolfein_BackstoryChild_30.titleShort>孤兒院的孩子</Wolfein_BackstoryChild_30.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] consistently ranked near the bottom of her class. She was playful and often avoided her studies, even skipping classes from time to time. Her teachers were deeply disappointed in her, but [PAWN_nameDef] didn』t seem to care. She remained indifferent, lost in her own world with no intention of changing. -->
+  <Wolfein_BackstoryChild_31.description>[PAWN_nameDef]的學習成績一直處於班級的後段，她貪玩、逃避學業，甚至時常曠課。老師們對她深感失望，但[PAWN_nameDef]似乎並不在意，她仍舊沉浸在自己的世界裡，毫無改變的打算。</Wolfein_BackstoryChild_31.description>
+  <!-- EN: Wolfein underachiever -->
+  <Wolfein_BackstoryChild_31.title>沃芬族 差等生</Wolfein_BackstoryChild_31.title>
+  <!-- EN: underachiever -->
+  <Wolfein_BackstoryChild_31.titleShort>差等生</Wolfein_BackstoryChild_31.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] has shown remarkable courage from a young age. Her character dictates that she will never stand idly by in the face of injustice. Whenever someone close to her is being bullied, [PAWN_nameDef] always steps up, even when facing opponents far stronger than herself. -->
+  <Wolfein_BackstoryChild_32.description>[PAWN_nameDef]從小就展現出了非凡的勇氣，她的性格決定了她絕不會對不公正的事情袖手旁觀。每當身邊的人受到欺負時，[PAWN_nameDef]總會挺身而出，哪怕對方比她強大，她也毫不退縮。</Wolfein_BackstoryChild_32.description>
+  <!-- EN: Wolfein brave child -->
+  <Wolfein_BackstoryChild_32.title>沃芬族 勇敢的孩子</Wolfein_BackstoryChild_32.title>
+  <!-- EN: brave child -->
+  <Wolfein_BackstoryChild_32.titleShort>勇敢的孩子</Wolfein_BackstoryChild_32.titleShort>
+  
+  <!-- EN: Due to [PAWN_nameDef]』s introverted nature, she was often ostracized and bullied at school, with even the teachers choosing to ignore her struggles. These experiences left a deep psychological scar on [PAWN_nameDef], affecting her trust in others and the world around her. -->
+  <Wolfein_BackstoryChild_33.description>由於[PAWN_nameDef]性格內向，她在學校里常常遭遇排擠與欺凌，甚至連老師也選擇忽視她的困境。這些經歷給[PAWN_nameDef]留下了深刻的心理陰影，影響了她對他人和世界的信任。</Wolfein_BackstoryChild_33.description>
+  <!-- EN: Wolfein doormat -->
+  <Wolfein_BackstoryChild_33.title>沃芬族 受氣包</Wolfein_BackstoryChild_33.title>
+  <!-- EN: doormat -->
+  <Wolfein_BackstoryChild_33.titleShort>受氣包</Wolfein_BackstoryChild_33.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] has shown antisocial tendencies from a young age, having been in and out of prison several times at an early age. Whether inside or outside of prison, [PAWN_nameDef] prefers to communicate through force rather than words. -->
+  <Wolfein_BackstoryChild_34.description>[PAWN_nameDef]從小就展現出反社會的傾向，年紀輕輕便屢次進出監獄。無論是在監獄內外，[PAWN_nameDef]總是傾向於通過暴力而非言語來與人溝通。</Wolfein_BackstoryChild_34.description>
+  <!-- EN: Wolfein dangerous child -->
+  <Wolfein_BackstoryChild_34.title>沃芬族 危險的孩子</Wolfein_BackstoryChild_34.title>
+  <!-- EN: dangerous child -->
+  <Wolfein_BackstoryChild_34.titleShort>危險的孩子</Wolfein_BackstoryChild_34.titleShort>
+  
+  <!-- EN: [PAWN_nameDef] has displayed a natural inclination towards rebellion and malice from a young age, as if entirely opposed to kindness. Her actions are ruthless and selfish, showing no mercy towards others. -->
+  <Wolfein_BackstoryChild_35.description>[PAWN_nameDef]從小便展現出天生的叛逆與惡行，彷彿與善良背道而馳。她的行為無情而自私，對他人毫不留情。</Wolfein_BackstoryChild_35.description>
+  <!-- EN: Wolfein Evil child -->
+  <Wolfein_BackstoryChild_35.title>沃芬族 惡童</Wolfein_BackstoryChild_35.title>
+  <!-- EN: Evil child -->
+  <Wolfein_BackstoryChild_35.titleShort>惡童</Wolfein_BackstoryChild_35.titleShort>
+
+  <!-- EN: [PAWN_nameDef] never cries, and never smiles. She seems to lack certain emotions, as if living purely on instinct. Some teachers once suspected she had an emotional disorder—but no one dared to look into it too deeply. -->
+  <Wolfein_BackstoryChild_36.description>[PAWN_nameDef]從不哭泣，也不笑。她似乎缺失了某種情緒，彷彿只是依照本能活著。學校的老師曾懷疑她患有某種情感障礙，但沒有人敢深究。</Wolfein_BackstoryChild_36.description>
+  <!-- EN: Wolfein Strange child -->
+  <Wolfein_BackstoryChild_36.title>沃芬族 古怪的孩子</Wolfein_BackstoryChild_36.title>
+  <!-- EN: Strange child -->
+  <Wolfein_BackstoryChild_36.titleShort>古怪的孩子</Wolfein_BackstoryChild_36.titleShort>
+
+  <!-- EN: [PAWN_nameDef] is fascinated by fire. She repeatedly sets paper on fire, plays with lighters, and even tries to create explosions in the kitchen. She often says, 「When it burns, everything is cleansed.」 -->
+  <Wolfein_BackstoryChild_37.description>[PAWN_nameDef]熱愛火焰。她會反覆點燃紙片、玩弄打火機，甚至嘗試在廚房製造爆炸。她總說：「燃燒的時候，一切都乾淨了。」</Wolfein_BackstoryChild_37.description>
+  <!-- EN: Wolfein Flame-Obsessed child -->
+  <Wolfein_BackstoryChild_37.title>沃芬族 癡迷火焰的孩子</Wolfein_BackstoryChild_37.title>
+  <!-- EN: Flame-Obsessed child -->
+  <Wolfein_BackstoryChild_37.titleShort>癡迷火焰的孩子</Wolfein_BackstoryChild_37.titleShort>
+
+  <!-- EN: [PAWN_nameDef] became separated from her family in the underground market. That hours-long experience of being lost still leaves her feeling uneasy in crowds to this day. -->
+  <Wolfein_BackstoryChild_38.description>[PAWN_nameDef]曾在地下市場與家人走失，那段長達數小時的迷失經歷讓她至今仍對人群感到不安。</Wolfein_BackstoryChild_38.description>
+  <!-- EN: Wolfein Nervous child -->
+  <Wolfein_BackstoryChild_38.title>沃芬族 易緊張的孩子</Wolfein_BackstoryChild_38.title>
+  <!-- EN: Nervous child -->
+  <Wolfein_BackstoryChild_38.titleShort>易緊張的孩子</Wolfein_BackstoryChild_38.titleShort>
+
+  <!-- EN: [PAWN_nameDef] was born with an intense desire for control, particularly over others』 emotions. Sometimes, she deliberately incites panic in front of others—then calmly sits back and watches as everything spirals out of control. -->
+  <Wolfein_BackstoryChild_39.description>[PAWN_nameDef]生來就有極強的支配欲，喜歡控制他人情緒。有時她會故意在他人面前製造恐慌，再冷靜地坐在一邊看著局勢失控。</Wolfein_BackstoryChild_39.description>
+  <!-- EN: Wolfein Chaos-Making child -->
+  <Wolfein_BackstoryChild_39.title>沃芬族 製造混亂的孩子</Wolfein_BackstoryChild_39.title>
+  <!-- EN: Chaos-Making child -->
+  <Wolfein_BackstoryChild_39.titleShort>製造混亂的孩子</Wolfein_BackstoryChild_39.titleShort>
+  
+</LanguageData>

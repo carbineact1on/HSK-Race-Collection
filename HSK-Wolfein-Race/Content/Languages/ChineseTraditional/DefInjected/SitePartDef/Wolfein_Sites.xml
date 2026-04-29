@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Combat Site -->
+  <Wolfein_BattleSite_Mechanoid.label>戰鬥現場</Wolfein_BattleSite_Mechanoid.label>
+  <!-- EN: An active battlefield where both sides are Wolfein forces: MegaCorp units and resistance squads are clashing here, and the outcome remains uncertain. -->
+  <Wolfein_BattleSite_Mechanoid.description>一處活躍的戰鬥現場，雙方均為沃芬族陣營：一些軍企單位和抵抗軍小隊正在此地交火，戰況尚不明朗</Wolfein_BattleSite_Mechanoid.description>
+  
+  <!-- EN: Combat Site -->
+  <Wolfein_BattleSite_RebelSurround.label>戰鬥現場</Wolfein_BattleSite_RebelSurround.label>
+  <!-- EN: An active battlefield where both sides are Wolfein forces: MegaCorp units and resistance squads are clashing here, and the outcome remains uncertain. -->
+  <Wolfein_BattleSite_RebelSurround.description>一處活躍的戰鬥現場，雙方均為沃芬族陣營：一些軍企單位和抵抗軍小隊正在此地交火，戰況尚不明朗</Wolfein_BattleSite_RebelSurround.description>
+  
+  <!-- EN: Drone Factory -->
+  <Wolfein_DroneRaidSource.label>無人機工廠</Wolfein_DroneRaidSource.label>
+  <!-- EN: A mobile mechanoid factory built by the Wolfein MegaCorp, located in a remote area to maintain pressure on nearby colonies. While smaller than facilities on the homeworld, it continues to produce drones and periodically launches harassment operations. -->
+  <Wolfein_DroneRaidSource.description>一座沃芬族軍工巨企建造的野戰型機械體工廠，設在偏遠區域以維持對殖民地的威懾。該工廠雖不及母星上的設施規模龐大，但仍能持續生產無人機並定期發起騷擾行動。</Wolfein_DroneRaidSource.description>
+  <!-- EN: Attacking {0}. -->
+  <Wolfein_DroneRaidSource.approachingReportString>攻擊中 {0}.</Wolfein_DroneRaidSource.approachingReportString>
+  <!-- EN: Attack {0} -->
+  <Wolfein_DroneRaidSource.approachOrderString>攻擊 {0}</Wolfein_DroneRaidSource.approachOrderString>
+  <!-- EN: You have arrived at the drone factory; the area may be attacked at any moment. -->
+  <Wolfein_DroneRaidSource.arrivedLetter>你已抵達無人機工廠，周邊可能隨時遭到無人機襲擊。</Wolfein_DroneRaidSource.arrivedLetter>
+  
+  <!-- EN: Toxic Gas Generator -->
+  <Wolfein_RebelToxicBase.label>毒氣發生器</Wolfein_RebelToxicBase.label>
+  <!-- EN: A Wolfein resistance gas generator is actively releasing deadly fumes into the surrounding area. Armed units have been deployed nearby to defend the device. -->
+  <Wolfein_RebelToxicBase.description>一座沃芬族抵抗軍架設的毒氣發生裝置持續向周邊區域釋放致命塵埃。抵抗軍在其周邊部署了武裝力量，以保護裝置不被摧毀。</Wolfein_RebelToxicBase.description>
+  <!-- EN: Attacking {0}. -->
+  <Wolfein_RebelToxicBase.approachingReportString>攻擊中 {0}.</Wolfein_RebelToxicBase.approachingReportString>
+  <!-- EN: Attack {0} -->
+  <Wolfein_RebelToxicBase.approachOrderString>攻擊 {0}</Wolfein_RebelToxicBase.approachOrderString>
+  <!-- EN: You have arrived at the toxic gas generator; lethal fumes fill the area, and resistance forces are guarding the device. -->
+  <Wolfein_RebelToxicBase.arrivedLetter>你已抵達毒氣發生器地點，周圍瀰漫著致命毒霧，抵抗軍正在守衛裝置。</Wolfein_RebelToxicBase.arrivedLetter>
+  
+  <!-- EN: Crashed MegaCorp Transport -->
+  <Wolfein_ShuttleCrashed.label>墜毀的軍企運輸機</Wolfein_ShuttleCrashed.label>
+  <!-- EN: A heavy transport developed by the Wolfein military MegaCorp has crash-landed near the colony, sustaining severe damage. The wreckage still radiates residual heat, and the pilot and accompanying personnel are present, attempting to secure the site.\n\nResistance forces may have tracked this location and could strike at any moment. Anyone approaching should exercise caution, as this area is likely to become the center of combat. -->
+  <Wolfein_ShuttleCrashed.description>一架沃芬族軍工軍企的重型運輸機在殖民地附近迫降失敗，機體嚴重受損，已墜毀在此。運輸機殘骸仍散發著餘熱，飛行員和隨行人員在現場停留，試圖穩固狀況。\n\n抵抗軍可能已經追蹤到這片區域，並隨時可能發動襲擊。任何靠近的人都需謹慎，這裡很可能成為戰鬥的中心。</Wolfein_ShuttleCrashed.description>
+  
+  <!-- EN: Crashed MegaCorp Transport -->
+  <Wolfein_ShuttleCrashed_UnderAttack.label>墜毀的軍企運輸機</Wolfein_ShuttleCrashed_UnderAttack.label>
+  <!-- EN: A heavy transport developed by the Wolfein military MegaCorp has crash-landed near the colony, sustaining severe damage. The wreckage still radiates residual heat, and the pilot and accompanying personnel are present, attempting to secure the site.\n\nResistance forces may have tracked this location and could strike at any moment. Anyone approaching should exercise caution, as this area is likely to become the center of combat. -->
+  <Wolfein_ShuttleCrashed_UnderAttack.description>一架沃芬族軍工軍企的重型運輸機在殖民地附近迫降失敗，機體嚴重受損，已墜毀在此。運輸機殘骸仍散發著餘熱，飛行員和隨行人員在現場停留，試圖穩固狀況。\n\n抵抗軍可能已經追蹤到這片區域，並隨時可能發動襲擊。任何靠近的人都需謹慎，這裡很可能成為戰鬥的中心。</Wolfein_ShuttleCrashed_UnderAttack.description>
+  
+</LanguageData>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- <Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/FactionDef[defName="Wolfein_Faction_MegaCorp"]/xenotypeSet</xpath>
+				<value>
+					<xenotypeSet>
+						<xenotypeChances>
+							<Wolfein_Xenotype MayRequire="Ludeon.RimWorld.Biotech">0.9</Wolfein_Xenotype>
+							<Wolfein_Xenotype_PureBlood MayRequire="Ludeon.RimWorld.Biotech">0.05</Wolfein_Xenotype_PureBlood>
+							<Baseliner MayRequire="Ludeon.RimWorld.Biotech">0.05</Baseliner>
+						</xenotypeChances>
+					</xenotypeSet>
+				</value>
+			</li>
+		</operations>
+	</Operation> -->
+
+	<!-- <Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/FactionDef[defName="Wolfein_Faction_Rebel"]/xenotypeSet</xpath>
+				<value>
+					<xenotypeSet Inherit="false">
+						<xenotypeChances>
+							<Wolfein_Xenotype MayRequire="Ludeon.RimWorld.Biotech">0.98</Wolfein_Xenotype>
+							<Wolfein_Xenotype_PureBlood MayRequire="Ludeon.RimWorld.Biotech">0.02</Wolfein_Xenotype_PureBlood>
+						</xenotypeChances>
+					</xenotypeSet>
+				</value>
+			</li>
+		</operations>
+	</Operation> -->
+
+	<!--pawnkind-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[@Name="Wolfein_PawnBase"]/xenotypeSet</xpath>
+				<value>
+					<xenotypeSet>
+						<xenotypeChances>
+							<Wolfein_Xenotype MayRequire="Ludeon.RimWorld.Biotech">0.95</Wolfein_Xenotype>
+							<Wolfein_Xenotype_PureBlood MayRequire="Ludeon.RimWorld.Biotech">0.05</Wolfein_Xenotype_PureBlood>
+						</xenotypeChances>
+					</xenotypeSet>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!-- 种族 -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Wolfein_Race"]/alienRace/raceRestriction/xenotypeList</xpath>
+				<value>
+					<xenotypeList MayRequire="Ludeon.RimWorld.Biotech">
+						<li MayRequire="Ludeon.RimWorld.Biotech">Wolfein_Xenotype</li>
+						<li MayRequire="Ludeon.RimWorld.Biotech">Wolfein_Xenotype_PureBlood</li>
+					</xenotypeList>
+				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Wolfein_Race"]/comps/li[@Class="Wolfein.CompProperties_MeatNeed"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Wolfein_Race"]/comps/li[@Class="Wolfein.CompProperties_WolfeinStrength"]</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Wolfein_Race"]/alienRace/raceRestriction/traitList/li[1]</xpath>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/TraitDef[defName="Wolfein_PureBlood"]/commonality</xpath>
+				<value>
+					<commonality>0.000001</commonality>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Wolfein_Race"]/statBases</xpath>
+				<value>
+					<statBases>
+            <MarketValue>2000</MarketValue>
+            <MoveSpeed>4.8</MoveSpeed>
+            <Flammability>0.5</Flammability>
+            <MaxNutrition>1.2</MaxNutrition>
+            <MentalBreakThreshold>0.40</MentalBreakThreshold>
+            <ComfyTemperatureMax>29</ComfyTemperatureMax>
+            <ComfyTemperatureMin>9</ComfyTemperatureMin>
+            <ImmunityGainSpeed>1.05</ImmunityGainSpeed>
+            <CarryingCapacity>80</CarryingCapacity>
+            <RoyalFavorValue MayRequire="Ludeon.RimWorld.Royalty">5</RoyalFavorValue>
+            <MeatAmount>70</MeatAmount>
+            <LeatherAmount>50</LeatherAmount>
+            <Mass>55</Mass>
+
+            <GeneralLaborSpeed>1.0</GeneralLaborSpeed>
+            <WorkSpeedGlobal>1.1</WorkSpeedGlobal>
+            <GlobalLearningFactor>0.9</GlobalLearningFactor>
+            <PsychicSensitivity>1.0</PsychicSensitivity>
+            <MeleeHitChance>1.8</MeleeHitChance>
+            <MeleeDodgeChance>4.5</MeleeDodgeChance>
+            <ShootingAccuracyPawn>4.5</ShootingAccuracyPawn>
+            <AimingDelayFactor>1.2</AimingDelayFactor>
+            <PainShockThreshold>0.95</PainShockThreshold>
+            <DrugSynthesisSpeed>0.7</DrugSynthesisSpeed>
+            <MedicalTendSpeed>0.9</MedicalTendSpeed>
+            <MedicalTendQuality>0.8</MedicalTendQuality>
+            <NegotiationAbility>1.4</NegotiationAbility>
+            <SellPriceFactor>1.0</SellPriceFactor>
+            <TradePriceImprovement>1.0</TradePriceImprovement>
+            <SocialImpact>1.0</SocialImpact>
+            <MedicalSurgerySuccessChance>0.9</MedicalSurgerySuccessChance>
+            <EatingSpeed>1.1</EatingSpeed>
+            <ButcheryFleshEfficiency>1.0</ButcheryFleshEfficiency>
+            <ButcheryFleshSpeed>1.1</ButcheryFleshSpeed>
+            <FoodPoisonChance>0.8</FoodPoisonChance>
+            <CookSpeed>0.8</CookSpeed>
+            <RestRateMultiplier>1.1</RestRateMultiplier>
+            <PlantWorkSpeed>0.4</PlantWorkSpeed>
+            <PlantHarvestYield>1.0</PlantHarvestYield>
+            <ConstructionSpeed>1.0</ConstructionSpeed>
+            <ButcheryMechanoidEfficiency>1.0</ButcheryMechanoidEfficiency>
+            <ButcheryMechanoidSpeed>1.2</ButcheryMechanoidSpeed>
+            <SmeltingSpeed>0.9</SmeltingSpeed>
+            <ResearchSpeed>1.1</ResearchSpeed>
+            <MiningSpeed>1.1</MiningSpeed>
+            <MiningYield>1.0</MiningYield>
+        </statBases>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+
+</Patch>

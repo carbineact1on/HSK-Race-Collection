@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein AIPTDustcoat -->
+  <Wolfein_AIPTDustcoat.label>沃芬族AIPT防尘大衣</Wolfein_AIPTDustcoat.label>
+  <!-- EN: The AIPT department's standard dust coat has excellent dust and corrosion resistance. It is suitable for unknown biological investigations and on-site processing, providing basic environmental isolation and flexibility of movement. -->
+  <Wolfein_AIPTDustcoat.description>AIPT部门标配的防尘大衣，具备出色的防尘与抗腐蚀性能，适用于未知生物调查与现场处理，提供基本的环境隔离与行动灵活性。</Wolfein_AIPTDustcoat.description>
+  
+  <!-- EN: Wolfein AIPT Heavy Power Armor -->
+  <Wolfein_AIPTHeavyPowerArmor.label>沃芬族AIPT重型动力甲</Wolfein_AIPTHeavyPowerArmor.label>
+  <!-- EN: The AIPT task force's specialized powered armor, with enhanced heat resistance compared to the original model, is additionally equipped with two gas canisters, providing enough fuel for the attached flamethrower to operate at full power. -->
+  <Wolfein_AIPTHeavyPowerArmor.description>AIPT处理组专用的动力装甲，较原型号具备更强的耐热性，额外配备了两个气罐足以让配套的喷火器火力全开。</Wolfein_AIPTHeavyPowerArmor.description>
+  
+  <!-- EN: Wolfein Dustcoat -->
+  <Wolfein_Dustcoat.label>沃芬族防尘大衣</Wolfein_Dustcoat.label>
+  <!-- EN: A dust coat designed to protect against wind and sand while shielding from the scorching sunlight. -->
+  <Wolfein_Dustcoat.description>一件防尘大衣，具有抵御风沙尘埃与阻隔炎热阳光的功能。</Wolfein_Dustcoat.description>
+  
+  <!-- EN: Wolfein FlakJacket -->
+  <Wolfein_FlakJacket.label>沃芬族轻型防弹衣</Wolfein_FlakJacket.label>
+  <!-- EN: Wolfein armed personnel often use portable, lightweight bulletproof vests in combat, offering good protection against bullets and stabs. -->
+  <Wolfein_FlakJacket.description>沃芬族武装职员在作战中会经常使用便捷式轻型防弹衣，拥有不错的防弹与防刺能力。</Wolfein_FlakJacket.description>
+  
+  <!-- EN: Wolfein Guard Power Armor -->
+  <Wolfein_GuardPowerArmor.label>沃芬族禁卫动力甲</Wolfein_GuardPowerArmor.label>
+  <!-- EN: A military power armor made with high-tech fiber materials for its inner lining. It fits the body closely and is lightweight and flexible, providing effective protection against shrapnel and blades, as well as solid bulletproof capabilities. -->
+  <Wolfein_GuardPowerArmor.description>从机械族战争中的一系列天马行空的设计中脱颖而出，带有一定的旧时代遗风。设计上是为了让长于近战的沃芬族尖兵在与机械族近距离肉搏时不落下风，因而在一定程度上牺牲了装甲的覆盖面积而着重强调动作灵活性。</Wolfein_GuardPowerArmor.description>
+  
+  <!-- EN: Wolfein Heavy Flak Jacket -->
+  <Wolfein_HeavyFlakJacket.label>沃芬族重型防弹衣</Wolfein_HeavyFlakJacket.label>
+  <!-- EN: A heavy-duty bulletproof vest, providing more comprehensive protection compared to a lightweight vest, but at the cost of being bulkier. -->
+  <Wolfein_HeavyFlakJacket.description>一件重型防弹衣，相比轻型防弹衣提供更全面的保护，但也因此更加笨重。</Wolfein_HeavyFlakJacket.description>
+  
+  <!-- EN: Wolfein Heavy Power Armor -->
+  <Wolfein_HeavyPowerArmor.label>沃芬族重型动力甲</Wolfein_HeavyPowerArmor.label>
+  <!-- EN: Designed based on the lessons learned from the War with the Mechanoid, this design focuses on maximizing survival rates when facing heavy Mechanoid firepower. However, the exaggerated protection and the requirement for user to use heavy weaponry result in a significant reduction in mobility. -->
+  <Wolfein_HeavyPowerArmor.description>根据机械族战争中的经验教训总结设计而来，设计上强调在直面机械族重火力下的生存率，但夸张的防护和对重武器的使用需求带来了机动性的严重降低。</Wolfein_HeavyPowerArmor.description>
+  
+  <!-- EN: Wolfein Imperial Guard Power Armor -->
+  <Wolfein_ImperialGuardPowerArmor.label>沃芬族前世代禁卫动力甲</Wolfein_ImperialGuardPowerArmor.label>
+  <!-- EN: The power armor used by the previous generations of the Wolfein tribe retains the royal style of the old times and shows the glory of the past. However, the glory is no longer there, and the power armor has become a relic of the past glory and a symbol of history. -->
+  <Wolfein_ImperialGuardPowerArmor.description>沃芬族前世代皇族所使用的动力甲，保留着旧时代的皇家风格，尽显当年的辉煌。然而，如今的荣耀早已不复存在，动力甲成了昔日辉煌的遗迹与历史的象征。</Wolfein_ImperialGuardPowerArmor.description>
+
+  <!-- EN: Wolfein Imperial Scout Power Armor -->
+  <Wolfein_ImperialScoutPowerArmor.label>沃芬族前世代斥候动力甲</Wolfein_ImperialScoutPowerArmor.label>
+  <!-- EN: A lightweight reconnaissance power suit recreated based on the royal military doctrines of the previous Wolfein generation, combined with contemporary engineering. It offers exceptional mobility and enhanced sensory systems. -->
+  <Wolfein_ImperialScoutPowerArmor.description>以沃芬族前世代皇族军典为蓝本，结合当代技术复现打造的轻型侦察动力甲，拥有优秀的机动性与感知增强系统。</Wolfein_ImperialScoutPowerArmor.description>
+
+  <!-- EN: Wolfein Lightweight Combat jacket -->
+  <Wolfein_LightweightCombatjacket.label>沃芬族轻型作战夹克</Wolfein_LightweightCombatjacket.label>
+  <!-- EN: A lightweight combat jacket, offering comfort and versatility for various combat environments, typically worn in combination with lightweight combat uniforms. -->
+  <Wolfein_LightweightCombatjacket.description>一件轻型作战夹克，轻便舒适并且适用于各种作战环境，一般与轻型作战服穿戴搭配。</Wolfein_LightweightCombatjacket.description>
+  
+  <!-- EN: Wolfein Military Cape -->
+  <Wolfein_MilitaryCape.label>沃芬族军用披风</Wolfein_MilitaryCape.label>
+  <!-- EN: The Wolfein military-grade cloak is windproof and waterproof, with the capability to attach a camouflage net, making it a favorite among scouts and snipers. -->
+  <Wolfein_MilitaryCape.description>沃芬族的军用级别披风，在防风雨的同时能外挂伪装网，是斥候和狙击手们的最爱。</Wolfein_MilitaryCape.description>
+
+  <!-- EN: Fenrir’s Military Cape -->
+  <Wolfein_Fenrir_MilitaryCape.label>芬里尔的军用披风</Wolfein_Fenrir_MilitaryCape.label>
+  <!-- EN: An extended cloak-coat based on the standard military cape, its longer hem provides greater coverage while still allowing free movement. For Fenrir, it is more like a piece of workwear casually thrown on; whether in frontline operations or daily duties, it maintains his characteristic composure through sheer practicality. -->
+  <Wolfein_Fenrir_MilitaryCape.description>一件在制式军用披风基础上加长的披风大衣，延伸的衣摆带来更高的包覆性，却依旧行动自如。对芬里尔而言，它更像是一件随手披上的工作装，无论前线行动还是日常事务，都能在实用之中维持一贯的从容。</Wolfein_Fenrir_MilitaryCape.description>
+
+  <!-- EN: Wolfein Military Dustcoat -->
+  <Wolfein_MilitaryDustcoat.label>沃芬族军用防尘大衣</Wolfein_MilitaryDustcoat.label>
+  <!-- EN: The Wolfein military-grade dustproof coat offers superior protection compared to regular dustproof coats, making it suitable for more extreme environments. -->
+  <Wolfein_MilitaryDustcoat.description>沃芬族的军用级别防尘大衣，与普通防尘大衣相比具有更好的防护作用，适用于更加极端的环境。</Wolfein_MilitaryDustcoat.description>
+  
+  <!-- EN: Wolfein Military Wintercoat -->
+  <Wolfein_MilitaryWintercoat.label>沃芬族军用防寒大衣</Wolfein_MilitaryWintercoat.label>
+  <!-- EN: The Wolfein military-grade winter coat provides enhanced protection while offering warmth and comfort to Wolfein soldiers, ensuring they stay warm in harsh cold conditions. -->
+  <Wolfein_MilitaryWintercoat.description>沃芬族的军用级别防寒大衣，在防护更好的同时可以为沃芬族士兵提供温暖舒适的着装，确保在严寒中保持身体的温暖。</Wolfein_MilitaryWintercoat.description>
+  
+  <!-- EN: Wolfein Outdoor Jacket -->
+  <Wolfein_OutdoorJacket.label>沃芬族冲锋大衣</Wolfein_OutdoorJacket.label>
+  <!-- EN: A Wolfein combat coat, sturdy and durable, designed to provide protection and ease of movement for combatants in harsh environments. -->
+  <Wolfein_OutdoorJacket.description>一件沃芬族的冲锋大衣，坚固且耐磨，可以为战斗人员在恶劣环境下提供保护和行动便利。</Wolfein_OutdoorJacket.description>
+  
+  <!-- EN: Wolfein Psionic Combat Suit -->
+  <Wolfein_PsionicCombatSuit.label>沃芬族灵能战斗服</Wolfein_PsionicCombatSuit.label>
+  <!-- EN: A psionic combat suit designed for the Wolfein who use psychic to combat, embedded with mental polymers in its material to enhance the rate of psychic entropy reduction. -->
+  <Wolfein_PsionicCombatSuit.description>为使用灵能作战的沃芬族设计的特制战斗服，制作材料中镶嵌有心灵聚合物，可以提高心灵熵降低速率。</Wolfein_PsionicCombatSuit.description>
+  
+  <!-- EN: Wolfein Rebel Dustproof Cloak -->
+  <Wolfein_RebelDustproofCloak.label>沃芬族抵抗军披肩</Wolfein_RebelDustproofCloak.label>
+  <!-- EN: The Wolfein Resistance Army's shoulder cape is typically worn in conjunction with the resistance uniform. Soldiers of higher rank within the resistance are equipped with this shoulder cape as part of their standard attire. -->
+  <Wolfein_RebelDustproofCloak.description>沃芬族抵抗军的披肩，通常与抵抗军制服搭配穿戴，军阶更高一些的抵抗军士兵会配备这件披肩。</Wolfein_RebelDustproofCloak.description>
+  
+  <!-- EN: Wolfein Rebel Heavy Power Armor -->
+  <Wolfein_RebelHeavyPowerArmor.label>沃芬族抵抗军重型动力甲</Wolfein_RebelHeavyPowerArmor.label>
+  <!-- EN: The heavy power armor used by the Wolfein Resistance has some armor removed and a field-style cape added. -->
+  <Wolfein_RebelHeavyPowerArmor.description>沃芬抵抗军使用的重型动力甲，在原有基础上移除了部分护甲，并添加了具有野战风格的披肩。</Wolfein_RebelHeavyPowerArmor.description>
+  
+  <!-- EN: Wolfein RebelPower Armor -->
+  <Wolfein_RebelPowerArmor.label>沃芬族抵抗军动力甲</Wolfein_RebelPowerArmor.label>
+  <!-- EN: Modified from the Wolfein Scout Power Armor, the material cost is reduced, but the stability and protection performance are slightly reduced accordingly. -->
+  <Wolfein_RebelPowerArmor.description>由沃芬斥候动力甲改造而成，材料成本有所降低，但相应地稳定性和防护性能略有下降。</Wolfein_RebelPowerArmor.description>
+  
+  <!-- EN: Wolfein Red Combat Suit -->
+  <Wolfein_RedCombatSuit.label>红帽作战服</Wolfein_RedCombatSuit.label>
+  <!-- EN: A special combat suit that integrates stealth technology with highly efficient tactical functions, worn only by specially trained Wolfein during covert missions. -->
+  <Wolfein_RedCombatSuit.description>一件特殊的作战服，融合了隐蔽科技和高效的战术功能，只有经过特殊训练的沃芬族在执行秘密任务时才会穿戴它。</Wolfein_RedCombatSuit.description>
+  
+  <!-- EN: Wolfein Scout Power Armor -->
+  <Wolfein_ScoutPowerArmor.label>沃芬族斥候动力甲</Wolfein_ScoutPowerArmor.label>
+  <!-- EN: A military power armor made with high-tech fiber materials for its inner lining. It fits the body closely and is lightweight and flexible, providing effective protection against shrapnel and blades, as well as solid bulletproof capabilities. -->
+  <Wolfein_ScoutPowerArmor.description>由高科技纤维材料为内衬制成的军用动力装甲，贴合身形且轻便灵活，不仅能有效抵御弹片和刀刃，还具备不错的防弹功能。</Wolfein_ScoutPowerArmor.description>
+  
+  <!-- EN: Wolfein Special Military Uniform -->
+  <Wolfein_SpecialmilitaryUniform.label>沃芬族特种作战服</Wolfein_SpecialmilitaryUniform.label>
+  <!-- EN: The combat uniform typically used by the Wolfein in complex operational environments, designed as standard gear for task force mobile units. -->
+  <Wolfein_SpecialmilitaryUniform.description>沃芬族一般会在复杂的作战环境下使用的作战服，是特遣机动队的制式装备。</Wolfein_SpecialmilitaryUniform.description>
+  
+  <!-- EN: Wolfein suit with sweater -->
+  <Wolfein_SuitWithSweater.label>沃芬族针织衣套</Wolfein_SuitWithSweater.label>
+  <!-- EN: A casual combination of a sweater and a jacket, perfect for indoor wear during winter. When needed, the zipper can be pulled up for added warmth. -->
+  <Wolfein_SuitWithSweater.description>毛衣与外套的休闲组合，适合在冬季室内穿着，必要时也可以拉上拉链来进一步保暖。</Wolfein_SuitWithSweater.description>
+  
+  <!-- EN: Wolfein Vanguard Uniform -->
+  <Wolfein_VanguardUniform.label>沃芬族尖兵战斗服</Wolfein_VanguardUniform.label>
+  <!-- EN: The Vanguard combat uniform is specifically designed for close-quarters combat, combining lightweight flexibility with solid protective features, giving Wolfein vanguards an edge in melee engagements. -->
+  <Wolfein_VanguardUniform.description>尖兵作战服专为近距离作战环境而设计，结合了轻便灵活的特性和不错的防护功能，为沃芬族尖兵提供近战优势。</Wolfein_VanguardUniform.description>
+  
+  <!-- EN: Wolfein Wasteland Splicingcoat -->
+  <Wolfein_WastelandSplicingcoat.label>沃芬族流浪者拼接大衣</Wolfein_WastelandSplicingcoat.label>
+  <!-- EN: A patchwork coat made by Wofen wanderers, stitched together from various worn fabrics and damaged military uniforms. Despite its shabby appearance, it is surprisingly durable and warm. -->
+  <Wolfein_WastelandSplicingcoat.description>一件由沃芬流浪者将各种残旧布料以及破损的军用衣物拼接而成的拼接大衣，虽然外表破旧，但出奇的耐用且温暖。</Wolfein_WastelandSplicingcoat.description>
+  
+  <!-- EN: Wolfein Winter Coat -->
+  <Wolfein_Wintercoat.label>沃芬族防寒大衣</Wolfein_Wintercoat.label>
+  <!-- EN: A winter coat with excellent insulation, ideal for cold outdoor environments. -->
+  <Wolfein_Wintercoat.description>一件防寒大衣，具有不错的保暖效果，适用于户外寒冷环境。</Wolfein_Wintercoat.description>
+
+  <!-- EN: Red-Eyed Armor -->
+  <Wolfein_Red-EyedArmor.label>红目护甲</Wolfein_Red-EyedArmor.label>
+  <!-- EN: Heavy armor tightly envelops the body, cold and restrained, as if sealing away emotion while protecting the flesh beneath. Movements become decisive and efficient, yet it leaves one wondering—has a human donned the shell of a wolf, or has a wolf learned to walk in human form? -->
+  <Wolfein_Red-EyedArmor.description>厚重的装甲紧密包覆身体，冰冷而克制，仿佛在保护血肉的同时，也将情感一并封存，行动也因此变得更加果断而高效。却让人不禁疑惑——究竟是人穿上了狼的外壳，还是狼学会了以人的姿态行走。</Wolfein_Red-EyedArmor.description>
+  
+</LanguageData>

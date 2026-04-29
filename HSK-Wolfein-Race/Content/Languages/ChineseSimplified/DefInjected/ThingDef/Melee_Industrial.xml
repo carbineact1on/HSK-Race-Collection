@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein AIPT Chain Saw -->
+  <W_Weapon_Melee_AIPTChainSaw.label>沃芬族AIPT链锯</W_Weapon_Melee_AIPTChainSaw.label>
+  <!-- EN: A heavy-duty weapon engineered by Wolfein Anomaly Intervention Teams for purging flesh-based entities, featuring armored housing with hyper-frequency vibrating teeth to rapidly disassemble non-humanoid biological structures. -->
+  <W_Weapon_Melee_AIPTChainSaw.description>沃芬族异象处理组专为清除血肉生物设计的重型武器，装甲框架内嵌高速震动锯齿，可以快速瓦解任何生物的组织结构。</W_Weapon_Melee_AIPTChainSaw.description>
+  <!-- EN: blade -->
+  <W_Weapon_Melee_AIPTChainSaw.tools.blade.label>握柄</W_Weapon_Melee_AIPTChainSaw.tools.blade.label>
+  
+  <!-- UNUSED -->
+  <W_Weapon_Melee_AIPTChainSaw.tools.1.label>锯刃</W_Weapon_Melee_AIPTChainSaw.tools.1.label>
+  
+  <!-- EN: Wolfein Alloy Dagger -->
+  <W_Weapon_Melee_AlloyDagger.label>沃芬族合金匕首</W_Weapon_Melee_AlloyDagger.label>
+  <!-- EN: The standard-issue weapon of the Wolfein armed forces. Its modular, detachable blade design ensures that Wolfein elite soldiers remain sharp—until victory or death. -->
+  <W_Weapon_Melee_AlloyDagger.description>沃芬族武装部队的制式武器，可以随时模块化拆解的刃片设计更是保证沃芬族尖兵永远保持锋芒，直到胜利或死亡。</W_Weapon_Melee_AlloyDagger.description>
+  <!-- EN: handle -->
+  <W_Weapon_Melee_AlloyDagger.tools.handle.label>握把</W_Weapon_Melee_AlloyDagger.tools.handle.label>
+  <!-- EN: point -->
+  <W_Weapon_Melee_AlloyDagger.tools.point.label>刀尖</W_Weapon_Melee_AlloyDagger.tools.point.label>
+  <!-- EN: edge -->
+  <W_Weapon_Melee_AlloyDagger.tools.edge.label>刀刃</W_Weapon_Melee_AlloyDagger.tools.edge.label>
+  
+  <!-- EN: Wolfein Alloy Sabre -->
+  <W_Weapon_Melee_AlloySabre.label>沃芬族合金军刀</W_Weapon_Melee_AlloySabre.label>
+  <!-- EN: A seamless fusion of tradition and modernity, forged with Wolfein's advanced metallurgy and precision engineering to deliver surgical cutting precision and tactical striking power for versatile close-quarters engagements. -->
+  <W_Weapon_Melee_AlloySabre.description>传统与现代的完美结合，利用沃芬族的先进材料和精密工艺打造而成，比起大部分军刀的仪仗式设计，沃芬族的双手军刀摒弃了那些冗余，只为砍杀敌人而生。</W_Weapon_Melee_AlloySabre.description>
+  <!-- EN: handle -->
+  <W_Weapon_Melee_AlloySabre.tools.handle.label>握柄</W_Weapon_Melee_AlloySabre.tools.handle.label>
+  <!-- EN: point -->
+  <W_Weapon_Melee_AlloySabre.tools.point.label>刀尖</W_Weapon_Melee_AlloySabre.tools.point.label>
+  <!-- EN: edge -->
+  <W_Weapon_Melee_AlloySabre.tools.edge.label>刀刃</W_Weapon_Melee_AlloySabre.tools.edge.label>
+  
+  <!-- EN: Wolfein Riot Baton -->
+  <W_Weapon_Melee_Baton.label>沃芬族镇暴棍</W_Weapon_Melee_Baton.label>
+  <!-- EN: A low-lethality weapon used by the Wolfein for controlling riots and violent outbreaks. Crafted from durable materials, it's designed to suppress unrest without causing fatal harm. -->
+  <W_Weapon_Melee_Baton.description>一种沃芬族用于控制骚乱和暴力场面的低致命武器，由坚固的材料制成，用于制止骚乱。</W_Weapon_Melee_Baton.description>
+  <!-- EN: handle -->
+  <W_Weapon_Melee_Baton.tools.handle.label>握把</W_Weapon_Melee_Baton.tools.handle.label>
+  <!-- EN: body -->
+  <W_Weapon_Melee_Baton.tools.body.label>棍身</W_Weapon_Melee_Baton.tools.body.label>
+  
+  <!-- EN: Wolfein Heavy Machete -->
+  <W_Weapon_Melee_HeavyMachete.label>沃芬族重型砍刀</W_Weapon_Melee_HeavyMachete.label>
+  <!-- EN: Though cumbersome and unwieldy to operate, this monolithic blade becomes a terrifying force in the hands of skilled wielders, capable of cleaving through armor with brutal efficiency. -->
+  <W_Weapon_Melee_HeavyMachete.description>这种武器尽管十分笨重且操作困难，但在熟练的使用者手中，它能轻易斩断那些敢于直面沃芬们狩猎血性的巨物。</W_Weapon_Melee_HeavyMachete.description>
+  <!-- EN: handle -->
+  <W_Weapon_Melee_HeavyMachete.tools.handle.label>握柄</W_Weapon_Melee_HeavyMachete.tools.handle.label>
+  <!-- EN: edge -->
+  <W_Weapon_Melee_HeavyMachete.tools.edge.label>刀刃</W_Weapon_Melee_HeavyMachete.tools.edge.label>
+  
+  <!-- EN: Wolfein Heavy Power Axe -->
+  <W_Weapon_Melee_HeavyPowerAxe.label>沃芬族巨型动力斧</W_Weapon_Melee_HeavyPowerAxe.label>
+  <!-- EN: A colossal melee weapon occasionally deployed in close-quarters combat, utilizing advanced propulsion systems to deliver devastating kinetic strikes. -->
+  <W_Weapon_Melee_HeavyPowerAxe.description>沃芬族在近距离作战中有时会选用的一种巨型近战武器，依赖先进的动力系统，每一次挥动都能对敌人的肉体和精神造成巨大创伤。</W_Weapon_Melee_HeavyPowerAxe.description>
+  <!-- EN: handle -->
+  <W_Weapon_Melee_HeavyPowerAxe.tools.handle.label>握柄</W_Weapon_Melee_HeavyPowerAxe.tools.handle.label>
+  <!-- EN: blade -->
+  <W_Weapon_Melee_HeavyPowerAxe.tools.blade.label>斧刃</W_Weapon_Melee_HeavyPowerAxe.tools.blade.label>
+  
+  <!-- EN: Wolfein Heavy Sabre -->
+  <W_Weapon_Melee_HeavySabre.label>沃芬族重型军刀</W_Weapon_Melee_HeavySabre.label>
+  <!-- EN: A two-handed colossal blade with surprisingly manageable weight, delivering lethality comparable to bulkier melee weapons while maintaining sustained thrusting efficiency through its unique aerodynamic profile, earning the "Utility Knife" moniker among operatives. -->
+  <W_Weapon_Melee_HeavySabre.description>一把双手握持的巨型武器，重量相比较轻的情况下，拥有不俗于其他大型近战武器的杀伤力，同时其独特的设计也让其能持续高效突刺，也因其设计在使用者间流传着“美工刀”的外号。</W_Weapon_Melee_HeavySabre.description>
+  <!-- EN: handle -->
+  <W_Weapon_Melee_HeavySabre.tools.handle.label>握把</W_Weapon_Melee_HeavySabre.tools.handle.label>
+  <!-- EN: point -->
+  <W_Weapon_Melee_HeavySabre.tools.point.label>刀尖</W_Weapon_Melee_HeavySabre.tools.point.label>
+  <!-- EN: edge -->
+  <W_Weapon_Melee_HeavySabre.tools.edge.label>刀刃</W_Weapon_Melee_HeavySabre.tools.edge.label>
+  
+  <!-- EN: Wolfein Prototype Gunlance -->
+  <W_Weapon_Melee_PrototypeGunlance.label>沃芬族试制型铳枪</W_Weapon_Melee_PrototypeGunlance.label>
+  <!-- EN: A Wolfein prototype gunlance designed to address the close-combat soldier’s inability to quickly handle large numbers of targets. Engineers preserved the weapon’s excellent slashing performance while fitting it with an explosive buckshot launcher. The explosive buckshot it fires can deal devastating damage to large swarms of lightly armored units at close range. -->
+  <W_Weapon_Melee_PrototypeGunlance.description>试制型铳枪，针对近战士兵无法快速处理大量单位的缺陷所设计。工程师们在保证枪本身优良的劈砍能力同时，在其上安装了霰爆弹发射器。其射出的霰爆弹能在近距离对大面积轻甲单位造成毁灭性的打击。</W_Weapon_Melee_PrototypeGunlance.description>
+  <!-- EN: point -->
+  <W_Weapon_Melee_PrototypeGunlance.tools.point.label>铳尖</W_Weapon_Melee_PrototypeGunlance.tools.point.label>
+  <!-- EN: edge -->
+  <W_Weapon_Melee_PrototypeGunlance.tools.edge.label>铳刃</W_Weapon_Melee_PrototypeGunlance.tools.edge.label>
+  
+  <!-- EN: Wolfein Rebel Alloy Dagger -->
+  <W_Weapon_Melee_RebelAlloyDagger.label>沃芬族抵抗军合金匕首</W_Weapon_Melee_RebelAlloyDagger.label>
+  <!-- EN: The standard close-combat sidearm carried by Wolfein Resistance fighters, optimized for covert strikes and reliable armor-piercing efficiency. -->
+  <W_Weapon_Melee_RebelAlloyDagger.description>沃芬抵抗军随身携带的常用近战武器，兼顾隐蔽突袭与高效护甲穿透性能，简化了的工艺使其比起制式军刀更加廉价。</W_Weapon_Melee_RebelAlloyDagger.description>
+  <!-- EN: handle -->
+  <W_Weapon_Melee_RebelAlloyDagger.tools.handle.label>握把</W_Weapon_Melee_RebelAlloyDagger.tools.handle.label>
+  <!-- EN: point -->
+  <W_Weapon_Melee_RebelAlloyDagger.tools.point.label>刀尖</W_Weapon_Melee_RebelAlloyDagger.tools.point.label>
+  <!-- EN: edge -->
+  <W_Weapon_Melee_RebelAlloyDagger.tools.edge.label>刀刃</W_Weapon_Melee_RebelAlloyDagger.tools.edge.label>
+  
+  <!-- EN: Wolfein Rebel Heavy Power Hammer -->
+  <W_Weapon_Melee_RebelPowerHammer.label>沃芬族抵抗军重型动力锤</W_Weapon_Melee_RebelPowerHammer.label>
+  <!-- EN: Designed to allow resistance army soldiers to engage against the MegaCorp special forces wielding heavy power axes. Although the lack of composite alloys in its construction makes it clearly inferior to a heavy power axe, it remains a formidable weapon in the hands of a seasoned veteran. -->
+  <W_Weapon_Melee_RebelPowerHammer.description>为了让抵抗军士兵能够与军企特战队员的巨型动力斧交战而被设计出来。虽然由于用料缺乏复合合金显然难以与巨型动力斧竞争，但在熟练的老兵手里仍是一把优良的武器。</W_Weapon_Melee_RebelPowerHammer.description>
+  <!-- EN: handle -->
+  <W_Weapon_Melee_RebelPowerHammer.tools.handle.label>握把</W_Weapon_Melee_RebelPowerHammer.tools.handle.label>
+  <!-- EN: body -->
+  <W_Weapon_Melee_RebelPowerHammer.tools.body.label>锤头</W_Weapon_Melee_RebelPowerHammer.tools.body.label>
+  
+  <!-- UNUSED -->
+  <W_Weapon_Melee_RebelPowerHammer.tools.Blunt.label>锤头</W_Weapon_Melee_RebelPowerHammer.tools.Blunt.label>
+  
+  <!-- EN: Prototype Heavy Sabre -->
+  <W_Weapon_Melee_Sheathe.label>试制型重型军刀</W_Weapon_Melee_Sheathe.label>
+  <!-- EN: Given the Utility Knife’s acclaim within MegaCorp assault squads, MegaCorp’s Wolfein division selected the Prototype Heavy Sabre as one of the first close-combat weapons for experimental augmentation. Thanks to recent successes in the Heavy Gear Augmentation program, the development division—no longer forced to compromise for weight—integrated multiple advanced technologies into the blade: an EMP embedded in the scabbard that can be triggered on impact, and a blade-heating system that, together with fuel stored in the scabbard, can melt through metal armor.\nEven those two features failed to satisfy MegaCorp, so the developers installed a fold-jump device in the scabbard, enabling the wielder—like a harbinger of death—to claim enemies’ lives on the battlefield at speeds imperceptible to the naked eye. -->
+  <W_Weapon_Melee_Sheathe.description>鉴于“美工刀”在军企特遣机动队中的好评，沃芬军企将重型军刀列为首批试制改造的近战武器之一。得益于近期重型装备适配改造的成功，研发团队在不必为重量妥协的前提下，对该刀进行了多项技术集成：刀鞘内置EMP可在拍击瞬间触发，刀身加热系统配合鞘内燃料能融穿金属盔甲。 仅仅是如上两种特性仍不能让军企满意，于是研发部门在刀鞘上安装了折跃装置，能让使用者犹如索命的恶鬼一般，在战场上以肉眼不可及的速度收割敌人的性命。</W_Weapon_Melee_Sheathe.description>
+  <!-- EN: Draws the Prototype Heavy Sabre and activates its ignition module — enemy armor will melt like butter before it. -->
+  <W_Weapon_Melee_Sheathe.comps.CompToolSwitcher.toolGroups.0.groupDesc>抽出试制型重型军刀并激活点燃装置，敌人的盔甲在它面前犹如黄油。</W_Weapon_Melee_Sheathe.comps.CompToolSwitcher.toolGroups.0.groupDesc>
+  <!-- EN: Blade Mode -->
+  <W_Weapon_Melee_Sheathe.comps.CompToolSwitcher.toolGroups.0.groupLabel>刀刃模式</W_Weapon_Melee_Sheathe.comps.CompToolSwitcher.toolGroups.0.groupLabel>
+  <!-- EN: edge -->
+  <W_Weapon_Melee_Sheathe.comps.CompToolSwitcher.toolGroups.0.tools.edge.label>刀刃</W_Weapon_Melee_Sheathe.comps.CompToolSwitcher.toolGroups.0.tools.edge.label>
+  <!-- EN: Returns the Prototype Heavy Sabre to its sheath and activates the EMP module built into it. Be careful not to get burned... or shocked. -->
+  <W_Weapon_Melee_Sheathe.comps.CompToolSwitcher.toolGroups.1.groupDesc>将试制型重型军刀收回鞘内并启用刀鞘上的EMP装置，注意不要被烫到或是电到了。</W_Weapon_Melee_Sheathe.comps.CompToolSwitcher.toolGroups.1.groupDesc>
+  <!-- EN: Sheath Mode -->
+  <W_Weapon_Melee_Sheathe.comps.CompToolSwitcher.toolGroups.1.groupLabel>刀鞘模式</W_Weapon_Melee_Sheathe.comps.CompToolSwitcher.toolGroups.1.groupLabel>
+  <!-- EN: sheath -->
+  <W_Weapon_Melee_Sheathe.comps.CompToolSwitcher.toolGroups.1.tools.sheath.label>刀鞘</W_Weapon_Melee_Sheathe.comps.CompToolSwitcher.toolGroups.1.tools.sheath.label>
+  <!-- EN: Prototype Heavy Sabre -->
+  <W_Weapon_Melee_Sheathe.renderNodeProperties.0.debugLabel>试制型重型军刀</W_Weapon_Melee_Sheathe.renderNodeProperties.0.debugLabel>
+  <!-- EN: edge -->
+  <W_Weapon_Melee_Sheathe.tools.edge.label>刀刃</W_Weapon_Melee_Sheathe.tools.edge.label>
+  
+  <!-- UNUSED -->
+  <W_Weapon_Melee_Sheathe.comps.CompMeleeSwitch.gizmoDesc1>抽出试制型重型军刀并激活点燃装置，敌人的盔甲在它面前犹如黄油。</W_Weapon_Melee_Sheathe.comps.CompMeleeSwitch.gizmoDesc1>
+  <W_Weapon_Melee_Sheathe.comps.CompMeleeSwitch.gizmoDesc2>将试制型重型军刀收回鞘内并启用刀鞘上的EMP装置，注意不要被烫到或是电到了。</W_Weapon_Melee_Sheathe.comps.CompMeleeSwitch.gizmoDesc2>
+  <W_Weapon_Melee_Sheathe.comps.CompMeleeSwitch.gizmoLabel1>切换为刀刃模式</W_Weapon_Melee_Sheathe.comps.CompMeleeSwitch.gizmoLabel1>
+  <W_Weapon_Melee_Sheathe.comps.CompMeleeSwitch.gizmoLabel2>切换为刀鞘模式</W_Weapon_Melee_Sheathe.comps.CompMeleeSwitch.gizmoLabel2>
+  
+  <!-- EN: Wolfein Simple Dagger -->
+  <W_Weapon_Melee_SimpleDagger.label>沃芬族简易匕首</W_Weapon_Melee_SimpleDagger.label>
+  <!-- EN: A ground iron shard with cloth-wrapped hilt, crudely assembled yet prevalent among Wolfein outcasts - those wolf-like vagrants prowling civilization's fringes. -->
+  <W_Weapon_Melee_SimpleDagger.description>一片经过打磨的钢片，缠上了一些布条，便组成了这把在边缘狼间常见的武器，沃芬族早已将利爪收敛己身，使用武器狩猎才更能取悦他们生来的血性本能。</W_Weapon_Melee_SimpleDagger.description>
+  <!-- EN: handle -->
+  <W_Weapon_Melee_SimpleDagger.tools.handle.label>握把</W_Weapon_Melee_SimpleDagger.tools.handle.label>
+  <!-- EN: point -->
+  <W_Weapon_Melee_SimpleDagger.tools.point.label>刀尖</W_Weapon_Melee_SimpleDagger.tools.point.label>
+  <!-- EN: edge -->
+  <W_Weapon_Melee_SimpleDagger.tools.edge.label>刀刃</W_Weapon_Melee_SimpleDagger.tools.edge.label>
+  
+  <!-- EN: Wolfein Simple Mace -->
+  <W_Weapon_Melee_SimpleMace.label>沃芬族铁丝棒球棍</W_Weapon_Melee_SimpleMace.label>
+  <!-- EN: Whether salvaged from sports arenas or back-alley brawls, this baseball bat wrapped in razor wire now serves as a brutally pragmatic tool for "wilderness tourism". -->
+  <W_Weapon_Melee_SimpleMace.description>无论这把棒球棍曾经是明星球员的得力干将，还是边缘狼间械斗的武器，在缠上几圈铁丝后，现在都成为一把居家旅行杀人越货的"利"器。另外，谨防破伤风。</W_Weapon_Melee_SimpleMace.description>
+  <!-- EN: handle -->
+  <W_Weapon_Melee_SimpleMace.tools.handle.label>握把</W_Weapon_Melee_SimpleMace.tools.handle.label>
+  <!-- EN: body -->
+  <W_Weapon_Melee_SimpleMace.tools.body.label>棍身</W_Weapon_Melee_SimpleMace.tools.body.label>
+  
+  <!-- EN: Wolfein Simple Spear -->
+  <W_Weapon_Melee_SimpleSpear.label>沃芬族简易长矛</W_Weapon_Melee_SimpleSpear.label>
+  <!-- EN: A straight wooden shaft wrapped with leather at the grip and tipped with a dagger - this rudimentary yet timeless design remains the Wolfein's most ancient and pragmatic weapon. After all, classics never fade. -->
+  <W_Weapon_Melee_SimpleSpear.description>找一根较长而直的木棍，一段缠上皮革，另一端绑上匕首，便制成了这把沃芬族最古老而实用的武器。毕竟，经典永不过时。</W_Weapon_Melee_SimpleSpear.description>
+  <!-- EN: handle -->
+  <W_Weapon_Melee_SimpleSpear.tools.handle.label>握把</W_Weapon_Melee_SimpleSpear.tools.handle.label>
+  <!-- EN: point -->
+  <W_Weapon_Melee_SimpleSpear.tools.point.label>刀尖</W_Weapon_Melee_SimpleSpear.tools.point.label>
+  
+</LanguageData>

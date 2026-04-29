@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein AIPTGoggle -->
+  <Wolfein_AIPTGoggle.label>沃芬族AIPT护目镜</Wolfein_AIPTGoggle.label>
+  <!-- EN: The Wolfein AIPT goggles, equipped with a simple cognitive protection program, help the wearer remain calm when facing anomalies, prioritizing the interests of the company. -->
+  <Wolfein_AIPTGoggle.description>沃芬族AIPT护目镜，配备简单的认知保护程序，能够帮助佩戴者在面对异象时保持冷静，并优先考虑公司利益。</Wolfein_AIPTGoggle.description>
+  
+  <!-- EN: Wolfein AIPT Gunlink -->
+  <Wolfein_AIPTGunlink.label>沃芬族AIPT辅瞄器</Wolfein_AIPTGunlink.label>
+  <!-- EN: The Wolfein AIPT gunlink, equipped with a ballistic computer that utilizes the latest and most advanced algorithms from MegaCorp to assist the user in achieving the highest precision shots. -->
+  <Wolfein_AIPTGunlink.description>沃芬族AIPT辅瞄器，其弹道计算机利用军企最新最优秀的算法来辅助使用者打出最高精度的射击。</Wolfein_AIPTGunlink.description>
+  
+  <!-- EN: Wolfein AIPT Heavy Power Armor Helmet -->
+  <Wolfein_AIPTHeavyPowerArmorHelmet.label>沃芬族AIPT动力甲重盔</Wolfein_AIPTHeavyPowerArmorHelmet.label>
+  <!-- EN: The Wolfein AIPT heavy helmet, compared to the version worn by task force colleagues, places greater emphasis on fire protection to prevent the wearer from descending into hell along with the enemy. -->
+  <Wolfein_AIPTHeavyPowerArmorHelmet.description>沃芬族AIPT动力甲重盔，相比机动队同事佩戴的版本，这款头盔更强调防火性能以防止使用者和敌人一起坠入地狱。</Wolfein_AIPTHeavyPowerArmorHelmet.description>
+  
+  <!-- EN: Wolfein Beret -->
+  <Wolfein_Beret.label>沃芬族贝雷帽</Wolfein_Beret.label>
+  <!-- EN: A lightweight, brimless soft cap known for its simple design, commonly seen in military use and everyday fashion. -->
+  <Wolfein_Beret.description>一种轻便、无檐的软帽。因其简洁设计，常见于军队及日常穿搭。</Wolfein_Beret.description>
+  
+  <!-- EN: Wolfein Combat Unit Exciter -->
+  <Wolfein_CombatUnitExciter.label>沃芬族作战单位激励器</Wolfein_CombatUnitExciter.label>
+  <!-- EN: Enhances the wearer's shooting accuracy through electrical stimulation of the cerebral cortex while suppressing pain nerves, enabling better contributions to the MegaCorp's expansion efforts. -->
+  <Wolfein_CombatUnitExciter.description>作战单位激励器，通过对大脑皮层的电刺激来提升穿戴者的射击能力并抑制痛觉神经以更好为公司扩张大业作贡献。</Wolfein_CombatUnitExciter.description>
+  
+  <!-- EN: Wolfein Gas Mask -->
+  <Wolfein_GasMask.label>沃芬族防毒面罩</Wolfein_GasMask.label>
+  <!-- EN: Covering your sensitive nose and mouth, protected them from toxic gas. The LED on the head strap could remind the user to change the fitter. -->
+  <Wolfein_GasMask.description>使用了多层滤芯的设计，可以有效隔离有害气体和颗粒物的防毒面罩，适用于工业作业和有害气体环境下的保护。</Wolfein_GasMask.description>
+  
+  <!-- EN: Wolfein Head Bandage -->
+  <Wolfein_HeadBandage.label>沃芬族头部绷带</Wolfein_HeadBandage.label>
+  <!-- EN: Quite useful when you want to cosplay a mummy, and a bit useful when you try to hind your wound or scar. -->
+  <Wolfein_HeadBandage.description>当你想扮演木乃伊时，它非常有用；当你试图掩盖伤口或疤痕时，也有一定的作用。</Wolfein_HeadBandage.description>
+
+  <!-- EN: Wolfein Eyepatch -->
+  <Wolfein_Eyepatch.label>沃芬眼罩</Wolfein_Eyepatch.label>
+  <!-- EN: A simple and practical black eyepatch, often made of leather and used to cover one eye. Its understated, austere design gives the wearer the air of someone seasoned by battle. -->
+  <Wolfein_Eyepatch.description>一副简洁实用的黑色眼罩，常以皮革制成，用于遮挡单侧眼部。低调而冷峻的设计，也让佩戴者多了一分历经战斗的气息。</Wolfein_Eyepatch.description>
+  
+  <!-- EN: Wolfein Heavy Power Armor Helmet -->
+  <Wolfein_HeavyPowerArmorHelmet.label>沃芬族动力甲重盔</Wolfein_HeavyPowerArmorHelmet.label>
+  <!-- EN: The Wolfein heavy power armor helmet, once worn only by those who fought in the most brutal battles against the Mechanoid. -->
+  <Wolfein_HeavyPowerArmorHelmet.description>沃芬族动力甲重盔，佩戴者曾经只会出现在与机械族战斗最残酷的地方。</Wolfein_HeavyPowerArmorHelmet.description>
+  
+  <!-- EN: Wolfein Military Helmet -->
+  <Wolfein_Helmet.label>沃芬族军用头盔</Wolfein_Helmet.label>
+  <!-- EN: Wolfein Army's standard helmet with gas mask and thermal goggle, with these extra high technology equipments, the Wolfein soldiers' combat effectiveness is much higher than other races. -->
+  <Wolfein_Helmet.description>沃芬族正规军配备的防护头盔，附带了热像仪以增强战场适应性。</Wolfein_Helmet.description>
+  
+  <Wolfein_Helmet_Filter.label>沃芬族军用头盔(附面罩)</Wolfein_Helmet_Filter.label>
+  <!-- EN: Wolfein Army's standard helmet with gas mask and thermal goggle, with these extra high technology equipments, the Wolfein soldiers' combat effectiveness is much higher than other races. -->
+  <Wolfein_Helmet_Filter.description>沃芬族正规军配备的防护头盔，附带了热像仪和防护面罩以增强战场适应性。</Wolfein_Helmet_Filter.description>
+
+  <!-- EN: Wolfein Imperial Power Armor Mask -->
+  <Wolfein_ImperialGuardPowerArmorMask.label>沃芬族前世代动力甲防护面罩</Wolfein_ImperialGuardPowerArmorMask.label>
+  <!-- EN: The Wolfein tribe retained the royal-style power armor protective masks of the old times, and the eye protection part was equipped with components for stimulating brain nerves to assist in combat. -->
+  <Wolfein_ImperialGuardPowerArmorMask.description>沃芬族留有旧时代皇家风格的动力甲防护面罩，护目部分安有用于刺激大脑神经辅助战斗的组件。</Wolfein_ImperialGuardPowerArmorMask.description>
+  
+  <!-- EN: Wolfein Muzzle -->
+  <Wolfein_MetalDogMuzzle.label>沃芬族嘴笼</Wolfein_MetalDogMuzzle.label>
+  <!-- EN: Commonly placed on highly aggressive prisoners. Since the Wolfein no longer rely on their sharp teeth as their primary means of attack, the muzzle now serves more as equipment to suppress the aggression hidden within their genes. -->
+  <Wolfein_MetalDogMuzzle.description>通常被戴在攻击性极强的囚犯身上，由于沃芬们已经不再用锋利的牙齿作为主要攻击方式，嘴套在如今更像是为了压制基因里潜藏的攻击性的装备。</Wolfein_MetalDogMuzzle.description>
+  
+  <!-- EN: Wolfein Newsboy Cap -->
+  <Wolfein_NewsboyCap.label>沃芬族报童帽</Wolfein_NewsboyCap.label>
+  <!-- EN: Loose, breathable, and durable, so it becomes one of the outdoor workers equipments choice. -->
+  <Wolfein_NewsboyCap.description>宽松、透气且耐用，因此成为户外工工作者装备的首选之一。</Wolfein_NewsboyCap.description>
+  
+  <!-- EN: Wolfein Power Armor Helmet -->
+  <Wolfein_PowerArmorHelmet.label>沃芬族动力甲头盔</Wolfein_PowerArmorHelmet.label>
+  <!-- EN: Basic model of Wolfein's powered armor,widely used by Wolfein Task Mobile Forces. -->
+  <Wolfein_PowerArmorHelmet.description>沃芬族动力甲头盔，通常与动力盔甲配套使用，厚重的装甲和内置弹道计算机能保证机动队的成员们在头部极度安全的情况下高效作战。</Wolfein_PowerArmorHelmet.description>
+  
+  <!-- EN: Wolfein Psionic Combat Helmet -->
+  <Wolfein_PsionicCombatHelmet.label>沃芬族灵能作战头盔</Wolfein_PsionicCombatHelmet.label>
+  <!-- EN: Specially designed helmet, could improve soliders' Psionic power while protecting your head and ears. -->
+  <Wolfein_PsionicCombatHelmet.description>沃芬族正规军中灵能术士所使用的作战用头盔，采用全封闭式设计以此提供全方位保护，内置了生物识别系统，提升作战灵能感知和指挥能力。</Wolfein_PsionicCombatHelmet.description>
+  
+  <!-- EN: Wolfein Rebel Heavy Power Armor Helmet -->
+  <Wolfein_RebelHeavyPowerArmorHelmet.label>沃芬族抵抗军动力甲重盔</Wolfein_RebelHeavyPowerArmorHelmet.label>
+  <!-- EN: A helmet for the heavy power armor used by the Wolfein Resistance. The manufacturing cost is reduced, but the protection is also reduced. -->
+  <Wolfein_RebelHeavyPowerArmorHelmet.description>沃芬抵抗军使用的重型动力甲配套头盔，降低了制造成本，同时防护性也有所降低。</Wolfein_RebelHeavyPowerArmorHelmet.description>
+  
+  <!-- EN: Wolfein Red Combat Helmet -->
+  <Wolfein_RedCombatHelmet.label>沃芬族红帽作战头盔</Wolfein_RedCombatHelmet.label>
+  <!-- EN: A helmet designed to complement the Red combat suit, equipped with tactical interfaces for operations in high-risk environments. Its red coating symbolizes a special operations unit. -->
+  <Wolfein_RedCombatHelmet.description>与红帽作战服配套的头盔，配备战术接口，适用于高危环境作战，红色涂装象征特殊任务单位。</Wolfein_RedCombatHelmet.description>
+  
+  <!-- EN: Wolfein Safety Helmet -->
+  <Wolfein_SafetyHelmet.label>沃芬族安全帽</Wolfein_SafetyHelmet.label>
+  <!-- EN: The most basic protective gear, designed to safeguard the wearer’s head from falling rocks and flying debris (Excluding the ears!). -->
+  <Wolfein_SafetyHelmet.description>最基本的劳保用品，从落石飞砖中保护佩戴者的头部基本安全（不包括耳朵）。</Wolfein_SafetyHelmet.description>
+  
+  <!-- EN: Wolfein Shooter Cap -->
+  <Wolfein_ShooterCap.label>沃芬族战术棒球帽</Wolfein_ShooterCap.label>
+  <!-- EN: The Wolfein Army's snipers' favorite hat since 100 years ago. Comfortable, light, even have a tactical earphone that makes you very coooooool. -->
+  <Wolfein_ShooterCap.description>一顶沃芬族的战术棒球帽，采用耐磨材料，轻便舒适。同时配备了战术降噪耳机，提升战场侦察能力，适应各种环境。</Wolfein_ShooterCap.description>
+  
+  <!-- EN: Wolfein Square Glasses -->
+  <Wolfein_SquareGlasses.label>沃芬族方形半框眼镜</Wolfein_SquareGlasses.label>
+  <!-- EN: Classical design,making you looked like an expert, for sure. -->
+  <Wolfein_SquareGlasses.description>一副方形的半框眼镜，使用优质材料制成，半框设计轻便稳固，高清透光镜片可以有效防眩光和紫外线。</Wolfein_SquareGlasses.description>
+  
+  <!-- EN: Wolfein Thermal Goggle -->
+  <Wolfein_ThermalGoggle.label>沃芬族热像仪</Wolfein_ThermalGoggle.label>
+  <!-- EN: Although the Wolfein possess exceptional night vision, this equipment can ensure their enemy having no where to hind in the dark. -->
+  <Wolfein_ThermalGoggle.description>沃芬族虽然拥有超群的夜视能力，但这件装备能在黑夜中让他们的敌人无所遁形。</Wolfein_ThermalGoggle.description>
+
+  <!-- EN: Wolfein Nun Headdress -->
+  <Wolfein_NunHeaddress.label>沃芬族修女头罩</Wolfein_NunHeaddress.label>
+  <!-- EN: A nun-style headdress that covers the head and neck. As a symbolic garment element, it conveys a sense of solemnity, restraint, and strong ritual presence. -->
+  <Wolfein_NunHeaddress.description>一顶覆盖头部与颈部的修女式头罩，作为一种象征性的服饰元素，传达出肃静、内敛与仪式感十足的气质。</Wolfein_NunHeaddress.description>
+
+  <!-- EN: Wolfein Maid Headband -->
+  <Wolfein_MaidHeadband.label>沃芬族女仆头饰</Wolfein_MaidHeadband.label>
+  <!-- EN: A classic maid headband with simple frilled edges that define a clean, neat silhouette. While emphasizing cleanliness and a service role, it also adds a touch of modest and restrained decorative charm to the overall outfit. -->
+  <Wolfein_MaidHeadband.description>一款经典的女仆头饰，简洁的褶边勾勒出干净利落的轮廓，在强调整洁与服务身份的同时，也为整体装束增添了一丝端庄而克制的装饰感。</Wolfein_MaidHeadband.description>
+
+  <!-- EN: Wolfein Bunny Headband -->
+  <Wolfein_BunnyHeadband.label>沃芬族兔耳头饰</Wolfein_BunnyHeadband.label>
+  <!-- EN: Soft yet upright bunny ears extend from the headpiece, carrying a deliberate sense of exaggeration and stage presence. Instantly eye-catching, it makes the wearer stand out clearly in any crowd. -->
+  <Wolfein_BunnyHeadband.description>柔软而挺立的兔耳从头饰上延伸而出，带着刻意为之的夸张感与舞台感。一眼便能吸引视线，让佩戴者在人群中显得格外醒目。</Wolfein_BunnyHeadband.description>
+
+  <!-- EN: Red-Eyed Helmet -->
+  <Wolfein_Red-EyedHelmet.label>红目头盔</Wolfein_Red-EyedHelmet.label>
+  <!-- EN: A sealed and heavy tactical helmet with a cold, rigid design that nearly erases any trace of the wearer’s expression. The narrow red visor glows in the shadows, resembling the low, focused gaze of a beast—calm, oppressive, and unyielding. It evokes the image of enforcers who move along the thin line between riot and order; once the helmet is sealed, the individual is concealed, leaving only obedience and advance. -->
+  <Wolfein_Red-EyedHelmet.description>一顶密闭而沉重的战术头盔，造型冷硬，几乎抹去了佩戴者的一切表情。狭窄的红色目镜在阴影中亮起，如同野兽般低伏而专注的视线，冷静、压迫、毫不动摇。它让人联想到那些行走在暴动与秩序夹缝中的执行者——当头盔合上，个体被隐藏，只剩下服从与前进。</Wolfein_Red-EyedHelmet.description>
+  
+</LanguageData>

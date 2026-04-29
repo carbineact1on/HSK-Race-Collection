@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein Carpet Tile -->
+  <Wolfein_Floor_CarpetTile.label>沃芬风格地毯砖</Wolfein_Floor_CarpetTile.label>
+  <!-- EN: These carpet tiles are specially designed to allow civilian mechanoids to quickly separate fallen Wolfein fur from the tiles. Since their invention, they have rapidly become widely used throughout MegaCorp facilities. -->
+  <Wolfein_Floor_CarpetTile.description>这款地毯砖经过专门设计，使民用机械体能够快速将掉落的沃芬毛发与地毯砖分离。自发明以来，它便迅速在各大军企设施内得到广泛应用。</Wolfein_Floor_CarpetTile.description>
+  
+  <!-- EN: Wolfein Ceramic Tile -->
+  <Wolfein_Floor_CeramicTile.label>沃芬风格瓷砖</Wolfein_Floor_CeramicTile.label>
+  <!-- EN: Inexpensive, sturdy, and easy to clean, making it the most commonly purchased flooring type by MegaCorp. -->
+  <Wolfein_Floor_CeramicTile.description>便宜，结实，易于清理，使其成为军企最常采购的地板类型。</Wolfein_Floor_CeramicTile.description>
+  
+</LanguageData>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Wolfein Alloy -->
+  <Wolfein_AlloyMaterials.label>沃芬高效能合金</Wolfein_AlloyMaterials.label>
+  <!-- EN: This superalloy, manufactured by the Wolfein Corp, is primarily used in the military sector. It demonstrates exceptional durability and corrosion resistance in the production of military equipment, ensuring that the gear remains stable and operational in harsh environments for extended periods. -->
+  <Wolfein_AlloyMaterials.description>這種沃芬製造的超合金主要應用於軍事領域，在軍事裝備的製造中展現出卓越的耐用性和抗腐蝕效能，確保裝備能夠在惡劣環境下長期穩定執行。</Wolfein_AlloyMaterials.description>
+
+  <!-- EN: High-Energy Battery -->
+  <Wolfein_Battery.label>高能電池</Wolfein_Battery.label>
+  <!-- EN: A single-use power cell developed by the corporation』s engineering division for use with the Deployable Shield Generator. Its structure is specially stabilized to safely discharge its entire stored energy into the shield』s circuitry within seconds, without triggering an explosion or thermal runaway.A single-use high-capacity power cell engineered by the MegaCorp』s development division for use with shield belts. Its structure is specially stabilized, allowing it to release all stored energy into the shield circuitry within moments without triggering explosions or thermal runaway. -->
+  <Wolfein_Battery.description>由軍企研發部門設計的可用於護盾腰帶的一次性高能電池。其結構經過特殊穩定處理，能夠在短時間內將儲存的能量完全釋放至護盾電路中，而不會引發爆炸或熱失控。</Wolfein_Battery.description>
+
+  <!-- EN: Wolfein Composite Fabric -->
+  <Wolfein_CompositeFabric.label>沃芬複合面料</Wolfein_CompositeFabric.label>
+  <!-- EN: The Wolfein Corp』s specialized composite fabric is made from various fabrics and leather through a composite process. As a new type of material, it possesses multiple characteristics such as waterproof, breathable, windproof, and thermal insulation, making it widely used in outdoor clothing, sports gear, and specialized workwear. -->
+  <Wolfein_CompositeFabric.description>沃芬特製複合面料由多種不同的面料與皮革經過複合工藝製成，作為一種新型面料，它具備防水、透氣、防風、保溫等多重特性，廣泛應用於戶外服裝、運動裝備以及特殊工作服等領域。</Wolfein_CompositeFabric.description>
+  
+  <!-- EN: Wolfein Electronic component -->
+  <Wolfein_ElectronicComponent.label>沃芬電子元件</Wolfein_ElectronicComponent.label>
+  <!-- EN: A pile of Wolfein electronic components, packed with high-tech gadgets, primarily used to construct the nervous systems of mech units. -->
+  <Wolfein_ElectronicComponent.description>一堆沃芬電子元件，包含了一堆高科技小玩意兒，主要用於構建機械體的神經系統。</Wolfein_ElectronicComponent.description>
+  
+  <!-- EN: Wolfein mechanical component -->
+  <Wolfein_MechanicalComponent.label>沃芬機械元件</Wolfein_MechanicalComponent.label>
+  <!-- EN: A pile of Wolfein mechanical components. Thanks to the exceptional quality of Wolfein high-performance alloys, mech units built with them exhibit noticeably superior defense compared to others of similar size. -->
+  <Wolfein_MechanicalComponent.description>一堆沃芬機械元件，得益於沃芬族高效能合金的優良效能，用其製造的機械體防禦性能明顯比同體型機械體要更優秀。</Wolfein_MechanicalComponent.description>
+  
+  <!-- EN: Wolfein Medicine -->
+  <Wolfein_MedicineIndustrial.label>沃芬工業級藥物</Wolfein_MedicineIndustrial.label>
+  <!-- EN: An industrial-grade medical kit, containing commonly used basic medications and various medical tools of the Wolfein, capable of providing accurate diagnosis and treatment support. -->
+  <Wolfein_MedicineIndustrial.description>一套工業級的醫療裝置，包含沃芬族常見的基礎藥物和各種醫療工具，能夠提供準確的診斷和治療支援。</Wolfein_MedicineIndustrial.description>
+
+  <!-- EN: Wolfein Imperial Data Analysis -->
+  <Wolfein_ImperialDataAnalysis.label>沃芬前世代科技分析報告</Wolfein_ImperialDataAnalysis.label>
+  <!-- EN: The final report produced by the MegaCorp through reverse-engineering the previous-generation power armor left behind after the fall of the Wolfein royal lineage. Overall, the MegaCorp concluded that the armor was "excessively costly" and "filled with unnecessary redundant components." -->
+  <Wolfein_ImperialDataAnalysis.description>軍企針對沃芬皇族倒臺后留下的前世代動力甲逆向分析得到的最終報告。總體來說，軍企認為該盔甲「過於昂貴」「充滿了不必要的冗餘部件」。</Wolfein_ImperialDataAnalysis.description>
+</LanguageData>

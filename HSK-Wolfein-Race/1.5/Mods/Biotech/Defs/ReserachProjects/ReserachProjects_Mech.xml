@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- 沃芬机械师装备 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_Apparel_Mechanitor</defName>
+        <label>Wolfein Mechanitor Apparel</label>
+        <description>Research how to produce wolfein mechanitor apparel.</description>
+        <baseCost>2500</baseCost>
+        <techLevel>Industrial</techLevel>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+            <li>Wolfein_Apparel_II</li>
+        </prerequisites>
+        <researchViewX>4</researchViewX>
+        <researchViewY>1.2</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+    
+    <!-- 沃芬基础民用机械体 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_BasicCivilianMech</defName>
+        <label>Wolfein Basic Civilian Mech</label>
+        <description>Research how to produce wolfein basic civilian mech.</description>
+        <baseCost>600</baseCost>
+        <techLevel>Industrial</techLevel>
+        <prerequisites>
+            <li>Electricity</li>
+            <li>BasicMechtech</li>
+        </prerequisites>
+        <researchViewX>2</researchViewX>
+        <researchViewY>5.2</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+
+    <!-- 沃芬民用特化机械体 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_CivilianUtilityMech</defName>
+        <label>Wolfein Civilian Utility Mech</label>
+        <description>Research how to produce wolfein civilian utility mech.</description>
+        <baseCost>1000</baseCost>
+        <techLevel>Industrial</techLevel>
+        <prerequisites>
+            <li>Wolfein_BasicCivilianMech</li>
+        </prerequisites>
+        <researchViewX>3</researchViewX>
+        <researchViewY>5.2</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+
+    <!-- 沃芬基础军用机械体 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_BasicMilitaryMech</defName>
+        <label>Wolfein Basic Military Mech</label>
+        <description>Research how to produce wolfein basic military mech.</description>
+        <baseCost>2000</baseCost>
+        <techLevel>Industrial</techLevel>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+            <li>Wolfein_BasicCivilianMech</li>
+            <li>MultiAnalyzer</li>
+        </prerequisites>
+        <researchViewX>3</researchViewX>
+        <researchViewY>5.8</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+        <requiredAnalyzed>
+            <li>Wolfein_MegaCorpMechCore</li>
+        </requiredAnalyzed>
+    </ResearchProjectDef>
+
+    <!-- 沃芬巨形军用机械体 -->
+    <ResearchProjectDef>
+        <defName>Wolfein_GiantMilitaryMech</defName>
+        <label>Wolfein Giant Military Mech</label>
+        <description>Research how to produce wolfein giant military mech.</description>
+        <baseCost>4000</baseCost>
+        <techLevel>Industrial</techLevel>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <prerequisites>
+            <li>Wolfein_BasicMilitaryMech</li>
+        </prerequisites>
+        <researchViewX>5</researchViewX>
+        <researchViewY>5.8</researchViewY>
+        <tab>Wolfein_ResearchTab</tab>
+    </ResearchProjectDef>
+</Defs>

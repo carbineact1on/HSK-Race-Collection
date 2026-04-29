@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- 厨师服 -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wolfein_ChefsUniform"]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>220</MaxHitPoints>
+            <Flammability>0.4</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+            <Mass>0.3</Mass>
+            <EquipDelay>1.5</EquipDelay>
+            <WorkToMake>6000</WorkToMake>
+            <StuffEffectMultiplierArmor>0.7</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+            <ArmorRating_Sharp>2</ArmorRating_Sharp>
+            <ArmorRating_Blunt>3</ArmorRating_Blunt>
+            <ArmorRating_Heat>0</ArmorRating_Heat>
+            <ArmorRating_Electric>0</ArmorRating_Electric>
+            <Bulk>2</Bulk>
+            <WornBulk>1.6</WornBulk>
+          </statBases>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Wolfein_ChefsUniform"]/equippedStatOffsets</xpath>
+		<value>
+      <CarryBulk>15</CarryBulk>
+      <CarryWeight>13</CarryWeight>
+		</value>
+	</Operation>
+
+</Patch>

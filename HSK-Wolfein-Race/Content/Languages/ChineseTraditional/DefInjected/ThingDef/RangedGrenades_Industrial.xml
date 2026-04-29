@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: frag grenade -->
+  <W_Projectile_Grenade_FragGrenade.label>破片手雷</W_Projectile_Grenade_FragGrenade.label>
+  
+  <!-- EN: gas grenade -->
+  <W_Projectile_Grenade_GasGrenade.label>毒氣手雷</W_Projectile_Grenade_GasGrenade.label>
+  
+  <!-- EN: gas grenade -->
+  <W_Projectile_Grenade_GasReleasing.label>毒氣手雷</W_Projectile_Grenade_GasReleasing.label>
+  
+  <!-- EN: Wolfein Frag Grenade -->
+  <W_Weapon_Grenade_FragGrenade.label>沃芬破片手雷</W_Weapon_Grenade_FragGrenade.label>
+  <!-- EN: Fragmentation grenades. They can be thrown a short distance, where they'll explode, damaging anything and anyone nearby. -->
+  <W_Weapon_Grenade_FragGrenade.description>破片手榴彈，可投擲至短距離目標區域並引爆，對周圍的人員與物體造成傷害。</W_Weapon_Grenade_FragGrenade.description>
+  <!-- EN: throw frag grenade -->
+  <W_Weapon_Grenade_FragGrenade.verbs.throw_frag_grenade.label>投擲破片手雷</W_Weapon_Grenade_FragGrenade.verbs.throw_frag_grenade.label>
+  
+  <!-- EN: Wolfein Gas Grenade -->
+  <W_Weapon_Grenade_GasGrenade.label>沃芬毒氣手雷</W_Weapon_Grenade_GasGrenade.label>
+  <!-- EN: The gas grenades fielded by the resistance army can seep through most armor gaps, inflicting skin damage that is extremely difficult to heal. Although the resistance army claims that the gas causes no lasting effects and is primarily intended to disable MegaCorp』s precision equipment rather than personnel, the countless Wolfein civilians who continue to suffer agonizing pain and screams long after exposure would beg to differ. -->
+  <W_Weapon_Grenade_GasGrenade.description>抵抗軍列裝的毒氣手雷能夠穿透大部分裝甲的縫隙，對面板造成難以癒合的損傷。儘管抵抗軍宣稱這種毒氣不會帶來任何長期影響，其主要用途是摧毀軍企的精密裝置而非人員，但那些在事後依舊飽受劇痛折磨、慘叫不止的沃芬平民顯然並不認同這一說法。</W_Weapon_Grenade_GasGrenade.description>
+  <!-- EN: throw gas grenade -->
+  <W_Weapon_Grenade_GasGrenade.verbs.throw_gas_grenade.label>投擲毒氣手雷</W_Weapon_Grenade_GasGrenade.verbs.throw_gas_grenade.label>
+  
+</LanguageData>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <!-- 灵能作战头盔（固定材料） -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Wolfein_PsionicCombatHelmet"]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>300</MaxHitPoints>
+            <Flammability>0.4</Flammability>
+            <DeteriorationRate>1</DeteriorationRate>
+            <Beauty>2</Beauty>
+            <Mass>1.2</Mass>
+            <EquipDelay>4</EquipDelay>
+            <WorkToMake>15000</WorkToMake>
+            <ArmorRating_Sharp>16</ArmorRating_Sharp>
+            <ArmorRating_Blunt>38</ArmorRating_Blunt>
+            <Insulation_Cold>8</Insulation_Cold>
+            <Insulation_Heat>6</Insulation_Heat>
+            <Bulk>4</Bulk>
+            <WornBulk>1.8</WornBulk>
+          </statBases>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

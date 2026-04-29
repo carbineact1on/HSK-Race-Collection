@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <Wolfein.LaunchDisabled>Can not launch: no enough fuel</Wolfein.LaunchDisabled>
+    <Wolfein.LaunchDisabled_Overload>Can not launch: overloaded</Wolfein.LaunchDisabled_Overload>
+    <Wolfein.RefuelShuttle>Refuel</Wolfein.RefuelShuttle>
+    <Wolfein.RefuelShuttleDesc>Consume the combined fuel held by the caravan to replenish fuel.</Wolfein.RefuelShuttleDesc>
+    <Wolfein.RefuelShuttle_LackFuel>Unable to replenish: {0} insufficient</Wolfein.RefuelShuttle_LackFuel>
+    <Wolfein.RefuelShuttle_FullFuel>No need to refill: {0} is full</Wolfein.RefuelShuttle_FullFuel>
+
+    <Wolfein.lastTickMeatIngested>last time meat ingested: {0}</Wolfein.lastTickMeatIngested>
+
+    <Wolfein.RebelRaidLetterTextPostfix_CorpHostile>To meet the overwhelming demands of the resistance cause, the Resistance Army has decided to requisition supplies from your colony—free of charge.</Wolfein.RebelRaidLetterTextPostfix_CorpHostile>
+    <Wolfein.RebelRaidLetterTextPostfix_CorpNonHostile>To the Resistance Army, any faction that attempts to collaborate with the Megacorp faces only one outcome: elimination.</Wolfein.RebelRaidLetterTextPostfix_CorpNonHostile>
+
+    <Wolfein.Turret>Turret</Wolfein.Turret>
+    <Wolfein.TurretDesc>Installed weapons.</Wolfein.TurretDesc>
+    <!-- <Wolfein.TurretDescII>The weapon installed on this creature.</Wolfein.TurretDescII> -->
+
+    <Wolfein.RequestData>Request {0} x2 (Cost: {1} Silver)</Wolfein.RequestData>
+    <Wolfein.AllyRequire>Need to be allies</Wolfein.AllyRequire>
+    <Wolfein.RequestDataResult>{0} has airdropped the supplies you requested.</Wolfein.RequestDataResult>
+
+    <Wolfein.ArtificialMoonActive>Start Artificial Moon Active</Wolfein.ArtificialMoonActive>
+
+    <Wolfein.RechargeEnergyShield>Recharge Energy Shield</Wolfein.RechargeEnergyShield>
+    <Wolfein.RechargeEnergyShieldDesc>Consume one charge to immediately reset the current shield energy. \n\nCurrent remaining charges: {0}/{1}</Wolfein.RechargeEnergyShieldDesc>
+
+    <Wolfein.TurretControlTip>Sets the turret types in the weapon system that are allowed to fire freely. Turrets that are disabled will not auto-attack, but can still fire at manually aimed targets.</Wolfein.TurretControlTip>
+
+    <Wolfein.HeavyWeaponNotAvailable>HeavyGearAugmentation needed.</Wolfein.HeavyWeaponNotAvailable>
+
+</LanguageData>

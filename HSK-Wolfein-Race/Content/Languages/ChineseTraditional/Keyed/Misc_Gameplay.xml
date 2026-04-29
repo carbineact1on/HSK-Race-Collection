@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <Wolfein.LaunchDisabled>無法發射：燃料不足</Wolfein.LaunchDisabled>
+    <Wolfein.LaunchDisabled_Overload>無法發射：超重</Wolfein.LaunchDisabled_Overload>
+    <Wolfein.RefuelShuttle>補充燃油</Wolfein.RefuelShuttle>
+    <Wolfein.RefuelShuttleDesc>消耗遠行隊持有的化合燃料為沃芬重型運輸機補充燃油。</Wolfein.RefuelShuttleDesc>
+    <Wolfein.RefuelShuttle_LackFuel>無法補充：{0}不足</Wolfein.RefuelShuttle_LackFuel>
+    <Wolfein.RefuelShuttle_FullFuel>無需補充：{0}已滿</Wolfein.RefuelShuttle_FullFuel>
+
+    <Wolfein.lastTickMeatIngested>上次肉食：{0}</Wolfein.lastTickMeatIngested>
+
+    <Wolfein.RebelRaidLetterTextPostfix_CorpHostile>爲了滿足抵抗大業的龐大需求，抵抗軍決定對你的殖民地進行物資無償徵用。</Wolfein.RebelRaidLetterTextPostfix_CorpHostile>
+    <Wolfein.RebelRaidLetterTextPostfix_CorpNonHostile>在抵抗軍眼中，任何試圖勾結軍企的勢力，結局只有被清除。</Wolfein.RebelRaidLetterTextPostfix_CorpNonHostile>
+
+    <Wolfein.Turret>炮塔</Wolfein.Turret>
+    <Wolfein.TurretDesc>安裝的武器。</Wolfein.TurretDesc>
+    <!-- <Wolfein.TurretDescII>安裝在這個生物身上的武器。</Wolfein.TurretDescII> -->
+
+    <Wolfein.RequestData>請求{0} x2（花費: {1}白銀）</Wolfein.RequestData>
+    <Wolfein.AllyRequire>需要成為盟友</Wolfein.AllyRequire>
+    <Wolfein.RequestDataResult>{0}向你空投了請求的物資。</Wolfein.RequestDataResult>
+
+    <Wolfein.ArtificialMoonActive>啟動擬月儀</Wolfein.ArtificialMoonActive>
+
+    <Wolfein.RechargeEnergyShield>充能護盾</Wolfein.RechargeEnergyShield>
+    <Wolfein.RechargeEnergyShieldDesc>消耗一層充能次數立刻重置目前護盾能量。\n\n目前剩餘充能次數：{0}/{1}</Wolfein.RechargeEnergyShieldDesc>
+
+    <Wolfein.TurretControlTip>設定武器系統中可以自由開火的炮塔型別。處於關閉狀態的炮塔不會進行自動攻擊，但仍然能夠攻擊強制指定的目標。</Wolfein.TurretControlTip>
+
+    <Wolfein.HeavyWeaponNotAvailable>需要重型裝備適配改造仿生體</Wolfein.HeavyWeaponNotAvailable>
+
+</LanguageData>

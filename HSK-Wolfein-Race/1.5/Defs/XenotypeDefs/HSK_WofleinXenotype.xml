@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<XenotypeDef Name="Wolfein_Xenotype">
+		<defName>Wolfein_Xenotype</defName>
+		<label>Wolfein</label>
+		<description>A nocturnal humanoid race with exceptional night vision and hearing abilities. Compared to humans, the Wolfein have wolf-like ears covered in fur and a wolf tail, with a genetic structure that differs significantly from that of humans.</description>
+		<iconPath>Wolfein/Faction/FactionIcon_2</iconPath>
+		<inheritable>true</inheritable>
+		<displayPriority>1532</displayPriority>
+		<genes>
+			<li>Wolfein_MeatLover</li>
+			<li>Wolfein_MoonPhase</li>
+			<li>Wolfein_NightAdaptation</li>
+			<li>MoveSpeed_Quick</li>
+			<li>AptitudePoor_Plants</li>
+			<li>PsychicAbility_Dull</li>
+			<li>MaxTemp_SmallDecrease</li>
+			<li>MinTemp_SmallDecrease</li>
+			<li>Wolfein_JungleLaw</li>
+			<li>DarkVision</li>
+			<li>Wolfein_FireWeakness</li>
+			<li>Wolfein_ToxicEnvironmentResistance_Weak</li>
+		</genes>
+		<factionlessGenerationWeight>0.00001</factionlessGenerationWeight>
+	</XenotypeDef>
+
+	<XenotypeDef ParentName="Wolfein_Xenotype">
+		<defName>Wolfein_Xenotype_PureBlood</defName>
+		<label>Pure Wolfein</label>
+		<description>Wolfein individuals with genetic traits closest to the original form, possessing full nocturnal adaptability and highly sensitive perception systems. Their wolf ears and tail are prominent features. Their distinct physiological characteristics are often regarded as a symbol of pure Wolfein bloodline.</description>
+		<displayPriority>1533</displayPriority>
+		<genes Inherit="false">
+			<li>Wolfein_PureBlood</li>
+			<li>Wolfein_MeatLover</li>
+			<li>Wolfein_MoonPhase</li>
+			<li>Wolfein_NightAdaptation</li>
+			<li>MoveSpeed_Quick</li>
+			<li>AptitudePoor_Plants</li>
+			<li>AptitudePoor_Medicine</li>
+			<li>AptitudePoor_Artistic</li>
+			<li>MaxTemp_SmallDecrease</li>
+			<li>MinTemp_SmallDecrease</li>
+			<li>Wolfein_JungleLaw</li>
+			<li>DarkVision</li>
+			<li>Wolfein_FireWeakness</li>
+			<li>Wolfein_ToxicEnvironmentResistance_Weak</li>
+		</genes>
+	</XenotypeDef>
+
+
+
+</Defs>

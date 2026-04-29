@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <QuestScriptDef>
+    <defName>Wolfein_MegaCropMechRaid</defName>
+    <autoAccept>true</autoAccept>
+    <defaultHidden>true</defaultHidden>
+    <defaultChallengeRating>1</defaultChallengeRating>
+    <minRefireDays>60</minRefireDays>
+    <rootSelectionWeight>0.4</rootSelectionWeight>
+    <rootMinPoints>2000</rootMinPoints>
+    <questNameRules>
+      <rulesStrings>
+        <li>questName-></li>
+      </rulesStrings>
+    </questNameRules>
+    <questDescriptionRules>
+      <rulesStrings>
+        <li>questDescription-></li>
+      </rulesStrings>
+    </questDescriptionRules>
+    <root Class="QuestNode_Sequence">
+      <nodes>
+
+        <!-- <li Class="QuestNode_SubScript">
+          <def>Util_RandomizePointsChallengeRating</def>
+        </li> -->
+
+        <li Class="Wolfein.QuestNode_IsFactionRelationKind">
+          <factionRelationKind>Hostile</factionRelationKind>
+          <factionDefs>
+            <li>Wolfein_Faction_MegaCorp</li>
+          </factionDefs>
+        </li>
+
+        <li Class="Wolfein.QuestNode_GetFaction">
+          <storeAs>faction</storeAs>
+          <factionDef>Wolfein_Faction_MegaCorp</factionDef>
+        </li>
+
+        <li Class="QuestNode_QuestUnique">
+          <tag>Wolfein_MegaCropMechRaid</tag>
+          <faction>$faction</faction>
+        </li>
+
+        <!-- <li Class="QuestNode_EvaluateSimpleCurve">
+          <value>$points</value>
+          <storeAs>points</storeAs>
+          <curve>
+            <points>
+              <li>   35,  400</li>
+              <li>  400,  400</li>
+              <li> 1000,  800</li>
+              <li> 2000,  1600</li>
+              <li> 3000,  2400</li>
+              <li> 4000,  3200</li>
+              <li> 5000,  4000</li>
+              <li>10000, 8000</li>
+            </points>
+          </curve>
+        </li> -->
+
+        <li Class="QuestNode_SubScript">
+          <def>Wolfein_Util_MegaCropMechRaidWaves</def>
+          <parms>
+            <pointsFactor>0.75</pointsFactor>
+            <waveSecondPoints>4000</waveSecondPoints>
+            <waveThirdPoints>6500</waveThirdPoints>
+          </parms>
+        </li>
+
+        <li Class="QuestNode_Set">
+          <name>delayTicks</name>
+          <value>$(roundToTicksRough(randInt(12200,12500)))</value>
+        </li>
+        <li Class="QuestNode_Delay">
+          <delayTicks>$delayTicks</delayTicks>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+              <li Class="QuestNode_End">
+                <outcome>Success</outcome>
+              </li>
+            </nodes>
+          </node>
+        </li>
+
+        
+
+      </nodes>
+    </root>
+  </QuestScriptDef>
+
+</Defs>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <Wolfein_Race.label>沃芬</Wolfein_Race.label>
+    <Wolfein_Race.description>沃芬族，一種夜行類人種族，擁有出色的夜間視覺與聽覺能力。與人類相比，他們的外貌多了一對毛茸茸的狼耳和一條狼尾巴，但在基因層面上卻與人類存在顯著差異。如今，沃芬社會完全被龐大的軍工巨企所掌控，這家曾經的國防承包商牢牢攫取著每一位沃芬公民從出生到死亡的全部價值。
+    儘管沃芬族的科技水平已達前所未有的高度，但他們血脈中的狼性與叛逆精神正逐漸被企業的壓迫所抹去。大多數沃芬只能在軍企的嚴密統治下夾緊尾巴，艱難求生。他們的生活受到嚴格管控，連一舉一動都難以逃過企業的監視。即便偶有人萌生逃離的念頭，也常因無路可逃的現實而打消念頭。
+    在最近與機械族爆發的大規模戰爭之後，沃芬族的人口銳減，軍企的統治也開始動搖。爲了彌補戰力空缺，企業通過逆向工程分析機械族科技，迅速生產出大批高效的戰鬥機械。然而，戰爭的餘波也催生出了一個新興組織——「沃芬抵抗軍」。這個組織始終致力於推翻軍企的統治，儘管其手段並不總是「人道」。</Wolfein_Race.description>
+    <Wolfein_Race.tools.0.label>左拳</Wolfein_Race.tools.0.label>
+    <Wolfein_Race.tools.1.label>右拳</Wolfein_Race.tools.1.label>
+    <Wolfein_Race.tools.2.label>牙</Wolfein_Race.tools.2.label>
+    <Wolfein_Race.tools.3.label>頭</Wolfein_Race.tools.3.label>
+
+</LanguageData>
