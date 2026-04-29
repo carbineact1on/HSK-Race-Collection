@@ -77,6 +77,7 @@
 
     <!-- 民用数控背包（固定材料） -->
     <ThingDef ParentName="Wolfein_SundryBase_Mechanitor">
+        <defName>Wolfein_CivilControlPack</defName>
         <label>Wolfein Civil control pack</label>
         <description>A civilian Mechanitor controlpack licensed for production by MegaCorp. Compared to the military version, it sacrifices some mech control capabilities in exchange for a lighter build.</description>
         <costList>
@@ -150,6 +151,7 @@
 
     <!-- 军用数控背包（固定材料） -->
     <ThingDef ParentName="Wolfein_SundryBase_Mechanitor">
+        <defName>Wolfein_MilitaryControlPack</defName>
         <label>Wolfein Military control pack</label>
         <description>An auxiliary device used by MegaCorp Task Force units. Equipped with a specialized support-grade mech core, it's the key that allows Task Force Mechanitors to command a large number of heavy mechs. Only issued to certified Wolfein Mechanitors, and biologically coded to prevent any leakage of corporate secrets.</description>
         <costList>
