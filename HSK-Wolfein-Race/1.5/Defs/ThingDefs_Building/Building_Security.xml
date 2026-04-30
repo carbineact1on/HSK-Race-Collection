@@ -425,6 +425,15 @@
       <turretTopOffset>(0, 0)</turretTopOffset>
       <turretTopDrawSize>5</turretTopDrawSize>
     </building>
+    <!-- HSK fix: override inherited placeWorkers (parent Turret_D adds
+         PlaceWorker_ShowTurretRadius). That worker reads the gun verb's
+         direct-fire range to draw a placement preview circle, but
+         Verb_ShootMortarCE's mortar properties null-ref it during
+         placement (also the radius preview is meaningless for an
+         arc weapon). Drop just that worker; keep PlaceWorker_TurretTop. -->
+    <placeWorkers Inherit="false">
+      <li>PlaceWorker_TurretTop</li>
+    </placeWorkers>
   </ThingDef>
   <ThingDef ParentName="BaseWeaponTurret">
     <defName>Wolfein_TurretGun_E</defName>
