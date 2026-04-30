@@ -33,10 +33,12 @@
             <armorPenetrationSharp>500</armorPenetrationSharp>
             <armorPenetrationBlunt>44.956</armorPenetrationBlunt>
             <flyOverhead>true</flyOverhead>
-            <speed>50</speed>
+            <speed>0</speed>
             <shellingProps>
-                <range>4</range>
-                <spread>1.5</spread>
+                <iconPath>Things/WorldObjects/Munitions/Rocket</iconPath>
+                <damage>0.20</damage>
+                <tilesPerTick>0.5</tilesPerTick>
+                <range>52</range>
             </shellingProps>
         </projectile>
         <comps>
@@ -69,10 +71,12 @@
             <damageAmountBase>110</damageAmountBase>
             <explosionRadius>3.0</explosionRadius>
             <flyOverhead>true</flyOverhead>
-            <speed>50</speed>
+            <speed>0</speed>
             <shellingProps>
-                <range>4</range>
-                <spread>1.5</spread>
+                <iconPath>Things/WorldObjects/Munitions/Rocket</iconPath>
+                <damage>0.20</damage>
+                <tilesPerTick>0.5</tilesPerTick>
+                <range>52</range>
             </shellingProps>
         </projectile>
     </ThingDef>
@@ -90,10 +94,12 @@
             <damageAmountBase>60</damageAmountBase>
             <explosionRadius>3.5</explosionRadius>
             <flyOverhead>true</flyOverhead>
-            <speed>50</speed>
+            <speed>0</speed>
             <shellingProps>
-                <range>4</range>
-                <spread>1.5</spread>
+                <iconPath>Things/WorldObjects/Munitions/Rocket</iconPath>
+                <damage>0.20</damage>
+                <tilesPerTick>0.5</tilesPerTick>
+                <range>52</range>
             </shellingProps>
         </projectile>
         <comps>
