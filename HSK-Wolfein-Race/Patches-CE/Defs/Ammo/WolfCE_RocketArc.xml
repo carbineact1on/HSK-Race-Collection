@@ -33,7 +33,7 @@
             <armorPenetrationSharp>500</armorPenetrationSharp>
             <armorPenetrationBlunt>44.956</armorPenetrationBlunt>
             <flyOverhead>true</flyOverhead>
-            <speed>50</speed>
+            <speed>120</speed>
             <shellingProps>
                 <range>4</range>
                 <spread>1.5</spread>
@@ -69,7 +69,7 @@
             <damageAmountBase>110</damageAmountBase>
             <explosionRadius>3.0</explosionRadius>
             <flyOverhead>true</flyOverhead>
-            <speed>50</speed>
+            <speed>120</speed>
             <shellingProps>
                 <range>4</range>
                 <spread>1.5</spread>
@@ -90,7 +90,7 @@
             <damageAmountBase>60</damageAmountBase>
             <explosionRadius>3.5</explosionRadius>
             <flyOverhead>true</flyOverhead>
-            <speed>50</speed>
+            <speed>120</speed>
             <shellingProps>
                 <range>4</range>
                 <spread>1.5</spread>
