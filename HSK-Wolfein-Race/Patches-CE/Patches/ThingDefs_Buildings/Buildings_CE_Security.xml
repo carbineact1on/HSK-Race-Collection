@@ -193,7 +193,7 @@
 			<hasStandardCommand>true</hasStandardCommand>
 			<requireLineOfSight>false</requireLineOfSight>
 			<defaultProjectile>Bullet_130mmRocketMissile</defaultProjectile>
-			<warmupTime>1.5</warmupTime>
+			<warmupTime>0.8</warmupTime>
 			<range>60</range>
 			<minRange>20</minRange>
 			<burstShotCount>1</burstShotCount>
@@ -238,13 +238,13 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Wolfein_Turret_E"]/building/turretBurstCooldownTime</xpath>
 		<value>
-			<turretBurstCooldownTime>6</turretBurstCooldownTime>
+			<turretBurstCooldownTime>3</turretBurstCooldownTime>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Wolfein_Turret_E"]/building/turretBurstWarmupTime</xpath>
 		<value>
-			<turretBurstWarmupTime>1</turretBurstWarmupTime>
+			<turretBurstWarmupTime>0.5</turretBurstWarmupTime>
 		</value>
 	</Operation>
 
