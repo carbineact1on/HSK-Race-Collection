@@ -181,6 +181,8 @@
     </RecipeDef>
 
     <!-- 无人机A -->
+    <!-- HSK tuning: bumped from 20 alloy + 2 CI to recon-tier mech with Wolfein racial parts.
+         Drones are small but military-grade — should require electronics for sensors. -->
     <RecipeDef ParentName="Wolfein_MechRecipeMilitaryBase">
         <defName>Wolfein_MechRecipe_Drone</defName>
         <label>Manufacture Mech Drone</label>
@@ -193,7 +195,7 @@
                         <li>Wolfein_AlloyMaterials</li>
                     </thingDefs>
                 </filter>
-                <count>20</count>
+                <count>50</count>
             </li>
             <li>
                 <filter>
@@ -201,7 +203,23 @@
                         <li>ComponentIndustrial</li>
                     </thingDefs>
                 </filter>
+                <count>5</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_ElectronicComponent</li>
+                    </thingDefs>
+                </filter>
                 <count>2</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_MechanicalComponent</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
             </li>
         </ingredients>
         <products>
@@ -212,6 +230,8 @@
         </descriptionHyperlinks>
     </RecipeDef>
     <!-- 无人机B -->
+    <!-- HSK tuning: bumped from 40 alloy + 6 CI to light combat mech with Wolfein racial parts.
+         Armed drones get more components than recon — weapon mounts + targeting electronics. -->
     <RecipeDef ParentName="Wolfein_MechRecipeMilitaryBase">
         <defName>Wolfein_MechRecipe_DroneArmed</defName>
         <label>Manufacture Mech Armed Drone</label>
@@ -224,7 +244,7 @@
                         <li>Wolfein_AlloyMaterials</li>
                     </thingDefs>
                 </filter>
-                <count>40</count>
+                <count>80</count>
             </li>
             <li>
                 <filter>
@@ -232,7 +252,23 @@
                         <li>ComponentIndustrial</li>
                     </thingDefs>
                 </filter>
-                <count>6</count>
+                <count>8</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_ElectronicComponent</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Wolfein_MechanicalComponent</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
             </li>
         </ingredients>
         <products>
