@@ -34,10 +34,17 @@
 		</value>
 	</Operation>
 
+	<!-- Wolfein_Turret_E uses Verb_ShootMortarCE (mortar/arc fire) which
+	     requires the vanilla Building_TurretGun thingClass, NOT CE's
+	     Building_TurretGunCE. Building_TurretGunCE is only for direct-fire
+	     CE turrets; pairing it with the mortar verb makes the turret
+	     consume ammo without spawning a projectile. Pattern matched from
+	     vanilla Royalty's Turret_AutoMortar (vanilla building + mortar
+	     verb + CE ammo comp = working mortar turret). -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Wolfein_Turret_E"]/thingClass</xpath>
 		<value>
-			<thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+			<thingClass>Building_TurretGun</thingClass>
 		</value>
 	</Operation>
 
