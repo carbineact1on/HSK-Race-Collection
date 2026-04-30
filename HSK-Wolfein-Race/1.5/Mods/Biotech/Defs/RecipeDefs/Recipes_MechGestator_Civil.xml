@@ -18,10 +18,10 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>SteelBar</li>
+                        <li>Wolfein_AlloyMaterials</li>
                     </thingDefs>
                 </filter>
-                <count>24</count>
+                <count>30</count>
             </li>
             <li>
                 <filter>
@@ -42,18 +42,10 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Mechanism</li>
-                    </thingDefs>
-                </filter>
-                <count>1</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
                         <li>Wolfein_MechanicalComponent</li>
                     </thingDefs>
                 </filter>
-                <count>1</count>
+                <count>2</count>
             </li>
             <li>
                 <filter>
@@ -83,10 +75,10 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>SteelBar</li>
+                        <li>Wolfein_AlloyMaterials</li>
                     </thingDefs>
                 </filter>
-                <count>40</count>
+                <count>50</count>
             </li>
             <li>
                 <filter>
@@ -107,18 +99,10 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Mechanism</li>
-                    </thingDefs>
-                </filter>
-                <count>2</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
                         <li>Wolfein_MechanicalComponent</li>
                     </thingDefs>
                 </filter>
-                <count>1</count>
+                <count>3</count>
             </li>
             <li>
                 <filter>

@@ -37,8 +37,9 @@
             </requiredMechWeightClasses>
         </building>
         <costList>
-            <SteelBar>25</SteelBar>
-            <ComponentIndustrial>1</ComponentIndustrial>
+            <Wolfein_AlloyMaterials>25</Wolfein_AlloyMaterials>
+            <ComponentIndustrial>3</ComponentIndustrial>
+            <Wolfein_ElectronicComponent>1</Wolfein_ElectronicComponent>
         </costList>
         <researchPrerequisites>
             <li>BasicMechtech</li>
@@ -99,9 +100,11 @@
             </requiredMechWeightClasses>
         </building>
         <costList>
-            <SteelBar>36</SteelBar>
+            <Wolfein_AlloyMaterials>36</Wolfein_AlloyMaterials>
             <Plasteel>60</Plasteel>
             <ComponentIndustrial>6</ComponentIndustrial>
+            <Wolfein_MechanicalComponent>1</Wolfein_MechanicalComponent>
+            <Wolfein_ElectronicComponent>2</Wolfein_ElectronicComponent>
         </costList>
         <researchPrerequisite>Wolfein_GiantMilitaryMech</researchPrerequisite>
         <comps Inherit="false">

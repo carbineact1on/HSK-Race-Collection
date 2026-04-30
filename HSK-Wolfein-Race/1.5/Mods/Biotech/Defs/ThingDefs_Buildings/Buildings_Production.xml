@@ -28,7 +28,7 @@
         </statBases>
         <size>(3,1)</size>
         <costList>
-            <SteelBar>80</SteelBar>
+            <Wolfein_AlloyMaterials>80</Wolfein_AlloyMaterials>
             <Plasteel>20</Plasteel>
             <ComponentIndustrial>8</ComponentIndustrial>
             <Wolfein_MechanicalComponent>5</Wolfein_MechanicalComponent>

@@ -19,7 +19,7 @@
         <staticSunShadowHeight>0.20</staticSunShadowHeight>
         <costStuffCount>150</costStuffCount>
         <costList>
-            <SteelBar>30</SteelBar>
+            <Wolfein_AlloyMaterials>30</Wolfein_AlloyMaterials>
             <ComponentIndustrial>12</ComponentIndustrial>
             <Wolfein_ElectronicComponent>3</Wolfein_ElectronicComponent>
             <Wolfein_MechanicalComponent>5</Wolfein_MechanicalComponent>
@@ -94,7 +94,7 @@
         <staticSunShadowHeight>0.20</staticSunShadowHeight>
         <costStuffCount>150</costStuffCount>
         <costList>
-            <SteelBar>30</SteelBar>
+            <Wolfein_AlloyMaterials>30</Wolfein_AlloyMaterials>
             <ComponentIndustrial>10</ComponentIndustrial>
             <Wolfein_ElectronicComponent>3</Wolfein_ElectronicComponent>
             <Wolfein_MechanicalComponent>5</Wolfein_MechanicalComponent>
@@ -171,7 +171,7 @@
         <staticSunShadowHeight>0.20</staticSunShadowHeight>
         <costStuffCount>150</costStuffCount>
         <costList>
-            <SteelBar>25</SteelBar>
+            <Wolfein_AlloyMaterials>25</Wolfein_AlloyMaterials>
             <ComponentIndustrial>8</ComponentIndustrial>
             <Wolfein_ElectronicComponent>5</Wolfein_ElectronicComponent>
             <Wolfein_MechanicalComponent>3</Wolfein_MechanicalComponent>

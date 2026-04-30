@@ -15,7 +15,7 @@
         <tickerType>Long</tickerType>
         <costStuffCount Inherit="false"/>
         <costList>
-            <SteelBar>30</SteelBar>
+            <Wolfein_AlloyMaterials>30</Wolfein_AlloyMaterials>
             <ComponentIndustrial>10</ComponentIndustrial>
             <ComponentSpacer>1</ComponentSpacer>
         </costList>
