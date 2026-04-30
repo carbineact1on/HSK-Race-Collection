@@ -23,6 +23,7 @@
     <ThingDef ParentName="BaseRPG7Grenade">
         <defName>Wolfein_Bullet_RPG7Grenade_HEAT_Arc</defName>
         <label>RPG-7 grenade (HEAT, arc)</label>
+        <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
         <graphicData>
             <texPath>Things/Projectile/RPG/HEAT</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -34,12 +35,7 @@
             <armorPenetrationBlunt>44.956</armorPenetrationBlunt>
             <flyOverhead>true</flyOverhead>
             <speed>0</speed>
-            <shellingProps>
-                <iconPath>Things/WorldObjects/Munitions/Rocket</iconPath>
-                <damage>0.20</damage>
-                <tilesPerTick>0.5</tilesPerTick>
-                <range>52</range>
-            </shellingProps>
+            <gravityFactor>3</gravityFactor>
         </projectile>
         <comps>
             <li Class="CombatExtended.CompProperties_ExplosiveCE">
@@ -72,12 +68,7 @@
             <explosionRadius>3.0</explosionRadius>
             <flyOverhead>true</flyOverhead>
             <speed>0</speed>
-            <shellingProps>
-                <iconPath>Things/WorldObjects/Munitions/Rocket</iconPath>
-                <damage>0.20</damage>
-                <tilesPerTick>0.5</tilesPerTick>
-                <range>52</range>
-            </shellingProps>
+            <gravityFactor>3</gravityFactor>
         </projectile>
     </ThingDef>
 
@@ -95,12 +86,7 @@
             <explosionRadius>3.5</explosionRadius>
             <flyOverhead>true</flyOverhead>
             <speed>0</speed>
-            <shellingProps>
-                <iconPath>Things/WorldObjects/Munitions/Rocket</iconPath>
-                <damage>0.20</damage>
-                <tilesPerTick>0.5</tilesPerTick>
-                <range>52</range>
-            </shellingProps>
+            <gravityFactor>3</gravityFactor>
         </projectile>
         <comps>
             <li Class="CombatExtended.CompProperties_Fragments">
