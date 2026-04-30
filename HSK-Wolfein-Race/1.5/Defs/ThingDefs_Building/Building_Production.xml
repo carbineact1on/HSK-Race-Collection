@@ -21,8 +21,8 @@
         <costList>
             <SteelBar>30</SteelBar>
             <ComponentIndustrial>12</ComponentIndustrial>
-            <Electronics>3</Electronics>
-            <Mechanism>5</Mechanism>
+            <Wolfein_ElectronicComponent>3</Wolfein_ElectronicComponent>
+            <Wolfein_MechanicalComponent>5</Wolfein_MechanicalComponent>
         </costList>
         <stuffCategories>
             <li>Metallic</li>
@@ -96,9 +96,8 @@
         <costList>
             <SteelBar>30</SteelBar>
             <ComponentIndustrial>10</ComponentIndustrial>
-            <Electronics>3</Electronics>
-            <Mechanism>5</Mechanism>
-            <Wolfein_MechanicalComponent>1</Wolfein_MechanicalComponent>
+            <Wolfein_ElectronicComponent>3</Wolfein_ElectronicComponent>
+            <Wolfein_MechanicalComponent>5</Wolfein_MechanicalComponent>
         </costList>
         <stuffCategories>
             <li>Metallic</li>
@@ -174,9 +173,8 @@
         <costList>
             <SteelBar>25</SteelBar>
             <ComponentIndustrial>8</ComponentIndustrial>
-            <Electronics>5</Electronics>
-            <Mechanism>3</Mechanism>
-            <Wolfein_ElectronicComponent>1</Wolfein_ElectronicComponent>
+            <Wolfein_ElectronicComponent>5</Wolfein_ElectronicComponent>
+            <Wolfein_MechanicalComponent>3</Wolfein_MechanicalComponent>
         </costList>
         <stuffCategories>
             <li>Metallic</li>
