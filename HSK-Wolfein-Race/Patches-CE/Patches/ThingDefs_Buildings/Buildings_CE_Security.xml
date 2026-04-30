@@ -2,7 +2,40 @@
 <Patch>
 
 	<!--
-		HSK fix: full CE patches for all 4 Wolfein turret guns.
+		HSK fix part 1: turret BUILDINGS need Building_TurretGunCE thingClass.
+		Without this, the turret aims correctly at targets but never fires —
+		the vanilla Building_TurretGun class doesn't know how to consume CE
+		ammo from its CompAmmoUser. Building_TurretGunCE handles the CE
+		ammo loading + reload cycle.
+
+		Wolfein_Turret_E uses a custom Wolfein.Building_TurretGunForceAiming
+		class (rocket turret with forced-aim behavior) — leaving that alone
+		since changing it could break the rocket-arc behavior.
+	-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Wolfein_Turret_A"]/thingClass</xpath>
+		<value>
+			<thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Wolfein_Turret_B"]/thingClass</xpath>
+		<value>
+			<thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Wolfein_Turret_D"]/thingClass</xpath>
+		<value>
+			<thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+		</value>
+	</Operation>
+
+	<!--
+		HSK fix part 2: full CE patches for all 4 Wolfein turret guns.
 		The original file was empty (just a comment header), so under CE
 		the turrets had no Verb_ShootCE / AmmoUser / proper CE projectile
 		bindings — they would fall back to vanilla verb behavior and
