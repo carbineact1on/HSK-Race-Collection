@@ -191,7 +191,7 @@
 			<recoilAmount>0.4</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>Bullet_RPG7Grenade_HEAT</defaultProjectile>
+			<defaultProjectile>Bullet_130mmRocketMissile</defaultProjectile>
 			<warmupTime>2.0</warmupTime>
 			<range>52</range>
 			<minRange>4</minRange>
@@ -208,7 +208,7 @@
 		<AmmoUser>
 			<magazineSize>6</magazineSize>
 			<reloadTime>10.0</reloadTime>
-			<ammoSet>AmmoSet_RPG7Grenade</ammoSet>
+			<ammoSet>AmmoSet_130mmRocketMissile</ammoSet>
 		</AmmoUser>
 		<FireModes>
 			<aiAimMode>AimedShot</aiAimMode>
