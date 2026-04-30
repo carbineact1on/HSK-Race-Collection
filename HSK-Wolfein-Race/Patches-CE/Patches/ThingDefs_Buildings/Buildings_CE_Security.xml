@@ -8,9 +8,12 @@
 		ammo from its CompAmmoUser. Building_TurretGunCE handles the CE
 		ammo loading + reload cycle.
 
-		Wolfein_Turret_E uses a custom Wolfein.Building_TurretGunForceAiming
-		class (rocket turret with forced-aim behavior) — leaving that alone
-		since changing it could break the rocket-arc behavior.
+		Wolfein_Turret_E (rocket turret) originally used a custom
+		Wolfein.Building_TurretGunForceAiming class. Without
+		Building_TurretGunCE it never consumes CE rocket ammo, so we
+		swap it too. Forced-aim was just AI targeting behavior; CE's
+		built-in turret class handles rocket-arc trajectories fine
+		via the gun's own Verb_ShootCE projectile properties.
 	-->
 
 	<Operation Class="PatchOperationReplace">
@@ -26,6 +29,13 @@
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Wolfein_Turret_D"]/thingClass</xpath>
+		<value>
+			<thingClass>CombatExtended.Building_TurretGunCE</thingClass>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Wolfein_Turret_E"]/thingClass</xpath>
 		<value>
 			<thingClass>CombatExtended.Building_TurretGunCE</thingClass>
 		</value>
