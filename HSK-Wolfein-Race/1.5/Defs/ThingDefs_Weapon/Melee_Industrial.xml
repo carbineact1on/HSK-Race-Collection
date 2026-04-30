@@ -474,7 +474,7 @@
             <displayPriority>400</displayPriority>
         </recipeMaker>
         <costList>
-            <SteelBar>3</SteelBar>
+            <Wolfein_AlloyMaterials>3</Wolfein_AlloyMaterials>
                     <Weapon_Parts>2</Weapon_Parts>
         </costList>
         <weaponClasses>
@@ -545,7 +545,7 @@
         </recipeMaker>
         <costList>
             <WoodLog>10</WoodLog>
-            <SteelBar>3</SteelBar>
+            <Wolfein_AlloyMaterials>3</Wolfein_AlloyMaterials>
                     <Weapon_Parts>2</Weapon_Parts>
         </costList>
         <weaponClasses>
@@ -608,7 +608,7 @@
         </recipeMaker>
         <costList>
             <WoodLog>20</WoodLog>
-            <SteelBar>2</SteelBar>
+            <Wolfein_AlloyMaterials>2</Wolfein_AlloyMaterials>
                     <Weapon_Parts>2</Weapon_Parts>
         </costList>
         <weaponClasses>

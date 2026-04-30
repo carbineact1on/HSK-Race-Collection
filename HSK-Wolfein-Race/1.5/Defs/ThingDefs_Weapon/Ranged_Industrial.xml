@@ -341,7 +341,7 @@
             <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-            <SteelBar>6</SteelBar>
+            <Wolfein_AlloyMaterials>6</Wolfein_AlloyMaterials>
                     <Pistol_Component>1</Pistol_Component>
             <Weapon_Parts>1</Weapon_Parts>
             <Plastic>5</Plastic>
@@ -1106,7 +1106,7 @@
             <RangedWeapon_Cooldown>2.10</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-            <SteelBar>10</SteelBar>
+            <Wolfein_AlloyMaterials>10</Wolfein_AlloyMaterials>
             <ComponentIndustrial>1</ComponentIndustrial>
                     <Rifle_Component>1</Rifle_Component>
             <Weapon_Parts>1</Weapon_Parts>
@@ -1689,7 +1689,7 @@
             <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-            <SteelBar>12</SteelBar>
+            <Wolfein_AlloyMaterials>12</Wolfein_AlloyMaterials>
                     <Rifle_Component>1</Rifle_Component>
             <Weapon_Parts>1</Weapon_Parts>
             <Plastic>5</Plastic>
@@ -2837,7 +2837,7 @@
             <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-            <SteelBar>6</SteelBar>
+            <Wolfein_AlloyMaterials>6</Wolfein_AlloyMaterials>
                     <Pistol_Component>1</Pistol_Component>
             <Weapon_Parts>1</Weapon_Parts>
             <Plastic>5</Plastic>
