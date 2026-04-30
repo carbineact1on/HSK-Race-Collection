@@ -194,31 +194,33 @@
 			<Bulk>18.0</Bulk>
 			<AimingAccuracy>0.85</AimingAccuracy>
 		</statBases>
+		<!-- Pattern modeled on HSK Core_SK's Gun_RL (Heavy Missile System):
+		     same caliber (130mm rocket missile), same Verb_ShootMortarCE +
+		     vanilla Building_TurretGun combo. Tuned smaller for a defensive
+		     turret (mag 6 vs Gun_RL's 3, range 60 vs 370). -->
 		<Properties>
 			<recoilAmount>0.4</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
-			<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+			<forceNormalTimeSpeed>true</forceNormalTimeSpeed>
 			<hasStandardCommand>true</hasStandardCommand>
-			<requireLineOfSight>false</requireLineOfSight>
 			<defaultProjectile>Bullet_130mmRocketMissile</defaultProjectile>
-			<warmupTime>2.0</warmupTime>
-			<range>52</range>
-			<minRange>4</minRange>
+			<warmupTime>3.0</warmupTime>
+			<range>60</range>
+			<minRange>16</minRange>
 			<burstShotCount>6</burstShotCount>
-			<ticksBetweenBurstShots>60</ticksBetweenBurstShots>
-			<soundCast>Shot_IncendiaryLauncher</soundCast>
-			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+			<soundCast>130mmRocket</soundCast>
 			<muzzleFlashScale>16</muzzleFlashScale>
 			<recoilPattern>Mounted</recoilPattern>
-			<circularError>1</circularError>
-			<indirectFirePenalty>0.25</indirectFirePenalty>
+			<circularError>1.6</circularError>
+			<indirectFirePenalty>0.32</indirectFirePenalty>
 			<targetParams>
 				<canTargetLocations>true</canTargetLocations>
 			</targetParams>
 		</Properties>
 		<AmmoUser>
 			<magazineSize>6</magazineSize>
-			<reloadTime>10.0</reloadTime>
+			<reloadTime>15.0</reloadTime>
 			<ammoSet>AmmoSet_130mmRocketMissile</ammoSet>
 		</AmmoUser>
 		<FireModes>
