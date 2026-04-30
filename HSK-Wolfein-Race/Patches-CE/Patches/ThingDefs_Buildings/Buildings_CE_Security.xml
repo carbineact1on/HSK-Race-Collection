@@ -189,8 +189,10 @@
 		</statBases>
 		<Properties>
 			<recoilAmount>0.4</recoilAmount>
-			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
+			<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
 			<hasStandardCommand>true</hasStandardCommand>
+			<requireLineOfSight>false</requireLineOfSight>
 			<defaultProjectile>Bullet_130mmRocketMissile</defaultProjectile>
 			<warmupTime>2.0</warmupTime>
 			<range>52</range>
@@ -201,6 +203,8 @@
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>16</muzzleFlashScale>
 			<recoilPattern>Mounted</recoilPattern>
+			<circularError>1</circularError>
+			<indirectFirePenalty>0.25</indirectFirePenalty>
 			<targetParams>
 				<canTargetLocations>true</canTargetLocations>
 			</targetParams>
