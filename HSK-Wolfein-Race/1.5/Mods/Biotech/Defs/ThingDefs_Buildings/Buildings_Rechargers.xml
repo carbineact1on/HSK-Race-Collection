@@ -121,7 +121,7 @@
             </li>
             <li Class="CompProperties_Power">
                 <compClass>CompPowerTrader</compClass>
-                <basePowerConsumption>200</basePowerConsumption>
+                <basePowerConsumption>250</basePowerConsumption>
             </li>
         </comps>
     </ThingDef>
