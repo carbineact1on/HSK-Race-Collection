@@ -187,7 +187,7 @@
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>Bullet_RPG7Grenade_HEAT</defaultProjectile>
-			<warmupTime>4.0</warmupTime>
+			<warmupTime>2.0</warmupTime>
 			<range>52</range>
 			<minRange>4</minRange>
 			<burstShotCount>1</burstShotCount>
@@ -201,13 +201,12 @@
 			</targetParams>
 		</Properties>
 		<AmmoUser>
-			<magazineSize>1</magazineSize>
+			<magazineSize>6</magazineSize>
 			<reloadTime>10.0</reloadTime>
 			<ammoSet>AmmoSet_RPG7Grenade</ammoSet>
 		</AmmoUser>
 		<FireModes>
 			<aiAimMode>AimedShot</aiAimMode>
-			<noSnapshot>true</noSnapshot>
 		</FireModes>
 	</Operation>
 
