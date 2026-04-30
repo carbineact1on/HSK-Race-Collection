@@ -238,7 +238,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Wolfein_Turret_E"]/building/turretBurstCooldownTime</xpath>
 		<value>
-			<turretBurstCooldownTime>3</turretBurstCooldownTime>
+			<turretBurstCooldownTime>2</turretBurstCooldownTime>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
