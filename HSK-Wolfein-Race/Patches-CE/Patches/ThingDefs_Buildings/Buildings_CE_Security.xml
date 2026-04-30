@@ -34,17 +34,19 @@
 		</value>
 	</Operation>
 
-	<!-- Wolfein_Turret_E uses Verb_ShootMortarCE (mortar/arc fire) which
-	     requires the vanilla Building_TurretGun thingClass, NOT CE's
-	     Building_TurretGunCE. Building_TurretGunCE is only for direct-fire
-	     CE turrets; pairing it with the mortar verb makes the turret
-	     consume ammo without spawning a projectile. Pattern matched from
-	     vanilla Royalty's Turret_AutoMortar (vanilla building + mortar
-	     verb + CE ammo comp = working mortar turret). -->
+	<!-- Wolfein_Turret_E uses CombatExtended.Building_TurretGunCE +
+	     Verb_ShootMortarCE — pattern matched from HSK Core_SK's working
+	     RLGun (Heavy Missile System) which inherits TurretBase whose
+	     thingClass is CombatExtended.Building_TurretGunCE.
+	     Vanilla Building_TurretGun.DrawAt throws InvalidCastException
+	     trying to render a turret with our extra CE comps (Refuelable
+	     barrel, AmmoUser, etc), so we need the CE building class.
+	     The earlier "consumes ammo but no projectile" issue was actually
+	     the mortar minRange=4 problem (now 16) — not a thingClass issue. -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Wolfein_Turret_E"]/thingClass</xpath>
 		<value>
-			<thingClass>Building_TurretGun</thingClass>
+			<thingClass>CombatExtended.Building_TurretGunCE</thingClass>
 		</value>
 	</Operation>
 
