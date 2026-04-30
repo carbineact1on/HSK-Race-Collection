@@ -23,7 +23,6 @@
     <ThingDef ParentName="BaseRPG7Grenade">
         <defName>Wolfein_Bullet_RPG7Grenade_HEAT_Arc</defName>
         <label>RPG-7 grenade (HEAT, arc)</label>
-        <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
         <graphicData>
             <texPath>Things/Projectile/RPG/HEAT</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -34,8 +33,11 @@
             <armorPenetrationSharp>500</armorPenetrationSharp>
             <armorPenetrationBlunt>44.956</armorPenetrationBlunt>
             <flyOverhead>true</flyOverhead>
-            <speed>0</speed>
-            <gravityFactor>3</gravityFactor>
+            <speed>50</speed>
+            <shellingProps>
+                <range>4</range>
+                <spread>1.5</spread>
+            </shellingProps>
         </projectile>
         <comps>
             <li Class="CombatExtended.CompProperties_ExplosiveCE">
@@ -67,8 +69,11 @@
             <damageAmountBase>110</damageAmountBase>
             <explosionRadius>3.0</explosionRadius>
             <flyOverhead>true</flyOverhead>
-            <speed>0</speed>
-            <gravityFactor>3</gravityFactor>
+            <speed>50</speed>
+            <shellingProps>
+                <range>4</range>
+                <spread>1.5</spread>
+            </shellingProps>
         </projectile>
     </ThingDef>
 
@@ -85,8 +90,11 @@
             <damageAmountBase>60</damageAmountBase>
             <explosionRadius>3.5</explosionRadius>
             <flyOverhead>true</flyOverhead>
-            <speed>0</speed>
-            <gravityFactor>3</gravityFactor>
+            <speed>50</speed>
+            <shellingProps>
+                <range>4</range>
+                <spread>1.5</spread>
+            </shellingProps>
         </projectile>
         <comps>
             <li Class="CombatExtended.CompProperties_Fragments">
