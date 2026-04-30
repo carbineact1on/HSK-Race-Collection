@@ -3,6 +3,8 @@
 
     <!-- 缝纫台 -->
     <ThingDef ParentName="BenchBase">
+        <!-- HSK tuning: bumped costs to match HSK ElectricTailoringBench tier
+             (15 CI + 4 Electronics + 5 Mechanism). Wolfein-flavored variant adds 1 Wolfein_ElectronicComponent. -->
         <defName>Wolfein_Electric_TailoringBench</defName>
         <label>wolfein electric tailor bench</label>
         <description>The Wolfein electric sewing station combines advanced technology with traditional tailoring craftsmanship, allowing sewing workers to operate more efficiently.</description>
@@ -17,8 +19,10 @@
         <staticSunShadowHeight>0.20</staticSunShadowHeight>
         <costStuffCount>150</costStuffCount>
         <costList>
-            <SteelBar>10</SteelBar>
-            <ComponentIndustrial>2</ComponentIndustrial>
+            <SteelBar>30</SteelBar>
+            <ComponentIndustrial>12</ComponentIndustrial>
+            <Electronics>3</Electronics>
+            <Mechanism>5</Mechanism>
         </costList>
         <stuffCategories>
             <li>Metallic</li>
@@ -90,8 +94,11 @@
         <staticSunShadowHeight>0.20</staticSunShadowHeight>
         <costStuffCount>150</costStuffCount>
         <costList>
-            <SteelBar>10</SteelBar>
-            <ComponentIndustrial>2</ComponentIndustrial>
+            <SteelBar>30</SteelBar>
+            <ComponentIndustrial>10</ComponentIndustrial>
+            <Electronics>3</Electronics>
+            <Mechanism>5</Mechanism>
+            <Wolfein_MechanicalComponent>1</Wolfein_MechanicalComponent>
         </costList>
         <stuffCategories>
             <li>Metallic</li>
@@ -165,8 +172,11 @@
         <staticSunShadowHeight>0.20</staticSunShadowHeight>
         <costStuffCount>150</costStuffCount>
         <costList>
-            <SteelBar>10</SteelBar>
-            <ComponentIndustrial>2</ComponentIndustrial>
+            <SteelBar>25</SteelBar>
+            <ComponentIndustrial>8</ComponentIndustrial>
+            <Electronics>5</Electronics>
+            <Mechanism>3</Mechanism>
+            <Wolfein_ElectronicComponent>1</Wolfein_ElectronicComponent>
         </costList>
         <stuffCategories>
             <li>Metallic</li>

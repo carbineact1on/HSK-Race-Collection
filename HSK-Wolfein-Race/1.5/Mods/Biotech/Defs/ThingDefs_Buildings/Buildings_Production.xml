@@ -28,8 +28,12 @@
         </statBases>
         <size>(3,1)</size>
         <costList>
-            <SteelBar>30</SteelBar>
-            <ComponentIndustrial>3</ComponentIndustrial>
+            <SteelBar>80</SteelBar>
+            <Plasteel>20</Plasteel>
+            <ComponentIndustrial>8</ComponentIndustrial>
+            <Mechanism>5</Mechanism>
+            <Wolfein_MechanicalComponent>2</Wolfein_MechanicalComponent>
+            <Wolfein_ElectronicComponent>1</Wolfein_ElectronicComponent>
         </costList>
         <researchPrerequisite>Wolfein_BasicCivilianMech</researchPrerequisite>
         <building>
@@ -107,8 +111,13 @@
         </statBases>
         <size>(3,3)</size>
         <costList>
-            <SteelBar>60</SteelBar>
-            <ComponentIndustrial>6</ComponentIndustrial>
+            <Wolfein_AlloyMaterials>150</Wolfein_AlloyMaterials>
+            <Plasteel>40</Plasteel>
+            <ComponentIndustrial>16</ComponentIndustrial>
+            <ComponentSpacer>4</ComponentSpacer>
+            <Mechanism>8</Mechanism>
+            <Wolfein_MechanicalComponent>4</Wolfein_MechanicalComponent>
+            <Wolfein_ElectronicComponent>2</Wolfein_ElectronicComponent>
         </costList>
         <researchPrerequisite>Wolfein_BasicMilitaryMech</researchPrerequisite>
         <building>
