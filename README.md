@@ -1,40 +1,68 @@
 # HSK-Race-Collection
 
-HSK/CE-patched conversions of custom **race mods** for RimWorld, tuned for the [Hardcore SK modpack](https://github.com/skyarkhangel/Hardcore-SK) and bundled with the community CE compatibility patches.
+HSK/CE-patched conversions of custom **race mods** for RimWorld, tuned for the [Hardcore SK](https://github.com/skyarkhangel/Hardcore-SK) modpack and bundled with the community Combat Extended compatibility patches.
 
-This repository contains race mods restructured to follow HSK's crafting conventions — class-component pipelines, refined-alloy economy, and HSK weapon/tailoring/smithing bench routing.
-
-## Included mods
-
-| Folder | Upstream | Status | Notes |
-|---|---|---|---|
-| [`HSK-Wolfein-Race/`](./HSK-Wolfein-Race) | [Wolfein Race](https://steamcommunity.com/sharedfiles/filedetails/?id=3473140562) | Stable | All-in-one fork: Race + Gene Patch + CE Patches bundled. 70 weapons + ~75 apparel rerouted to HSK benches with HSK class-component additions |
+Race mods are restructured to follow HSK's crafting conventions — class-component pipelines, refined-alloy economy, and HSK weapon/tailoring/smithing bench routing.
 
 ## Requirements
 
-- **Hardcore SK** (Core_SK and its ecosystem)
-- **Combat Extended** (for CE patches; gracefully degraded if absent)
+- **RimWorld 1.5**
 - **Harmony**
+- **Hardcore SK Modpack**
+- **Combat Extended** (CE patches degrade gracefully if absent)
 - **Humanoid Alien Races**
 - **Biotech DLC**
 
 Each subfolder lists its full dependencies in `About/About.xml`.
 
-## Install
+## What's Inside
 
-Clone or download this repo. Place each subfolder in your RimWorld `Mods/` directory (or point your HSK launcher at this repo URL — it will scan the subfolders automatically). Enable the individual mods in your modlist.
+### 🐺 HSK-Wolfein-Race
+All-in-one fork of the **[Wolfein Race](https://steamcommunity.com/sharedfiles/filedetails/?id=3473140562)** mod (Race + Gene Patch + CE Patches bundled into one drop-in mod).
 
-Do **not** enable the upstream original versions alongside these — each HSK conversion is marked `incompatibleWith` its upstream package IDs in its `About.xml`.
+Fully native to HSK:
+
+- **70+ weapons** re-recipe'd with HSK class-component pipeline (Mechanism, Electronics, Microchips, Wolfein racial alloy)
+- **~75 clothing/apparel items** use `Wolfein_CompositeFabric` + Cloth instead of generic stuff categories
+- **All structures** use Wolfein racial alloy + components, HSK power tuning
+- **Mech recipes** use racial parts (civilian + military + drones + giant)
+- **Mechs are CE-compatible** (CompPawnGizmo, CompAmmoGiver, MechAmmo, HSK CE mechanoid stat profile)
+- **5 turrets** swapped to `Building_TurretGunCE` for proper CE ammo consumption — sentry rifle (7.62×51 NATO), rapid-fire MG (7.62×39 Soviet), laser, twin autocannon (.50 BMG), and rocket turret (130mm rocket missile, mortar-arc fire)
+- **Auto-routes** to RN benches via HSKRNRouter for matching calibers
+
+## Installation
+
+1. Clone or download this repo
+2. Place each subfolder in your RimWorld `Mods/` directory (or point your HSK launcher at this repo URL — it will scan the subfolders automatically)
+3. Enable the individual mods in your modlist
+4. Load **after** Hardcore SK, Combat Extended, Humanoid Alien Races, and the upstream race mods if you have them disabled
+
+⚠ **Do not enable the upstream original versions alongside these.** Each HSK conversion is marked `incompatibleWith` its upstream `packageId`s in `About.xml` — the launcher will warn you if both are active.
+
+## How It Works
+
+Each conversion is a self-contained replacement of the upstream race mod:
+
+- **Recipes** re-pointed at HSK benches with HSK research gates
+- **Materials** mapped from vanilla generics to race-specific alloys + HSK component tiers
+- **Combat Extended** patches add `Verb_ShootCE`, `CompProperties_AmmoUser`, `AmmoSet`, and proper projectile bindings to every weapon
+- **Mech CE compat** adds the same comp stack HSK-CE adds to vanilla mechanoids (CompPawnGizmo, CompAmmoGiver, CompProperties_MechAmmo) so the race's mechs interact with the CE ammo system
+- **HSKRNRouter integration** auto-routes weapon recipes to RN benches based on each weapon's `ammoSet`
+
+## Reporting Issues
+
+If you find a bug, please attach your `Player.log` and a description of which subfolder the issue is in. Issues that don't include logs may be closed.
 
 ## Authorship
 
 - Original mods by their respective authors (credited in each subfolder's `About.xml`)
-- HSK/CE conversion, recipe re-routing, integration patches: **CarbineAction**
+- HSK/CE conversion, recipe re-routing, integration patches, mech CE compat: **CarbineAction**
 - CE patches by the **Combat Extended community**
+- HSK material economy and bench conventions: **Hardcore SK Team**
 
 ## License
 
-Each subfolder follows the original mod author's license where applicable. The HSK conversion / compatibility work (XML patches, ingredient swaps, bench routing) is released under the same terms as the upstream mods — free use, modification, and redistribution, credit appreciated.
+Each subfolder follows the original mod author's license where applicable. The HSK conversion / compatibility work (XML patches, ingredient swaps, bench routing) is released under the same terms as the upstream mods — free use, modification, and redistribution. Credit appreciated.
 
 ## Contact
 
