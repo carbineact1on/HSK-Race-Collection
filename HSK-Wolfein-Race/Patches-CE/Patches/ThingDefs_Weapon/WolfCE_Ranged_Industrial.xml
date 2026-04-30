@@ -1188,19 +1188,25 @@
     <!-- 狙击步枪 -->
 	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>W_Weapon_RF_SniperRifle</defName>
+		<!-- HSK tuning: brought in line with HSK SVD/Sniper-tier stats.
+		     Was way too fast for a sniper (0.9s warmup, 1.1s cooldown — basically AR-tier).
+		     HSK Barrett M82: 3.1 warmup, 1.4 cooldown, 1.75 sights, 0.02 spread, 0.7 sway.
+		     Wolfein's standard sniper sits a tier below M82 (industrial Tier III), so
+		     using SVD-tier values: 1.8s warmup (proper aim time), 1.6s cooldown
+		     (bolt-action feel), 1.5 sights, 0.03 spread, 1.0 sway. -->
 		<statBases>
-			<RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
-			<SightsEfficiency>1.3</SightsEfficiency>
-			<ShotSpread>0.04</ShotSpread>
-			<SwayFactor>1.64</SwayFactor>
-			<Bulk>11.45</Bulk>
+			<RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.5</SightsEfficiency>
+			<ShotSpread>0.03</ShotSpread>
+			<SwayFactor>1.0</SwayFactor>
+			<Bulk>12</Bulk>
 		</statBases>
 		<Properties>
-			<recoilAmount>1.8</recoilAmount>
+			<recoilAmount>1.6</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
-			<warmupTime>0.9</warmupTime>
+			<warmupTime>1.8</warmupTime>
 			<range>75</range>
 			<soundCast>Wolfein_Shot_RF</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
@@ -1208,11 +1214,12 @@
 		</Properties>
 		<AmmoUser>
 			<magazineSize>5</magazineSize>
-			<reloadTime>3.3</reloadTime>
+			<reloadTime>4.0</reloadTime>
 			<ammoSet>AmmoSet_762x51mmNATO</ammoSet>
 		</AmmoUser>
 		<FireModes>
 			<aiAimMode>AimedShot</aiAimMode>
+			<noSnapshot>true</noSnapshot>
 		</FireModes>
 		<weaponTags>
 		</weaponTags>
