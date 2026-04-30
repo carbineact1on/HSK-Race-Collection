@@ -193,7 +193,7 @@
 			<hasStandardCommand>true</hasStandardCommand>
 			<requireLineOfSight>false</requireLineOfSight>
 			<defaultProjectile>Bullet_130mmRocketMissile</defaultProjectile>
-			<warmupTime>3.0</warmupTime>
+			<warmupTime>1.5</warmupTime>
 			<range>60</range>
 			<minRange>20</minRange>
 			<burstShotCount>1</burstShotCount>
@@ -228,6 +228,23 @@
 					<li>90</li>
 				</chargeSpeeds>
 			</li>
+		</value>
+	</Operation>
+
+	<!-- Quicker fire cadence: override the Wolfein turret base's
+	     turretBurstCooldownTime (30s in original def) and warmup (4s)
+	     to match CE Auto-Mortars compat patch (10s, but we go shorter
+	     for a snappier rocket turret feel). -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Wolfein_Turret_E"]/building/turretBurstCooldownTime</xpath>
+		<value>
+			<turretBurstCooldownTime>6</turretBurstCooldownTime>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="Wolfein_Turret_E"]/building/turretBurstWarmupTime</xpath>
+		<value>
+			<turretBurstWarmupTime>1</turretBurstWarmupTime>
 		</value>
 	</Operation>
 
