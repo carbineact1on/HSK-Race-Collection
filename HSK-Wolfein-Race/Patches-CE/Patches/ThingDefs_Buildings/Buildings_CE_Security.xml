@@ -179,7 +179,7 @@
 			<recoilAmount>0.4</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>Bullet_85mmHEATRocketGrenade</defaultProjectile>
+			<defaultProjectile>Bullet_RPG7Grenade_HEAT</defaultProjectile>
 			<warmupTime>4.0</warmupTime>
 			<range>52</range>
 			<minRange>4</minRange>

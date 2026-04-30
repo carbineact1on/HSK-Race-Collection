@@ -129,7 +129,6 @@
 
 <!-- 土制喷火器 -->
 		<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
-			<success>Always</success>
 			<defName>W_Weapon_HomemadeFlamethrower</defName>
 			<statBases>
 				<RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
@@ -152,7 +151,6 @@
 		</Operation>
 
 		<Operation Class="PatchOperationReplace">
-			<success>Always</success>
 			<xpath>Defs/ThingDef[defName="W_Weapon_HomemadeFlamethrower"]/verbs</xpath>
 			<value>
 				<verbs>
@@ -179,7 +177,6 @@
 
 <!-- AIPT喷火器 -->
 		<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
-			<success>Always</success>
 			<defName>W_Weapon_RF_Incinerator</defName>
 			<statBases>
 				<RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
@@ -202,7 +199,6 @@
 		</Operation>
 
 		<Operation Class="PatchOperationReplace">
-			<success>Always</success>
 			<xpath>Defs/ThingDef[defName="W_Weapon_RF_Incinerator"]/verbs</xpath>
 			<value>
 				<verbs>
@@ -2133,6 +2129,156 @@
 				</li>
 			</tools>
 		</value>
+	</Operation>
+
+	<!-- ================================= 手榴弹 / Grenades ==================================== -->
+	<!-- HSK fix: FragGrenade was missing CE patch entirely (caused MeleeDamage CE warnings).
+	     Grenades use Verb_ShootCE with no AmmoUser (handheld single-use throwable). -->
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>W_Weapon_Grenade_FragGrenade</defName>
+		<statBases>
+			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+			<Bulk>5.0</Bulk>
+			<SightsEfficiency>0.6</SightsEfficiency>
+			<ShotSpread>0.10</ShotSpread>
+			<SwayFactor>1.0</SwayFactor>
+		</statBases>
+		<weaponTags>
+			<li>NeolithicRangedDecent</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<!-- ================================= 无人机武器 / Drone Weapons ==================================== -->
+	<!-- HSK fix: drone-mounted weapons were missing CE patches (caused boot errors when MegaCorp
+	     drones spawned at raids). These weapons are mech-only (tradeability=None, destroyOnDrop)
+	     so the player never crafts them — they exist solely to give drone mechs working ranged
+	     attacks under CE. Minimal CE compatibility: just enough to satisfy Verb_ShootCE. -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>W_Weapon_Drone</defName>
+		<statBases>
+			<RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
+			<Bulk>5.0</Bulk>
+		</statBases>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>W_ChargeBullet_Drone</defaultProjectile>
+			<warmupTime>0.3</warmupTime>
+			<range>22</range>
+			<burstShotCount>1</burstShotCount>
+			<soundCast>Wolfein_TaserShot_Electricity</soundCast>
+			<muzzleFlashScale>4</muzzleFlashScale>
+		</Properties>
+		<FireModes>
+			<aiAimMode>Snapshot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>Wolfein_DroneWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>W_Weapon_DroneRocket</defName>
+		<statBases>
+			<RangedWeapon_Cooldown>3.0</RangedWeapon_Cooldown>
+			<Bulk>10.0</Bulk>
+		</statBases>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>W_Bullet_SmallRocket</defaultProjectile>
+			<warmupTime>1.2</warmupTime>
+			<range>28</range>
+			<burstShotCount>1</burstShotCount>
+			<minRange>3</minRange>
+			<soundCast>Shot_IncendiaryLauncher</soundCast>
+			<muzzleFlashScale>9</muzzleFlashScale>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
+		</Properties>
+		<FireModes>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>Wolfein_DroneWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>W_Weapon_MG_Autocannon</defName>
+		<statBases>
+			<RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+			<Bulk>22.0</Bulk>
+			<SightsEfficiency>1.05</SightsEfficiency>
+			<ShotSpread>0.07</ShotSpread>
+			<SwayFactor>1.3</SwayFactor>
+		</statBases>
+		<Properties>
+			<recoilAmount>0.6</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_50BMG_FMJ</defaultProjectile>
+			<warmupTime>1.0</warmupTime>
+			<range>42</range>
+			<burstShotCount>30</burstShotCount>
+			<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+			<soundCast>Shot_Autocannon</soundCast>
+			<muzzleFlashScale>14</muzzleFlashScale>
+			<recoilPattern>Mounted</recoilPattern>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>120</magazineSize>
+			<reloadTime>10.5</reloadTime>
+			<ammoSet>AmmoSet_50BMG</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiAimMode>SuppressFire</aiAimMode>
+			<noSnapshot>true</noSnapshot>
+			<noSingleShot>true</noSingleShot>
+		</FireModes>
+		<weaponTags>
+			<li>Wolfein_DroneWeapon</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>W_Weapon_MG_HeavyChargeMinigun</defName>
+		<statBases>
+			<RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+			<Bulk>20.0</Bulk>
+			<SightsEfficiency>1.0</SightsEfficiency>
+			<ShotSpread>0.08</ShotSpread>
+			<SwayFactor>1.4</SwayFactor>
+		</statBases>
+		<Properties>
+			<recoilAmount>0.5</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_12x64mmCharged</defaultProjectile>
+			<warmupTime>1.5</warmupTime>
+			<range>40</range>
+			<burstShotCount>40</burstShotCount>
+			<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+			<soundCast>Wolfein_Shot_AR_MG</soundCast>
+			<muzzleFlashScale>14</muzzleFlashScale>
+			<recoilPattern>Mounted</recoilPattern>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>200</magazineSize>
+			<reloadTime>11</reloadTime>
+			<ammoSet>AmmoSet_12x64mmCharged</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiAimMode>SuppressFire</aiAimMode>
+			<noSnapshot>true</noSnapshot>
+			<noSingleShot>true</noSingleShot>
+		</FireModes>
+		<weaponTags>
+			<li>Wolfein_DroneWeapon</li>
+		</weaponTags>
 	</Operation>
 
 </Patch>
