@@ -97,17 +97,17 @@
 		</FireModes>
 	</Operation>
 
-	<!-- ========== Turret B — Rapid-Fire LMG (7.62x39mm Soviet, sustained fire) ==========
-	     User intent: dump the entire mag in one continuous burst, no
-	     mid-mag cooldowns. Re-aim is fine BETWEEN mags (after reload).
-	     Caliber bumped from 5.56 NATO to 7.62x39mm Soviet so the
-	     ammo cost balances the sustained-fire firehose — heavier
-	     belt-fed LMG (PKM/RPK feel) with a smaller 100-round mag and
-	     longer reload than the original. -->
+	<!-- ========== Turret B — Rapid-Fire LMG (7.62x39mm Soviet, long burst + cooldown) ==========
+	     User intent: long sustained burst (no mid-burst cooldown), then a
+	     proper "cooling off" gap before the next burst — barrel needs to
+	     cool down between trigger pulls. ~2s of continuous fire, then
+	     ~2s cooldown, repeat until mag empty.
+	     Caliber bumped from 5.56 NATO to 7.62x39mm Soviet so the heavier
+	     ammo logistics balance the sustained DPS (PKM/RPK feel). -->
 	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>Wolfein_TurretGun_B</defName>
 		<statBases>
-			<RangedWeapon_Cooldown>0.05</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
 			<SightsEfficiency>0.95</SightsEfficiency>
 			<ShotSpread>0.08</ShotSpread>
 			<SwayFactor>1.1</SwayFactor>
@@ -121,7 +121,7 @@
 			<defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
 			<warmupTime>0.6</warmupTime>
 			<range>35</range>
-			<burstShotCount>100</burstShotCount>
+			<burstShotCount>40</burstShotCount>
 			<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
 			<soundCast>GunShotA</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
