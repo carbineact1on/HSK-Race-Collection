@@ -89,7 +89,11 @@
         <label>Wolfein Black_Stocking</label>
         <description>A comfortable dark-colored lingerie set paired with over-the-knee stockings.</description>
         <costList>
-            <Cloth>50</Cloth>
+
+            <Wolfein_CompositeFabric>20</Wolfein_CompositeFabric>
+
+            <Cloth>30</Cloth>
+
         </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/Underwear/Black_Stocking/Black_Stocking</texPath>
@@ -144,7 +148,11 @@
         <label>Wolfein White_Stocking</label>
         <description>A comfortable light-colored lingerie set paired with over-the-knee stockings.</description>
         <costList>
-            <Cloth>50</Cloth>
+
+            <Wolfein_CompositeFabric>20</Wolfein_CompositeFabric>
+
+            <Cloth>30</Cloth>
+
         </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/Underwear/White_Stocking/White_Stocking</texPath>
@@ -199,7 +207,11 @@
         <label>Wolfein Black Pantyhose</label>
         <description>A dark-colored lingerie set paired with tights, designed to provide some warmth.</description>
         <costList>
-            <Cloth>50</Cloth>
+
+            <Wolfein_CompositeFabric>20</Wolfein_CompositeFabric>
+
+            <Cloth>30</Cloth>
+
         </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/Underwear/Black_Pantynose/Black_Pantynose</texPath>
@@ -254,7 +266,11 @@
         <label>Wolfein White Pantynose</label>
         <description>A light-colored lingerie set paired with tights, designed to provide some warmth.</description>
         <costList>
-            <Cloth>50</Cloth>
+
+            <Wolfein_CompositeFabric>20</Wolfein_CompositeFabric>
+
+            <Cloth>30</Cloth>
+
         </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/Underwear/White_Pantynose/White_Pantynose</texPath>
@@ -309,7 +325,11 @@
         <label>Wolfein Black_Suspender</label>
         <description>A dark-colored lingerie set paired with garter stockings, blending elegance and sensuality.</description>
         <costList>
-            <Cloth>50</Cloth>
+
+            <Wolfein_CompositeFabric>20</Wolfein_CompositeFabric>
+
+            <Cloth>30</Cloth>
+
         </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/Underwear/Black_Suspender/Black_Suspender</texPath>
@@ -364,7 +384,11 @@
         <label>Wolfein White_Suspender</label>
         <description>A light-colored lingerie set paired with garter stockings, combining elegance and sensuality.</description>
         <costList>
-            <Cloth>50</Cloth>
+
+            <Wolfein_CompositeFabric>20</Wolfein_CompositeFabric>
+
+            <Cloth>30</Cloth>
+
         </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/Underwear/White_Suspender/White_Suspender</texPath>
@@ -419,7 +443,11 @@
         <label>Wolfein Black Sports Shorts</label>
         <description>A short dark-colored sports bra with excellent breathability.</description>
         <costList>
-            <Cloth>50</Cloth>
+
+            <Wolfein_CompositeFabric>20</Wolfein_CompositeFabric>
+
+            <Cloth>30</Cloth>
+
         </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/Underwear/Black_SportsShorts/Black_SportsShorts</texPath>
@@ -474,7 +502,11 @@
         <label>Wolfein White Sports Shorts</label>
         <description>A short light-colored sports bra with excellent breathability.</description>
         <costList>
-            <Cloth>50</Cloth>
+
+            <Wolfein_CompositeFabric>20</Wolfein_CompositeFabric>
+
+            <Cloth>30</Cloth>
+
         </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/Underwear/White_SportsShorts/White_SportsShorts</texPath>
@@ -529,7 +561,11 @@
         <label>Wolfein Black Sports Underwear</label>
         <description>A long dark-colored sports bra with excellent breathability.</description>
         <costList>
-            <Cloth>50</Cloth>
+
+            <Wolfein_CompositeFabric>20</Wolfein_CompositeFabric>
+
+            <Cloth>30</Cloth>
+
         </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/Underwear/Black_SportsUnderwear/Black_SportsUnderwear</texPath>
@@ -584,7 +620,11 @@
         <label>Wolfein White Sports Underwear</label>
         <description>A long light-colored sports bra with excellent breathability.</description>
         <costList>
-            <Cloth>50</Cloth>
+
+            <Wolfein_CompositeFabric>20</Wolfein_CompositeFabric>
+
+            <Cloth>30</Cloth>
+
         </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/Underwear/White_SportsUnderwear/White_SportsUnderwear</texPath>
@@ -639,7 +679,11 @@
         <label>Wolfein Mesh Socks</label>
         <description>A lingerie set paired with fishnet stockings, exuding a unique allure.</description>
         <costList>
-            <Cloth>50</Cloth>
+
+            <Wolfein_CompositeFabric>20</Wolfein_CompositeFabric>
+
+            <Cloth>30</Cloth>
+
         </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/Underwear/MeshSocks/MeshSocks</texPath>
@@ -694,7 +738,11 @@
         <label>Wolfein Bandage</label>
         <description>A makeshift lingerie set made from wrapped fabric strips, designed for temporary coverage.</description>
         <costList>
-            <Cloth>50</Cloth>
+
+            <Wolfein_CompositeFabric>20</Wolfein_CompositeFabric>
+
+            <Cloth>30</Cloth>
+
         </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/Underwear/Bandage/Bandage</texPath>

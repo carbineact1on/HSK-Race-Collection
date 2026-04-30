@@ -908,10 +908,13 @@
             <Wolfein_CompositeFabric>70</Wolfein_CompositeFabric>
                     <Plastic>10</Plastic>
         </costList>
-        <costStuffCount>90</costStuffCount>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
+        <costList>
+
+            <Wolfein_CompositeFabric>54</Wolfein_CompositeFabric>
+
+            <Cloth>36</Cloth>
+
+        </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/Shell/RebelPowerArmor/RebelPowerArmor</texPath>
             <shaderType>CutoutComplex</shaderType>
@@ -990,10 +993,13 @@
                     <Plastic>10</Plastic>
             <Mechanism>2</Mechanism>
         </costList>
-        <costStuffCount>110</costStuffCount>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
+        <costList>
+
+            <Wolfein_CompositeFabric>66</Wolfein_CompositeFabric>
+
+            <Cloth>44</Cloth>
+
+        </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/Shell/RebelHeavyPowerArmor/RebelHeavyPowerArmor</texPath>
             <shaderType>CutoutComplex</shaderType>
@@ -1301,10 +1307,13 @@
                     <Plastic>10</Plastic>
             <Mechanism>2</Mechanism>
         </costList>
-        <costStuffCount>80</costStuffCount>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
+        <costList>
+
+            <Wolfein_CompositeFabric>48</Wolfein_CompositeFabric>
+
+            <Cloth>32</Cloth>
+
+        </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/Shell/ScoutPowerArmor/ScoutPowerArmor</texPath>
             <shaderType>CutoutComplex</shaderType>
@@ -1384,10 +1393,13 @@
                     <Plastic>10</Plastic>
             <Mechanism>2</Mechanism>
         </costList>
-        <costStuffCount>100</costStuffCount>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
+        <costList>
+
+            <Wolfein_CompositeFabric>60</Wolfein_CompositeFabric>
+
+            <Cloth>40</Cloth>
+
+        </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/Shell/GuardPowerArmor/GuardPowerArmor</texPath>
             <shaderType>CutoutComplex</shaderType>
@@ -1469,10 +1481,13 @@
             <Mechanism>2</Mechanism>
             <Microchips>1</Microchips>
         </costList>
-        <costStuffCount>140</costStuffCount>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
+        <costList>
+
+            <Wolfein_CompositeFabric>84</Wolfein_CompositeFabric>
+
+            <Cloth>56</Cloth>
+
+        </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/Shell/ImperialGuardPowerArmor/ImperialGuardPowerArmor</texPath>
             <shaderType>CutoutComplex</shaderType>
@@ -1551,10 +1566,13 @@
             <Mechanism>2</Mechanism>
             <Microchips>1</Microchips>
         </costList>
-        <costStuffCount>120</costStuffCount>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
+        <costList>
+
+            <Wolfein_CompositeFabric>72</Wolfein_CompositeFabric>
+
+            <Cloth>48</Cloth>
+
+        </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/Shell/ImperialScoutPowerArmor/ImperialScoutPowerArmor</texPath>
             <shaderType>CutoutComplex</shaderType>
@@ -1631,10 +1649,13 @@
                     <Plastic>10</Plastic>
             <Mechanism>2</Mechanism>
         </costList>
-        <costStuffCount>120</costStuffCount>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
+        <costList>
+
+            <Wolfein_CompositeFabric>72</Wolfein_CompositeFabric>
+
+            <Cloth>48</Cloth>
+
+        </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/Shell/HeavyPowerArmor/HeavyPowerArmor</texPath>
             <shaderType>CutoutComplex</shaderType>
@@ -1778,10 +1799,13 @@
                     <Plastic>10</Plastic>
             <Mechanism>2</Mechanism>
         </costList>
-        <costStuffCount>120</costStuffCount>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
+        <costList>
+
+            <Wolfein_CompositeFabric>72</Wolfein_CompositeFabric>
+
+            <Cloth>48</Cloth>
+
+        </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/Shell/AIPTHeavyPowerArmor/AIPTHeavyPowerArmor</texPath>
             <shaderType>CutoutComplex</shaderType>

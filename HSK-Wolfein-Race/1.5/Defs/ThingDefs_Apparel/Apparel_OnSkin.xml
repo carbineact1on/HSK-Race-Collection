@@ -114,11 +114,13 @@
         <defName>Wolfein_Tribal</defName>
         <label>Wolfein Tribal</label>
         <description>A piece of Wolfein clothing made from various scraps of leather and fabric, designed for temporary coverage.</description>
-        <costStuffCount>60</costStuffCount>
-        <stuffCategories>
-            <li>Fabric</li>
-            <li>Leathery</li>
-        </stuffCategories>
+        <costList>
+
+            <Wolfein_CompositeFabric>36</Wolfein_CompositeFabric>
+
+            <Cloth>24</Cloth>
+
+        </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/OnSkin/Tribal/Tribal</texPath>
             <shaderType>CutoutComplex</shaderType>
@@ -164,11 +166,13 @@
         <defName>Wolfein_Shirt_Trousers</defName>
         <label>Wolfein Shirt(Trousers)</label>
         <description>A simple shirt with trousers, widely used by Wolfein.</description>
-        <costStuffCount>80</costStuffCount>
-        <stuffCategories>
-            <li>Fabric</li>
-            <li>Leathery</li>
-        </stuffCategories>
+        <costList>
+
+            <Wolfein_CompositeFabric>48</Wolfein_CompositeFabric>
+
+            <Cloth>32</Cloth>
+
+        </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/OnSkin/Shirt_Trousers/Shirt_Trousers</texPath>
             <shaderType>CutoutComplex</shaderType>
@@ -214,11 +218,13 @@
         <defName>Wolfein_Shirt_Skirt</defName>
         <label>Wolfein Shirt(Skirt)</label>
         <description>A simple shirt with skirt, widely used by Wolfein.</description>
-        <costStuffCount>80</costStuffCount>
-        <stuffCategories>
-            <li>Fabric</li>
-            <li>Leathery</li>
-        </stuffCategories>
+        <costList>
+
+            <Wolfein_CompositeFabric>48</Wolfein_CompositeFabric>
+
+            <Cloth>32</Cloth>
+
+        </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/OnSkin/Shirt_Skirt/Shirt_Skirt</texPath>
             <shaderType>CutoutComplex</shaderType>
@@ -264,11 +270,13 @@
         <defName>Wolfein_Hoodie</defName>
         <label>Wolfein Hoodie</label>
         <description>Extra hood, extra warm. And make you dress like a hacker.</description>
-        <costStuffCount>85</costStuffCount>
-        <stuffCategories>
-            <li>Fabric</li>
-            <li>Leathery</li>
-        </stuffCategories>
+        <costList>
+
+            <Wolfein_CompositeFabric>51</Wolfein_CompositeFabric>
+
+            <Cloth>34</Cloth>
+
+        </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/OnSkin/Hoodie/Hoodie</texPath>
             <shaderType>CutoutComplex</shaderType>
@@ -314,11 +322,13 @@
         <defName>Wolfein_T-shirt</defName>
         <label>Wolfein T-shirt</label>
         <description>Maybe a bit oversized, but it makes you stay cool.</description>
-        <costStuffCount>75</costStuffCount>
-        <stuffCategories>
-            <li>Fabric</li>
-            <li>Leathery</li>
-        </stuffCategories>
+        <costList>
+
+            <Wolfein_CompositeFabric>45</Wolfein_CompositeFabric>
+
+            <Cloth>30</Cloth>
+
+        </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/OnSkin/T-shirt/T-shirt</texPath>
             <shaderType>CutoutComplex</shaderType>
@@ -425,7 +435,11 @@
         <label>Wolfein Slave Apron</label>
         <description>Especially designed for Wolfein slaves. The collar will make them know who is the Boss.</description>
         <costList>
-            <Cloth>70</Cloth>
+
+            <Wolfein_CompositeFabric>28</Wolfein_CompositeFabric>
+
+            <Cloth>42</Cloth>
+
         </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/OnSkin/Slave/Slave</texPath>
@@ -480,11 +494,13 @@
         <defName>Wolfein_Overalls</defName>
         <label>Wolfein Short Overalls</label>
         <description>Wolfein workers' best friend. The waist bags can store much more tools than it looks can.</description>
-        <costStuffCount>75</costStuffCount>
-        <stuffCategories>
-            <li>Fabric</li>
-            <li>Leathery</li>
-        </stuffCategories>
+        <costList>
+
+            <Wolfein_CompositeFabric>45</Wolfein_CompositeFabric>
+
+            <Cloth>30</Cloth>
+
+        </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/OnSkin/Overalls/Overalls</texPath>
             <shaderType>CutoutComplex</shaderType>
@@ -593,11 +609,13 @@
         <defName>Wolfein_ChefsUniform</defName>
         <label>Wolfein Chef Uniform</label>
         <description>The Wolfein MegaCorp stipulates chefs in all legal restaurants within its jurisdiction must wear this uniforms.</description>
-        <costStuffCount>90</costStuffCount>
-        <stuffCategories>
-            <li>Fabric</li>
-            <li>Leathery</li>
-        </stuffCategories>
+        <costList>
+
+            <Wolfein_CompositeFabric>54</Wolfein_CompositeFabric>
+
+            <Cloth>36</Cloth>
+
+        </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/OnSkin/ChefsUniform/ChefsUniform</texPath>
             <shaderType>CutoutComplex</shaderType>
@@ -646,11 +664,13 @@
         <defName>Wolfein_Labgown</defName>
         <label>Wolfein Labgown</label>
         <description>Wolfein researchers' uniform, which would protect them from chemicals.</description>
-        <costStuffCount>90</costStuffCount>
-        <stuffCategories>
-            <li>Fabric</li>
-            <li>Leathery</li>
-        </stuffCategories>
+        <costList>
+
+            <Wolfein_CompositeFabric>54</Wolfein_CompositeFabric>
+
+            <Cloth>36</Cloth>
+
+        </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/OnSkin/Labgown/Labgown</texPath>
             <shaderType>CutoutComplex</shaderType>
@@ -697,11 +717,13 @@
         <defName>Wolfein_MedicalUniform</defName>
         <label>Wolfein Medical Gowns</label>
         <description>A Surgical Gown with a white coat, may not so clean but quite useful.</description>
-        <costStuffCount>90</costStuffCount>
-        <stuffCategories>
-            <li>Fabric</li>
-            <li>Leathery</li>
-        </stuffCategories>
+        <costList>
+
+            <Wolfein_CompositeFabric>54</Wolfein_CompositeFabric>
+
+            <Cloth>36</Cloth>
+
+        </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/OnSkin/MedicalUniform/MedicalUniform</texPath>
             <shaderType>CutoutComplex</shaderType>
@@ -1492,10 +1514,13 @@
         <defName>Wolfein_Sweater</defName>
         <label>Wolfein Sweater</label>
         <description>A comfortable and warmly insulating everyday sweater, perfect for autumn and winter. Though it appears loose-fitting, it surprisingly accentuates the body's curves.</description>
-        <costStuffCount>65</costStuffCount>
-        <stuffCategories>
-            <li>Fabric</li>
-        </stuffCategories>
+        <costList>
+
+            <Wolfein_CompositeFabric>39</Wolfein_CompositeFabric>
+
+            <Cloth>26</Cloth>
+
+        </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/OnSkin/Sweater/Sweater</texPath>
             <shaderType>CutoutComplex</shaderType>
@@ -1541,11 +1566,13 @@
         <defName>Wolfein_ShortT-shirt</defName>
         <label>Wolfein Short T-shirt</label>
         <description>Common summer attire for Wolfein girls, featuring a shorter and breezier crop top. Paired with denim shorts, it exudes both style and sexy.</description>
-        <costStuffCount>65</costStuffCount>
-        <stuffCategories>
-            <li>Fabric</li>
-            <li>Leathery</li>
-        </stuffCategories>
+        <costList>
+
+            <Wolfein_CompositeFabric>39</Wolfein_CompositeFabric>
+
+            <Cloth>26</Cloth>
+
+        </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/OnSkin/ShortT-shirt/ShortT-shirt</texPath>
             <shaderType>CutoutComplex</shaderType>

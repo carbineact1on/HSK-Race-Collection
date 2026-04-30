@@ -904,10 +904,13 @@
                     <Plastic>5</Plastic>
             <Mechanism>1</Mechanism>
         </costList>
-        <costStuffCount>40</costStuffCount>
-        <stuffCategories>
-            <li>Metallic</li>
-        </stuffCategories>
+        <costList>
+
+            <Wolfein_CompositeFabric>24</Wolfein_CompositeFabric>
+
+            <Cloth>16</Cloth>
+
+        </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/OverHead/PowerArmorHelmet/PowerArmorHelmet</texPath>
             <shaderType>CutoutComplex</shaderType>
@@ -986,10 +989,13 @@
                     <Plastic>5</Plastic>
             <Mechanism>1</Mechanism>
         </costList>
-        <costStuffCount>60</costStuffCount>
-        <stuffCategories>
-            <li>Metallic</li>
-        </stuffCategories>
+        <costList>
+
+            <Wolfein_CompositeFabric>36</Wolfein_CompositeFabric>
+
+            <Cloth>24</Cloth>
+
+        </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/OverHead/HeavyPowerArmorHelmet/HeavyPowerArmorHelmet</texPath>
             <shaderType>CutoutComplex</shaderType>
@@ -1279,10 +1285,13 @@
                     <Plastic>5</Plastic>
             <Mechanism>1</Mechanism>
         </costList>
-        <costStuffCount>50</costStuffCount>
-        <stuffCategories>
-            <li>Metallic</li>
-        </stuffCategories>
+        <costList>
+
+            <Wolfein_CompositeFabric>30</Wolfein_CompositeFabric>
+
+            <Cloth>20</Cloth>
+
+        </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/OverHead/AIPTHeavyPowerArmorHelmet/AIPTHeavyPowerArmorHelmet</texPath>
             <shaderType>CutoutComplex</shaderType>
@@ -1362,10 +1371,13 @@
                     <Plastic>5</Plastic>
             <Mechanism>1</Mechanism>
         </costList>
-        <costStuffCount>50</costStuffCount>
-        <stuffCategories>
-            <li>Metallic</li>
-        </stuffCategories>
+        <costList>
+
+            <Wolfein_CompositeFabric>30</Wolfein_CompositeFabric>
+
+            <Cloth>20</Cloth>
+
+        </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/OverHead/RebelHeavyPowerArmorHelmet/RebelHeavyPowerArmorHelmet</texPath>
             <shaderType>CutoutComplex</shaderType>
@@ -1447,10 +1459,13 @@
             <Mechanism>2</Mechanism>
             <Microchips>1</Microchips>
         </costList>
-        <costStuffCount>40</costStuffCount>
-        <stuffCategories>
-            <li>Metallic</li>
-        </stuffCategories>
+        <costList>
+
+            <Wolfein_CompositeFabric>24</Wolfein_CompositeFabric>
+
+            <Cloth>16</Cloth>
+
+        </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/OverHead/ImperialGuardPowerArmorMask/ImperialGuardPowerArmorMask</texPath>
             <shaderType>CutoutComplex</shaderType>
