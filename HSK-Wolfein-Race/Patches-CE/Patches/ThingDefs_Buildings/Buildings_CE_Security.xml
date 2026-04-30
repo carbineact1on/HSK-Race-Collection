@@ -196,24 +196,24 @@
 			<Bulk>18.0</Bulk>
 			<AimingAccuracy>0.85</AimingAccuracy>
 		</statBases>
-		<!-- Pattern modeled on HSK Core_SK's Gun_RL (Heavy Missile System):
-		     same caliber (130mm rocket missile), same Verb_ShootMortarCE +
-		     vanilla Building_TurretGun combo. Tuned smaller for a defensive
-		     turret (mag 6 vs Gun_RL's 3, range 60 vs 370). -->
+		<!-- Stripped to match CE's working auto-mortar pattern from Royalty
+		     Buildings_Mechanoid.xml (mech ship 50mm rocket auto-mortar).
+		     Removed: recoilAmount + recoilPattern (mortars don't have direct-
+		     fire recoil), burst > 1 with ticksBetweenBurstShots (mortar verb
+		     fires single-shot, mag count drives volley pacing instead),
+		     forceNormalTimeSpeed=true (auto-mortars use false). -->
 		<Properties>
-			<recoilAmount>0.4</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
-			<forceNormalTimeSpeed>true</forceNormalTimeSpeed>
+			<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
 			<hasStandardCommand>true</hasStandardCommand>
+			<requireLineOfSight>false</requireLineOfSight>
 			<defaultProjectile>Bullet_130mmRocketMissile</defaultProjectile>
 			<warmupTime>3.0</warmupTime>
 			<range>60</range>
 			<minRange>16</minRange>
-			<burstShotCount>6</burstShotCount>
-			<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+			<burstShotCount>1</burstShotCount>
 			<soundCast>130mmRocket</soundCast>
 			<muzzleFlashScale>16</muzzleFlashScale>
-			<recoilPattern>Mounted</recoilPattern>
 			<circularError>1.6</circularError>
 			<indirectFirePenalty>0.32</indirectFirePenalty>
 			<targetParams>
