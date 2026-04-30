@@ -34,15 +34,6 @@
 		</value>
 	</Operation>
 
-	<!-- Wolfein_Turret_E uses CombatExtended.Building_TurretGunCE +
-	     Verb_ShootMortarCE — pattern matched from HSK Core_SK's working
-	     RLGun (Heavy Missile System) which inherits TurretBase whose
-	     thingClass is CombatExtended.Building_TurretGunCE.
-	     Vanilla Building_TurretGun.DrawAt throws InvalidCastException
-	     trying to render a turret with our extra CE comps (Refuelable
-	     barrel, AmmoUser, etc), so we need the CE building class.
-	     The earlier "consumes ammo but no projectile" issue was actually
-	     the mortar minRange=4 problem (now 16) — not a thingClass issue. -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Wolfein_Turret_E"]/thingClass</xpath>
 		<value>
@@ -196,34 +187,28 @@
 			<Bulk>18.0</Bulk>
 			<AimingAccuracy>0.85</AimingAccuracy>
 		</statBases>
-		<!-- Stripped to match CE's working auto-mortar pattern from Royalty
-		     Buildings_Mechanoid.xml (mech ship 50mm rocket auto-mortar).
-		     Removed: recoilAmount + recoilPattern (mortars don't have direct-
-		     fire recoil), burst > 1 with ticksBetweenBurstShots (mortar verb
-		     fires single-shot, mag count drives volley pacing instead),
-		     forceNormalTimeSpeed=true (auto-mortars use false). -->
 		<Properties>
-			<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
-			<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+			<recoilAmount>0.4</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<requireLineOfSight>false</requireLineOfSight>
-			<defaultProjectile>Bullet_130mmRocketMissile</defaultProjectile>
-			<warmupTime>3.0</warmupTime>
-			<range>60</range>
-			<minRange>16</minRange>
-			<burstShotCount>1</burstShotCount>
-			<soundCast>130mmRocket</soundCast>
+			<defaultProjectile>Bullet_RPG7Grenade_HEAT</defaultProjectile>
+			<warmupTime>2.0</warmupTime>
+			<range>52</range>
+			<minRange>4</minRange>
+			<burstShotCount>6</burstShotCount>
+			<ticksBetweenBurstShots>60</ticksBetweenBurstShots>
+			<soundCast>Shot_IncendiaryLauncher</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>16</muzzleFlashScale>
-			<circularError>1.6</circularError>
-			<indirectFirePenalty>0.32</indirectFirePenalty>
+			<recoilPattern>Mounted</recoilPattern>
 			<targetParams>
 				<canTargetLocations>true</canTargetLocations>
 			</targetParams>
 		</Properties>
 		<AmmoUser>
 			<magazineSize>6</magazineSize>
-			<reloadTime>15.0</reloadTime>
-			<ammoSet>AmmoSet_130mmRocketMissile</ammoSet>
+			<reloadTime>10.0</reloadTime>
+			<ammoSet>AmmoSet_RPG7Grenade</ammoSet>
 		</AmmoUser>
 		<FireModes>
 			<aiAimMode>AimedShot</aiAimMode>
