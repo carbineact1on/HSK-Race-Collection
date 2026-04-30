@@ -129,11 +129,10 @@
         <defName>Wolfein_Dustcoat</defName>
         <label>Wolfein Dustcoat</label>
         <description>A dust coat designed to protect against wind and sand while shielding from the scorching sunlight.</description>
-        <costStuffCount>90</costStuffCount>
-        <stuffCategories>
-            <li>Fabric</li>
-            <li>Leathery</li>
-        </stuffCategories>
+        <costList>
+            <Wolfein_CompositeFabric>60</Wolfein_CompositeFabric>
+            <Cloth>30</Cloth>
+        </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/Shell/Dustcoat/Dustcoat</texPath>
             <shaderType>CutoutComplex</shaderType>
@@ -176,11 +175,10 @@
         <defName>Wolfein_Wintercoat</defName>
         <label>Wolfein Winter Coat</label>
         <description>A winter coat with excellent insulation, ideal for cold outdoor environments.</description>
-        <costStuffCount>90</costStuffCount>
-        <stuffCategories>
-            <li>Fabric</li>
-            <li>Leathery</li>
-        </stuffCategories>
+        <costList>
+            <Wolfein_CompositeFabric>60</Wolfein_CompositeFabric>
+            <Cloth>30</Cloth>
+        </costList>
         <graphicData>
             <texPath>Wolfein/Apparel/Shell/Wintercoat/Wintercoat</texPath>
             <shaderType>CutoutComplex</shaderType>
