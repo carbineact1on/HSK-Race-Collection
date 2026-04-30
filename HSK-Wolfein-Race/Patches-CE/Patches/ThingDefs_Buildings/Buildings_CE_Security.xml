@@ -129,7 +129,7 @@
 			<recoilPattern>Mounted</recoilPattern>
 		</Properties>
 		<AmmoUser>
-			<magazineSize>100</magazineSize>
+			<magazineSize>80</magazineSize>
 			<reloadTime>12.0</reloadTime>
 			<ammoSet>AmmoSet_762x39mmSoviet</ammoSet>
 		</AmmoUser>
