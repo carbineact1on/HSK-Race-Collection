@@ -190,8 +190,8 @@
 			<warmupTime>2.0</warmupTime>
 			<range>52</range>
 			<minRange>4</minRange>
-			<burstShotCount>1</burstShotCount>
-			<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+			<burstShotCount>6</burstShotCount>
+			<ticksBetweenBurstShots>60</ticksBetweenBurstShots>
 			<soundCast>Shot_IncendiaryLauncher</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>16</muzzleFlashScale>
