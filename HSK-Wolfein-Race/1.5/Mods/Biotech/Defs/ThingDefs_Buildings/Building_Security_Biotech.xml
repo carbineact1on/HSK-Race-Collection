@@ -98,7 +98,10 @@
       <turretGunDef>Wolfein_TurretGun_C</turretGunDef>
       <turretBurstCooldownTime>1.8</turretBurstCooldownTime>
       <turretBurstWarmupTime>0.5</turretBurstWarmupTime>
-      <turretTopOffset>(0, 0)</turretTopOffset>
+      <!-- HSK visual fix: laser turret art, emitter ~+1.25 cells forward of
+           texture center; pull gun graphic back so the laser beam visually
+           originates from the emitter slits, not the body center. -->
+      <turretTopOffset>(0, -1.25)</turretTopOffset>
       <turretTopDrawSize>5</turretTopDrawSize>
     </building>
     <placeWorkers>

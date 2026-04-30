@@ -82,7 +82,11 @@
       <turretGunDef>Wolfein_TurretGun_A</turretGunDef>
       <turretBurstCooldownTime>4.8</turretBurstCooldownTime>
       <turretBurstWarmupTime>0.4</turretBurstWarmupTime>
-      <turretTopOffset>(0, 0)</turretTopOffset>
+      <!-- HSK visual fix: shift gun graphic backward along aim axis so the
+           muzzle (drawn ~+0.5 cells forward of texture center) lands at
+           the building's center cell — that's where projectiles spawn,
+           so visually bullets now leave from the barrel tip. -->
+      <turretTopOffset>(0, -0.5)</turretTopOffset>
       <turretTopDrawSize>2</turretTopDrawSize>
     </building>
     <placeWorkers>
@@ -155,7 +159,8 @@
       <turretGunDef>Wolfein_TurretGun_B</turretGunDef>
       <turretBurstCooldownTime>6.8</turretBurstCooldownTime>
       <turretBurstWarmupTime>0.4</turretBurstWarmupTime>
-      <turretTopOffset>(0, 0)</turretTopOffset>
+      <!-- HSK visual fix: see Wolfein_Turret_A above. Same small-turret art. -->
+      <turretTopOffset>(0, -0.5)</turretTopOffset>
       <turretTopDrawSize>2</turretTopDrawSize>
     </building>
   </ThingDef>
@@ -294,7 +299,10 @@
       <turretGunDef>Wolfein_TurretGun_D</turretGunDef>
       <turretBurstCooldownTime>8</turretBurstCooldownTime>
       <turretBurstWarmupTime>2</turretBurstWarmupTime>
-      <turretTopOffset>(0, 0)</turretTopOffset>
+      <!-- HSK visual fix: medium-turret art, twin barrels extend ~+1.5 cells
+           forward of texture center; pull gun graphic back so the muzzles
+           sit at building center where projectiles spawn. -->
+      <turretTopOffset>(0, -1.5)</turretTopOffset>
       <turretTopDrawSize>5</turretTopDrawSize>
     </building>
     <placeWorkers>
@@ -422,7 +430,9 @@
       <turretGunDef>Wolfein_TurretGun_E</turretGunDef>
       <turretBurstCooldownTime>30</turretBurstCooldownTime>
       <turretBurstWarmupTime>4</turretBurstWarmupTime>
-      <turretTopOffset>(0, 0)</turretTopOffset>
+      <!-- HSK visual fix: rocket multi-barrel art, muzzles ~+1.5 cells forward.
+           Same offset as Turret_D. -->
+      <turretTopOffset>(0, -1.5)</turretTopOffset>
       <turretTopDrawSize>5</turretTopDrawSize>
     </building>
   </ThingDef>
