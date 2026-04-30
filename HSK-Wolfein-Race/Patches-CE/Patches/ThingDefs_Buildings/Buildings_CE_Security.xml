@@ -188,31 +188,54 @@
 			<AimingAccuracy>0.85</AimingAccuracy>
 		</statBases>
 		<Properties>
-			<recoilAmount>0.4</recoilAmount>
-			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
+			<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>Bullet_RPG7Grenade_HEAT</defaultProjectile>
-			<warmupTime>2.0</warmupTime>
-			<range>52</range>
-			<minRange>4</minRange>
-			<burstShotCount>6</burstShotCount>
-			<ticksBetweenBurstShots>60</ticksBetweenBurstShots>
-			<soundCast>Shot_IncendiaryLauncher</soundCast>
+			<requireLineOfSight>false</requireLineOfSight>
+			<defaultProjectile>Bullet_130mmRocketMissile</defaultProjectile>
+			<warmupTime>3.0</warmupTime>
+			<range>60</range>
+			<minRange>20</minRange>
+			<burstShotCount>1</burstShotCount>
+			<soundCast>130mmRocket</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>16</muzzleFlashScale>
-			<recoilPattern>Mounted</recoilPattern>
+			<circularError>1.6</circularError>
+			<indirectFirePenalty>0.32</indirectFirePenalty>
 			<targetParams>
-				<canTargetLocations>true</canTargetLocations>
+				<canTargetLocations>false</canTargetLocations>
 			</targetParams>
 		</Properties>
 		<AmmoUser>
 			<magazineSize>6</magazineSize>
-			<reloadTime>10.0</reloadTime>
-			<ammoSet>AmmoSet_RPG7Grenade</ammoSet>
+			<reloadTime>15.0</reloadTime>
+			<ammoSet>AmmoSet_130mmRocketMissile</ammoSet>
 		</AmmoUser>
 		<FireModes>
 			<aiAimMode>AimedShot</aiAimMode>
 		</FireModes>
+	</Operation>
+
+	<!-- Add CE charge speeds to the gun (matches CE Auto-Mortars compat patch) -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Wolfein_TurretGun_E"]/comps</xpath>
+		<value>
+			<li Class="CombatExtended.CompProperties_Charges">
+				<chargeSpeeds>
+					<li>30</li>
+					<li>50</li>
+					<li>70</li>
+					<li>90</li>
+				</chargeSpeeds>
+			</li>
+		</value>
+	</Operation>
+
+	<!-- Remove the turret BUILDING's Refuelable (barrel durability) comp.
+	     CE's Auto-Mortars patch does this explicitly: Refuelable interferes
+	     with the mortar verb's ammo flow and was likely the silent-fail cause. -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[defName="Wolfein_Turret_E"]/comps/li[@Class="CompProperties_Refuelable"]</xpath>
 	</Operation>
 
 </Patch>
