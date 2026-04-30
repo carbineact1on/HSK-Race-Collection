@@ -107,7 +107,7 @@
 	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>Wolfein_TurretGun_B</defName>
 		<statBases>
-			<RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
 			<SightsEfficiency>0.95</SightsEfficiency>
 			<ShotSpread>0.08</ShotSpread>
 			<SwayFactor>1.1</SwayFactor>
