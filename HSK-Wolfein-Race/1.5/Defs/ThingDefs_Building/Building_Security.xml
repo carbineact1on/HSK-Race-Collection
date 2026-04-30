@@ -41,7 +41,9 @@
       <Wolfein_MechanicalComponent>1</Wolfein_MechanicalComponent>
     </costList>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-    <researchPrerequisite>Wolfein_TurretStandard</researchPrerequisite>
+    <researchPrerequisites>
+      <li>Wolfein_TurretStandard</li>
+    </researchPrerequisites>
     <tickerType>Normal</tickerType>
     <comps>
       <li Class="CompProperties_Stunnable">
@@ -232,7 +234,9 @@
       <Wolfein_MechanicalComponent>3</Wolfein_MechanicalComponent>
     </costList>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-    <researchPrerequisite>Wolfein_TurretStandard</researchPrerequisite>
+    <researchPrerequisites>
+      <li>Wolfein_TurretStandard</li>
+    </researchPrerequisites>
     <tickerType>Normal</tickerType>
     <comps>
       <li Class="CompProperties_Stunnable">

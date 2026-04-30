@@ -149,7 +149,9 @@
             <recipeUsers Inherit="false">
                 <li>ElectricTailoringBench</li>
             </recipeUsers>
-            <researchPrerequisite>Wolfein_Industrial_production</researchPrerequisite>
+            <researchPrerequisites>
+                <li>Wolfein_Industrial_production</li>
+            </researchPrerequisites>
         </recipeMaker>
         <statBases>
             <Mass>1.0</Mass>
@@ -215,7 +217,9 @@
             <recipeUsers Inherit="false">
                 <li>ElectricTailoringBench</li>
             </recipeUsers>
-            <researchPrerequisite>Wolfein_Industrial_production</researchPrerequisite>
+            <researchPrerequisites>
+                <li>Wolfein_Industrial_production</li>
+            </researchPrerequisites>
         </recipeMaker>
         <statBases>
             <Mass>1.0</Mass>
@@ -479,7 +483,9 @@
             <recipeUsers Inherit="false">
                 <li>ElectricTailoringBench</li>
             </recipeUsers>
-            <researchPrerequisite>Wolfein_Industrial_production</researchPrerequisite>
+            <researchPrerequisites>
+                <li>Wolfein_Industrial_production</li>
+            </researchPrerequisites>
         </recipeMaker>
         <statBases>
             <Mass>1.5</Mass>
@@ -546,7 +552,9 @@
             <recipeUsers Inherit="false">
                 <li>ElectricTailoringBench</li>
             </recipeUsers>
-            <researchPrerequisite>Wolfein_Industrial_production</researchPrerequisite>
+            <researchPrerequisites>
+                <li>Wolfein_Industrial_production</li>
+            </researchPrerequisites>
         </recipeMaker>
         <statBases>
             <Mass>1.5</Mass>
@@ -616,7 +624,9 @@
             <recipeUsers Inherit="false">
                 <li>ElectricTailoringBench</li>
             </recipeUsers>
-            <researchPrerequisite>Wolfein_Industrial_production</researchPrerequisite>
+            <researchPrerequisites>
+                <li>Wolfein_Industrial_production</li>
+            </researchPrerequisites>
         </recipeMaker>
         <statBases>
             <Mass>1.2</Mass>
@@ -752,7 +762,9 @@
             <recipeUsers Inherit="false">
                 <li>ElectricTailoringBench</li>
             </recipeUsers>
-            <researchPrerequisite>Wolfein_Industrial_production</researchPrerequisite>
+            <researchPrerequisites>
+                <li>Wolfein_Industrial_production</li>
+            </researchPrerequisites>
         </recipeMaker>
         <statBases>
             <Mass>1.0</Mass>
@@ -823,7 +835,9 @@
             <recipeUsers Inherit="false">
                 <li>ElectricTailoringBench</li>
             </recipeUsers>
-            <researchPrerequisite>Wolfein_Industrial_production</researchPrerequisite>
+            <researchPrerequisites>
+                <li>Wolfein_Industrial_production</li>
+            </researchPrerequisites>
         </recipeMaker>
         <statBases>
             <Mass>1.5</Mass>
@@ -904,7 +918,9 @@
             <recipeUsers Inherit="false">
                 <li>ElectricTailoringBench</li>
             </recipeUsers>
-            <researchPrerequisite>Wolfein_Industrial_production</researchPrerequisite>
+            <researchPrerequisites>
+                <li>Wolfein_Industrial_production</li>
+            </researchPrerequisites>
         </recipeMaker>
         <statBases>
             <Mass>1.5</Mass>
@@ -984,7 +1000,9 @@
             <recipeUsers Inherit="false">
                 <li>ElectricTailoringBench</li>
             </recipeUsers>
-            <researchPrerequisite>Wolfein_Industrial_production</researchPrerequisite>
+            <researchPrerequisites>
+                <li>Wolfein_Industrial_production</li>
+            </researchPrerequisites>
         </recipeMaker>
         <statBases>
             <Mass>1.5</Mass>
@@ -1060,7 +1078,9 @@
             <recipeUsers Inherit="false">
                 <li>ElectricTailoringBench</li>
             </recipeUsers>
-            <researchPrerequisite>Wolfein_Industrial_production</researchPrerequisite>
+            <researchPrerequisites>
+                <li>Wolfein_Industrial_production</li>
+            </researchPrerequisites>
         </recipeMaker>
         <statBases>
             <Mass>1.0</Mass>
@@ -1129,7 +1149,9 @@
             <recipeUsers Inherit="false">
                 <li>ElectricTailoringBench</li>
             </recipeUsers>
-            <researchPrerequisite>Wolfein_Industrial_production</researchPrerequisite>
+            <researchPrerequisites>
+                <li>Wolfein_Industrial_production</li>
+            </researchPrerequisites>
         </recipeMaker>
         <statBases>
             <Mass>1.0</Mass>
@@ -1196,7 +1218,9 @@
             <recipeUsers Inherit="false">
                 <li>ElectricTailoringBench</li>
             </recipeUsers>
-            <researchPrerequisite>Wolfein_Industrial_production</researchPrerequisite>
+            <researchPrerequisites>
+                <li>Wolfein_Industrial_production</li>
+            </researchPrerequisites>
         </recipeMaker>
         <statBases>
             <Mass>1.0</Mass>
@@ -1269,7 +1293,9 @@
             <recipeUsers Inherit="false">
                 <li>ElectricTailoringBench</li>
             </recipeUsers>
-            <researchPrerequisite>Wolfein_Industrial_production</researchPrerequisite>
+            <researchPrerequisites>
+                <li>Wolfein_Industrial_production</li>
+            </researchPrerequisites>
         </recipeMaker>
         <statBases>
             <Mass>1.5</Mass>
@@ -1350,7 +1376,9 @@
             <recipeUsers Inherit="false">
                 <li>ElectricTailoringBench</li>
             </recipeUsers>
-            <researchPrerequisite>Wolfein_Industrial_production</researchPrerequisite>
+            <researchPrerequisites>
+                <li>Wolfein_Industrial_production</li>
+            </researchPrerequisites>
         </recipeMaker>
         <statBases>
             <Mass>1.5</Mass>
@@ -1430,7 +1458,9 @@
         </graphicData>
         <recipeMaker>
             <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
-            <researchPrerequisite>Wolfein_Industrial_production</researchPrerequisite>
+            <researchPrerequisites>
+                <li>Wolfein_Industrial_production</li>
+            </researchPrerequisites>
         </recipeMaker>
         <statBases>
             <Mass>1.0</Mass>

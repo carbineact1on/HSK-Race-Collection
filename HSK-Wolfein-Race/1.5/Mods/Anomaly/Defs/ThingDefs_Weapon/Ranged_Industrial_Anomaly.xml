@@ -24,7 +24,9 @@
             <li>Wolfein_WeaponII</li>
         </tradeTags>
         <recipeMaker>
-            <researchPrerequisite>Wolfein_Weapon_II</researchPrerequisite>
+            <researchPrerequisites>
+                <li>Wolfein_Weapon_II</li>
+            </researchPrerequisites>
             <recipeUsers Inherit="False">
                 <li>AdvWeaponCraftingWorkTable</li>
                 <li>TableMachining</li>
@@ -150,7 +152,9 @@
             <li>Wolfein_WeaponIV</li>
         </tradeTags>
         <recipeMaker>
-            <researchPrerequisite>Wolfein_AIPTWeapon</researchPrerequisite>
+            <researchPrerequisites>
+                <li>Wolfein_AIPTWeapon</li>
+            </researchPrerequisites>
             <recipeUsers Inherit="False">
                 <li>AdvWeaponCraftingWorkTable</li>
             </recipeUsers>

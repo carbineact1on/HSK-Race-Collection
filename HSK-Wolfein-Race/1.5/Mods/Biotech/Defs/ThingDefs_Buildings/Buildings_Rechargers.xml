@@ -106,7 +106,9 @@
             <Wolfein_MechanicalComponent>1</Wolfein_MechanicalComponent>
             <Wolfein_ElectronicComponent>2</Wolfein_ElectronicComponent>
         </costList>
-        <researchPrerequisite>Wolfein_GiantMilitaryMech</researchPrerequisite>
+        <researchPrerequisites>
+            <li>Wolfein_GiantMilitaryMech</li>
+        </researchPrerequisites>
         <comps Inherit="false">
             <li Class="CompProperties_Flickable"/>
             <li Class="CompProperties_Forbiddable"/>

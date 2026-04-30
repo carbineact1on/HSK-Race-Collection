@@ -34,7 +34,9 @@
             <Wolfein_MechanicalComponent>5</Wolfein_MechanicalComponent>
             <Wolfein_ElectronicComponent>3</Wolfein_ElectronicComponent>
         </costList>
-        <researchPrerequisite>Wolfein_BasicCivilianMech</researchPrerequisite>
+        <researchPrerequisites>
+            <li>Wolfein_BasicCivilianMech</li>
+        </researchPrerequisites>
         <building>
             <formingGraphicData>
                 <texPath>Wolfein/Items/Unfinished/UnfinishedCivilMech/UnfinishedCivilMech</texPath>
@@ -118,7 +120,9 @@
             <Wolfein_ElectronicComponent>4</Wolfein_ElectronicComponent>
             <Wolfein_MegaCorpMechCore>1</Wolfein_MegaCorpMechCore>
         </costList>
-        <researchPrerequisite>Wolfein_BasicMilitaryMech</researchPrerequisite>
+        <researchPrerequisites>
+            <li>Wolfein_BasicMilitaryMech</li>
+        </researchPrerequisites>
         <building>
             <formingGraphicData>
                 <texPath>Wolfein/Items/Unfinished/UnfinishedMegaCorpMech/UnfinishedMegaCorpMech</texPath>
