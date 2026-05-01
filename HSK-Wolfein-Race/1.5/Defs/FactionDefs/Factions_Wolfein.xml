@@ -154,7 +154,8 @@
         </baseTraderKinds>
         <raidCommonalityFromPointsCurve>
             <points>
-                <li>(0, 1)</li>                <!--Constant 1 at all points levels-->
+                <li>(0, 0)</li>                <!-- HSK gating: no MegaCorp raids before 1500 threat pts (mid-late game) -->
+                <li>(1500, 1)</li>             <!-- Full raid commonality at 1500+ -->
             </points>
         </raidCommonalityFromPointsCurve>
         <allowedArrivalTemperatureRange>-30~38</allowedArrivalTemperatureRange>
