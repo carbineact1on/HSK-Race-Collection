@@ -18,7 +18,7 @@
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>Bullet_9x19mmPara_FMJ</defaultProjectile>
 			<warmupTime>0.6</warmupTime>
-			<range>12</range>
+			<range>18</range>
 			<soundCast>Shot_Revolver</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>8</muzzleFlashScale>
@@ -367,7 +367,7 @@
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>Bullet_45ACP_FMJ</defaultProjectile>
 			<warmupTime>0.6</warmupTime>
-			<range>16</range>
+			<range>22</range>
 			<soundCast>Wolfein_Shot_HG_SMG</soundCast>
 			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>8</muzzleFlashScale>
@@ -430,7 +430,7 @@
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>Bullet_6x24mmCharged</defaultProjectile>
 			<warmupTime>0.6</warmupTime>
-            <burstShotCount>12</burstShotCount>
+            <burstShotCount>6</burstShotCount>
 			<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
 			<range>23</range>
 			<soundCast>Wolfein_Shot_HG_SMG</soundCast>
@@ -555,7 +555,7 @@
 			<SightsEfficiency>0.7</SightsEfficiency>
 			<ShotSpread>0.15</ShotSpread>
 			<SwayFactor>1.16</SwayFactor>
-			<Bulk>8</Bulk>
+			<Bulk>4.50</Bulk>
 		</statBases>
 		<Properties>
 			<recoilAmount>1.19</recoilAmount>
@@ -696,7 +696,7 @@
 			<defaultProjectile>Bullet_762x39mmSoviet_FMJ</defaultProjectile>
 			<warmupTime>1.1</warmupTime>
 			<range>49</range>
-			<burstShotCount>5</burstShotCount>
+			<burstShotCount>1</burstShotCount>
 			<ticksBetweenBurstShots>11</ticksBetweenBurstShots>
 			<soundCast>Shot_AssaultRifle</soundCast>
 			<soundCastTail>GunTail_Medium</soundCastTail>
@@ -958,7 +958,7 @@
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>Bullet_6x24mmCharged</defaultProjectile>
 			<warmupTime>0.65</warmupTime>
-			<range>74</range>
+			<range>50</range>
 			<soundCast>Wolfein_Shot_AR_MG</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>12</muzzleFlashScale>
@@ -1124,7 +1124,7 @@
 	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>W_Weapon_RF_HomemadeBolt-actionRifle</defName>
 		<statBases>
-			<RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
 			<SightsEfficiency>1</SightsEfficiency>
 			<ShotSpread>0.04</ShotSpread>
 			<SwayFactor>1.48</SwayFactor>
@@ -1254,7 +1254,7 @@
 	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>W_Weapon_RF_ChargeSniperRifle</defName>
 		<statBases>
-			<RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
 			<SightsEfficiency>2</SightsEfficiency>
 			<ShotSpread>0.03</ShotSpread>
 			<SwayFactor>1.52</SwayFactor>
@@ -1317,7 +1317,7 @@
 	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>W_Weapon_RF_RebelSniperRifle</defName>
 		<statBases>
-			<RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+			<RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
 			<SightsEfficiency>1</SightsEfficiency>
 			<ShotSpread>0.04</ShotSpread>
 			<SwayFactor>1.48</SwayFactor>
@@ -1509,7 +1509,7 @@
 			<defaultProjectile>Bullet_6x24mmCharged</defaultProjectile>
 			<warmupTime>0.8</warmupTime>
 			<range>59</range>
-			<burstShotCount>3</burstShotCount>
+			<burstShotCount>20</burstShotCount>
 			<ticksBetweenBurstShots>9</ticksBetweenBurstShots>
 			<soundCast>Wolfein_Shot_AR_MG</soundCast>
 			<soundCastTail>GunTail_Medium</soundCastTail>
@@ -1647,6 +1647,8 @@
 			<defaultProjectile>Bullet_12Gauge_Buck</defaultProjectile>
 			<warmupTime>0.6</warmupTime>
 			<range>18</range>
+			<burstShotCount>3</burstShotCount>
+			<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
 			<soundCast>Shot_Shotgun</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>10</muzzleFlashScale>
@@ -1710,7 +1712,7 @@
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>Bullet_12x64mmCharged</defaultProjectile>
 			<warmupTime>0.5</warmupTime>
-			<range>24</range>
+			<range>18</range>
             <burstShotCount>2</burstShotCount>
 			<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 			<soundCast>Wolfein_Shot_SG</soundCast>
