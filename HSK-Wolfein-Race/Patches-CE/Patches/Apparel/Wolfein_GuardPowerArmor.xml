@@ -11,13 +11,13 @@
             <Flammability>0</Flammability>
             <DeteriorationRate>1</DeteriorationRate>
             <Beauty>2</Beauty>
-            <Mass>80</Mass>
+            <Mass>25</Mass>
             <EquipDelay>14</EquipDelay>
             <WorkToMake>60000</WorkToMake>
             <Insulation_Cold>36</Insulation_Cold>
             <Insulation_Heat>12</Insulation_Heat>
             <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
-            <ArmorRating_Sharp>28</ArmorRating_Sharp>
+            <ArmorRating_Sharp>45</ArmorRating_Sharp>
             <ArmorRating_Blunt>60</ArmorRating_Blunt>
             <ArmorRating_Heat>0.3</ArmorRating_Heat>
             <ArmorRating_Electric>0.1</ArmorRating_Electric>

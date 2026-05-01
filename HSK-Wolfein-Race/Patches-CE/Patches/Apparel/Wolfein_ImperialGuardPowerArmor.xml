@@ -16,7 +16,7 @@
             <WorkToMake>65000</WorkToMake>
             <Insulation_Cold>36</Insulation_Cold>
             <Insulation_Heat>12</Insulation_Heat>
-            <ArmorRating_Sharp>34</ArmorRating_Sharp>
+            <ArmorRating_Sharp>50</ArmorRating_Sharp>
             <ArmorRating_Blunt>60</ArmorRating_Blunt>
             <ArmorRating_Heat>0.3</ArmorRating_Heat>
             <ArmorRating_Electric>0</ArmorRating_Electric>
