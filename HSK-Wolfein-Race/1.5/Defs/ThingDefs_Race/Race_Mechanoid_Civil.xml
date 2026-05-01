@@ -69,7 +69,10 @@
         <label>Basic Civilian Mech Unit</label>
         <description>After the war, the MegaCorp repurposed some of its military-grade mech units into civilian models to address the population shortage and perform simple tasks. Upon release, they quickly became a fashionable accessory among corporate executives. Thanks to their retained military-level strength, these units also conveniently eliminated the need for personal bodyguards.</description>
         <statBases>
-            <WorkSpeedGlobal MayRequire="Ludeon.RimWorld.Biotech">0.5</WorkSpeedGlobal>
+            <ArmorRating_Sharp>5</ArmorRating_Sharp>
+            <ArmorRating_Blunt>9</ArmorRating_Blunt>
+            <ArmorRating_Heat>0</ArmorRating_Heat>
+            <IncomingDamageFactor>0.85</IncomingDamageFactor>
         </statBases>
         <race>
             <mechFixedSkillLevel>8</mechFixedSkillLevel>
@@ -105,7 +108,10 @@
         <label>Construction-Type Civilian Mech Unit</label>
         <description>Designed to handle most construction tasks, this mech can also perform basic component processing when needed. Though intended for civilian use, they are occasionally spotted on the battlefield assisting in the setup of defensive structures.</description>
         <statBases>
-            <WorkSpeedGlobal MayRequire="Ludeon.RimWorld.Biotech">0.7</WorkSpeedGlobal>
+            <ArmorRating_Sharp>5</ArmorRating_Sharp>
+            <ArmorRating_Blunt>9</ArmorRating_Blunt>
+            <ArmorRating_Heat>0</ArmorRating_Heat>
+            <IncomingDamageFactor>0.85</IncomingDamageFactor>
         </statBases>
         <race>
             <mechEnabledWorkTypes>
@@ -143,8 +149,10 @@
         <label>Domestic-Type Civilian Mech Unit</label>
         <description>Capable of handling all household needs for Wolfein families, this model is especially praised for its childcare features—boasting a 99.9% satisfaction rate.</description>
         <statBases>
-            <WorkSpeedGlobal MayRequire="Ludeon.RimWorld.Biotech">0.7</WorkSpeedGlobal>
-            <CleaningSpeed>0.9</CleaningSpeed>
+            <ArmorRating_Sharp>5</ArmorRating_Sharp>
+            <ArmorRating_Blunt>9</ArmorRating_Blunt>
+            <ArmorRating_Heat>0</ArmorRating_Heat>
+            <IncomingDamageFactor>0.85</IncomingDamageFactor>
         </statBases>
         <race>
             <mechEnabledWorkTypes>
@@ -182,7 +190,10 @@
         <label>Agricultural-Type Civilian Mech Unit</label>
         <description>Widely deployed in MegaCorp-controlled plant factories, this model is purpose-built to meet the corporation’s strict demands for production efficiency, with every aspect of its design focused solely on output.</description>
         <statBases>
-            <WorkSpeedGlobal MayRequire="Ludeon.RimWorld.Biotech">0.7</WorkSpeedGlobal>
+            <ArmorRating_Sharp>5</ArmorRating_Sharp>
+            <ArmorRating_Blunt>9</ArmorRating_Blunt>
+            <ArmorRating_Heat>0</ArmorRating_Heat>
+            <IncomingDamageFactor>0.85</IncomingDamageFactor>
         </statBases>
         <race>
             <mechEnabledWorkTypes>

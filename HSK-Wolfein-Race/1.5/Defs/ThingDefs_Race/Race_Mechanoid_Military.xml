@@ -68,6 +68,10 @@
         <label>Basic Military Mech Unit</label>
         <description>A product of reverse-engineering Mechanoid technology, this basic military mech is mass-produced by the MegaCorp and deployed to the frontlines to replace the steadily declining Wolfein soldier population.</description>
         <statBases>
+            <ArmorRating_Sharp>10</ArmorRating_Sharp>
+            <ArmorRating_Blunt>16</ArmorRating_Blunt>
+            <ArmorRating_Heat>0</ArmorRating_Heat>
+            <IncomingDamageFactor>0.8</IncomingDamageFactor>
         </statBases>
     </ThingDef>
     <PawnKindDef ParentName="Wolfein_BaseMechKind_Military">
@@ -100,6 +104,10 @@
         <label>Close-Combat Military Mech Unit</label>
         <description>Designed for close-quarters engagement, this unit trades visual clarity for a wider field of view and heightened sensor sensitivity, allowing it to perform more effectively in short-range combat scenarios.</description>
         <statBases>
+            <ArmorRating_Sharp>12</ArmorRating_Sharp>
+            <ArmorRating_Blunt>20</ArmorRating_Blunt>
+            <ArmorRating_Heat>0</ArmorRating_Heat>
+            <IncomingDamageFactor>0.8</IncomingDamageFactor>
         </statBases>
     </ThingDef>
     <PawnKindDef ParentName="Wolfein_BaseMechKind_Military">
@@ -159,9 +167,10 @@
             <baseHealthScale>2.0</baseHealthScale>
         </race>
         <statBases>
-            <IncomingDamageFactor>0.8</IncomingDamageFactor>
-            <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
-            <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+            <ArmorRating_Sharp>18</ArmorRating_Sharp>
+            <ArmorRating_Blunt>25</ArmorRating_Blunt>
+            <ArmorRating_Heat>0</ArmorRating_Heat>
+            <IncomingDamageFactor>0.75</IncomingDamageFactor>
         </statBases>
     </ThingDef>
     <PawnKindDef ParentName="Wolfein_BaseMechKind_Military">
@@ -193,10 +202,10 @@
         <label>Sniper-Class Military Mech Unit</label>
         <description>In addition to upgraded sensors, this unit features heat-insulating skirt armor on its torso, reducing the chance of infrared detection compared to the standard model.</description>
         <statBases>
-            <MoveSpeed>4.4</MoveSpeed>
-            <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-            <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
-            <ShootingAccuracyPawn>6</ShootingAccuracyPawn>
+            <ArmorRating_Sharp>11</ArmorRating_Sharp>
+            <ArmorRating_Blunt>17</ArmorRating_Blunt>
+            <ArmorRating_Heat>0</ArmorRating_Heat>
+            <IncomingDamageFactor>0.8</IncomingDamageFactor>
         </statBases>
     </ThingDef>
     <PawnKindDef ParentName="Wolfein_BaseMechKind_Military">
@@ -232,11 +241,10 @@
         <label>Heavy Fire Support Mech Unit</label>
         <description>The heavy fire support Mech Unit serves primarily as an all-terrain platform for mounting heavy weaponry. According to reports, members of the MegaCorp Task Force experience an average 50% morale boost when advancing alongside one.</description>
         <statBases>
-            <MoveSpeed>3.8</MoveSpeed>
-            <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
-            <ArmorRating_Sharp>1.2</ArmorRating_Sharp>
-            <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">5</BandwidthCost>
-            <MechEnergyLossPerHP MayRequire="Ludeon.RimWorld.Biotech">0.1</MechEnergyLossPerHP>
+            <ArmorRating_Sharp>18</ArmorRating_Sharp>
+            <ArmorRating_Blunt>25</ArmorRating_Blunt>
+            <ArmorRating_Heat>0</ArmorRating_Heat>
+            <IncomingDamageFactor>0.75</IncomingDamageFactor>
         </statBases>
         <race>
             <baseHealthScale>2.8</baseHealthScale>
@@ -273,11 +281,10 @@
         <label>Heavy Close-Range Support Mech Unit.</label>
         <description>The Heavy Close-Range Support Mech Unit, unlike units tasked with mid-to-long-range fire support, is equipped with additional armor and a large shield, making it better suited for providing mid-to-close-range support to other mechanical units.</description>
         <statBases>
-            <MoveSpeed>3.8</MoveSpeed>
-            <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
-            <ArmorRating_Sharp>1.5</ArmorRating_Sharp>
-            <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">5</BandwidthCost>
-            <MechEnergyLossPerHP MayRequire="Ludeon.RimWorld.Biotech">0.1</MechEnergyLossPerHP>
+            <ArmorRating_Sharp>11</ArmorRating_Sharp>
+            <ArmorRating_Blunt>16</ArmorRating_Blunt>
+            <ArmorRating_Heat>0</ArmorRating_Heat>
+            <IncomingDamageFactor>0.8</IncomingDamageFactor>
         </statBases>
         <race>
             <baseHealthScale>2.8</baseHealthScale>

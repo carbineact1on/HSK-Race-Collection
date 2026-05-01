@@ -55,6 +55,10 @@
         <label>Wolfein mechanoid drone</label>
         <description>A reconnaissance drone developed by the MegaCorp, constructed from parts sourced from the lowest-bidding departments. It features only basic patrol capabilities and a single low-powered laser gun. However, MegaCorp often deploys these drones in large numbers—when clustered together, they can still pose a considerable threat.</description>
         <statBases>
+            <ArmorRating_Sharp>4</ArmorRating_Sharp>
+            <ArmorRating_Blunt>7</ArmorRating_Blunt>
+            <ArmorRating_Heat>0</ArmorRating_Heat>
+            <IncomingDamageFactor>0.85</IncomingDamageFactor>
         </statBases>
         <race>
         </race>
@@ -88,11 +92,10 @@
         <label>Wolfein mechanoid armed drone</label>
         <description>The armed drone equipped with dual rocket pods possesses high maneuverability and firepower coverage capability, enabling rapid deployment across various combat environments to execute suppression and clearance missions.</description>
         <statBases>
-            <MoveSpeed>5.2</MoveSpeed>
-            <MarketValue>1250</MarketValue>
-            <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-            <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
-            <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">2</BandwidthCost>            <!-- 带宽 -->
+            <ArmorRating_Sharp>5</ArmorRating_Sharp>
+            <ArmorRating_Blunt>8</ArmorRating_Blunt>
+            <ArmorRating_Heat>0</ArmorRating_Heat>
+            <IncomingDamageFactor>0.85</IncomingDamageFactor>
         </statBases>
         <race>
         </race>
