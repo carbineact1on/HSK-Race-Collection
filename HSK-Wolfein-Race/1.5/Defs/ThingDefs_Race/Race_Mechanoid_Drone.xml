@@ -20,7 +20,7 @@
             </lifeStageAges>
         </race>
         <tools>
-            <li>
+            <li Class="CombatExtended.ToolCE">
                 <label>drone body</label>
                 <capacities>
                     <li>Blunt</li>
@@ -29,6 +29,7 @@
                 <cooldownTime>1.0</cooldownTime>
                 <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
                 <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+                <armorPenetrationBlunt>0.3</armorPenetrationBlunt>
             </li>
         </tools>
         <statBases>

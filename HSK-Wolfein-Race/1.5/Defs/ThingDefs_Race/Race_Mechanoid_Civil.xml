@@ -21,7 +21,7 @@
             </lifeStageAges>
         </race>
         <tools>
-            <li>
+            <li Class="CombatExtended.ToolCE">
                 <label>left fist</label>
                 <capacities>
                     <li>Blunt</li>
@@ -30,8 +30,9 @@
                 <cooldownTime>2.0</cooldownTime>
                 <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
                 <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+                <armorPenetrationBlunt>0.3</armorPenetrationBlunt>
             </li>
-            <li>
+            <li Class="CombatExtended.ToolCE">
                 <label>right fist</label>
                 <capacities>
                     <li>Blunt</li>
@@ -40,6 +41,7 @@
                 <cooldownTime>2.0</cooldownTime>
                 <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
                 <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+                <armorPenetrationBlunt>0.3</armorPenetrationBlunt>
             </li>
         </tools>
         <statBases>

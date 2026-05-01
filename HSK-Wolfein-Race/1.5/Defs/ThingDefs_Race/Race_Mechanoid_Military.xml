@@ -19,7 +19,7 @@
             </lifeStageAges>
         </race>
         <tools>
-            <li>
+            <li Class="CombatExtended.ToolCE">
                 <label>left fist</label>
                 <capacities>
                     <li>Blunt</li>
@@ -28,8 +28,9 @@
                 <cooldownTime>2.0</cooldownTime>
                 <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
                 <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+                <armorPenetrationBlunt>0.3</armorPenetrationBlunt>
             </li>
-            <li>
+            <li Class="CombatExtended.ToolCE">
                 <label>right fist</label>
                 <capacities>
                     <li>Blunt</li>
@@ -38,6 +39,7 @@
                 <cooldownTime>2.0</cooldownTime>
                 <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
                 <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+                <armorPenetrationBlunt>0.3</armorPenetrationBlunt>
             </li>
         </tools>
         <statBases>
@@ -130,7 +132,7 @@
         <label>Shielded Military Mech Unit</label>
         <description>Equipped with a heavy shield and an impact drill, this unit excels at close-range encounters with heavily armored mech targets. Its drill's exceptional destructive power against structures also makes it a frequent choice for demolition operations.</description>
         <tools>
-            <li>
+            <li Class="CombatExtended.ToolCE">
                 <label>Heavy shield</label>
                 <capacities>
                     <li>Blunt</li>
@@ -139,8 +141,9 @@
                 <cooldownTime>2.0</cooldownTime>
                 <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
                 <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+                <armorPenetrationBlunt>0.75</armorPenetrationBlunt>
             </li>
-            <li>
+            <li Class="CombatExtended.ToolCE">
                 <label>Impact drill</label>
                 <capacities>
                     <li>Demolish</li>
@@ -149,6 +152,7 @@
                 <cooldownTime>2.0</cooldownTime>
                 <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
                 <alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+                <armorPenetrationBlunt>1.5</armorPenetrationBlunt>
             </li>
         </tools>
         <race>
