@@ -26,9 +26,19 @@ Fully native to HSK:
 - **~75 clothing/apparel items** use `Wolfein_CompositeFabric` + Cloth instead of generic stuff categories
 - **All structures** use Wolfein racial alloy + components, HSK power tuning
 - **Mech recipes** use racial parts (civilian + military + drones + giant)
-- **Mechs are CE-compatible** (CompPawnGizmo, CompAmmoGiver, MechAmmo, HSK CE mechanoid stat profile)
-- **5 turrets** swapped to `Building_TurretGunCE` for proper CE ammo consumption — sentry rifle (7.62×51 NATO), rapid-fire MG (7.62×39 Soviet), laser, twin autocannon (.50 BMG), and rocket turret (130mm rocket missile, mortar-arc fire)
 - **Auto-routes** to RN benches via HSKRNRouter for matching calibers
+
+#### CE balance pass (mechs, weapons, armor)
+- **All 12 mechs** with proper CE comp stack (`CompPawnGizmo`, `CompAmmoGiver`, `CompProperties_MechAmmo`) and HSK CE armor scale (Drone Sharp 4 → MilitaryC/E Sharp 18)
+- **Mech melee tools** converted to `<li Class="CombatExtended.ToolCE">` with armor-penetration values scaled by mech power tier
+- **Sensor weak-points** added via `PartialArmorExt` so head/sensor shots have reduced armor (CE community pattern)
+- **17 apparel pieces** rebalanced for HSK CE armor scale (PowerArmor Sharp 12-34 → 40-50, GuardPowerArmor Mass 80 → 25)
+- **12 ranged weapon outlier fixes** — HG_HomemadePistol range 12 → 18, ChargeMinigun burst 3 → 20, etc.
+- **5 turrets** swapped to `Building_TurretGunCE` for proper CE ammo consumption — sentry rifle (7.62×51 NATO), rapid-fire MG (7.62×39 Soviet), laser, twin autocannon (.50 BMG), and rocket turret (130mm rocket missile, mortar-arc fire)
+
+#### Faction tuning
+- **MegaCorp raids gated** to mid-late game via `raidCommonalityFromPointsCurve` `(0,0) → (1500,1)` — no early-game megacorp drops
+- **Multi-Legged Firepower Platform disabled** — removed from MegaCorp raid pool, manufacture, resurrect (was overpowered for HSK economy)
 
 ## Installation
 
