@@ -3,7 +3,7 @@
     HSK + Combat Extended patches for VRE Sanguophage.
 
     HSK MATERIAL CONVERSION
-    -----------------------
+    =======================
     Each Sanguophage building's costList is rewritten to match the equivalent
     vanilla-Biotech building's HSK pattern from
     Core_SK/Biotech/Patches/ThingDefs_Buildings/Buildings_Deathrest.xml:
@@ -30,7 +30,7 @@
     Sanguophage equipment).
 
     CE PATCH
-    --------
+    ========
     VRE_SharpTalons hediff — talons tool converted to CombatExtended.ToolCE
     with armorPenetrationSharp 0.65 / armorPenetrationBlunt 2.0, calibrated
     against Saurid claws (Sharp 0.5) — talons are sharper per the lore.
