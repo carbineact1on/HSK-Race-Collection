@@ -32,7 +32,7 @@ Fully native to HSK:
 - **All 12 mechs** with proper CE comp stack (`CompPawnGizmo`, `CompAmmoGiver`, `CompProperties_MechAmmo`) and HSK CE armor scale (Drone Sharp 4 → MilitaryC/E Sharp 18)
 - **Mech melee tools** converted to `<li Class="CombatExtended.ToolCE">` with armor-penetration values scaled by mech power tier
 - **Sensor weak-points** added via `PartialArmorExt` so head/sensor shots have reduced armor (CE community pattern)
-- **17 apparel pieces** rebalanced for HSK CE armor scale (PowerArmor Sharp 12-34 → 40-50, GuardPowerArmor Mass 80 → 25)
+- **91 apparel pieces** fully rescaled to HSK CE armor scale (vanilla CE 0.10-1.00 → HSK CE 1-13 Sharp / 2-33 Blunt) with proper ballistic ratio (Blunt > Sharp). Power armor matches HSK PowerArmor (10/28); top-tier AIPT matches HellPowerArmor (13/33). Includes underwear/civilian/light_uniform/light_shell/combat_shell/flak/power tiers + matching helmets.
 - **12 ranged weapon outlier fixes** — HG_HomemadePistol range 12 → 18, ChargeMinigun burst 3 → 20, etc.
 - **5 turrets** swapped to `Building_TurretGunCE` for proper CE ammo consumption — sentry rifle (7.62×51 NATO), rapid-fire MG (7.62×39 Soviet), laser, twin autocannon (.50 BMG), and rocket turret (130mm rocket missile, mortar-arc fire)
 
