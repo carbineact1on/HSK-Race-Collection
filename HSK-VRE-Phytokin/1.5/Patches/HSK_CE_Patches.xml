@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    HSK + Combat Extended patches for VRE Phytokin.
+
+    Adapted from Pacas Patches Compilation, then re-tuned for HSK CE armor scale.
+
+    BarkSkin (Sharp/Blunt 3.5/3.5 in Pacas's vanilla CE) is bumped to 6/6
+    for HSK CE — sits between bare skin (Saurid scales 4) and Hussar
+    bulletproof skin (8). Bark is mid-tier natural armor — tougher than
+    scales, weaker than organic kevlar.
+
+    CompanionDryad uses Pacas's exact ToolCE values — these are calibrated
+    for vanilla CE animal melee and HSK uses the same CE math underneath
+    for natural weapons. The Ideology DLC gate is preserved.
+-->
+<Patch>
+
+    <!-- ===== BarkSkin gene — natural armor at HSK CE scale ===== -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/GeneDef[defName="VRE_BarkSkin"]/statOffsets</xpath>
+        <value>
+            <statOffsets>
+                <ArmorRating_Sharp>6</ArmorRating_Sharp>
+                <ArmorRating_Blunt>6</ArmorRating_Blunt>
+            </statOffsets>
+        </value>
+    </Operation>
+
+    <!-- ===== CompanionDryad — full CE conversion (Ideology DLC only) ===== -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Ideology</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+
+                <li Class="PatchOperationAddModExtension">
+                    <xpath>Defs/ThingDef[defName="VRE_CompanionDryad"]</xpath>
+                    <value>
+                        <li Class="CombatExtended.RacePropertiesExtensionCE">
+                            <bodyShape>Quadruped</bodyShape>
+                        </li>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="VRE_CompanionDryad"]/statBases</xpath>
+                    <value>
+                        <MeleeDodgeChance>0.20</MeleeDodgeChance>
+                        <MeleeCritChance>0.15</MeleeCritChance>
+                        <MeleeParryChance>0.18</MeleeParryChance>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VRE_CompanionDryad"]/tools</xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>left claw</label>
+                                <capacities>
+                                    <li>Scratch</li>
+                                </capacities>
+                                <power>7</power>
+                                <cooldownTime>1.1</cooldownTime>
+                                <surpriseAttack>
+                                    <extraMeleeDamages>
+                                        <li>
+                                            <def>Stun</def>
+                                            <amount>12</amount>
+                                        </li>
+                                    </extraMeleeDamages>
+                                </surpriseAttack>
+                                <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+                                <armorPenetrationBlunt>0.4</armorPenetrationBlunt>
+                                <armorPenetrationSharp>0.15</armorPenetrationSharp>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>right claw</label>
+                                <capacities>
+                                    <li>Scratch</li>
+                                </capacities>
+                                <power>7</power>
+                                <cooldownTime>1.1</cooldownTime>
+                                <surpriseAttack>
+                                    <extraMeleeDamages>
+                                        <li>
+                                            <def>Stun</def>
+                                            <amount>12</amount>
+                                        </li>
+                                    </extraMeleeDamages>
+                                </surpriseAttack>
+                                <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+                                <armorPenetrationBlunt>0.4</armorPenetrationBlunt>
+                                <armorPenetrationSharp>0.15</armorPenetrationSharp>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <capacities>
+                                    <li>Bite</li>
+                                </capacities>
+                                <power>14</power>
+                                <cooldownTime>1.8</cooldownTime>
+                                <surpriseAttack>
+                                    <extraMeleeDamages>
+                                        <li>
+                                            <def>Stun</def>
+                                            <amount>10</amount>
+                                        </li>
+                                    </extraMeleeDamages>
+                                </surpriseAttack>
+                                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+                                <armorPenetrationBlunt>5.0</armorPenetrationBlunt>
+                                <armorPenetrationSharp>0.5</armorPenetrationSharp>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>head</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>6</power>
+                                <cooldownTime>1.5</cooldownTime>
+                                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                                <chanceFactor>0.2</chanceFactor>
+                                <armorPenetrationBlunt>2.5</armorPenetrationBlunt>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>

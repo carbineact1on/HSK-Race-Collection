@@ -49,6 +49,15 @@ CE patches (adapted from Pacas Patches Compilation, re-tuned for HSK CE scale):
 
 Saurid is content-light (no recipes, no buildings, no costLists, no weapons, no apparel) — most HSK material conversion is moot since there's nothing to convert.
 
+### 🌿 HSK-VRE-Phytokin
+Standalone bundle of **[Vanilla Races Expanded — Phytokin](https://steamcommunity.com/sharedfiles/filedetails/?id=2927323805)** by Oskar Potocki, Sarg Bjornson, Allie, Erin, Sir Van, Reann Shepard. Plant-based xenohumans with bark skin, photosynthesis, and dryad companions.
+
+CE patches (adapted from Pacas Patches Compilation, re-tuned for HSK CE scale):
+- `VRE_BarkSkin` gene — natural bark armor at HSK CE scale (Sharp 6 / Blunt 6, between bare skin and flak; Pacas's vanilla CE 3.5/3.5 was about a third of flak under HSK CE math)
+- `VRE_CompanionDryad` (Ideology DLC only) — full CE conversion: 4 ToolCE entries (left claw, right claw, bite with stun surprise attack, head-blunt) + `CombatExtended.RacePropertiesExtensionCE` for proper Quadruped body shape + melee dodge/crit/parry stats
+
+Phytokin has no recipes, no costLists with raw materials, no weapons, no apparel — just genes, hediffs, abilities, the Saplingchild tree, Polux bush, and SapBlood filth.
+
 ### 🧞 HSK-VRE-Genie
 Standalone bundle of **[Vanilla Races Expanded — Genie](https://steamcommunity.com/sharedfiles/filedetails/?id=2901424072)** by Oskar Potocki and Sarg Bjornson. Genie xenohumans with hemophilia, weak immunity, blue blood, elongated heads, and a strong learning aptitude.
 

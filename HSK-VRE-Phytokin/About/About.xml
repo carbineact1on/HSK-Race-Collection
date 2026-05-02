@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>VRE Phytokin (HSK/CE Patched)</name>
+    <packageId>CarbineAction.HSK.VRE.Phytokin</packageId>
+    <author>Oskar Potocki, Sarg Bjornson, Allie, Erin, Sir Van, Reann Shepard — HSK/CE patch by CarbineAction (CE patches adapted from Pacas Patches Compilation)</author>
+    <modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <description>HSK/CE-patched standalone version of Vanilla Races Expanded — Phytokin, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VRE Phytokin mod content with HSK conventions and Combat Extended patches baked in. Do NOT enable the Steam Workshop version of VRE Phytokin alongside this — they would duplicate each other's defs.
+
+Bundled CE patches (adapted from Pacas Patches Compilation, then re-tuned for HSK CE armor scale):
+- VRE_BarkSkin gene — natural bark armor rescaled to HSK CE values (Sharp 6 / Blunt 6, between bare skin and flak; Pacas's vanilla CE 3.5/3.5 was about a third of flak under HSK CE math)
+- VRE_CompanionDryad (Ideology DLC only) — full CE conversion with 4 ToolCE entries (left claw, right claw, bite with stun, head-blunt) and CombatExtended.RacePropertiesExtensionCE for proper Quadruped body shape; melee dodge/crit/parry stats added — preserves Pacas's calibrated values
+
+Phytokin has no recipes, no costLists with raw materials, no weapons, no apparel. The race ships as genes, hediffs, abilities, the Saplingchild tree (grown not built), Polux bush plant, and SapBlood filth — none need HSK material conversion or CE work beyond the two listed above.
+
+Original mod by Oskar Potocki, Sarg Bjornson, Allie, Erin, Sir Van, Reann Shepard. CE patch baseline by Pacas. HSK/CE conversion + bundling by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC. CompanionDryad CE conversion only fires when Ideology DLC is active.</description>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+            <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+        </li>
+        <li>
+            <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+            <displayName>Vanilla Expanded Framework</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2023507013</steamWorkshopUrl>
+            <downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
+        </li>
+        <li>
+            <packageId>Ludeon.RimWorld.Biotech</packageId>
+            <displayName>RimWorld - Biotech</displayName>
+            <steamWorkshopUrl>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>skyarkhangel.HSK</packageId>
+            <displayName>Hardcore SK</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2424766948</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>CETeam.CombatExtended</packageId>
+            <displayName>Combat Extended</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2890901044</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+        <li>skyarkhangel.HSK</li>
+        <li>CETeam.CombatExtended</li>
+    </loadAfter>
+    <incompatibleWith>
+        <li>vanillaracesexpanded.phytokin</li>
+    </incompatibleWith>
+</ModMetaData>
