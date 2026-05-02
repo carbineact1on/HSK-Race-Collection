@@ -49,6 +49,11 @@ CE patches (adapted from Pacas Patches Compilation, re-tuned for HSK CE scale):
 
 Saurid is content-light (no recipes, no buildings, no costLists, no weapons, no apparel) — most HSK material conversion is moot since there's nothing to convert.
 
+### 💋 HSK-VRE-Highmate
+Standalone bundle of **[Vanilla Races Expanded — Highmate](https://steamcommunity.com/sharedfiles/filedetails/?id=2995385834)** by Oskar Potocki, Taranchuk, Sarg Bjornson. Pleasure-consort xenohumans designed for social/romantic interaction.
+
+Pure social race — no combat, weapons, apparel, recipes, costLists, or items. Just cosmetic/social genes (FelineEars, FelineTail, PerfectBody, Libido, LovinDependency), traits (Flirty, Distressed, Harmless, Lowmate), the InitiateLovin ability, and the LovinDependency hediff. Nothing needs HSK or CE patching.
+
 ### 🎨 HSK-VRE-CustomIcons
 Standalone bundle of **[Vanilla Races Expanded — Custom Icons](https://steamcommunity.com/sharedfiles/filedetails/?id=2917311689)** by Oskar Potocki and Sarg Bjornson. Adds extra icon options for the Biotech custom xenotype creator (Animal Heads, Biological, Body, Class, Combat, Cosmetic, Dragon, Elemental, Faction, Letters, Monster, Nature, Numbers, Robot, Saurid, Symbols).
 
