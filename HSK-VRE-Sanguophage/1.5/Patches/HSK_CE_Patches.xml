@@ -298,4 +298,13 @@
         </value>
     </Operation>
 
+    <!-- Strip inherited constructEffect on stuff-converted buildings
+         (madeFromStuff + constructEffect = config error) -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VRE_HemogenVat"]/constructEffect</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VRE_Draincasket"]/constructEffect</xpath>
+    </Operation>
+
 </Patch>

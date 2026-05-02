@@ -473,4 +473,10 @@
         </value>
     </Operation>
 
+    <!-- Strip inherited constructEffect on the stuff-converted tank
+         (madeFromStuff + constructEffect = config error) -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VREA_NeutroTank"]/constructEffect</xpath>
+    </Operation>
+
 </Patch>
