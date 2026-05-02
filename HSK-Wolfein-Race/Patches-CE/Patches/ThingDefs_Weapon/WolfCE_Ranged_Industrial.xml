@@ -34,7 +34,6 @@
 		</FireModes>
 		<weaponTags>
 		</weaponTags>
-		<researchPrerequisite>Gunsmithing</researchPrerequisite>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
@@ -320,7 +319,6 @@
 		</FireModes>
 		<weaponTags>
 		</weaponTags>
-		<researchPrerequisite>Gunsmithing</researchPrerequisite>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
@@ -383,7 +381,6 @@
 		</FireModes>
 		<weaponTags>
 		</weaponTags>
-		<researchPrerequisite>Gunsmithing</researchPrerequisite>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
@@ -448,7 +445,6 @@
 		</FireModes>
 		<weaponTags>
 		</weaponTags>
-		<researchPrerequisite>Gunsmithing</researchPrerequisite>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
@@ -2022,11 +2018,6 @@
 			<SwayFactor>1.42</SwayFactor>
 			<Bulk>10.05</Bulk>
 		</statBases>
-		<costList>
-			<Steel>80</Steel>
-			<ComponentIndustrial>2</ComponentIndustrial>
-			<WoodLog>20</WoodLog>
-		</costList>
 		<Properties>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
@@ -2082,11 +2073,6 @@
 			<SwayFactor>1.42</SwayFactor>
 			<Bulk>10.05</Bulk>
 		</statBases>
-		<costList>
-			<Steel>80</Steel>
-			<ComponentIndustrial>2</ComponentIndustrial>
-			<WoodLog>20</WoodLog>
-		</costList>
 		<Properties>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
