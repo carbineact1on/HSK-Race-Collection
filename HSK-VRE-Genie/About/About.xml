@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>VRE Genie (HSK/CE Patched)</name>
+    <packageId>CarbineAction.HSK.VRE.Genie</packageId>
+    <author>Oskar Potocki, Sarg Bjornson — HSK/CE patch by CarbineAction (antibiotics redirect adapted from Pacas Patches Compilation)</author>
+    <modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <description>HSK/CE-patched standalone version of Vanilla Races Expanded — Genie, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VRE Genie mod content with HSK conventions baked in. Do NOT enable the Steam Workshop version of VRE Genie alongside this — they would duplicate each other's defs.
+
+HSK integration (adapted from Pacas Patches Compilation):
+- Removes the standalone VRE_Antibiotics drug item, ChemicalDef, NeedDef, Tolerance, and Addiction hediffs — these don't fit HSK's medical economy where MedicalDrink already serves the antibiotic role
+- Removes AddictionResistant_VRE_Antibiotics gene from the Genie xenotype (no longer needed since the drug is gone)
+- Patches HSK's MedicalDrink (Items_Meals_Medical.xml from Core_SK) to grant the VRE_AntibioticsHigh hediff via VanillaRacesExpandedGenies.IngestionOutcomeDoer_GiveHediff_Discriminating, so Genies drinking medicinal alcohol still get their immunity boost
+- Keeps the four high-tier antibiotics hediffs (VRE_AntibioticsHigh and the three weaker variants) so the discriminating outcome doer still has targets
+
+Genie has no CE-relevant content (no recipes with raw materials, no buildings, no weapons, no apparel, no tools/verbs). All 16+ Genie genes are pure stat factors — Curiosity, Hemophiliac, BlueBlood, ElongatedHead, AptitudePhenomenal, Immunity, Slow_Diseases, WoundHealing — none need armor or CE patches.
+
+Original mod by Oskar Potocki and Sarg Bjornson. HSK antibiotics redirect by Pacas. Bundling and HSK integration by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.</description>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+            <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+        </li>
+        <li>
+            <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+            <displayName>Vanilla Expanded Framework</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2023507013</steamWorkshopUrl>
+            <downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
+        </li>
+        <li>
+            <packageId>Ludeon.RimWorld.Biotech</packageId>
+            <displayName>RimWorld - Biotech</displayName>
+            <steamWorkshopUrl>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>skyarkhangel.HSK</packageId>
+            <displayName>Hardcore SK</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2424766948</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>CETeam.CombatExtended</packageId>
+            <displayName>Combat Extended</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2890901044</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+        <li>skyarkhangel.HSK</li>
+        <li>CETeam.CombatExtended</li>
+    </loadAfter>
+    <incompatibleWith>
+        <li>vanillaracesexpanded.genie</li>
+    </incompatibleWith>
+</ModMetaData>

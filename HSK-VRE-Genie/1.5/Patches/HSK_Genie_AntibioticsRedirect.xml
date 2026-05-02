@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    HSK integration for VRE Genie — antibiotics redirect.
+
+    Adapted from Pacas Patches Compilation. Repurposes the Genie antibiotic
+    mechanic to use HSK's existing MedicalDrink instead of a standalone
+    VRE_Antibiotics drug item.
+
+    Why: HSK's medical economy already has MedicalDrink (defined in
+    Core_SK/Defs/ThingDefs_Meals/Items_Meals_Medical.xml) which serves as
+    the medicinal alcohol / antibiotic. Adding a separate VRE_Antibiotics
+    item duplicates the gameplay role and confuses the medical workflow.
+
+    The VRE_AntibioticsHigh hediff family is preserved because the
+    discriminating outcome doer needs them as targets — but the standalone
+    drug, ChemicalDef, NeedDef, Tolerance, and Addiction are removed.
+
+    Genies will still get their immunity boost — they just drink MedicalDrink
+    (which they would do anyway in HSK) instead of needing a special pill.
+
+    Note: VRE_AntibioticsHigh / NoImmunity / VeryWeak / Weak hediffs are
+    intentionally KEPT (Pacas commented out the removes for these) — the
+    discriminating outcome doer maps Genies to the appropriate variant based
+    on their immunity gene.
+-->
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+
+            <!-- Remove the standalone VRE_Antibiotics drug item -->
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[defName="VRE_Antibiotics"]</xpath>
+            </li>
+
+            <!-- Remove the chemical def (so it doesn't show in the chemicals list) -->
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ChemicalDef[defName="VRE_Antibiotics"]</xpath>
+            </li>
+
+            <!-- Remove the chemical-need def (no need bar) -->
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/NeedDef[defName="VRE_Chemical_Antibiotics"]</xpath>
+            </li>
+
+            <!-- Remove tolerance + addiction hediffs (the drug doesn't exist anymore) -->
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/HediffDef[defName="VRE_AntibioticsTolerance"]</xpath>
+            </li>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/HediffDef[defName="VRE_AntibioticsAddiction"]</xpath>
+            </li>
+
+            <!-- Remove the resistance gene reference from the Genie xenotype -->
+            <li Class="PatchOperationRemove">
+                <success>Always</success>
+                <xpath>Defs/XenotypeDef[defName="Genie"]/genes/li[text()="AddictionResistant_VRE_Antibiotics"]</xpath>
+            </li>
+
+            <!-- Patch HSK MedicalDrink to grant the antibiotics hediff via the discriminating outcome doer -->
+            <li Class="PatchOperationAdd">
+                <xpath>Defs/ThingDef[defName="MedicalDrink"]/ingestible/outcomeDoers</xpath>
+                <value>
+                    <li Class="VanillaRacesExpandedGenies.IngestionOutcomeDoer_GiveHediff_Discriminating">
+                        <hediffDef>VRE_AntibioticsHigh</hediffDef>
+                        <firstAlternateHediffDef>VRE_AntibioticsHigh_NoImmunity</firstAlternateHediffDef>
+                        <secondAlternateHediffDef>VRE_AntibioticsHigh_VeryWeak</secondAlternateHediffDef>
+                        <thirdAlternateHediffDef>VRE_AntibioticsHigh_Weak</thirdAlternateHediffDef>
+                        <severity>1.0</severity>
+                    </li>
+                </value>
+            </li>
+
+        </operations>
+    </Operation>
+</Patch>

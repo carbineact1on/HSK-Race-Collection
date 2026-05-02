@@ -49,6 +49,17 @@ CE patches (adapted from Pacas Patches Compilation, re-tuned for HSK CE scale):
 
 Saurid is content-light (no recipes, no buildings, no costLists, no weapons, no apparel) — most HSK material conversion is moot since there's nothing to convert.
 
+### 🧞 HSK-VRE-Genie
+Standalone bundle of **[Vanilla Races Expanded — Genie](https://steamcommunity.com/sharedfiles/filedetails/?id=2901424072)** by Oskar Potocki and Sarg Bjornson. Genie xenohumans with hemophilia, weak immunity, blue blood, elongated heads, and a strong learning aptitude.
+
+HSK integration (adapted from Pacas Patches Compilation):
+- Removes the standalone `VRE_Antibiotics` drug item, ChemicalDef, NeedDef, Tolerance, and Addiction hediffs — duplicate of HSK's `MedicalDrink` role
+- Removes `AddictionResistant_VRE_Antibiotics` gene from the Genie xenotype (drug no longer exists)
+- Patches HSK's `MedicalDrink` to grant `VRE_AntibioticsHigh` via the `IngestionOutcomeDoer_GiveHediff_Discriminating` — Genies still get the immunity boost, just from drinking medicinal alcohol they'd consume anyway in HSK
+- Keeps the four high-tier antibiotics hediffs (the discriminating doer needs them as targets)
+
+Genie has no CE-relevant content (no recipes, buildings, weapons, apparel, tools, or armor offsets) — all 16+ Genie genes are pure stat factors.
+
 ### 🪖 HSK-VRE-Hussar
 Standalone bundle of **[Vanilla Races Expanded — Hussar](https://steamcommunity.com/sharedfiles/filedetails/?id=2893586390)** by Oskar Potocki, xrushha, Taranchuk, Sarg Bjornson. Hussar super-soldier xenohumans with bulletproof skin, weapon-aptitude genes, and luciferium dependency.
 
