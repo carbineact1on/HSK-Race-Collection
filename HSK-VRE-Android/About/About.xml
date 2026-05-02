@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>VRE Android (HSK Patched)</name>
+    <packageId>CarbineAction.HSK.VRE.Android</packageId>
+    <author>Oskar Potocki, Taranchuk, ISOREX, Sarg Bjornson — HSK patch by CarbineAction</author>
+    <modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <description>HSK-patched standalone version of Vanilla Races Expanded — Android, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VRE Android mod content with HSK conventions baked in. Do NOT enable the Steam Workshop version of VRE Android alongside this — they would duplicate each other's defs.
+
+HSK building rewrites (6 production/utility buildings):
+- All 6 buildings switched from fixed Steel/Gold to stuffCategories Metallic + costStuffCount (HSK convention — build from any metal)
+- Added the HSK class component pipeline (ElectronicComponents, Mechanism, Electronics, Microchips) per building tier:
+  * VREA_AndroidStand — small storage furniture (minimal: stuff 50 + CompInd 1)
+  * VREA_AndroidPartWorkbench — industrial fabrication (CompInd 8 + ElecComp 2 + Mech 2 + Electronics 2)
+  * VREA_SubcorePolyanalyzer — ultratech analyzer (Plasteel 150 + CompSpacer 3 + ElecComp 2 + Microchips 2)
+  * VREA_AndroidCreationStation — high-tech assembler (CompInd 6 + CompSpacer 6 + ElecComp 3 + Microchips 3)
+  * VREA_AndroidBehavioristStation — software/programming bench (CompInd 4 + CompSpacer 4 + GoldBar 20 + ElecComp 2 + Microchips 2)
+  * VREA_NeutroCasket — neutroamine storage (CompInd 3 + ElecComp 1 + Mech 1)
+
+HSK material conversion on android body parts (15 craftable items, 3 needed swaps):
+- VREA_MetabolismRegulator: Gold 1 → GoldBar 1
+- VREA_ArtificialSpine: Gold 1 → GoldBar 1
+- VREA_Reactor: Uranium 20 → DepletedUranium 20
+- 12 other body parts already used HSK-native Plasteel + ComponentSpacer/Industrial — no changes needed
+
+No CE work needed — androids do not have natural melee weapons (their capability comes from installed bionic-class artificial body parts which are stat hediffs, not Verb-givers).
+
+Original mod by Oskar Potocki, Taranchuk, ISOREX, Sarg Bjornson. HSK patches and bundling by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC. Ideology DLC patches load conditionally.</description>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+            <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+        </li>
+        <li>
+            <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+            <displayName>Vanilla Expanded Framework</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2023507013</steamWorkshopUrl>
+            <downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
+        </li>
+        <li>
+            <packageId>Ludeon.RimWorld.Biotech</packageId>
+            <displayName>RimWorld - Biotech</displayName>
+            <steamWorkshopUrl>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>skyarkhangel.HSK</packageId>
+            <displayName>Hardcore SK</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2424766948</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>CETeam.CombatExtended</packageId>
+            <displayName>Combat Extended</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2890901044</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+        <li>skyarkhangel.HSK</li>
+        <li>CETeam.CombatExtended</li>
+    </loadAfter>
+    <incompatibleWith>
+        <li>vanillaracesexpanded.android</li>
+    </incompatibleWith>
+</ModMetaData>

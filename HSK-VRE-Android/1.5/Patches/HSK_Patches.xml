@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    HSK patches for VRE Android.
+
+    Two categories:
+
+    1. BUILDINGS — Switch from fixed Steel/Gold to stuffCategories Metallic +
+       costStuffCount, and add the HSK class component pipeline (ElecComp,
+       Mechanism, Electronics, Microchips) to match HSK Biotech convention
+       on technologically advanced buildings. Keep Plasteel + ComponentSpacer
+       + ComponentIndustrial as-is (already HSK-native).
+
+       Tier mapping:
+         AndroidStand              — small storage furniture (minimal)
+         AndroidPartWorkbench      — industrial fabrication bench
+         SubcorePolyanalyzer       — ultratech analyzer (Plasteel + CompSpacer)
+         AndroidCreationStation    — high-tech android assembler
+         AndroidBehavioristStation — software/programming bench (GoldBar)
+         NeutroCasket              — neutroamine storage casket
+
+    2. BODY PARTS — Most android body part ThingDefs already use
+       Plasteel + ComponentSpacer (HSK-native). 3 items reference raw
+       Gold/Uranium ores instead of refined HSK alloys:
+
+         VREA_MetabolismRegulator: Gold 1   → GoldBar 1
+         VREA_ArtificialSpine:     Gold 1   → GoldBar 1
+         VREA_Reactor:             Uranium 20 → DepletedUranium 20
+
+    No CE work needed — androids do not have natural melee weapons; their
+    capability comes from installed bionic-class artificial body parts which
+    are stat hediffs, not Verb-givers.
+-->
+<Patch>
+
+    <!-- ============================================================ -->
+    <!--  BUILDINGS — full HSK pattern conversion                     -->
+    <!-- ============================================================ -->
+
+    <!-- VREA_AndroidStand (1x1 small storage furniture) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_AndroidStand"]/costList</xpath>
+        <value>
+            <stuffCategories>
+                <li>Metallic</li>
+            </stuffCategories>
+            <costStuffCount>50</costStuffCount>
+            <costList>
+                <ComponentIndustrial>1</ComponentIndustrial>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VREA_AndroidPartWorkbench (industrial fabrication bench) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_AndroidPartWorkbench"]/costList</xpath>
+        <value>
+            <stuffCategories>
+                <li>Metallic</li>
+            </stuffCategories>
+            <costStuffCount>220</costStuffCount>
+            <costList>
+                <ComponentIndustrial>8</ComponentIndustrial>
+                <ElectronicComponents>2</ElectronicComponents>
+                <Mechanism>2</Mechanism>
+                <Electronics>2</Electronics>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VREA_SubcorePolyanalyzer (ultratech analyzer) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_SubcorePolyanalyzer"]/costList</xpath>
+        <value>
+            <stuffCategories>
+                <li>Metallic</li>
+            </stuffCategories>
+            <costStuffCount>200</costStuffCount>
+            <costList>
+                <Plasteel>150</Plasteel>
+                <ComponentSpacer>3</ComponentSpacer>
+                <ElectronicComponents>2</ElectronicComponents>
+                <Microchips>2</Microchips>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VREA_AndroidCreationStation (high-tech android assembler) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_AndroidCreationStation"]/costList</xpath>
+        <value>
+            <stuffCategories>
+                <li>Metallic</li>
+            </stuffCategories>
+            <costStuffCount>360</costStuffCount>
+            <costList>
+                <ComponentIndustrial>6</ComponentIndustrial>
+                <ComponentSpacer>6</ComponentSpacer>
+                <ElectronicComponents>3</ElectronicComponents>
+                <Microchips>3</Microchips>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VREA_AndroidBehavioristStation (software/programming bench) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_AndroidBehavioristStation"]/costList</xpath>
+        <value>
+            <stuffCategories>
+                <li>Metallic</li>
+            </stuffCategories>
+            <costStuffCount>160</costStuffCount>
+            <costList>
+                <ComponentIndustrial>4</ComponentIndustrial>
+                <ComponentSpacer>4</ComponentSpacer>
+                <GoldBar>20</GoldBar>
+                <ElectronicComponents>2</ElectronicComponents>
+                <Microchips>2</Microchips>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VREA_NeutroCasket (ultratech storage casket) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_NeutroCasket"]/costList</xpath>
+        <value>
+            <stuffCategories>
+                <li>Metallic</li>
+            </stuffCategories>
+            <costStuffCount>180</costStuffCount>
+            <costList>
+                <ComponentIndustrial>3</ComponentIndustrial>
+                <ElectronicComponents>1</ElectronicComponents>
+                <Mechanism>1</Mechanism>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- ============================================================ -->
+    <!--  ANDROID BODY PARTS — Gold → GoldBar, Uranium → DepletedUranium -->
+    <!-- ============================================================ -->
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_MetabolismRegulator"]/costList/Gold</xpath>
+        <value><GoldBar>1</GoldBar></value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_ArtificialSpine"]/costList/Gold</xpath>
+        <value><GoldBar>1</GoldBar></value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_Reactor"]/costList/Uranium</xpath>
+        <value><DepletedUranium>20</DepletedUranium></value>
+    </Operation>
+
+</Patch>

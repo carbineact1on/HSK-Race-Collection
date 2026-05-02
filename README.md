@@ -49,6 +49,22 @@ CE patches (adapted from Pacas Patches Compilation, re-tuned for HSK CE scale):
 
 Saurid is content-light (no recipes, no buildings, no costLists, no weapons, no apparel) — most HSK material conversion is moot since there's nothing to convert.
 
+### 🤖 HSK-VRE-Android
+Standalone bundle of **[Vanilla Races Expanded — Android](https://steamcommunity.com/sharedfiles/filedetails/?id=2975771801)** by Oskar Potocki, Taranchuk, ISOREX, Sarg Bjornson. Synthetic xenohumans assembled from artificial body parts.
+
+HSK building rewrites (6 production/utility buildings, full HSK pattern):
+- Switched from fixed Steel/Gold to `stuffCategories Metallic + costStuffCount`
+- Added HSK class components (`ElectronicComponents`, `Mechanism`, `Electronics`, `Microchips`) per building tier
+- AndroidStand (minimal), AndroidPartWorkbench (industrial), SubcorePolyanalyzer (ultratech analyzer), AndroidCreationStation (high-tech assembler), AndroidBehavioristStation (software bench, GoldBar 20), NeutroCasket (storage)
+
+HSK material on body parts (15 craftable items, 3 needed swaps):
+- `VREA_MetabolismRegulator`: Gold 1 → GoldBar 1
+- `VREA_ArtificialSpine`: Gold 1 → GoldBar 1
+- `VREA_Reactor`: Uranium 20 → DepletedUranium 20
+- 12 other body parts already used HSK-native Plasteel + ComponentSpacer/Industrial
+
+No CE work — androids have no natural melee weapons (capability comes from stat-hediff bionic body parts, not Verb-givers).
+
 ### 🪲 HSK-VRE-Insector
 Standalone bundle of **[Vanilla Races Expanded — Insector](https://steamcommunity.com/sharedfiles/filedetails/?id=3260509684)** by Oskar Potocki, Taranchuk, Sarg Bjornson. Insectoid xenohumans with mandibles, horns, ripper-blades, chitinous armor, and metamorphosis (metapod).
 
