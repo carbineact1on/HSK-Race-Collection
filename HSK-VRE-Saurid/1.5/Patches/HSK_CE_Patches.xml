@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    HSK + Combat Extended patches for VRE Saurid.
+
+    Adapted from Pacas Patches Compilation (the only existing community CE
+    patch for Saurid), then re-tuned for HSK CE armor scale.
+
+    HSK CE uses ~10x higher armor numbers than vanilla CE:
+      vanilla parka  = Sharp 5
+      flak jacket    = Sharp 12
+      marine armor   = Sharp 24
+
+    Pacas's vanilla CE values for the ScaleSkin gene (Sharp 1.0 / Blunt 1.0)
+    are functionally invisible at HSK CE scale, so we bump them to Sharp 4 /
+    Blunt 4 — meaningful natural armor that sits between bare skin and a
+    light flak jacket. Still a free-respect gene that doesn't outclass real
+    armor.
+
+    Saurid Claws hediff converted to CombatExtended.ToolCE so the natural
+    melee weapon participates in CE's armor-penetration math.
+-->
+<Patch>
+
+    <!-- ===== ScaleSkin gene — natural armor at HSK CE scale ===== -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/GeneDef[defName="VRESaurids_ScaleSkin"]/statOffsets</xpath>
+        <value>
+            <statOffsets>
+                <ArmorRating_Sharp>4</ArmorRating_Sharp>
+                <ArmorRating_Blunt>4</ArmorRating_Blunt>
+            </statOffsets>
+        </value>
+    </Operation>
+
+    <!-- ===== Saurid Claws hediff — convert to CE ToolCE ===== -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/HediffDef[defName="VRESaurids_SauridClaws"]/comps/li[@Class="HediffCompProperties_VerbGiver"]/tools</xpath>
+        <value>
+            <tools>
+                <li Class="CombatExtended.ToolCE">
+                    <label>claws</label>
+                    <capacities>
+                        <li>Cut</li>
+                    </capacities>
+                    <power>10</power>
+                    <cooldownTime>1.5</cooldownTime>
+                    <armorPenetrationSharp>0.5</armorPenetrationSharp>
+                    <armorPenetrationBlunt>2</armorPenetrationBlunt>
+                </li>
+            </tools>
+        </value>
+    </Operation>
+
+</Patch>

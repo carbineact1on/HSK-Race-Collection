@@ -40,6 +40,15 @@ Fully native to HSK:
 - **MegaCorp raids gated** to mid-late game via `raidCommonalityFromPointsCurve` `(0,0) → (1500,1)` — no early-game megacorp drops
 - **Multi-Legged Firepower Platform disabled** — removed from MegaCorp raid pool, manufacture, resurrect (was overpowered for HSK economy)
 
+### 🦎 HSK-VRE-Saurid
+Standalone bundle of **[Vanilla Races Expanded — Saurid](https://steamcommunity.com/sharedfiles/filedetails/?id=2880990495)** by Oskar Potocki and Neronix17. Lizard-like xenohuman race with scale skin, claws, and oviparous reproduction.
+
+CE patches (adapted from Pacas Patches Compilation, re-tuned for HSK CE scale):
+- `VRESaurids_ScaleSkin` gene — natural armor at HSK CE scale (Sharp 4 / Blunt 4, between bare skin and light flak; Pacas's vanilla CE 1.0/1.0 was functionally invisible under HSK CE math)
+- `VRESaurids_SauridClaws` hediff — claws verb converted to `CombatExtended.ToolCE` with proper Sharp/Blunt armor penetration
+
+Saurid is content-light (no recipes, no buildings, no costLists, no weapons, no apparel) — most HSK material conversion is moot since there's nothing to convert.
+
 ## Installation
 
 1. Clone or download this repo

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>VRE Saurid (HSK/CE Patched)</name>
+    <packageId>CarbineAction.HSK.VRE.Saurid</packageId>
+    <author>Oskar Potocki, Neronix17 — HSK/CE patch by CarbineAction (CE patches adapted from Pacas Patches Compilation)</author>
+    <modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <description>HSK/CE-patched standalone version of Vanilla Races Expanded — Saurid, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VRE Saurid mod content with HSK conventions and Combat Extended patches baked in. Do NOT enable the Steam Workshop version of VRE Saurid alongside this — they would duplicate each other's defs.
+
+Bundled CE patches (adapted from Pacas Patches Compilation, then re-tuned for HSK CE armor scale):
+- VRESaurids_ScaleSkin gene — natural scale armor rescaled to HSK CE values (Sharp 4 / Blunt 4, between bare skin and light flak; Pacas's vanilla CE values of 1.0/1.0 were functionally useless under HSK CE math)
+- VRESaurids_SauridClaws hediff — claws verb converted to CombatExtended.ToolCE with proper Sharp/Blunt armor penetration
+
+Saurid is a content-light race (no recipes, no buildings, no costLists, no weapons, no apparel). All HSK material conventions are preserved by default since there's nothing to convert.
+
+Original mod by Oskar Potocki and Neronix17. CE patch baseline by Pacas. HSK/CE conversion + bundling by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.</description>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+            <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+        </li>
+        <li>
+            <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+            <displayName>Vanilla Expanded Framework</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2023507013</steamWorkshopUrl>
+            <downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
+        </li>
+        <li>
+            <packageId>Ludeon.RimWorld.Biotech</packageId>
+            <displayName>RimWorld - Biotech</displayName>
+            <steamWorkshopUrl>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>skyarkhangel.HSK</packageId>
+            <displayName>Hardcore SK</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2424766948</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>CETeam.CombatExtended</packageId>
+            <displayName>Combat Extended</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2890901044</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+        <li>skyarkhangel.HSK</li>
+        <li>CETeam.CombatExtended</li>
+    </loadAfter>
+    <incompatibleWith>
+        <li>vanillaracesexpanded.saurid</li>
+    </incompatibleWith>
+</ModMetaData>
