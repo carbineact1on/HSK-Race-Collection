@@ -58,7 +58,6 @@
     <!-- 普通战斗服 -->
     <ThingDef Name="Wolfein_ShellBase_CombatI" ParentName="Wolfein_ShellBase" Abstract="True">
         <recipeMaker>
-            <researchPrerequisite>Wolfein_Apparel_CombatI</researchPrerequisite>
         </recipeMaker>
         <techLevel>Industrial</techLevel>
         <tradeTags>
@@ -69,7 +68,6 @@
     <!-- 进阶战斗服 -->
     <ThingDef Name="Wolfein_ShellBase_CombatII" ParentName="Wolfein_ShellBase" Abstract="True">
         <recipeMaker>
-            <researchPrerequisite>Wolfein_Apparel_CombatII</researchPrerequisite>
         </recipeMaker>
         <techLevel>Industrial</techLevel>
         <tradeTags>
@@ -91,7 +89,6 @@
     <!-- AIPT -->
     <ThingDef Name="Wolfein_ShellBase_AIPT" ParentName="Wolfein_ShellBase" Abstract="True">
         <recipeMaker>
-            <researchPrerequisite>Wolfein_Apparel_AIPT</researchPrerequisite>
         </recipeMaker>
         <techLevel>Industrial</techLevel>
         <tradeTags>
@@ -102,7 +99,6 @@
     <!-- 机械师 -->
     <ThingDef Name="Wolfein_ShellBase_Mechanitor" ParentName="Wolfein_ShellBase" Abstract="True">
         <recipeMaker>
-            <researchPrerequisite>Wolfein_Apparel_Mechanitor</researchPrerequisite>
         </recipeMaker>
         <techLevel>Industrial</techLevel>
         <tradeTags>
@@ -113,7 +109,6 @@
     <!-- 前世代 -->
     <ThingDef Name="Wolfein_ShellBase_CombatIII" ParentName="Wolfein_ShellBase" Abstract="True">
         <recipeMaker>
-            <researchPrerequisite>Wolfein_Apparel_CombatIII</researchPrerequisite>
             <recipeUsers Inherit="false">
                 <li>Wolfein_ReverseResearchBench</li>
             </recipeUsers>
@@ -293,7 +288,10 @@
         </graphicData>
         <recipeMaker>
             <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
-          </recipeMaker>
+            <researchPrerequisites>
+                <li>Wolfein_Apparel_CombatI</li>
+            </researchPrerequisites>
+        </recipeMaker>
         <statBases>
             <MaxHitPoints>300</MaxHitPoints>
             <WorkToMake>18000</WorkToMake>
@@ -356,7 +354,10 @@
         </graphicData>
         <recipeMaker>
             <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
-          </recipeMaker>
+            <researchPrerequisites>
+                <li>Wolfein_Apparel_CombatI</li>
+            </researchPrerequisites>
+        </recipeMaker>
         <statBases>
             <MaxHitPoints>300</MaxHitPoints>
             <WorkToMake>16000</WorkToMake>
@@ -417,7 +418,10 @@
         </graphicData>
         <recipeMaker>
             <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
-          </recipeMaker>
+            <researchPrerequisites>
+                <li>Wolfein_Apparel_CombatI</li>
+            </researchPrerequisites>
+        </recipeMaker>
         <statBases>
             <MaxHitPoints>280</MaxHitPoints>
             <WorkToMake>20000</WorkToMake>
@@ -478,7 +482,10 @@
         </graphicData>
         <recipeMaker>
             <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
-          </recipeMaker>
+            <researchPrerequisites>
+                <li>Wolfein_Apparel_CombatI</li>
+            </researchPrerequisites>
+        </recipeMaker>
         <statBases>
             <MaxHitPoints>280</MaxHitPoints>
             <WorkToMake>20000</WorkToMake>
@@ -536,7 +543,10 @@
         </graphicData>
         <recipeMaker>
             <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
-          </recipeMaker>
+            <researchPrerequisites>
+                <li>Wolfein_Apparel_CombatI</li>
+            </researchPrerequisites>
+        </recipeMaker>
         <statBases>
             <MaxHitPoints>280</MaxHitPoints>
             <WorkToMake>17000</WorkToMake>
@@ -596,7 +606,10 @@
         </graphicData>
         <recipeMaker>
             <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
-          </recipeMaker>
+            <researchPrerequisites>
+                <li>Wolfein_Apparel_CombatI</li>
+            </researchPrerequisites>
+        </recipeMaker>
         <statBases>
             <MaxHitPoints>320</MaxHitPoints>
             <WorkToMake>20000</WorkToMake>
@@ -663,7 +676,10 @@
         </graphicData>
         <recipeMaker>
             <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
-          </recipeMaker>
+            <researchPrerequisites>
+                <li>Wolfein_Apparel_CombatI</li>
+            </researchPrerequisites>
+        </recipeMaker>
         <statBases>
             <MaxHitPoints>300</MaxHitPoints>
             <WorkToMake>18000</WorkToMake>
@@ -728,7 +744,10 @@
         </graphicData>
         <recipeMaker>
             <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
-          </recipeMaker>
+            <researchPrerequisites>
+                <li>Wolfein_Apparel_CombatII</li>
+            </researchPrerequisites>
+        </recipeMaker>
         <statBases>
             <MaxHitPoints>250</MaxHitPoints>
             <WorkToMake>25000</WorkToMake>
@@ -793,7 +812,10 @@
         </graphicData>
         <recipeMaker>
             <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
-          </recipeMaker>
+            <researchPrerequisites>
+                <li>Wolfein_Apparel_CombatII</li>
+            </researchPrerequisites>
+        </recipeMaker>
         <statBases>
             <MaxHitPoints>300</MaxHitPoints>
             <WorkToMake>22000</WorkToMake>
@@ -854,7 +876,10 @@
         </graphicData>
         <recipeMaker>
             <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
-          </recipeMaker>
+            <researchPrerequisites>
+                <li>Wolfein_Apparel_CombatI</li>
+            </researchPrerequisites>
+        </recipeMaker>
         <statBases>
             <MaxHitPoints>250</MaxHitPoints>
             <WorkToMake>12500</WorkToMake>
@@ -925,6 +950,7 @@
                 <li>ElectricTailoringBench</li>
             </recipeUsers>
             <researchPrerequisites>
+                <li>Wolfein_Apparel_CombatI</li>
                 <li>Wolfein_Industrial_production</li>
             </researchPrerequisites>
         </recipeMaker>
@@ -1010,6 +1036,7 @@
                 <li>ElectricTailoringBench</li>
             </recipeUsers>
             <researchPrerequisites>
+                <li>Wolfein_Apparel_CombatII</li>
                 <li>Wolfein_Industrial_production</li>
             </researchPrerequisites>
         </recipeMaker>
@@ -1087,6 +1114,7 @@
                 <li>ElectricTailoringBench</li>
             </recipeUsers>
             <researchPrerequisites>
+                <li>Wolfein_Apparel_CombatI</li>
                 <li>Wolfein_Industrial_production</li>
             </researchPrerequisites>
         </recipeMaker>
@@ -1170,6 +1198,7 @@
                 <li>ElectricTailoringBench</li>
             </recipeUsers>
             <researchPrerequisites>
+                <li>Wolfein_Apparel_CombatI</li>
                 <li>Wolfein_Industrial_production</li>
             </researchPrerequisites>
         </recipeMaker>
@@ -1324,6 +1353,7 @@
                 <li>ElectricTailoringBench</li>
             </recipeUsers>
             <researchPrerequisites>
+                <li>Wolfein_Apparel_CombatII</li>
                 <li>Wolfein_Industrial_production</li>
             </researchPrerequisites>
         </recipeMaker>
@@ -1410,6 +1440,7 @@
                 <li>ElectricTailoringBench</li>
             </recipeUsers>
             <researchPrerequisites>
+                <li>Wolfein_Apparel_CombatII</li>
                 <li>Wolfein_Industrial_production</li>
             </researchPrerequisites>
         </recipeMaker>
@@ -1495,6 +1526,7 @@
         <recipeMaker>
             <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
             <researchPrerequisites>
+                <li>Wolfein_Apparel_CombatIII</li>
                 <li>Wolfein_Industrial_production</li>
             </researchPrerequisites>
         </recipeMaker>
@@ -1580,6 +1612,7 @@
         <recipeMaker>
             <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
             <researchPrerequisites>
+                <li>Wolfein_Apparel_CombatIII</li>
                 <li>Wolfein_Industrial_production</li>
             </researchPrerequisites>
         </recipeMaker>
@@ -1666,6 +1699,7 @@
                 <li>ElectricTailoringBench</li>
             </recipeUsers>
             <researchPrerequisites>
+                <li>Wolfein_Apparel_CombatII</li>
                 <li>Wolfein_Industrial_production</li>
             </researchPrerequisites>
         </recipeMaker>
@@ -1741,7 +1775,10 @@
         </graphicData>
         <recipeMaker>
             <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
-          </recipeMaker>
+            <researchPrerequisites>
+                <li>Wolfein_Apparel_AIPT</li>
+            </researchPrerequisites>
+        </recipeMaker>
         <statBases>
             <MaxHitPoints>280</MaxHitPoints>
             <WorkToMake>20000</WorkToMake>
@@ -1815,6 +1852,7 @@
                 <li>ElectricTailoringBench</li>
             </recipeUsers>
             <researchPrerequisites>
+                <li>Wolfein_Apparel_AIPT</li>
                 <li>Wolfein_Industrial_production</li>
             </researchPrerequisites>
         </recipeMaker>

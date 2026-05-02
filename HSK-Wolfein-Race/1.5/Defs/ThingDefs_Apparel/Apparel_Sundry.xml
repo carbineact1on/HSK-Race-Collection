@@ -106,7 +106,6 @@
     <!-- 机械师 -->
     <ThingDef Name="Wolfein_SundryBase_Mechanitor" ParentName="Wolfein_SundryBase" Abstract="True">
         <recipeMaker>
-            <researchPrerequisite>Wolfein_Apparel_Mechanitor</researchPrerequisite>
         </recipeMaker>
         <techLevel>Industrial</techLevel>
         <tradeTags>
@@ -117,7 +116,6 @@
     <!-- 单兵防卫 -->
     <ThingDef Name="Wolfein_SundryBase_IndividualDefense" ParentName="Wolfein_SundryBase" Abstract="True">
         <recipeMaker>
-            <researchPrerequisite>Wolfein_IndividualDefensetechnology</researchPrerequisite>
         </recipeMaker>
         <techLevel>Industrial</techLevel>
         <tradeTags>
@@ -285,6 +283,9 @@
             <recipeUsers Inherit="false">
                 <li>ElectricTailoringBench</li>
             </recipeUsers>
+            <researchPrerequisites>
+                <li>Wolfein_IndividualDefensetechnology</li>
+            </researchPrerequisites>
         </recipeMaker>
         <statBases>
             <MaxHitPoints>600</MaxHitPoints>
@@ -366,6 +367,9 @@
             <recipeUsers Inherit="false">
                 <li>ElectricTailoringBench</li>
             </recipeUsers>
+            <researchPrerequisites>
+                <li>Wolfein_IndividualDefensetechnology</li>
+            </researchPrerequisites>
         </recipeMaker>
         <statBases>
             <MaxHitPoints>1000</MaxHitPoints>
@@ -456,6 +460,7 @@
         <recipeMaker>
             <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
             <researchPrerequisites>
+                <li>Wolfein_IndividualDefensetechnology</li>
                 <li>ShieldBelt</li>
             </researchPrerequisites>
             <recipeUsers Inherit="false">
