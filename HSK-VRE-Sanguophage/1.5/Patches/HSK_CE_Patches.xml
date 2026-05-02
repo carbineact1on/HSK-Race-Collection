@@ -182,4 +182,120 @@
         </value>
     </Operation>
 
+    <!-- ============================================================ -->
+    <!--  HEMOGEN NETWORK (BloodNet.xml) — was using raw Steel/Gold   -->
+    <!--  which displays as raw Magnetite / Native Gold under Vile's  -->
+    <!--  Materials Science. Patched to HSK Biotech pattern:          -->
+    <!--  refined SteelBar/GoldBar + HSK component pipeline.          -->
+    <!-- ============================================================ -->
+
+    <!-- VRE_HemogenPipe (small pipe segment) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VRE_HemogenPipe"]/costList</xpath>
+        <value>
+            <costList>
+                <SteelBar>3</SteelBar>
+                <Wire>1</Wire>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VRE_UndergroundHemogenPipe (buried pipe variant) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VRE_UndergroundHemogenPipe"]/costList</xpath>
+        <value>
+            <costList>
+                <SteelBar>6</SteelBar>
+                <Wire>2</Wire>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VRE_HemogenValve (small valve) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VRE_HemogenValve"]/costList</xpath>
+        <value>
+            <costList>
+                <SteelBar>5</SteelBar>
+                <Wire>1</Wire>
+                <Rubber>1</Rubber>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VRE_HemogenVat (large hemogen storage — HemogenAmplifier-tier) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VRE_HemogenVat"]/costList</xpath>
+        <value>
+            <stuffCategories>
+                <li>Metallic</li>
+            </stuffCategories>
+            <costStuffCount>160</costStuffCount>
+            <costList>
+                <ComponentIndustrial>4</ComponentIndustrial>
+                <ElectronicComponents>2</ElectronicComponents>
+                <Electronics>2</Electronics>
+                <Rubber>6</Rubber>
+                <Plastic>10</Plastic>
+                <HemogenPack>5</HemogenPack>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VRE_HemogenTap (network output dispenser — Hemopump small-tier) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VRE_HemogenTap"]/costList</xpath>
+        <value>
+            <stuffCategories>
+                <li>Metallic</li>
+            </stuffCategories>
+            <costStuffCount>50</costStuffCount>
+            <costList>
+                <ComponentIndustrial>2</ComponentIndustrial>
+                <ElectronicComponents>1</ElectronicComponents>
+                <Mechanism>1</Mechanism>
+                <Rubber>4</Rubber>
+                <Plastic>4</Plastic>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VRE_HemogenDrain (network input feeder — same tier as Tap) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VRE_HemogenDrain"]/costList</xpath>
+        <value>
+            <stuffCategories>
+                <li>Metallic</li>
+            </stuffCategories>
+            <costStuffCount>45</costStuffCount>
+            <costList>
+                <ComponentIndustrial>2</ComponentIndustrial>
+                <ElectronicComponents>1</ElectronicComponents>
+                <Mechanism>1</Mechanism>
+                <Rubber>4</Rubber>
+                <Plastic>4</Plastic>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VRE_Draincasket (large 2x2 hemogen-extracting prison — DeathrestCasket scaled up) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VRE_Draincasket"]/costList</xpath>
+        <value>
+            <stuffCategories>
+                <li>Metallic</li>
+            </stuffCategories>
+            <costStuffCount>180</costStuffCount>
+            <costList>
+                <ComponentIndustrial>4</ComponentIndustrial>
+                <ElectronicComponents>2</ElectronicComponents>
+                <Mechanism>2</Mechanism>
+                <Electronics>1</Electronics>
+                <Rubber>6</Rubber>
+                <Plastic>8</Plastic>
+                <HemogenPack>5</HemogenPack>
+            </costList>
+        </value>
+    </Operation>
+
 </Patch>

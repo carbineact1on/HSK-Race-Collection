@@ -389,4 +389,88 @@
         </value>
     </Operation>
 
+    <!-- ============================================================ -->
+    <!--  NEUTROAMINE NETWORK (NeutroamineNet.xml) — was using raw    -->
+    <!--  Steel/Silver which displays as raw Magnetite/Native Silver  -->
+    <!--  under Vile's Materials Science. Patched to HSK pattern:     -->
+    <!--  refined SteelBar + Wire + components.                        -->
+    <!-- ============================================================ -->
+
+    <!-- VREA_NeutroPipe (small pipe segment) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_NeutroPipe"]/costList</xpath>
+        <value>
+            <costList>
+                <SteelBar>4</SteelBar>
+                <Wire>1</Wire>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VREA_SubterraneanNeutroPipe (buried pipe variant) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_SubterraneanNeutroPipe"]/costList</xpath>
+        <value>
+            <costList>
+                <SteelBar>8</SteelBar>
+                <Wire>2</Wire>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VREA_NeutroTap (small dispenser, Hemopump-tier scaled to neutroamine) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_NeutroTap"]/costList</xpath>
+        <value>
+            <stuffCategories>
+                <li>Metallic</li>
+            </stuffCategories>
+            <costStuffCount>50</costStuffCount>
+            <costList>
+                <ComponentIndustrial>2</ComponentIndustrial>
+                <ElectronicComponents>1</ElectronicComponents>
+                <Mechanism>1</Mechanism>
+                <Rubber>4</Rubber>
+                <Plastic>4</Plastic>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VREA_NeutroDrain (small feeder, same tier as Tap) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_NeutroDrain"]/costList</xpath>
+        <value>
+            <stuffCategories>
+                <li>Metallic</li>
+            </stuffCategories>
+            <costStuffCount>50</costStuffCount>
+            <costList>
+                <ComponentIndustrial>2</ComponentIndustrial>
+                <ElectronicComponents>1</ElectronicComponents>
+                <Mechanism>1</Mechanism>
+                <Rubber>4</Rubber>
+                <Plastic>4</Plastic>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VREA_NeutroTank (large 2x3 storage tank — HemogenAmplifier-tier scaled up) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_NeutroTank"]/costList</xpath>
+        <value>
+            <stuffCategories>
+                <li>Metallic</li>
+            </stuffCategories>
+            <costStuffCount>200</costStuffCount>
+            <costList>
+                <ComponentIndustrial>5</ComponentIndustrial>
+                <ElectronicComponents>2</ElectronicComponents>
+                <Electronics>2</Electronics>
+                <Mechanism>1</Mechanism>
+                <Rubber>10</Rubber>
+                <Plastic>15</Plastic>
+            </costList>
+        </value>
+    </Operation>
+
 </Patch>
