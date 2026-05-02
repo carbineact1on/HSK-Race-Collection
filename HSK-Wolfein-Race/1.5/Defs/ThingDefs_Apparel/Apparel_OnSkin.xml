@@ -389,8 +389,8 @@
             <WorkToMake>7000</WorkToMake>
             <Mass>0.5</Mass>
             <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
+            <ArmorRating_Sharp>1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>3</ArmorRating_Blunt>
             <ArmorRating_Heat>0.12</ArmorRating_Heat>
             <Insulation_Cold>14</Insulation_Cold>
             <Insulation_Heat>5</Insulation_Heat>
@@ -453,8 +453,8 @@
             <WorkToMake>7000</WorkToMake>
             <Mass>0.5</Mass>
             <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.38</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+            <ArmorRating_Sharp>1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>3</ArmorRating_Blunt>
             <ArmorRating_Heat>0.18</ArmorRating_Heat>
             <Insulation_Cold>14</Insulation_Cold>
             <Insulation_Heat>5</Insulation_Heat>
@@ -562,8 +562,8 @@
             <WorkToMake>6500</WorkToMake>
             <Mass>1.5</Mass>
             <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+            <ArmorRating_Sharp>1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>3</ArmorRating_Blunt>
             <ArmorRating_Heat>0.1</ArmorRating_Heat>
             <Insulation_Cold>13</Insulation_Cold>
             <Insulation_Heat>5</Insulation_Heat>
@@ -787,8 +787,8 @@
             <WorkToMake>4000</WorkToMake>
             <Mass>1.0</Mass>
             <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.44</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+            <ArmorRating_Sharp>4</ArmorRating_Sharp>
+            <ArmorRating_Blunt>8</ArmorRating_Blunt>
             <ArmorRating_Heat>0.12</ArmorRating_Heat>
             <Insulation_Cold>14</Insulation_Cold>
             <Insulation_Heat>7</Insulation_Heat>
@@ -849,8 +849,8 @@
             <WorkToMake>4000</WorkToMake>
             <Mass>1.0</Mass>
             <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.44</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+            <ArmorRating_Sharp>4</ArmorRating_Sharp>
+            <ArmorRating_Blunt>8</ArmorRating_Blunt>
             <ArmorRating_Heat>0.12</ArmorRating_Heat>
             <Insulation_Cold>14</Insulation_Cold>
             <Insulation_Heat>7</Insulation_Heat>
@@ -911,8 +911,8 @@
             <WorkToMake>15000</WorkToMake>
             <Mass>1.0</Mass>
             <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.43</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+            <ArmorRating_Sharp>3</ArmorRating_Sharp>
+            <ArmorRating_Blunt>6</ArmorRating_Blunt>
             <ArmorRating_Heat>0.14</ArmorRating_Heat>
             <Insulation_Cold>15</Insulation_Cold>
             <Insulation_Heat>6</Insulation_Heat>
@@ -974,8 +974,8 @@
             <WorkToMake>16000</WorkToMake>
             <Mass>1.0</Mass>
             <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.48</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.16</ArmorRating_Blunt>
+            <ArmorRating_Sharp>3</ArmorRating_Sharp>
+            <ArmorRating_Blunt>6</ArmorRating_Blunt>
             <ArmorRating_Heat>0.12</ArmorRating_Heat>
             <Insulation_Cold>14</Insulation_Cold>
             <Insulation_Heat>7</Insulation_Heat>
@@ -1037,8 +1037,8 @@
             <WorkToMake>17000</WorkToMake>
             <Mass>2.5</Mass>
             <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.45</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+            <ArmorRating_Sharp>3</ArmorRating_Sharp>
+            <ArmorRating_Blunt>6</ArmorRating_Blunt>
             <ArmorRating_Heat>0.1</ArmorRating_Heat>
             <Insulation_Cold>15</Insulation_Cold>
             <Insulation_Heat>5</Insulation_Heat>
@@ -1100,8 +1100,8 @@
             <WorkToMake>16000</WorkToMake>
             <Mass>2.0</Mass>
             <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.45</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.13</ArmorRating_Blunt>
+            <ArmorRating_Sharp>3</ArmorRating_Sharp>
+            <ArmorRating_Blunt>6</ArmorRating_Blunt>
             <ArmorRating_Heat>0.1</ArmorRating_Heat>
             <Insulation_Cold>13</Insulation_Cold>
             <Insulation_Heat>7</Insulation_Heat>
@@ -1164,8 +1164,8 @@
             <WorkToMake>16500</WorkToMake>
             <Mass>2.0</Mass>
             <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.47</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.11</ArmorRating_Blunt>
+            <ArmorRating_Sharp>3</ArmorRating_Sharp>
+            <ArmorRating_Blunt>6</ArmorRating_Blunt>
             <ArmorRating_Heat>0.1</ArmorRating_Heat>
             <Insulation_Cold>12</Insulation_Cold>
             <Insulation_Heat>8</Insulation_Heat>
@@ -1227,8 +1227,8 @@
             <WorkToMake>17000</WorkToMake>
             <Mass>2.5</Mass>
             <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.44</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+            <ArmorRating_Sharp>3</ArmorRating_Sharp>
+            <ArmorRating_Blunt>6</ArmorRating_Blunt>
             <ArmorRating_Heat>0.1</ArmorRating_Heat>
             <Insulation_Cold>17</Insulation_Cold>
             <Insulation_Heat>4</Insulation_Heat>
@@ -1288,8 +1288,8 @@
             <WorkToMake>12500</WorkToMake>
             <Mass>1.0</Mass>
             <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.42</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+            <ArmorRating_Sharp>1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>3</ArmorRating_Blunt>
             <ArmorRating_Heat>0.11</ArmorRating_Heat>
             <Insulation_Cold>14.5</Insulation_Cold>
             <Insulation_Heat>5</Insulation_Heat>
@@ -1350,8 +1350,8 @@
             <WorkToMake>12500</WorkToMake>
             <Mass>1.0</Mass>
             <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.42</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+            <ArmorRating_Sharp>1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>3</ArmorRating_Blunt>
             <ArmorRating_Heat>0.11</ArmorRating_Heat>
             <Insulation_Cold>13.5</Insulation_Cold>
             <Insulation_Heat>6</Insulation_Heat>
@@ -1412,8 +1412,8 @@
             <WorkToMake>12500</WorkToMake>
             <Mass>1.0</Mass>
             <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.42</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+            <ArmorRating_Sharp>1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>3</ArmorRating_Blunt>
             <ArmorRating_Heat>0.11</ArmorRating_Heat>
             <Insulation_Cold>14.5</Insulation_Cold>
             <Insulation_Heat>5</Insulation_Heat>
@@ -1473,8 +1473,8 @@
             <WorkToMake>12500</WorkToMake>
             <Mass>1.0</Mass>
             <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.33</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
+            <ArmorRating_Sharp>1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>3</ArmorRating_Blunt>
             <ArmorRating_Heat>0.1</ArmorRating_Heat>
             <Insulation_Cold>13.5</Insulation_Cold>
             <Insulation_Heat>6</Insulation_Heat>
@@ -1633,8 +1633,8 @@
             <WorkToMake>12500</WorkToMake>
             <Mass>1.0</Mass>
             <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.42</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+            <ArmorRating_Sharp>1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>3</ArmorRating_Blunt>
             <ArmorRating_Heat>0.11</ArmorRating_Heat>
             <Insulation_Cold>13.5</Insulation_Cold>
             <Insulation_Heat>6</Insulation_Heat>
@@ -1695,8 +1695,8 @@
             <WorkToMake>12500</WorkToMake>
             <Mass>1.0</Mass>
             <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.42</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+            <ArmorRating_Sharp>1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>3</ArmorRating_Blunt>
             <ArmorRating_Heat>0.11</ArmorRating_Heat>
             <Insulation_Cold>13.5</Insulation_Cold>
             <Insulation_Heat>6</Insulation_Heat>
@@ -1757,8 +1757,8 @@
             <WorkToMake>15000</WorkToMake>
             <Mass>1.0</Mass>
             <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.42</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+            <ArmorRating_Sharp>3</ArmorRating_Sharp>
+            <ArmorRating_Blunt>6</ArmorRating_Blunt>
             <ArmorRating_Heat>0.14</ArmorRating_Heat>
             <Insulation_Cold>14</Insulation_Cold>
             <Insulation_Heat>7</Insulation_Heat>
@@ -1822,8 +1822,8 @@
             <WorkToMake>15000</WorkToMake>
             <Mass>1.0</Mass>
             <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.43</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+            <ArmorRating_Sharp>1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>3</ArmorRating_Blunt>
             <ArmorRating_Heat>0.14</ArmorRating_Heat>
             <Insulation_Cold>14</Insulation_Cold>
             <Insulation_Heat>7</Insulation_Heat>
@@ -1885,8 +1885,8 @@
             <WorkToMake>17000</WorkToMake>
             <Mass>2.5</Mass>
             <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.46</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.16</ArmorRating_Blunt>
+            <ArmorRating_Sharp>3</ArmorRating_Sharp>
+            <ArmorRating_Blunt>6</ArmorRating_Blunt>
             <ArmorRating_Heat>0.12</ArmorRating_Heat>
             <Insulation_Cold>15</Insulation_Cold>
             <Insulation_Heat>5</Insulation_Heat>
@@ -1947,8 +1947,8 @@
             <WorkToMake>12500</WorkToMake>
             <Mass>1.0</Mass>
             <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.44</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+            <ArmorRating_Sharp>3</ArmorRating_Sharp>
+            <ArmorRating_Blunt>6</ArmorRating_Blunt>
             <ArmorRating_Heat>0.11</ArmorRating_Heat>
             <Insulation_Cold>13</Insulation_Cold>
             <Insulation_Heat>7</Insulation_Heat>
@@ -2008,8 +2008,8 @@
             <WorkToMake>12500</WorkToMake>
             <Mass>1.0</Mass>
             <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.44</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+            <ArmorRating_Sharp>3</ArmorRating_Sharp>
+            <ArmorRating_Blunt>6</ArmorRating_Blunt>
             <ArmorRating_Heat>0.11</ArmorRating_Heat>
             <Insulation_Cold>13</Insulation_Cold>
             <Insulation_Heat>7</Insulation_Heat>
@@ -2069,8 +2069,8 @@
             <WorkToMake>12500</WorkToMake>
             <Mass>1.0</Mass>
             <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.44</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+            <ArmorRating_Sharp>3</ArmorRating_Sharp>
+            <ArmorRating_Blunt>6</ArmorRating_Blunt>
             <ArmorRating_Heat>0.11</ArmorRating_Heat>
             <Insulation_Cold>16</Insulation_Cold>
             <Insulation_Heat>5</Insulation_Heat>
@@ -2131,8 +2131,8 @@
             <WorkToMake>18000</WorkToMake>
             <Mass>1.0</Mass>
             <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.48</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+            <ArmorRating_Sharp>3</ArmorRating_Sharp>
+            <ArmorRating_Blunt>6</ArmorRating_Blunt>
             <ArmorRating_Heat>0.15</ArmorRating_Heat>
             <Insulation_Cold>14</Insulation_Cold>
             <Insulation_Heat>7</Insulation_Heat>
@@ -2193,8 +2193,8 @@
             <WorkToMake>18500</WorkToMake>
             <Mass>2.5</Mass>
             <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.47</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.17</ArmorRating_Blunt>
+            <ArmorRating_Sharp>3</ArmorRating_Sharp>
+            <ArmorRating_Blunt>6</ArmorRating_Blunt>
             <ArmorRating_Heat>0.14</ArmorRating_Heat>
             <Insulation_Cold>16</Insulation_Cold>
             <Insulation_Heat>6</Insulation_Heat>
@@ -2256,8 +2256,8 @@
             <WorkToMake>18500</WorkToMake>
             <Mass>2.5</Mass>
             <Flammability>0.5</Flammability>
-            <ArmorRating_Sharp>0.46</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.16</ArmorRating_Blunt>
+            <ArmorRating_Sharp>3</ArmorRating_Sharp>
+            <ArmorRating_Blunt>6</ArmorRating_Blunt>
             <ArmorRating_Heat>0.14</ArmorRating_Heat>
             <Insulation_Cold>15</Insulation_Cold>
             <Insulation_Heat>7</Insulation_Heat>

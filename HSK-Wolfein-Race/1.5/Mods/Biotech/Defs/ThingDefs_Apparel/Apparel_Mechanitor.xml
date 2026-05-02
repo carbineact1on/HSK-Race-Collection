@@ -36,8 +36,8 @@
             <WorkToMake>80000</WorkToMake>
             <Mass>16.0</Mass>
             <Flammability>0.4</Flammability>
-            <ArmorRating_Sharp>0.9</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+            <ArmorRating_Sharp>4</ArmorRating_Sharp>
+            <ArmorRating_Blunt>9</ArmorRating_Blunt>
             <ArmorRating_Heat>0.4</ArmorRating_Heat>
             <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
             <Insulation_Cold>38</Insulation_Cold>
@@ -261,8 +261,8 @@
             <Mass>1.0</Mass>
             <MaxHitPoints>220</MaxHitPoints>
             <WorkToMake>10000</WorkToMake>
-            <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+            <ArmorRating_Sharp>1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>3</ArmorRating_Blunt>
             <ArmorRating_Heat>0.10</ArmorRating_Heat>
             <StuffEffectMultiplierArmor>0.20</StuffEffectMultiplierArmor>
             <Insulation_Cold>3</Insulation_Cold>
@@ -333,8 +333,8 @@
             <Mass>1.0</Mass>
             <MaxHitPoints>220</MaxHitPoints>
             <WorkToMake>10000</WorkToMake>
-            <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+            <ArmorRating_Sharp>1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>3</ArmorRating_Blunt>
             <ArmorRating_Heat>0.10</ArmorRating_Heat>
             <StuffEffectMultiplierArmor>0.20</StuffEffectMultiplierArmor>
             <Insulation_Cold>3</Insulation_Cold>

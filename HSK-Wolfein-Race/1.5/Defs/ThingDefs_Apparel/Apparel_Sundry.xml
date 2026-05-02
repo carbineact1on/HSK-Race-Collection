@@ -143,8 +143,8 @@
             <MaxHitPoints>80</MaxHitPoints>
             <WorkToMake>1000</WorkToMake>
             <Mass>0.5</Mass>
-            <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+            <ArmorRating_Sharp>1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>2</ArmorRating_Blunt>
             <ArmorRating_Heat>0.05</ArmorRating_Heat>
             <Insulation_Cold>1</Insulation_Cold>
             <Insulation_Heat>1</Insulation_Heat>
@@ -214,8 +214,8 @@
             <MaxHitPoints>150</MaxHitPoints>
             <WorkToMake>2000</WorkToMake>
             <Mass>0.5</Mass>
-            <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+            <ArmorRating_Sharp>1</ArmorRating_Sharp>
+            <ArmorRating_Blunt>2</ArmorRating_Blunt>
             <ArmorRating_Heat>0.12</ArmorRating_Heat>
             <Insulation_Cold>1</Insulation_Cold>
             <Insulation_Heat>1</Insulation_Heat>
@@ -292,8 +292,8 @@
             <WorkToMake>30000</WorkToMake>
             <Flammability>0.1</Flammability>
             <Mass>10</Mass>
-            <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+            <ArmorRating_Sharp>8</ArmorRating_Sharp>
+            <ArmorRating_Blunt>18</ArmorRating_Blunt>
             <ArmorRating_Heat>0.4</ArmorRating_Heat>
             <Insulation_Cold>1</Insulation_Cold>
             <Insulation_Heat>1</Insulation_Heat>
@@ -376,8 +376,8 @@
             <WorkToMake>60000</WorkToMake>
             <Flammability>0.1</Flammability>
             <Mass>15</Mass>
-            <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
-            <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+            <ArmorRating_Sharp>8</ArmorRating_Sharp>
+            <ArmorRating_Blunt>18</ArmorRating_Blunt>
             <ArmorRating_Heat>0.5</ArmorRating_Heat>
             <Insulation_Cold>1</Insulation_Cold>
             <Insulation_Heat>1</Insulation_Heat>
