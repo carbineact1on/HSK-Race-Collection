@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>VRE Archon (HSK/CE Patched)</name>
+    <packageId>CarbineAction.HSK.VRE.Archon</packageId>
+    <author>Oskar Potocki, Sarg Bjornson, Taranchuk, Reann Shepard, xrushha — HSK/CE patch by CarbineAction</author>
+    <modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <description>HSK/CE-patched standalone version of Vanilla Races Expanded — Archon, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VRE Archon mod content with HSK conventions and Combat Extended patches baked in. Do NOT enable the Steam Workshop version of VRE Archon alongside this — they would duplicate each other's defs.
+
+CE patches:
+- VREA_MeleeWeapon_ArchobladeBladelink (archotech psychic blade) — both tools converted to CombatExtended.ToolCE:
+  * handle (Blunt) — Sharp 0.3 / Blunt 3.0
+  * blade (VREA_Sear capacity, custom psychic-skip damage) — Sharp 3 / Blunt 5 (high AP for archotech weapon)
+  * Custom thingClass VREArchon.ArchoBlade preserved
+- VREA_Apparel_Archoplate (archotech psychic armor) rescaled to HSK CE archotech tier:
+  * Sharp 1.15 → 30, Blunt 0.60 → 25 (between marine 24 and power armor 40+)
+  * Heat 0.86 kept (already CE-compatible)
+  * Added Bulk 12 / WornBulk 4.5
+  * equippedStatOffsets preserved (PsychicSensitivity, PsychicEntropyMax, PsychicEntropyRecoveryRate)
+- VRE_Leatherskin gene (natural leathery skin) — Sharp 0.15 / Blunt 0.1 → HSK CE 5/5
+
+Psychic projectiles (PsychicThrow, PsychicWarp, PsychicLance) work under CE as-is — they use vanilla projectile properties with armorPenetrationBase already set, and are psycaster-cast (Verb_CastAbility) rather than weapon-fired, so no CE conversion needed.
+
+No HSK material conversion — Archon has no buildings, no recipes, no costLists. Archoplate and Archoblade are loot/quest-reward only.
+
+Faction raid gating:
+- VRE_Archons faction had earliestRaidDays:45 (good) but no raidCommonalityFromPointsCurve, so raids fired at full force after Day 45 regardless of colony wealth. ArchonWarrior combatPower is 450 (archotech-elite tier — vs vanilla pirate 110, centipede 480).
+- Added wealth-based ramp: 0 commonality below 2500 threat points, scaling to 1.0 at 5000+. Matches the HSK Wolfein MegaCorp gate pattern but with a higher threshold reflecting the even-more-elite archotech tier. Combined with the existing 45-day delay, players have time to prepare for archotech raids.
+
+Original mod by Oskar Potocki, Sarg Bjornson, Taranchuk, Reann Shepard, xrushha. HSK/CE conversion + bundling by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC, Royalty DLC.</description>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+            <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+        </li>
+        <li>
+            <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+            <displayName>Vanilla Expanded Framework</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2023507013</steamWorkshopUrl>
+            <downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
+        </li>
+        <li>
+            <packageId>Ludeon.RimWorld.Royalty</packageId>
+            <displayName>RimWorld - Royalty</displayName>
+            <steamWorkshopUrl>https://store.steampowered.com/app/1149640/RimWorld__Royalty/</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>Ludeon.RimWorld.Biotech</packageId>
+            <displayName>RimWorld - Biotech</displayName>
+            <steamWorkshopUrl>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>skyarkhangel.HSK</packageId>
+            <displayName>Hardcore SK</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2424766948</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>CETeam.CombatExtended</packageId>
+            <displayName>Combat Extended</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2890901044</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+        <li>skyarkhangel.HSK</li>
+        <li>CETeam.CombatExtended</li>
+    </loadAfter>
+    <incompatibleWith>
+        <li>vanillaracesexpanded.archon</li>
+    </incompatibleWith>
+</ModMetaData>

@@ -49,6 +49,19 @@ CE patches (adapted from Pacas Patches Compilation, re-tuned for HSK CE scale):
 
 Saurid is content-light (no recipes, no buildings, no costLists, no weapons, no apparel) — most HSK material conversion is moot since there's nothing to convert.
 
+### 🌟 HSK-VRE-Archon
+Standalone bundle of **[Vanilla Races Expanded — Archon](https://steamcommunity.com/sharedfiles/filedetails/?id=3067715093)** by Oskar Potocki, Sarg Bjornson, Taranchuk, Reann Shepard, xrushha. Archotech-tier psychic warrior xenohumans.
+
+CE patches:
+- `VREA_MeleeWeapon_ArchobladeBladelink` (psychic blade) — both tools converted to `CombatExtended.ToolCE` (handle Sharp 0.3/Blunt 3, blade Sharp 3/Blunt 5 archotech-tier AP). Custom `VREArchon.ArchoBlade` thingClass and `VREA_Sear` capacity preserved.
+- `VREA_Apparel_Archoplate` (archotech psychic armor) — Sharp 1.15→30, Blunt 0.60→25, +Bulk 12 / WornBulk 4.5 (HSK CE archotech tier between marine 24 and power armor 40+). Heat 0.86 kept (already CE-compatible). PsychicSensitivity / EntropyMax / EntropyRecoveryRate equippedStatOffsets preserved.
+- `VRE_Leatherskin` gene — Sharp 0.15/Blunt 0.1 → HSK CE 5/5 (mid-tier natural armor)
+- Psychic projectiles (PsychicThrow/Warp/Lance) work under CE as-is — already have armorPenetrationBase + cast via Verb_CastAbility, not weapon-fired
+
+Faction raid gating (VRE_Archons):
+- Existing earliestRaidDays:45 kept
+- Added `raidCommonalityFromPointsCurve` `(0, 0) → (2500, 0) → (5000, 1)` — Archotech-tier raids gated to colony threat 2500-5000+ instead of firing at full force after Day 45 regardless of wealth. ArchonWarrior combatPower 450 deserves a wealth gate (HSK MegaCorp pattern, scaled higher for archotech).
+
 ### ☢️ HSK-VRE-Waster
 Standalone bundle of **[Vanilla Races Expanded — Waster](https://steamcommunity.com/sharedfiles/filedetails/?id=2983471725)** by Oskar Potocki, Sarg Bjornson. Toxic-wasteland xenohumans that thrive on pollution.
 

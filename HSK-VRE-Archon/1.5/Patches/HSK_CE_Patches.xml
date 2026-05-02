@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    HSK + Combat Extended patches for VRE Archon.
+
+    Three categories:
+
+    1. CE TOOL CONVERSION — Archoblade bladelink weapon
+       Convert both tools (handle Blunt + blade VREA_Sear) to
+       CombatExtended.ToolCE with proper Sharp/Blunt armor penetration.
+       Preserves the custom VREA_Sear tool capacity (psychic-skip damage).
+
+    2. HSK CE ARMOR RESCALE
+       a. VREA_Apparel_Archoplate (archotech-tier psychic armor):
+            vanilla CE Sharp 1.15 / Blunt 0.60 / Heat 0.86 →
+            HSK CE Sharp 30 / Blunt 25 / Heat 0.86 (heat scale already CE-compatible)
+          + Bulk 12 / WornBulk 4.5 (HSK CE archotech armor convention,
+            between marine 24 and power armor 40+)
+       b. VRE_Leatherskin gene (natural leathery skin armor):
+            vanilla CE Sharp 0.15 / Blunt 0.1 →
+            HSK CE Sharp 5 / Blunt 5 (mid-tier natural armor between
+            bare skin and light flak — comparable to Phytokin BarkSkin
+            but slightly weaker)
+
+    3. PSYCHIC PROJECTILES — VREA_PsychicThrow / Warp / Lance
+       These already use vanilla projectile properties with
+       armorPenetrationBase + custom thingClass (VREArchon.PsychicThrow
+       etc.) — they work under CE without explicit ToolCE/Verb conversion
+       because they're psycaster-cast (Verb_CastAbility-style) rather than
+       weapon-fired. Same pattern as Sanguophage's Goo projectile and
+       Phytokin's psychic abilities.
+
+    No HSK material work needed:
+      Archon has no buildings, no recipes, no costList — Archoplate and
+      Archoblade are loot-only / quest-reward / faction-spawn items.
+-->
+<Patch>
+
+    <!-- ============================================================ -->
+    <!--  CE TOOL CONVERSION — Archoblade bladelink weapon            -->
+    <!-- ============================================================ -->
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_MeleeWeapon_ArchobladeBladelink"]/tools</xpath>
+        <value>
+            <tools>
+                <li Class="CombatExtended.ToolCE">
+                    <label>handle</label>
+                    <capacities>
+                        <li>Blunt</li>
+                    </capacities>
+                    <power>12</power>
+                    <cooldownTime>1.6</cooldownTime>
+                    <armorPenetrationSharp>0.3</armorPenetrationSharp>
+                    <armorPenetrationBlunt>3</armorPenetrationBlunt>
+                </li>
+                <li Class="CombatExtended.ToolCE">
+                    <label>blade</label>
+                    <capacities>
+                        <li>VREA_Sear</li>
+                    </capacities>
+                    <power>30</power>
+                    <cooldownTime>1.35</cooldownTime>
+                    <armorPenetrationSharp>3</armorPenetrationSharp>
+                    <armorPenetrationBlunt>5</armorPenetrationBlunt>
+                </li>
+            </tools>
+        </value>
+    </Operation>
+
+    <!-- ============================================================ -->
+    <!--  HSK CE ARMOR RESCALE                                        -->
+    <!-- ============================================================ -->
+
+    <!-- VREA_Apparel_Archoplate — archotech-tier psychic armor -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_Apparel_Archoplate"]/statBases/ArmorRating_Sharp</xpath>
+        <value><ArmorRating_Sharp>30</ArmorRating_Sharp></value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_Apparel_Archoplate"]/statBases/ArmorRating_Blunt</xpath>
+        <value><ArmorRating_Blunt>25</ArmorRating_Blunt></value>
+    </Operation>
+    <!-- Heat already at 0.86 (CE-compatible scale), keep as-is -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VREA_Apparel_Archoplate"]/statBases</xpath>
+        <value>
+            <Bulk>12</Bulk>
+            <WornBulk>4.5</WornBulk>
+        </value>
+    </Operation>
+
+    <!-- VRE_Leatherskin gene — natural leathery skin -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/GeneDef[defName="VRE_Leatherskin"]/statOffsets</xpath>
+        <value>
+            <statOffsets>
+                <ArmorRating_Sharp>5</ArmorRating_Sharp>
+                <ArmorRating_Blunt>5</ArmorRating_Blunt>
+            </statOffsets>
+        </value>
+    </Operation>
+
+    <!-- ============================================================ -->
+    <!--  RAID GATING — Archon faction wealth threshold               -->
+    <!-- ============================================================ -->
+
+    <!-- Archon faction has earliestRaidDays:45 already (good) but no
+         raidCommonalityFromPointsCurve — so once Day 45 hits, raids fire
+         at full force regardless of colony wealth. ArchonWarrior has
+         combatPower 450 (vs vanilla pirate 110, centipede 480) which is
+         archotech-elite tier.
+
+         Adding wealth-based ramp: 0 commonality below 2500 threat points,
+         scaling to full 1.0 at 5000+. This matches our HSK Wolfein
+         MegaCorp gate pattern but with a higher threshold reflecting the
+         even-more-elite nature of archotech raiders. Combined with the
+         existing 45-day delay, players have time to prepare. -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[defName="VRE_Archons"]</xpath>
+        <value>
+            <raidCommonalityFromPointsCurve>
+                <points>
+                    <li>(0, 0)</li>
+                    <li>(2500, 0)</li>
+                    <li>(5000, 1)</li>
+                </points>
+            </raidCommonalityFromPointsCurve>
+        </value>
+    </Operation>
+
+</Patch>
