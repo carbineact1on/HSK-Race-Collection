@@ -49,6 +49,19 @@ CE patches (adapted from Pacas Patches Compilation, re-tuned for HSK CE scale):
 
 Saurid is content-light (no recipes, no buildings, no costLists, no weapons, no apparel) — most HSK material conversion is moot since there's nothing to convert.
 
+### 🩸 HSK-VRE-Sanguophage
+Standalone bundle of **[Vanilla Races Expanded — Sanguophage](https://steamcommunity.com/sharedfiles/filedetails/?id=2963116383)** by Oskar Potocki, Sarg Bjornson, Erin. Vampire xenohumans with deathrest, hemogen mechanics, and supernatural abilities.
+
+HSK material conversion (6 deathrest / hemogen buildings):
+- `Steel → SteelBar` on InvocationMatrix, HemodynamicAccelerator, HemogenSolidifier, SmallHemogenAmplifier, SmallHemopump, and PsychofluidWell (Royalty DLC only)
+- `Gold → GoldBar` on the InvocationMatrix
+- Plasteel kept as-is (already HSK-native)
+
+CE patches:
+- `VRE_SharpTalons` hediff — talons tool converted to `CombatExtended.ToolCE` with armor-penetration values (Sharp 0.65 / Blunt 2.0) calibrated against the rest of the collection's natural melee weapons
+
+Sanguophage abilities (HeartCrush, Hemosmosis, ToxicCloud, ViscousGoo, AcidSpray, etc.) are psycaster-style and need no CE projectile work. The Goo projectile already has armorPenetrationBase set and works under CE.
+
 ### 🌿 HSK-VRE-Phytokin
 Standalone bundle of **[Vanilla Races Expanded — Phytokin](https://steamcommunity.com/sharedfiles/filedetails/?id=2927323805)** by Oskar Potocki, Sarg Bjornson, Allie, Erin, Sir Van, Reann Shepard. Plant-based xenohumans with bark skin, photosynthesis, and dryad companions.
 

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>VRE Sanguophage (HSK/CE Patched)</name>
+    <packageId>CarbineAction.HSK.VRE.Sanguophage</packageId>
+    <author>Oskar Potocki, Sarg Bjornson, Erin — HSK/CE patch by CarbineAction</author>
+    <modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <description>HSK/CE-patched standalone version of Vanilla Races Expanded — Sanguophage, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VRE Sanguophage mod content with HSK conventions and Combat Extended patches baked in. Do NOT enable the Steam Workshop version of VRE Sanguophage alongside this — they would duplicate each other's defs.
+
+HSK conversion:
+- 6 deathrest / hemogen buildings rebalanced to HSK refined alloys:
+  * Steel → SteelBar across InvocationMatrix, HemodynamicAccelerator, HemogenSolidifier, SmallHemogenAmplifier, SmallHemopump, and PsychofluidWell (Royalty)
+  * Gold → GoldBar on the InvocationMatrix
+
+CE patches:
+- VRESanguophage_SharpTalons hediff — talons tool converted to CombatExtended.ToolCE with armor-penetration values (Sharp 0.65 / Blunt 2.0) that fit alongside the Saurid claws (Sharp 0.5) and other natural melee in this collection
+
+Sanguophage abilities (HeartCrush, Hemosmosis, ToxicCloud, ViscousGoo, AcidSpray, etc.) are psycaster-style and do not need CE projectile conversion. The VRE_Proj_Goo projectile already has armorPenetrationBase/stoppingPower set and works under CE as-is. HemogenPack food items have no costList to convert.
+
+Original mod by Oskar Potocki, Sarg Bjornson, Erin. HSK/CE conversion + bundling by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC. PsychofluidWell building only loads when Royalty DLC is active.</description>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+            <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+        </li>
+        <li>
+            <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+            <displayName>Vanilla Expanded Framework</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2023507013</steamWorkshopUrl>
+            <downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
+        </li>
+        <li>
+            <packageId>Ludeon.RimWorld.Biotech</packageId>
+            <displayName>RimWorld - Biotech</displayName>
+            <steamWorkshopUrl>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>skyarkhangel.HSK</packageId>
+            <displayName>Hardcore SK</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2424766948</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>CETeam.CombatExtended</packageId>
+            <displayName>Combat Extended</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2890901044</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+        <li>skyarkhangel.HSK</li>
+        <li>CETeam.CombatExtended</li>
+    </loadAfter>
+    <incompatibleWith>
+        <li>vanillaracesexpanded.sanguophage</li>
+    </incompatibleWith>
+</ModMetaData>
