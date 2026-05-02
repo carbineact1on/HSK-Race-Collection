@@ -2309,13 +2309,19 @@
 		<value><researchPrerequisite>Gunsmithing</researchPrerequisite></value>
 	</Operation>
 
+	<!-- Missile launcher costLists match HSK BuildRPG pattern (Launcher_Component
+	     + Weapon_Parts + ComponentIndustrial + Plastic + SteelBar). Standard
+	     MegaCorp variant is full HSK tier; Rebel variant is improvised
+	     (lighter component count + WoodLog stock). -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="W_Weapon_MissileLauncher"]/costList</xpath>
 		<value>
 			<costList>
-				<SteelBar>80</SteelBar>
-				<ComponentIndustrial>2</ComponentIndustrial>
-				<WoodLog>20</WoodLog>
+				<Launcher_Component>1</Launcher_Component>
+				<Weapon_Parts>6</Weapon_Parts>
+				<ComponentIndustrial>6</ComponentIndustrial>
+				<Plastic>20</Plastic>
+				<SteelBar>60</SteelBar>
 			</costList>
 		</value>
 	</Operation>
@@ -2323,8 +2329,11 @@
 		<xpath>Defs/ThingDef[defName="W_Weapon_RebelMissileLauncher"]/costList</xpath>
 		<value>
 			<costList>
-				<SteelBar>80</SteelBar>
-				<ComponentIndustrial>2</ComponentIndustrial>
+				<Launcher_Component>1</Launcher_Component>
+				<Weapon_Parts>4</Weapon_Parts>
+				<ComponentIndustrial>4</ComponentIndustrial>
+				<Plastic>12</Plastic>
+				<SteelBar>50</SteelBar>
 				<WoodLog>20</WoodLog>
 			</costList>
 		</value>
