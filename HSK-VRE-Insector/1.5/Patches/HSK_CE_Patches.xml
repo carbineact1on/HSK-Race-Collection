@@ -136,7 +136,14 @@
         </value>
     </Operation>
 
-    <!-- VRE_MineralRichInsectskin hediff — armored insectskin (2 stages, cross-mod) -->
+    <!-- VRE_MineralRichInsectskin hediff — mineral plating armor (2 stages, cross-mod).
+         This is engineered-equivalent (mineral plating, not soft tissue),
+         so use ballistic ratio: Blunt > Sharp.
+         Calibrated against HSK CE values:
+           HSK Apparel_FlakVest:  Sharp 6.81 / Blunt 14.97
+           HSK Apparel_PlateArmor: Sharp 3.76 / Blunt 6.61
+         Intact mineral plating sits at flak-vest tier, cracked drops to
+         plate-armor-tier. -->
     <Operation Class="PatchOperationFindMod">
         <mods>
             <li>OskarPotocki.VFE.Insectoid2</li>
@@ -148,15 +155,15 @@
                     <li>
                         <minSeverity>0.1</minSeverity>
                         <statOffsets>
-                            <ArmorRating_Sharp>6</ArmorRating_Sharp>
-                            <ArmorRating_Blunt>4</ArmorRating_Blunt>
+                            <ArmorRating_Sharp>3</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>8</ArmorRating_Blunt>
                         </statOffsets>
                     </li>
                     <li>
                         <minSeverity>1</minSeverity>
                         <statOffsets>
-                            <ArmorRating_Sharp>12</ArmorRating_Sharp>
-                            <ArmorRating_Blunt>8</ArmorRating_Blunt>
+                            <ArmorRating_Sharp>6</ArmorRating_Sharp>
+                            <ArmorRating_Blunt>16</ArmorRating_Blunt>
                         </statOffsets>
                     </li>
                 </stages>
