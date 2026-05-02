@@ -2,75 +2,161 @@
 <!--
     HSK + Combat Extended patches for VRE Sanguophage.
 
-    Two categories of changes:
+    HSK MATERIAL CONVERSION
+    -----------------------
+    Each Sanguophage building's costList is rewritten to match the equivalent
+    vanilla-Biotech building's HSK pattern from
+    Core_SK/Biotech/Patches/ThingDefs_Buildings/Buildings_Deathrest.xml:
 
-    1. HSK material conversion on 6 deathrest/hemogen buildings:
-       - Steel → SteelBar (refined alloy used by HSK construction)
-       - Gold  → GoldBar  (refined alloy on InvocationMatrix)
-       Plasteel kept as-is (already HSK-native).
+      vanilla DeathrestCasket       (HSK: stuff 80, CompInd 3, ElecComp 1, Mech 1, Electronics 1)
+      vanilla Hemopump              (HSK: stuff 80, CompInd 2, ElecComp 1, Mech 2, Rubber 8, Plastic 8, HemogenPack 5)
+      vanilla HemogenAmplifier      (HSK: stuff 160, CompInd 4, ElecComp 2, Electronics 2, Rubber 6, Plastic 10, HemogenPack 5)
+      vanilla DeathrestAccelerator  (HSK: stuff 200, CompInd 6, ElecComp 2, Microchips 2, Plastic 10, HemogenPack 5)
+      vanilla PsychofluidPump       (HSK: stuff 50, CompInd 6, ElecComp 2, Mech 2, Electronics 1, Rubber 12, CarbonAlloy 10, HemogenPack 5)
 
-    2. CE patch on the SharpTalons hediff (granted by the SharpTalons gene
-       to Sanguophages and other talon-bearing xenotypes):
-       - Vanilla tool: power 16, cooldown 2.0, capacity Cut, no AP fields
-       - Converted to CombatExtended.ToolCE with armor-penetration values
-         comparable to other natural-claw conversions in HSK Race Collection
-         (Saurid claws have AP-Sharp 0.5 / Blunt 2 — talons are sharper so
-         we bump AP-Sharp to 0.65 to reflect the "deep cut" narrative)
+    Mapping:
+      VRE_SmallHemopump            → small-tier Hemopump        (1x1, downscaled)
+      VRE_SmallHemogenAmplifier    → small-tier HemogenAmplifier (1x1, downscaled)
+      VRE_HemogenSolidifier        → full HemogenAmplifier-tier (1x2, mid-tier processor)
+      VRE_HemodynamicAccelerator   → DeathrestAccelerator-tier  (2x2, large)
+      VRE_InvocationMatrix         → custom ritual (Gold kept for ritual flavor + components)
+      VRE_PsychofluidWell (Royalty)→ PsychofluidPump-tier       (Plasteel kept for advanced housing)
 
-    Goo projectile (VRE_Proj_Goo) already has armorPenetrationBase/stoppingPower
-    and uses the Stun damageDef — works under CE without explicit conversion.
-    Hemogen abilities are psycaster-style (no projectiles to convert).
-    HemogenPack items are food (no costList to swap, no Bulk addition needed
-    since they're a Fluid/DesperateOnly food consumed off the inventory).
+    All buildings switch from fixed Steel to stuffCategories Metallic +
+    costStuffCount per HSK convention so user can build them from any metal
+    (Steel, SteelBar, Plasteel, etc.) with appropriate hardness/beauty.
+
+    HemogenPack kept as a "fuel" cost (vanilla-Biotech HSK convention for
+    Sanguophage equipment).
+
+    CE PATCH
+    --------
+    VRE_SharpTalons hediff — talons tool converted to CombatExtended.ToolCE
+    with armorPenetrationSharp 0.65 / armorPenetrationBlunt 2.0, calibrated
+    against Saurid claws (Sharp 0.5) — talons are sharper per the lore.
 -->
 <Patch>
 
     <!-- ============================================================ -->
-    <!--  HSK MATERIAL CONVERSION — Deathrest / Hemogen buildings    -->
+    <!--  HSK BUILDING REBALANCE (stuff + components + minor mats)    -->
     <!-- ============================================================ -->
 
-    <!-- VRE_InvocationMatrix — Steel + Gold -->
+    <!-- VRE_SmallHemopump (1x1, small Hemopump) -->
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VRE_InvocationMatrix"]/costList/Steel</xpath>
-        <value><SteelBar>120</SteelBar></value>
-    </Operation>
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VRE_InvocationMatrix"]/costList/Gold</xpath>
-        <value><GoldBar>40</GoldBar></value>
-    </Operation>
-
-    <!-- VRE_HemodynamicAccelerator — Steel only -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VRE_HemodynamicAccelerator"]/costList/Steel</xpath>
-        <value><SteelBar>450</SteelBar></value>
-    </Operation>
-
-    <!-- VRE_HemogenSolidifier — Steel only -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VRE_HemogenSolidifier"]/costList/Steel</xpath>
-        <value><SteelBar>250</SteelBar></value>
+        <xpath>Defs/ThingDef[defName="VRE_SmallHemopump"]/costList</xpath>
+        <value>
+            <stuffCategories>
+                <li>Metallic</li>
+            </stuffCategories>
+            <costStuffCount>50</costStuffCount>
+            <costList>
+                <ComponentIndustrial>2</ComponentIndustrial>
+                <ElectronicComponents>1</ElectronicComponents>
+                <Mechanism>1</Mechanism>
+                <Rubber>4</Rubber>
+                <Plastic>4</Plastic>
+                <HemogenPack>5</HemogenPack>
+            </costList>
+        </value>
     </Operation>
 
-    <!-- VRE_SmallHemogenAmplifier — Steel only -->
+    <!-- VRE_SmallHemogenAmplifier (1x1, small HemogenAmplifier) -->
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VRE_SmallHemogenAmplifier"]/costList/Steel</xpath>
-        <value><SteelBar>100</SteelBar></value>
+        <xpath>Defs/ThingDef[defName="VRE_SmallHemogenAmplifier"]/costList</xpath>
+        <value>
+            <stuffCategories>
+                <li>Metallic</li>
+            </stuffCategories>
+            <costStuffCount>100</costStuffCount>
+            <costList>
+                <ComponentIndustrial>3</ComponentIndustrial>
+                <ElectronicComponents>1</ElectronicComponents>
+                <Electronics>1</Electronics>
+                <Rubber>3</Rubber>
+                <Plastic>5</Plastic>
+                <HemogenPack>5</HemogenPack>
+            </costList>
+        </value>
     </Operation>
 
-    <!-- VRE_SmallHemopump — Steel only -->
+    <!-- VRE_HemogenSolidifier (1x2, mid-tier hemogen processor — HemogenAmplifier full pattern) -->
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VRE_SmallHemopump"]/costList/Steel</xpath>
-        <value><SteelBar>50</SteelBar></value>
+        <xpath>Defs/ThingDef[defName="VRE_HemogenSolidifier"]/costList</xpath>
+        <value>
+            <stuffCategories>
+                <li>Metallic</li>
+            </stuffCategories>
+            <costStuffCount>200</costStuffCount>
+            <costList>
+                <ComponentIndustrial>4</ComponentIndustrial>
+                <ElectronicComponents>2</ElectronicComponents>
+                <Mechanism>2</Mechanism>
+                <Rubber>8</Rubber>
+                <Plastic>8</Plastic>
+                <HemogenPack>5</HemogenPack>
+            </costList>
+        </value>
     </Operation>
 
-    <!-- VRE_PsychofluidWell (Royalty DLC only) — Steel + Plasteel -->
+    <!-- VRE_HemodynamicAccelerator (2x2, DeathrestAccelerator-tier) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VRE_HemodynamicAccelerator"]/costList</xpath>
+        <value>
+            <stuffCategories>
+                <li>Metallic</li>
+            </stuffCategories>
+            <costStuffCount>200</costStuffCount>
+            <costList>
+                <ComponentIndustrial>6</ComponentIndustrial>
+                <ElectronicComponents>2</ElectronicComponents>
+                <Microchips>2</Microchips>
+                <Plastic>10</Plastic>
+                <HemogenPack>10</HemogenPack>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VRE_InvocationMatrix (2x2, ritual building — keep Gold flavor) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VRE_InvocationMatrix"]/costList</xpath>
+        <value>
+            <stuffCategories>
+                <li>Metallic</li>
+            </stuffCategories>
+            <costStuffCount>120</costStuffCount>
+            <costList>
+                <GoldBar>40</GoldBar>
+                <ComponentIndustrial>4</ComponentIndustrial>
+                <ElectronicComponents>1</ElectronicComponents>
+                <Microchips>1</Microchips>
+                <HemogenPack>5</HemogenPack>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VRE_PsychofluidWell (2x2, Royalty DLC, PsychofluidPump-tier) -->
     <Operation Class="PatchOperationFindMod">
         <mods>
             <li>Royalty</li>
         </mods>
         <match Class="PatchOperationReplace">
-            <xpath>Defs/ThingDef[defName="VRE_PsychofluidWell"]/costList/Steel</xpath>
-            <value><SteelBar>100</SteelBar></value>
+            <xpath>Defs/ThingDef[defName="VRE_PsychofluidWell"]/costList</xpath>
+            <value>
+                <stuffCategories>
+                    <li>Metallic</li>
+                </stuffCategories>
+                <costStuffCount>100</costStuffCount>
+                <costList>
+                    <Plasteel>100</Plasteel>
+                    <ComponentIndustrial>6</ComponentIndustrial>
+                    <ElectronicComponents>2</ElectronicComponents>
+                    <Mechanism>2</Mechanism>
+                    <Electronics>1</Electronics>
+                    <Rubber>12</Rubber>
+                    <CarbonAlloy>10</CarbonAlloy>
+                    <HemogenPack>5</HemogenPack>
+                </costList>
+            </value>
         </match>
     </Operation>
 

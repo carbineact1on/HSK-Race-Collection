@@ -11,10 +11,12 @@
 
 This bundles the upstream VRE Sanguophage mod content with HSK conventions and Combat Extended patches baked in. Do NOT enable the Steam Workshop version of VRE Sanguophage alongside this — they would duplicate each other's defs.
 
-HSK conversion:
-- 6 deathrest / hemogen buildings rebalanced to HSK refined alloys:
-  * Steel → SteelBar across InvocationMatrix, HemodynamicAccelerator, HemogenSolidifier, SmallHemogenAmplifier, SmallHemopump, and PsychofluidWell (Royalty)
-  * Gold → GoldBar on the InvocationMatrix
+HSK conversion (6 deathrest / hemogen buildings rewritten to match HSK Biotech building patterns from Core_SK/Biotech/Patches/ThingDefs_Buildings/Buildings_Deathrest.xml):
+- Switched from fixed Steel cost to stuffCategories Metallic + costStuffCount (HSK convention — build from any metal)
+- Added the missing HSK class component pipeline (ElectronicComponents, Mechanism, Electronics, Microchips) so Sanguophage buildings cost similar to vanilla Biotech equivalents (Hemopump, HemogenAmplifier, DeathrestAccelerator, PsychofluidPump)
+- Added Rubber, Plastic, CarbonAlloy minor materials as appropriate per building tier
+- Kept HemogenPack as fuel cost (HSK Biotech convention)
+- VRE_InvocationMatrix keeps GoldBar 40 for ritual flavor
 
 CE patches:
 - VRESanguophage_SharpTalons hediff — talons tool converted to CombatExtended.ToolCE with armor-penetration values (Sharp 0.65 / Blunt 2.0) that fit alongside the Saurid claws (Sharp 0.5) and other natural melee in this collection

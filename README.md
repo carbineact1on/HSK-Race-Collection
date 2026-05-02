@@ -52,10 +52,13 @@ Saurid is content-light (no recipes, no buildings, no costLists, no weapons, no 
 ### 🩸 HSK-VRE-Sanguophage
 Standalone bundle of **[Vanilla Races Expanded — Sanguophage](https://steamcommunity.com/sharedfiles/filedetails/?id=2963116383)** by Oskar Potocki, Sarg Bjornson, Erin. Vampire xenohumans with deathrest, hemogen mechanics, and supernatural abilities.
 
-HSK material conversion (6 deathrest / hemogen buildings):
-- `Steel → SteelBar` on InvocationMatrix, HemodynamicAccelerator, HemogenSolidifier, SmallHemogenAmplifier, SmallHemopump, and PsychofluidWell (Royalty DLC only)
-- `Gold → GoldBar` on the InvocationMatrix
-- Plasteel kept as-is (already HSK-native)
+HSK building rewrites (6 deathrest / hemogen buildings) — full HSK Biotech pattern matching the equivalent vanilla building's HSK costs (`Core_SK/Biotech/Patches/ThingDefs_Buildings/Buildings_Deathrest.xml`):
+- Switched from fixed Steel to `stuffCategories Metallic + costStuffCount` (build from any metal)
+- Added the missing HSK class component pipeline: `ElectronicComponents`, `Mechanism`, `Electronics`, `Microchips` per building tier
+- Added `Rubber`, `Plastic`, `CarbonAlloy` minor materials as appropriate
+- Kept `HemogenPack` as fuel cost (Biotech HSK convention)
+- VRE_InvocationMatrix keeps `GoldBar` 40 for ritual flavor
+- VRE_PsychofluidWell (Royalty DLC) gets the high-tier `PsychofluidPump` HSK pattern with CarbonAlloy + extra Rubber
 
 CE patches:
 - `VRE_SharpTalons` hediff — talons tool converted to `CombatExtended.ToolCE` with armor-penetration values (Sharp 0.65 / Blunt 2.0) calibrated against the rest of the collection's natural melee weapons
