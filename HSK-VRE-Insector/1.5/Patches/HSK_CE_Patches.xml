@@ -127,7 +127,7 @@
 
     <!-- VRE_Insectskin gene — basic carapace -->
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/GeneDef[defName="VRE_Insectskin"]/statOffsets</xpath>
+        <xpath>Defs/GeneDef[defName="VRE_InsectSkin"]/statOffsets</xpath>
         <value>
             <statOffsets>
                 <ArmorRating_Sharp>4</ArmorRating_Sharp>
