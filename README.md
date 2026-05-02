@@ -49,6 +49,11 @@ CE patches (adapted from Pacas Patches Compilation, re-tuned for HSK CE scale):
 
 Saurid is content-light (no recipes, no buildings, no costLists, no weapons, no apparel) — most HSK material conversion is moot since there's nothing to convert.
 
+### 🎨 HSK-VRE-CustomIcons
+Standalone bundle of **[Vanilla Races Expanded — Custom Icons](https://steamcommunity.com/sharedfiles/filedetails/?id=2917311689)** by Oskar Potocki and Sarg Bjornson. Adds extra icon options for the Biotech custom xenotype creator (Animal Heads, Biological, Body, Class, Combat, Cosmetic, Dragon, Elemental, Faction, Letters, Monster, Nature, Numbers, Robot, Saurid, Symbols).
+
+Pure UI utility — no genes, no abilities, no recipes, no combat, no balance changes. Nothing needs HSK or CE patching. Bundled here for convenience so users have a single drop-in replacement instead of needing the Steam Workshop version.
+
 ### 🌿 HSK-VRE-Phytokin
 Standalone bundle of **[Vanilla Races Expanded — Phytokin](https://steamcommunity.com/sharedfiles/filedetails/?id=2927323805)** by Oskar Potocki, Sarg Bjornson, Allie, Erin, Sir Van, Reann Shepard. Plant-based xenohumans with bark skin, photosynthesis, and dryad companions.
 
