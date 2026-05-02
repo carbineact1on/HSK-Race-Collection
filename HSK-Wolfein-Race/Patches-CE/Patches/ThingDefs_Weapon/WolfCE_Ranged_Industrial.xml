@@ -2293,19 +2293,19 @@
 	<!-- ============================================================ -->
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="W_Weapon_HG_HomemadePistol"]/researchPrerequisite</xpath>
+		<xpath>Defs/ThingDef[defName="W_Weapon_HG_HomemadePistol"]/recipeMaker/researchPrerequisite</xpath>
 		<value><researchPrerequisite>Gunsmithing</researchPrerequisite></value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="W_Weapon_HG_RebelPistol"]/researchPrerequisite</xpath>
+		<xpath>Defs/ThingDef[defName="W_Weapon_HG_RebelPistol"]/recipeMaker/researchPrerequisite</xpath>
 		<value><researchPrerequisite>Gunsmithing</researchPrerequisite></value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="W_Weapon_HG_Pistol"]/researchPrerequisite</xpath>
+		<xpath>Defs/ThingDef[defName="W_Weapon_HG_Pistol"]/recipeMaker/researchPrerequisite</xpath>
 		<value><researchPrerequisite>Gunsmithing</researchPrerequisite></value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="W_Weapon_HG_ChargeRapidFirePistol"]/researchPrerequisite</xpath>
+		<xpath>Defs/ThingDef[defName="W_Weapon_HG_ChargeRapidFirePistol"]/recipeMaker/researchPrerequisite</xpath>
 		<value><researchPrerequisite>Gunsmithing</researchPrerequisite></value>
 	</Operation>
 
