@@ -54,11 +54,6 @@ Standalone bundle of **[Vanilla Races Expanded — Highmate](https://steamcommun
 
 Pure social race — no combat, weapons, apparel, recipes, costLists, or items. Just cosmetic/social genes (FelineEars, FelineTail, PerfectBody, Libido, LovinDependency), traits (Flirty, Distressed, Harmless, Lowmate), the InitiateLovin ability, and the LovinDependency hediff. Nothing needs HSK or CE patching.
 
-### 🎨 HSK-VRE-CustomIcons
-Standalone bundle of **[Vanilla Races Expanded — Custom Icons](https://steamcommunity.com/sharedfiles/filedetails/?id=2917311689)** by Oskar Potocki and Sarg Bjornson. Adds extra icon options for the Biotech custom xenotype creator (Animal Heads, Biological, Body, Class, Combat, Cosmetic, Dragon, Elemental, Faction, Letters, Monster, Nature, Numbers, Robot, Saurid, Symbols).
-
-Pure UI utility — no genes, no abilities, no recipes, no combat, no balance changes. Nothing needs HSK or CE patching. Bundled here for convenience so users have a single drop-in replacement instead of needing the Steam Workshop version.
-
 ### 🌿 HSK-VRE-Phytokin
 Standalone bundle of **[Vanilla Races Expanded — Phytokin](https://steamcommunity.com/sharedfiles/filedetails/?id=2927323805)** by Oskar Potocki, Sarg Bjornson, Allie, Erin, Sir Van, Reann Shepard. Plant-based xenohumans with bark skin, photosynthesis, and dryad companions.
 
