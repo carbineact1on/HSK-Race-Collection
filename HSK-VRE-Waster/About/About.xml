@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>VRE Waster (HSK Patched)</name>
+    <packageId>CarbineAction.HSK.VRE.Waster</packageId>
+    <author>Oskar Potocki, Sarg Bjornson — HSK patch by CarbineAction</author>
+    <modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <description>HSK-patched standalone version of Vanilla Races Expanded — Waster, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VRE Waster mod content with HSK conventions baked in. Do NOT enable the Steam Workshop version of VRE Waster alongside this — they would duplicate each other's defs.
+
+HSK building rewrite (1 building):
+- VRE_BurnBarrel rewritten with full HSK pattern: stuffCategories RuggedMetallic + costStuffCount 45 + ComponentIndustrial 1 (HSK convention for outdoor/weather-exposed metal fixtures, with a single fab component for the sealed combustion barrel — sits at the bottom of the pollution-tier compared to HSK's WastepackAtomizer high-tech atomizer)
+
+No CE work needed. Waster's 17 pollution-themed genes (ToxAbsorption, PollutionRage, PollutionRegeneration, PollutionCognition, PollutionSustenance, PollutionAccuracy, etc.) and 11 pollution stimulus hediffs are pure stat-based mechanics — no tools, verbs, armor offsets, weapons, or apparel. Combat strength comes from vanilla mechanics + pollution interactions, not custom melee.
+
+Original mod by Oskar Potocki, Sarg Bjornson. HSK patch and bundling by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.</description>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+            <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+        </li>
+        <li>
+            <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+            <displayName>Vanilla Expanded Framework</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2023507013</steamWorkshopUrl>
+            <downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
+        </li>
+        <li>
+            <packageId>Ludeon.RimWorld.Biotech</packageId>
+            <displayName>RimWorld - Biotech</displayName>
+            <steamWorkshopUrl>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>skyarkhangel.HSK</packageId>
+            <displayName>Hardcore SK</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2424766948</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>CETeam.CombatExtended</packageId>
+            <displayName>Combat Extended</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2890901044</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+        <li>skyarkhangel.HSK</li>
+        <li>CETeam.CombatExtended</li>
+    </loadAfter>
+    <incompatibleWith>
+        <li>vanillaracesexpanded.waster</li>
+    </incompatibleWith>
+</ModMetaData>

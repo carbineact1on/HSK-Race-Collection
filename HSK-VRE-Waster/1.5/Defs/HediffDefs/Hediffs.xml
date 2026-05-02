@@ -1,0 +1,526 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HediffDef>
+		<defName>VRE_ToxAbsorption</defName>
+		<label>tox absorption</label>
+		<description>Directly absorbing toxic gases through the skin, increasing the speed at which pollution is satisfied for various pollution-related genes.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="VanillaRacesExpandedWaster.HediffCompProperties_ToxAbsorption">
+				
+			</li>
+		</comps>
+	</HediffDef>
+	<HediffDef>
+		<defName>VRE_PollutionRegeneration</defName>
+		<label>pollution regeneration</label>
+		<description>Benefitting from accelerated natural healing in polluted environments. As pollution levels increase, regenerative abilities are boosted, recovering from injuries and restoring vitality more rapidly.</description>
+		<descriptionShort>This creature is regenerating by exposure to pollution.</descriptionShort>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+		<isBad>false</isBad>
+		<makesSickThought>false</makesSickThought>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1</maxSeverity>
+		<minSeverity>0.001</minSeverity>
+		<initialSeverity>0.002</initialSeverity>
+		<comps>
+			<li Class="VanillaRacesExpandedWaster.HediffCompProperties_GeneDependentPollution">
+				<pollutedSeverity>0.0333</pollutedSeverity>
+				<unpollutedSeverity>-0.003</unpollutedSeverity>
+				<interval>60</interval>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>inactive</label>
+				<minSeverity>0.01</minSeverity>
+				
+
+			</li>
+			<li>
+				<label>minor</label>
+				<minSeverity>0.02</minSeverity>
+				
+				<statFactors>
+					<InjuryHealingFactor>1.2</InjuryHealingFactor>
+				</statFactors>
+				
+			</li>
+			<li>
+				<label>moderate</label>
+				<minSeverity>0.20</minSeverity>
+				<statFactors>
+					<InjuryHealingFactor>2.5</InjuryHealingFactor>
+				</statFactors>
+			</li>
+			<li>
+				<label>extreme</label>
+				<minSeverity>0.50</minSeverity>
+				<statFactors>
+					<InjuryHealingFactor>4</InjuryHealingFactor>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	<HediffDef>
+		<defName>VRE_PollutionRage</defName>
+		<label>pollution rage</label>
+		<description>Experiencing amplified close-quarters damage output in polluted environments. As pollution levels escalate, ferocity and strength intensify, allowing to inflict greater harm on adversaries.</description>
+		<descriptionShort>This creature is raging by exposure to pollution.</descriptionShort>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+		<isBad>false</isBad>
+		<makesSickThought>false</makesSickThought>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1</maxSeverity>
+		<minSeverity>0.001</minSeverity>
+		<initialSeverity>0.002</initialSeverity>
+		<comps>
+			<li Class="VanillaRacesExpandedWaster.HediffCompProperties_GeneDependentPollution">
+				<pollutedSeverity>0.0333</pollutedSeverity>
+				<unpollutedSeverity>-0.003</unpollutedSeverity>
+				<interval>60</interval>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>inactive</label>
+				<minSeverity>0.01</minSeverity>
+				
+
+			</li>
+			<li>
+				<label>minor</label>
+				<minSeverity>0.02</minSeverity>
+				
+				<statFactors>
+					<MeleeDamageFactor>1.1</MeleeDamageFactor>
+				</statFactors>
+				
+			</li>
+			<li>
+				<label>moderate</label>
+				<minSeverity>0.20</minSeverity>
+				<statFactors>
+					<MeleeDamageFactor>1.15</MeleeDamageFactor>
+				</statFactors>
+			</li>
+			<li>
+				<label>extreme</label>
+				<minSeverity>0.50</minSeverity>
+				<statFactors>
+					<MeleeDamageFactor>1.2</MeleeDamageFactor>
+				</statFactors>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>VRE_PollutionSustenance</defName>
+		<label>pollution sustenance</label>
+		<description>Deriving nutrition from pollution, slowing down hunger rate.</description>
+		<descriptionShort>This creature is deriving nutrition from their exposure to pollution.</descriptionShort>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+		<isBad>false</isBad>
+		<makesSickThought>false</makesSickThought>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1</maxSeverity>
+		<minSeverity>0.001</minSeverity>
+		<initialSeverity>0.002</initialSeverity>
+		<comps>
+			<li Class="VanillaRacesExpandedWaster.HediffCompProperties_GeneDependentPollution">
+				<pollutedSeverity>0.0333</pollutedSeverity>
+				<unpollutedSeverity>-0.003</unpollutedSeverity>
+				<interval>60</interval>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>inactive</label>
+				<minSeverity>0.01</minSeverity>
+				
+
+			</li>
+			<li>
+				<label>minor</label>
+				<minSeverity>0.02</minSeverity>			
+				<hungerRateFactorOffset>-0.15</hungerRateFactorOffset>
+				
+			</li>
+			<li>
+				<label>moderate</label>
+				<minSeverity>0.20</minSeverity>
+				<hungerRateFactorOffset>-0.3</hungerRateFactorOffset>
+			</li>
+			<li>
+				<label>extreme</label>
+				<minSeverity>0.50</minSeverity>
+				<hungerRateFactorOffset>-0.45</hungerRateFactorOffset>
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>VRE_PollutionCognition</defName>
+		<label>pollution cognition</label>
+		<description>Exhibiting enhanced focus and learning abilities in polluted environments. As pollution levels rise, capacity to acquire new skills and retain knowledge will expand.</description>
+		<descriptionShort>This creature has enhanced learning from their exposure to pollution.</descriptionShort>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+		<isBad>false</isBad>
+		<makesSickThought>false</makesSickThought>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1</maxSeverity>
+		<minSeverity>0.001</minSeverity>
+		<initialSeverity>0.002</initialSeverity>
+		<comps>
+			<li Class="VanillaRacesExpandedWaster.HediffCompProperties_GeneDependentPollution">
+				<pollutedSeverity>0.0333</pollutedSeverity>
+				<unpollutedSeverity>-0.003</unpollutedSeverity>
+				<interval>60</interval>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>inactive</label>
+				<minSeverity>0.01</minSeverity>
+				
+
+			</li>
+			<li>
+				<label>minor</label>
+				<minSeverity>0.02</minSeverity>	
+				<statFactors>
+					<GlobalLearningFactor>1.15</GlobalLearningFactor>
+				</statFactors>				
+				
+			</li>
+			<li>
+				<label>moderate</label>
+				<minSeverity>0.20</minSeverity>
+				<statFactors>
+					<GlobalLearningFactor>1.3</GlobalLearningFactor>
+				</statFactors>	
+			</li>
+			<li>
+				<label>extreme</label>
+				<minSeverity>0.50</minSeverity>
+				<statFactors>
+					<GlobalLearningFactor>1.5</GlobalLearningFactor>
+				</statFactors>	
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>VRE_PollutionNumbness</defName>
+		<label>pollution numbness</label>
+		<description>Exhibiting reduced pain sensations in polluted environments as pollution levels increase.</description>
+		<descriptionShort>This creature has reduced pain sensations from their exposure to pollution.</descriptionShort>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+		<isBad>false</isBad>
+		<makesSickThought>false</makesSickThought>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1</maxSeverity>
+		<minSeverity>0.001</minSeverity>
+		<initialSeverity>0.002</initialSeverity>
+		<comps>
+			<li Class="VanillaRacesExpandedWaster.HediffCompProperties_GeneDependentPollution">
+				<pollutedSeverity>0.0333</pollutedSeverity>
+				<unpollutedSeverity>-0.003</unpollutedSeverity>
+				<interval>60</interval>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>inactive</label>
+				<minSeverity>0.01</minSeverity>
+				
+
+			</li>
+			<li>
+				<label>minor</label>
+				<minSeverity>0.02</minSeverity>	
+				<painFactor>0.9</painFactor>				
+				
+			</li>
+			<li>
+				<label>moderate</label>
+				<minSeverity>0.20</minSeverity>
+				<painFactor>0.8</painFactor>	
+			</li>
+			<li>
+				<label>extreme</label>
+				<minSeverity>0.50</minSeverity>
+				<painFactor>0.7</painFactor>	
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>VRE_PollutionHappiness</defName>
+		<label>pollution happiness</label>
+		<description>Enjoying heightened levels of happiness in polluted environments, experiencing increased joy and contentment as pollution levels rise.</description>
+		<descriptionShort>This creature has increased mood from their exposure to pollution.</descriptionShort>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+		<isBad>false</isBad>
+		<makesSickThought>false</makesSickThought>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1</maxSeverity>
+		<minSeverity>0.001</minSeverity>
+		<initialSeverity>0.002</initialSeverity>
+		<comps>
+			<li Class="VanillaRacesExpandedWaster.HediffCompProperties_GeneDependentPollution">
+				<pollutedSeverity>0.0333</pollutedSeverity>
+				<unpollutedSeverity>-0.003</unpollutedSeverity>
+				<interval>60</interval>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>inactive</label>
+				<minSeverity>0.01</minSeverity>
+				
+
+			</li>
+			<li>
+				<label>minor</label>
+				<minSeverity>0.02</minSeverity>	
+							
+				
+			</li>
+			<li>
+				<label>moderate</label>
+				<minSeverity>0.20</minSeverity>
+				
+			</li>
+			<li>
+				<label>extreme</label>
+				<minSeverity>0.50</minSeverity>
+				
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>VRE_PollutionProductivity</defName>
+		<label>pollution productivity</label>
+		<description>Having work speed significantly improved in polluted environments and completing tasks more efficiently and swiftly as pollution levels increase.</description>
+		<descriptionShort>This creature has enhanced productivity from their exposure to pollution.</descriptionShort>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+		<isBad>false</isBad>
+		<makesSickThought>false</makesSickThought>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1</maxSeverity>
+		<minSeverity>0.001</minSeverity>
+		<initialSeverity>0.002</initialSeverity>
+		<comps>
+			<li Class="VanillaRacesExpandedWaster.HediffCompProperties_GeneDependentPollution">
+				<pollutedSeverity>0.0333</pollutedSeverity>
+				<unpollutedSeverity>-0.003</unpollutedSeverity>
+				<interval>60</interval>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>inactive</label>
+				<minSeverity>0.01</minSeverity>
+				
+
+			</li>
+			<li>
+				<label>minor</label>
+				<minSeverity>0.02</minSeverity>	
+				<statFactors>
+					<WorkSpeedGlobal>1.1</WorkSpeedGlobal>
+				</statFactors>				
+				
+			</li>
+			<li>
+				<label>moderate</label>
+				<minSeverity>0.20</minSeverity>
+				<statFactors>
+					<WorkSpeedGlobal>1.2</WorkSpeedGlobal>
+				</statFactors>	
+			</li>
+			<li>
+				<label>extreme</label>
+				<minSeverity>0.50</minSeverity>
+				<statFactors>
+					<WorkSpeedGlobal>1.3</WorkSpeedGlobal>
+				</statFactors>	
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>VRE_PollutionPsySensitivity</defName>
+		<label>pollution psy-sensitivity</label>
+		<description>Experiencing amplified psychic sensitivity in polluted environments, leading to stronger intuition and telepathic skills as pollution levels increase.</description>
+		<descriptionShort>This creature has enhanced psychic sensitivity from their exposure to pollution.</descriptionShort>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+		<isBad>false</isBad>
+		<makesSickThought>false</makesSickThought>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1</maxSeverity>
+		<minSeverity>0.001</minSeverity>
+		<initialSeverity>0.002</initialSeverity>
+		<comps>
+			<li Class="VanillaRacesExpandedWaster.HediffCompProperties_GeneDependentPollution">
+				<pollutedSeverity>0.0333</pollutedSeverity>
+				<unpollutedSeverity>-0.003</unpollutedSeverity>
+				<interval>60</interval>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>inactive</label>
+				<minSeverity>0.01</minSeverity>
+				
+
+			</li>
+			<li>
+				<label>minor</label>
+				<minSeverity>0.02</minSeverity>	
+				<statFactors>
+					<PsychicSensitivity>1.1</PsychicSensitivity>
+				</statFactors>				
+				
+			</li>
+			<li>
+				<label>moderate</label>
+				<minSeverity>0.20</minSeverity>
+				<statFactors>
+					<PsychicSensitivity>1.2</PsychicSensitivity>
+				</statFactors>	
+			</li>
+			<li>
+				<label>extreme</label>
+				<minSeverity>0.50</minSeverity>
+				<statFactors>
+					<PsychicSensitivity>1.3</PsychicSensitivity>
+				</statFactors>	
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>VRE_PollutionFertility</defName>
+		<label>pollution fertility</label>
+		<description>Experiencing a boost to fertility in polluted environments, allowing for increased offspring production and faster lineage expansion in hazardous conditions.</description>
+		<descriptionShort>This creature has enhanced fertility from their exposure to pollution.</descriptionShort>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+		<isBad>false</isBad>
+		<makesSickThought>false</makesSickThought>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1</maxSeverity>
+		<minSeverity>0.001</minSeverity>
+		<initialSeverity>0.002</initialSeverity>
+		<comps>
+			<li Class="VanillaRacesExpandedWaster.HediffCompProperties_GeneDependentPollution">
+				<pollutedSeverity>0.0333</pollutedSeverity>
+				<unpollutedSeverity>-0.003</unpollutedSeverity>
+				<interval>60</interval>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>inactive</label>
+				<minSeverity>0.01</minSeverity>
+				
+
+			</li>
+			<li>
+				<label>minor</label>
+				<minSeverity>0.02</minSeverity>	
+				<statFactors>
+					<Fertility>1.5</Fertility>
+				</statFactors>				
+				
+			</li>
+			<li>
+				<label>moderate</label>
+				<minSeverity>0.20</minSeverity>
+				<statFactors>
+					<Fertility>1.75</Fertility>
+				</statFactors>	
+			</li>
+			<li>
+				<label>extreme</label>
+				<minSeverity>0.50</minSeverity>
+				<statFactors>
+					<Fertility>2</Fertility>
+				</statFactors>	
+			</li>
+		</stages>
+	</HediffDef>
+	<HediffDef>
+		<defName>VRE_PollutionAccuracy</defName>
+		<label>pollution accuracy</label>
+		<description>Getting improved steadiness and precision in polluted environments.</description>
+		<descriptionShort>This creature has improved accuracy from their exposure to pollution.</descriptionShort>
+		<hediffClass>HediffWithComps</hediffClass>
+		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
+		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor>
+		<isBad>false</isBad>
+		<makesSickThought>false</makesSickThought>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1</maxSeverity>
+		<minSeverity>0.001</minSeverity>
+		<initialSeverity>0.002</initialSeverity>
+		<comps>
+			<li Class="VanillaRacesExpandedWaster.HediffCompProperties_GeneDependentPollution">
+				<pollutedSeverity>0.0333</pollutedSeverity>
+				<unpollutedSeverity>-0.003</unpollutedSeverity>
+				<interval>60</interval>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>inactive</label>
+				<minSeverity>0.01</minSeverity>
+				
+
+			</li>
+			<li>
+				<label>minor</label>
+				<minSeverity>0.02</minSeverity>	
+				<statFactors>
+					<AccuracyLong>1.1</AccuracyLong>
+					<AccuracyMedium>1.2</AccuracyMedium>
+				</statFactors>				
+				
+			</li>
+			<li>
+				<label>moderate</label>
+				<minSeverity>0.20</minSeverity>
+				<statFactors>
+					<AccuracyLong>1.2</AccuracyLong>
+					<AccuracyMedium>1.4</AccuracyMedium>
+				</statFactors>	
+			</li>
+			<li>
+				<label>extreme</label>
+				<minSeverity>0.50</minSeverity>
+				<statFactors>
+					<AccuracyLong>1.3</AccuracyLong>
+					<AccuracyMedium>1.6</AccuracyMedium>
+				</statFactors>	
+			</li>
+		</stages>
+	</HediffDef>
+</Defs>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/XenotypeDef[defName="Waster"]/genes</xpath>
+		<value>
+            <li>VREW_Mutation_Randomizer</li>
+			 <li>VRE_ToxAbsorption</li>
+			<li>VRE_Instability_Nominal</li>
+			<li>VRE_Instability_Progressive</li>
+		</value>
+	</Operation>
+	
+	
+	
+	<Operation Class="PatchOperationRemove">
+		<xpath>/Defs/XenotypeDef[defName="Waster"]/genes/li[text()="PollutionRush"]</xpath>
+		
+	</Operation>
+	
+</Patch>
+

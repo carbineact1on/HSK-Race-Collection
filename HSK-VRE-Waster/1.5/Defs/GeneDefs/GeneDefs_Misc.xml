@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef>
+		<defName>VRE_ToxAbsorption</defName>
+		<label>tox absorption</label>
+		<description>Carriers of this gene have the extraordinary ability to directly absorb toxic gases through their skin. This gene does not have any effect in itself, but it does increase the speed at which pollution is satisfied for various pollution-related genes.</description>
+		<iconPath>UI/Icons/Genes/Gene_ToxAbsorption</iconPath>
+		<displayCategory>Miscellaneous</displayCategory>
+		<displayOrderInCategory>500</displayOrderInCategory>
+		<biostatCpx>1</biostatCpx>
+		<biostatMet>-1</biostatMet>
+		<customEffectDescriptions>
+			<li>Pawns with this gene benefit from inhaling tox gas. If the pawn is standing on a cell with tox gas, Every 60 ticks (1 sec), pawn with the gene will increase in stimulus severity of any Pollution genes by additional +2.22%. This is separate from the increase based on standing on polluted terrain when having the pollution stimulus mutation / gene.</li>
+		</customEffectDescriptions>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<hediffToWholeBody>VRE_ToxAbsorption</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="CellInstabilityBase">
+		<defName>VRE_Instability_Nominal</defName>
+		<label>nominal cell instability</label>
+		<description>Carriers of this gene need slightly less metabolic energy to stay alive, at the cost of reduced stability in their cell-replication machinery.</description>
+		<iconPath>UI/Icons/Genes/Gene_NominalCellInstability</iconPath>
+		<displayOrderInCategory>129.9</displayOrderInCategory>
+		<biostatMet>1</biostatMet>
+		<statFactors>
+			<LifespanFactor>0.9</LifespanFactor>
+			<CancerRate>1.5</CancerRate>
+		</statFactors>
+	</GeneDef>
+	<GeneDef ParentName="CellInstabilityBase">
+		<defName>VRE_Instability_Extreme</defName>
+		<label>extreme cell instability</label>
+		<description>Carriers of this gene need very little metabolic energy to stay alive, at the cost of extremely-reduced stability in their cell-replication machinery.</description>
+		<iconPath>UI/Icons/Genes/Gene_ExtremeCellInstability</iconPath>
+		<displayOrderInCategory>135.01</displayOrderInCategory>
+		<biostatMet>6</biostatMet>
+		<statFactors>
+			<LifespanFactor>0.4</LifespanFactor>
+			<CancerRate>8</CancerRate>
+			<ImmunityGainSpeed>0.85</ImmunityGainSpeed>
+		</statFactors>
+	</GeneDef>
+	<GeneDef>
+		<defName>VRE_Instability_Progressive</defName>
+		<label>progressive cell instability</label>
+		<displayCategory>Miscellaneous</displayCategory>
+		<description>Carriers of this gene have their genetic code becoming progressively more unstable with every new generation.</description>
+		<iconPath>UI/Icons/Genes/Gene_ProgressiveCellInstability</iconPath>
+		<displayOrderInCategory>136</displayOrderInCategory>
+		<biostatMet>2</biostatMet>
+	</GeneDef>
+</Defs>

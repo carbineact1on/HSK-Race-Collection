@@ -49,6 +49,14 @@ CE patches (adapted from Pacas Patches Compilation, re-tuned for HSK CE scale):
 
 Saurid is content-light (no recipes, no buildings, no costLists, no weapons, no apparel) — most HSK material conversion is moot since there's nothing to convert.
 
+### ☢️ HSK-VRE-Waster
+Standalone bundle of **[Vanilla Races Expanded — Waster](https://steamcommunity.com/sharedfiles/filedetails/?id=2983471725)** by Oskar Potocki, Sarg Bjornson. Toxic-wasteland xenohumans that thrive on pollution.
+
+HSK building rewrite (1 building, full HSK pattern):
+- `VRE_BurnBarrel`: switched from fixed Steel 45 → `stuffCategories RuggedMetallic` + costStuffCount 45 + `ComponentIndustrial` 1. Outdoor/weather-exposed metal fixture pattern (HSK convention) with a single fab component for the sealed combustion barrel. Bottom of the pollution-tier vs HSK's WastepackAtomizer high-tech atomizer.
+
+No CE work needed — Waster's 17 pollution-themed genes (ToxAbsorption, PollutionRage, PollutionRegeneration, PollutionCognition, PollutionSustenance, PollutionAccuracy, etc.) and 11 pollution stimulus hediffs are pure stat-based mechanics with no tools, verbs, armor offsets, weapons, or apparel.
+
 ### 🤖 HSK-VRE-Android
 Standalone bundle of **[Vanilla Races Expanded — Android](https://steamcommunity.com/sharedfiles/filedetails/?id=2975771801)** by Oskar Potocki, Taranchuk, ISOREX, Sarg Bjornson. Synthetic xenohumans assembled from artificial body parts.
 

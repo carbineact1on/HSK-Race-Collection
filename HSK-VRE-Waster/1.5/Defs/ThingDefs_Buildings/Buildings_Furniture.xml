@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+		<defName>VRE_BurnBarrel</defName>
+		<label>burn barrel</label>
+		<description>A sturdy metal container designed for incinerating wastepacks. As it burns, it emits pollution and releases toxic gases, contaminating the surrounding area and creating an unfavorable environment for those sensitive to pollution, while proving advantageous for carriers of pollution-adaptive genes.</description>
+		<category>Building</category>
+		<graphicData>
+			<texPath>Things/Building/BurnBarrel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
+			<damageData>
+				<rect>(0.35,0.35,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>14</pathCost>
+		<constructEffect>ConstructMetal</constructEffect>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<fillPercent>0.15</fillPercent>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>3000</WorkToBuild>
+			<Flammability>0.5</Flammability>
+			<MeditationFocusStrength>0.0</MeditationFocusStrength>
+		</statBases>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>ToxGas</li>
+		</researchPrerequisites>
+		<selectable>true</selectable>
+		<costList>
+			<Steel>45</Steel>
+		</costList>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<comps>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>1.0</fuelConsumptionRate>
+				<fuelCapacity>4</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>Wastepack</li>
+					</thingDefs>
+				</fuelFilter>
+				<initialFuelPercent>0</initialFuelPercent>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>4</glowRadius>
+				<glowColor>(128, 180, 37,0)</glowColor>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusherPowered</compClass>
+				<heatPerSecond>14</heatPerSecond>
+				<heatPushMaxTemperature>28</heatPushMaxTemperature>
+			</li>
+			<li Class="VanillaRacesExpandedWaster.CompProperties_GreenFireOverlay">
+				<fireSize>0.8</fireSize>
+				<offset>(0,0,0.5)</offset>
+			</li>
+			<li Class="VanillaRacesExpandedWaster.CompProperties_GasProducer">
+				
+			</li>
+		</comps>
+		<designationCategory>Biotech</designationCategory>
+	</ThingDef>
+</Defs>

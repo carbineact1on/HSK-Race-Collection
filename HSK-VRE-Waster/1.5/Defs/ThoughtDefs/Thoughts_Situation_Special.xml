@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+  <ThoughtDef>
+    <defName>VRE_PollutionHappinessThoughts</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>VRE_PollutionHappiness</hediff>
+    <stages>
+	<li>
+        <label>no pollution happiness</label>
+        <description>Meh.</description>
+        <baseMoodEffect>0</baseMoodEffect>
+      </li>
+      <li>
+        <label>minor pollution happiness</label>
+        <description>I can feel the tingling of pollution in my veins. I like it.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>moderate pollution happiness</label>
+        <description>Pollution is what I thrive on, and I love every minute of it.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>extreme pollution happiness</label>
+        <description>My body is tox, my blood is rotstink!</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+</Defs>

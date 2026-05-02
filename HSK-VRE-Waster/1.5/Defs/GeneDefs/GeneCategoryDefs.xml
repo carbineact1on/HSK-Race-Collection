@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneCategoryDef>
+		<defName>VREW_Mutations</defName>
+		<label>mutations</label>
+		<displayPriorityInXenotype>9997</displayPriorityInXenotype>
+	</GeneCategoryDef>
+	
+</Defs>

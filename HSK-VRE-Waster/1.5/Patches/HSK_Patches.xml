@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    HSK material conversion for VRE Waster.
+
+    VRE_BurnBarrel — small primitive metal incinerator (1x1).
+
+    HSK pattern: switch from fixed Steel to stuffCategories RuggedMetallic +
+    costStuffCount (HSK convention for outdoor / weather-exposed metal
+    fixtures), and add a single ComponentIndustrial for the fab work that
+    goes into a sealed combustion barrel.
+
+    Reference: HSK WastepackAtomizer (the closest pollution-themed building)
+    uses RuggedMetallic + 200 stuff + 4 CompInd + 2 ElecComp + AdvMech +
+    NanostructuringChip. That's a high-tech waste-cleaning device — the
+    burn barrel is a *primitive* trash can you set on fire, so it sits at
+    the bottom of the tier with just the bare metal-fab cost.
+
+    No other Waster content needs HSK or CE patching. The 17 pollution-themed
+    genes (ToxAbsorption, PollutionRage, PollutionRegeneration, etc.) and
+    11 pollution stimulus hediffs are pure stat-based mechanics with no
+    tools, verbs, armor offsets, weapons, or apparel.
+-->
+<Patch>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VRE_BurnBarrel"]/costList</xpath>
+        <value>
+            <stuffCategories>
+                <li>RuggedMetallic</li>
+            </stuffCategories>
+            <costStuffCount>45</costStuffCount>
+            <costList>
+                <ComponentIndustrial>1</ComponentIndustrial>
+            </costList>
+        </value>
+    </Operation>
+
+</Patch>
