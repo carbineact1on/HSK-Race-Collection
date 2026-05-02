@@ -21,11 +21,15 @@ HSK building rewrites (6 production/utility buildings):
   * VREA_AndroidBehavioristStation — software/programming bench (CompInd 4 + CompSpacer 4 + GoldBar 20 + ElecComp 2 + Microchips 2)
   * VREA_NeutroCasket — neutroamine storage (CompInd 3 + ElecComp 1 + Mech 1)
 
-HSK material conversion on android body parts (15 craftable items, 3 needed swaps):
-- VREA_MetabolismRegulator: Gold 1 → GoldBar 1
-- VREA_ArtificialSpine: Gold 1 → GoldBar 1
-- VREA_Reactor: Uranium 20 → DepletedUranium 20
-- 12 other body parts already used HSK-native Plasteel + ComponentSpacer/Industrial — no changes needed
+FULL HSK conversion on all 15 android body parts — rewritten to match HSK Bionic / Cybernetic body part patterns from Core_SK/Defs/BodyParts/. Android body parts are now PREMIUM endgame craftables using the same Hyperweave / CarbonAlloy / SyntheticFibers / Microchips / ComponentAdvanced / Biomatter / ArtificialBone / Paraffins / ReinforcedGlass profile that HSK bionic body parts use:
+
+- Heart-tier organs (Hyperweave-based): NeuroPump (BionicHeart), AirFilter (BionicLung), Neutrofilter (BionicKidney), MetabolismRegulator (BionicStomach + GoldBar)
+- Cybernetic top-tier (ArchotechHeart-style): Reactor (+DepletedUranium), ArtificialBrain
+- Sensory: OpticalUnit (BionicEye), AudioProcessor (BionicEar), ArtificialNose (simple bionic)
+- Skeletal/structural: ArtificialJaw (BionicJaw), ArtificialRibcage (BionicNeck-style), ArtificialSpine (BionicSpine + GoldBar)
+- Limbs: AndroidLeg (BionicLeg), AndroidFoot (BionicFoot), AndroidArm (BionicArm), AndroidHand (BionicHand)
+
+This makes building a full android a premium endgame project rather than a mid-game crafting goal — comparable to outfitting an entire colony with HSK bionic upgrades.
 
 No CE work needed — androids do not have natural melee weapons (their capability comes from installed bionic-class artificial body parts which are stat hediffs, not Verb-givers).
 

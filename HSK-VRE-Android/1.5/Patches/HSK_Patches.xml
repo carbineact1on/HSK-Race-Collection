@@ -1,34 +1,57 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--
-    HSK patches for VRE Android.
+    HSK FULL conversion for VRE Android.
 
     Two categories:
 
     1. BUILDINGS — Switch from fixed Steel/Gold to stuffCategories Metallic +
        costStuffCount, and add the HSK class component pipeline (ElecComp,
-       Mechanism, Electronics, Microchips) to match HSK Biotech convention
-       on technologically advanced buildings. Keep Plasteel + ComponentSpacer
-       + ComponentIndustrial as-is (already HSK-native).
+       Mechanism, Electronics, Microchips, Glass) to match HSK Biotech
+       convention on tech buildings:
+         AndroidStand                — small storage furniture
+         AndroidPartWorkbench        — industrial fabrication bench
+         SubcorePolyanalyzer         — ultratech analyzer (Plasteel + CompSpacer)
+         AndroidCreationStation      — high-tech android assembler (Glass + Mech
+                                       to match HSK LargeMechGestator pattern)
+         AndroidBehavioristStation   — software/programming bench (GoldBar)
+         NeutroCasket                — neutroamine storage (Electronics 1 to
+                                       match HSK DeathrestCasket pattern)
 
-       Tier mapping:
-         AndroidStand              — small storage furniture (minimal)
-         AndroidPartWorkbench      — industrial fabrication bench
-         SubcorePolyanalyzer       — ultratech analyzer (Plasteel + CompSpacer)
-         AndroidCreationStation    — high-tech android assembler
-         AndroidBehavioristStation — software/programming bench (GoldBar)
-         NeutroCasket              — neutroamine storage casket
+    2. BODY PARTS — All 15 craftable artificial body parts rewritten to
+       match HSK Bionic / Cybernetic body part patterns from Core_SK/Defs/
+       BodyParts/. Android body parts are PREMIUM endgame craftables — same
+       Hyperweave/CarbonAlloy/SyntheticFibers/Microchips/ComponentAdvanced/
+       Biomatter/ArtificialBone/Paraffins/ReinforcedGlass profile that HSK
+       bionic body parts use.
 
-    2. BODY PARTS — Most android body part ThingDefs already use
-       Plasteel + ComponentSpacer (HSK-native). 3 items reference raw
-       Gold/Uranium ores instead of refined HSK alloys:
+       Heart-tier organs (Hyperweave-based):
+         VREA_NeuroPump          → BionicHeart pattern
+         VREA_AirFilter          → BionicLung pattern
+         VREA_Neutrofilter       → BionicKidney pattern
+         VREA_MetabolismRegulator → BionicStomach pattern + GoldBar
+       Cybernetic-tier (top-tier ArchotechHeart-style):
+         VREA_Reactor            → ComponentUltra/BioMicrochips + DepletedUranium
+         VREA_ArtificialBrain    → ComponentUltra/BioMicrochips
+       Sensory parts:
+         VREA_OpticalUnit        → BionicEye pattern
+         VREA_AudioProcessor     → BionicEar pattern
+         VREA_ArtificialNose     → simple bionic sensory
+       Skeletal/structural (ComponentAdvanced + Biomatter + ArtificialBone):
+         VREA_ArtificialJaw      → BionicJaw pattern
+         VREA_ArtificialRibcage  → BionicNeck-style pattern
+         VREA_ArtificialSpine    → BionicSpine pattern + GoldBar
+       Limbs:
+         VREA_AndroidLeg         → BionicLeg pattern
+         VREA_AndroidFoot        → BionicFoot pattern
+         VREA_AndroidArm         → BionicArm pattern
+         VREA_AndroidHand        → BionicHand pattern
 
-         VREA_MetabolismRegulator: Gold 1   → GoldBar 1
-         VREA_ArtificialSpine:     Gold 1   → GoldBar 1
-         VREA_Reactor:             Uranium 20 → DepletedUranium 20
+    All HSK material defs verified present in Core_SK:
+      Hyperweave, CarbonAlloy, SyntheticFibers, Microchips, ComponentAdvanced,
+      Biomatter, ArtificialBone, ReinforcedGlass, Paraffins, Glass,
+      ComponentUltra, BioMicrochips, GoldBar, DepletedUranium.
 
-    No CE work needed — androids do not have natural melee weapons; their
-    capability comes from installed bionic-class artificial body parts which
-    are stat hediffs, not Verb-givers.
+    No CE work needed — androids do not have natural melee weapons.
 -->
 <Patch>
 
@@ -84,7 +107,7 @@
         </value>
     </Operation>
 
-    <!-- VREA_AndroidCreationStation (high-tech android assembler) -->
+    <!-- VREA_AndroidCreationStation (LargeMechGestator-tier) -->
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="VREA_AndroidCreationStation"]/costList</xpath>
         <value>
@@ -93,9 +116,11 @@
             </stuffCategories>
             <costStuffCount>360</costStuffCount>
             <costList>
+                <Glass>40</Glass>
                 <ComponentIndustrial>6</ComponentIndustrial>
                 <ComponentSpacer>6</ComponentSpacer>
                 <ElectronicComponents>3</ElectronicComponents>
+                <Mechanism>2</Mechanism>
                 <Microchips>3</Microchips>
             </costList>
         </value>
@@ -119,7 +144,7 @@
         </value>
     </Operation>
 
-    <!-- VREA_NeutroCasket (ultratech storage casket) -->
+    <!-- VREA_NeutroCasket (DeathrestCasket-tier) -->
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="VREA_NeutroCasket"]/costList</xpath>
         <value>
@@ -131,27 +156,233 @@
                 <ComponentIndustrial>3</ComponentIndustrial>
                 <ElectronicComponents>1</ElectronicComponents>
                 <Mechanism>1</Mechanism>
+                <Electronics>1</Electronics>
             </costList>
         </value>
     </Operation>
 
     <!-- ============================================================ -->
-    <!--  ANDROID BODY PARTS — Gold → GoldBar, Uranium → DepletedUranium -->
+    <!--  BODY PARTS — full HSK Bionic / Cybernetic patterns         -->
     <!-- ============================================================ -->
 
+    <!-- VREA_NeuroPump (heart-equivalent pump) — BionicHeart pattern -->
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VREA_MetabolismRegulator"]/costList/Gold</xpath>
-        <value><GoldBar>1</GoldBar></value>
+        <xpath>Defs/ThingDef[defName="VREA_NeuroPump"]/costList</xpath>
+        <value>
+            <costList>
+                <Hyperweave>15</Hyperweave>
+                <CarbonAlloy>4</CarbonAlloy>
+                <SyntheticFibers>10</SyntheticFibers>
+                <Microchips>1</Microchips>
+            </costList>
+        </value>
     </Operation>
 
+    <!-- VREA_AirFilter (lung) — BionicLung pattern -->
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VREA_ArtificialSpine"]/costList/Gold</xpath>
-        <value><GoldBar>1</GoldBar></value>
+        <xpath>Defs/ThingDef[defName="VREA_AirFilter"]/costList</xpath>
+        <value>
+            <costList>
+                <Hyperweave>20</Hyperweave>
+                <CarbonAlloy>5</CarbonAlloy>
+                <SyntheticFibers>8</SyntheticFibers>
+                <Electronics>2</Electronics>
+            </costList>
+        </value>
     </Operation>
 
+    <!-- VREA_Neutrofilter (kidney/liver-style filter) — BionicKidney pattern -->
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VREA_Reactor"]/costList/Uranium</xpath>
-        <value><DepletedUranium>20</DepletedUranium></value>
+        <xpath>Defs/ThingDef[defName="VREA_Neutrofilter"]/costList</xpath>
+        <value>
+            <costList>
+                <Hyperweave>22</Hyperweave>
+                <CarbonAlloy>4</CarbonAlloy>
+                <SyntheticFibers>8</SyntheticFibers>
+                <Electronics>2</Electronics>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VREA_MetabolismRegulator (stomach + GoldBar accent) — BionicStomach pattern -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_MetabolismRegulator"]/costList</xpath>
+        <value>
+            <costList>
+                <Hyperweave>23</Hyperweave>
+                <CarbonAlloy>3</CarbonAlloy>
+                <SyntheticFibers>7</SyntheticFibers>
+                <Electronics>2</Electronics>
+                <GoldBar>1</GoldBar>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VREA_Reactor (unique high-power organ) — ArchotechHeart-tier + DepletedUranium -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_Reactor"]/costList</xpath>
+        <value>
+            <costList>
+                <ComponentUltra>2</ComponentUltra>
+                <Biomatter>15</Biomatter>
+                <BioMicrochips>1</BioMicrochips>
+                <Paraffins>10</Paraffins>
+                <ReinforcedGlass>5</ReinforcedGlass>
+                <DepletedUranium>20</DepletedUranium>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VREA_OpticalUnit (eye) — BionicEye pattern -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_OpticalUnit"]/costList</xpath>
+        <value>
+            <costList>
+                <Biomatter>20</Biomatter>
+                <SyntheticFibers>6</SyntheticFibers>
+                <Paraffins>15</Paraffins>
+                <ReinforcedGlass>10</ReinforcedGlass>
+                <Microchips>1</Microchips>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VREA_AudioProcessor (ear) — BionicEar pattern -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_AudioProcessor"]/costList</xpath>
+        <value>
+            <costList>
+                <Biomatter>25</Biomatter>
+                <SyntheticFibers>7</SyntheticFibers>
+                <Paraffins>13</Paraffins>
+                <Microchips>1</Microchips>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VREA_ArtificialBrain (top-tier brain) — Cybernetic / ArchotechHeart-tier -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_ArtificialBrain"]/costList</xpath>
+        <value>
+            <costList>
+                <ComponentUltra>2</ComponentUltra>
+                <Biomatter>20</Biomatter>
+                <BioMicrochips>2</BioMicrochips>
+                <Paraffins>10</Paraffins>
+                <ReinforcedGlass>5</ReinforcedGlass>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VREA_ArtificialNose (simple sensory bionic) -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_ArtificialNose"]/costList</xpath>
+        <value>
+            <costList>
+                <Biomatter>10</Biomatter>
+                <SyntheticFibers>3</SyntheticFibers>
+                <Microchips>1</Microchips>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VREA_ArtificialJaw — BionicJaw pattern -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_ArtificialJaw"]/costList</xpath>
+        <value>
+            <costList>
+                <ComponentAdvanced>6</ComponentAdvanced>
+                <Biomatter>25</Biomatter>
+                <SyntheticFibers>6</SyntheticFibers>
+                <ArtificialBone>1</ArtificialBone>
+                <Microchips>1</Microchips>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VREA_ArtificialRibcage — BionicNeck-style structural -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_ArtificialRibcage"]/costList</xpath>
+        <value>
+            <costList>
+                <ComponentAdvanced>4</ComponentAdvanced>
+                <Biomatter>30</Biomatter>
+                <SyntheticFibers>20</SyntheticFibers>
+                <ArtificialBone>1</ArtificialBone>
+                <Microchips>1</Microchips>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VREA_ArtificialSpine — BionicSpine pattern + GoldBar -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_ArtificialSpine"]/costList</xpath>
+        <value>
+            <costList>
+                <ComponentAdvanced>6</ComponentAdvanced>
+                <Biomatter>45</Biomatter>
+                <SyntheticFibers>25</SyntheticFibers>
+                <ArtificialBone>4</ArtificialBone>
+                <Microchips>1</Microchips>
+                <GoldBar>1</GoldBar>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VREA_AndroidLeg — BionicLeg pattern -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_AndroidLeg"]/costList</xpath>
+        <value>
+            <costList>
+                <ComponentAdvanced>6</ComponentAdvanced>
+                <Biomatter>40</Biomatter>
+                <SyntheticFibers>20</SyntheticFibers>
+                <ArtificialBone>5</ArtificialBone>
+                <Microchips>1</Microchips>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VREA_AndroidFoot — BionicFoot pattern -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_AndroidFoot"]/costList</xpath>
+        <value>
+            <costList>
+                <ComponentAdvanced>4</ComponentAdvanced>
+                <Biomatter>25</Biomatter>
+                <SyntheticFibers>16</SyntheticFibers>
+                <ArtificialBone>2</ArtificialBone>
+                <Microchips>1</Microchips>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VREA_AndroidArm — BionicArm pattern -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_AndroidArm"]/costList</xpath>
+        <value>
+            <costList>
+                <ComponentAdvanced>5</ComponentAdvanced>
+                <Biomatter>30</Biomatter>
+                <SyntheticFibers>15</SyntheticFibers>
+                <ArtificialBone>5</ArtificialBone>
+                <Microchips>1</Microchips>
+            </costList>
+        </value>
+    </Operation>
+
+    <!-- VREA_AndroidHand — BionicHand pattern -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VREA_AndroidHand"]/costList</xpath>
+        <value>
+            <costList>
+                <ComponentAdvanced>4</ComponentAdvanced>
+                <Biomatter>25</Biomatter>
+                <SyntheticFibers>16</SyntheticFibers>
+                <ArtificialBone>2</ArtificialBone>
+                <Microchips>1</Microchips>
+            </costList>
+        </value>
     </Operation>
 
 </Patch>

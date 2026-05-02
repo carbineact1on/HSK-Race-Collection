@@ -57,11 +57,12 @@ HSK building rewrites (6 production/utility buildings, full HSK pattern):
 - Added HSK class components (`ElectronicComponents`, `Mechanism`, `Electronics`, `Microchips`) per building tier
 - AndroidStand (minimal), AndroidPartWorkbench (industrial), SubcorePolyanalyzer (ultratech analyzer), AndroidCreationStation (high-tech assembler), AndroidBehavioristStation (software bench, GoldBar 20), NeutroCasket (storage)
 
-HSK material on body parts (15 craftable items, 3 needed swaps):
-- `VREA_MetabolismRegulator`: Gold 1 → GoldBar 1
-- `VREA_ArtificialSpine`: Gold 1 → GoldBar 1
-- `VREA_Reactor`: Uranium 20 → DepletedUranium 20
-- 12 other body parts already used HSK-native Plasteel + ComponentSpacer/Industrial
+FULL HSK conversion on all 15 body parts — rewritten to match HSK Bionic / Cybernetic body part patterns from `Core_SK/Defs/BodyParts/`. Building a full android is now a premium endgame project comparable to outfitting an entire colony with HSK bionic upgrades:
+- **Heart-tier organs** (Hyperweave + CarbonAlloy + SyntheticFibers + Microchips/Electronics): NeuroPump, AirFilter, Neutrofilter, MetabolismRegulator (+GoldBar)
+- **Cybernetic top-tier** (ComponentUltra + Biomatter + BioMicrochips + Paraffins + ReinforcedGlass): Reactor (+DepletedUranium), ArtificialBrain
+- **Sensory** (Biomatter + SyntheticFibers + Paraffins + Microchips): OpticalUnit (BionicEye), AudioProcessor (BionicEar), ArtificialNose
+- **Skeletal/structural** (ComponentAdvanced + Biomatter + ArtificialBone + Microchips): ArtificialJaw, ArtificialRibcage, ArtificialSpine (+GoldBar)
+- **Limbs** (ComponentAdvanced + Biomatter + SyntheticFibers + ArtificialBone + Microchips): AndroidLeg/Foot/Arm/Hand
 
 No CE work — androids have no natural melee weapons (capability comes from stat-hediff bionic body parts, not Verb-givers).
 
