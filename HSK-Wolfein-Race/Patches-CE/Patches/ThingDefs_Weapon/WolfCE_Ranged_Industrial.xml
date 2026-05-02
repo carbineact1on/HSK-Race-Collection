@@ -2283,4 +2283,51 @@
 		</weaponTags>
 	</Operation>
 
+	<!-- ============================================================ -->
+	<!--  HSK FIXUPS                                                  -->
+	<!--  HSK has disabled costList and researchPrerequisite          -->
+	<!--  inside PatchOperationMakeGunCECompatible. The values that   -->
+	<!--  were embedded above are extracted into standalone           -->
+	<!--  PatchOperationReplace ops so they actually apply.           -->
+	<!--  Missile launcher costLists upgraded Steel to SteelBar.      -->
+	<!-- ============================================================ -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="W_Weapon_HG_HomemadePistol"]/researchPrerequisite</xpath>
+		<value><researchPrerequisite>Gunsmithing</researchPrerequisite></value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="W_Weapon_HG_RebelPistol"]/researchPrerequisite</xpath>
+		<value><researchPrerequisite>Gunsmithing</researchPrerequisite></value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="W_Weapon_HG_Pistol"]/researchPrerequisite</xpath>
+		<value><researchPrerequisite>Gunsmithing</researchPrerequisite></value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="W_Weapon_HG_ChargeRapidFirePistol"]/researchPrerequisite</xpath>
+		<value><researchPrerequisite>Gunsmithing</researchPrerequisite></value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="W_Weapon_MissileLauncher"]/costList</xpath>
+		<value>
+			<costList>
+				<SteelBar>80</SteelBar>
+				<ComponentIndustrial>2</ComponentIndustrial>
+				<WoodLog>20</WoodLog>
+			</costList>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="W_Weapon_RebelMissileLauncher"]/costList</xpath>
+		<value>
+			<costList>
+				<SteelBar>80</SteelBar>
+				<ComponentIndustrial>2</ComponentIndustrial>
+				<WoodLog>20</WoodLog>
+			</costList>
+		</value>
+	</Operation>
+
 </Patch>
