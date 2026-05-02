@@ -49,6 +49,22 @@ CE patches (adapted from Pacas Patches Compilation, re-tuned for HSK CE scale):
 
 Saurid is content-light (no recipes, no buildings, no costLists, no weapons, no apparel) — most HSK material conversion is moot since there's nothing to convert.
 
+### 🪲 HSK-VRE-Insector
+Standalone bundle of **[Vanilla Races Expanded — Insector](https://steamcommunity.com/sharedfiles/filedetails/?id=3260509684)** by Oskar Potocki, Taranchuk, Sarg Bjornson. Insectoid xenohumans with mandibles, horns, ripper-blades, chitinous armor, and metamorphosis (metapod).
+
+CE patches (4 insectoid melee hediffs → `CombatExtended.ToolCE`):
+- `VRE_InsectMandibles` — Cut, Sharp 0.5 / Blunt 2.0
+- `VRE_HornAttack` (megaspider horns) — Stab, Sharp 0.4 / Blunt 2.5
+- `VRE_RipperBlades` (armor-rending) — Cut, Sharp 0.7 / Blunt 1.5
+- `VRE_InsectRostrum` (cross-mod, VFE Insectoid 2 only) — Stab, Sharp 0.6 / Blunt 2.0
+
+HSK CE armor rescale:
+- `VRE_Insectskin` gene — Sharp 0.27/Blunt 0.18 → Sharp 4/Blunt 4 (HSK CE basic carapace, matches Saurid scaleskin)
+- `VRE_MineralRichInsectskin` hediff (cross-mod, 2 health stages) — low-health 0.48/0.26 → 6/4 and full-health 0.9/0.52 → 12/8 (between flak and marine when intact)
+
+HSK material rebalance:
+- `VRE_InfestedShipPart_Spawned` — bumped to ~50% of HSK vanilla ShipChunk's deconstruct yield (was ~37%): SteelBar 30 + ComponentIndustrial 8 + Wire 8 + InsectJelly 5
+
 ### 🩸 HSK-VRE-Sanguophage
 Standalone bundle of **[Vanilla Races Expanded — Sanguophage](https://steamcommunity.com/sharedfiles/filedetails/?id=2963116383)** by Oskar Potocki, Sarg Bjornson, Erin. Vampire xenohumans with deathrest, hemogen mechanics, and supernatural abilities.
 

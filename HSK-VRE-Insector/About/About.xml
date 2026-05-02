@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>VRE Insector (HSK/CE Patched)</name>
+    <packageId>CarbineAction.HSK.VRE.Insector</packageId>
+    <author>Oskar Potocki, Taranchuk, Sarg Bjornson — HSK/CE patch by CarbineAction</author>
+    <modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <description>HSK/CE-patched standalone version of Vanilla Races Expanded — Insector, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VRE Insector mod content with HSK conventions and Combat Extended patches baked in. Do NOT enable the Steam Workshop version of VRE Insector alongside this — they would duplicate each other's defs.
+
+CE patches:
+- 4 insectoid melee hediffs converted to CombatExtended.ToolCE with proper Sharp/Blunt armor penetration:
+  * VRE_InsectMandibles  — Cut, Sharp 0.5 / Blunt 2.0
+  * VRE_HornAttack       — Stab (megaspider horns), Sharp 0.4 / Blunt 2.5
+  * VRE_RipperBlades     — Cut (armor-rending blades), Sharp 0.7 / Blunt 1.5
+  * VRE_InsectRostrum    — Stab (cross-mod, only fires when VFE Insectoid 2 active), Sharp 0.6 / Blunt 2.0
+
+HSK CE armor rescale:
+- VRE_Insectskin gene (basic carapace) — Sharp 0.27 / Blunt 0.18 → Sharp 4 / Blunt 4 (HSK CE basic carapace tier, matches Saurid scaleskin)
+- VRE_MineralRichInsectskin hediff (cross-mod, 2 health stages) — rescaled from vanilla CE 0.48/0.26 → 6/4 (low health, cracked) and 0.9/0.52 → 12/8 (full health, between flak and marine)
+
+HSK material rebalance:
+- VRE_InfestedShipPart_Spawned — bumped to ~50% of HSK vanilla ShipChunk's deconstruct yield (was ~37%): SteelBar 30 + ComponentIndustrial 8 + Wire 8 + InsectJelly 5. Lore-friendly: still less salvageable than clean ship debris because of insectoid biomass takeover, but no longer 3x cheaper than what HSK colonies expect.
+
+No work needed for: AcidBurstSack/ChemfuelSacks (use AnimalBehaviours explosion comps that work under CE), Metapod cocoon mechanics, Insector psychic abilities.
+
+Original mod by Oskar Potocki, Taranchuk, Sarg Bjornson. HSK/CE conversion + bundling by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC. VFE Insectoid 2 cross-mod patches (InsectRostrum, MineralRichInsectskin) only fire when that mod is active.</description>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+            <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+        </li>
+        <li>
+            <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+            <displayName>Vanilla Expanded Framework</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2023507013</steamWorkshopUrl>
+            <downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
+        </li>
+        <li>
+            <packageId>Ludeon.RimWorld.Biotech</packageId>
+            <displayName>RimWorld - Biotech</displayName>
+            <steamWorkshopUrl>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>skyarkhangel.HSK</packageId>
+            <displayName>Hardcore SK</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2424766948</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>CETeam.CombatExtended</packageId>
+            <displayName>Combat Extended</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2890901044</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+        <li>skyarkhangel.HSK</li>
+        <li>CETeam.CombatExtended</li>
+    </loadAfter>
+    <incompatibleWith>
+        <li>vanillaracesexpanded.insector</li>
+    </incompatibleWith>
+</ModMetaData>
