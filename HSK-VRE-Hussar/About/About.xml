@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>VRE Hussar (HSK/CE Patched)</name>
+    <packageId>CarbineAction.HSK.VRE.Hussar</packageId>
+    <author>Oskar Potocki, xrushha, Taranchuk, Sarg Bjornson — HSK/CE patch by CarbineAction (CE patches adapted from Pacas Patches Compilation)</author>
+    <modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <description>HSK/CE-patched standalone version of Vanilla Races Expanded — Hussar, tuned for the Hardcore SK modpack.
+
+This bundles the upstream VRE Hussar mod content with HSK conventions and Combat Extended patches baked in. Do NOT enable the Steam Workshop version of VRE Hussar alongside this — they would duplicate each other's defs.
+
+Bundled CE patches (adapted from Pacas Patches Compilation, then re-tuned for HSK CE armor scale):
+- VREH_BulletproofSkin gene — natural kevlar-like armor rescaled to HSK CE values (Sharp 8 / Blunt 8, between flak and marine armor; Pacas's vanilla CE 5.0/5.0 was about half-flak under HSK CE math)
+- VREH_BlackListedWeapons — extended with 56 entries so the WeaponAptitude gene system doesn't roll silly aptitudes like "aptitude in Mech Heavy Laser" or "aptitude in WoodLog":
+  * Vanilla mech weapons (9, from Pacas) — Mech Blaster, Charge Lance, Inferno Cannon, etc.
+  * Non-weapon items (6, from Pacas) — WoodLog, Bamboo, Kindling, etc.
+  * Wolfein racial mech weapons (4, MayRequire-gated)
+  * VFE Pirates warcasket-only guns (15, MayRequire-gated) — humanoids can't equip these
+  * VFE Mechanoids mech weapons (22, MayRequire-gated)
+
+Hussar is content-light (no recipes, no buildings, no costLists, no weapons, no apparel of its own — Hussars use vanilla weapons via the WeaponAptitude gene system). All HSK material conventions are preserved by default since there's nothing to convert.
+
+Original mod by Oskar Potocki, xrushha, Taranchuk, Sarg Bjornson. CE patch baseline by Pacas. HSK/CE conversion + bundling by CarbineAction.
+
+Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.</description>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+            <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+        </li>
+        <li>
+            <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+            <displayName>Vanilla Expanded Framework</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2023507013</steamWorkshopUrl>
+            <downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
+        </li>
+        <li>
+            <packageId>Ludeon.RimWorld.Biotech</packageId>
+            <displayName>RimWorld - Biotech</displayName>
+            <steamWorkshopUrl>https://store.steampowered.com/app/1826140/RimWorld__Biotech/</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>skyarkhangel.HSK</packageId>
+            <displayName>Hardcore SK</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2424766948</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>CETeam.CombatExtended</packageId>
+            <displayName>Combat Extended</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2890901044</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+        <li>skyarkhangel.HSK</li>
+        <li>CETeam.CombatExtended</li>
+    </loadAfter>
+    <incompatibleWith>
+        <li>vanillaracesexpanded.hussar</li>
+    </incompatibleWith>
+</ModMetaData>

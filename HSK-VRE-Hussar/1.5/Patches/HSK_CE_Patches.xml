@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    HSK + Combat Extended patches for VRE Hussar.
+
+    Adapted from Pacas Patches Compilation, then re-tuned for HSK CE armor
+    scale and extended with HSK modpack-specific mech weapons.
+
+    HSK CE uses ~10x higher armor numbers than vanilla CE:
+      vanilla parka  = Sharp 5
+      flak jacket    = Sharp 12
+      marine armor   = Sharp 24
+
+    Pacas's vanilla CE values for BulletproofSkin (Sharp 5.0 / Blunt 5.0) are
+    about half-flak under HSK CE math. The lore describes the gene as
+    "organic kevlar-like strands" that deflect smaller-caliber bullets — for
+    HSK CE we bump to Sharp 8 / Blunt 8 (between flak and marine), which
+    matches the description of meaningful natural armor.
+
+    BlackListedWeapons additions extend Pacas's list to also cover modded
+    mech-only weapons from the HSK modpack ecosystem. Without these, the
+    WeaponAptitude gene system would roll silly aptitudes like "aptitude in
+    VFE_Gun_AdvancedChargeLance" for Hussars who can never equip mech weapons.
+
+    Coverage:
+      Vanilla mechanoid weapons        — Pacas's original 9 entries
+      Non-weapon items (wood/bamboo)   — Pacas's original 6 entries
+      Wolfein racial mech weapons      — 4 entries
+      VFE Pirates warcasket guns       — 15 entries (warcaskets only, not pawns)
+      VFE Mechanoids mech weapons      — 22 entries
+-->
+<Patch>
+
+    <!-- ===== BulletproofSkin gene — natural armor at HSK CE scale ===== -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/GeneDef[defName="VREH_BulletproofSkin"]</xpath>
+        <value>
+            <statOffsets>
+                <ArmorRating_Sharp>8</ArmorRating_Sharp>
+                <ArmorRating_Blunt>8</ArmorRating_Blunt>
+            </statOffsets>
+        </value>
+    </Operation>
+
+    <!-- ===== Extend WeaponAptitude blacklist (vanilla + HSK modpack) ===== -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/VREHussars.BlackListedWeaponsDef[defName="VREH_BlackListedWeapons"]/blackListedWeapons</xpath>
+        <value>
+            <!-- Pacas's baseline: vanilla mech weapons -->
+            <li>Gun_lightmechblaster</li>
+            <li>Gun_ChargeBlasterHeavy</li>
+            <li>Gun_InfernoCannon</li>
+            <li>Gun_mechlaser</li>
+            <li>Gun_mechheavylaser</li>
+            <li>Gun_ZeonBlaster</li>
+            <li>Gun_MechPlasma</li>
+            <li>Gun_ChargeLance</li>
+            <li>Gun_Needle</li>
+            <!-- Pacas's baseline: non-weapon items the game treats as wieldable -->
+            <li>WoodLog</li>
+            <li>RedWoodLog</li>
+            <li>Bamboo</li>
+            <li>BambooPlank</li>
+            <li>RedWoodPlank</li>
+            <li>Kindling</li>
+            <!-- HSK Wolfein racial mech weapons (MayRequire to skip if Wolfein not loaded) -->
+            <li MayRequire="CarbineAction.HSK.Wolfein.Race">W_Weapon_Drone</li>
+            <li MayRequire="CarbineAction.HSK.Wolfein.Race">W_Weapon_DroneRocket</li>
+            <li MayRequire="CarbineAction.HSK.Wolfein.Race">W_Weapon_MG_Autocannon</li>
+            <li MayRequire="CarbineAction.HSK.Wolfein.Race">W_Weapon_MG_HeavyChargeMinigun</li>
+            <!-- VFE Pirates warcasket-only weapons (humanoids can't equip) -->
+            <li MayRequire="CarbineAction.HSK.VFE.Pirates">VFEP_WarcasketGun_Autorifle</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Pirates">VFEP_WarcasketGun_ChargeBlaster</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Pirates">VFEP_WarcasketGun_ChargeLance</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Pirates">VFEP_WarcasketGun_CryptoCannon</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Pirates">VFEP_WarcasketGun_FoldingGun</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Pirates">VFEP_WarcasketGun_GrenadeLauncher</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Pirates">VFEP_WarcasketGun_HandheldCannon</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Pirates">VFEP_WarcasketGun_HeavyFlamer</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Pirates">VFEP_WarcasketGun_LaserBlaster</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Pirates">VFEP_WarcasketGun_Minigun</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Pirates">VFEP_WarcasketGun_Railgun</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Pirates">VFEP_WarcasketGun_SalvagedLaserEradicator</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Pirates">VFEP_WarcasketGun_Slugthrower</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Pirates">VFEP_WarcasketGun_TearGasGrenadeLauncher</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Pirates">VFEP_WarcasketGun_UraniumSlugRifle</li>
+            <!-- VFE Mechanoids mech-only weapons -->
+            <li MayRequire="CarbineAction.HSK.VFE.Mechanoids">VFE_Gun_AdvancedChargeBlasterHeavy</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Mechanoids">VFE_Gun_AdvancedChargeBlasterLight</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Mechanoids">VFE_Gun_AdvancedChargeLance</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Mechanoids">VFE_Gun_AdvancedInfernoCannon</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Mechanoids">VFE_Gun_AdvancedInfernoSpewer</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Mechanoids">VFE_Gun_AdvancedNeedle</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Mechanoids">VFE_Gun_AdvancedThumpCannon</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Mechanoids">VFE_Gun_AutoChargeBlaster</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Mechanoids">VFE_Gun_AutoChargeLance</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Mechanoids">VFE_Gun_AutoInfernoCannon</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Mechanoids">VFE_Gun_AutoMortarCannon</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Mechanoids">VFE_Gun_AutoTesla</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Mechanoids">VFE_Gun_ChargeBlasterCannon</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Mechanoids">VFE_Gun_ChargeBlasterLight</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Mechanoids">VFE_Gun_ChargeLanceCannon</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Mechanoids">VFE_Gun_ChargeRailgun</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Mechanoids">VFE_Gun_CombatMechanoidGun</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Mechanoids">VFE_Gun_InfernoArtillery</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Mechanoids">VFE_Gun_InfernoSpewer</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Mechanoids">VFE_Gun_InfernoSpewerSmall</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Mechanoids">VFE_Gun_OrbitalBombardmentTargeter</li>
+            <li MayRequire="CarbineAction.HSK.VFE.Mechanoids">VFE_Gun_RaiderMechanoidGun</li>
+        </value>
+    </Operation>
+
+</Patch>

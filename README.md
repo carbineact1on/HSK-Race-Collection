@@ -49,6 +49,19 @@ CE patches (adapted from Pacas Patches Compilation, re-tuned for HSK CE scale):
 
 Saurid is content-light (no recipes, no buildings, no costLists, no weapons, no apparel) — most HSK material conversion is moot since there's nothing to convert.
 
+### 🪖 HSK-VRE-Hussar
+Standalone bundle of **[Vanilla Races Expanded — Hussar](https://steamcommunity.com/sharedfiles/filedetails/?id=2893586390)** by Oskar Potocki, xrushha, Taranchuk, Sarg Bjornson. Hussar super-soldier xenohumans with bulletproof skin, weapon-aptitude genes, and luciferium dependency.
+
+CE patches (adapted from Pacas Patches Compilation, re-tuned for HSK CE scale):
+- `VREH_BulletproofSkin` gene — kevlar-like natural armor at HSK CE scale (Sharp 8 / Blunt 8, between flak and marine armor; Pacas's vanilla CE 5.0/5.0 was about half-flak under HSK CE math)
+- `VREH_BlackListedWeapons` — extended with 56 entries (Pacas's vanilla list + HSK modpack mech weapons) so the WeaponAptitude gene system doesn't roll silly aptitudes:
+  - Vanilla mech weapons (9) + non-weapon items (6) — from Pacas
+  - Wolfein racial mech weapons (4) — `MayRequire`-gated
+  - VFE Pirates warcasket-only guns (15) — `MayRequire`-gated
+  - VFE Mechanoids mech weapons (22) — `MayRequire`-gated
+
+Hussar is content-light (no recipes, no buildings, no costLists, no apparel of its own — Hussars use vanilla weapons via the WeaponAptitude gene system).
+
 ## Installation
 
 1. Clone or download this repo
