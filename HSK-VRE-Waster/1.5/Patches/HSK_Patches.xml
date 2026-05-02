@@ -35,4 +35,9 @@
         </value>
     </Operation>
 
+    <!-- Strip inherited constructEffect: madeFromStuff + constructEffect is a config error -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VRE_BurnBarrel"]/constructEffect</xpath>
+    </Operation>
+
 </Patch>

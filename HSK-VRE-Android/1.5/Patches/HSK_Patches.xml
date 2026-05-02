@@ -162,227 +162,24 @@
     </Operation>
 
     <!-- ============================================================ -->
-    <!--  BODY PARTS — full HSK Bionic / Cybernetic patterns         -->
+    <!--  Strip inherited constructEffect for buildings now madeFromStuff -->
+    <!--  (constructEffect + stuffCategories causes a config error)   -->
     <!-- ============================================================ -->
 
-    <!-- VREA_NeuroPump (heart-equivalent pump) — BionicHeart pattern -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VREA_NeuroPump"]/costList</xpath>
-        <value>
-            <costList>
-                <Hyperweave>15</Hyperweave>
-                <CarbonAlloy>4</CarbonAlloy>
-                <SyntheticFibers>10</SyntheticFibers>
-                <Microchips>1</Microchips>
-            </costList>
-        </value>
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VREA_AndroidPartWorkbench"]/constructEffect</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VREA_AndroidCreationStation"]/constructEffect</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="VREA_AndroidBehavioristStation"]/constructEffect</xpath>
     </Operation>
 
-    <!-- VREA_AirFilter (lung) — BionicLung pattern -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VREA_AirFilter"]/costList</xpath>
-        <value>
-            <costList>
-                <Hyperweave>20</Hyperweave>
-                <CarbonAlloy>5</CarbonAlloy>
-                <SyntheticFibers>8</SyntheticFibers>
-                <Electronics>2</Electronics>
-            </costList>
-        </value>
-    </Operation>
-
-    <!-- VREA_Neutrofilter (kidney/liver-style filter) — BionicKidney pattern -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VREA_Neutrofilter"]/costList</xpath>
-        <value>
-            <costList>
-                <Hyperweave>22</Hyperweave>
-                <CarbonAlloy>4</CarbonAlloy>
-                <SyntheticFibers>8</SyntheticFibers>
-                <Electronics>2</Electronics>
-            </costList>
-        </value>
-    </Operation>
-
-    <!-- VREA_MetabolismRegulator (stomach + GoldBar accent) — BionicStomach pattern -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VREA_MetabolismRegulator"]/costList</xpath>
-        <value>
-            <costList>
-                <Hyperweave>23</Hyperweave>
-                <CarbonAlloy>3</CarbonAlloy>
-                <SyntheticFibers>7</SyntheticFibers>
-                <Electronics>2</Electronics>
-                <GoldBar>1</GoldBar>
-            </costList>
-        </value>
-    </Operation>
-
-    <!-- VREA_Reactor (unique high-power organ) — ArchotechHeart-tier + DepletedUranium -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VREA_Reactor"]/costList</xpath>
-        <value>
-            <costList>
-                <ComponentUltra>2</ComponentUltra>
-                <Biomatter>15</Biomatter>
-                <BioMicrochips>1</BioMicrochips>
-                <Paraffins>10</Paraffins>
-                <ReinforcedGlass>5</ReinforcedGlass>
-                <DepletedUranium>20</DepletedUranium>
-            </costList>
-        </value>
-    </Operation>
-
-    <!-- VREA_OpticalUnit (eye) — BionicEye pattern -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VREA_OpticalUnit"]/costList</xpath>
-        <value>
-            <costList>
-                <Biomatter>20</Biomatter>
-                <SyntheticFibers>6</SyntheticFibers>
-                <Paraffins>15</Paraffins>
-                <ReinforcedGlass>10</ReinforcedGlass>
-                <Microchips>1</Microchips>
-            </costList>
-        </value>
-    </Operation>
-
-    <!-- VREA_AudioProcessor (ear) — BionicEar pattern -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VREA_AudioProcessor"]/costList</xpath>
-        <value>
-            <costList>
-                <Biomatter>25</Biomatter>
-                <SyntheticFibers>7</SyntheticFibers>
-                <Paraffins>13</Paraffins>
-                <Microchips>1</Microchips>
-            </costList>
-        </value>
-    </Operation>
-
-    <!-- VREA_ArtificialBrain (top-tier brain) — Cybernetic / ArchotechHeart-tier -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VREA_ArtificialBrain"]/costList</xpath>
-        <value>
-            <costList>
-                <ComponentUltra>2</ComponentUltra>
-                <Biomatter>20</Biomatter>
-                <BioMicrochips>2</BioMicrochips>
-                <Paraffins>10</Paraffins>
-                <ReinforcedGlass>5</ReinforcedGlass>
-            </costList>
-        </value>
-    </Operation>
-
-    <!-- VREA_ArtificialNose (simple sensory bionic) -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VREA_ArtificialNose"]/costList</xpath>
-        <value>
-            <costList>
-                <Biomatter>10</Biomatter>
-                <SyntheticFibers>3</SyntheticFibers>
-                <Microchips>1</Microchips>
-            </costList>
-        </value>
-    </Operation>
-
-    <!-- VREA_ArtificialJaw — BionicJaw pattern -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VREA_ArtificialJaw"]/costList</xpath>
-        <value>
-            <costList>
-                <ComponentAdvanced>6</ComponentAdvanced>
-                <Biomatter>25</Biomatter>
-                <SyntheticFibers>6</SyntheticFibers>
-                <ArtificialBone>1</ArtificialBone>
-                <Microchips>1</Microchips>
-            </costList>
-        </value>
-    </Operation>
-
-    <!-- VREA_ArtificialRibcage — BionicNeck-style structural -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VREA_ArtificialRibcage"]/costList</xpath>
-        <value>
-            <costList>
-                <ComponentAdvanced>4</ComponentAdvanced>
-                <Biomatter>30</Biomatter>
-                <SyntheticFibers>20</SyntheticFibers>
-                <ArtificialBone>1</ArtificialBone>
-                <Microchips>1</Microchips>
-            </costList>
-        </value>
-    </Operation>
-
-    <!-- VREA_ArtificialSpine — BionicSpine pattern + GoldBar -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VREA_ArtificialSpine"]/costList</xpath>
-        <value>
-            <costList>
-                <ComponentAdvanced>6</ComponentAdvanced>
-                <Biomatter>45</Biomatter>
-                <SyntheticFibers>25</SyntheticFibers>
-                <ArtificialBone>4</ArtificialBone>
-                <Microchips>1</Microchips>
-                <GoldBar>1</GoldBar>
-            </costList>
-        </value>
-    </Operation>
-
-    <!-- VREA_AndroidLeg — BionicLeg pattern -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VREA_AndroidLeg"]/costList</xpath>
-        <value>
-            <costList>
-                <ComponentAdvanced>6</ComponentAdvanced>
-                <Biomatter>40</Biomatter>
-                <SyntheticFibers>20</SyntheticFibers>
-                <ArtificialBone>5</ArtificialBone>
-                <Microchips>1</Microchips>
-            </costList>
-        </value>
-    </Operation>
-
-    <!-- VREA_AndroidFoot — BionicFoot pattern -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VREA_AndroidFoot"]/costList</xpath>
-        <value>
-            <costList>
-                <ComponentAdvanced>4</ComponentAdvanced>
-                <Biomatter>25</Biomatter>
-                <SyntheticFibers>16</SyntheticFibers>
-                <ArtificialBone>2</ArtificialBone>
-                <Microchips>1</Microchips>
-            </costList>
-        </value>
-    </Operation>
-
-    <!-- VREA_AndroidArm — BionicArm pattern -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VREA_AndroidArm"]/costList</xpath>
-        <value>
-            <costList>
-                <ComponentAdvanced>5</ComponentAdvanced>
-                <Biomatter>30</Biomatter>
-                <SyntheticFibers>15</SyntheticFibers>
-                <ArtificialBone>5</ArtificialBone>
-                <Microchips>1</Microchips>
-            </costList>
-        </value>
-    </Operation>
-
-    <!-- VREA_AndroidHand — BionicHand pattern -->
-    <Operation Class="PatchOperationReplace">
-        <xpath>Defs/ThingDef[defName="VREA_AndroidHand"]/costList</xpath>
-        <value>
-            <costList>
-                <ComponentAdvanced>4</ComponentAdvanced>
-                <Biomatter>25</Biomatter>
-                <SyntheticFibers>16</SyntheticFibers>
-                <ArtificialBone>2</ArtificialBone>
-                <Microchips>1</Microchips>
-            </costList>
-        </value>
-    </Operation>
+    <!-- NOTE: VREA body parts (NeuroPump, AirFilter, AndroidLeg, etc.) are
+         HediffDefs only — they are gene-applied / innate, NOT crafted as
+         ThingDef items. There is no costList to patch. Removed all 15
+         body-part PatchOperationReplace ops that targeted nonexistent
+         ThingDefs. -->
 
 </Patch>
