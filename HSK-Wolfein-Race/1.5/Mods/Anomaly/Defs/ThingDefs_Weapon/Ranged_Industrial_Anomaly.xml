@@ -48,7 +48,7 @@
             <RangedWeapon_Cooldown>2.6</RangedWeapon_Cooldown>
         </statBases>
         <costList>
-            <SteelBar>12</SteelBar>
+            <Wolfein_AlloyMaterials>12</Wolfein_AlloyMaterials>
             <Chemfuel>50</Chemfuel>
             <ComponentIndustrial>3</ComponentIndustrial>
                     <Rifle_Component>1</Rifle_Component>
