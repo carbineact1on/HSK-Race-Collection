@@ -29,6 +29,7 @@
 			<li>
 				<compClass>CombatExtended.CompAmmoGiver</compClass>
 			</li>
+			<li Class="CombatExtended.CompProperties_Inventory" />
 		</value>
 	</Operation>
 
