@@ -268,11 +268,14 @@
 		<description>A synthetic, android reactor. Once reactor is spent, it needs to be extracted and replaced.</description>
 		<descriptionHyperlinks><RecipeDef>VREA_InstallReactor</RecipeDef></descriptionHyperlinks>
 		<thingClass>VREAndroids.Reactor</thingClass>
+		<!-- HSK: DepletedUranium (refined bar), not raw Uranium ore (= "Carnotite (U+V)" in HSK).
+		     Note: HSK_Patches.xml also rewrites this costList to the full ArchotechHeart-tier
+		     pattern - this inline change is defense-in-depth so the source ships HSK-clean. -->
 		<costList>
 			<Plasteel>10</Plasteel>
 			<ComponentSpacer>1</ComponentSpacer>
 			<ComponentIndustrial>2</ComponentIndustrial>
-			<Uranium>20</Uranium>
+			<DepletedUranium>20</DepletedUranium>
 		</costList>
 	</ThingDef>
 
