@@ -83,6 +83,10 @@
 		<weaponTags Inherit="False">
 			<li>ShortShots</li>
 		</weaponTags>
+		<!-- HSK: cheapest weapon with ShortShots tag in HSK costs 675; inherited
+		     weaponMoney min from MercenaryGunnerBase was 500, so saurid gunners
+		     could roll weaponless (Player.log warning). Bumped to 700~1500. -->
+		<weaponMoney>700~1500</weaponMoney>
 		<defaultFactionType>VRESaurids_OutlanderRoughSaurid</defaultFactionType>
 		<useFactionXenotypes>false</useFactionXenotypes>
 		<xenotypeSet>
