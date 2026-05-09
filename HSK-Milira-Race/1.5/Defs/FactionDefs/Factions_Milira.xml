@@ -442,12 +442,15 @@
 					<Milira_YoungWarrior>1</Milira_YoungWarrior>
 				</options>
 			</li>
-			<!-- <li>
-			<kindDef>Peaceful</kindDef>
-			<options>
-				<Milira_Citizen>10</Milira_Citizen>
-			</options>
-		</li> -->
+			<!-- HSK: uncommented - RimWorld warns "FactionDef Milira_Faction must have
+			     at least one pawnGroupMaker with kindDef 'Peaceful'" otherwise. Without
+			     a Peaceful group, no friendly visitors arrive from this faction. -->
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<Milira_Citizen>10</Milira_Citizen>
+				</options>
+			</li>
 			<li>
 				<kindDef>Settlement</kindDef>
 				<options>
