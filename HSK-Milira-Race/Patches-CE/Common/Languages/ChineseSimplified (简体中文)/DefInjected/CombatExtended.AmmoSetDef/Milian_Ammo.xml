@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <AmmoSet_MilianParticleBeamBlaster.label>米莉安重型粒子单元</AmmoSet_MilianParticleBeamBlaster.label>
+    <AmmoSet_MilianParticleBeamBlasterCharged.label>米莉安重型粒子单元</AmmoSet_MilianParticleBeamBlasterCharged.label>
+    <AmmoSet_MilianParticleLongRangeSniper.label>米莉安重型粒子单元</AmmoSet_MilianParticleLongRangeSniper.label>
+    <AmmoSet_MilianParticleLongRangeSniperCharged.label>米莉安重型粒子单元</AmmoSet_MilianParticleLongRangeSniperCharged.label>
+    <AmmoSet_MiliraParticleDiffusionBlaster.label>米莉安重型粒子单元</AmmoSet_MiliraParticleDiffusionBlaster.label>
+    <AmmoSet_MiliraParticleDiffusionBlasterCharged.label>米莉安重型粒子单元</AmmoSet_MiliraParticleDiffusionBlasterCharged.label>
+    <AmmoSet_MiliraParticleDiffusionBlaster_Blast.label>米莉安重型粒子单元</AmmoSet_MiliraParticleDiffusionBlaster_Blast.label>
+    <AmmoSet_MiliraParticleDiffusionBlasterCharged_Blast.label>米莉安重型粒子单元</AmmoSet_MiliraParticleDiffusionBlasterCharged_Blast.label>
+
+    <AmmoSet_MilianParticleBeamGun.label>米莉安轻型粒子单元</AmmoSet_MilianParticleBeamGun.label>
+    <AmmoSet_MilianPulsedBeamGun.label>米莉安轻型粒子单元</AmmoSet_MilianPulsedBeamGun.label>
+    <AmmoSet_MiliraParticleSMG.label>米莉安轻型粒子单元</AmmoSet_MiliraParticleSMG.label>
+    <AmmoSet_MiliraParticleSMG_Blast.label>米莉安轻型粒子单元</AmmoSet_MiliraParticleSMG_Blast.label>
+    <AmmoSet_MiliraParticleSMGCharged_Blast.label>米莉安轻型粒子单元</AmmoSet_MiliraParticleSMGCharged_Blast.label>
+    <AmmoSet_MiliraParticleLMG.label>米莉安轻型粒子单元</AmmoSet_MiliraParticleLMG.label>
+    <AmmoSet_MiliraParticleLMGCharged.label>米莉安轻型粒子单元</AmmoSet_MiliraParticleLMGCharged.label>
+
+</LanguageData>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ManeuverDef[defName="Milira_SlashCharged"]/verb/verbClass[.="AncotLibrary.Verb_MeleeAttackDamage_Charged"]</xpath>
+        <value>
+            <verbClass>MiliraCE.Verb_MeleeAttackCE_Charged</verbClass>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ManeuverDef[defName="Milira_Slash"]/verb/verbClass[.="AncotLibrary.Verb_MeleeAttackDamage_Charged"]</xpath>
+        <value>
+            <verbClass>MiliraCE.Verb_MeleeAttackCE_Charged</verbClass>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ManeuverDef[defName="Milira_CutAOE"]/verb/verbClass[.="AncotLibrary.Verb_MeleeAttackDamage_AOE"]</xpath>
+        <value>
+            <verbClass>MiliraCE.Verb_MeleeAttackCE_AOE</verbClass>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ManeuverDef[defName="Milira_SlashArc"]/verb/verbClass[.="AncotLibrary.Verb_MeleeAttackDamage_Effecter"]</xpath>
+        <value>
+            <verbClass>MiliraCE.Verb_MeleeAttackCE_Effecter</verbClass>
+        </value>
+    </Operation>
+
+</Patch>

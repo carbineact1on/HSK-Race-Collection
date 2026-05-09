@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <Milian_ParticleSMG.verbs.Verb_ShootCEChargable.label>粒子冲锋枪</Milian_ParticleSMG.verbs.Verb_ShootCEChargable.label>
+    <Milian_ParticleSMG.comps.CompUnderBarrel.underBarrelLabel>切换至爆炸模式</Milian_ParticleSMG.comps.CompUnderBarrel.underBarrelLabel>
+    <Milian_ParticleSMG.comps.CompUnderBarrel.standardLabel>切换至连射模式</Milian_ParticleSMG.comps.CompUnderBarrel.standardLabel>
+    <Milian_ParticleDiffusionBlaster.verbs.Verb_ShootCEChargableMultiple_FullCharge.label>粒子散射炮</Milian_ParticleDiffusionBlaster.verbs.Verb_ShootCEChargableMultiple_FullCharge.label>
+    <Milian_ParticleDiffusionBlaster.comps.CompUnderBarrel.underBarrelLabel>切换至齐射模式</Milian_ParticleDiffusionBlaster.comps.CompUnderBarrel.underBarrelLabel>
+    <Milian_ParticleDiffusionBlaster.comps.CompUnderBarrel.standardLabel>切换至散射模式</Milian_ParticleDiffusionBlaster.comps.CompUnderBarrel.standardLabel>
+    <Milian_ParticleLMG.verbs.Verb_ShootCEChargable.label>粒子光束机枪</Milian_ParticleLMG.verbs.Verb_ShootCEChargable.label>
+
+</LanguageData>
