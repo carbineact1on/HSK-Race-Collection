@@ -7,6 +7,12 @@
 		<li IfModActive="Ludeon.RimWorld.Royalty">1.5/Mods/Royalty</li>
 		<li IfModActive="Ludeon.RimWorld.Biotech">1.5/Mods/Biotech</li>
 		<li IfModActive="Ancot.KiiroRace">1.5/Mods/Ancot.KiiroRace</li>
+		<!-- CE base patch + common language files (load when CE is active) -->
 		<li IfModActive="CETeam.CombatExtended">Patches-CE</li>
+		<li IfModActive="CETeam.CombatExtended">Patches-CE/Common</li>
+		<!-- CE x submod compatibility patches (load when both CE and the submod are active) -->
+		<li IfModActive="CETeam.CombatExtended,Ludeon.RimWorld.Biotech">Patches-CE/Mods/Biotech</li>
+		<li IfModActive="CETeam.CombatExtended,Ancot.KiiroRace">Patches-CE/Mods/Ancot.KiiroRace</li>
+		<li IfModActive="CETeam.CombatExtended,Ancot.MilianModification">Patches-CE/Mods/Ancot.MilianModification</li>
 	</v1.5>
 </loadFolders>
