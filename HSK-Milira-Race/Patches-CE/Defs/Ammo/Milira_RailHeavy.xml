@@ -41,7 +41,11 @@
             <texPath>Things/Ammo/Railgun/HighCaliber</texPath>
             <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
         </graphicData>
-        <ammoClass>RailgunSabot</ammoClass>
+        <!-- HSK: was RailgunSabot, but HSK Core_SK strips that AmmoCategoryDef
+             from CE for tech-tier balance (Core_SK/Patches/CombatExtended/Ammo/
+             AmmoCategoryDefs/AmmoCategories_Advanced.xml removes it). Swapped to
+             ArmorPiercing - a railgun sabot IS semantically a kinetic AP round. -->
+        <ammoClass>ArmorPiercing</ammoClass>
     </ThingDef>
 
     <!-- ================== Projectiles ================== -->
