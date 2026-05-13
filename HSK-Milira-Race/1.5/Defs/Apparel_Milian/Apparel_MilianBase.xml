@@ -66,9 +66,11 @@
 				<li>Milira_UniversalBench</li>
 			</recipeUsers>
 			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-			<researchPrerequisites>
-				<li>Milira_UniversalPrinter</li>
-			</researchPrerequisites>
+			<!-- HSK: removed parent-level <researchPrerequisites><li>Milira_UniversalPrinter</li>
+			     because concrete child defs declare <researchPrerequisite>Milira_MilianTech_*</...>
+			     (singular). HSK's ResearchTreeSK warns when both singular + plural are set on the
+			     same recipe. Each MilianTech_* research already chains from UniversalPrinter via
+			     its own prerequisites, so the gating is preserved. -->
 			<defaultIngredientFilter>
 				<categories>
 					<li>Root</li>
