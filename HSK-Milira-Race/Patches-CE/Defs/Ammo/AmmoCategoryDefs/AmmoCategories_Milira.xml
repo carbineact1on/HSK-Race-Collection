@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- HSK: define the RailgunSabot AmmoCategoryDef referenced by
+	     Milira_RailRifle.xml + Milira_RailHeavy.xml. Without this CE warns
+	     "Could not resolve cross-reference: No CombatExtended.AmmoCategoryDef
+	     named RailgunSabot" on every railgun ammo def.
+
+	     Pattern matches CE's own AmmoCategories_General.xml exactly: canonical
+	     subdirectory AmmoCategoryDefs/, dedicated file, only AmmoCategoryDef
+	     entries (no mixed ThingCategoryDef in the same file). -->
+
+	<CombatExtended.AmmoCategoryDef>
+		<defName>RailgunSabot</defName>
+		<label>railgun sabot</label>
+		<labelShort>Sabot</labelShort>
+		<description>Discarding-sabot kinetic penetrator round fired from a magnetic railgun. Extremely high velocity, extreme armor penetration, but no explosive payload.</description>
+	</CombatExtended.AmmoCategoryDef>
+
+</Defs>

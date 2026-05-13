@@ -211,6 +211,15 @@
           <Empire_Fighter_Champion>4</Empire_Fighter_Champion>
       </options>
       </li>
+      <!-- HSK: added Peaceful group - RimWorld warns "FactionDef Milira_AngelismChurch
+           must have at least one pawnGroupMaker with kindDef 'Peaceful'" otherwise.
+           Reuses Empire_Trooper as a low-tier Angelism citizen for peaceful visits. -->
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <Empire_Fighter_Trooper>10</Empire_Fighter_Trooper>
+        </options>
+      </li>
     </pawnGroupMakers>
     <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>70</configurationListOrderPriority>
