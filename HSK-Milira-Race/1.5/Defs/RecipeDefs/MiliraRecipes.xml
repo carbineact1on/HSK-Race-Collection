@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!-- HSK: Class=UniversalFermenter.RecipeDef_UF required because the recipe's
-	     building (BiofuelRefinery) uses ThingDef_UF. RimWorld warns "should have
-	     Class=UniversalFermenter.RecipeDef_UF because this recipe uses by ThingDef_UF
-	     BiofuelRefinery" without the explicit Class attribute. -->
-	<RecipeDef Class="UniversalFermenter.RecipeDef_UF">
+	<!-- HSK: Class=UniversalFermenterSK.RecipeDef_UF (note "SK" suffix) required because
+	     BiofuelRefinery in HSK Core_SK uses the SK-forked UF (its sibling recipes like
+	     Make_ChemfuelFromWood use UniversalFermenterSK.RecipeDef_UF too). The RimWorld
+	     warning text says "UniversalFermenter.RecipeDef_UF" without SK, but that class
+	     doesn't exist in HSK's CoreSK fork - using the actual class name here. -->
+	<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
     <defName>Milira_MakeSunLightFuel</defName>
     <label>Make solar fuel x10</label>
     <description>Produce solar fuel out of sunlight fruit.</description>
