@@ -255,7 +255,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Steel</li>
+                        <li>SteelBar</li>
                     </thingDefs>
                 </filter>
                 <count>14</count>
@@ -279,7 +279,7 @@
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
-                <li>Steel</li>
+                <li>SteelBar</li>
                 <li>Plasteel</li>
                 <li>ComponentIndustrial</li>
             </thingDefs>

@@ -87,7 +87,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Steel</li>
+                        <li>SteelBar</li>
                     </thingDefs>
                 </filter>
                 <count>2</count>
@@ -95,7 +95,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Uranium</li>
+                        <li>DepletedUranium</li>
                     </thingDefs>
                 </filter>
                 <count>4</count>
@@ -103,8 +103,8 @@
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
-                <li>Steel</li>
-                <li>Uranium</li>
+                <li>SteelBar</li>
+                <li>DepletedUranium</li>
             </thingDefs>
         </fixedIngredientFilter>
         <products>
