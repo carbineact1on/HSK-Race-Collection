@@ -256,6 +256,12 @@
 
     <!-- ==================== Recipes ========================== -->
 
+    <!-- HSK: rewritten to follow HSK ammo recipe pattern (see Core_SK/Defs/CombatExtended/
+         Ammo/Advanced/PlasmaBolt.xml MakeAmmo_PlasmaBolt). Uses stuffCategories
+         (SLDBar = Standard Low-Density Bar, USLDBar = Ultra Standard Low-Density Bar)
+         for the bulk metal instead of specific defNames, plus BiosyntheticMaterial for
+         plasma containment. Keeps the MiliraCE_MiliraAmmoPlasmaStandardRecipeBase
+         parent so Milira-specific workSpeed/skill behavior is preserved. -->
     <RecipeDef ParentName="MiliraCE_MiliraAmmoPlasmaStandardRecipeBase">
         <defName>MakeAmmo_MiliraPlasmaRifle</defName>
         <label>make Milira Rifle Ion Cells</label>
@@ -265,34 +271,36 @@
         <ingredients>
             <li>
                 <filter>
-                    <thingDefs>
-                        <li>SteelBar</li>
-                    </thingDefs>
+                    <categories>
+                        <li>SLDBar</li>
+                    </categories>
                 </filter>
-                <count>18</count>
+                <count>16</count>
+            </li>
+            <li>
+                <filter>
+                    <categories>
+                        <li>USLDBar</li>
+                    </categories>
+                </filter>
+                <count>4</count>
             </li>
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Plasteel</li>
-                    </thingDefs>
-                </filter>
-                <count>2</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>ComponentIndustrial</li>
+                        <li>BiosyntheticMaterial</li>
                     </thingDefs>
                 </filter>
                 <count>2</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
+            <categories>
+                <li>SLDBar</li>
+                <li>USLDBar</li>
+            </categories>
             <thingDefs>
-                <li>SteelBar</li>
-                <li>Plasteel</li>
-                <li>ComponentIndustrial</li>
+                <li>BiosyntheticMaterial</li>
             </thingDefs>
         </fixedIngredientFilter>
         <products>

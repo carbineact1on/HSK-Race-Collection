@@ -251,37 +251,40 @@
         <description>Craft 500 shots' worth of Milian Light Particle Cells.</description>
         <jobString>Making Milian Light Particle Cells.</jobString>
         <workAmount>3400</workAmount>
+        <!-- HSK: SLDBar/USLDBar categories + BiosyntheticMaterial (HSK ammo pattern) -->
         <ingredients>
             <li>
                 <filter>
-                    <thingDefs>
-                        <li>SteelBar</li>
-                    </thingDefs>
+                    <categories>
+                        <li>SLDBar</li>
+                    </categories>
                 </filter>
-                <count>14</count>
+                <count>12</count>
             </li>
             <li>
                 <filter>
-                    <thingDefs>
-                        <li>Plasteel</li>
-                    </thingDefs>
+                    <categories>
+                        <li>USLDBar</li>
+                    </categories>
                 </filter>
                 <count>2</count>
             </li>
             <li>
                 <filter>
                     <thingDefs>
-                        <li>ComponentIndustrial</li>
+                        <li>BiosyntheticMaterial</li>
                     </thingDefs>
                 </filter>
                 <count>2</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
+            <categories>
+                <li>SLDBar</li>
+                <li>USLDBar</li>
+            </categories>
             <thingDefs>
-                <li>SteelBar</li>
-                <li>Plasteel</li>
-                <li>ComponentIndustrial</li>
+                <li>BiosyntheticMaterial</li>
             </thingDefs>
         </fixedIngredientFilter>
         <products>

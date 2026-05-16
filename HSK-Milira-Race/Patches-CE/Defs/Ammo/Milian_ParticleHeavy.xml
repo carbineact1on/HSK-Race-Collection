@@ -240,37 +240,40 @@
         <description>Craft 150 shots' worth of Milian Heavy Particle Cells.</description>
         <jobString>Making Milian Heavy Particle Cells.</jobString>
         <workAmount>6800</workAmount>
+        <!-- HSK: SLDBar/USLDBar categories + BiosyntheticMaterial (HSK ammo pattern) -->
         <ingredients>
             <li>
                 <filter>
-                    <thingDefs>
-                        <li>SteelBar</li>
-                    </thingDefs>
+                    <categories>
+                        <li>SLDBar</li>
+                    </categories>
                 </filter>
-                <count>20</count>
+                <count>18</count>
+            </li>
+            <li>
+                <filter>
+                    <categories>
+                        <li>USLDBar</li>
+                    </categories>
+                </filter>
+                <count>8</count>
             </li>
             <li>
                 <filter>
                     <thingDefs>
-                        <li>Plasteel</li>
-                    </thingDefs>
-                </filter>
-                <count>9</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>ComponentIndustrial</li>
+                        <li>BiosyntheticMaterial</li>
                     </thingDefs>
                 </filter>
                 <count>2</count>
             </li>
         </ingredients>
         <fixedIngredientFilter>
+            <categories>
+                <li>SLDBar</li>
+                <li>USLDBar</li>
+            </categories>
             <thingDefs>
-                <li>SteelBar</li>
-                <li>Plasteel</li>
-                <li>ComponentIndustrial</li>
+                <li>BiosyntheticMaterial</li>
             </thingDefs>
         </fixedIngredientFilter>
         <products>

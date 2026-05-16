@@ -83,11 +83,30 @@
         <description>Craft 500 Milira Rail rifle (Sabot) cartridges.</description>
         <jobString>Making Milira Rail rifle (Sabot) cartridges.</jobString>
         <workAmount>1000</workAmount>
+        <!-- HSK: SLDBar/USLDBar categories + MagneticMaterial (railgun coils) +
+             DepletedUranium (AP penetrator). HSK ammo pattern with tech-specific
+             materials (MagneticMaterial = railgun, BiosyntheticMaterial = plasma). -->
         <ingredients>
             <li>
                 <filter>
+                    <categories>
+                        <li>SLDBar</li>
+                    </categories>
+                </filter>
+                <count>3</count>
+            </li>
+            <li>
+                <filter>
+                    <categories>
+                        <li>USLDBar</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
                     <thingDefs>
-                        <li>SteelBar</li>
+                        <li>MagneticMaterial</li>
                     </thingDefs>
                 </filter>
                 <count>2</count>
@@ -102,8 +121,12 @@
             </li>
         </ingredients>
         <fixedIngredientFilter>
+            <categories>
+                <li>SLDBar</li>
+                <li>USLDBar</li>
+            </categories>
             <thingDefs>
-                <li>SteelBar</li>
+                <li>MagneticMaterial</li>
                 <li>DepletedUranium</li>
             </thingDefs>
         </fixedIngredientFilter>

@@ -107,11 +107,30 @@
         <description>Craft 200 Milira Rail gun (Sabot) cartridges.</description>
         <jobString>Making Milira Rail gun (Sabot) cartridges.</jobString>
         <workAmount>2200</workAmount>
+        <!-- HSK: SLDBar/USLDBar categories + MagneticMaterial (railgun coils) +
+             DepletedUranium (heavy AP penetrator). HSK ammo pattern with tech-specific
+             materials. -->
         <ingredients>
             <li>
                 <filter>
+                    <categories>
+                        <li>SLDBar</li>
+                    </categories>
+                </filter>
+                <count>4</count>
+            </li>
+            <li>
+                <filter>
+                    <categories>
+                        <li>USLDBar</li>
+                    </categories>
+                </filter>
+                <count>2</count>
+            </li>
+            <li>
+                <filter>
                     <thingDefs>
-                        <li>SteelBar</li>
+                        <li>MagneticMaterial</li>
                     </thingDefs>
                 </filter>
                 <count>2</count>
@@ -126,8 +145,12 @@
             </li>
         </ingredients>
         <fixedIngredientFilter>
+            <categories>
+                <li>SLDBar</li>
+                <li>USLDBar</li>
+            </categories>
             <thingDefs>
-                <li>SteelBar</li>
+                <li>MagneticMaterial</li>
                 <li>DepletedUranium</li>
             </thingDefs>
         </fixedIngredientFilter>
