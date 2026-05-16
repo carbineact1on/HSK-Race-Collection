@@ -632,7 +632,10 @@
       <ChunkSlagSteel>1</ChunkSlagSteel>
     </killedLeavings>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-    <designationCategory>Security</designationCategory>
+    <!-- HSK: removed designationCategory (was Security) so the Multiple Rocket Launcher
+         cannot be built by the player. Still spawns in Milira raids/clusters via the
+         MiliraClusterMember + MiliraClusterCombatThreat buildingTags below; functional
+         when found, just not craftable. -->
     <building>
       <combatPower>260</combatPower>
       <buildingTags>
