@@ -187,23 +187,33 @@
 			<Bulk>18.0</Bulk>
 			<AimingAccuracy>0.85</AimingAccuracy>
 		</statBases>
+		<!--
+			DIRECT-FIRE rocket turret (NOT a mortar).
+			The original Wolfein_TurretGun_E used vanilla Verb_Shoot (a
+			line-of-sight rocket launcher with location targeting). An earlier
+			revision of this patch converted it to Verb_ShootMortarCE (indirect
+			mortar), but HSK Core's startup turret check (SK.Controller.ErrorCheck)
+			only accepts Verb_ShootCE / Verb_Shoot / Verb_Spray-derived verbs and
+			warns that a mortar-verb turret "will throw NRE when trying to replace"
+			it — a real risk since Wolfein_Turret_E spawns in MegaCorp raids.
+			Verb_ShootCE is the faithful CE equivalent of the original Verb_Shoot
+			and passes HSK's check, so we use it. (User report: Vladimir Lash 2026-05.) -->
 		<Properties>
-			<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
-			<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+			<recoilAmount>1.0</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<requireLineOfSight>false</requireLineOfSight>
 			<defaultProjectile>Bullet_130mmRocketMissile</defaultProjectile>
-			<warmupTime>0.8</warmupTime>
-			<range>60</range>
-			<minRange>20</minRange>
+			<warmupTime>1.5</warmupTime>
+			<range>50</range>
 			<burstShotCount>1</burstShotCount>
 			<soundCast>130mmRocket</soundCast>
 			<soundCastTail>GunTail_Heavy</soundCastTail>
 			<muzzleFlashScale>16</muzzleFlashScale>
-			<circularError>1.6</circularError>
-			<indirectFirePenalty>0.32</indirectFirePenalty>
+			<recoilPattern>Mounted</recoilPattern>
 			<targetParams>
-				<canTargetLocations>false</canTargetLocations>
+				<canTargetLocations>true</canTargetLocations>
+				<canTargetPawns>true</canTargetPawns>
+				<canTargetBuildings>true</canTargetBuildings>
 			</targetParams>
 		</Properties>
 		<AmmoUser>
@@ -216,25 +226,12 @@
 		</FireModes>
 	</Operation>
 
-	<!-- Add CE charge speeds to the gun (matches CE Auto-Mortars compat patch) -->
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="Wolfein_TurretGun_E"]/comps</xpath>
-		<value>
-			<li Class="CombatExtended.CompProperties_Charges">
-				<chargeSpeeds>
-					<li>30</li>
-					<li>50</li>
-					<li>70</li>
-					<li>90</li>
-				</chargeSpeeds>
-			</li>
-		</value>
-	</Operation>
+	<!-- (CompProperties_Charges removed — charge-speed ranging is a mortar-only
+	     mechanic; this is now a direct-fire turret.) -->
 
 	<!-- Quicker fire cadence: override the Wolfein turret base's
 	     turretBurstCooldownTime (30s in original def) and warmup (4s)
-	     to match CE Auto-Mortars compat patch (10s, but we go shorter
-	     for a snappier rocket turret feel). -->
+	     for a snappier rocket turret feel. -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Wolfein_Turret_E"]/building/turretBurstCooldownTime</xpath>
 		<value>
@@ -249,10 +246,19 @@
 	</Operation>
 
 	<!-- Remove the turret BUILDING's Refuelable (barrel durability) comp.
-	     CE's Auto-Mortars patch does this explicitly: Refuelable interferes
-	     with the mortar verb's ammo flow and was likely the silent-fail cause. -->
+	     The barrel-durability/fuel system fights CE's ammo flow on a turret
+	     gun and was a likely silent-fail cause; CE's own turret patches drop
+	     it too. -->
 	<Operation Class="PatchOperationRemove">
 		<xpath>Defs/ThingDef[defName="Wolfein_Turret_E"]/comps/li[@Class="CompProperties_Refuelable"]</xpath>
 	</Operation>
+
+	<!-- NOTE: no placeWorkers override needed. An earlier revision added a
+	     placeWorkers list with Inherit="False" (dropping PlaceWorker_TurretTop)
+	     to dodge a mortar-verb NRE. Now that the gun is direct-fire Verb_ShootCE,
+	     the inherited turret placeWorkers [PlaceWorker_TurretTop,
+	     PlaceWorker_ShowTurretRadius] from Wolfein_Turret_D are correct again,
+	     so we let them inherit normally. The root cause (mortar verbClass) is
+	     fixed above; HSK Core's turret check now passes. -->
 
 </Patch>
