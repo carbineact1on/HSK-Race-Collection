@@ -40,6 +40,24 @@ Fully native to HSK:
 - **MegaCorp raids gated** to mid-late game via `raidCommonalityFromPointsCurve` `(0,0) → (1500,1)` — no early-game megacorp drops
 - **Multi-Legged Firepower Platform disabled** — removed from MegaCorp raid pool, manufacture, resurrect (was overpowered for HSK economy)
 
+### 🪽 HSK-Milira-Race
+All-in-one fork of **Milira Race** by Ancot — bundles the Milira Race, Milira Gene Patch, and pntfvur's CE patches into one drop-in mod (replaces `Ancot.MiliraRace`, `Ancot.MiliraRaceGenePatch`, `pntfvur.RimPatches.Milira.CE`). Winged "angel" xenohumans (Milira) with their chess-piece mechanoid soldiers (Milians) and a high-energy plasma / particle / railgun arsenal. Conditional sub-content for Biotech, Royalty, Ancot.KiiroRace, Ancot.MilianModification, and Save Our Ship 2 (each gated via `loadFolders.xml`).
+
+HSK integration:
+- **7 ammo recipes** (Plasma, Particle, Railgun tiers) rebuilt on the full HSK ammo pattern — `SLDBar` / `USLDBar` category filters + tech materials: `BiosyntheticMaterial` for plasma/particle containment, `MagneticMaterial` + `DepletedUranium` for railgun
+- **Fermenter recipes** switched to HSK's `UniversalFermenterSK.RecipeDef_UF` class
+- **Church / Milira factions** given Peaceful pawnGroupMakers so they can spawn non-hostile (visitors, traders, allies)
+- **Multiple Rocket Launcher turret** (`MiliraTurret_HeavyRocketLauncher`) hidden from the architect menu (still spawns in raids/clusters)
+
+CE patches:
+- **Race patch** (`Milira_Race`): `RacePropertiesExtensionCE` (Humanoid body shape), the CE comp stack (`CompPawnGizmo`, `CompProperties_Suppressable`, `CompAmmoGiver`, `CompProperties_ArmorDurability`, `CompProperties_Inventory`), `ToolCE` fists + wing strike, CarryWeight/Bulk, and a CE-apparel whitelist (backpacks, tac vest, shields, gas masks)
+- **Weapons**: standard `Verb_ShootCE` for railguns; custom `MiliraCE.Verb_ShootCEChargable` for the charge-based plasma/particle guns, with `AmmoUser` + `ammoSet` bindings and `ToolCE` melee — bundled `MiliraCE.dll` / `MilianModificationCE.dll` carried from pntfvur's CE patch
+
+Recent fixes:
+- **Reload** — added the missing `CombatExtended.CompProperties_Inventory` so Milira can carry spare ammo and reload (they previously fired a loaded mag but couldn't reload from inventory)
+- **Head texture** — fixed a `MiliraHead0` `graphicPath` typo that rendered ~1 in 6 Milira headless
+- **Universal backpacks** — new bundled `HSKMiliraCompat.dll` reflection-Harmony-patches HAR's `RaceRestrictionSettings.CanWear` so Milira can wear **any** backpack / tac-vest / utility belt (layers `Backpack` / `Webbing` / `Belt`), including modded ones, with no per-defName whitelisting — while clothing and armor stay wing-friendly restricted
+
 ### 🦎 HSK-VRE-Saurid
 Standalone bundle of **[Vanilla Races Expanded — Saurid](https://steamcommunity.com/sharedfiles/filedetails/?id=2880990495)** by Oskar Potocki and Neronix17. Lizard-like xenohuman race with scale skin, claws, and oviparous reproduction.
 
