@@ -34,7 +34,7 @@ Fully native to HSK:
 - **Sensor weak-points** added via `PartialArmorExt` so head/sensor shots have reduced armor (CE community pattern)
 - **91 apparel pieces** fully rescaled to HSK CE armor scale (vanilla CE 0.10-1.00 → HSK CE 1-13 Sharp / 2-33 Blunt) with proper ballistic ratio (Blunt > Sharp). Power armor matches HSK PowerArmor (10/28); top-tier AIPT matches HellPowerArmor (13/33). Includes underwear/civilian/light_uniform/light_shell/combat_shell/flak/power tiers + matching helmets.
 - **12 ranged weapon outlier fixes** — HG_HomemadePistol range 12 → 18, ChargeMinigun burst 3 → 20, etc.
-- **5 turrets** swapped to `Building_TurretGunCE` for proper CE ammo consumption — sentry rifle (7.62×51 NATO), rapid-fire MG (7.62×39 Soviet), laser, twin autocannon (.50 BMG), and rocket turret (130mm rocket missile, mortar-arc fire)
+- **5 turrets** swapped to `Building_TurretGunCE` for proper CE ammo consumption — sentry rifle (7.62×51 NATO), rapid-fire MG (7.62×39 Soviet), laser, twin autocannon (.50 BMG), and rocket turret (130mm rocket missile, direct-fire `Verb_ShootCE` — HSK-turret-check compatible)
 
 #### Faction tuning
 - **MegaCorp raids gated** to mid-late game via `raidCommonalityFromPointsCurve` `(0,0) → (1500,1)` — no early-game megacorp drops
