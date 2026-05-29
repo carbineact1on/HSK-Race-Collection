@@ -24,9 +24,17 @@
         <xpath>Defs/ThingDef[defName="Wolfein_TableMachining"]/designationCategory</xpath>
     </Operation>
 
-    <Operation Class="PatchOperationRemove">
-        <xpath>Defs/ThingDef[defName="Wolfein_ReverseResearchBench"]/designationCategory</xpath>
-    </Operation>
+    <!-- NOTE: Wolfein_ReverseResearchBench is intentionally NOT hidden.
+         Unlike TableMachining (redundant smithy) and Electric_TailoringBench
+         (duplicate of HSK's ElectricTailoringBench), the Reverse Engineering
+         Bench is a UNIQUE themed station with no HSK equivalent, and it is the
+         SOLE craft location for the Imperial / 前世代 tier gear
+         (Wolfein_OverHeadBase_CombatIII helmets, Wolfein_ShellBase_CombatIII
+         body armor) plus a manufactured resource. Hiding it made all of those
+         permanently uncraftable. It uses HSK-appropriate materials already
+         (Wolfein_AlloyMaterials + components, Metallic stuff) so it stays
+         buildable. (User report: Lycanthropy 2026-05-24 — "can't find the
+         wolfein workbenches".) -->
 
     <!-- Wolfein has a duplicate of HSK's ElectricTailoringBench. Hide it
          to avoid confusion in the Production tab. HSK's own bench is what

@@ -36,8 +36,18 @@
             <workSkill>Crafting</workSkill>
             <effectWorking>Tailor</effectWorking>
             <soundWorking>Recipe_Tailor</soundWorking>
+            <!-- HSK fix: route to HSK's tailoring benches, NOT Wolfein's own
+                 Wolfein_Electric_TailoringBench (hidden from architect via
+                 HSK_Disable_WolfeinBenches.xml). Without this, every apparel
+                 tier that doesn't locally override recipeUsers (III, CombatI,
+                 CombatII, Work, AIPT across all 5 categories) was only
+                 craftable at a bench players can no longer build -> the
+                 recipes appeared in research but had nowhere to be made.
+                 (User report: Lycanthropy 2026-05-24 — "can't find the
+                 wolfein tailoring bench, tabs light up but it doesn't show up".) -->
             <recipeUsers>
-                <li>Wolfein_Electric_TailoringBench</li>
+                <li>ElectricTailoringBench</li>
+                <li>HandTailoringBench</li>
             </recipeUsers>
             <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
             <defaultIngredientFilter>
