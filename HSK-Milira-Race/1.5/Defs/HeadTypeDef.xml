@@ -3,7 +3,7 @@
 
 	<HeadTypeDef ParentName="AverageBase">
 		<defName>MiliraHead0</defName>
-		<graphicPath>Milira/Pawn/Head/MiliraHead</graphicPath>
+		<graphicPath>Milira/Pawn/Head/MiliraHead0</graphicPath>
 		<gender>None</gender>
 	</HeadTypeDef>
 	
