@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-    <!-- HSK fix: removed the rogue <defName>Wolfein_Apparel_Sundry</defName>
-         from this abstract. Abstracts should have Name= only, not defName=.
-         The original mod's structure caused RimWorld to register this
-         abstract as both an abstract (keyed on Name=) AND a concrete ThingDef
-         (keyed on defName=), conflicting with the ThingCategoryDef and
-         ApparelLayerDef of the same name. Children inherit via ParentName=
-         "Wolfein_SundryBase", which still works after this fix. -->
+<!-- <!- HSK fix: removed the rogue <defName>Wolfein_Apparel_Sundry</defName> -->
     <ThingDef Name="Wolfein_SundryBase" ParentName="Wolfein_MakeableBase_Tailoring" Abstract="True">
         <statBases>
             <Mass>0.8</Mass>

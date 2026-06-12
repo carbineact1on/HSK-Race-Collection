@@ -104,53 +104,8 @@
 	</Operation>
 	
 	<!-- 手榴弹投射物 -->
-	<!--<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[@Name="WolfeinBaseFragGrenadeProjectile"]/thingClass</xpath>
-		<value>
-			<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
-		</value>
-	</Operation>
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[@Name="WolfeinBaseFragGrenadeProjectile"]/projectile</xpath>
-		<value>
-			<projectile Class="CombatExtended.ProjectilePropertiesCE">
-				<explosionRadius>2</explosionRadius>
-				<damageDef>Bomb</damageDef>
-				<damageAmountBase>48</damageAmountBase>
-				<explosionDelay>35</explosionDelay>
-				<dropsCasings>true</dropsCasings>
-				<casingMoteDefname>Fleck_GrenadePin</casingMoteDefname>
-				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-				<speed>21</speed>
-				<suppressionFactor>3.0</suppressionFactor>
-				<dangerFactor>2.0</dangerFactor>
-				<airborneSuppressionFactor>0.25</airborneSuppressionFactor>
-				<arcHeightFactor>2</arcHeightFactor>
-				<shadowSize>0.4</shadowSize>
-			</projectile>
-		</value>
-	</Operation>
-	-->
+<!-- Operation Class="PatchOperationReplace"> -->
 	<!-- 添加comps并增加破片效果 -->
-	<!--<Operation Class="PatchOperationConditional">
-		<xpath>Defs/ThingDef[@Name="WolfeinBaseFragGrenadeProjectile"]/comps</xpath>
-		<nomatch Class="PatchOperationAdd">
-			<xpath>Defs/ThingDef[@Name="WolfeinBaseFragGrenadeProjectile"]</xpath>
-			<value>
-				<comps />
-			</value>
-		</nomatch>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[@Name="WolfeinBaseFragGrenadeProjectile"]/comps</xpath>
-		<value>
-			<li Class="CombatExtended.CompProperties_Fragments">
-				<fragments>
-					<Fragment_Small>40</Fragment_Small>
-				</fragments>
-			</li>
-		</value>
-	</Operation> -->
+<!-- Operation Class="PatchOperationConditional"> -->
 
 </Patch>

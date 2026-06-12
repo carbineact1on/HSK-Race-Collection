@@ -1,37 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--
-    HSK + Combat Extended patches for VRE Insector.
-
-    Three categories of changes:
-
-    1. CE TOOL CONVERSION (4 hediffs that grant insectoid melee weapons)
-       - VRE_InsectMandibles  → ToolCE Cut, Sharp 0.5 / Blunt 2.0
-       - VRE_HornAttack       → ToolCE Stab, Sharp 0.4 / Blunt 2.5
-       - VRE_RipperBlades     → ToolCE Cut, Sharp 0.7 / Blunt 1.5
-                                (had vanilla armorPenetration 0.27 — split into
-                                 CE Sharp/Blunt with sharpness boost since the
-                                 description specifies armor-rending blades)
-       - VRE_InsectRostrum    → ToolCE Stab, Sharp 0.6 / Blunt 2.0
-                                (cross-mod — VFE Insectoid 2 conditional)
-
-    2. HSK CE ARMOR RESCALE (2 genes / hediffs with armor stat offsets)
-       - VRE_Insectskin gene: Sharp 0.27/Blunt 0.18 (vanilla CE) →
-                              Sharp 4 / Blunt 4 (HSK CE basic carapace tier,
-                              comparable to Saurid scaleskin)
-       - VRE_MineralRichInsectskin (cross-mod, 2 health stages):
-                              stage 0.1: 0.48/0.26 → 6/4   (low-health, cracked)
-                              stage 1:   0.9/0.52 → 12/8   (full-health, between flak and marine)
-
-    3. HSK MATERIAL — VRE_InfestedShipPart_Spawned costList
-       Steel 20 → SteelBar 20 (small chunk loot building)
-
-    No work needed for:
-      - VRE_AcidBurstSack / VRE_ChemfuelSacks — use AnimalBehaviours.
-        HediffCompProperties_ExplodeOnDamage / Exploder which are
-        custom-class hediff comps that work under CE without conversion
-      - Insector abilities (psycaster-style, no projectiles)
-      - VRE_Metapod / MetapodSickness (cocoon mechanics, no combat)
--->
+<!-- HSK + Combat Extended patches for VRE Insector -->
 <Patch>
 
     <!-- ============================================================ -->
@@ -136,14 +104,7 @@
         </value>
     </Operation>
 
-    <!-- VRE_MineralRichInsectskin hediff — mineral plating armor (2 stages, cross-mod).
-         This is engineered-equivalent (mineral plating, not soft tissue),
-         so use ballistic ratio: Blunt > Sharp.
-         Calibrated against HSK CE values:
-           HSK Apparel_FlakVest:  Sharp 6.81 / Blunt 14.97
-           HSK Apparel_PlateArmor: Sharp 3.76 / Blunt 6.61
-         Intact mineral plating sits at flak-vest tier, cracked drops to
-         plate-armor-tier. -->
+<!-- VRE_MineralRichInsectskin hediff — mineral plating armor (2 stages, cross-mod) -->
     <Operation Class="PatchOperationFindMod">
         <mods>
             <li>OskarPotocki.VFE.Insectoid2</li>
@@ -175,12 +136,7 @@
     <!--  HSK MATERIAL CONVERSION + ship chunk rebalance              -->
     <!-- ============================================================ -->
 
-    <!-- VRE_InfestedShipPart_Spawned — bump to ~50% of HSK vanilla
-         ShipChunk's deconstruct yield. Upstream value was ~37% of HSK
-         ShipChunk (Steel 20 + CompInd 6 vs HSK's Plasteel 35 + Wire 15 +
-         CompInd 15 + CompSpacer 3 + Mechanism 3). Lore: still less
-         valuable than clean ship debris because of insectoid biomass
-         takeover, but no longer 3x cheaper than what HSK colonies expect. -->
+<!-- VRE_InfestedShipPart_Spawned — bump to ~50% of HSK vanilla -->
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="VRE_InfestedShipPart_Spawned"]/costList</xpath>
         <value>

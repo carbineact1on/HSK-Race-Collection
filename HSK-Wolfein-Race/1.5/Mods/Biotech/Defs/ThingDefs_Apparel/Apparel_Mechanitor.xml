@@ -23,11 +23,6 @@
         </graphicData>
         <recipeMaker>
             <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
-            <!-- HSK fix: Wolfein_TableMachining is hidden from the architect
-                 menu (HSK_Disable_WolfeinBenches.xml), so route these
-                 mechanitor recipes to HSK's visible tailoring benches instead
-                 to keep them craftable. (Same fix class as the base apparel /
-                 Imperial-tier bench routing.) -->
             <recipeUsers Inherit="false">
                 <li>ElectricTailoringBench</li>
                 <li>HandTailoringBench</li>
@@ -106,11 +101,6 @@
         </statBases>
         <recipeMaker>
             <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
-            <!-- HSK fix: Wolfein_TableMachining is hidden from the architect
-                 menu (HSK_Disable_WolfeinBenches.xml), so route these
-                 mechanitor recipes to HSK's visible tailoring benches instead
-                 to keep them craftable. (Same fix class as the base apparel /
-                 Imperial-tier bench routing.) -->
             <recipeUsers Inherit="false">
                 <li>ElectricTailoringBench</li>
                 <li>HandTailoringBench</li>
@@ -184,11 +174,6 @@
         </graphicData>
         <recipeMaker>
             <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
-            <!-- HSK fix: Wolfein_TableMachining is hidden from the architect
-                 menu (HSK_Disable_WolfeinBenches.xml), so route these
-                 mechanitor recipes to HSK's visible tailoring benches instead
-                 to keep them craftable. (Same fix class as the base apparel /
-                 Imperial-tier bench routing.) -->
             <recipeUsers Inherit="false">
                 <li>ElectricTailoringBench</li>
                 <li>HandTailoringBench</li>
@@ -267,11 +252,6 @@
         </graphicData>
         <recipeMaker>
             <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
-            <!-- HSK fix: Wolfein_TableMachining is hidden from the architect
-                 menu (HSK_Disable_WolfeinBenches.xml), so route these
-                 mechanitor recipes to HSK's visible tailoring benches instead
-                 to keep them craftable. (Same fix class as the base apparel /
-                 Imperial-tier bench routing.) -->
             <recipeUsers Inherit="false">
                 <li>ElectricTailoringBench</li>
                 <li>HandTailoringBench</li>
@@ -345,11 +325,6 @@
         </graphicData>
         <recipeMaker>
             <unfinishedThingDef>Wolfein_UnfinishedApparel</unfinishedThingDef>
-            <!-- HSK fix: Wolfein_TableMachining is hidden from the architect
-                 menu (HSK_Disable_WolfeinBenches.xml), so route these
-                 mechanitor recipes to HSK's visible tailoring benches instead
-                 to keep them craftable. (Same fix class as the base apparel /
-                 Imperial-tier bench routing.) -->
             <recipeUsers Inherit="false">
                 <li>ElectricTailoringBench</li>
                 <li>HandTailoringBench</li>

@@ -1,40 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--
-    HSK + Combat Extended patches for VRE Sanguophage.
-
-    HSK MATERIAL CONVERSION
-    =======================
-    Each Sanguophage building's costList is rewritten to match the equivalent
-    vanilla-Biotech building's HSK pattern from
-    Core_SK/Biotech/Patches/ThingDefs_Buildings/Buildings_Deathrest.xml:
-
-      vanilla DeathrestCasket       (HSK: stuff 80, CompInd 3, ElecComp 1, Mech 1, Electronics 1)
-      vanilla Hemopump              (HSK: stuff 80, CompInd 2, ElecComp 1, Mech 2, Rubber 8, Plastic 8, HemogenPack 5)
-      vanilla HemogenAmplifier      (HSK: stuff 160, CompInd 4, ElecComp 2, Electronics 2, Rubber 6, Plastic 10, HemogenPack 5)
-      vanilla DeathrestAccelerator  (HSK: stuff 200, CompInd 6, ElecComp 2, Microchips 2, Plastic 10, HemogenPack 5)
-      vanilla PsychofluidPump       (HSK: stuff 50, CompInd 6, ElecComp 2, Mech 2, Electronics 1, Rubber 12, CarbonAlloy 10, HemogenPack 5)
-
-    Mapping:
-      VRE_SmallHemopump            → small-tier Hemopump        (1x1, downscaled)
-      VRE_SmallHemogenAmplifier    → small-tier HemogenAmplifier (1x1, downscaled)
-      VRE_HemogenSolidifier        → full HemogenAmplifier-tier (1x2, mid-tier processor)
-      VRE_HemodynamicAccelerator   → DeathrestAccelerator-tier  (2x2, large)
-      VRE_InvocationMatrix         → custom ritual (Gold kept for ritual flavor + components)
-      VRE_PsychofluidWell (Royalty)→ PsychofluidPump-tier       (Plasteel kept for advanced housing)
-
-    All buildings switch from fixed Steel to stuffCategories Metallic +
-    costStuffCount per HSK convention so user can build them from any metal
-    (Steel, SteelBar, Plasteel, etc.) with appropriate hardness/beauty.
-
-    HemogenPack kept as a "fuel" cost (vanilla-Biotech HSK convention for
-    Sanguophage equipment).
-
-    CE PATCH
-    ========
-    VRE_SharpTalons hediff — talons tool converted to CombatExtended.ToolCE
-    with armorPenetrationSharp 0.65 / armorPenetrationBlunt 2.0, calibrated
-    against Saurid claws (Sharp 0.5) — talons are sharper per the lore.
--->
+<!-- HSK + Combat Extended patches for VRE Sanguophage -->
 <Patch>
 
     <!-- ============================================================ -->

@@ -15,12 +15,7 @@
             <fillPercent>0.75</fillPercent>
         </value>
     </Operation>
-    <!-- <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/ThingDef[defName="Milian_Fortress"]/building/turretBurstCooldownTime</xpath>
-        <value>
-            <turretBurstCooldownTime>1</turretBurstCooldownTime>
-        </value>
-    </Operation> -->
+<!-- Operation Class="PatchOperationReplace"> -->
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>MilianFortressGun_HeavyPlasma</defName>

@@ -92,11 +92,6 @@
             <li>
                 <compClass>CombatExtended.CompAmmoGiver</compClass>
             </li>
-            <!-- CompInventory is REQUIRED for CE pawns to carry + draw spare ammo
-                 for reloading. Without it the pawn can fire a pre-loaded magazine
-                 but cannot reload from inventory ("loadout isn't compatible /
-                 ammo isn't usable"). Every combat-capable CE race needs this
-                 (cf. Wolfein_Race). (User report: BirdofJustice 2026-05-25.) -->
             <li Class="CombatExtended.CompProperties_Inventory" />
             <li Class="CombatExtended.CompProperties_ArmorDurability">
                 <Durability>625</Durability>

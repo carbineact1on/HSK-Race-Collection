@@ -1,33 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--
-    HSK + Combat Extended patches for VRE Hussar.
-
-    Adapted from Pacas Patches Compilation, then re-tuned for HSK CE armor
-    scale and extended with HSK modpack-specific mech weapons.
-
-    HSK CE uses ~10x higher armor numbers than vanilla CE:
-      vanilla parka  = Sharp 5
-      flak jacket    = Sharp 12
-      marine armor   = Sharp 24
-
-    Pacas's vanilla CE values for BulletproofSkin (Sharp 5.0 / Blunt 5.0) are
-    about half-flak under HSK CE math. The lore describes the gene as
-    "organic kevlar-like strands" that deflect smaller-caliber bullets — for
-    HSK CE we bump to Sharp 8 / Blunt 8 (between flak and marine), which
-    matches the description of meaningful natural armor.
-
-    BlackListedWeapons additions extend Pacas's list to also cover modded
-    mech-only weapons from the HSK modpack ecosystem. Without these, the
-    WeaponAptitude gene system would roll silly aptitudes like "aptitude in
-    VFE_Gun_AdvancedChargeLance" for Hussars who can never equip mech weapons.
-
-    Coverage:
-      Vanilla mechanoid weapons        — Pacas's original 9 entries
-      Non-weapon items (wood/bamboo)   — Pacas's original 6 entries
-      Wolfein racial mech weapons      — 4 entries
-      VFE Pirates warcasket guns       — 15 entries (warcaskets only, not pawns)
-      VFE Mechanoids mech weapons      — 22 entries
--->
+<!-- HSK + Combat Extended patches for VRE Hussar -->
 <Patch>
 
     <!-- ===== BulletproofSkin gene — natural armor at HSK CE scale ===== -->

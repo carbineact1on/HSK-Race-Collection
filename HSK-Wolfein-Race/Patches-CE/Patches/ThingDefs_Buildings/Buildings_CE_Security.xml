@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-	<!--
-		HSK fix part 1: turret BUILDINGS need Building_TurretGunCE thingClass.
-		Without this, the turret aims correctly at targets but never fires —
-		the vanilla Building_TurretGun class doesn't know how to consume CE
-		ammo from its CompAmmoUser. Building_TurretGunCE handles the CE
-		ammo loading + reload cycle.
-
-		Wolfein_Turret_E (rocket turret) originally used a custom
-		Wolfein.Building_TurretGunForceAiming class. Without
-		Building_TurretGunCE it never consumes CE rocket ammo, so we
-		swap it too. Forced-aim was just AI targeting behavior; CE's
-		built-in turret class handles rocket-arc trajectories fine
-		via the gun's own Verb_ShootCE projectile properties.
-	-->
+<!-- HSK fix part 1: turret BUILDINGS need Building_TurretGunCE thingClass -->
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="Wolfein_Turret_A"]/thingClass</xpath>
@@ -41,25 +28,6 @@
 		</value>
 	</Operation>
 
-	<!--
-		HSK fix part 2: full CE patches for all 4 Wolfein turret guns.
-		The original file was empty (just a comment header), so under CE
-		the turrets had no Verb_ShootCE / AmmoUser / proper CE projectile
-		bindings — they would fall back to vanilla verb behavior and
-		ignore the CE ammo system.
-
-		Calibers picked from HSK-CE-active set (since HSK disables many
-		CE calibers via .xml.bak):
-		  - Turret A (heavy sentry rifle, single shot)  -> 7.62x51mm NATO
-		  - Turret B (rapid-fire LMG, 8-shot burst)      -> 5.56x45mm NATO
-		  - Turret D (twin autocannon, 40-shot burst)    -> .50 BMG
-		  - Turret E (rocket launcher, 6-shot, range 52) -> RPG-7
-
-		Note: only Turret_A and Turret_D are buildable from architect.
-		Turret_B and Turret_E are architect-hidden and only spawn at
-		MegaCorp settlements/raids. Patching all 4 ensures enemy-spawned
-		turrets fire correctly under CE too.
-	-->
 
 	<!-- ========== Turret A — Heavy Sentry Rifle (7.62x51mm NATO) ========== -->
 	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
@@ -97,13 +65,7 @@
 		</FireModes>
 	</Operation>
 
-	<!-- ========== Turret B — Rapid-Fire LMG (7.62x39mm Soviet, long burst + cooldown) ==========
-	     User intent: long sustained burst (no mid-burst cooldown), then a
-	     proper "cooling off" gap before the next burst — barrel needs to
-	     cool down between trigger pulls. ~2s of continuous fire, then
-	     ~2s cooldown, repeat until mag empty.
-	     Caliber bumped from 5.56 NATO to 7.62x39mm Soviet so the heavier
-	     ammo logistics balance the sustained DPS (PKM/RPK feel). -->
+<!-- ========== Turret B — Rapid-Fire LMG (7.62x39mm Soviet, long burst + cooldown) ========== -->
 	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>Wolfein_TurretGun_B</defName>
 		<statBases>
@@ -187,17 +149,6 @@
 			<Bulk>18.0</Bulk>
 			<AimingAccuracy>0.85</AimingAccuracy>
 		</statBases>
-		<!--
-			DIRECT-FIRE rocket turret (NOT a mortar).
-			The original Wolfein_TurretGun_E used vanilla Verb_Shoot (a
-			line-of-sight rocket launcher with location targeting). An earlier
-			revision of this patch converted it to Verb_ShootMortarCE (indirect
-			mortar), but HSK Core's startup turret check (SK.Controller.ErrorCheck)
-			only accepts Verb_ShootCE / Verb_Shoot / Verb_Spray-derived verbs and
-			warns that a mortar-verb turret "will throw NRE when trying to replace"
-			it — a real risk since Wolfein_Turret_E spawns in MegaCorp raids.
-			Verb_ShootCE is the faithful CE equivalent of the original Verb_Shoot
-			and passes HSK's check, so we use it. (User report: Vladimir Lash 2026-05.) -->
 		<Properties>
 			<recoilAmount>1.0</recoilAmount>
 			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -245,20 +196,11 @@
 		</value>
 	</Operation>
 
-	<!-- Remove the turret BUILDING's Refuelable (barrel durability) comp.
-	     The barrel-durability/fuel system fights CE's ammo flow on a turret
-	     gun and was a likely silent-fail cause; CE's own turret patches drop
-	     it too. -->
+<!-- Remove the turret BUILDING's Refuelable (barrel durability) comp -->
 	<Operation Class="PatchOperationRemove">
 		<xpath>Defs/ThingDef[defName="Wolfein_Turret_E"]/comps/li[@Class="CompProperties_Refuelable"]</xpath>
 	</Operation>
 
-	<!-- NOTE: no placeWorkers override needed. An earlier revision added a
-	     placeWorkers list with Inherit="False" (dropping PlaceWorker_TurretTop)
-	     to dodge a mortar-verb NRE. Now that the gun is direct-fire Verb_ShootCE,
-	     the inherited turret placeWorkers [PlaceWorker_TurretTop,
-	     PlaceWorker_ShowTurretRadius] from Wolfein_Turret_D are correct again,
-	     so we let them inherit normally. The root cause (mortar verbClass) is
-	     fixed above; HSK Core's turret check now passes. -->
+<!-- NOTE: no placeWorkers override needed. An earlier revision added a -->
 
 </Patch>

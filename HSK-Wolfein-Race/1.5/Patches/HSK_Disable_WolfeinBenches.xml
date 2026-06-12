@@ -1,40 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--
-    HSK patch: hide Wolfein crafting benches from the architect menu.
-
-    Why?
-    All Wolfein recipes have been rerouted to HSK weapon/tailoring/smithing
-    benches via the per-class bench mapping (see About.xml). Wolfein's own
-    `Wolfein_TableMachining` bench is now redundant — keeping it visible in
-    the architect menu would confuse players who'd build it expecting to use
-    Wolfein recipes there, but find an empty bill list (recipes routed away).
-
-    Fix: PatchOperationRemove on <designationCategory> for Wolfein_TableMachining
-    and Wolfein_ReverseResearchBench. The defs themselves still exist (so
-    pre-existing colonies that already built them can continue to use them
-    via the recipes that still target them as recipeUsers via WorkGiverDef
-    fallbacks), but the architect/build menu no longer shows them as
-    constructable. New players never see them.
-
-    Mirrors the HSK_Disable_MendingStations.xml pattern from HSK-VFE-Ancients.
--->
+<!-- HSK patch: hide Wolfein crafting benches from the architect menu -->
 <Patch>
 
     <Operation Class="PatchOperationRemove">
         <xpath>Defs/ThingDef[defName="Wolfein_TableMachining"]/designationCategory</xpath>
     </Operation>
 
-    <!-- NOTE: Wolfein_ReverseResearchBench is intentionally NOT hidden.
-         Unlike TableMachining (redundant smithy) and Electric_TailoringBench
-         (duplicate of HSK's ElectricTailoringBench), the Reverse Engineering
-         Bench is a UNIQUE themed station with no HSK equivalent, and it is the
-         SOLE craft location for the Imperial / 前世代 tier gear
-         (Wolfein_OverHeadBase_CombatIII helmets, Wolfein_ShellBase_CombatIII
-         body armor) plus a manufactured resource. Hiding it made all of those
-         permanently uncraftable. It uses HSK-appropriate materials already
-         (Wolfein_AlloyMaterials + components, Metallic stuff) so it stays
-         buildable. (User report: Lycanthropy 2026-05-24 — "can't find the
-         wolfein workbenches".) -->
 
     <!-- Wolfein has a duplicate of HSK's ElectricTailoringBench. Hide it
          to avoid confusion in the Production tab. HSK's own bench is what

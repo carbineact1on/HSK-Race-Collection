@@ -82,19 +82,7 @@
 		</operations>
 	</Operation>
 	
-	<!-- <Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Milira_Race"]/alienRace/raceRestriction/whiteXenotypeList</xpath>
-				<value>
-        <whiteXenotypeList>
-            <li MayRequire="Ludeon.RimWorld.Biotech">MiliraXenotype</li>
-        </whiteXenotypeList>			
-				</value>
-			</li>
-		</operations>
-	</Operation> -->
+<!-- Operation Class="PatchOperationSequence"> -->
 	
 	<Operation Class="PatchOperationSequence">
 		<success>Always</success>
@@ -154,21 +142,7 @@
 	
 	
 	
-	<!-- <Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/FactionDef[defName="Milira_Faction"]/xenotypeSet</xpath>
-				<value>	
-    <xenotypeSet>
-      <xenotypeChances>
-	    <MiliraXenotype MayRequire="Ludeon.RimWorld.Biotech">0.99</MiliraXenotype>
-      </xenotypeChances>
-    </xenotypeSet>				
-				</value>
-			</li>
-		</operations>
-	</Operation> -->
+<!-- Operation Class="PatchOperationSequence"> -->
 
 
 </Patch>

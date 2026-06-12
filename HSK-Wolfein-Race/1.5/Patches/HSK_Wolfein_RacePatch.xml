@@ -1,40 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<!-- <Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationReplace">
-				<xpath>Defs/FactionDef[defName="Wolfein_Faction_MegaCorp"]/xenotypeSet</xpath>
-				<value>
-					<xenotypeSet>
-						<xenotypeChances>
-							<Wolfein_Xenotype MayRequire="Ludeon.RimWorld.Biotech">0.9</Wolfein_Xenotype>
-							<Wolfein_Xenotype_PureBlood MayRequire="Ludeon.RimWorld.Biotech">0.05</Wolfein_Xenotype_PureBlood>
-							<Baseliner MayRequire="Ludeon.RimWorld.Biotech">0.05</Baseliner>
-						</xenotypeChances>
-					</xenotypeSet>
-				</value>
-			</li>
-		</operations>
-	</Operation> -->
+<!-- Operation Class="PatchOperationSequence"> -->
 
-	<!-- <Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/FactionDef[defName="Wolfein_Faction_Rebel"]/xenotypeSet</xpath>
-				<value>
-					<xenotypeSet Inherit="false">
-						<xenotypeChances>
-							<Wolfein_Xenotype MayRequire="Ludeon.RimWorld.Biotech">0.98</Wolfein_Xenotype>
-							<Wolfein_Xenotype_PureBlood MayRequire="Ludeon.RimWorld.Biotech">0.02</Wolfein_Xenotype_PureBlood>
-						</xenotypeChances>
-					</xenotypeSet>
-				</value>
-			</li>
-		</operations>
-	</Operation> -->
+<!-- Operation Class="PatchOperationSequence"> -->
 
 	<!--pawnkind-->
 	<Operation Class="PatchOperationSequence">

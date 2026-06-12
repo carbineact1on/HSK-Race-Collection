@@ -9,10 +9,6 @@
 		<description>Craft 10 Wolfein grenades.</description>
 		<jobString>Making Wolfein grenades.</jobString>
 		<researchPrerequisite>Wolfein_BlastWeapon</researchPrerequisite>
-		<!-- HSK fix: removed CE_Launchers research prereq — that ResearchProjectDef
-		     is disabled in HSK's CE install (ResearchProjects.xml.bak). Wolfein_BlastWeapon
-		     alone is sufficient gating. Also collapsed plural list to singular for
-		     consistency with the rest of the fork's research prereq style. -->
 
 		<ingredients>
 			<li>
@@ -56,21 +52,6 @@
 		</recipeUsers>
 	</RecipeDef>
 
-	<!--
-		HSK fork note: removed Make_WolfeinGasGrenade recipe entirely.
-		It produced W_Weapon_Grenade_GasGrenade x10, but that ThingDef
-		is 1.6-only content not present in our 1.5 fork. The recipe was
-		causing a "Could not resolve cross-reference: No Verse.ThingDef
-		named W_Weapon_Grenade_GasGrenade found to give to
-		Verse.ThingDefCountClass (10x null)" boot error.
-
-		Steel raw ore -> SteelBar (1:5 HSK refined alloy ratio): the
-		surviving Make_WolfGrenades recipe was using 76 Steel; converted
-		to 16 SteelBar.
-
-		Bench routing: was Wolfein_TableMachining, now WeaponCraftingWorkTable
-		(matches the fork's "all Wolfein recipes route to HSK benches"
-		pattern).
-	-->
+<!-- HSK fork note: removed Make_WolfeinGasGrenade recipe entirely -->
 
 </Defs>

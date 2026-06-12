@@ -31,9 +31,6 @@
             <EquipDelay>3.0</EquipDelay>
         </statBases>
         <recipeMaker>
-            <!-- HSK fix: Wolfein_TableMachining is hidden from the architect
-                 menu; route to HSK's visible tailoring benches so this SOS2
-                 spacer apparel stays craftable. -->
             <recipeUsers Inherit="false">
                 <li>ElectricTailoringBench</li>
                 <li>HandTailoringBench</li>

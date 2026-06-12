@@ -8,9 +8,6 @@
         <iconPath>UI/Icons/ThingCategories/AmmoAdvanced</iconPath>
     </ThingCategoryDef>
 
-    <!-- HSK: the RailgunSabot AmmoCategoryDef lives in
-         Defs/Ammo/AmmoCategoryDefs/AmmoCategories_Milira.xml so this file stays
-         pure-ThingCategoryDef (the dedicated subdir + dedicated file pattern
-         mirrors CE's own AmmoCategories_General.xml layout). -->
+<!-- HSK: the RailgunSabot AmmoCategoryDef lives in -->
 
 </Defs>

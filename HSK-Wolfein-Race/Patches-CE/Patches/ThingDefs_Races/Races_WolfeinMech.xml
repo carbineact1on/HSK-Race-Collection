@@ -1,26 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--
-    HSK fix: add CombatExtended compatibility comps to Wolfein mech bases.
-
-    Without this patch, Wolfein mechs throw "no support for Combat Extended"
-    warnings when CE tries to read their melee/ammo stats. Wolfein mechs
-    inherit from Wolfein_BaseMech, NOT vanilla BaseMechanoid, so HSK CE's
-    own BaseMechanoid patches don't propagate to them.
-
-    Applies the same CE comps that HSK CE adds to BaseMechanoid:
-      - CompPawnGizmo: gives the mech a CE-aware UI gizmo for ammo display
-      - CompAmmoGiver: handles giving the mech CE ammo on spawn
-      - CompProperties_MechAmmo: lets the mechanitor manage mech ammo
-
-    Plus the standard CE statBases additions for mechanoid-class units:
-      - SmokeSensitivity 0 (mechs can see through smoke)
-      - NightVisionEfficiency 0.80 (mechs have built-in night vision)
-      - ArmorRating_Heat 0.00 (mechs vulnerable to heat damage in CE)
-
-    This applies to Wolfein_BaseMech (the ultimate ancestor of all Wolfein
-    mech defs — civilian + military + drones + giant). All concrete mech
-    defs inherit these CE comps via ParentName chain.
--->
+<!-- HSK fix: add CombatExtended compatibility comps to Wolfein mech bases -->
 <Patch>
 
     <Operation Class="PatchOperationConditional">
@@ -67,11 +46,7 @@
         </value>
     </Operation>
 
-    <!-- HSK CE convention: mechanoid sensor parts (SightSensor / HearingSensor /
-         SmellSensor) take extra damage from sharp/blunt hits — about 25% of
-         the chassis armor. Mirrors what HSK CE adds to vanilla BaseMechanoid
-         via PartialArmorExt. Makes headshot/sensor-targeting tactics work
-         on Wolfein mechs the same way they do on vanilla. -->
+<!-- HSK CE convention: mechanoid sensor parts (SightSensor / HearingSensor / -->
     <Operation Class="PatchOperationAddModExtension">
         <xpath>Defs/ThingDef[@Name="Wolfein_BaseMech"]</xpath>
         <value>

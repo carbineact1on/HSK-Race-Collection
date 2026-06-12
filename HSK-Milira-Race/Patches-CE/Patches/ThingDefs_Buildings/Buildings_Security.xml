@@ -30,12 +30,7 @@
             <fillPercent>0.85</fillPercent>
         </value>
     </Operation>
-    <!-- <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/ThingDef[defName="MiliraTurret_Plasma"]/building/turretBurstCooldownTime</xpath>
-        <value>
-            <turretBurstCooldownTime>1</turretBurstCooldownTime>
-        </value>
-    </Operation> -->
+<!-- Operation Class="PatchOperationReplace"> -->
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>MiliraTurretGun_Plasma</defName>
@@ -95,12 +90,7 @@
             <fillPercent>0.85</fillPercent>
         </value>
     </Operation>
-    <!-- <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/ThingDef[defName="MiliraTurret_HeavyParticle"]/building/turretBurstCooldownTime</xpath>
-        <value>
-            <turretBurstCooldownTime>1</turretBurstCooldownTime>
-        </value>
-    </Operation> -->
+<!-- Operation Class="PatchOperationReplace"> -->
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>MiliraTurretGun_HeavyParticle</defName>
@@ -163,12 +153,7 @@
             <fillPercent>0.85</fillPercent>
         </value>
     </Operation>
-    <!-- <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/ThingDef[defName="MiliraTurret_HeavyPlasma"]/building/turretBurstCooldownTime</xpath>
-        <value>
-            <turretBurstCooldownTime>1</turretBurstCooldownTime>
-        </value>
-    </Operation> -->
+<!-- Operation Class="PatchOperationReplace"> -->
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>MiliraTurretGun_HeavyPlasma</defName>
@@ -335,12 +320,7 @@
             <fillPercent>0.85</fillPercent>
         </value>
     </Operation>
-    <!-- <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/ThingDef[defName="MiliraTurret_HeavyRailGun"]/building/turretBurstCooldownTime</xpath>
-        <value>
-            <turretBurstCooldownTime>1</turretBurstCooldownTime>
-        </value>
-    </Operation> -->
+<!-- Operation Class="PatchOperationReplace"> -->
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>MiliraTurretGun_HeavyRailGun</defName>

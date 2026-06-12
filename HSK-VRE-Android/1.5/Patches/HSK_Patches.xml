@@ -1,58 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--
-    HSK FULL conversion for VRE Android.
-
-    Two categories:
-
-    1. BUILDINGS — Switch from fixed Steel/Gold to stuffCategories Metallic +
-       costStuffCount, and add the HSK class component pipeline (ElecComp,
-       Mechanism, Electronics, Microchips, Glass) to match HSK Biotech
-       convention on tech buildings:
-         AndroidStand                — small storage furniture
-         AndroidPartWorkbench        — industrial fabrication bench
-         SubcorePolyanalyzer         — ultratech analyzer (Plasteel + CompSpacer)
-         AndroidCreationStation      — high-tech android assembler (Glass + Mech
-                                       to match HSK LargeMechGestator pattern)
-         AndroidBehavioristStation   — software/programming bench (GoldBar)
-         NeutroCasket                — neutroamine storage (Electronics 1 to
-                                       match HSK DeathrestCasket pattern)
-
-    2. BODY PARTS — All 15 craftable artificial body parts rewritten to
-       match HSK Bionic / Cybernetic body part patterns from Core_SK/Defs/
-       BodyParts/. Android body parts are PREMIUM endgame craftables — same
-       Hyperweave/CarbonAlloy/SyntheticFibers/Microchips/ComponentAdvanced/
-       Biomatter/ArtificialBone/Paraffins/ReinforcedGlass profile that HSK
-       bionic body parts use.
-
-       Heart-tier organs (Hyperweave-based):
-         VREA_NeuroPump          → BionicHeart pattern
-         VREA_AirFilter          → BionicLung pattern
-         VREA_Neutrofilter       → BionicKidney pattern
-         VREA_MetabolismRegulator → BionicStomach pattern + GoldBar
-       Cybernetic-tier (top-tier ArchotechHeart-style):
-         VREA_Reactor            → ComponentUltra/BioMicrochips + DepletedUranium
-         VREA_ArtificialBrain    → ComponentUltra/BioMicrochips
-       Sensory parts:
-         VREA_OpticalUnit        → BionicEye pattern
-         VREA_AudioProcessor     → BionicEar pattern
-         VREA_ArtificialNose     → simple bionic sensory
-       Skeletal/structural (ComponentAdvanced + Biomatter + ArtificialBone):
-         VREA_ArtificialJaw      → BionicJaw pattern
-         VREA_ArtificialRibcage  → BionicNeck-style pattern
-         VREA_ArtificialSpine    → BionicSpine pattern + GoldBar
-       Limbs:
-         VREA_AndroidLeg         → BionicLeg pattern
-         VREA_AndroidFoot        → BionicFoot pattern
-         VREA_AndroidArm         → BionicArm pattern
-         VREA_AndroidHand        → BionicHand pattern
-
-    All HSK material defs verified present in Core_SK:
-      Hyperweave, CarbonAlloy, SyntheticFibers, Microchips, ComponentAdvanced,
-      Biomatter, ArtificialBone, ReinforcedGlass, Paraffins, Glass,
-      ComponentUltra, BioMicrochips, GoldBar, DepletedUranium.
-
-    No CE work needed — androids do not have natural melee weapons.
--->
+<!-- HSK FULL conversion for VRE Android -->
 <Patch>
 
     <!-- ============================================================ -->

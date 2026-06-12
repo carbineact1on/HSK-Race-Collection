@@ -1,24 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--
-    HSK + Combat Extended patches for VRE Saurid.
-
-    Adapted from Pacas Patches Compilation (the only existing community CE
-    patch for Saurid), then re-tuned for HSK CE armor scale.
-
-    HSK CE uses ~10x higher armor numbers than vanilla CE:
-      vanilla parka  = Sharp 5
-      flak jacket    = Sharp 12
-      marine armor   = Sharp 24
-
-    Pacas's vanilla CE values for the ScaleSkin gene (Sharp 1.0 / Blunt 1.0)
-    are functionally invisible at HSK CE scale, so we bump them to Sharp 4 /
-    Blunt 4 — meaningful natural armor that sits between bare skin and a
-    light flak jacket. Still a free-respect gene that doesn't outclass real
-    armor.
-
-    Saurid Claws hediff converted to CombatExtended.ToolCE so the natural
-    melee weapon participates in CE's armor-penetration math.
--->
+<!-- HSK + Combat Extended patches for VRE Saurid -->
 <Patch>
 
     <!-- ===== ScaleSkin gene — natural armor at HSK CE scale ===== -->

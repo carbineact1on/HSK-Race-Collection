@@ -1,11 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-    <!-- HSK fix: add CE_OneHandedWeapon tag to short melee weapons (daggers, sabres,
-         machete, mace) so CE allows dual-wielding / one-handed use. Originally only
-         the Baton had this tag (via its MakeGunCECompatible block). All other
-         one-handed-class melees were missing it, forcing them to be treated as
-         two-handed by CE — pawns couldn't equip a sidearm with a sabre/dagger drawn. -->
+<!-- HSK fix: add CE_OneHandedWeapon tag to short melee weapons (daggers, sabres, -->
 
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="W_Weapon_Melee_SimpleDagger"]/weaponTags</xpath>

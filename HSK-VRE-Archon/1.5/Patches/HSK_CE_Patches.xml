@@ -1,38 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--
-    HSK + Combat Extended patches for VRE Archon.
-
-    Three categories:
-
-    1. CE TOOL CONVERSION — Archoblade bladelink weapon
-       Convert both tools (handle Blunt + blade VREA_Sear) to
-       CombatExtended.ToolCE with proper Sharp/Blunt armor penetration.
-       Preserves the custom VREA_Sear tool capacity (psychic-skip damage).
-
-    2. HSK CE ARMOR RESCALE
-       a. VREA_Apparel_Archoplate (archotech-tier psychic armor):
-            vanilla CE Sharp 1.15 / Blunt 0.60 / Heat 0.86 →
-            HSK CE Sharp 30 / Blunt 25 / Heat 0.86 (heat scale already CE-compatible)
-          + Bulk 12 / WornBulk 4.5 (HSK CE archotech armor convention,
-            between marine 24 and power armor 40+)
-       b. VRE_Leatherskin gene (natural leathery skin armor):
-            vanilla CE Sharp 0.15 / Blunt 0.1 →
-            HSK CE Sharp 5 / Blunt 5 (mid-tier natural armor between
-            bare skin and light flak — comparable to Phytokin BarkSkin
-            but slightly weaker)
-
-    3. PSYCHIC PROJECTILES — VREA_PsychicThrow / Warp / Lance
-       These already use vanilla projectile properties with
-       armorPenetrationBase + custom thingClass (VREArchon.PsychicThrow
-       etc.) — they work under CE without explicit ToolCE/Verb conversion
-       because they're psycaster-cast (Verb_CastAbility-style) rather than
-       weapon-fired. Same pattern as Sanguophage's Goo projectile and
-       Phytokin's psychic abilities.
-
-    No HSK material work needed:
-      Archon has no buildings, no recipes, no costList — Archoplate and
-      Archoblade are loot-only / quest-reward / faction-spawn items.
--->
+<!-- HSK + Combat Extended patches for VRE Archon -->
 <Patch>
 
     <!-- ============================================================ -->
@@ -71,15 +38,7 @@
     <!--  HSK CE ARMOR RESCALE                                        -->
     <!-- ============================================================ -->
 
-    <!-- VREA_Apparel_Archoplate — archotech-tier psychic armor.
-         Calibrated against actual HSK CE values:
-           HSK PowerArmor:      Sharp 10.27 / Blunt 29.279
-           HSK HellPowerArmor:  Sharp 10.7  / Blunt 30.59
-           HSK PhaseArmor:      Sharp 10.12 / Blunt 25.96
-         Archoplate is described as "nigh impenetrable psychic barrier" so
-         it sits above the spacer-tier power armors as archotech-elite.
-         HSK CE engineered armor convention: Blunt 2-3x Sharp (ballistic
-         physics — plate stops blunt force well, only sharp can penetrate). -->
+<!-- VREA_Apparel_Archoplate — archotech-tier psychic armor -->
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="VREA_Apparel_Archoplate"]/statBases/ArmorRating_Sharp</xpath>
         <value><ArmorRating_Sharp>12</ArmorRating_Sharp></value>
@@ -112,17 +71,7 @@
     <!--  RAID GATING — Archon faction wealth threshold               -->
     <!-- ============================================================ -->
 
-    <!-- Archon faction has earliestRaidDays:45 already (good) but no
-         raidCommonalityFromPointsCurve — so once Day 45 hits, raids fire
-         at full force regardless of colony wealth. ArchonWarrior has
-         combatPower 450 (vs vanilla pirate 110, centipede 480) which is
-         archotech-elite tier.
-
-         Adding wealth-based ramp: 0 commonality below 2500 threat points,
-         scaling to full 1.0 at 5000+. This matches our HSK Wolfein
-         MegaCorp gate pattern but with a higher threshold reflecting the
-         even-more-elite nature of archotech raiders. Combined with the
-         existing 45-day delay, players have time to prepare. -->
+<!-- Archon faction has earliestRaidDays:45 already (good) but no -->
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/FactionDef[defName="VRE_Archons"]</xpath>
         <value>

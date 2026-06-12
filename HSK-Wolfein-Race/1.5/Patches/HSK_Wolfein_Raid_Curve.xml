@@ -1,43 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--
-    HSK patch: gate Wolfein MegaCorp raids by replacing the
-    raidCommonalityFromPointsCurve so they don't appear in early-game /
-    low-wealth / tribal scenarios.
-
-    Why?
-    Wolfein_Faction_MegaCorp is a Spacer-tier corporate faction whose
-    pawnGroupMakers include custom Wolfein mechanoids (MilitaryA/B/D +
-    armed drones) plus regional supervisors. Their default
-    raidCommonalityFromPointsCurve was just `(0, 1)` — a single point
-    meaning full weight at ANY raid budget. Result: same problem as
-    pre-fix Junker pirates / VFE Mechanoids — early-game tribal colony
-    can be raided by spacer-tier mecha-corps on day 4.
-
-    Fix: replace the curve with a step-function that gates raids below
-    2000 raid points (~100k+ wealth, very late game). MegaCorp is the
-    HIGHEST-tier Wolfein threat — corporate execs with private mechanoid
-    armies — so the threshold is higher than the 1500 used for vanilla
-    VFE Mechanoids. Player needs charge weapons + EMP + Plasteel armor
-    before this faction can pick them as a target.
-
-    Replacement curve:
-        (0, 0)         — no raids at any low budget
-        (1999, 0)      — still 0 right up to the threshold
-        (2000, 0.001)  — barely above 0 at the threshold (sharp step)
-        (3500, 1)      — full normal weight at very late game
-        (5000, 1.5)    — slightly higher weight at endgame
-
-    The (1999, 0) -> (2000, 0.001) step is intentional — produces an
-    effectively step-function gate while keeping the curve interpolation
-    valid (RimWorld curves require monotonic-x).
-
-    Wolfein_Faction_Rebel is NOT gated — it's a hidden permanent-enemy
-    faction driven by quest scripts, not the storyteller's normal raid
-    roster. Quest-driven encounters bypass this curve.
-
-    Mirrors the raid-gating pattern from HSK-VFE-Pirates (Junker),
-    HSK-VFE-Mechanoids, and HSK-VFE-Insectoid2.
--->
+<!-- HSK patch: gate Wolfein MegaCorp raids by replacing the -->
 <Patch>
 
     <Operation Class="PatchOperationReplace">

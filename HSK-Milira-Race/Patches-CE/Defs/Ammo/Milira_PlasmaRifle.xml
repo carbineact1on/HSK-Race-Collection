@@ -256,12 +256,7 @@
 
     <!-- ==================== Recipes ========================== -->
 
-    <!-- HSK: rewritten to follow HSK ammo recipe pattern (see Core_SK/Defs/CombatExtended/
-         Ammo/Advanced/PlasmaBolt.xml MakeAmmo_PlasmaBolt). Uses stuffCategories
-         (SLDBar = Standard Low-Density Bar, USLDBar = Ultra Standard Low-Density Bar)
-         for the bulk metal instead of specific defNames, plus BiosyntheticMaterial for
-         plasma containment. Keeps the MiliraCE_MiliraAmmoPlasmaStandardRecipeBase
-         parent so Milira-specific workSpeed/skill behavior is preserved. -->
+<!-- HSK: rewritten to follow HSK ammo recipe pattern (see Core_SK/Defs/CombatExtended/ -->
     <RecipeDef ParentName="MiliraCE_MiliraAmmoPlasmaStandardRecipeBase">
         <defName>MakeAmmo_MiliraPlasmaRifle</defName>
         <label>make Milira Rifle Ion Cells</label>

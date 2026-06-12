@@ -1180,12 +1180,7 @@
     <!-- 狙击步枪 -->
 	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>W_Weapon_RF_SniperRifle</defName>
-		<!-- HSK tuning: brought in line with HSK SVD/Sniper-tier stats.
-		     Was way too fast for a sniper (0.9s warmup, 1.1s cooldown — basically AR-tier).
-		     HSK Barrett M82: 3.1 warmup, 1.4 cooldown, 1.75 sights, 0.02 spread, 0.7 sway.
-		     Wolfein's standard sniper sits a tier below M82 (industrial Tier III), so
-		     using SVD-tier values: 1.8s warmup (proper aim time), 1.6s cooldown
-		     (bolt-action feel), 1.5 sights, 0.03 spread, 1.0 sway. -->
+<!-- HSK tuning: brought in line with HSK SVD/Sniper-tier stats -->
 		<statBases>
 			<RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
 			<SightsEfficiency>1.5</SightsEfficiency>
@@ -1892,9 +1887,6 @@
 
     <!-- ================================= 低致命武器 ==================================== -->
 
-    <!-- 电击枪 / TaserGun — full CE patch (HSK fix: was missing MakeGunCECompatible)
-         Uses charged taser cells (6x24mmCharged ammo -> W_Bullet_TaserGun stun projectile)
-         via custom AmmoSet defined in Patches-CE/Defs/Ammo/WolfCE_TaserAmmo.xml -->
 	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>W_Weapon_Launcher_TaserGun</defName>
 		<statBases>
@@ -2120,8 +2112,6 @@
 	</Operation>
 
 	<!-- ================================= 手榴弹 / Grenades ==================================== -->
-	<!-- HSK fix: FragGrenade was missing CE patch entirely (caused MeleeDamage CE warnings).
-	     Grenades use Verb_ShootCE with no AmmoUser (handheld single-use throwable). -->
 	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>W_Weapon_Grenade_FragGrenade</defName>
 		<statBases>
@@ -2138,10 +2128,6 @@
 	</Operation>
 
 	<!-- ================================= 无人机武器 / Drone Weapons ==================================== -->
-	<!-- HSK fix: drone-mounted weapons were missing CE patches (caused boot errors when MegaCorp
-	     drones spawned at raids). These weapons are mech-only (tradeability=None, destroyOnDrop)
-	     so the player never crafts them — they exist solely to give drone mechs working ranged
-	     attacks under CE. Minimal CE compatibility: just enough to satisfy Verb_ShootCE. -->
 
 	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>W_Weapon_Drone</defName>
@@ -2295,10 +2281,7 @@
 		<value><researchPrerequisite>Gunsmithing</researchPrerequisite></value>
 	</Operation>
 
-	<!-- Missile launcher costLists match HSK BuildRPG pattern (Launcher_Component
-	     + Weapon_Parts + ComponentIndustrial + Plastic + SteelBar). Standard
-	     MegaCorp variant is full HSK tier; Rebel variant is improvised
-	     (lighter component count + WoodLog stock). -->
+<!-- Missile launcher costLists match HSK BuildRPG pattern (Launcher_Component -->
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[defName="W_Weapon_MissileLauncher"]/costList</xpath>
 		<value>

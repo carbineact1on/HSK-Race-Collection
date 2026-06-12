@@ -28,12 +28,7 @@
     <Operation Class="PatchOperationRemove">
         <xpath>/Defs/ThingDef[defName="Milian_SmallCloseInTurretUnit"]/placeWorkers/li[.="PlaceWorker_ShowTurretRadius"]</xpath>
     </Operation>
-    <!-- <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/ThingDef[defName="Milian_SmallCloseInTurretUnit"]/building/turretBurstCooldownTime</xpath>
-        <value>
-            <turretBurstCooldownTime>1</turretBurstCooldownTime>
-        </value>
-    </Operation> -->
+<!-- Operation Class="PatchOperationReplace"> -->
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>MilianTurretGun_SmallCloseInTurretUnit</defName>
@@ -82,12 +77,7 @@
             <fillPercent>0.75</fillPercent>
         </value>
     </Operation>
-    <!-- <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/ThingDef[defName="Milian_FortressCIWS"]/building/turretBurstCooldownTime</xpath>
-        <value>
-            <turretBurstCooldownTime>1</turretBurstCooldownTime>
-        </value>
-    </Operation> -->
+<!-- Operation Class="PatchOperationReplace"> -->
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>MilianFortressGun_CIWS</defName>
@@ -139,12 +129,7 @@
             <fillPercent>0.75</fillPercent>
         </value>
     </Operation>
-    <!-- <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/ThingDef[defName="Milian_FortressPlasma"]/building/turretBurstCooldownTime</xpath>
-        <value>
-            <turretBurstCooldownTime>1</turretBurstCooldownTime>
-        </value>
-    </Operation> -->
+<!-- Operation Class="PatchOperationReplace"> -->
 
     <Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
         <defName>MilianFortressGun_HeavyPlasma_II</defName>

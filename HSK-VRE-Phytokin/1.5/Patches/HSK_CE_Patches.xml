@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--
-    HSK + Combat Extended patches for VRE Phytokin.
-
-    Adapted from Pacas Patches Compilation, then re-tuned for HSK CE armor scale.
-
-    BarkSkin (Sharp/Blunt 3.5/3.5 in Pacas's vanilla CE) is bumped to 6/6
-    for HSK CE — sits between bare skin (Saurid scales 4) and Hussar
-    bulletproof skin (8). Bark is mid-tier natural armor — tougher than
-    scales, weaker than organic kevlar.
-
-    CompanionDryad uses Pacas's exact ToolCE values — these are calibrated
-    for vanilla CE animal melee and HSK uses the same CE math underneath
-    for natural weapons. The Ideology DLC gate is preserved.
--->
+<!-- HSK + Combat Extended patches for VRE Phytokin -->
 <Patch>
 
     <!-- ===== BarkSkin gene — natural armor at HSK CE scale ===== -->
