@@ -176,7 +176,7 @@
 			<!-- 全米莉拉 -->
 			<li>
 				<kindDef>Combat</kindDef>
-				<commonality>20</commonality>
+				<commonality>30</commonality>
 				<options>
 					<Milira_Valkyr>3</Milira_Valkyr>
 					<Milira_Artemis>6</Milira_Artemis>
@@ -185,7 +185,7 @@
 			<!-- 全米莉拉带大剑 -->
 			<li>
 				<kindDef>Combat</kindDef>
-				<commonality>10</commonality>
+				<commonality>15</commonality>
 				<options>
 					<Milira_Valkyr>3</Milira_Valkyr>
 					<Milira_Artemis>6</Milira_Artemis>
@@ -202,8 +202,8 @@
 					<Milian_Mechanoid_PawnIV>8</Milian_Mechanoid_PawnIV>
 					<Milian_Mechanoid_RookI>4</Milian_Mechanoid_RookI>
 					<Milian_Mechanoid_RookII>4</Milian_Mechanoid_RookII>
-					<Milira_Artemis>1</Milira_Artemis>
-					<Milira_YoungWarrior>1</Milira_YoungWarrior>
+					<Milira_Artemis>4</Milira_Artemis>
+					<Milira_YoungWarrior>4</Milira_YoungWarrior>
 				</options>
 			</li>
 			<!-- 士兵+枢机+执政官 -->
@@ -217,8 +217,8 @@
 					<Milian_Mechanoid_PawnIV>8</Milian_Mechanoid_PawnIV>
 					<Milian_Mechanoid_BishopIII>2</Milian_Mechanoid_BishopIII>
 					<Milian_Mechanoid_BishopIV>5</Milian_Mechanoid_BishopIV>
-					<Milira_Artemis>1</Milira_Artemis>
-					<Milira_YoungWarrior>1</Milira_YoungWarrior>
+					<Milira_Artemis>4</Milira_Artemis>
+					<Milira_YoungWarrior>4</Milira_YoungWarrior>
 				</options>
 			</li>
 			<!-- 全骑士 -->
@@ -230,7 +230,7 @@
 					<Milian_Mechanoid_KnightII>4</Milian_Mechanoid_KnightII>
 					<Milian_Mechanoid_KnightIII>2</Milian_Mechanoid_KnightIII>
 					<Milian_Mechanoid_KnightIV>2</Milian_Mechanoid_KnightIV>
-					<Milira_Valkyr>1</Milira_Valkyr>
+					<Milira_Valkyr>4</Milira_Valkyr>
 				</options>
 			</li>
 			<!-- 士兵+骑士 -->
@@ -246,9 +246,9 @@
 					<Milian_Mechanoid_KnightII>8</Milian_Mechanoid_KnightII>
 					<Milian_Mechanoid_KnightIII>2</Milian_Mechanoid_KnightIII>
 					<Milian_Mechanoid_KnightIV>2</Milian_Mechanoid_KnightIV>
-					<Milira_Artemis>1</Milira_Artemis>
-					<Milira_Valkyr>1</Milira_Valkyr>
-					<Milira_YoungWarrior>1</Milira_YoungWarrior>
+					<Milira_Artemis>4</Milira_Artemis>
+					<Milira_Valkyr>4</Milira_Valkyr>
+					<Milira_YoungWarrior>4</Milira_YoungWarrior>
 				</options>
 			</li>
 			<!-- 士兵+骑士+主教 -->
@@ -264,7 +264,7 @@
 					<Milian_Mechanoid_KnightIV>3</Milian_Mechanoid_KnightIV>
 					<Milian_Mechanoid_BishopI>8</Milian_Mechanoid_BishopI>
 					<Milian_Mechanoid_BishopII>5</Milian_Mechanoid_BishopII>
-					<Milira_YoungWarrior>1</Milira_YoungWarrior>
+					<Milira_YoungWarrior>4</Milira_YoungWarrior>
 				</options>
 			</li>
 			<!-- 士兵+骑士+主教+战车 -->
@@ -284,9 +284,9 @@
 					<Milian_Mechanoid_BishopII>5</Milian_Mechanoid_BishopII>
 					<Milian_Mechanoid_RookI>1</Milian_Mechanoid_RookI>
 					<Milian_Mechanoid_RookII>1</Milian_Mechanoid_RookII>
-					<Milira_Artemis>1</Milira_Artemis>
-					<Milira_Valkyr>1</Milira_Valkyr>
-					<Milira_YoungWarrior>1</Milira_YoungWarrior>
+					<Milira_Artemis>4</Milira_Artemis>
+					<Milira_Valkyr>4</Milira_Valkyr>
+					<Milira_YoungWarrior>4</Milira_YoungWarrior>
 				</options>
 			</li>
 			<!-- 双要塞 -->
@@ -307,7 +307,7 @@
 					<Milian_Mechanoid_RookI>1</Milian_Mechanoid_RookI>
 					<Milian_Mechanoid_RookII>1</Milian_Mechanoid_RookII>
 					<Milian_Mechanoid_RookIV>100</Milian_Mechanoid_RookIV>
-					<Milira_YoungWarrior>1</Milira_YoungWarrior>
+					<Milira_YoungWarrior>4</Milira_YoungWarrior>
 				</options>
 			</li>
 			<!-- 士兵+骑士+战车 -->
@@ -326,9 +326,9 @@
 					<Milian_Mechanoid_RookI>1</Milian_Mechanoid_RookI>
 					<Milian_Mechanoid_RookII>1</Milian_Mechanoid_RookII>
 					<Milian_Mechanoid_RookIII>1</Milian_Mechanoid_RookIII>
-					<Milira_Valkyr>1</Milira_Valkyr>
-					<Milira_Artemis>1</Milira_Artemis>
-					<Milira_YoungWarrior>1</Milira_YoungWarrior>
+					<Milira_Valkyr>4</Milira_Valkyr>
+					<Milira_Artemis>4</Milira_Artemis>
+					<Milira_YoungWarrior>4</Milira_YoungWarrior>
 				</options>
 			</li>
 			<!-- 全家福 -->
@@ -352,9 +352,9 @@
 					<Milian_Mechanoid_BishopII>5</Milian_Mechanoid_BishopII>
 					<Milian_Mechanoid_BishopIII>1</Milian_Mechanoid_BishopIII>
 					<Milian_Mechanoid_BishopIV>1</Milian_Mechanoid_BishopIV>
-					<Milira_Valkyr>1</Milira_Valkyr>
-					<Milira_Artemis>1</Milira_Artemis>
-					<Milira_YoungWarrior>1</Milira_YoungWarrior>
+					<Milira_Valkyr>4</Milira_Valkyr>
+					<Milira_Artemis>4</Milira_Artemis>
+					<Milira_YoungWarrior>4</Milira_YoungWarrior>
 				</options>
 			</li>
 			<!-- 枢机主教 -->
@@ -369,8 +369,8 @@
 					<Milian_Mechanoid_BishopI>8</Milian_Mechanoid_BishopI>
 					<Milian_Mechanoid_BishopII>5</Milian_Mechanoid_BishopII>
 					<Milian_Mechanoid_BishopIV>5</Milian_Mechanoid_BishopIV>
-					<Milira_Artemis>1</Milira_Artemis>
-					<Milira_YoungWarrior>1</Milira_YoungWarrior>
+					<Milira_Artemis>4</Milira_Artemis>
+					<Milira_YoungWarrior>4</Milira_YoungWarrior>
 				</options>
 			</li>
 			<!-- 骑士+枢机 -->
@@ -385,8 +385,8 @@
 					<Milian_Mechanoid_BishopI>4</Milian_Mechanoid_BishopI>
 					<Milian_Mechanoid_BishopII>2</Milian_Mechanoid_BishopII>
 					<Milian_Mechanoid_BishopIV>5</Milian_Mechanoid_BishopIV>
-					<Milira_Valkyr>1</Milira_Valkyr>
-					<Milira_YoungWarrior>1</Milira_YoungWarrior>
+					<Milira_Valkyr>4</Milira_Valkyr>
+					<Milira_YoungWarrior>4</Milira_YoungWarrior>
 				</options>
 			</li>
 			<!-- 士兵+执政官+战车 -->
@@ -402,8 +402,8 @@
 					<Milian_Mechanoid_RookI>1</Milian_Mechanoid_RookI>
 					<Milian_Mechanoid_RookII>1</Milian_Mechanoid_RookII>
 					<Milian_Mechanoid_RookIII>1</Milian_Mechanoid_RookIII>
-					<Milira_Valkyr>1</Milira_Valkyr>
-					<Milira_YoungWarrior>1</Milira_YoungWarrior>
+					<Milira_Valkyr>4</Milira_Valkyr>
+					<Milira_YoungWarrior>4</Milira_YoungWarrior>
 				</options>
 			</li>
 			<!-- 士兵+骑士+执政官 -->
@@ -418,8 +418,8 @@
 					<Milian_Mechanoid_BishopI>8</Milian_Mechanoid_BishopI>
 					<Milian_Mechanoid_BishopII>5</Milian_Mechanoid_BishopII>
 					<Milian_Mechanoid_BishopIII>2</Milian_Mechanoid_BishopIII>
-					<Milira_Valkyr>1</Milira_Valkyr>
-					<Milira_YoungWarrior>1</Milira_YoungWarrior>
+					<Milira_Valkyr>4</Milira_Valkyr>
+					<Milira_YoungWarrior>4</Milira_YoungWarrior>
 				</options>
 			</li>
 			<!-- 无畏 -->
@@ -431,8 +431,8 @@
 					<Milian_Mechanoid_KnightIII>2</Milian_Mechanoid_KnightIII>
 					<Milian_Mechanoid_KnightIV>2</Milian_Mechanoid_KnightIV>
 					<Milian_Mechanoid_RookIII>10</Milian_Mechanoid_RookIII>
-					<Milira_Valkyr>1</Milira_Valkyr>
-					<Milira_YoungWarrior>1</Milira_YoungWarrior>
+					<Milira_Valkyr>4</Milira_Valkyr>
+					<Milira_YoungWarrior>4</Milira_YoungWarrior>
 				</options>
 			</li>
 			<!-- 无畏+枢机 -->
@@ -445,8 +445,8 @@
 					<Milian_Mechanoid_KnightIII>2</Milian_Mechanoid_KnightIII>
 					<Milian_Mechanoid_RookIII>5</Milian_Mechanoid_RookIII>
 					<Milian_Mechanoid_BishopIV>5</Milian_Mechanoid_BishopIV>
-					<Milira_Valkyr>1</Milira_Valkyr>
-					<Milira_YoungWarrior>1</Milira_YoungWarrior>
+					<Milira_Valkyr>4</Milira_Valkyr>
+					<Milira_YoungWarrior>4</Milira_YoungWarrior>
 				</options>
 			</li>
 			<!-- HSK: uncommented - RimWorld warns "FactionDef Milira_Faction must have
