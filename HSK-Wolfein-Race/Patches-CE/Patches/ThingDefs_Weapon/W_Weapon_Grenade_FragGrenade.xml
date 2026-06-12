@@ -73,7 +73,7 @@
 		<defName>W_Weapon_Grenade_FragGrenade</defName>
 		<statBases>
 			<Bulk>0.95</Bulk>
-			<MarketValue>11</MarketValue>
+			<MarketValue>55</MarketValue>
 			<RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
 			<SightsEfficiency>1</SightsEfficiency>
 		</statBases>
@@ -81,7 +81,7 @@
 			<label>throw Wolfein grenade</label>
 			<verbClass>CombatExtended.Verb_ShootCEOneUse</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<range>20</range>
+			<range>12.9</range>
 			<minRange>4</minRange>
 			<warmupTime>1.2</warmupTime>
 			<noiseRadius>2</noiseRadius>
