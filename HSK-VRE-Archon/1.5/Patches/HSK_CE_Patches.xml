@@ -78,8 +78,8 @@
             <raidCommonalityFromPointsCurve>
                 <points>
                     <li>(0, 0)</li>
-                    <li>(2500, 0)</li>
-                    <li>(5000, 1)</li>
+                    <li>(4000, 0)</li>
+                    <li>(8000, 1)</li>
                 </points>
             </raidCommonalityFromPointsCurve>
         </value>

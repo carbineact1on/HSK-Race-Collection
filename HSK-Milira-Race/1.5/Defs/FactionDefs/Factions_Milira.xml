@@ -81,7 +81,14 @@
 		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<techLevel>Ultra</techLevel>
-		<earliestRaidDays>20</earliestRaidDays>		<!--  -->
+		<earliestRaidDays>20</earliestRaidDays>
+		<raidCommonalityFromPointsCurve>
+			<points>
+				<li>(0, 0)</li>
+				<li>(3500, 0)</li>
+				<li>(7000, 1)</li>
+			</points>
+		</raidCommonalityFromPointsCurve>
 		<!-- <naturalEnemy>false</naturalEnemy> -->
 		<!-- <permanentEnemy>false</permanentEnemy> -->
 		<permanentEnemyToEveryoneExcept>
