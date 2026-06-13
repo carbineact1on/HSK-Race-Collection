@@ -31,6 +31,9 @@ namespace HSKMiliraCompat
         // Carry/utility layers that do not clip with the Milira body or wings.
         private static readonly string[] AllowedLayers = { "Backpack", "Webbing", "Belt" };
 
+        // Sister-race apparel Milira may also wear (renders on the shared bodyType).
+        private static readonly string[] CrossWearPrefixes = { "Wolfein_" };
+
         private static bool loggedError;
 
         public static void Apply(Harmony harmony)
@@ -69,7 +72,18 @@ namespace HSKMiliraCompat
                 else if (__1 != null && __1.defName == MiliraRaceDefName) apparel = __0;
                 else return; // not a Milira wearability check
 
-                var ap = apparel?.apparel;
+                if (apparel == null) return;
+
+                for (int i = 0; i < CrossWearPrefixes.Length; i++)
+                {
+                    if (apparel.defName.StartsWith(CrossWearPrefixes[i], StringComparison.Ordinal))
+                    {
+                        __result = true;
+                        return;
+                    }
+                }
+
+                var ap = apparel.apparel;
                 if (ap?.layers == null || ap.layers.Count == 0) return;
 
                 foreach (var layer in ap.layers)
