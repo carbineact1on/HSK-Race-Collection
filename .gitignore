@@ -1,6 +1,6 @@
-.vs/
+*.pdb
 *.suo
 *.user
+.vs/
 bin/
 obj/
-*.pdb
