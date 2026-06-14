@@ -85,8 +85,8 @@
 		<raidCommonalityFromPointsCurve>
 			<points>
 				<li>(0, 0)</li>
-				<li>(3500, 0)</li>
-				<li>(7000, 1)</li>
+				<li>(5500, 0)</li>
+				<li>(10000, 1)</li>
 			</points>
 		</raidCommonalityFromPointsCurve>
 		<!-- <naturalEnemy>false</naturalEnemy> -->

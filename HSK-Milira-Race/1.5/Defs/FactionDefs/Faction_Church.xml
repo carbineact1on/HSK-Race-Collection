@@ -120,8 +120,8 @@
     <raidCommonalityFromPointsCurve>
       <points>
         <li>(0, 0)</li>
-        <li>(1500, 0)</li>
-        <li>(3500, 1)</li>
+        <li>(3500, 0)</li>
+        <li>(6500, 1)</li>
       </points>
     </raidCommonalityFromPointsCurve>
     <raidLootMaker>EmpireRaidLootMaker</raidLootMaker>
