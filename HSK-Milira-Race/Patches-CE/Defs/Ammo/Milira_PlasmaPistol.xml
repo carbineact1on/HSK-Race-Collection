@@ -64,7 +64,7 @@
             <texPath>Things/Ammo/PlasmaCell/Pistol</texPath>
             <graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
         </graphicData>
-        <ammoClass>Plasma</ammoClass>
+        <ammoClass>Charged</ammoClass>
     </ThingDef>
 
     <!-- ================== Projectiles ================== -->
