@@ -256,5 +256,31 @@
 		</value>
 	</Operation>
 
+	<!-- ========== Mech magazine loadout (military) ========== -->
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/PawnKindDef[@Name="Wolfein_BaseMechKind_Military"]</xpath>
+		<value>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>8</min>
+					<max>8</max>
+				</primaryMagazineCount>
+			</li>
+		</value>
+	</Operation>
+
+	<!-- ========== Mech magazine loadout (drone) ========== -->
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>Defs/PawnKindDef[@Name="Wolfein_BaseMechKind_Drone"]</xpath>
+		<value>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>4</min>
+					<max>6</max>
+				</primaryMagazineCount>
+			</li>
+		</value>
+	</Operation>
+
 
 </Patch>
