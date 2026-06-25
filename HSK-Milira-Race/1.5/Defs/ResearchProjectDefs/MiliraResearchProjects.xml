@@ -574,9 +574,6 @@
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
-		<prerequisites>
-			<li>RocketswarmLauncher</li>
-		</prerequisites>
 		<researchViewX>7</researchViewX>
 		<researchViewY>5.4</researchViewY>
 		<tab>Milira_ResearchTab</tab>
