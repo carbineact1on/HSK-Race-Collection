@@ -63,11 +63,7 @@
 
                 <alienPartGenerator>
                     <bodyTypes>
-                        <li>Male</li>
                         <li>Female</li>
-                        <li>Thin</li>
-                        <li>Hulk</li>
-                        <li>Fat</li>
                         <li MayRequire="Ludeon.RimWorld.Biotech">Baby</li>
                         <li MayRequire="Ludeon.RimWorld.Biotech">Child</li>
                     </bodyTypes>
