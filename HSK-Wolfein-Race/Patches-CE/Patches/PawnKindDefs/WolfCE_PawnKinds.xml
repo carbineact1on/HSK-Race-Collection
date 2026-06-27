@@ -269,18 +269,10 @@
 		</value>
 	</Operation>
 
-	<!-- ========== Mech magazine loadout (drone) ========== -->
-	<Operation Class="PatchOperationAddModExtension">
-		<xpath>Defs/PawnKindDef[@Name="Wolfein_BaseMechKind_Drone"]</xpath>
-		<value>
-			<li Class="CombatExtended.LoadoutPropertiesExtension">
-				<primaryMagazineCount>
-					<min>4</min>
-					<max>6</max>
-				</primaryMagazineCount>
-			</li>
-		</value>
-	</Operation>
+	<!-- NOTE: drones intentionally have NO LoadoutPropertiesExtension / mech-ammo system.
+	     They are Light recon swarm units under Wolfein_BaseMechDrone, which no longer inherits
+	     the CE ammo comps (see Races_WolfeinMech.xml). Adding a loadout here without a matching
+	     CompInventory on the drone = "CE tried generating loadout without CompInventory" spam. -->
 
 
 </Patch>

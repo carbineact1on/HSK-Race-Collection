@@ -2,10 +2,14 @@
 <!-- HSK fix: add CombatExtended compatibility comps to Wolfein mech bases -->
 <Patch>
 
+    <!-- HSK: ammo comps go ONLY on the combat-mech base (Wolfein_BaseMechMilitary).
+         Putting them on the shared Wolfein_BaseMech made the Light recon DRONES + civil mechs
+         inherit a ticking CompMechAmmo they can't service -> per-tick NRE + massive TPS loss
+         (dadarard report 2026-06). Drones/civil revert to their pre-fix state. -->
     <Operation Class="PatchOperationConditional">
-        <xpath>Defs/ThingDef[@Name="Wolfein_BaseMech"]/comps</xpath>
+        <xpath>Defs/ThingDef[@Name="Wolfein_BaseMechMilitary"]/comps</xpath>
         <nomatch Class="PatchOperationAdd">
-            <xpath>Defs/ThingDef[@Name="Wolfein_BaseMech"]</xpath>
+            <xpath>Defs/ThingDef[@Name="Wolfein_BaseMechMilitary"]</xpath>
             <value>
                 <comps />
             </value>
@@ -13,7 +17,7 @@
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>Defs/ThingDef[@Name="Wolfein_BaseMech"]/comps</xpath>
+        <xpath>Defs/ThingDef[@Name="Wolfein_BaseMechMilitary"]/comps</xpath>
         <value>
             <li>
                 <compClass>CombatExtended.CompPawnGizmo</compClass>
