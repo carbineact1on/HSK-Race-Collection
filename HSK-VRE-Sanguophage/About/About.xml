@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
     <name>VRE Sanguophage (HSK/CE Patched)</name>
-    <packageId>CarbineAction.HSK.VRE.Sanguophage</packageId>
+    <packageId>vanillaracesexpanded.sanguophage</packageId>
     <author>Oskar Potocki, Sarg Bjornson, Erin — HSK/CE patch by CarbineAction</author>
     <modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
     <supportedVersions>
@@ -60,7 +60,4 @@ Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.
         <li>skyarkhangel.HSK</li>
         <li>CETeam.CombatExtended</li>
     </loadAfter>
-    <incompatibleWith>
-        <li>vanillaracesexpanded.sanguophage</li>
-    </incompatibleWith>
 </ModMetaData>

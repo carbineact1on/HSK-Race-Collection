@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
     <name>VRE Phytokin (HSK/CE Patched)</name>
-    <packageId>CarbineAction.HSK.VRE.Phytokin</packageId>
+    <packageId>vanillaracesexpanded.phytokin</packageId>
     <author>Oskar Potocki, Sarg Bjornson, Allie, Erin, Sir Van, Reann Shepard — HSK/CE patch by CarbineAction (CE patches adapted from Pacas Patches Compilation)</author>
     <modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
     <supportedVersions>
@@ -54,7 +54,4 @@ Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.
         <li>skyarkhangel.HSK</li>
         <li>CETeam.CombatExtended</li>
     </loadAfter>
-    <incompatibleWith>
-        <li>vanillaracesexpanded.phytokin</li>
-    </incompatibleWith>
 </ModMetaData>
