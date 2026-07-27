@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- HSK fix: the drone guns (W_Weapon_Drone / W_Weapon_DroneRocket) are converted to
+     CombatExtended.Verb_ShootCE with NO ammoSet, so they fire their defaultProjectile
+     directly. Those projectiles were still vanilla classes (Bullet / the mod's custom
+     Wolfein.Projectile_ExplosiveWithSmokeTrail), and Verb_ShootCE requires ProjectileCE:
+     every fire attempt threw a NullReferenceException per tick (dadarard + Arjuna_DK
+     reports, "errors the moment they attempt to fire", Ref 7437EF7C in both logs,
+     unchanged by any mech-comp patching).
+     Fix: convert the two projectiles to CE classes with values templated on CE's own
+     6x24mmCharged bullet and 40x46mm HE grenade. The rocket loses its cosmetic smoke
+     trail under CE (the custom class cannot extend ProjectileCE via XML). -->
+<Patch>
+
+    <!-- drone laser shot: vanilla Bullet -> BulletCE -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="W_ChargeBullet_Drone"]</xpath>
+        <value>
+            <thingClass>CombatExtended.BulletCE</thingClass>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="W_ChargeBullet_Drone"]/projectile</xpath>
+        <value>
+            <projectile Class="CombatExtended.ProjectilePropertiesCE">
+                <damageDef>Bullet</damageDef>
+                <damageAmountBase>10</damageAmountBase>
+                <speed>120</speed>
+                <armorPenetrationSharp>10</armorPenetrationSharp>
+                <armorPenetrationBlunt>15</armorPenetrationBlunt>
+            </projectile>
+        </value>
+    </Operation>
+
+    <!-- drone rocket: custom smoke-trail explosive -> ProjectileCE_Explosive -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="W_Bullet_SmallRocket"]/thingClass</xpath>
+        <value>
+            <thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="W_Bullet_SmallRocket"]/projectile</xpath>
+        <value>
+            <projectile Class="CombatExtended.ProjectilePropertiesCE">
+                <damageDef>Bomb</damageDef>
+                <damageAmountBase>20</damageAmountBase>
+                <explosionRadius>1.5</explosionRadius>
+                <speed>75</speed>
+                <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+            </projectile>
+        </value>
+    </Operation>
+
+</Patch>
