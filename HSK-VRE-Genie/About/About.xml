@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
     <name>VRE Genie (HSK/CE Patched)</name>
-    <packageId>CarbineAction.HSK.VRE.Genie</packageId>
+    <packageId>vanillaracesexpanded.genie</packageId>
     <author>Oskar Potocki, Sarg Bjornson — HSK/CE patch by CarbineAction (antibiotics redirect adapted from Pacas Patches Compilation)</author>
     <modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
     <supportedVersions>
@@ -56,7 +56,4 @@ Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.
         <li>skyarkhangel.HSK</li>
         <li>CETeam.CombatExtended</li>
     </loadAfter>
-    <incompatibleWith>
-        <li>vanillaracesexpanded.genie</li>
-    </incompatibleWith>
 </ModMetaData>

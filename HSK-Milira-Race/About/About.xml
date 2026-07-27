@@ -5,9 +5,11 @@
 	<supportedVersions>
 		<li>1.5</li>
 	</supportedVersions>
-	<packageId>CarbineAction.HSK.Milira.Race</packageId>
+	<packageId>Ancot.MiliraRace</packageId>
 	<modIconPath IgnoreIfNoMatchingField="True">Milira/Faction/Faction_Icon</modIconPath>
-	<description>HSK/CE-patched all-in-one fork of the Milira Race mod.
+	<description>IMPORTANT: this bundle uses the ORIGINAL mod's packageId so translations, animation mods and cross-mod patches detect it. Do NOT keep the Steam Workshop original installed alongside this, delete/unsubscribe it or the game reports a duplicate packageId error.
+
+HSK/CE-patched all-in-one fork of the Milira Race mod.
 
 ABSORBED MODS (do not enable separately):
   - Milira Race            (workshop 3256974620, Ancot)
@@ -81,7 +83,6 @@ Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Humanoid Ali
 		<li>CETeam.CombatExtended</li>
 	</loadAfter>
 	<incompatibleWith>
-		<li>Ancot.MiliraRace</li>
 		<li>Ancot.MiliraRaceGenePatch</li>
 		<li>pntfvur.RimPatches.Milira.CE</li>
 	</incompatibleWith>

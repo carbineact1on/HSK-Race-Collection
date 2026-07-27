@@ -5,9 +5,11 @@
 	<supportedVersions>
 		<li>1.5</li>
 	</supportedVersions>
-	<packageId>CarbineAction.HSK.Wolfein.Race</packageId>
+	<packageId>MelonDove.WolfeinRace</packageId>
 	<modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
-	<description>HSK/CE-patched all-in-one fork of the Wolfein Race mod.
+	<description>IMPORTANT: this bundle uses the ORIGINAL mod's packageId so translations, animation mods and cross-mod patches detect it. Do NOT keep the Steam Workshop original installed alongside this, delete/unsubscribe it or the game reports a duplicate packageId error.
+
+HSK/CE-patched all-in-one fork of the Wolfein Race mod.
 
 ABSORBED MODS (do not enable separately):
   - Wolfein Race           (workshop 3473140562, MelonDove + Ancot)
@@ -106,7 +108,6 @@ NOT compatible with:
 		</li>
 	</modDependencies>
 	<incompatibleWith>
-		<li>MelonDove.WolfeinRace</li>
 		<li>Ancot.WolfeinRaceGenePatch</li>
 		<li>leaople.WolfeinCEPatch</li>
 	</incompatibleWith>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
     <name>VRE Hussar (HSK/CE Patched)</name>
-    <packageId>CarbineAction.HSK.VRE.Hussar</packageId>
+    <packageId>vanillaracesexpanded.hussar</packageId>
     <author>Oskar Potocki, xrushha, Taranchuk, Sarg Bjornson — HSK/CE patch by CarbineAction (CE patches adapted from Pacas Patches Compilation)</author>
     <modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
     <supportedVersions>
@@ -59,7 +59,4 @@ Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.
         <li>skyarkhangel.HSK</li>
         <li>CETeam.CombatExtended</li>
     </loadAfter>
-    <incompatibleWith>
-        <li>vanillaracesexpanded.hussar</li>
-    </incompatibleWith>
 </ModMetaData>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
     <name>VRE Insector (HSK/CE Patched)</name>
-    <packageId>CarbineAction.HSK.VRE.Insector</packageId>
+    <packageId>vanillaracesexpanded.insector</packageId>
     <author>Oskar Potocki, Taranchuk, Sarg Bjornson — HSK/CE patch by CarbineAction</author>
     <modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
     <supportedVersions>
@@ -64,7 +64,4 @@ Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.
         <li>skyarkhangel.HSK</li>
         <li>CETeam.CombatExtended</li>
     </loadAfter>
-    <incompatibleWith>
-        <li>vanillaracesexpanded.insector</li>
-    </incompatibleWith>
 </ModMetaData>

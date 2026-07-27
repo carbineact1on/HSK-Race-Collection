@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
     <name>VRE Android (HSK Patched)</name>
-    <packageId>CarbineAction.HSK.VRE.Android</packageId>
+    <packageId>vanillaracesexpanded.android</packageId>
     <author>Oskar Potocki, Taranchuk, ISOREX, Sarg Bjornson — HSK patch by CarbineAction</author>
     <modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
     <supportedVersions>
@@ -70,7 +70,4 @@ Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC.
         <li>skyarkhangel.HSK</li>
         <li>CETeam.CombatExtended</li>
     </loadAfter>
-    <incompatibleWith>
-        <li>vanillaracesexpanded.android</li>
-    </incompatibleWith>
 </ModMetaData>

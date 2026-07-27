@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
     <name>VRE Archon (HSK/CE Patched)</name>
-    <packageId>CarbineAction.HSK.VRE.Archon</packageId>
+    <packageId>vanillaracesexpanded.archon</packageId>
     <author>Oskar Potocki, Sarg Bjornson, Taranchuk, Reann Shepard, xrushha — HSK/CE patch by CarbineAction</author>
     <modIconPath IgnoreIfNoMatchingField="True">UI/VELogo</modIconPath>
     <supportedVersions>
@@ -73,7 +73,4 @@ Required: Hardcore SK, Combat Extended, Vanilla Expanded Framework, Biotech DLC,
         <li>skyarkhangel.HSK</li>
         <li>CETeam.CombatExtended</li>
     </loadAfter>
-    <incompatibleWith>
-        <li>vanillaracesexpanded.archon</li>
-    </incompatibleWith>
 </ModMetaData>

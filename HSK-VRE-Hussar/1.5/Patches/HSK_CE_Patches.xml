@@ -35,10 +35,10 @@
             <li>RedWoodPlank</li>
             <li>Kindling</li>
             <!-- HSK Wolfein racial mech weapons (MayRequire to skip if Wolfein not loaded) -->
-            <li MayRequire="CarbineAction.HSK.Wolfein.Race">W_Weapon_Drone</li>
-            <li MayRequire="CarbineAction.HSK.Wolfein.Race">W_Weapon_DroneRocket</li>
-            <li MayRequire="CarbineAction.HSK.Wolfein.Race">W_Weapon_MG_Autocannon</li>
-            <li MayRequire="CarbineAction.HSK.Wolfein.Race">W_Weapon_MG_HeavyChargeMinigun</li>
+            <li MayRequire="MelonDove.WolfeinRace">W_Weapon_Drone</li>
+            <li MayRequire="MelonDove.WolfeinRace">W_Weapon_DroneRocket</li>
+            <li MayRequire="MelonDove.WolfeinRace">W_Weapon_MG_Autocannon</li>
+            <li MayRequire="MelonDove.WolfeinRace">W_Weapon_MG_HeavyChargeMinigun</li>
             <!-- VFE Pirates warcasket-only weapons (humanoids can't equip) -->
             <li MayRequire="CarbineAction.HSK.VFE.Pirates">VFEP_WarcasketGun_Autorifle</li>
             <li MayRequire="CarbineAction.HSK.VFE.Pirates">VFEP_WarcasketGun_ChargeBlaster</li>
