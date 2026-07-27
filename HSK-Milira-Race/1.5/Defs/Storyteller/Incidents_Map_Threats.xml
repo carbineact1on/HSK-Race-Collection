@@ -13,7 +13,9 @@
     <letterDef>ThreatBig</letterDef>
     <baseChance>2.0</baseChance>
     <baseChanceWithRoyalty>1.4</baseChanceWithRoyalty>
-    <earliestDay>30</earliestDay>
+    <!-- HSK: was day 30 / 800 pts — dropped Milian blaster units on early medieval colonies.
+         Gated to HSK mid-tier event level (Core_SK big events 3550-5500). -->
+    <earliestDay>120</earliestDay>
     <minRefireDays>45</minRefireDays>
     <tags>
       <li>Milira_SmallCluster_SingleTurret</li>
@@ -23,7 +25,7 @@
     </refireCheckTags>
     <category>ThreatBig</category>
     <pointsScaleable>true</pointsScaleable>
-    <minThreatPoints>800</minThreatPoints>
+    <minThreatPoints>4000</minThreatPoints>
     <tale>ShipPartCrash</tale>
     <modExtensions>
       <li Class="AncotLibrary.PawnkindWithCommonality_Extension">
@@ -71,8 +73,11 @@
     <baseChance>1.9</baseChance>
     <baseChanceWithRoyalty>1.9</baseChanceWithRoyalty>
     <minRefireDays>27</minRefireDays><!-- 触发间隔，在incidentQueue中也生效 -->
-    <earliestDay>90</earliestDay>
-    <minThreatPoints>400</minThreatPoints>
+    <!-- HSK: was day 90 / 400 pts — a spacer-tier cluster with an early-game gate
+         (hit a 100k-wealth medieval colony in year 2). Gated to HSK ship-part-crash
+         tier (8000) so it lands after Milira raids begin (5500). -->
+    <earliestDay>180</earliestDay>
+    <minThreatPoints>8000</minThreatPoints>
     <pointsScaleable>true</pointsScaleable>
     <minPopulation>1</minPopulation>
     <category>ThreatBig</category>
